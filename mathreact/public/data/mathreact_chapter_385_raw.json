@@ -1,0 +1,2382 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 28,
+            "questions": [
+                {
+                    "id": 13321,
+                    "subject_id": 3,
+                    "chapter_id": 385,
+                    "question_id": "c03c15ee-b63e-45d4-8491-a051cb42e31a",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 服从正态分�?$N\\left(10,3^2\\right), X_1, X_2, \\cdots, X_6$ 是它的一组样�? �?$\\bar{X}=\\frac{1}{6} \\sum_{i=1}^6 X_i$ 所服从的分布为 ( ).",
+                    "analysis": "$\\bar{X} \\sim N\\left(10, \\frac{3^2}{6}\\right)$, �?$\\bar{X} \\sim N\\left(10, \\frac{3}{2}\\right)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/0f1c6911b8564f209a8dad3913e6482b",
+                    "updated_at": {
+                        "seconds": 1775671213
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53284,
+                            "question_id": 13321,
+                            "is_answer": false,
+                            "choice": "$\\bar{X} \\sim N\\left(5, \\frac{3}{2}\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53281,
+                            "question_id": 13321,
+                            "is_answer": true,
+                            "choice": "$\\bar{X} \\sim N\\left(10, \\frac{3}{2}\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53283,
+                            "question_id": 13321,
+                            "is_answer": false,
+                            "choice": "$\\bar{X} \\sim N\\left(10, \\frac{1}{2}\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53282,
+                            "question_id": 13321,
+                            "is_answer": false,
+                            "choice": "$\\bar{X} \\sim N(7,1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.77,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 56179,
+                    "tags": "",
+                    "ai_tags": "正态总体,样本均�?抽样分布"
+                },
+                {
+                    "id": 13322,
+                    "subject_id": 3,
+                    "chapter_id": 385,
+                    "question_id": "cb3d2379-3be0-4534-8325-572d33d4ade0",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$X_1, X_2, \\cdots, X_n$ 是正态总体 $X \\sim N\\left(\\mu, \\sigma^2\\right)$ 的样�? 样本方差�?$S^2$, �?$(n-1) S^2 / \\sigma^2$ 服从 ( ).",
+                    "analysis": "�?$X \\sim N\\left(\\mu, \\sigma^2\\right)$, 则样本方�?$S^2$ �?$\\frac{n-1}{\\sigma^2} S^2 \\sim \\chi^2(n-1)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/51638dd5ec1e45f9858b1fc889d00071",
+                    "updated_at": {
+                        "seconds": 1767724277
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53288,
+                            "question_id": 13322,
+                            "is_answer": true,
+                            "choice": "$\\chi^2$ 分布",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53285,
+                            "question_id": 13322,
+                            "is_answer": false,
+                            "choice": "正态分�?,
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53287,
+                            "question_id": 13322,
+                            "is_answer": false,
+                            "choice": "$t$ 分布",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53286,
+                            "question_id": 13322,
+                            "is_answer": false,
+                            "choice": "$F$ 分布",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.59,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 12993,
+                    "ai_tags": "数理统计,抽样分布,卡方分布"
+                },
+                {
+                    "id": 13325,
+                    "subject_id": 3,
+                    "chapter_id": 385,
+                    "question_id": "dc7edfbe-a0dd-47b2-b5de-c568f905d70c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$X_1, X_2, \\cdots X_n$ 是来自总体 $N\\left(\\mu, \\sigma^2\\right)$ 的样�? $\\bar{X}=\\frac{1}{n} \\sum_{i=1}^n X_i, S_n^2=\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$, 则以下结论中错误的是 ( ).",
+                    "analysis": "�?$X \\sim N\\left(\\mu, \\sigma^2\\right)$, 则样本均�?$\\bar{X}$ 与样本方�?$S^2$ 相互独立, 且\n$$\n\\begin{array}{cc}\n\\bar{X} \\sim N\\left(\\mu, \\frac{\\sigma^2}{n}\\right), & \\frac{\\bar{X}-\\mu}{\\sigma / \\sqrt{n}} \\sim N(0,1), \\\\\n\\frac{n-1}{\\sigma^2} S^2 \\sim \\chi^2(n-1), & \\frac{\\bar{X}-\\mu}{S / \\sqrt{n}} \\sim t(n-1) .\n\\end{array}\n$$\n\n�?$\\frac{\\bar{X}-\\mu}{\\sigma} \\sim N(0,1)$ 是错误的.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/515def9a68e649e5a0d6ea9f60189327",
+                    "updated_at": {
+                        "seconds": 1767724270
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53300,
+                            "question_id": 13325,
+                            "is_answer": true,
+                            "choice": "$\\frac{\\bar{X}-\\mu}{\\sigma} \\sim N(0,1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53298,
+                            "question_id": 13325,
+                            "is_answer": false,
+                            "choice": "$\\bar{X}$ �?$S_n^2$ 独立",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53297,
+                            "question_id": 13325,
+                            "is_answer": false,
+                            "choice": "$\\frac{n-1}{\\sigma^2} S_n^2 \\sim \\chi^2(n-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53299,
+                            "question_id": 13325,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\sqrt{n}(\\bar{X}-\\mu)}{S_n} \\sim t(n-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.6,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 20753,
+                    "ai_tags": "数理统计,抽样分布,正态总体"
+                },
+                {
+                    "id": 13333,
+                    "subject_id": 3,
+                    "chapter_id": 385,
+                    "question_id": "85305084-7efa-434d-8d50-6e48b554637c",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$X_1, \\cdots, X_n$ 为取自正态总体 $N\\left(\\mu, \\sigma^2\\right)$ 的样�? 则以下结论不成立的是 ( ).",
+                    "analysis": "若总体 $X \\sim N\\left(\\mu, \\sigma^2\\right)$, 则样本均�?$\\bar{X}$ 与样本方�?$S^2$ 相互独立, 且\n$$\n\\bar{X} \\sim N\\left(\\mu, \\frac{\\sigma^2}{n}\\right), \\frac{\\bar{X}-\\mu}{\\sigma / \\sqrt{n}} \\sim N(0,1), \\frac{n-1}{\\sigma^2} S^2 \\sim \\chi^2(n-1), \\frac{\\bar{X}-\\mu}{S / \\sqrt{n}} \\sim t(n-1) .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/69627c1964eb470ab213be4a0246a3fc",
+                    "updated_at": {
+                        "seconds": 1767724276
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53332,
+                            "question_id": 13333,
+                            "is_answer": true,
+                            "choice": "$\\bar{X}$ �?$\\sum_{i=1}^n X_i^2$ 独立",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53329,
+                            "question_id": 13333,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{\\sigma^2} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2 \\sim \\chi^2(n-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53331,
+                            "question_id": 13333,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{\\sigma^2} \\sum_{i=1}^n\\left(X_i-\\mu\\right)^2 \\sim \\chi^2(n)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53330,
+                            "question_id": 13333,
+                            "is_answer": false,
+                            "choice": "$\\bar{X}$ �?$\\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$ 独立",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.18,
+                    "difficulty_score": 0.47,
+                    "avg_time_spent": 35196,
+                    "ai_tags": "正态总体,抽样分布,统计量独立�?
+                },
+                {
+                    "id": 13337,
+                    "subject_id": 3,
+                    "chapter_id": 385,
+                    "question_id": "ddd0b06a-292d-4d52-825f-63d8f2b4afc5",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "总体 $X \\sim N\\left(\\mu_0, \\sigma^2\\right)$, �?$U=\\frac{\\bar{X}-\\mu_0}{\\sigma / \\sqrt{n}}$ 服从（）.",
+                    "analysis": "正态总体样本均值的抽样分布�?$\\frac{\\bar{X}-\\mu}{\\sigma / \\sqrt{n}} \\sim N(0,1)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/b633dfbc16fb41ffa01c0d1cdc0a7c9e",
+                    "updated_at": {
+                        "seconds": 1767724272
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53348,
+                            "question_id": 13337,
+                            "is_answer": true,
+                            "choice": "$U \\sim N(0,1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 53346,
+                            "question_id": 13337,
+                            "is_answer": false,
+                            "choice": "$U \\sim N\\left(\\mu_0, \\sigma^2\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 53345,
+                            "question_id": 13337,
+                            "is_answer": false,
+                            "choice": "自由度为 $n$ �?$t$ 分布",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 53347,
+                            "question_id": 13337,
+                            "is_answer": false,
+                            "choice": "自由度为 $n-1$ �?$t$ 分布",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.73,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 21515,
+                    "ai_tags": "抽样分布,正态分�?统计�?
+                },
+                {
+                    "id": 13340,
+                    "subject_id": 3,
+                    "chapter_id": 385,
+                    "question_id": "16528ddf-5eb7-433a-8d6e-65ed6218e890",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设在总体 $N\\left(\\mu, \\sigma^2\\right)$ 中抽取一容量�?16 的样�? 这里 $\\mu, \\sigma^2$ 均为未知, �?$D\\left(S^2\\right)=()$.",
+                    "analysis": "$\\begin{aligned} & \\text { 因为 } \\frac{(n-1) S^2}{\\sigma^2} \\sim \\chi^2(n-1), D\\left(\\frac{(n-1) S^2}{\\sigma^2}\\right)=2(n-1), \\text { 所�?} \\\\ & \\qquad D\\left(S^2\\right)=\\frac{\\sigma^4}{(n-1)^2} D\\left(\\frac{(n-1) S^2}{\\sigma^2}\\right)=\\frac{\\sigma^4}{(n-1)^2} \\cdot 2(n-1)=\\frac{2}{n-1} \\sigma^4=\\frac{2}{15} \\sigma^4 .\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/b789c8c6c73942cdb3e865220a27eb77",
+                    "updated_at": {
+                        "seconds": 1767465099
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53358,
+                            "question_id": 13340,
+                            "is_answer": true,
+                            "choice": "$\\frac{2}{15} \\sigma^4$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 53360,
+                            "question_id": 13340,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{15} \\sigma^4$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 53359,
+                            "question_id": 13340,
+                            "is_answer": false,
+                            "choice": "$\\frac{4}{15} \\sigma^4$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 53357,
+                            "question_id": 13340,
+                            "is_answer": false,
+                            "choice": "$\\frac{7}{15} \\sigma^4$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.29,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 37547,
+                    "ai_tags": "样本方差,卡方分布,抽样分布"
+                },
+                {
+                    "id": 13343,
+                    "subject_id": 3,
+                    "chapter_id": 385,
+                    "question_id": "7fd8de69-ef5a-485d-a20e-d78f6132db7e",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$X_1, X_2, \\cdots X_n$ 是来自总体 $N\\left(\\mu, \\sigma^2\\right)$ 的样�? $\\bar{X}=\\frac{1}{n} \\sum_{i=1}^n X_i, S_n^2=\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$, 则以下结论中错误的是 ().",
+                    "analysis": "若总体 $X \\sim N\\left(\\mu, \\sigma^2\\right)$, 则样本均�?$\\bar{X}$ 与样本方�?$S^2$ 相互独立, 且\n$$\n\\bar{X} \\sim N\\left(\\mu, \\frac{\\sigma^2}{n}\\right), \\frac{\\bar{X}-\\mu}{\\sigma / \\sqrt{n}} \\sim N(0,1), \\frac{n-1}{\\sigma^2} S^2 \\sim \\chi^2(n-1), \\frac{\\bar{X}-\\mu}{S / \\sqrt{n}} \\sim t(n-1) .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/5aeeb01d03e1473381a4819e76fa9028",
+                    "updated_at": {
+                        "seconds": 1767724277
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53371,
+                            "question_id": 13343,
+                            "is_answer": true,
+                            "choice": "$\\frac{\\bar{X}-\\mu}{\\sigma} \\sim N(0,1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 53372,
+                            "question_id": 13343,
+                            "is_answer": false,
+                            "choice": "$\\bar{X}$ �?$S_n^2$ 独立",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 53370,
+                            "question_id": 13343,
+                            "is_answer": false,
+                            "choice": "$\\frac{n-1}{\\sigma^2} S_n^2 \\sim \\chi^2(n-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 53369,
+                            "question_id": 13343,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\sqrt{n}(\\bar{X}-\\mu)}{S_n} \\sim t(n-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.87,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 28482,
+                    "ai_tags": "正态总体,抽样分布,统计�?
+                },
+                {
+                    "id": 13346,
+                    "subject_id": 3,
+                    "chapter_id": 385,
+                    "question_id": "4f67b676-ac33-4d8d-8d98-021911367404",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$X_1, X_2, \\cdots, X_n$ 是来自正态总体 $N\\left(\\mu, \\sigma^2\\right)$ 的样�? 则有 ( ).",
+                    "analysis": "若总体 $X \\sim N\\left(\\mu, \\sigma^2\\right)$, �?$\\bar{X} \\sim N\\left(\\mu, \\frac{\\sigma^2}{n}\\right), \\frac{1}{\\sigma^2} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2 \\sim \\chi^2(n-1), \\frac{1}{\\sigma^2} \\sum_{i=1}^n\\left(X_i-\\mu\\right)^2 \\sim \\chi^2(n)$, $\\frac{1}{n} \\sum_{i=1}^n(\\bar{X}-\\mu)=\\bar{X}-\\mu \\sim N\\left(0, \\frac{\\sigma^2}{n}\\right)$, 故只有选项 $\\frac{1}{n} \\sum_{i=1}^n(\\bar{X}-\\mu) \\sim N\\left(0, \\frac{\\sigma^2}{n}\\right)$ 是正确的.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/56bb8e6ca4e74482a765ee84f64a9969",
+                    "updated_at": {
+                        "seconds": 1767724277
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53384,
+                            "question_id": 13346,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{n} \\sum_{i=1}^n(\\bar{X}-\\mu) \\sim N\\left(0, \\frac{\\sigma^2}{n}\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 53382,
+                            "question_id": 13346,
+                            "is_answer": false,
+                            "choice": "$\\bar{X}=\\frac{1}{n} \\sum_{i=1}^n X_i \\sim N\\left(\\mu, \\sigma^2\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 53381,
+                            "question_id": 13346,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{\\sigma^2} \\sum_{i=1}^n\\left(X_i-\\mu\\right)^2 \\sim \\chi^2(n-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 53383,
+                            "question_id": 13346,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{\\sigma^2} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2 \\sim \\chi^2(n)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.65,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 31734,
+                    "ai_tags": "数理统计,抽样分布,正态总体"
+                },
+                {
+                    "id": 18900,
+                    "subject_id": 3,
+                    "chapter_id": 385,
+                    "question_id": "3047c4f2-ccc5-42a0-b32f-515d2e01ffed",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$X_1, X_2, \\cdots X_n$ 是来自正态总体 $X \\sim N\\left(\\mu_0, \\sigma^2\\right)$ 的样�? $S^2=\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$, 则统计量 $T=\\frac{\\bar{X}-\\mu_0}{S / \\sqrt{n}}$ 服从 ( ).",
+                    "analysis": "若总体 $X \\sim N\\left(\\mu, \\sigma^2\\right)$, 则样本均�?$\\bar{X}$ 与样本方�?$S^2$ 相互独立, 且\n$$\n\\bar{X} \\sim N\\left(\\mu, \\frac{\\sigma^2}{n}\\right), \\frac{\\bar{X}-\\mu}{\\sigma / \\sqrt{n}} \\sim N(0,1), \\frac{n-1}{\\sigma^2} S^2 \\sim \\chi^2(n-1), \\frac{\\bar{X}-\\mu}{S / \\sqrt{n}} \\sim t(n-1) .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339292
+                    },
+                    "question_json": "mathreact/1538c85f72c24f2eb9946e901be7c689",
+                    "updated_at": {
+                        "seconds": 1767724274
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85464,
+                            "question_id": 18900,
+                            "is_answer": true,
+                            "choice": "自由度为 $n-1$ �?$t$ 分布",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85465,
+                            "question_id": 18900,
+                            "is_answer": false,
+                            "choice": "$T \\sim N(0,1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85466,
+                            "question_id": 18900,
+                            "is_answer": false,
+                            "choice": "自由度为 $n$ �?$t$ 分布",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85467,
+                            "question_id": 18900,
+                            "is_answer": false,
+                            "choice": "自由度为 $n-1$ �?$\\chi^2$ 分布",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.71,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 19618,
+                    "ai_tags": "数理统计,抽样分布,t分布"
+                },
+                {
+                    "id": 18903,
+                    "subject_id": 3,
+                    "chapter_id": 385,
+                    "question_id": "468ae030-2842-41f5-b3e7-2d1e4988f19b",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "样本 $X_1, \\cdots, X_n$ 取自标准正态分�?$N(0,1)$ 总体, $\\bar{X}$ �?$S^2$ 分别为样本的平均值及样本方差, 则不成立的是 ( ).",
+                    "analysis": "样本均�?$\\bar{X}=\\frac{1}{n} \\sum_{i=1}^n X_i$, �?$X \\sim N\\left(\\mu, \\sigma^2\\right)$, �?$\\bar{X} \\sim N\\left(\\mu, \\frac{\\sigma^2}{n}\\right)$.所�?$\\bar{X} \\sim N\\left(0, \\frac{1}{n}\\right)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339297
+                    },
+                    "question_json": "mathreact/e35d797e221b48269e5b435d0aa3c154",
+                    "updated_at": {
+                        "seconds": 1767724271
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85485,
+                            "question_id": 18903,
+                            "is_answer": true,
+                            "choice": "$\\bar{X} \\sim N(0,1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85486,
+                            "question_id": 18903,
+                            "is_answer": false,
+                            "choice": "$X_i(1 \\leq i \\leq n) \\sim N(0,1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85487,
+                            "question_id": 18903,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\sqrt{n}\\bar{X}}{S} \\sim t(n-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85488,
+                            "question_id": 18903,
+                            "is_answer": false,
+                            "choice": "$\\sum_{i=1}^n X_i^2 \\sim \\chi^2(n)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 32171,
+                    "ai_tags": "数理统计,抽样分布"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 28,
+            "questions": [
+                {
+                    "id": 18904,
+                    "subject_id": 3,
+                    "chapter_id": 385,
+                    "question_id": "237b4c73-e4e3-482e-ba1a-f04ddb799c04",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "总体 $X$ 服从正态分�?$N\\left(\\mu, \\sigma^2\\right)(\\sigma>0)$, 从总体中抽取简单随机样�?$X_1, \\cdots, X_{2 n}(n \\geq 2)$, 其样本均值为 $\\bar{X}=\\frac{1}{2 n} \\sum_{i=1}^{2 n} X_i$, 则统计量 $Y=\\sum_{i=1}^n\\left(X_i+X_{n+i}-2 \\bar{X}\\right)^2$ 的数学期望为 ( ).",
+                    "analysis": "注意�?$X_i+X_{n+i}$ 相互独立, 同分�?$N\\left(2 \\mu, 2 \\sigma^2\\right)$, 则它们可认为是取自同一正态总体 $N\\left(2 \\mu, 2 \\sigma^2\\right)$ 的样�? 其样本均值为\n$$\n\\frac{1}{n} \\sum_{i=1}^n\\left(X_i+X_{n+i}\\right)=\\frac{1}{n} \\sum_{i=1}^{2 n} X_i=2 \\bar{X}\n$$\n\n如果�?$Z_i=X_i+X_{n+i}, i=1, \\cdots, n$, �?$Z_i(i=1, \\cdots, n)$ 是取�?$N\\left(2 \\mu, 2 \\sigma^2\\right)$ 的样�? 且\n$$\n\\frac{Y}{n-1}=\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i+X_{n+i}-2 \\bar{X}\\right)^2=S^2(Z)\n$$\n\n则有 $E\\left(S^2(Z)\\right)=\\frac{1}{n-1} E(Y)=2 \\sigma^2$, 所�?$E(Y)=2(n-1) \\sigma^2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339298
+                    },
+                    "question_json": "mathreact/70c7139adc21493495055d174483a229",
+                    "updated_at": {
+                        "seconds": 1767465098
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85492,
+                            "question_id": 18904,
+                            "is_answer": true,
+                            "choice": "$2(n-1) \\sigma^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85493,
+                            "question_id": 18904,
+                            "is_answer": false,
+                            "choice": "$(n-1) \\sigma^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85494,
+                            "question_id": 18904,
+                            "is_answer": false,
+                            "choice": "$3(n-1) \\sigma^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85495,
+                            "question_id": 18904,
+                            "is_answer": false,
+                            "choice": "$(n+1) \\sigma^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.56,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 92336,
+                    "ai_tags": "正态分�?样本方差,数学期望"
+                },
+                {
+                    "id": 18905,
+                    "subject_id": 3,
+                    "chapter_id": 385,
+                    "question_id": "2ca3c774-616b-45bd-8e3f-f52b64611465",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 服从正态分�?$N\\left(\\mu, \\sigma^2\\right)$, 其中 $\\mu, \\sigma^2$ 为未知参�? $X_1, X_2, \\cdots, X_n$ 是来�?$X$ 的样�? 则下列结论正确的�?( ).",
+                    "analysis": "�?$X \\sim N\\left(\\mu, \\sigma^2\\right)$, �?$\\frac{1}{\\sigma^2} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2 \\sim \\chi^2(n-1)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339302
+                    },
+                    "question_json": "mathreact/b649bcd8c9a64a049d8db01179c0eee0",
+                    "updated_at": {
+                        "seconds": 1767465098
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85499,
+                            "question_id": 18905,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{\\sigma^2} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2 \\sim \\chi^2(n-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85500,
+                            "question_id": 18905,
+                            "is_answer": false,
+                            "choice": "$S^2=\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2 \\sim \\chi^2(n-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85501,
+                            "question_id": 18905,
+                            "is_answer": false,
+                            "choice": "$\\widetilde{\\sigma}^2=\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2 \\sim \\chi^2(n-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85502,
+                            "question_id": 18905,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{\\sigma^2} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2 \\sim \\chi^2(n)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.62,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 77750,
+                    "ai_tags": "正态总体,抽样分布,卡方分布"
+                },
+                {
+                    "id": 18906,
+                    "subject_id": 3,
+                    "chapter_id": 385,
+                    "question_id": "cceeaf30-36f3-4e1a-82c6-edba97aba905",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$X_1, X_2, \\cdots, X_n$ 是来自正态总体 $N\\left(\\mu, \\sigma^2\\right)$ 的样�? �?$\\bar{X}$ 为样本均�? 则下列结论中错误的是 ( ).",
+                    "analysis": "若总体 $X \\sim N\\left(\\mu, \\sigma^2\\right)$，根据抽样分布定理可知\n$$\n\\frac{\\bar{X}-\\mu}{\\sigma / \\sqrt{n}} \\sim N(0,1), \\quad \\frac{1}{\\sigma^2} \\sum_{i=1}^n\\left(X_i-\\mu\\right)^2 \\sim \\chi^2(n)\n$$\n$$\n\\frac{1}{\\sigma^2} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2 \\sim \\chi^2(n-1), \\quad \\frac{\\bar{X}-\\mu}{S / \\sqrt{n}} \\sim t(n-1)\n$$\n后者即 $\\frac{\\bar{X}-\\mu}{\\sqrt{\\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2}} \\sqrt{n(n-1)} \\sim t(n-1)$。\n又注意到没有关于前两个分布相互独立的结果，所以不能说选项 $\\frac{n(\\bar{X}-\\mu)}{\\sqrt{\\sum_{i=1}^n\\left(X_i-\\mu\\right)^2}}$ 服从 $t$ 分布�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339305
+                    },
+                    "question_json": "mathreact/276f2d79eeae4e9d86637c4ba10704a8",
+                    "updated_at": {
+                        "seconds": 1767724272
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85506,
+                            "question_id": 18906,
+                            "is_answer": true,
+                            "choice": "$\\frac{n(\\bar{X}-\\mu)}{\\sqrt{\\sum_{i=1}^n\\left(X_i-\\mu\\right)^2}} \\sim t(n)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85507,
+                            "question_id": 18906,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{\\sigma^2} \\sum_{i=1}^n\\left(X_i-\\mu\\right)^2 \\sim \\chi^2(n)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85508,
+                            "question_id": 18906,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{\\sigma^2} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2 \\sim \\chi^2(n-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85509,
+                            "question_id": 18906,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\bar{X}-\\mu}{\\sqrt{\\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2}} \\sqrt{n(n-1)} \\sim t(n-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.36,
+                    "difficulty_score": 0.47,
+                    "avg_time_spent": 87382,
+                    "ai_tags": "正态总体,抽样分布,t分布"
+                },
+                {
+                    "id": 18908,
+                    "subject_id": 3,
+                    "chapter_id": 385,
+                    "question_id": "ef4061d9-07be-4a16-9b6d-62d0108d9d02",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "样本 $X_1, X_2, \\cdots, X_n$ 来自正态分布总体 $N\\left(\\mu, \\sigma^2\\right), \\bar{X}$ �?$S^2$ 分别是样本均值和样本方差, 则下面结论不成立的有 ( ).",
+                    "analysis": "根据抽样分布定理知， $\\bar{X}$ �?$\\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$ 独立，但�?$\\bar{X}$ �?$\\sum_{i=1}^n\\left(X_i-\\mu\\right)^2$ 不独�?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339306
+                    },
+                    "question_json": "mathreact/3fa9c278bc9740d18488a24969a98d75",
+                    "updated_at": {
+                        "seconds": 1767465101
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85520,
+                            "question_id": 18908,
+                            "is_answer": true,
+                            "choice": "$\\bar{X}$ �?$\\frac{1}{\\sigma^2} \\sum_{i=1}^n\\left(X_i-\\mu\\right)^2$ 相互独立",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85521,
+                            "question_id": 18908,
+                            "is_answer": false,
+                            "choice": "$\\bar{X}$ �?$S^2$ 相互独立",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85522,
+                            "question_id": 18908,
+                            "is_answer": false,
+                            "choice": "$\\bar{X}$ �?$(n-1) S^2$ 相互独立",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85523,
+                            "question_id": 18908,
+                            "is_answer": false,
+                            "choice": "$\\bar{X}$ �?$\\frac{1}{\\sigma^2} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$ 相互独立",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.57,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 15841,
+                    "ai_tags": "正态总体,抽样分布,统计量独立�?
+                },
+                {
+                    "id": 18909,
+                    "subject_id": 3,
+                    "chapter_id": 385,
+                    "question_id": "83454954-86cb-44d7-acd6-e06bba8d2e96",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\hat{\\sigma}^2=\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$, 其中 $X_1, X_2, \\cdots, X_n$ 是来自正态总体 $N\\left(\\mu, \\sigma^2\\right)$ 的样�? �?$E\\left(\\hat{\\sigma}^2\\right)=()$.",
+                    "analysis": "�?$X \\sim N\\left(\\mu, \\sigma^2\\right), X_1, X_2, \\cdots, X_n$ 是来�?$X$ 的样�? �?$\\frac{1}{\\sigma^2} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2 \\sim \\chi^2(n-1), E\\left(\\frac{1}{\\sigma^2} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2\\right)=n-1$,所�?$E\\left(\\hat{\\sigma}^2\\right)=\\frac{n-1}{n} \\sigma^2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339306
+                    },
+                    "question_json": "mathreact/d47855760ea04126bd0e39ff855de122",
+                    "updated_at": {
+                        "seconds": 1767465099
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85527,
+                            "question_id": 18909,
+                            "is_answer": true,
+                            "choice": "$\\frac{n-1}{n} \\sigma^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 85528,
+                            "question_id": 18909,
+                            "is_answer": false,
+                            "choice": "$\\sigma^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 85529,
+                            "question_id": 18909,
+                            "is_answer": false,
+                            "choice": "$\\frac{n}{n+1} \\sigma^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 85530,
+                            "question_id": 18909,
+                            "is_answer": false,
+                            "choice": "$\\frac{n+1}{n} \\sigma^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.5,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 26099,
+                    "ai_tags": "数理统计,抽样分布,数学期望"
+                },
+                {
+                    "id": 18911,
+                    "subject_id": 3,
+                    "chapter_id": 385,
+                    "question_id": "f2523eb1-e1e6-4c6e-bcc9-b137bf0033a2",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$X_1, X_2, \\cdots, X_6$ 是来�?$N\\left(\\mu, \\sigma^2\\right)$ 的样�? $S^2=\\frac{1}{5} \\sum_{i=1}^6\\left(X_i-\\bar{X}\\right)^2$, �?$D\\left(S^2\\right)=()$.",
+                    "analysis": "依题意有 $\\sum_{i=1}^6 \\frac{\\left(X_i-\\bar{X}\\right)^2}{\\sigma^2} \\sim \\chi^2(5)$, �?$D\\left(\\sum_{i=1}^6 \\frac{\\left(X_i-\\bar{X}\\right)^2}{\\sigma^2}\\right)=2 \\times 5=10$, 从�?$D\\left(S^2\\right)=D\\left(\\frac{1}{5} \\sum_{i=1}^6\\left(X_i-\\bar{X}\\right)^2\\right)=\\frac{10}{25} \\sigma^4=\\frac{2}{5} \\sigma^4$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339311
+                    },
+                    "question_json": "mathreact/1498b9dba1604e13b2959e71112aa964",
+                    "updated_at": {
+                        "seconds": 1767465096
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85541,
+                            "question_id": 18911,
+                            "is_answer": true,
+                            "choice": "$\\frac{2}{5} \\sigma^4$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85542,
+                            "question_id": 18911,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3} \\sigma^4$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85543,
+                            "question_id": 18911,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{5} \\sigma^4$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85544,
+                            "question_id": 18911,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{5} \\sigma^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.55,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 62850,
+                    "ai_tags": "正态总体,样本方差,卡方分布"
+                },
+                {
+                    "id": 18913,
+                    "subject_id": 3,
+                    "chapter_id": 385,
+                    "question_id": "9a6aef08-7a64-4ca1-a192-c9dff772ddcd",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "$X_1, X_2, \\cdots, X_n$ 为总体 $X \\sim N(0,1)$ 的一个样�? $\\bar{X}$ 为样本均�? $S^2$ 为样本方�? 则有 ( ).",
+                    "analysis": "对于正态总体 $X \\sim N(0,1)$, �?$\\frac{\\bar{X}}{1 / \\sqrt{n}} \\sim N(0,1)$, $\\frac{\\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2}{1^2} \\sim \\chi^2(n-1)$, $\\frac{\\bar{X}}{S / \\sqrt{n}} \\sim t(n-1)$.\n\n又根�?$\\chi^2$ 分布的定义与 $F$ 分布的定�? �?$X_i^2 \\sim \\chi^2(1) (i=1, 2, \\cdots, n)$ 相互独立, �?$\\frac{X_1^2/1}{\\sum_{i=2}^n X_i^2 / (n-1)} = \\frac{(n-1)X_1^2}{\\sum_{i=2}^n X_i^2} \\sim F(1, n-1)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339314
+                    },
+                    "question_json": "mathreact/86617469f99c46aab09d66c01f4f0c16",
+                    "updated_at": {
+                        "seconds": 1767724275
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85555,
+                            "question_id": 18913,
+                            "is_answer": true,
+                            "choice": "$\\frac{(n-1) X_1^2}{\\sum_{i=2}^n X_i^2} \\sim F(1, n-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85556,
+                            "question_id": 18913,
+                            "is_answer": false,
+                            "choice": "$\\bar{X} \\sim N(0,1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85557,
+                            "question_id": 18913,
+                            "is_answer": false,
+                            "choice": "$n \\bar{X} \\sim N(0,1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85558,
+                            "question_id": 18913,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\bar{X}}{S} \\sim t(n-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.85,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 41514,
+                    "ai_tags": "抽样分布,F分布,正态总体"
+                },
+                {
+                    "id": 18917,
+                    "subject_id": 3,
+                    "chapter_id": 385,
+                    "question_id": "a0a7382d-a23b-4f02-847b-c65771080be3",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "简单随机样�?$X_1, X_2, \\cdots, X_n$ 来自某正态总体, $\\bar{X}$ 为样本平均�? 则下述结论不成立的是 ( ).",
+                    "analysis": "对于正态总体 $X \\sim N(\\mu, \\sigma^2)$，其样本均�?$\\bar{X}=\\frac{1}{n} \\sum_{i=1}^n X_i$ 与样本方�?$S^2=\\frac{1}{n-1} \\sum_{i=1}^n(X_i-\\bar{X})^2$ 相互独立。\n\n由简单随机样本的独立性可知，$X_i$ �?$X_j$ ($i \\neq j$) 相互独立，故 $X_i$ �?$X_j^2$ 也相互独立。\n\n综上所述，$\\bar{X}$ �?$\\sum_{i=1}^n(X_i-\\bar{X})^2$ 独立�?X_i$ �?$X_j$ 独立�?X_i$ �?$X_j^2$ 独立。\n\n�?$\\sum_{i=1}^n X_i^2 = (n-1)S^2 + n\\bar{X}^2$，显�?$\\sum_{i=1}^n X_i$ (�?$n\\bar{X}$) �?$\\sum_{i=1}^n X_i^2$ 不独立�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339325
+                    },
+                    "question_json": "mathreact/4c292d2ba6674180a7dcc74e67bac228",
+                    "updated_at": {
+                        "seconds": 1767465095
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85583,
+                            "question_id": 18917,
+                            "is_answer": true,
+                            "choice": "$\\sum_{i=1}^n X_i$ �?$\\sum_{i=1}^n X_i^2$ 独立",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85584,
+                            "question_id": 18917,
+                            "is_answer": false,
+                            "choice": "$\\bar{X}$ �?$\\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$ 独立",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85585,
+                            "question_id": 18917,
+                            "is_answer": false,
+                            "choice": "$X_i$ �?$X_j$ 独立 $($�?$i \\neq j)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85586,
+                            "question_id": 18917,
+                            "is_answer": false,
+                            "choice": "$X_i$ �?$X_j^2$ 独立 $($�?$i \\neq j)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.6,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 27801,
+                    "ai_tags": "正态总体,抽样分布,独立�?
+                },
+                {
+                    "id": 18918,
+                    "subject_id": 3,
+                    "chapter_id": 385,
+                    "question_id": "290ccdee-f28c-4093-80f6-713380e4ac06",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$X_1, X_2, \\cdots, X_n$ 是来自正态总体 $N(\\mu, \\sigma^2)$ 的样本，$\\bar{X}$ 为样本均值，记\n$$\nS_1^2=\\frac{1}{n-1} \\sum_{i=1}^n(X_i-\\bar{X})^2, \\quad S_2^2=\\frac{1}{n} \\sum_{i=1}^n(X_i-\\bar{X})^2,\n$$\n$$\nS_3^2=\\frac{1}{n-1} \\sum_{i=1}^n(X_i-\\mu)^2, \\quad S_4^2=\\frac{1}{n} \\sum_{i=1}^n(X_i-\\mu)^2,\n$$\n�?( ) 服从 $t(n-1)$�?,
+                    "analysis": "�?$t$ 分布定义知，统计量\n$$\nT = \\frac{\\bar{X}-\\mu}{S_1/\\sqrt{n}} \\sim t(n-1)\n$$\n由题设定义可知：\n$$\n(n-1)S_1^2 = \\sum_{i=1}^n(X_i-\\bar{X})^2 = n S_2^2\n$$\n�?$S_1 = \\sqrt{\\frac{n}{n-1}}S_2$。将其代�?$T$ 的表达式中：\n$$\nT = \\frac{\\bar{X}-\\mu}{\\frac{1}{\\sqrt{n}}\\sqrt{\\frac{n}{n-1}}S_2} = \\frac{\\bar{X}-\\mu}{\\frac{1}{\\sqrt{n-1}}S_2} = \\frac{\\sqrt{n-1}(\\bar{X}-\\mu)}{S_2}\n$$\n故该统计量服�?$t(n-1)$ 分布�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339329
+                    },
+                    "question_json": "mathreact/4d188302b7ae45259c1ad679408ffac8",
+                    "updated_at": {
+                        "seconds": 1767724273
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85590,
+                            "question_id": 18918,
+                            "is_answer": true,
+                            "choice": "$T_1=\\frac{\\sqrt{n-1}(\\bar{X}-\\mu)}{S_2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 85591,
+                            "question_id": 18918,
+                            "is_answer": false,
+                            "choice": "$T_1=\\frac{\\sqrt{n-1}(X-\\mu)}{S_3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85592,
+                            "question_id": 18918,
+                            "is_answer": false,
+                            "choice": "$T_1=\\frac{\\sqrt{n-1}(X-\\mu)}{S_4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 85593,
+                            "question_id": 18918,
+                            "is_answer": false,
+                            "choice": "$T_1=\\frac{\\sqrt{n-1}(X-\\mu)}{S_1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.4,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 14935,
+                    "ai_tags": "数理统计,抽样分布,t分布"
+                },
+                {
+                    "id": 18919,
+                    "subject_id": 3,
+                    "chapter_id": 385,
+                    "question_id": "1353ef10-77af-4cdf-a10e-79f800c6aa33",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "样本 $X_1, X_2, \\cdots, X_n$ 来自正态总体 $N\\left(\\mu, \\sigma^2\\right)$, 期望�?$\\mu$ 已知, 则下列统计量的均值为 $\\sigma^2$ 的是 ( ).",
+                    "analysis": "因为 $\\mu$ 已知, 所以\n$$\nE\\left[\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\mu\\right)^2\\right]=\\frac{1}{n} \\sum_{i=1}^n E\\left[\\left(X_i-\\mu\\right)^2\\right]=\\frac{1}{n} \\cdot n \\sigma^2=\\sigma^2\n$$\n另外, 对于样本方差 $S^2$, 有\n$$\n\\frac{(n-1) S^2}{\\sigma^2} \\sim \\chi^2(n-1), \\quad E\\left[\\frac{(n-1) S^2}{\\sigma^2}\\right]=n-1\n$$\n所�?$E\\left(S^2\\right)=E\\left[\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2\\right]=\\sigma^2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339332
+                    },
+                    "question_json": "mathreact/d1c38ede485a4f47aa1f3f3dc7aee01f",
+                    "updated_at": {
+                        "seconds": 1767465092
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85597,
+                            "question_id": 18919,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\mu\\right)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 85598,
+                            "question_id": 18919,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 85599,
+                            "question_id": 18919,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n+1} \\sum_{i=1}^n\\left(X_i-\\mu\\right)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 85600,
+                            "question_id": 18919,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\mu\\right)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.69,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 22900,
+                    "ai_tags": "统计�?正态总体,无偏估计"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 28,
+            "questions": [
+                {
+                    "id": 18920,
+                    "subject_id": 3,
+                    "chapter_id": 385,
+                    "question_id": "eefc007f-976e-4abc-9cc9-3cb271a5088d",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$X_1, X_2, \\cdots, X_n$ 是来自正态总体 $N(\\mu, \\sigma^2)$ 的样�? $\\bar{X}$ 为样本均�? 记\n$$S_1^2=\\frac{1}{n-1} \\sum_{i=1}^n(X_i-\\bar{X})^2, \\quad S_2^2=\\frac{1}{n} \\sum_{i=1}^n(X_i-\\bar{X})^2$$\n$$S_3^2=\\frac{1}{n-1} \\sum_{i=1}^n(X_i-\\mu)^2, \\quad S_4^2=\\frac{1}{n} \\sum_{i=1}^n(X_i-\\mu)^2$$\n�?( ) 服从 $t(n-1)$.",
+                    "analysis": "�?$t$ 分布定义知，统计�?$T = \\frac{\\bar{X}-\\mu}{S_1/\\sqrt{n}} \\sim t(n-1)$。\n由题设知 $S_1^2 = \\frac{1}{n-1} \\sum_{i=1}^n (X_i-\\bar{X})^2$�?$S_2^2 = \\frac{1}{n} \\sum_{i=1}^n (X_i-\\bar{X})^2$。\n可见 $(n-1)S_1^2 = n S_2^2$，即 $S_1 = \\sqrt{\\frac{n}{n-1}} S_2$。\n代入 $t$ 统计量表达式：\n$$ \\frac{\\bar{X}-\\mu}{S_1/\\sqrt{n}} = \\frac{\\bar{X}-\\mu}{\\frac{\\sqrt{n}}{\\sqrt{n-1}} S_2 \\cdot \\frac{1}{\\sqrt{n}}} = \\frac{\\bar{X}-\\mu}{\\frac{S_2}{\\sqrt{n-1}}} = \\frac{\\sqrt{n-1}(\\bar{X}-\\mu)}{S_2} $$\n故�?$T_1=\\frac{\\sqrt{n-1}(\\bar{X}-\\mu)}{S_2}$�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339336
+                    },
+                    "question_json": "mathreact/b6afdfa1c09044c8890e9a9cd582bfb5",
+                    "updated_at": {
+                        "seconds": 1767465101
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85604,
+                            "question_id": 18920,
+                            "is_answer": true,
+                            "choice": "$T_1=\\frac{\\sqrt{n-1}(\\bar{X}-\\mu)}{S_2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 85605,
+                            "question_id": 18920,
+                            "is_answer": false,
+                            "choice": "$T_1=\\frac{\\sqrt{n-1}(\\bar{X}-\\mu)}{S_1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 85606,
+                            "question_id": 18920,
+                            "is_answer": false,
+                            "choice": "$T_1=\\frac{\\sqrt{n-1}(\\bar{X}-\\mu)}{S_4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 85607,
+                            "question_id": 18920,
+                            "is_answer": false,
+                            "choice": "$T_1=\\frac{\\sqrt{n-1}(\\bar{X}-\\mu)}{S_3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.88,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 47716,
+                    "ai_tags": "正态总体,抽样分布,t分布"
+                },
+                {
+                    "id": 18922,
+                    "subject_id": 3,
+                    "chapter_id": 385,
+                    "question_id": "0808be7a-af5e-412a-bd1f-10c80ba32368",
+                    "difficulty": "Medium",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "�?$X_1, X_2, \\cdots, X_n$ 是来自正态总体 $N(\\mu, \\sigma^2)$ 的样本，$\\bar{X}$ 为样本均值，记\n$$\nS_1^2=\\frac{1}{n-1} \\sum_{i=1}^n(X_i-\\bar{X})^2, \\quad S_2^2=\\frac{1}{n} \\sum_{i=1}^n(X_i-\\bar{X})^2\n$$\n$$\nS_3^2=\\frac{1}{n-1} \\sum_{i=1}^n(X_i-\\mu)^2, \\quad S_4^2=\\frac{1}{n} \\sum_{i=1}^n(X_i-\\mu)^2\n$$\n�?( ) 服从 $t(n-1)$�?,
+                    "analysis": "由题意知 $\\bar{X} \\sim N(\\mu, \\sigma^2/n)$，且 $\\frac{(n-1)S_1^2}{\\sigma^2} \\sim \\chi^2(n-1)$，两者相互独立。\n根据 $t$ 分布定义，构造统计量：\n$$ T = \\frac{\\frac{\\bar{X}-\\mu}{\\sigma/\\sqrt{n}}}{\\sqrt{\\frac{(n-1)S_1^2}{\\sigma^2}/(n-1)}} = \\frac{\\bar{X}-\\mu}{S_1/\\sqrt{n}} = \\frac{\\sqrt{n}(\\bar{X}-\\mu)}{S_1} \\sim t(n-1) $$\n又因�?$S_1^2 = \\frac{1}{n-1} \\sum_{i=1}^n (X_i-\\bar{X})^2$，�?$S_2^2 = \\frac{1}{n} \\sum_{i=1}^n (X_i-\\bar{X})^2$，\n所�?$S_1^2 = \\frac{n}{n-1} S_2^2$，即 $S_1 = \\sqrt{\\frac{n}{n-1}} S_2$。\n代入 $T$ 的表达式中：\n$$ T = \\frac{\\sqrt{n}(\\bar{X}-\\mu)}{\\sqrt{\\frac{n}{n-1}} S_2} = \\frac{\\sqrt{n-1}(\\bar{X}-\\mu)}{S_2} $$\n�?$\\frac{\\sqrt{n-1}(\\bar{X}-\\mu)}{S_2} \\sim t(n-1)$�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339352
+                    },
+                    "question_json": "mathreact/8fbd56e0987c4d04a8d7c710cba15a19",
+                    "updated_at": {
+                        "seconds": 1767637889
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85618,
+                            "question_id": 18922,
+                            "is_answer": false,
+                            "choice": "$T_1=\\frac{\\sqrt{n-1}(X-\\mu)}{S_1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 85619,
+                            "question_id": 18922,
+                            "is_answer": false,
+                            "choice": "$T_1=\\frac{\\sqrt{n-1}(X-\\mu)}{S_3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 85620,
+                            "question_id": 18922,
+                            "is_answer": false,
+                            "choice": "$T_1=\\frac{\\sqrt{n-1}(X-\\mu)}{S_4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 85621,
+                            "question_id": 18922,
+                            "is_answer": true,
+                            "choice": "$T_1=\\frac{\\sqrt{n-1}(\\bar{X}-\\mu)}{S_2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.67,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 52733,
+                    "ai_tags": "正态总体,抽样分布,t分布"
+                },
+                {
+                    "id": 18926,
+                    "subject_id": 3,
+                    "chapter_id": 385,
+                    "question_id": "56f21ff7-b2a9-429f-9cb5-c7e650f47dc8",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$X_1, \\cdots, X_n, X_{n+1}$ 是取自正态总体 $X \\sim N(\\mu, \\sigma^2)$ 的样本，$\\bar{X}_n=\\frac{1}{n} \\sum_{i=1}^n X_i$�?S_n^2=\\frac{1}{n-1} \\sum_{i=1}^n(X_i-\\bar{X}_n)^2$，则统计�?$\\sqrt{\\frac{n}{n+1}} \\cdot \\frac{X_{n+1}-\\bar{X}_n}{S_n}$ 的分布为（　）�?,
+                    "analysis": "将统计量改写成下列形式：\n$$\n\\sqrt{\\frac{n}{n+1}} \\cdot \\frac{X_{n+1}-\\bar{X}_n}{S_n}=\\frac{(X_{n+1}-\\bar{X}_n) / (\\sqrt{1+\\frac{1}{n}} \\sigma)}{\\sqrt{\\frac{(n-1) S_n^2}{\\sigma^2} /(n-1)}} \\quad (*)\n$$\n由于 $X_{n+1}$ �?$X_i(i=1, \\cdots, n)$ 相互独立，\n$$\n\\bar{X}_n=\\frac{1}{n} \\sum_{i=1}^n X_i \\sim N\\left(\\mu, \\frac{\\sigma^2}{n}\\right), \\quad X_{n+1} \\sim N(\\mu, \\sigma^2)\n$$\n所�?$X_{n+1}-\\bar{X}_n \\sim N\\left(0,\\left(1+\\frac{1}{n}\\right) \\sigma^2\\right)$，从而\n$$\n\\frac{X_{n+1}-\\bar{X}_n}{\\sqrt{1+\\frac{1}{n}} \\sigma} \\sim N(0,1)\n$$\n注意�?$\\bar{X}_n$ �?$S_n^2$ 相互独立�?X_{n+1}$ 也与 $S_n^2$ 相互独立，且\n$$\n\\frac{(n-1) S_n^2}{\\sigma^2} \\sim \\chi^2(n-1)\n$$\n故由 $(*)$ 式即得\n$$\n\\sqrt{\\frac{n}{n+1}} \\cdot \\frac{X_{n+1}-\\bar{X}_n}{S_n} \\sim t(n-1)\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339354
+                    },
+                    "question_json": "mathreact/823362ef2cbd48959f70d94c6129b8af",
+                    "updated_at": {
+                        "seconds": 1766946712
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85646,
+                            "question_id": 18926,
+                            "is_answer": true,
+                            "choice": "$\\sqrt{\\frac{n}{n+1}} \\cdot \\frac{X_{n+1}-\\bar{X}_n}{S_n} \\sim t(n-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 85647,
+                            "question_id": 18926,
+                            "is_answer": false,
+                            "choice": "$\\sqrt{\\frac{n}{n+1}} \\cdot \\frac{X_{n+1}-\\bar{X}_n}{S_n} \\sim t(n)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 85648,
+                            "question_id": 18926,
+                            "is_answer": false,
+                            "choice": "$\\sqrt{\\frac{n}{n+1}} \\cdot \\frac{X_{n+1}-\\bar{X}_n}{S_n} \\sim t(n+1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 85649,
+                            "question_id": 18926,
+                            "is_answer": false,
+                            "choice": "$\\sqrt{\\frac{n}{n+1}} \\cdot \\frac{X_{n+1}-\\bar{X}_n}{S_n} \\sim t(n+2)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.6,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 51821,
+                    "ai_tags": "正态总体,抽样分布,t分布"
+                },
+                {
+                    "id": 18927,
+                    "subject_id": 3,
+                    "chapter_id": 385,
+                    "question_id": "0b037c2c-164f-449e-82a6-ef3a64934c10",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$X_1, X_2, \\cdots, X_n$ 是总体 $X \\sim N\\left(\\mu, \\sigma^2\\right)$ 的一个样�? 则有 ( ).",
+                    "analysis": "$\\begin{aligned} & \\text { 因为 } \\chi^2=\\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2 / \\sigma^2 \\sim \\chi^2(n-1), E\\left(\\chi^2\\right)=n-1, D\\left(\\chi^2\\right)=2(n-1), \\text { 所�?} \\\\ & \\quad E\\left[\\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2\\right]^2=\\sigma^4 E\\left[\\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2 / \\sigma^2\\right]^2=\\sigma^4 E\\left[\\chi^2\\right]^2=\\sigma^4\\left[D\\left(\\chi^2\\right)+\\left[E\\left(\\chi^2\\right)\\right]^2\\right]=\\sigma^4\\left[2(n-1)+(n-1)^2\\right]=\\left(n^2-1\\right) \\sigma^4 .\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339357
+                    },
+                    "question_json": "mathreact/838f2aa5685f4075bc190043d3dec2af",
+                    "updated_at": {
+                        "seconds": 1767724278
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85653,
+                            "question_id": 18927,
+                            "is_answer": true,
+                            "choice": "$E\\left[\\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2\\right]^2=\\left(n^2-1\\right) \\sigma^4$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 85654,
+                            "question_id": 18927,
+                            "is_answer": false,
+                            "choice": "$E\\left[\\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2\\right]^2=\\left(n^2+1\\right) \\sigma^4$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 85655,
+                            "question_id": 18927,
+                            "is_answer": false,
+                            "choice": "$E\\left[\\sum_{i=1}^n\\left(X_i+\\bar{X}\\right)^2\\right]^2=\\left(n^2-1\\right) \\sigma^4$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 85656,
+                            "question_id": 18927,
+                            "is_answer": false,
+                            "choice": "$E\\left[\\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2\\right]^2=\\left(n^2-1\\right) \\sigma^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.83,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 167193,
+                    "ai_tags": "抽样分布,卡方分布,数字特征"
+                },
+                {
+                    "id": 18928,
+                    "subject_id": 3,
+                    "chapter_id": 385,
+                    "question_id": "40973f61-ae12-407a-b94d-b5317c99c17c",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$X_1, X_2, \\cdots, X_n$ 是来自正态总体 $N(\\mu, \\sigma^2)$ 的样�? $\\bar{X}$ 为样本均�? 记\n$$\nS_1^2=\\frac{1}{n-1} \\sum_{i=1}^n(X_i-\\bar{X})^2, S_2^2=\\frac{1}{n} \\sum_{i=1}^n(X_i-\\bar{X})^2, S_3^2=\\frac{1}{n-1} \\sum_{i=1}^n(X_i-\\mu)^2, S_4^2=\\frac{1}{n} \\sum_{i=1}^n(X_i-\\mu)^2\n$$\n�?( ) 服从 $t(n-1)$.",
+                    "analysis": "由题设知 $\\bar{X} \\sim N(\\mu, \\sigma^2/n)$�?\\frac{(n-1)S_1^2}{\\sigma^2} \\sim \\chi^2(n-1)$，且两者独立。根�?$t$ 分布的定义：\n$$\n\\frac{\\bar{X}-\\mu}{S_1/\\sqrt{n}} \\sim t(n-1)\n$$\n又因�?$S_1^2 = \\frac{1}{n-1}\\sum_{i=1}^n(X_i-\\bar{X})^2$�?S_2^2 = \\frac{1}{n}\\sum_{i=1}^n(X_i-\\bar{X})^2$，所�?$(n-1)S_1^2 = n S_2^2$，即 $S_1 = \\sqrt{\\frac{n}{n-1}}S_2$。代入上式得：\n$$\n\\frac{\\bar{X}-\\mu}{\\sqrt{\\frac{n}{n-1}}S_2/\\sqrt{n}} = \\frac{\\sqrt{n-1}(\\bar{X}-\\mu)}{S_2} \\sim t(n-1)\n$$\n�?$\\frac{\\sqrt{n-1}(\\bar{X}-\\mu)}{S_2}$ 符合题意�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339359
+                    },
+                    "question_json": "mathreact/2f167019be7d4850a4e3dc779c05b9ce",
+                    "updated_at": {
+                        "seconds": 1767637887
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85660,
+                            "question_id": 18928,
+                            "is_answer": true,
+                            "choice": "$T_1=\\frac{\\sqrt{n-1}(\\bar{X}-\\mu)}{S_2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85661,
+                            "question_id": 18928,
+                            "is_answer": false,
+                            "choice": "$T_1=\\frac{\\sqrt{n-1}(X-\\mu)}{S_1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85662,
+                            "question_id": 18928,
+                            "is_answer": false,
+                            "choice": "$T_1=\\frac{\\sqrt{n-1}(X-\\mu)}{S_3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85663,
+                            "question_id": 18928,
+                            "is_answer": false,
+                            "choice": "$T_1=\\frac{\\sqrt{n-1}(X-\\mu)}{S_4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.67,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 25492,
+                    "ai_tags": "抽样分布,t分布,正态总体"
+                },
+                {
+                    "id": 18933,
+                    "subject_id": 3,
+                    "chapter_id": 385,
+                    "question_id": "4826ebe8-e04e-4e19-b966-f2655090535d",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "随机变量 $X \\sim N\\left(\\mu, \\sigma^2\\right), X_1, X_2, \\cdots, X_n(n>2)$ 是来自于 $X$ 的一个样�? $\\bar{X}$ �?$S^2$ 分别是样本均值与样本方差, 则下列结论中成立的是 ( ).",
+                    "analysis": "�?$X \\sim N(\\mu, \\sigma^2)$, �?$\\bar{X} \\sim N\\left(\\mu, \\frac{\\sigma^2}{n}\\right), \\frac{\\bar{X}-\\mu}{\\sigma / \\sqrt{n}} \\sim N(0,1), \\frac{n-1}{\\sigma^2} S^2 \\sim \\chi^2(n-1), \\frac{\\bar{X}-\\mu}{S / \\sqrt{n}} \\sim t(n-1)$. 根据 $F$ 分布的定�? �?$\\frac{\\left(\\frac{\\bar{X}-\\mu}{\\sigma / \\sqrt{n}}\\right)^2}{\\frac{1}{\\sigma^2} S^2}=\\frac{n(\\bar{X}-\\mu)^2}{S^2} \\sim F(1, n-1)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339366
+                    },
+                    "question_json": "mathreact/4d0acf5d75cc411c8ad90ed27c109813",
+                    "updated_at": {
+                        "seconds": 1767465100
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85695,
+                            "question_id": 18933,
+                            "is_answer": true,
+                            "choice": "$\\frac{n(\\bar{X}-\\mu)^2}{S^2} \\sim F(1, n-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 85696,
+                            "question_id": 18933,
+                            "is_answer": false,
+                            "choice": "$2X_2 - X_1 \\sim N(\\mu, \\sigma^2)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 85697,
+                            "question_id": 18933,
+                            "is_answer": false,
+                            "choice": "$\\frac{S^2}{\\sigma^2} \\sim \\chi^2(n-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        },
+                        {
+                            "id": 85698,
+                            "question_id": 18933,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\bar{X}-\\mu}{S} \\sqrt{n-1} \\sim t(n-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080687
+                            },
+                            "updated_at": {
+                                "seconds": 1735080687
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.38,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 28345,
+                    "ai_tags": "正态总体,抽样分布,F分布"
+                },
+                {
+                    "id": 19094,
+                    "subject_id": 3,
+                    "chapter_id": 385,
+                    "question_id": "9d6b7ff3-20e9-422b-98fe-8285714a14f7",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$X_1, X_2, \\cdots, X_n$ 是正态总体 $X \\sim N\\left(\\mu, \\sigma^2\\right)$ 的一个样�? 样本均值为 $\\bar{X}$, 样本二阶中心矩为 $S^2$, �?$Q=(\\bar{X}-\\mu) /(S / \\sqrt{n-1})$ 服从 ( ).",
+                    "analysis": "因为 $\\frac{\\bar{X}-\\mu}{\\sigma / \\sqrt{n}} \\sim N(0,1), \\frac{1}{\\sigma^2} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2 \\sim \\chi^2(n-1), S^2=\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$, �?$\\bar{X}$ �?$S^2$ 独立, 所�?$\\frac{\\bar{X}-\\mu}{S / \\sqrt{n-1}} \\sim t(n-1)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339771
+                    },
+                    "question_json": "mathreact/18c04865d9dc4d7994abedc2f7fb2157",
+                    "updated_at": {
+                        "seconds": 1767465098
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86822,
+                            "question_id": 19094,
+                            "is_answer": true,
+                            "choice": "$t$ 分布",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 86823,
+                            "question_id": 19094,
+                            "is_answer": false,
+                            "choice": "正态分�?,
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 86824,
+                            "question_id": 19094,
+                            "is_answer": false,
+                            "choice": "$\\chi^2$ 分布",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 86825,
+                            "question_id": 19094,
+                            "is_answer": false,
+                            "choice": "$F$ 分布",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.63,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 46390,
+                    "ai_tags": "抽样分布,t分布,正态总体"
+                },
+                {
+                    "id": 20424,
+                    "subject_id": 3,
+                    "chapter_id": 385,
+                    "question_id": "ee6b4622-7a2d-466d-8d3c-795ab8fadcc7",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "样本 $X_1, \\cdots, X_n$ 取自标准正态分�?$N(0,1)$ 总体, $\\bar{X}$ 是样本均�? $S^2$ 是样本方�? 则有 ( ).",
+                    "analysis": "正态总体 $N\\left(\\mu, \\sigma^2\\right)$ 样本均值及样本方差的抽样分布有\n$$\n\\bar{X} \\sim N\\left(\\mu, \\frac{\\sigma^2}{n}\\right), \\frac{n-1}{\\sigma^2} S^2 \\sim \\chi^2(n-1), \\frac{\\bar{X}-\\mu}{S / \\sqrt{n}} \\sim t(n-1)\n$$\n\n又由卡方分布的定义有, �?$X_1, X_2, \\cdots, X_n$ 是取自总体 $N(0,1)$ 的样�? 则称统计量\n$$\n\\chi^2=X_1^2+X_2^2+\\cdots+X_n^2\n$$\n\n服从自由度为 $n$ �?$\\chi^2$ 分布.\n因此�?$\\sum_{i=1}^n X_i^2 \\sim \\chi^2(n)$ 是正确的，其它选项�?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764382155
+                    },
+                    "question_json": "mathreact/f8ec653deb1e493498f7c738f251bce6",
+                    "updated_at": {
+                        "seconds": 1767465101
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 96132,
+                            "question_id": 20424,
+                            "is_answer": true,
+                            "choice": "$\\sum_{i=1}^n X_i^2 \\sim \\chi^2(n)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 96133,
+                            "question_id": 20424,
+                            "is_answer": false,
+                            "choice": "$\\bar{X} \\sim N(0,1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 96134,
+                            "question_id": 20424,
+                            "is_answer": false,
+                            "choice": "$n \\bar{X} \\sim N(0,1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 96135,
+                            "question_id": 20424,
+                            "is_answer": false,
+                            "choice": "$\\bar{X} / S \\sim t(n-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.75,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 26498,
+                    "ai_tags": "抽样分布,卡方分布,正态总体"
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,1282 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 15,
+            "questions": [
+                {
+                    "id": 14240,
+                    "subject_id": 3,
+                    "chapter_id": 317,
+                    "question_id": "3d9ec51d-e283-4af4-8510-c45af1c8bda3",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "设离散随机向�?$(X, Y)$ 的分布列�?$p_{i j}=P\\{X=i, Y=j\\}=c \\cdot i \\cdot j, i=1,2,3, j=1,2,3$, �?$c=()$.",
+                    "analysis": "根据联合分布律的性质�?$\\sum_{i=1}^3 \\sum_{j=1}^3 c i j=1$, 即\n$$\nc \\cdot 1 \\cdot 1+c \\cdot 1 \\cdot 2+c \\cdot 1 \\cdot 3+c \\cdot 2 \\cdot 1+\\cdots+c \\cdot 3 \\cdot 3=1,\n$$\n\n解得 $c=\\frac{1}{36}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/d3b0d20acb3345a780e3f4ad0f7a8876",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56957,
+                            "question_id": 14240,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{12}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56959,
+                            "question_id": 14240,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56960,
+                            "question_id": 14240,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56958,
+                            "question_id": 14240,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{36}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.83,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 62238,
+                    "ai_tags": "概率�?离散型随机向�?联合分布�?
+                },
+                {
+                    "id": 14242,
+                    "subject_id": 3,
+                    "chapter_id": 317,
+                    "question_id": "3a813335-5250-4c9c-921b-05046ff216a6",
+                    "difficulty": "Easy",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "在整�?0 �?9 中先取一�?$\\xi$ 后不放回, 再取一�?$\\eta$, �?$(\\xi, \\eta)$ 的联合分布律�?( ).",
+                    "analysis": "$(\\xi, \\eta)$ 的联合分布律为\n$$\nP\\{\\xi=i, \\eta=k\\}=\\frac{1}{90}, i, k=0,1, \\cdots, 9, i \\neq k .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/a8e55d94ce304047ae0c7fd23f79c5e5",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56966,
+                            "question_id": 14242,
+                            "is_answer": false,
+                            "choice": "$P\\{\\xi=i, \\eta=k\\}=\\frac{1}{100}, i, k=0,1, \\cdots, 9, i \\neq k$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56965,
+                            "question_id": 14242,
+                            "is_answer": false,
+                            "choice": "$P\\{\\xi=i, \\eta=k\\}=\\frac{1}{100}, i, k=0,1, \\cdots, 9$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56967,
+                            "question_id": 14242,
+                            "is_answer": true,
+                            "choice": "$P\\{\\xi=i, \\eta=k\\}=\\frac{1}{90}, \\quad i, k=0,1, \\cdots, 9, i \\neq k$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56968,
+                            "question_id": 14242,
+                            "is_answer": false,
+                            "choice": "$P\\{\\xi=i, \\eta=k\\}=\\frac{1}{90}, i, k=0,1, \\cdots, 9$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.69,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 86274,
+                    "tags": "",
+                    "ai_tags": "联合分布�?古典概型,不放回抽�?
+                },
+                {
+                    "id": 14254,
+                    "subject_id": 3,
+                    "chapter_id": 317,
+                    "question_id": "2556c1ba-f5fa-4539-a975-fbf4ac775cf3",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "箱内�?6 个球, 其中红、白、黑球的个数分别�?$1 �?2 �?3$ �? 现从箱中随机地取�?2 个球,�?$X$ 为取出的红球个数, $Y$ 为取出的白球个数, 则随机变�?$(X, Y)$ 的概率分布为 ( $)$.",
+                    "analysis": "由题意知, $(X, Y)$ 的可能取值为 $(0,0),(0,1),(0,2),(1,0),(1,1)$, 其分布律为\n$$\n\\begin{aligned}\n& P\\{X=0, Y=0\\}=\\frac{C_1^0 C_2^0 C_3^2}{C_6^2}=1 / 5, P\\{X=0, Y=1\\}=\\frac{C_1^0 C_2^1 C_3^1}{C_6^2}=2 / 5, P\\{X=0, Y=2\\}=\\frac{C_1^0 C_2^0 C_3^0}{C_6^2}=1 / 15, \\\\\n& P\\{X=1, Y=0\\}=\\frac{C_1^1 C_2^0 C_3^1}{C_6^2}=1 / 5, P\\{X=1, Y=1\\}=\\frac{C_1^1 C_2^1 C_3^0}{C_6^2}=2 / 15, P\\{X=1, Y=2\\}=P\\{\\varnothing\\}=0 .\n\\end{aligned}\n$$\n\n即\n\\begin{tabular}{|c|ccc|}\n\\hline$X \\backslash Y$ & 0 & 1 & 2 \\\\\n\\hline 0 & $1 / 5$ & $2 / 5$ & $1 / 15$ \\\\\n1 & $1 / 5$ & $2 / 15$ & 0 \\\\\n\\hline\n\\end{tabular}",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/56dc296697014838ac50213717e68ca2",
+                    "updated_at": {
+                        "seconds": 1775673114
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 57013,
+                            "question_id": 14254,
+                            "is_answer": true,
+                            "choice": "\\begin{tabular}{|c|ccc|}\n\\hline$X \\backslash Y$ & 0 & 1 & 2 \\\\\n\\hline 0 & $1 / 5$ & $2 / 5$ & $1 / 15$ \\\\\n1 & $1 / 5$ & $2 / 15$ & 0 \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57014,
+                            "question_id": 14254,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{|c|ccc|}\n\\hline$X \\backslash Y$ & 0 & 1 & 2 \\\\\n\\hline 0 & $1 / 5$ & $2 / 5$ & $1 / 15$ \\\\\n1 & $1 / 5$ & $1 / 5$ & 0 \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57015,
+                            "question_id": 14254,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{|c|ccc|}\n\\hline$X \\backslash Y$ & 0 & 1 & 2 \\\\\n\\hline 0 & $1 / 5$ & $2 / 5$ & $1 / 15$ \\\\\n1 & $1 / 5$ & $1 / 15$ & $1 / 15$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57016,
+                            "question_id": 14254,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{|c|ccc|}\n\\hline$X \\backslash Y$ & 0 & 1 & 2 \\\\\n\\hline 0 & $2 / 5$ & $1 / 5$ & $1 / 15$ \\\\\n1 & $1 / 5$ & $2 / 15$ & $1 / 5$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.72,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 113212,
+                    "ai_tags": "二维随机变量,联合分布�?古典概型"
+                },
+                {
+                    "id": 19471,
+                    "subject_id": 3,
+                    "chapter_id": 317,
+                    "question_id": "9e67f7bf-8dbe-493b-99dd-94e269aa8f9e",
+                    "difficulty": "Easy",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "将一个均匀对称的骰子连掷两�? �?$\\xi$ 表示第一次出现的点数, $\\eta$ 表示第二次出现的点数,�?$(\\xi, \\eta)$ 的联合分布律 () .",
+                    "analysis": "连掷两次共有 36 种结�? 每种结果等可�? �?$(\\xi, \\eta)$ 的联合分布律为\n$$\nP\\{\\xi=i, \\eta=j\\}=\\frac{1}{36}, i, j=1,2, \\cdots, 6 .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340669
+                    },
+                    "question_json": "mathreact/c7a076ff88f74db1a6bef0a085f60dc4",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89461,
+                            "question_id": 19471,
+                            "is_answer": false,
+                            "choice": "$P\\{\\xi=i, \\eta=j\\}=\\frac{1}{36}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89462,
+                            "question_id": 19471,
+                            "is_answer": false,
+                            "choice": "$P\\{\\xi=i, \\eta=j\\}=\\frac{1}{30}, i, j=1,2, \\cdots, 6$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89463,
+                            "question_id": 19471,
+                            "is_answer": true,
+                            "choice": "$P\\{\\xi=i, \\eta=j\\}=\\frac{1}{36}, i, j=1,2, \\cdots, 6$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89464,
+                            "question_id": 19471,
+                            "is_answer": false,
+                            "choice": "$P\\{\\xi=i, \\eta=j\\}=\\frac{1}{30}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.92,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 37201,
+                    "ai_tags": "二维离散型随机变�?联合分布�?古典概型"
+                },
+                {
+                    "id": 19482,
+                    "subject_id": 3,
+                    "chapter_id": 317,
+                    "question_id": "98518322-aaa6-4ef3-b429-29e8d4828ec6",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "将一枚硬币抛掷三次，设头两次抛掷中出现正面的次数�?$\\xi$，第三次抛掷出现正面的次数为 $\\eta$，则 $(\\xi, \\eta)$ 的联合分布律�? ).",
+                    "analysis": "因为 $\\xi$ 的可能取值为 $0,1,2$�?\\eta$ 的可能取值为 $0,1$，故 $(\\xi, \\eta)$ 的所有可能取值有六对 $(0,0),(0,1),(1,0),(1,1),(2,0),(2,1)$�?(\\xi, \\eta)$ 的联合分布律为\n$$\nP\\{\\xi=i, \\eta=k\\}=\\frac{1}{8}, i=0,2, k=0,1; \\quad P\\{\\xi=i, \\eta=k\\}=\\frac{1}{4}, i=1, k=0,1 .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340687
+                    },
+                    "question_json": "mathreact/547df8ef35e74e6d8e15a0149d1d0a9f",
+                    "updated_at": {
+                        "seconds": 1775673108
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89538,
+                            "question_id": 19482,
+                            "is_answer": true,
+                            "choice": "$P\\{\\xi=i, \\eta=k\\}=\\frac{1}{8}, i=0,2, k=0,1, P\\{\\xi=i, \\eta=k\\}=\\frac{1}{4}, i=1, k=0,1$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89539,
+                            "question_id": 19482,
+                            "is_answer": false,
+                            "choice": "$P\\{\\xi=i, \\eta=k\\}=\\frac{1}{6}, i=0,1,2, k=0,1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89540,
+                            "question_id": 19482,
+                            "is_answer": false,
+                            "choice": "$P\\{\\xi=i, \\eta=k\\}=\\frac{1}{4}, i, k=0,1, P\\{\\xi=i, \\eta=k\\}=0, i=2, k=0,1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89541,
+                            "question_id": 19482,
+                            "is_answer": false,
+                            "choice": "$P\\{\\xi=i, \\eta=k\\}=\\frac{1}{8}, i, k=0,1, P\\{\\xi=i, \\eta=k\\}=\\frac{1}{4}, i=2, k=0,1$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.62,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 139207,
+                    "ai_tags": "联合分布�?离散型随机变�?独立�?
+                },
+                {
+                    "id": 19483,
+                    "subject_id": 3,
+                    "chapter_id": 317,
+                    "question_id": "fc730051-f96b-45d7-883a-f9af3bafcabf",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "�?$(X, Y)$ 的分布律为\n\\begin{tabular}{|c|ccc|}\n\\hline$X \\backslash Y$ & 1 & 2 & 3 \\\\\n\\hline 1 & $1 / 6$ & $1 / 9$ & $1 / 18$ \\\\\n\\hline 2 & $1 / 3$ & $a$ & $1 / 9$ \\\\\n\\hline\n\\end{tabular}\n\n�?$a=(\\quad)$.",
+                    "analysis": "由分布律性质 $\\sum_{i, j} P_{i j}=1$ 可知\n$$\n1 / 6+1 / 9+1 / 18+1 / 3+a+1 / 9=1 \\text {, }\n$$\n\n解得 $a=2 / 9$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340690
+                    },
+                    "question_json": "mathreact/5f6cd2f635ce4ecca07b77a1f7a91f7b",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89545,
+                            "question_id": 19483,
+                            "is_answer": false,
+                            "choice": "$2 / 3$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89546,
+                            "question_id": 19483,
+                            "is_answer": false,
+                            "choice": "$1 / 9$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89547,
+                            "question_id": 19483,
+                            "is_answer": false,
+                            "choice": "$1 / 3$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89548,
+                            "question_id": 19483,
+                            "is_answer": true,
+                            "choice": "$2 / 9$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.95,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 27618,
+                    "ai_tags": "二维随机变量,联合分布�?
+                },
+                {
+                    "id": 19484,
+                    "subject_id": 3,
+                    "chapter_id": 317,
+                    "question_id": "b78ca825-34b6-426a-af83-6c7d9915bb1c",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一射手进行射击, 每次是否击中目标是独立的, 击中目标的概率为 $p(0<p<1)$, 射击进行到击中目标两次为�? �?$\\xi$ 表示第一次击中目标时已进行的射击次数, $\\eta$ 表示第一次命中后再进行的射击次数, �?$(\\xi, \\eta)$ 的联合分布律�?().",
+                    "analysis": "�?$\\xi=m$ 表示�?$m$ 次射击首次击中目�? $\\eta=k$ 表示�?$m+k$ 次射击第二次击中目标, �?$(\\xi, \\eta)$ 的联合分布律为\n$$\nP\\{\\xi=m, \\eta=k\\}=p^2 q^{m+k-2}, m=1,2, \\cdots, k=1,2, \\cdots(q=1-p) .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340693
+                    },
+                    "question_json": "mathreact/6f91820db1224d0e9d1216b83599ce6c",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89552,
+                            "question_id": 19484,
+                            "is_answer": true,
+                            "choice": "$P\\{\\xi=m, \\eta=k\\}=p^2 q^{m+k-2}, m=1,2, \\cdots, k=1,2, \\cdots$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89553,
+                            "question_id": 19484,
+                            "is_answer": false,
+                            "choice": "$P\\{\\xi=m, \\eta=k\\}=p^2 q^{m+k-2}, m=1,2, \\cdots, k=m+1, m+2, \\cdots$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89554,
+                            "question_id": 19484,
+                            "is_answer": false,
+                            "choice": "$P\\{\\xi=m, \\eta=k\\}=C_m^1 C_k^1 p^2 q^{m+k-2}, \\quad m=1,2, \\cdots, k=1,2, \\cdots$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89555,
+                            "question_id": 19484,
+                            "is_answer": false,
+                            "choice": "$P\\{\\xi=m, \\eta=k\\}=C_{m+k}^2 p^2 q^{m+k-2}, m=1,2, \\cdots, k=1,2, \\cdots$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.32,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 125057,
+                    "ai_tags": "概率�?联合分布�?几何分布"
+                },
+                {
+                    "id": 19486,
+                    "subject_id": 3,
+                    "chapter_id": 317,
+                    "question_id": "05f04481-ba0d-44bd-b7f1-a38e54054ac7",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$(\\xi, \\eta)$ 的联合分布律为\n\\begin{tabular}{c|ccc}\n\\hline $\\eta \\backslash \\xi$ & 1 & 2 & 3 \\\\\n\\hline 1 & $a$ & $1 / 6$ & $1 / 12$ \\\\\n2 & $1 / 6$ & $1 / 6$ & $1 / 6$ \\\\\n3 & $1 / 12$ & $1 / 6$ & $b$ \\\\\n\\hline\n\\end{tabular}\n\n�?$a, b$ 分别�?( ).",
+                    "analysis": "根据分布律的性质有\n$$\na+\\frac{1}{6}+\\frac{1}{12}+\\frac{1}{6}+\\frac{1}{6}+\\frac{1}{6}+\\frac{1}{12}+\\frac{1}{6}+b=1,\n$$\n\n�?$a+b=0$, �?$a \\geq 0, b \\geq 0$, 所�?$a=b=0$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340696
+                    },
+                    "question_json": "mathreact/fef8146105bc4a769751c036a2850e8b",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89566,
+                            "question_id": 19486,
+                            "is_answer": true,
+                            "choice": "$a=b=0$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89567,
+                            "question_id": 19486,
+                            "is_answer": false,
+                            "choice": "$a=\\frac{1}{12}, b=0$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89568,
+                            "question_id": 19486,
+                            "is_answer": false,
+                            "choice": "$a=b=\\frac{1}{12}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89569,
+                            "question_id": 19486,
+                            "is_answer": false,
+                            "choice": "$a=0, b=\\frac{1}{12}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.68,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 26064,
+                    "ai_tags": "联合分布�?二维随机变量,概率性质"
+                },
+                {
+                    "id": 19487,
+                    "subject_id": 3,
+                    "chapter_id": 317,
+                    "question_id": "cdb336a0-f5b9-4581-ab8e-9b7a7be1e1ef",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$(\\xi, \\eta)$ 的联合分布律�?$P\\{\\xi=x_i, \\eta=y_j\\}=p_{ij}(i, j=1,2, \\cdots)$, 关于 $\\xi$ 和关�?$\\eta$ 的边缘分布律分别�?$p_{i \\cdot}(i=1,2, \\cdots)$ �?$p_{\\cdot j}(j=1,2, \\cdots)$. �?$p_{\\cdot j}>0$, 则在 $\\eta=y_j$ 条件下关�?$\\xi$ 的条件分布律�?().",
+                    "analysis": "根据条件分布的定�? �?$p_{\\cdot j}>0$, 则在 $\\eta=y_j$ 条件下关�?$\\xi$ 的条件分布律为\n$$\nP\\{\\xi=x_i \\mid \\eta=y_j\\}=\\frac{P\\{\\xi=x_i, \\eta=y_j\\}}{P\\{\\eta=y_j\\}}=\\frac{p_{ij}}{p_{\\cdot j}}, \\quad i=1,2, \\cdots .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340696
+                    },
+                    "question_json": "mathreact/76500edc67594e94b2c7dbeeadb28ada",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89573,
+                            "question_id": 19487,
+                            "is_answer": true,
+                            "choice": "$P\\{\\xi=x_i \\mid \\eta=y_j\\}=\\frac{p_{ij}}{p_{\\cdot j}}, \\quad i=1,2, \\cdots$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89574,
+                            "question_id": 19487,
+                            "is_answer": false,
+                            "choice": "$P\\{\\xi=x_i \\mid \\eta=y_j\\}=\\frac{p_{ij}}{p_{i \\cdot}}, \\quad i=1,2, \\cdots$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89575,
+                            "question_id": 19487,
+                            "is_answer": false,
+                            "choice": "$P\\{\\xi=x_i \\mid \\eta=y_j\\}=\\frac{p_{ij}}{p_{i \\cdot}}, \\quad j=1,2, \\cdots$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89576,
+                            "question_id": 19487,
+                            "is_answer": false,
+                            "choice": "$P\\{\\eta=y_j \\mid \\xi=x_i\\}=\\frac{p_{ij}}{p_{\\cdot j}}, \\quad i=1,2, \\cdots$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.9,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 79194,
+                    "ai_tags": "条件分布,离散型随机变�?边缘分布"
+                },
+                {
+                    "id": 19489,
+                    "subject_id": 3,
+                    "chapter_id": 317,
+                    "question_id": "9f1bac46-d293-491b-926c-8081434b45f8",
+                    "difficulty": "Medium",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "袋中�?$N$ 个球, 其中�?$a$ 个红球�?$b$ 个白球�?$c$ 个黑�? 每次从袋中任取一个球, 取后不放�? 共取 $n$ �? �?$\\xi$ �?$\\eta$ 分别表示取出�?$n$ 个球中红球及白球的个�? 并设 $n \\leq N$, �?$(\\xi, \\eta)$ 的联合分布律�?( ).",
+                    "analysis": "设抽取的 $n$ 个球中有 $i$ 个红球�?$j$ 个白球�?$k$ 个黑�? �?$i+j+k=n$. 根据排列组合公式, 此时共有 $C_a^i C_b^j C_c^k$ 种取�? 又总体的取法为 $C_N^n$, �?$(\\xi, \\eta)$ 的联合分布律为\n$$P\\{\\xi=i, \\eta=j\\}=\\frac{C_a^i C_b^j C_c^{n-i-j}}{C_N^n}, i=0,1,2, \\cdots, a, j=0,1,2, \\cdots, b, i+j \\leq n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340700
+                    },
+                    "question_json": "mathreact/bebf83a4662f4cfc8fb15791d543bf82",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89587,
+                            "question_id": 19489,
+                            "is_answer": false,
+                            "choice": "$P\\{\\xi=i, \\eta=j\\}=\\frac{C_a^i C_b^j}{C_N^n}, i=0,1,2, \\cdots, a, j=0,1,2, \\cdots, b, i+j \\leq n$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89588,
+                            "question_id": 19489,
+                            "is_answer": true,
+                            "choice": "$P\\{\\xi=i, \\eta=j\\}=\\frac{C_a^i C_b^j C_c^{n-i-j}}{C_N^n}, i=0,1,2, \\cdots, a, j=0,1,2, \\cdots, b, i+j \\leq n$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89589,
+                            "question_id": 19489,
+                            "is_answer": false,
+                            "choice": "$P\\{\\xi=i, \\eta=j\\}=\\frac{C_a^i C_b^j}{C_N^n}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89590,
+                            "question_id": 19489,
+                            "is_answer": false,
+                            "choice": "$P\\{\\xi=i, \\eta=j\\}=\\frac{C_a^i C_b^j C_c^{n-i-j}}{C_N^n}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.68,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 53148,
+                    "ai_tags": "多维随机变量,超几何分�?联合分布�?
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 15,
+            "questions": [
+                {
+                    "id": 19492,
+                    "subject_id": 3,
+                    "chapter_id": 317,
+                    "question_id": "1b1b602d-be93-4cfe-bbc6-51e7fbf98add",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一项试验成功的概率�?$p(0<p<1)$, 失败的概率为 $1-p$. 独立重复该项试验, 直至第三次成功为�?�?$X$ 表示第一次成功之前失败的试验次数, $Y$ 表示试验总次�? �?$X$ �?$Y$ 的联合分布律�?( )�?,
+                    "analysis": "$X$ �?$Y$ 的联合分布律为\n$$\nP\\{X=i, Y=j\\}=\\left((1-p)^i p\\right)\\left(C_{j-i-2}^1 p(1-p)^{(j-i-2)-1}\\right) p=C_{j-i-2}^1 p^3(1-p)^{j-3}, i=0,1,2, \\cdots, j=i+3, i+4, \\cdots .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340713
+                    },
+                    "question_json": "mathreact/a005954d58634234bf2e3d3b4753c930",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89608,
+                            "question_id": 19492,
+                            "is_answer": true,
+                            "choice": "$P\\{X=i, Y=j\\}=C_{j-i-2}^1 p^3(1-p)^{j-3}, i=0,1,2, \\cdots, j=i+3, i+4, \\cdots$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89609,
+                            "question_id": 19492,
+                            "is_answer": false,
+                            "choice": "$P\\{X=i, Y=j\\}=C_{j-i-1}^1 p^3(1-p)^{j-3}, i=1,2, \\cdots, j=i+3, i+4, \\cdots$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89610,
+                            "question_id": 19492,
+                            "is_answer": false,
+                            "choice": "$P\\{X=i, Y=j\\}=C_{j-i-1}^2 p^3(1-p)^{j-3}, i=0,1,2, \\cdots, j=i+3, i+4, \\cdots$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89611,
+                            "question_id": 19492,
+                            "is_answer": false,
+                            "choice": "$P\\{X=i, Y=j\\}=C_{j-i-2}^1 p^3(1-p)^{j-3}, i=1,2, \\cdots, j=i+3, i+4, \\cdots$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.38,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 92518,
+                    "ai_tags": "概率�?联合分布�?伯努利试�?
+                },
+                {
+                    "id": 19493,
+                    "subject_id": 3,
+                    "chapter_id": 317,
+                    "question_id": "9ab8abed-42a0-44bb-91fe-bdba319b6d43",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "箱子里装�?12 个零�? 其中 2 个次�? 今从箱子里随机地抽取两次, 每次只取一�? 取后不放�? 设\n$$\n\\xi=\\begin{cases}\n0, & \\text{若第一次取得正品} \\\\\n1, & \\text{若第一次取得次品}\n\\end{cases}, \\quad \\eta=\\begin{cases}\n0, & \\text{若第二次取得正品} \\\\\n1, & \\text{若第二次取得次品}\n\\end{cases}\n$$\n则随机变�?$(\\xi, \\eta)$ 的联合分布律�?( ).",
+                    "analysis": "$(\\xi, \\eta)$ 可能取值为 $(0,0),(0,1),(1,0),(1,1)$. 又根据古典概率有, 总体共有 $12 \\times 11$ 种取�? $(0,0)$ 共有 $10 \\times 9$ �? $(0,1)$ �?$(1,0)$ 都为 $10 \\times 2$ �? $(1,1)$ �?$2 \\times 1$ �? $(\\xi, \\eta)$ 的联合分布律为\n$$\n\\begin{array}{c|cc}\n\\hline \\xi \\setminus \\eta & 0 & 1 \\\\\n\\hline 0 & 15/22 & 5/33 \\\\\n1 & 5/33 & 1/66 \\\\\n\\hline\n\\end{array}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340714
+                    },
+                    "question_json": "mathreact/2b9b3793801f4d83bce451342eb71c20",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89615,
+                            "question_id": 19493,
+                            "is_answer": true,
+                            "choice": "$$\\begin{array}{c|cc}\n\\hline \\xi \\setminus \\eta & 0 & 1 \\\\\n\\hline 0 & 15/22 & 5/33 \\\\\n1 & 5/33 & 1/66 \\\\\n\\hline\n\\end{array}$$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89616,
+                            "question_id": 19493,
+                            "is_answer": false,
+                            "choice": "$$\\begin{array}{c|cc}\n\\hline \\xi \\setminus \\eta & 0 & 1 \\\\\n\\hline 0 & 1/66 & 5/33 \\\\\n1 & 5/33 & 15/22 \\\\\n\\hline\n\\end{array}$$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89617,
+                            "question_id": 19493,
+                            "is_answer": false,
+                            "choice": "$$\\begin{array}{c|cc}\n\\hline \\xi \\setminus \\eta & 0 & 1 \\\\\n\\hline 0 & 1/36 & 5/36 \\\\\n1 & 5/36 & 25/36 \\\\\n\\hline\n\\end{array}$$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89618,
+                            "question_id": 19493,
+                            "is_answer": false,
+                            "choice": "$$\\begin{array}{c|cc}\n\\hline \\xi \\setminus \\eta & 0 & 1 \\\\\n\\hline 0 & 25/36 & 5/36 \\\\\n1 & 5/36 & 1/36 \\\\\n\\hline\n\\end{array}$$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.72,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 143306,
+                    "tags": "",
+                    "ai_tags": "二维随机变量,联合分布�?古典概型"
+                },
+                {
+                    "id": 19496,
+                    "subject_id": 3,
+                    "chapter_id": 317,
+                    "question_id": "c9da1344-7dde-4d81-9324-e13d6279b0ba",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "$(X, Y)$ 只取下列数�?$(0,0),(-1,1),\\left(-1, \\frac{1}{3}\\right),(2,0)$, 且相应概率依次为 $\\frac{1}{6}, \\frac{1}{3}, \\frac{1}{12}, \\frac{5}{12}$,�?$(X, Y)$ 关于 $Y$ 的边缘分布为 ( ).",
+                    "analysis": "依题意知 $Y$ 取三个�?$0, \\frac{1}{3}, 1$, 且\n$$ P\\{Y=0\\}=P\\{X=-1, Y=0\\}+P\\{X=0, Y=0\\}+P\\{X=2, Y=0\\}=0+\\frac{1}{6}+\\frac{5}{12}=\\frac{7}{12} $$\n同样可求�?$P\\left\\{Y=\\frac{1}{3}\\right\\}=\\frac{1}{12}, P\\{Y=1\\}=\\frac{1}{3}$. �?$(X, Y)$ 关于 $Y$ 的边缘分布为\n$$ P\\{Y=0\\}=\\frac{7}{12}, P\\left\\{Y=\\frac{1}{3}\\right\\}=\\frac{1}{12}, P\\{Y=1\\}=\\frac{1}{3} $$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340722
+                    },
+                    "question_json": "mathreact/e3316fb27acc4e42b607a4a71a62b1df",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89636,
+                            "question_id": 19496,
+                            "is_answer": true,
+                            "choice": "$P\\{Y=0\\}=\\frac{7}{12}, P\\left\\{Y=\\frac{1}{3}\\right\\}=\\frac{1}{12}, P\\{Y=1\\}=\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89637,
+                            "question_id": 19496,
+                            "is_answer": false,
+                            "choice": "$P\\{Y=0\\}=\\frac{7}{12}, P\\left\\{Y=\\frac{1}{3}\\right\\}=\\frac{1}{3}, P\\{Y=1\\}=\\frac{1}{12}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89638,
+                            "question_id": 19496,
+                            "is_answer": false,
+                            "choice": "$P\\{Y=0\\}=\\frac{5}{12}, P\\left\\{Y=\\frac{1}{3}\\right\\}=\\frac{1}{12}, P\\{Y=1\\}=\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89639,
+                            "question_id": 19496,
+                            "is_answer": false,
+                            "choice": "$P\\{Y=0\\}=\\frac{1}{6}, \\quad P\\left\\{Y=\\frac{1}{3}\\right\\}=\\frac{1}{2}, P\\{Y=1\\}=\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 64070,
+                    "ai_tags": "概率�?二维随机变量,边缘分布"
+                },
+                {
+                    "id": 19503,
+                    "subject_id": 3,
+                    "chapter_id": 317,
+                    "question_id": "6e341c53-6894-4912-8bc3-d8a0d5276aa1",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$(\\xi, \\eta)$ 的联合分布律为\n$$ \n\\begin{array}{c|ccc} \n\\hline \\xi \\setminus \\eta & 1 & 2 & 3 \\\\ \n\\hline 0 & 0.1 & 0.2 & 0.1 \\\\ \n1 & 0.2 & 0.1 & 0.3 \\\\ \n\\hline \n\\end{array} \n$$\n则在 $\\eta \\neq 1$ 时关�?$\\xi$ 的条件分布律�?( ).",
+                    "analysis": "根据条件分布的定义，有\n$$\nP\\{\\xi=i \\mid \\eta \\neq 1\\}=\\frac{P\\{\\xi=i, \\eta \\neq 1\\}}{P\\{\\eta \\neq 1\\}}=\\frac{P\\{\\xi=i, \\eta=2\\}+P\\{\\xi=i, \\eta=3\\}}{P\\{\\eta=2\\}+P\\{\\eta=3\\}}, i=0,1.\n$$\n所以，�?$\\eta \\neq 1$ 条件下关�?$\\xi$ 的条件分布律为\n$$ \\begin{array}{c|cc} \\hline \\xi & 0 & 1 \\\\ \\hline P_{\\xi \\mid \\eta \\neq 1} & 3/7 & 4/7 \\\\ \\hline \\end{array} $$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340733
+                    },
+                    "question_json": "mathreact/84a8392d438349bc84979bed4b80862b",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89685,
+                            "question_id": 19503,
+                            "is_answer": true,
+                            "choice": "$$ \\begin{array}{c|cc} \\hline \\xi & 0 & 1 \\\\ \\hline P_{\\xi \\mid \\eta \\neq 1} & 3/7 & 4/7 \\\\ \\hline \\end{array} $$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89686,
+                            "question_id": 19503,
+                            "is_answer": false,
+                            "choice": "$$ \\begin{array}{c|cc} \\hline \\xi & 0 & 1 \\\\ \\hline P_{\\xi \\mid \\eta \\neq 1} & 4/7 & 3/7 \\\\ \\hline \\end{array} $$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89687,
+                            "question_id": 19503,
+                            "is_answer": false,
+                            "choice": "$$ \\begin{array}{c|cc} \\hline \\xi & 0 & 1 \\\\ \\hline P_{\\xi \\mid \\eta \\neq 1} & 1/3 & 2/3 \\\\ \\hline \\end{array} $$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89688,
+                            "question_id": 19503,
+                            "is_answer": false,
+                            "choice": "$$ \\begin{array}{c|cc} \\hline \\xi & 0 & 1 \\\\ \\hline P_{\\xi \\mid \\eta \\neq 1} & 2/3 & 1/3 \\\\ \\hline \\end{array} $$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.9,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 44573,
+                    "ai_tags": "二维随机变量,条件分布�?
+                },
+                {
+                    "id": 19510,
+                    "subject_id": 3,
+                    "chapter_id": 317,
+                    "question_id": "6db4328e-1140-4e8c-9fa1-3e427ec00d2e",
+                    "difficulty": "Medium",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "将一枚均匀硬币连抛三次，以 $\\xi$ 表示在三次中出现正面的次数，�?$\\eta$ 表示在三次中出现的正面次数与反面次数之差的绝对值，�?$(\\xi, \\eta)$ 的联合分布律�?( ).",
+                    "analysis": "$\\xi$ 表示抛三次硬币出现正面的次数，可取值为 $0, 1, 2, 3$�?\\eta$ 表示正面次数与反面次数之差的绝对值，�?$\\eta = |\\xi - (3-\\xi)| = |2\\xi - 3|$，可取值为 $1, 3$。\\\\\n�?$\\xi=0$ 时，$\\eta=3$，概�?$P(\\xi=0)=(1/2)^3=1/8$；\\\\\n�?$\\xi=1$ 时，$\\eta=1$，概�?$P(\\xi=1)=C_3^1(1/2)^3=3/8$；\\\\\n�?$\\xi=2$ 时，$\\eta=1$，概�?$P(\\xi=2)=C_3^2(1/2)^3=3/8$；\\\\\n�?$\\xi=3$ 时，$\\eta=3$，概�?$P(\\xi=3)=(1/2)^3=1/8$。\\\\\n故联合分布律表格中，$(\\eta=1, \\xi=1)$ �?$(\\eta=1, \\xi=2)$ 处概率为 $3/8$�?(\\eta=3, \\xi=0)$ �?$(\\eta=3, \\xi=3)$ 处概率为 $1/8$，其余为 $0$。\\\\\n对应表格应为�?$\\eta$、列 $\\xi$，且数值正确�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340752
+                    },
+                    "question_json": "mathreact/9617009648634836aae0f462ccc55b15",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89734,
+                            "question_id": 19510,
+                            "is_answer": false,
+                            "choice": "$\\begin{array}{c|cccc} \\hline \\eta \\setminus \\xi & 0 & 1 & 2 & 3 \\\\ \\hline 1 & 1/8 & 0 & 0 & 1/8 \\\\ 3 & 0 & 3/8 & 3/8 & 0 \\\\ \\hline \\end{array}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89735,
+                            "question_id": 19510,
+                            "is_answer": true,
+                            "choice": "$\\begin{array}{c|cccc} \\hline \\eta \\setminus \\xi & 0 & 1 & 2 & 3 \\\\ \\hline 1 & 0 & 3/8 & 3/8 & 0 \\\\ 3 & 1/8 & 0 & 0 & 1/8 \\\\ \\hline \\end{array}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89736,
+                            "question_id": 19510,
+                            "is_answer": false,
+                            "choice": "$\\begin{array}{c|cccc} \\hline \\xi \\setminus \\eta & 0 & 1 & 2 & 3 \\\\ \\hline 1 & 1/8 & 0 & 0 & 1/8 \\\\ 3 & 0 & 3/8 & 3/8 & 0 \\\\ \\hline \\end{array}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89737,
+                            "question_id": 19510,
+                            "is_answer": false,
+                            "choice": "$\\begin{array}{c|cccc} \\hline \\xi \\setminus \\eta & 0 & 1 & 2 & 3 \\\\ \\hline 1 & 0 & 3/8 & 3/8 & 0 \\\\ 3 & 1/8 & 0 & 0 & 1/8 \\\\ \\hline \\end{array}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.69,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 52013,
+                    "ai_tags": "概率�?联合分布�?离散型随机变�?
+                }
+            ]
+        }
+    }
+]

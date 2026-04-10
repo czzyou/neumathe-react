@@ -1,0 +1,683 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 8,
+            "questions": [
+                {
+                    "id": 13056,
+                    "subject_id": 3,
+                    "chapter_id": 357,
+                    "question_id": "f3f8dc6d-a9c7-4478-8fe1-f1a52432e43b",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$X, Y$ 独立同分布且方差不为�? �?$\\xi=X+Y, \\eta=X-Y$, 则随机变�?$\\xi$ �?$\\eta$ 之间的关系必然是 ( ).",
+                    "analysis": "因为 $\\operatorname{cov}(\\xi, \\eta)=\\operatorname{cov}(X+Y, X-Y)=D(X)-D(Y)=0$, 所�?$\\rho(\\xi, \\eta)=\\frac{\\operatorname{cov}(\\xi, \\eta)}{\\sqrt{D(\\xi) D(\\eta)}}=0$, 故随机变�?$\\xi$ �?$\\eta$ 不相�? 但不相关未必独立.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/e587b1d801bd4205ab24301cd1b319c4",
+                    "updated_at": {
+                        "seconds": 1774981851
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52223,
+                            "question_id": 13056,
+                            "is_answer": true,
+                            "choice": "不相�?,
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52222,
+                            "question_id": 13056,
+                            "is_answer": false,
+                            "choice": "不独�?,
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52224,
+                            "question_id": 13056,
+                            "is_answer": false,
+                            "choice": "独立",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52221,
+                            "question_id": 13056,
+                            "is_answer": false,
+                            "choice": "相关",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.22,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 35822,
+                    "ai_tags": "随机变量,协方�?独立�?
+                },
+                {
+                    "id": 13058,
+                    "subject_id": 3,
+                    "chapter_id": 357,
+                    "question_id": "c3bafc8f-0523-4efd-96f3-54455e4e0d5c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "随机变量 $\\xi, \\eta$ 相互独立与不相关的正确关系是 ( ).",
+                    "analysis": "随机变量不相�? 是说不线性相�? 但可以有其他的关�?\n故若 $\\xi, \\eta$ 不相�? 未必�?$\\xi, \\eta$ 独立; 反之, �?$\\xi, \\eta$ 独立, 则必定有 $\\xi, \\eta$ 不相�?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/f71f2747b42540d4a2be2089d9c74fb4",
+                    "updated_at": {
+                        "seconds": 1774981851
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52230,
+                            "question_id": 13058,
+                            "is_answer": true,
+                            "choice": "$\\xi, \\eta$ 独立 $\\Rightarrow \\xi, \\eta$ 不相�?,
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52232,
+                            "question_id": 13058,
+                            "is_answer": false,
+                            "choice": "$\\xi, \\eta$ 不相�?$\\Leftrightarrow \\xi, \\eta$ 独立",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52229,
+                            "question_id": 13058,
+                            "is_answer": false,
+                            "choice": "$\\xi, \\eta$ 不相�?$\\Rightarrow \\xi, \\eta$ 独立",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52231,
+                            "question_id": 13058,
+                            "is_answer": false,
+                            "choice": "$\\xi, \\eta$ 独立不能推出 $\\xi, \\eta$ 不相�?,
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.9,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 20213,
+                    "ai_tags": "随机变量,独立�?相关�?
+                },
+                {
+                    "id": 13060,
+                    "subject_id": 3,
+                    "chapter_id": 357,
+                    "question_id": "2cd3adf4-8682-475d-8a27-c12928bd0abb",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "随机变量 $X$ �?$Y$ 的方差不为零, �?$X$ �?$Y$ 不相关的等价条件�?().",
+                    "analysis": "由于 $D(X) \\neq 0, D(Y) \\neq 0, D(X \\pm Y)=D(X)+D(Y) \\pm 2 \\operatorname{cov}(X, Y)$, 所以\n$$\n\\rho_{X Y}=0 \\Leftrightarrow \\operatorname{cov}(X, Y)=0 \\Leftrightarrow D(X+Y)=D(X-Y) .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/9d3c42384dbf4d03aaf9382c4aafc3f2",
+                    "updated_at": {
+                        "seconds": 1774981852
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52238,
+                            "question_id": 13060,
+                            "is_answer": true,
+                            "choice": "$D(X-Y)=D(X+Y)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52240,
+                            "question_id": 13060,
+                            "is_answer": false,
+                            "choice": "$D(X Y)=D(X) D(Y)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52239,
+                            "question_id": 13060,
+                            "is_answer": false,
+                            "choice": "$D(X Y) \\neq D(X) D(Y)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52237,
+                            "question_id": 13060,
+                            "is_answer": false,
+                            "choice": "$D(X+Y) \\neq D(X-Y)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 23671,
+                    "ai_tags": "随机变量,不相�?方差"
+                },
+                {
+                    "id": 18750,
+                    "subject_id": 3,
+                    "chapter_id": 357,
+                    "question_id": "8ffb783d-80da-48bf-ac86-5bd884da9a79",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\theta$ 服从 $[-\\pi, \\pi]$ 上的均匀分布, $X=\\sin \\theta, Y=\\cos \\theta$, �?( ).",
+                    "analysis": "$$\nE(X)=\\frac{1}{2 \\pi} \\int_{-\\pi}^\\pi \\sin \\theta d \\theta=0, \\quad E(Y)=\\frac{1}{2 \\pi} \\int_{-\\pi}^\\pi \\cos \\theta d \\theta=0, \\quad E(X Y)=\\frac{1}{2 \\pi} \\int_{-\\pi}^\\pi \\sin \\theta \\cos \\theta d \\theta=0\n$$\n\n�?$\\operatorname{cov}(X, Y)=E(X Y)-E(X) E(Y)=0$.\n又\n$$\nE\\left(X^2\\right)=\\frac{1}{2 \\pi} \\int_{-\\pi}^\\pi \\sin ^2 \\theta d \\theta \\neq 0, \\quad E\\left(Y^2\\right)=\\frac{1}{2 \\pi} \\int_{-\\pi}^\\pi \\cos ^2 \\theta d \\theta \\neq 0\n$$\n\n所�?$\\rho(X, Y)=0$, �?$X$ �?$Y$ 不相�?\n另由�?$X$ �?$Y$ 满足 $X^2+Y^2=1$, 所�?$X$ �?$Y$ 不独�?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338908
+                    },
+                    "question_json": "mathreact/5584469793f74ee9bd5711dad0879772",
+                    "updated_at": {
+                        "seconds": 1766860306
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84414,
+                            "question_id": 18750,
+                            "is_answer": true,
+                            "choice": "$X$ �?$Y$ 不相�? 不独�?,
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84415,
+                            "question_id": 18750,
+                            "is_answer": false,
+                            "choice": "$X$ �?$Y$ 不相�? 独立",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84416,
+                            "question_id": 18750,
+                            "is_answer": false,
+                            "choice": "$X$ �?$Y$ 相关, 不独�?,
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84417,
+                            "question_id": 18750,
+                            "is_answer": false,
+                            "choice": "$X$ �?$Y$ 相关, 独立",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 30250,
+                    "ai_tags": "随机变量,相关�?独立�?
+                },
+                {
+                    "id": 18756,
+                    "subject_id": 3,
+                    "chapter_id": 357,
+                    "question_id": "914091ef-0c3c-483c-ad31-c9b0a05c4eee",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$X$ �?$Y$ 不相�? 则下列结论中正确的是 ( ).",
+                    "analysis": "若随机变�?$X$ �?$Y$ 不相�? 即不线性相�? �?$\\rho(X, Y)=0$, �?$X$ �?$Y$ 未必独立.�?$D(X \\pm Y)=D(X)+D(Y)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338928
+                    },
+                    "question_json": "mathreact/09977af084154d29b8e2ffefcd0e4c2a",
+                    "updated_at": {
+                        "seconds": 1767551649
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84456,
+                            "question_id": 18756,
+                            "is_answer": true,
+                            "choice": "$D(X-Y)=D(X)+D(Y)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84457,
+                            "question_id": 18756,
+                            "is_answer": false,
+                            "choice": "$X$ �?$Y$ 独立",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84458,
+                            "question_id": 18756,
+                            "is_answer": false,
+                            "choice": "$D(X+Y)=D(X)-D(Y)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84459,
+                            "question_id": 18756,
+                            "is_answer": false,
+                            "choice": "$D(X Y)=D(X) D(Y)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.88,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 9338,
+                    "ai_tags": "概率�?方差,相关�?
+                },
+                {
+                    "id": 18760,
+                    "subject_id": 3,
+                    "chapter_id": 357,
+                    "question_id": "d64f196b-e0b6-4696-8447-7d2d37a6867a",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "随机变量 $X, Y$ 的方差均不为零，�?$D(X+Y)=D(X)+D(Y)$ �?$X$ �?$Y$（　�?",
+                    "analysis": "�?$D(X+Y)=D(X)+D(Y)+2\\operatorname{cov}(X, Y)$�?\\rho(X, Y)=\\frac{\\operatorname{cov}(X, Y)}{\\sqrt{D(X) D(Y)}}$，所以若 $D(X+Y)=D(X)+D(Y)$，则 $\\operatorname{cov}(X, Y)=0$，从�?$\\rho(X, Y)=0$，即 $X$ �?$Y$ 不相关，反之也成立。\n$X$ �?$Y$ 不相关，$X$ �?$Y$ 却未必独立。\n反之，若 $X$ �?$Y$ 相互独立，则 $\\rho(X, Y)=0$，从�?$\\operatorname{cov}(X, Y)=0$�?D(X+Y)=D(X)+D(Y)$。\n�?$D(X+Y)=D(X)+D(Y)$ �?$X$ �?$Y$ 独立的必要条件，但不是充分条件。\n（注�?D(X+Y)=D(X)+D(Y)$ �?$X$ �?$Y$ 不相关的充分必要条件。）",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338943
+                    },
+                    "question_json": "mathreact/d3dd4a95df2a4c56929333c6944038a0",
+                    "updated_at": {
+                        "seconds": 1774981852
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84484,
+                            "question_id": 18760,
+                            "is_answer": true,
+                            "choice": "独立的必要条件，但不是充分条�?,
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84485,
+                            "question_id": 18760,
+                            "is_answer": false,
+                            "choice": "不相关的充分条件，但不是必要条件",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84486,
+                            "question_id": 18760,
+                            "is_answer": false,
+                            "choice": "不相关的必要条件，但不是充分条件",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84487,
+                            "question_id": 18760,
+                            "is_answer": false,
+                            "choice": "独立的充分必要条�?,
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.75,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 33055,
+                    "ai_tags": "随机变量,方差,独立�?
+                },
+                {
+                    "id": 18761,
+                    "subject_id": 3,
+                    "chapter_id": 357,
+                    "question_id": "daa83ef9-3cb6-43d8-ad56-bb2ad9c489b4",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知随机变量 $X$ �?$Y$ 的联合概率分布为\n\\begin{tabular}{c|cc}\n\\hline $X \\backslash Y$ & 1 & 2 \\\\\n\\hline 0 & $1/3$ & $1/3$ \\\\\n1 & 0 & $1/3$ \\\\\n\\hline\n\\end{tabular}\n\n则下列选项正确的是 ( ).",
+                    "analysis": "(1) 随机变量 $X, Y$ 的边缘分布律分别为\n$$\nP\\{X=0\\}=\\frac{2}{3}, P\\{X=1\\}=\\frac{1}{3}, P\\{Y=1\\}=\\frac{1}{3}, P\\{Y=2\\}=\\frac{2}{3} .\n$$\n\n由于 $P\\{X=0\\} \\times P\\{Y=1\\}=\\frac{2}{9} \\neq P\\{X=0, Y=1\\}=\\frac{1}{3}$, �?$X, Y$ 不相互独�?\n(2) $X Y$ 可取�?$0,1,2$, 且\n$$\n\\begin{aligned}\n& P\\{X Y=0\\}=P\\{X=0, Y=1\\}+P\\{X=0, Y=2\\}=\\frac{2}{3} \\\\\n& P\\{X Y=1\\}=P\\{X=1, Y=1\\}=0, P\\{X Y=2\\}=P\\{X=1, Y=2\\}=\\frac{1}{3}\n\\end{aligned}\n$$\n\n�?$E(X Y)=0 \\times \\frac{2}{3}+1 \\times 0+2 \\times \\frac{1}{3}=\\frac{2}{3}$. 又\n$$\nE(X)=0 \\times \\frac{2}{3}+1 \\times \\frac{1}{3}=\\frac{1}{3}, E(Y)=1 \\times \\frac{1}{3}+2 \\times \\frac{2}{3}=\\frac{5}{3} .\n$$\n\n�?$\\operatorname{cov}(X, Y)=E(X Y)-E(X) E(Y)=\\frac{1}{9}$, 从�?$\\rho(X, Y) \\neq 0$. 因此 $X, Y$ 相关.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338944
+                    },
+                    "question_json": "mathreact/962c0a22ad034a618fa73312841781bc",
+                    "updated_at": {
+                        "seconds": 1774981853
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84491,
+                            "question_id": 18761,
+                            "is_answer": true,
+                            "choice": "不独�? 相关",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84492,
+                            "question_id": 18761,
+                            "is_answer": false,
+                            "choice": "独立，不相关",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84493,
+                            "question_id": 18761,
+                            "is_answer": false,
+                            "choice": "独立, 相关",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84494,
+                            "question_id": 18761,
+                            "is_answer": false,
+                            "choice": "不独�? 不相�?,
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.6,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 40119,
+                    "ai_tags": "二维随机变量,独立�?相关�?
+                },
+                {
+                    "id": 18772,
+                    "subject_id": 3,
+                    "chapter_id": 357,
+                    "question_id": "73f72982-99e3-4201-a098-07232ea69b62",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$X$ �?$Y$ 满足 $D(X+Y)=D(X-Y)$，则一定正确的是（    ）．",
+                    "analysis": "因为 $D(X+Y)=D(X)+D(Y)+2 \\operatorname{cov}(X, Y)$�?D(X-Y)=D(X)+D(Y)-2 \\operatorname{cov}(X, Y)$，所�?$\\operatorname{cov}(X, Y)=0$．但 $\\operatorname{cov}(X, Y)=0$，却不一�?$X$ �?$Y$ 不相关．",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338966
+                    },
+                    "question_json": "mathreact/2fe84a68fdb3492cbfe8cc2c5c7b52ac",
+                    "updated_at": {
+                        "seconds": 1774981853
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84568,
+                            "question_id": 18772,
+                            "is_answer": true,
+                            "choice": "$\\operatorname{cov}(X, Y)=0$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84569,
+                            "question_id": 18772,
+                            "is_answer": false,
+                            "choice": "$X$ �?$Y$ 相互独立",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84570,
+                            "question_id": 18772,
+                            "is_answer": false,
+                            "choice": "$X$ �?$Y$ 不相�?,
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84571,
+                            "question_id": 18772,
+                            "is_answer": false,
+                            "choice": "$D(X) D(Y)=0$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.44,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 7949,
+                    "ai_tags": "方差,协方�?
+                }
+            ]
+        }
+    }
+]

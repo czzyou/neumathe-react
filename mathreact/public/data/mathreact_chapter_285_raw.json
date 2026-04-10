@@ -1,0 +1,1034 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 12,
+            "questions": [
+                {
+                    "id": 14284,
+                    "subject_id": 3,
+                    "chapter_id": 285,
+                    "question_id": "5da10ea7-2e9b-4ada-81ee-5a3d2161947f",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$A_1, A_2, A_3$ 是随机试�?$E$ 的三个相互独立的事件, 且知 $P\\left(A_1\\right)=\\alpha, P\\left(A_2\\right)=\\beta, P\\left(A_3\\right)=\\gamma$, 则事�?\"�?$A_1$ 已发生的条件�? $A_2, A_3$ 都不发生\"的概率是 ( ).",
+                    "analysis": "由于 $A_1, A_2, A_3$ 相互独立, 所�?$A_1, \\bar{A}_2, \\bar{A}_3$ 也是相互独立�? 即\n$$\nP\\left(A_1 \\bar{A}_2 \\bar{A}_3\\right)=P\\left(A_1\\right) P\\left(\\bar{A}_2\\right) P\\left(\\bar{A}_3\\right)=\\alpha(1-\\beta)(1-\\gamma),\n$$\n\n根据条件概率公式知，事件 \"�?$A_1$ 已发生的条件下， $A_2, A_3$ 都不发生\"的概率为\n$$\nP\\left(\\bar{A}_2 \\bar{A}_3 \\mid A_1\\right)=\\frac{P\\left(A_1 \\bar{A}_2 \\bar{A}_3\\right)}{P\\left(A_1\\right)}=(1-\\beta)(1-\\gamma) .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/b303e7f94e1e482e82634ef5db841cc5",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 57134,
+                            "question_id": 14284,
+                            "is_answer": true,
+                            "choice": "$(1-\\beta)(1-\\gamma)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57135,
+                            "question_id": 14284,
+                            "is_answer": false,
+                            "choice": "$1-\\alpha \\beta$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57136,
+                            "question_id": 14284,
+                            "is_answer": false,
+                            "choice": "$(1-\\alpha) \\beta$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57133,
+                            "question_id": 14284,
+                            "is_answer": false,
+                            "choice": "$\\alpha(1-\\beta)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.96,
+                    "difficulty_score": 0.2,
+                    "avg_time_spent": 158566,
+                    "ai_tags": "概率�?事件独立�?条件概率"
+                },
+                {
+                    "id": 14285,
+                    "subject_id": 3,
+                    "chapter_id": 285,
+                    "question_id": "085ec809-b4ea-42ff-beb0-b921f1bc4807",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设两两互相独立的三事�?$A, B$ �?$C$, 满足 $A B C=\\varnothing, P(A)=P(B)=P(C)<\\frac{1}{2}$, 且已�?$P(A \\cup B \\cup C)=\\frac{12}{25}$, �?$P(A)=()$.",
+                    "analysis": "由题意知\n$$\n\\begin{aligned}\n& P(A \\cup B \\cup C)= P(A)+ \\\\\n& P(B)+P(C) \\\\\n&-P(A B)-P(A C)-P(B C)+P(A B C) \\\\\n&= 3 P(A)-3[P(A)]^2=\\frac{12}{25}\n\\end{aligned}\n$$\n\n所�?$P(A)=\\frac{1}{5}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/57924e68840a4d9e8a048ed1df8a5e13",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 57139,
+                            "question_id": 14285,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57137,
+                            "question_id": 14285,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57140,
+                            "question_id": 14285,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57138,
+                            "question_id": 14285,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.93,
+                    "difficulty_score": 0.26,
+                    "avg_time_spent": 208623,
+                    "ai_tags": "事件独立�?概率加法公式"
+                },
+                {
+                    "id": 14289,
+                    "subject_id": 3,
+                    "chapter_id": 285,
+                    "question_id": "eb716e5b-a414-4d2c-8f82-f218e50c971b",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$A, B, C$ 是三个相互独立的随机事件, �?$0<P(C)<1$, 则在下列各对事件�? 不相互独立的一对是 ( ).",
+                    "analysis": "由多个相互独立事件的性质：\n1、若事件 $A_1, A_2, \\cdots, A_n(n \\geq 2)$ 相互独立, 则其中任�?$k(1 \\leq k \\leq n)$ 个事件也相互独立.\n2、若事件 $A_1, A_2, \\cdots, A_n(n \\geq 2)$ 相互独立, 则将 $A_1, A_2, \\cdots, A_n(n \\geq 2)$ 中任�?$m(1 \\leq m \\leq n)$ 个事件换成它们的对立事件, 所得的 $n$ 个事件仍相互独立. .\n所�?$\\overline{A+B}$ �?$C, \\overline{A-B}$ �?$C, \\overline{A B}$ �?$C$ 是相互独立的, 只有 $\\overline{A C}$ �?$\\bar{C}$ 不是.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/ac487aec0e474ddbb833163dc8fe3568",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 57156,
+                            "question_id": 14289,
+                            "is_answer": true,
+                            "choice": "$\\overline{A C}$ �?$\\bar{C}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57155,
+                            "question_id": 14289,
+                            "is_answer": false,
+                            "choice": "$\\overline{A+B}$ �?$C$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57153,
+                            "question_id": 14289,
+                            "is_answer": false,
+                            "choice": "$\\overline{A-B}$ �?$C$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57154,
+                            "question_id": 14289,
+                            "is_answer": false,
+                            "choice": "$\\overline{A B}$ �?$C$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.78,
+                    "difficulty_score": 0.26,
+                    "avg_time_spent": 66759,
+                    "tags": "近期易错,近期82人做�?,
+                    "ai_tags": "随机事件,相互独立�?
+                },
+                {
+                    "id": 14291,
+                    "subject_id": 3,
+                    "chapter_id": 285,
+                    "question_id": "dfa9ac08-df10-49af-9e3d-98e59aeddab4",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$A_1, A_2, A_3$ 是随机试�?$E$ 的三个相互独立的事件, 且知 $P\\left(A_1\\right)=\\alpha, P\\left(A_2\\right)=\\beta, P\\left(A_3\\right)=\\gamma$, 则事�?\" $A_1$ 发生�?$A_2, A_3$ 至少有一个发生\" 的概率是 ( ).",
+                    "analysis": "由于 $A_1, A_2, A_3$ 是相互独立的,\n解一 根据概率的性质有\n$$\n\\begin{gathered}\nP\\left(A_1\\left(A_2 \\cup A_3\\right)\\right)=P\\left(A_1 A_2 \\cup A_1 A_3\\right)=P\\left(A_1 A_2\\right)+P\\left(A_1 A_3\\right)-P\\left(A_1 A_2 A_3\\right) \\\\\n=\\alpha \\beta+\\alpha \\gamma-\\alpha \\beta \\gamma=\\alpha(\\beta+\\gamma-\\beta \\gamma)\n\\end{gathered}\n$$\n\n解二 由于 $A_1=A_1 \\bar{A}_2 \\bar{A}_3+A_1\\left(A_2 \\cup A_3\\right)$, 所以\n$$\n\\begin{gathered}\nP\\left(A_1\\left(A_2 \\cup A_3\\right)\\right)=P\\left(A_1\\right)-P\\left(A_1 \\bar{A}_2 \\bar{A}_3\\right)=\\alpha-\\alpha(1-\\beta)(1-\\gamma) \\\\\n=\\alpha[1-(1-\\beta)(1-\\gamma)] .\n\\end{gathered}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/2c20de79751943ec991facf44ada871c",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 57161,
+                            "question_id": 14291,
+                            "is_answer": true,
+                            "choice": "$\\alpha[1-(1-\\beta)(1-\\gamma)]$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57162,
+                            "question_id": 14291,
+                            "is_answer": false,
+                            "choice": "$\\alpha(1-\\beta)(1-\\gamma)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57163,
+                            "question_id": 14291,
+                            "is_answer": false,
+                            "choice": "$[1-\\alpha-(1-\\beta)(1-\\gamma)]$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57164,
+                            "question_id": 14291,
+                            "is_answer": false,
+                            "choice": "$\\alpha-(1-\\beta)(1-\\gamma)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.93,
+                    "difficulty_score": 0.21,
+                    "avg_time_spent": 350675,
+                    "tags": "",
+                    "ai_tags": "相互独立事件,概率计算"
+                },
+                {
+                    "id": 14293,
+                    "subject_id": 3,
+                    "chapter_id": 285,
+                    "question_id": "ce109697-be1e-48ab-88ae-0b97a6f6131e",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$n$ 个事�?$A_1, A_2, \\cdots, A_n$ 相互独立, �?$P\\left(A_k\\right)=p,(k=1,2, \\cdots, n)$, 则这 $n$ 个事件至少有一件不发生的概率是 ( $)$.",
+                    "analysis": "考虑逆事件， $A=\\{n$ 个事件至少有一件不发生 $\\}$ 的逆事件是 $\\bar{A}=\\{n$ 个事件全部都发生 $\\}$, �?$P(\\bar{A})=p^n$, 所�?$P(A)=1-P(\\bar{A})=1-p^n$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/bcfd4ab9bbff499eb543cd00d0f1cb01",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 57171,
+                            "question_id": 14293,
+                            "is_answer": true,
+                            "choice": "$1-p^n$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57170,
+                            "question_id": 14293,
+                            "is_answer": false,
+                            "choice": "$1-(1-p) p^{n-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57172,
+                            "question_id": 14293,
+                            "is_answer": false,
+                            "choice": "$(1-p) p^{n-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57169,
+                            "question_id": 14293,
+                            "is_answer": false,
+                            "choice": "$1-(1-p)^{n-1} p$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.91,
+                    "difficulty_score": 0.19,
+                    "avg_time_spent": 56368,
+                    "tags": "",
+                    "ai_tags": "独立�?逆事�?概率计算"
+                },
+                {
+                    "id": 14295,
+                    "subject_id": 3,
+                    "chapter_id": 285,
+                    "question_id": "29fe1f79-6870-4985-904d-a98201de080f",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设两两相互独立的三事�?$A, B$ �?$C$ 满足条件 : $A B C=\\varnothing, P(A)=P(B)=P(C)<\\frac{1}{2}$, 且已�?$P(A \\cup B \\cup C)=\\frac{9}{16}$,�?$P(A)=()$.",
+                    "analysis": "因为 $A B C=\\varnothing, P(A)=P(B)=P(C)$, �?$A, B, C$ 两两独立, 所以\n$$\n\\begin{aligned}\nP(A \\cup B \\cup C)= & P(A)+P(B)+P(C)-P(A B)-P(B C)-P(C A)+P(A B C) \\\\\n& =3 P(A)-3[P(A)]^2=\\frac{9}{16} .\n\\end{aligned}\n$$\n\n解得 $P(A)=\\frac{1}{4}$ �?$\\frac{3}{4}$, 由于 $P(A)<\\frac{1}{2}$, 所�?$P(A)=\\frac{1}{4}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/37243853255041c1be9c937cacd80615",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 57180,
+                            "question_id": 14295,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57177,
+                            "question_id": 14295,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57178,
+                            "question_id": 14295,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57179,
+                            "question_id": 14295,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.88,
+                    "difficulty_score": 0.25,
+                    "avg_time_spent": 53321,
+                    "ai_tags": "概率�?事件的独立�?概率加法公式"
+                },
+                {
+                    "id": 19511,
+                    "subject_id": 3,
+                    "chapter_id": 285,
+                    "question_id": "4848d8d6-df14-4281-ba05-1e5f4ea21699",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$A, B, C$ 三个事件相互独立, 下列说法不正确的�?().",
+                    "analysis": "(1)\n$$\n\\begin{aligned}\nP[(A \\cup B) C] &= P(AC \\cup BC)=P(AC)+P(BC)-P(ABC) \\\\\n&= P(A) P(C)+P(B) P(C)-P(A) P(B) P(C) \\\\\n&= P(C)[P(A)+P(B)-P(AB)]=P(C) P(A \\cup B),\n\\end{aligned}\n$$\n�?$A \\cup B$ �?$C$ 相互独立.\n\n(2)\n$$\n\\begin{aligned}\nP[(AB) C] &= P(ABC)=P(A) P(B) P(C) \\\\\n&= [P(A) P(B)] P(C)=P(AB) P(C),\n\\end{aligned}\n$$\n�?$AB$ �?$C$ 相互独立.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340754
+                    },
+                    "question_json": "mathreact/fda7137d1cb341eaac980f71e1532e3a",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89741,
+                            "question_id": 19511,
+                            "is_answer": true,
+                            "choice": "$A \\cap B$ �?$C$ 不相互独�?,
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89742,
+                            "question_id": 19511,
+                            "is_answer": false,
+                            "choice": "$A B$ �?$C$ 相互独立",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89743,
+                            "question_id": 19511,
+                            "is_answer": false,
+                            "choice": "$A \\cup B$ �?$C$ 相互独立",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89744,
+                            "question_id": 19511,
+                            "is_answer": false,
+                            "choice": "$B$ �?$C$ 相互独立",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.87,
+                    "difficulty_score": 0.23,
+                    "avg_time_spent": 30126,
+                    "ai_tags": "事件的独立�?概率�?
+                },
+                {
+                    "id": 19512,
+                    "subject_id": 3,
+                    "chapter_id": 285,
+                    "question_id": "6bf86a4b-6dc2-48aa-bad6-48f065d1947d",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$A, B, C$ 为三个事�? �?$A, B$ 相互独立, 则以下结论中不正确的�?( ).",
+                    "analysis": "�?$P(C)=0$, 由于 $A C \\subset C, B C \\subset C, A B C \\subset C$, 所以其概率都小于等�?$P(C)$, �?$P(A C)=P(B C)=P(A B C)=0$.\n则有 $P((A \\cup C) B)=P(A B \\cup B C)=P(A B)+P(B C)-P(A B C)=P(A) P(B)$,\n$$\nP(A \\cup C) P(B)=(P(A)+P(C)-P(A C)) P(B)=P(A) P(B),\n$$\n即若 $P(C)=0$, �?$A \\cup C$ �?$B$ 也独�?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340767
+                    },
+                    "question_json": "mathreact/d15f7aaf4f2f411bbac980f4f3bd009c",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89748,
+                            "question_id": 19512,
+                            "is_answer": true,
+                            "choice": "�?$C \\subset B$, �?$A$ �?$C$ 也独�?,
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89749,
+                            "question_id": 19512,
+                            "is_answer": false,
+                            "choice": "�?$P(C)=1$, �?$A C$ �?$B C$ 也独�?,
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89750,
+                            "question_id": 19512,
+                            "is_answer": false,
+                            "choice": "�?$P(C)=1$, �?$A \\cup C$ �?$B$ 也独�?,
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89751,
+                            "question_id": 19512,
+                            "is_answer": false,
+                            "choice": "�?$P(C)=0$, �?$A \\cup C$ �?$B$ 也独�?,
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.45,
+                    "difficulty_score": 0.48,
+                    "avg_time_spent": 64147,
+                    "tags": "近期易错,近期251人做�?,
+                    "ai_tags": "事件独立�?概率的基本性质"
+                },
+                {
+                    "id": 19513,
+                    "subject_id": 3,
+                    "chapter_id": 285,
+                    "question_id": "b6328eaf-e652-4a48-a6c0-4127c6621e73",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$n$ 个事�?$A_1, A_2, \\cdots, A_n$ 相互独立, �?$P\\left(A_k\\right)=p,(k=1,2, \\cdots, n)$ 则这 $n$ 个事件恰好有一件不发生的概率是 ( ).",
+                    "analysis": "�?$n$ 个事件恰好有一件不发生的事件可以写成\n$$\n\\bar{A}_1 A_2 A_3 \\cdots A_n+A_1 \\bar{A}_2 A_3 \\cdots A_n+\\cdots+A_1 A_2 A_3 \\cdots \\bar{A}_n\n$$\n\n由于上述加式中各项是互不相容的及 $n$ 个事件的相互独立�? 可知\n$$\n\\begin{aligned}\n& P\\left(\\bar{A}_1 A_2 A_3 \\cdots A_n+A_1 \\bar{A}_2 A_3 \\cdots A_n+\\cdots+A_1 A_2 A_3 \\cdots \\bar{A}_n\\right) \\\\\n& \\quad=P\\left(\\bar{A}_1\\right) P\\left(A_2\\right) \\cdots P\\left(A_n\\right)+P\\left(A_1\\right) P\\left(\\bar{A}_2\\right) \\cdots P\\left(A_n\\right)+\\cdots+P\\left(A_1\\right) P\\left(A_2\\right) \\cdots P\\left(\\bar{A}_n\\right) \\\\\n& \\quad=n(1-p) p^{n-1}\n\\end{aligned}\n$$\n\n注意：本题可以用伯努利概型来求解，即 $A_1, A_2, \\cdots, A_n$ 把当作事�?$A$ (发生的概率为 $p$ ) �?$n$ 次伯努利试验，从而事�?$A$ 恰好有一次没有发生的概率�?$C_n^{n-1} p^{n-1}(1-p)=n p^{n-1}(1-p)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340769
+                    },
+                    "question_json": "mathreact/4337d739e57043698e5651ddb403e9c4",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89755,
+                            "question_id": 19513,
+                            "is_answer": true,
+                            "choice": "$n p^{n-1}(1-p)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89756,
+                            "question_id": 19513,
+                            "is_answer": false,
+                            "choice": "$p^{n-1}(1-p)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89757,
+                            "question_id": 19513,
+                            "is_answer": false,
+                            "choice": "$1-p^n$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89758,
+                            "question_id": 19513,
+                            "is_answer": false,
+                            "choice": "$n p(1-p)^{n-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.7,
+                    "difficulty_score": 0.3,
+                    "avg_time_spent": 67524,
+                    "ai_tags": "事件独立�?伯努利概�?概率计算"
+                },
+                {
+                    "id": 19514,
+                    "subject_id": 3,
+                    "chapter_id": 285,
+                    "question_id": "98e8e643-7ff3-47c2-afdf-6ccdcfead7d6",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设事�?$A$ �?$B$ 相互独立, 事件 $B$ �?$C$ 互不相容, 事件 $A$ �?$C$ 互不相容, �?$P(A)=P(B)=0.5, P(C)=0.2$, 则事�?$A, B, C$ 中仅 $C$ 发生或仅 $C$ 不发生的概率�?( ).",
+                    "analysis": "由于事件 $B$ �?$C$ 互不相容，事�?$A$ �?$C$ 互不相容，则 $AC=\\varnothing, BC=\\varnothing, C \\subset \\bar{A}, C \\subset \\bar{B}$。\n所�?$\\bar{A} \\bar{B} C=C, A B \\bar{C}=A B-A B C=A B$。\n又由于事�?$A$ �?$B$ 相互独立，\n�?$P(\\bar{A} \\bar{B} C+A B \\bar{C})=P(\\bar{A} \\bar{B} C)+P(A B \\bar{C})=P(C)+P(A B)=0.2+0.5 \\times 0.5=0.45$�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340770
+                    },
+                    "question_json": "mathreact/a2d5909d7ade4ee78a3b9c824d51ced0",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89762,
+                            "question_id": 19514,
+                            "is_answer": true,
+                            "choice": "$0.45$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89763,
+                            "question_id": 19514,
+                            "is_answer": false,
+                            "choice": "$0.25$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89764,
+                            "question_id": 19514,
+                            "is_answer": false,
+                            "choice": "$0.4$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89765,
+                            "question_id": 19514,
+                            "is_answer": false,
+                            "choice": "$0.70$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.62,
+                    "difficulty_score": 0.41,
+                    "avg_time_spent": 88979,
+                    "tags": "近期易错,近期121人做�?,
+                    "ai_tags": "概率�?事件的独立�?互不相容事件"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 12,
+            "questions": [
+                {
+                    "id": 19518,
+                    "subject_id": 3,
+                    "chapter_id": 285,
+                    "question_id": "a362d10b-1ef0-42b2-9f02-4b4e76681b1c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$A_1, A_2, A_3$ 是随机试�?$E$ 的三个相互独立的事件, 已知 $P\\left(A_1\\right)=\\alpha, P\\left(A_2\\right)=\\beta, P\\left(A_3\\right)=\\gamma$, �?$A_1, A_2, A_3$ 至少有一个发生的概率�?().",
+                    "analysis": "这里考虑通过逆事件的概率求得结果, $A_1, A_2, A_3$ 至少有一个发生的逆事件就是三者都不发�? �?$\\bar{A}_1 \\bar{A}_2 \\bar{A}_3$,由于 $A_1, A_2, A_3$ 是随机试�?$E$ 的三个相互独立的事件，所�?$\\bar{A}_1, \\bar{A}_2, \\bar{A}_3$ 也是相互独立的，所以\n$$\nP\\left(\\bar{A}_1 \\bar{A}_2 \\bar{A}_3\\right)=P\\left(\\bar{A}_1\\right) P\\left(\\bar{A}_2\\right) P\\left(\\bar{A}_3\\right)=(1-\\alpha)(1-\\beta)(1-\\gamma)\n$$\n\n�?$A_1, A_2, A_3$ 至少有一个发生的概率是\n$$\n\\begin{gathered}\nP\\left(A_1 \\cup A_2 \\cup A_3\\right)=1-P\\left(\\bar{A}_1 \\bar{A}_2 \\bar{A}_3\\right)=1-(1-\\alpha)(1-\\beta)(1-\\gamma) \\\\\n=\\alpha+\\beta+\\gamma-\\alpha \\beta-\\alpha \\gamma-\\beta \\gamma+\\alpha \\beta \\gamma .\n\\end{gathered}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340783
+                    },
+                    "question_json": "mathreact/e6f6f69fe71642c29890a90f22204f2d",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89790,
+                            "question_id": 19518,
+                            "is_answer": true,
+                            "choice": "$\\alpha+\\beta+\\gamma-\\alpha \\beta-\\alpha \\gamma-\\beta \\gamma+\\alpha \\beta \\gamma$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89791,
+                            "question_id": 19518,
+                            "is_answer": false,
+                            "choice": "$\\alpha \\beta \\gamma$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89792,
+                            "question_id": 19518,
+                            "is_answer": false,
+                            "choice": "$\\alpha \\beta+\\alpha \\gamma+\\beta \\gamma$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89793,
+                            "question_id": 19518,
+                            "is_answer": false,
+                            "choice": "$\\alpha \\beta+\\alpha \\gamma+\\beta \\gamma-\\alpha \\beta \\gamma$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.96,
+                    "difficulty_score": 0.24,
+                    "avg_time_spent": 53798,
+                    "tags": "",
+                    "ai_tags": "概率�?相互独立事件,概率加法公式"
+                },
+                {
+                    "id": 20445,
+                    "subject_id": 3,
+                    "chapter_id": 285,
+                    "question_id": "4898e4ab-c8e2-4e99-ae1a-0469600c12c2",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设事�?$A_1, A_2 \\cdots, A_n$ 相互独立, �?$P\\left(A_k\\right)=p_k(k=1,2, \\cdots, n), \\sum_{k=1}^n p_k=1 . \\quad$ 则这 $n$ 个事件中至少有一件不发生的概率是 ( ).",
+                    "analysis": "考虑用逆事件来求解，事�?\" $n$ 个事件中至少有一件不发生\" 的逆事件是 \" $n$ 个事件全部发生\" �?$A_1 A_2 \\cdots A_n$,所以所要求概率�?$1-P\\left(A_1 A_2 \\cdots A_n\\right)=1-\\prod_{k=1}^n p_k$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764382201
+                    },
+                    "question_json": "mathreact/e477d5585c774409abee864c4b1e6d4c",
+                    "updated_at": {
+                        "seconds": 1775673109
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 96279,
+                            "question_id": 20445,
+                            "is_answer": true,
+                            "choice": "$1-\\prod_{i=1}^n p_i$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 96280,
+                            "question_id": 20445,
+                            "is_answer": false,
+                            "choice": "$\\prod_{i=1}^n p_i$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 96281,
+                            "question_id": 20445,
+                            "is_answer": false,
+                            "choice": "$\\prod_{i=1}^n\\left(1-p_i\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 96282,
+                            "question_id": 20445,
+                            "is_answer": false,
+                            "choice": "$1-\\prod_{i=1}^n\\left(1-p_i\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.3,
+                    "avg_time_spent": 77408,
+                    "ai_tags": "概率�?事件独立�?逆事�?
+                }
+            ]
+        }
+    }
+]

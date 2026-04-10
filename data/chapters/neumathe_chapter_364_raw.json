@@ -1,0 +1,945 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 11,
+            "questions": [
+                {
+                    "id": 13295,
+                    "subject_id": 3,
+                    "chapter_id": 364,
+                    "question_id": "e722d427-3f16-4d8d-8efb-41f4251a0ae8",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设连续型随机变量 $(X, Y)$ 的密度函数为 $f(x, y)=\\left\\{\\begin{array}{cc}8 x y, & 0 \\leq x \\leq y \\leq 1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$, �?$D(X+Y)=()$.",
+                    "analysis": "$\\begin{gathered}E(X+Y)=\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty}(x+y) f(x, y) d x d y=8 \\int_0^1 d x \\int_x^1 x y(x+y) d y=\\frac{8}{15}+\\frac{4}{5}=\\frac{4}{3}, \\\\ E\\left[(X+Y)^2\\right]=E\\left(X^2+2 X Y+Y^2\\right)=\\int_0^1 d x \\int_x^1 8 x y\\left(x^2+2 x y+y^2\\right) d y=\\frac{1}{3}+\\frac{8}{9}+\\frac{2}{3}=\\frac{17}{9}, \\\\ D(X+Y)=E\\left[(X+Y)^2\\right]-E^2(X+Y)=\\frac{17}{9}-\\left(\\frac{4}{3}\\right)^2=\\frac{1}{9} .\\end{gathered}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/6642e91fa8c24b8ea4b215e78bf48e89",
+                    "updated_at": {
+                        "seconds": 1774981844
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53178,
+                            "question_id": 13295,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53180,
+                            "question_id": 13295,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53177,
+                            "question_id": 13295,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53179,
+                            "question_id": 13295,
+                            "is_answer": false,
+                            "choice": "$\\frac{4}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.78,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 172342,
+                    "ai_tags": "概率�?二维随机变量,方差"
+                },
+                {
+                    "id": 13296,
+                    "subject_id": 3,
+                    "chapter_id": 364,
+                    "question_id": "b3d804d6-ff43-4f18-83d5-34f8a30d9c5f",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设连续随机变�?$X$ 的概率密度为 $f(x)=\\frac{1}{2} e^{-|x|}$, �?$E(X), D(X)$ 分别�?( ).",
+                    "analysis": "$E(X)=\\int_{-\\infty}^{+\\infty} \\frac{1}{2} x e^{-|x|} d x=0$ (被积函数为奇函数).\n$D(X)=E\\left(X^2\\right)-E^2(X)=\\int_{-\\infty}^{+\\infty} \\frac{1}{2} x^2 e^{-|x|} d x=\\int_0^{+\\infty} x^2 e^{-x} d x=1+1=2$ (第二个积分实质上是参数为 1 的指数变量的平方的期�?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/e6092cadeb814805afcdea8de619e47e",
+                    "updated_at": {
+                        "seconds": 1766773900
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53182,
+                            "question_id": 13296,
+                            "is_answer": true,
+                            "choice": "0,2",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53184,
+                            "question_id": 13296,
+                            "is_answer": false,
+                            "choice": "0,4",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53183,
+                            "question_id": 13296,
+                            "is_answer": false,
+                            "choice": "1,2",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53181,
+                            "question_id": 13296,
+                            "is_answer": false,
+                            "choice": "$-1,4$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 5867,
+                    "ai_tags": "连续型随机变�?数学期望,方差"
+                },
+                {
+                    "id": 13298,
+                    "subject_id": 3,
+                    "chapter_id": 364,
+                    "question_id": "be6eeeb5-b562-42c3-94d0-912d4dc3cc5b",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$X$ 服从参数�?1 的指数分�? �?$D\\left(X+e^{-2 X}\\right)=()$.",
+                    "analysis": "由于 $X$ 服从 $\\lambda=1$ 的指数分�? 因此 $E(X)=1, D(X)=1, E\\left(X^2\\right)=D(X)+(E(X))^2=2$.\n$$\nE\\left(X+e^{-2 X}\\right)=E(X)+E\\left(e^{-2 X}\\right)=1+\\int_0^{+\\infty} e^{-2 x} e^{-x} d x=1+\\frac{1}{3} \\int_0^{+\\infty} 3 e^{-3 x} d x=1+\\frac{1}{3}=\\frac{4}{3} .\n$$\n\n另由 $\\left(X+e^{-2 X}\\right)^2=X^2+2 X e^{-2 X}+e^{-4 X}$, 且\n$$\n\\begin{aligned}\nE\\left(X e^{-2 X}\\right) & =\\int_0^{+\\infty} x e^{-2 x} e^{-x} d x=\\int_0^{+\\infty} x e^{-3 x} d x=\\frac{1}{3} \\int_0^{+\\infty} 3 x e^{-3 x} d x=\\frac{1}{3} \\times \\frac{1}{3}=\\frac{1}{9}, \\\\\nE\\left(e^{-4 X}\\right) & =\\int_0^{+\\infty} e^{-4 x} e^{-x} d x=\\frac{1}{5} \\int_0^{+\\infty} 5 e^{-5 x} d x=\\frac{1}{5}\n\\end{aligned}\n$$\n\n�?$\\quad E\\left[\\left(X+e^{-2 X}\\right)^2\\right]=E\\left(X^2\\right)+2 E\\left(X e^{-2 X}\\right)+E\\left(e^{-4 X}\\right)=2+2 \\times \\frac{1}{9}+\\frac{1}{5}=\\frac{109}{45}$.\n所�?$D\\left(X+e^{-2 X}\\right)=\\frac{109}{45}-\\frac{16}{9}=\\frac{29}{45}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/17d7696787d241a98524e796657b9fe5",
+                    "updated_at": {
+                        "seconds": 1767724271
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53189,
+                            "question_id": 13298,
+                            "is_answer": true,
+                            "choice": "$\\frac{29}{45}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53192,
+                            "question_id": 13298,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53190,
+                            "question_id": 13298,
+                            "is_answer": false,
+                            "choice": "$\\frac{4}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53191,
+                            "question_id": 13298,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 93316,
+                    "ai_tags": "指数分布,方差,数学期望"
+                },
+                {
+                    "id": 13301,
+                    "subject_id": 3,
+                    "chapter_id": 364,
+                    "question_id": "ed5bb5f2-0a73-4b4c-95eb-bba8b2ff4cf1",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$X \\sim U(0,1), Y \\sim U(1,3), X$ �?$Y$ 相互独立, �?$D(X Y)=()$.",
+                    "analysis": "因为 $X, Y$ 相互独立, 所以\n$$\n\\begin{aligned}\n& D(X Y)=E\\left(X^2\\right) E\\left(Y^2\\right)-E^2(X) E^2(Y) \\\\\n= & {\\left[D(X)+E^2(X)\\right]\\left[D(Y)+E^2(Y)\\right]-E^2(X) E^2(Y) } \\\\\n= & D(X) D(Y)+D(X) E^2(Y)+D(Y) E^2(X) \\\\\n= & \\frac{1}{12} \\times \\frac{1}{12} \\times 4+\\frac{1}{12} \\times 4+\\frac{1}{12} \\times 4 \\times \\frac{1}{4}=\\frac{4}{9} .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/665eaf4d23ff47aba441e2101b5c3d69",
+                    "updated_at": {
+                        "seconds": 1765737205
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53203,
+                            "question_id": 13301,
+                            "is_answer": true,
+                            "choice": "$\\frac{4}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53204,
+                            "question_id": 13301,
+                            "is_answer": false,
+                            "choice": "$\\frac{13}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53201,
+                            "question_id": 13301,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53202,
+                            "question_id": 13301,
+                            "is_answer": false,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 0,
+                    "ai_tags": "均匀分布,方差,相互独立"
+                },
+                {
+                    "id": 18885,
+                    "subject_id": 3,
+                    "chapter_id": 364,
+                    "question_id": "cb5797d2-cb01-48e0-95f5-0d9e8463be6a",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$X$ 的分布函数为 $F(x)=\\left\\{\\begin{array}{c}1-\\frac{a^3}{x^3}, x \\geq a \\\\ 0, \\text { 其它 }\\end{array}\\right.$, 其中 $a>0$, �?$E(X), D(X)$ �?( ).",
+                    "analysis": "先求出概率密�?$f(x)=\\begin{cases} \\frac{3 a^3}{x^4}, & x \\geq a \\\\ 0, & \\text{其它} \\end{cases}$, �?$E(X)=\\frac{3}{2} a, D(X)=\\frac{3}{4} a^2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339253
+                    },
+                    "question_json": "mathreact/6607850792304976af341bc466d40979",
+                    "updated_at": {
+                        "seconds": 1766514710
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85359,
+                            "question_id": 18885,
+                            "is_answer": true,
+                            "choice": "$\\frac{3}{2} a, \\frac{3}{4} a^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85360,
+                            "question_id": 18885,
+                            "is_answer": false,
+                            "choice": "$a, a^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85361,
+                            "question_id": 18885,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2} a, \\frac{1}{4} a^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85362,
+                            "question_id": 18885,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{2} a, \\frac{1}{2} a^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 162609,
+                    "ai_tags": "连续型随机变�?数学期望,方差"
+                },
+                {
+                    "id": 18886,
+                    "subject_id": 3,
+                    "chapter_id": 364,
+                    "question_id": "fa365139-87ba-47c0-9a18-29005800be7e",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$X \\sim N(1,2), \\quad Y$ 服从参数�?3 的泊松分�? �?$X$ �?$Y$ 独立, �?$D(X Y)=()$.",
+                    "analysis": "因为 $X, Y$ 相互独立, 所以\n$$\n\\begin{aligned}\n& D(X Y)=E\\left(X^2\\right) E\\left(Y^2\\right)-E^2(X) E^2(Y) \\\\\n= & {\\left[D(X)+E^2(X)\\right]\\left[D(Y)+E^2(Y)\\right]-E^2(X) E^2(Y) } \\\\\n= & D(X) D(Y)+D(X) E^2(Y)+D(Y) E^2(X) \\\\\n= & 2 \\times 3+2 \\times 3^2+3 \\times 1^2=27 .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339256
+                    },
+                    "question_json": "mathreact/edcf3ea1357c44d88f5f767ebb6c5b12",
+                    "updated_at": {
+                        "seconds": 1774981850
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85366,
+                            "question_id": 18886,
+                            "is_answer": true,
+                            "choice": "$27$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85367,
+                            "question_id": 18886,
+                            "is_answer": false,
+                            "choice": "$9$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85368,
+                            "question_id": 18886,
+                            "is_answer": false,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85369,
+                            "question_id": 18886,
+                            "is_answer": false,
+                            "choice": "$18$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.33,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 73087,
+                    "ai_tags": "方差,正态分�?泊松分布"
+                },
+                {
+                    "id": 18887,
+                    "subject_id": 3,
+                    "chapter_id": 364,
+                    "question_id": "a2e36928-a953-4c7f-8553-f83b72a0c0f3",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$\\xi, \\eta$ 相互独立, $\\xi$ 的概率密度为 $\\varphi(x)=\\frac{1}{3 \\sqrt{2 \\pi}} e^{-\\frac{x^2-4 x+4}{18}}, \\eta \\sim P(\\lambda)$, �?$E(\\eta)=\\sqrt{D(\\xi)}$,�?$E(6-4 \\xi+3 \\eta), D(6-4 \\xi+3 \\eta)$ 分别�?( ).",
+                    "analysis": "�?$\\varphi(x)=\\frac{1}{3 \\sqrt{2 \\pi}} e^{-\\frac{x^2-4 x+4}{18}}=\\frac{1}{3 \\sqrt{2 \\pi}} e^{-\\frac{(x-2)^2}{2 \\times 3^2}}$ �?$\\xi \\sim N\\left(2,3^2\\right)$, 于是 $E(\\xi)=2, D(\\xi)=3^2=9$. �?$E(\\eta)=D(\\eta)=\\lambda=3$, 所以\n$$\n\\begin{aligned}\n& E(6-4 \\xi+3 \\eta)=6-4 E(\\xi)+3 E(\\eta)=6-4 \\times 2+3 \\times 3=7 \\\\\n& D(6-4 \\xi+3 \\eta)=4^2 D(\\xi)+3^2 D(\\eta)=16 \\times 9+9 \\times 3=171\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339256
+                    },
+                    "question_json": "mathreact/1ab98640ef4b4f8aa5f57b4b3750659f",
+                    "updated_at": {
+                        "seconds": 1766860317
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85373,
+                            "question_id": 18887,
+                            "is_answer": true,
+                            "choice": "7,171",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85374,
+                            "question_id": 18887,
+                            "is_answer": false,
+                            "choice": "3,27",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85375,
+                            "question_id": 18887,
+                            "is_answer": false,
+                            "choice": "4,16",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85376,
+                            "question_id": 18887,
+                            "is_answer": false,
+                            "choice": "7,144",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 118246,
+                    "ai_tags": "正态分�?泊松分布,随机变量的数字特�?
+                },
+                {
+                    "id": 18889,
+                    "subject_id": 3,
+                    "chapter_id": 364,
+                    "question_id": "5d1fa5c7-843d-47d6-9183-f00260f30588",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$X$ 的概率密度为\n$$\nf(x)=\\left\\{\\begin{array}{cc}\na x^2+b x+c, & 0<x<1 \\\\\n0, & \\text { 其它 }\n\\end{array}\\right. \\text {, }\n$$\n\n并已�?$E(X)=0.5, D(X)=0.15$, 则系�?$a, b, c$ �?( ).",
+                    "analysis": "由概率密度函数的性质: $\\int_{-\\infty}^{+\\infty} f(x) d x=1$, �?$\\int_0^1\\left(a x^2+b x+c\\right) d x=1$, 即\n$$\n\\frac{1}{3} a+\\frac{b}{2}+c=1 \\quad (1)\n$$\n\n又由 $E(X)=\\int_{-\\infty}^{+\\infty} x f(x) d x=\\int_0^1 x\\left(a x^2+b x+c\\right) d x=\\frac{a}{4}+\\frac{b}{3}+\\frac{c}{2}$, 有\n$$\n\\frac{1}{4} a+\\frac{1}{3} b+\\frac{1}{2} c=0.5 \\quad (2)\n$$\n\n再由 $E\\left(X^2\\right)=\\int_{-\\infty}^{+\\infty} x^2 f(x) d x=\\int_0^1 x^2\\left(a x^2+b x+c\\right) d x=\\frac{1}{5} a+\\frac{1}{4} b+\\frac{1}{3} c$, 有\n$$\n\\frac{1}{5} a+\\frac{1}{4} b+\\frac{1}{3} c=0.4 \\quad (3)\n$$\n\n解由�?1)�?2)�?3)联立的方程组, �?$a=12, b=-12, c=3$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339267
+                    },
+                    "question_json": "mathreact/349bfbe469d2440f94b359283e2aa07a",
+                    "updated_at": {
+                        "seconds": 1766860313
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85387,
+                            "question_id": 18889,
+                            "is_answer": true,
+                            "choice": "$a=12, b=-12, c=3$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85388,
+                            "question_id": 18889,
+                            "is_answer": false,
+                            "choice": "$a=12, b=-12, c=-3$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85389,
+                            "question_id": 18889,
+                            "is_answer": false,
+                            "choice": "$a=12, b=12, c=3$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85390,
+                            "question_id": 18889,
+                            "is_answer": false,
+                            "choice": "$a=12, b=12, c=-3$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 52182,
+                    "ai_tags": "概率密度,数学期望,方差"
+                },
+                {
+                    "id": 18892,
+                    "subject_id": 3,
+                    "chapter_id": 364,
+                    "question_id": "262865ff-c8fb-4daf-9583-535469446fd7",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$X, Y$ 的联合分布在以点 $(0,1),(1,0),(1,1)$ 为顶点的三角形区域上服从均匀分布, 则随机变�?$Z=X+Y$的期望与方差分别�?( ).",
+                    "analysis_image": "/XDSys/TK/GL/175/Averge/175_Averge_262865ff-c8fb-4daf-9583-535469446fd7/175_Averge_262865ff-c8fb-4daf-9583-535469446fd7_5.webp",
+                    "analysis_image_hash": "fa4aa5a5a5b5264a",
+                    "question_render_type": 1,
+                    "analysis_render_type": 2,
+                    "created_at": {
+                        "seconds": 1764339270
+                    },
+                    "question_json": "mathreact/7f71006dafe14ecb9edbf727c104c54e",
+                    "updated_at": {
+                        "seconds": 1774981850
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85408,
+                            "question_id": 18892,
+                            "is_answer": true,
+                            "choice": "$\\frac{4}{3}, \\frac{1}{18}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85409,
+                            "question_id": 18892,
+                            "is_answer": false,
+                            "choice": "$\\frac{4}{3}, \\frac{11}{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85410,
+                            "question_id": 18892,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{4}, \\frac{1}{18}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85411,
+                            "question_id": 18892,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{4}, \\frac{11}{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 71139,
+                    "ai_tags": "二维随机变量,均匀分布,数学期望,方差"
+                },
+                {
+                    "id": 18895,
+                    "subject_id": 3,
+                    "chapter_id": 364,
+                    "question_id": "9e4c2b4e-a713-4e34-ab20-1b8e2c8d2d1c",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设二维随机变�?$(X, Y)$ 在区�?$D=\\{(x, y)|0<x<1,|y|<x\\}$ 内服从均匀分布, �?$Z=3 X+2$ 的数学期�?$E(Z)$ 与方�?$D(Z)$ 分别�?( ).",
+                    "analysis": "$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\begin{cases}\n1, & 0<x<1, |y|<x \\\\\n0, & \\text{其他}\n\\end{cases}\n$$\n所以\n$$\n\\begin{aligned}\nE(Z) &= \\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty}(3 x+2) f(x, y) d x d y=\\int_0^1 d x \\int_{-x}^x(3 x+2) d y=4, \\\\\nE(Z^2) &= \\int_0^1 d x \\int_{-x}^x(3 x+2)^2 d y=\\frac{33}{2}, \\\\\nD(Z) &= E(Z^2)-E^2(Z)=\\frac{33}{2}-16=\\frac{1}{2}.\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339282
+                    },
+                    "question_json": "mathreact/4827a381a34d4e56abd68e762ea6fb0a",
+                    "updated_at": {
+                        "seconds": 1767724277
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85429,
+                            "question_id": 18895,
+                            "is_answer": true,
+                            "choice": "$4, \\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85430,
+                            "question_id": 18895,
+                            "is_answer": false,
+                            "choice": "$2, \\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85431,
+                            "question_id": 18895,
+                            "is_answer": false,
+                            "choice": "$4, 2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85432,
+                            "question_id": 18895,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}, \\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.83,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 218365,
+                    "ai_tags": "二维随机变量,均匀分布,数学期望,方差"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 11,
+            "questions": [
+                {
+                    "id": 18912,
+                    "subject_id": 3,
+                    "chapter_id": 364,
+                    "question_id": "aa453041-bfd3-4154-8a13-f71d13a14628",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$X_1, X_2, \\cdots, X_n$ 相互独立, 且都服从数学期望�?1 的指数分�? �?$Z=\\min \\left\\{X_1, X_2, \\cdots, X_n\\right\\}$ 的数学期望和方差分别�?( ).",
+                    "analysis": "$X_i(i=1,2, \\cdots, n)$ 的分布函数为\n$$\nF(x)=\\left\\{\\begin{array}{cc}\n1-e^{-x}, & x>0 \\\\\n0, & \\text{其它}\n\\end{array},\\right.\n$$\n$Z=\\min \\left\\{X_1, X_2, \\cdots, X_n\\right\\}$ 的分布函数为\n$$\nF_Z(z)=1-[1-F(z)]^n=\\left\\{\\begin{array}{cc}\n1-e^{-nz}, & z>0 \\\\\n0, & \\text{其它}\n\\end{array},\\right.\n$$\n\n从�?$Z=\\min \\left\\{X_1, X_2, \\cdots, X_n\\right\\}$ 服从参数�?$n$ 的指数分�?\n于是 $E(Z)=\\frac{1}{n}, E\\left(Z^2\\right)=\\frac{2}{n^2}, D(Z)=E\\left(Z^2\\right)-(E(Z))^2=\\frac{1}{n^2}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339312
+                    },
+                    "question_json": "mathreact/c98010ccf3de40e49bc5dd172d8a83a8",
+                    "updated_at": {
+                        "seconds": 1766601143
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85548,
+                            "question_id": 18912,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{n}, \\frac{1}{n^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85549,
+                            "question_id": 18912,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n^2}, \\frac{2}{n^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85550,
+                            "question_id": 18912,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{n}, \\frac{1}{n^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85551,
+                            "question_id": 18912,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n}, \\frac{2}{n^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 101602,
+                    "ai_tags": "指数分布,数学期望,方差"
+                }
+            ]
+        }
+    }
+]

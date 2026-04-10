@@ -1,0 +1,1807 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 21,
+            "questions": [
+                {
+                    "id": 13037,
+                    "subject_id": 3,
+                    "chapter_id": 270,
+                    "question_id": "84996a6e-1026-43b1-8f89-a85e327a64ed",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?52 张扑克牌�? 随机抽取 2 �? 则恰取到 2 张不同花且最大点数为 7 的概�?$p=()$.",
+                    "analysis": "�?52 张扑克牌中随机抽�?2 张的取法共有 $C_{52}^2$ �? 恰取�?2 张不同花且最大点数为 7 的取法分两种情况:\n(1)抽取到的两张不同花的 7, 则有 $C_4^2$;\n(2)抽取到一�?7 , 另外一张是从另 3 种花�?18 张小�?7 的牌取得, �?$C_4^1 C_{18}^1$ �?\n\n所�?$p=\\frac{C_4^2+C_4^1 C_{18}^1}{C_{52}^2}=\\frac{1}{17}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/806a3ca01c9f4f7baf49ac8f6466e599",
+                    "updated_at": {
+                        "seconds": 1775673110
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52147,
+                            "question_id": 13037,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{17}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52146,
+                            "question_id": 13037,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{18}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52145,
+                            "question_id": 13037,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{15}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52148,
+                            "question_id": 13037,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{51}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.71,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 192537,
+                    "tags": "近期易错,近期116人做�?,
+                    "ai_tags": "古典概型,排列组合"
+                },
+                {
+                    "id": 13039,
+                    "subject_id": 3,
+                    "chapter_id": 270,
+                    "question_id": "3dfe8f45-285a-4eda-b2c1-549d15b26409",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$1,2, \\cdots, 10$ 共十个数字中任取一�? 然后放回, 先后取出 5 个数�? 5 个数字中不含 5 �?10 的概率是 ( ).",
+                    "analysis": "从十个数字中有放回的取出五个数字的取法共�?$10^5$ 种， $A$ 表示事件 \" 5 个数字中不含 5 �?10 \"，适合 $A$ 的取法共�?$8^5$ �? �?$P(A)=\\frac{8^5}{10^5}=(0.8)^5=0.32768$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/75ea85b4cf084ab193efde138e364d51",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52154,
+                            "question_id": 13039,
+                            "is_answer": true,
+                            "choice": "$\\frac{8^5}{10^5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52156,
+                            "question_id": 13039,
+                            "is_answer": false,
+                            "choice": "$\\frac{9^5}{10^5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52155,
+                            "question_id": 13039,
+                            "is_answer": false,
+                            "choice": "$\\frac{2^5}{10^5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52153,
+                            "question_id": 13039,
+                            "is_answer": false,
+                            "choice": "$\\frac{8^5-2^5}{10^5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.93,
+                    "difficulty_score": 0.22,
+                    "avg_time_spent": 112411,
+                    "tags": "近期39人做�?,
+                    "ai_tags": "概率�?古典概型"
+                },
+                {
+                    "id": 13048,
+                    "subject_id": 3,
+                    "chapter_id": 270,
+                    "question_id": "7d3dbb75-45b2-4a63-8366-200e7f9be9fe",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "在电话号码簿中任�?1 个电话号�? 设后�?4 个数中的每一个数都是等可能的取自 $0,1,2, \\cdots, 9$, 则后�?4 个数全不相同的概率是 ( )�?,
+                    "analysis": "由于电话号码是可以重复的, 所以后�?4 个数的选取方法�?$10^4$ �? �?4 个数全不相同的选取方法�?$P_{10}^4$ �? 所以事�?$A$ : \"后面 4 个数全不相同\" 的概率为 $P(A)=\\frac{P_{10}^4}{10^4}=0.504$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/8d2788962e3a4deea3ae6913cd89bc4f",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52192,
+                            "question_id": 13048,
+                            "is_answer": true,
+                            "choice": "$0.504$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52189,
+                            "question_id": 13048,
+                            "is_answer": false,
+                            "choice": "$0.042$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52190,
+                            "question_id": 13048,
+                            "is_answer": false,
+                            "choice": "$0.3024$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52191,
+                            "question_id": 13048,
+                            "is_answer": false,
+                            "choice": "$0.406$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.83,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 153910,
+                    "ai_tags": "古典概型,排列组合"
+                },
+                {
+                    "id": 13051,
+                    "subject_id": 3,
+                    "chapter_id": 270,
+                    "question_id": "6fa52167-e902-4f90-856d-33de183fb344",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$1 \\sim 2000$ 的整数中随机地取一个数, 问取到的整数既不能被 6 整除, 又不能被 8 整除的概率为 () .",
+                    "analysis": "�?$A$ 为事�?\"取到的数能被 6 整除\"�?$B$ 为事�?\"取到的数能被 8 整除\"，则所求概率为\n$$\nP(\\bar{A} \\bar{B})=P(\\overline{A \\cup B})=1-P(A \\cup B)=1-\\{P(A)+P(B)-P(A B)\\}\n$$\n\n由于 $333<\\frac{2000}{6}<334$, 故得 $P(A)=\\frac{333}{2000}$.\n由于 $\\frac{2000}{8}=250$, 故得 $P(B)=\\frac{250}{2000}$.\n又由于一个数同时能被 6 �?8 整除, 就相当于能被 24 整除, 因此, 由\n$$\n83<\\frac{2000}{24}<84 \\Rightarrow P(A B)=\\frac{83}{2000}\n$$\n\n于是所求概率为: $p=1-\\left(\\frac{333}{2000}+\\frac{250}{2000}-\\frac{83}{2000}\\right)=\\frac{3}{4}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/ee264e8adf614949964898bdc56e3cbd",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52201,
+                            "question_id": 13051,
+                            "is_answer": true,
+                            "choice": "$\\frac{3}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52202,
+                            "question_id": 13051,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52204,
+                            "question_id": 13051,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52203,
+                            "question_id": 13051,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.74,
+                    "difficulty_score": 0.33,
+                    "avg_time_spent": 136931,
+                    "tags": "近期易错,近期123人做�?,
+                    "ai_tags": "古典概型,容斥原理,整除"
+                },
+                {
+                    "id": 13053,
+                    "subject_id": 3,
+                    "chapter_id": 270,
+                    "question_id": "e268de8e-3f74-4a7d-ba49-a18495181fda",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$1,2, \\cdots, 10$ 共十个数字中任取一�? 然后放回, 先后取出 5 个数�? 则所�?5 个数字全部相同的事件的概率等�?( ).",
+                    "analysis": "由于是有放回的抽�? 所以从 $1,2, \\cdots, 10$ 共十个数字中任取一个数�? 抽取 5 次的取法�?$10^5$ �? 每次取到的数字都是相同的可能取法�?10 �? 所以事�?$A$ : \"先后取出�?5 个数字全部相同\" 的概率为 $P(A)=\\frac{10}{10^5}=\\frac{1}{10^4}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/effee59463bc4d689d7935a15451cae8",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52209,
+                            "question_id": 13053,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{10^4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52210,
+                            "question_id": 13053,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52212,
+                            "question_id": 13053,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52211,
+                            "question_id": 13053,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{10^5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.71,
+                    "difficulty_score": 0.28,
+                    "avg_time_spent": 119236,
+                    "tags": "近期易错,近期178人做�?,
+                    "ai_tags": "古典概型,概率计算"
+                },
+                {
+                    "id": 13054,
+                    "subject_id": 3,
+                    "chapter_id": 270,
+                    "question_id": "68c2c81e-67c6-4f81-b9ff-30316f34a699",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$1,2, \\cdots, 10$ 共十个数字中任取一�? 然后放回, 先后取出 5 个数�? 则所�?5 个数字全不相同的事件的概率等�?( ).",
+                    "analysis": "�?10 个数字中有放回地取出 5 个数�? 共有 $10^5$ 种取�? 取得 5 个数字全不相同的取法�?$P_{10}^5$ $=10 \\times 9 \\times 8 \\times 7 \\times 6$ �? 从而根据古典概型计�? 事件 $A$ : \"所�?5 个数字全不相同\" 的概率为 $P(A)=\\frac{10 \\times 9 \\times 8 \\times 7 \\times 6}{10^5}=0.3024$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/83087bb9e128465088dbfcd39210b902",
+                    "updated_at": {
+                        "seconds": 1775673109
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52214,
+                            "question_id": 13054,
+                            "is_answer": true,
+                            "choice": "$0.3024$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52216,
+                            "question_id": 13054,
+                            "is_answer": false,
+                            "choice": "$0.9$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52213,
+                            "question_id": 13054,
+                            "is_answer": false,
+                            "choice": "$0.9999$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52215,
+                            "question_id": 13054,
+                            "is_answer": false,
+                            "choice": "$0.00252$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.76,
+                    "difficulty_score": 0.26,
+                    "avg_time_spent": 89641,
+                    "ai_tags": "古典概型,排列组合"
+                },
+                {
+                    "id": 18724,
+                    "subject_id": 3,
+                    "chapter_id": 270,
+                    "question_id": "86095be7-ec97-4a4c-b287-338832b1ed8f",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?10 个人, 分别佩戴�?1 号到 10 号的纪念�? 任�?3 人记录其纪念章号�? �?(1) 最小号码是 5 的概率为 (); (2) 最大号码是 5 的概率为 ().",
+                    "analysis": "�?10 个人中任�?3 的选取方法�?$C_{10}^3$ �?\n(1) 若最小号码是 5 , 则有一个号码正好是 5 , 其余 2 个号码是�?$6,7,8,9,10$ 中取�? 则最小号码是 5 的选取方法�?$C_5^2$ 种，所以最小号码是 5 的概率为 $p_1=\\frac{C_5^2}{C_{10}^3}=\\frac{1}{12}$;\n(2)若最大号码是 5 , 则有一个号码正好是 5 , 其余 2 个号码是�?$1,2,3,4$ 中取�? 则最大号码是 5 的选取方法�?$C_4^2$ �? 所以最大号码是 5 的概率为 $p_2=\\frac{C_4^2}{C_{10}^3}=\\frac{1}{20}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338856
+                    },
+                    "question_json": "mathreact/4b419865df50404e80f3cb10cbb29974",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84232,
+                            "question_id": 18724,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{12}, \\frac{1}{20}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84233,
+                            "question_id": 18724,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{8}, \\frac{1}{12}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84234,
+                            "question_id": 18724,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{20}, \\frac{1}{12}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84235,
+                            "question_id": 18724,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{12}, \\frac{1}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.78,
+                    "difficulty_score": 0.31,
+                    "avg_time_spent": 133274,
+                    "tags": "近期易错,近期110人做�?,
+                    "ai_tags": "古典概型,排列组合"
+                },
+                {
+                    "id": 18729,
+                    "subject_id": 3,
+                    "chapter_id": 270,
+                    "question_id": "36a0d96e-ae5c-478d-9c63-d69d236b005c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "任意投掷四颗均匀的骰�? 则四个骰子出现的点数全部相同的事件的概率等于 ( ).",
+                    "analysis": "任意投掷四颗均匀的骰子出现点数的情况共有 $6^4$ �? 而四颗骰子出现的点数全部相同的情况共�?6 �? 所以事�?$A$ : \"四个骰子出现的点数全部相同\" 的概率为 $P(A)=\\frac{6}{6^4}=\\frac{1}{216}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338875
+                    },
+                    "question_json": "mathreact/a017e569a1f94638b9d78a5f27fab402",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84267,
+                            "question_id": 18729,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{216}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84268,
+                            "question_id": 18729,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{1296}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84269,
+                            "question_id": 18729,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{54}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84270,
+                            "question_id": 18729,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{18}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.85,
+                    "difficulty_score": 0.27,
+                    "avg_time_spent": 53183,
+                    "tags": "近期易错,近期78人做�?,
+                    "ai_tags": "古典概型,概率"
+                },
+                {
+                    "id": 18734,
+                    "subject_id": 3,
+                    "chapter_id": 270,
+                    "question_id": "e6278d4f-0303-4254-ad88-2d9281e2eee1",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "任意投掷 4 颗均匀的骰�? 则投掷这 4 颗骰子所出现的点数中恰有 3 个点数相同的事件的概率等�?( ).",
+                    "analysis": "任意投掷 4 颗均匀的骰子所出现的点数情况有 $6^4$ �? 而所出现的点数中恰有 3 个点数相同的点数情况�?$C_4^3 6 \\times 5$, 所以事�?$A$: “所出现的点数中恰有 3 个点数相同�?的概�?$P(A)=\\frac{C_4^3 6 \\times 5}{6^4}=\\frac{5}{54}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338884
+                    },
+                    "question_json": "mathreact/1cda9587ea1346a5876bda6e6e3a289b",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84302,
+                            "question_id": 18734,
+                            "is_answer": true,
+                            "choice": "$\\frac{5}{54}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84303,
+                            "question_id": 18734,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{54}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84304,
+                            "question_id": 18734,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{54}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84305,
+                            "question_id": 18734,
+                            "is_answer": false,
+                            "choice": "$\\frac{7}{54}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.82,
+                    "difficulty_score": 0.29,
+                    "avg_time_spent": 109257,
+                    "tags": "近期易错,近期87人做�?,
+                    "ai_tags": "概率�?古典概型"
+                },
+                {
+                    "id": 18735,
+                    "subject_id": 3,
+                    "chapter_id": 270,
+                    "question_id": "85dac29e-80cf-403e-893e-6a25bdb3a0b8",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "在房间里�?10 �? 分别佩戴着 $1 \\sim 10$ 号的纪念�? 任意�?4 人记录其纪念章的号码, 则最小的号码�?5 的事件的概率�?( ).",
+                    "analysis": "�?10 个人中任意�?4 人的可能选法�?$C_{10}^4$ 种，最小号码为 5 表明有一人的号码�?5 ，而其�?3 人的号码要从 $6,7,8,9,10$ 这五个数字中选取, 取法共有 $C_5^3$ �? 所以最小号码为 5 的概率为 $p=\\frac{C_5^3}{C_{10}^4}=\\frac{1}{21}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338884
+                    },
+                    "question_json": "mathreact/8c4f94739d954576b717bdf7d731d230",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84309,
+                            "question_id": 18735,
+                            "is_answer": true,
+                            "choice": "$\\frac{C_5^3}{C_{10}^4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84310,
+                            "question_id": 18735,
+                            "is_answer": false,
+                            "choice": "$\\frac{C_6^4}{C_{10}^4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84311,
+                            "question_id": 18735,
+                            "is_answer": false,
+                            "choice": "$\\frac{C_6^4}{P_{10}^4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84312,
+                            "question_id": 18735,
+                            "is_answer": false,
+                            "choice": "$\\frac{P_5^3}{P_{10}^4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.84,
+                    "difficulty_score": 0.3,
+                    "avg_time_spent": 70121,
+                    "tags": "近期易错,近期77人做�?,
+                    "ai_tags": "古典概型,排列组合"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 21,
+            "questions": [
+                {
+                    "id": 18737,
+                    "subject_id": 3,
+                    "chapter_id": 270,
+                    "question_id": "241d4a31-3641-4027-bc3e-531432b11c22",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "掷一对骰�? �?2 个骰子点数总和�?8 的概率是 ().",
+                    "analysis": "掷两个骰�? 情况总数�?$6 \\times 6=36$, �?$N=36$. 出现点数总和�?8 的情况为:\n$$\n(2,6),(3,5),(4,4),(5,3),(6,2),\n$$\n\n情况数是 $M=5$, 故所求概�?$p=\\frac{M}{N}=\\frac{5}{36}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338886
+                    },
+                    "question_json": "mathreact/05b1f35f2ec944c9aed2985ba64344f1",
+                    "updated_at": {
+                        "seconds": 1775673114
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84323,
+                            "question_id": 18737,
+                            "is_answer": true,
+                            "choice": "$\\frac{5}{36}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84324,
+                            "question_id": 18737,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{12}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84325,
+                            "question_id": 18737,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84326,
+                            "question_id": 18737,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.93,
+                    "difficulty_score": 0.26,
+                    "avg_time_spent": 77187,
+                    "tags": "近期36人做�?,
+                    "ai_tags": "古典概型,概率计算"
+                },
+                {
+                    "id": 18739,
+                    "subject_id": 3,
+                    "chapter_id": 270,
+                    "question_id": "f31617e2-38ed-4513-ba3d-d629a80c23fd",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$0,1, \\cdots, 9$ 中任取三个数�? 则这三个数中不包�?0 �?5 的概率是 ( ).",
+                    "analysis": "�?$0,1, \\cdots, 9$ 中任取三个数字共�?$C_{10}^3$ 种取�? 取到的三个数中不包含 0 的取法有 $C_9^3$ �? 取到的三个数中不包含 5 的取法有 $C_9^3$ �? 不包�?0 �?5 的取法有 $C_8^3$ �? 所以事�?$A$ : \"取到的三个数不包�?0 �?5 \" 的概率是\n$$ P(A)=\\frac{2 C_9^3-C_8^3}{C_{10}^3}=\\frac{14}{15} . $$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338890
+                    },
+                    "question_json": "mathreact/95432b65ebaa4546b5a1b464c83df022",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84337,
+                            "question_id": 18739,
+                            "is_answer": true,
+                            "choice": "$\\frac{14}{15}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84338,
+                            "question_id": 18739,
+                            "is_answer": false,
+                            "choice": "$\\frac{7}{15}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84339,
+                            "question_id": 18739,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84340,
+                            "question_id": 18739,
+                            "is_answer": false,
+                            "choice": "$\\frac{17}{90}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.35,
+                    "difficulty_score": 0.53,
+                    "avg_time_spent": 106346,
+                    "tags": "近期易错,近期368人做�?,
+                    "ai_tags": "概率�?古典概型"
+                },
+                {
+                    "id": 18741,
+                    "subject_id": 3,
+                    "chapter_id": 270,
+                    "question_id": "baba3ffb-f1ec-40b2-84d9-511a3dd08e7a",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?1 �?9 �?9 个整数中有放回地随机�?3 �? 每次取一个数, 则取出的 3 个数之积能被 10 整除的概率为 ( ).",
+                    "analysis": "�?$A_1$ 表示“取出的 3 个数中有偶数”；$A_2$ 表示“取出的 3 个数中有 5”，则所求概率为\n$$\n\\begin{aligned}\nP(A_1 A_2) &= 1-P(\\overline{A_1 A_2})=1-P(\\overline{A_1} \\cup \\overline{A_2}) \\\\\n&=1-[P(\\overline{A_1})+P(\\overline{A_2})-P(\\overline{A_1} \\cap \\overline{A_2})] \\\\\n&=1-\\left[\\left(\\frac{5}{9}\\right)^3+\\left(\\frac{8}{9}\\right)^3-\\left(\\frac{4}{9}\\right)^3\\right] \\approx 0.214\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338894
+                    },
+                    "question_json": "mathreact/fffb8b9706b6407ab69c4131d385363d",
+                    "updated_at": {
+                        "seconds": 1775673114
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84351,
+                            "question_id": 18741,
+                            "is_answer": true,
+                            "choice": "$0.214$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84352,
+                            "question_id": 18741,
+                            "is_answer": false,
+                            "choice": "$0.774$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84353,
+                            "question_id": 18741,
+                            "is_answer": false,
+                            "choice": "$0.128$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84354,
+                            "question_id": 18741,
+                            "is_answer": false,
+                            "choice": "$0.354$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.57,
+                    "difficulty_score": 0.41,
+                    "avg_time_spent": 236476,
+                    "tags": "近期易错,近期181人做�?,
+                    "ai_tags": "概率�?古典概型,概率的基本性质"
+                },
+                {
+                    "id": 18742,
+                    "subject_id": 3,
+                    "chapter_id": 270,
+                    "question_id": "6e3dae04-ece5-4460-ba8e-21f0d57d1c4a",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$1, 2, 3, 4, 5$ 五个数码�? 任取 $2$ 个不同数码排成一个两位数, 则所得两位数为偶数的概率�?( ).",
+                    "analysis": "考虑该数是偶�? 相当于末位是偶数, 故末位数字应该从 $2, 4$ 中选择一�? 十位数字从其他四个数码中任�? 这样的两位数�?$2 \\times 4$ �? 而任取两个不同数码排成一个两位数的种类有 $\\mathrm{P}_5^2$ �? 所以所得两位数为偶数的概率�?$\\frac{2 \\times 4}{\\mathrm{P}_5^2}=0.4$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338898
+                    },
+                    "question_json": "mathreact/8c83a803782b455e97080aa77f940e47",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84358,
+                            "question_id": 18742,
+                            "is_answer": true,
+                            "choice": "$0.4$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84359,
+                            "question_id": 18742,
+                            "is_answer": false,
+                            "choice": "$0.3$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84360,
+                            "question_id": 18742,
+                            "is_answer": false,
+                            "choice": "$0.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84361,
+                            "question_id": 18742,
+                            "is_answer": false,
+                            "choice": "$0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.79,
+                    "difficulty_score": 0.29,
+                    "avg_time_spent": 306877,
+                    "tags": "近期易错,近期103人做�?,
+                    "ai_tags": "古典概型,排列组合"
+                },
+                {
+                    "id": 18743,
+                    "subject_id": 3,
+                    "chapter_id": 270,
+                    "question_id": "0ca60b4b-096d-4246-9a19-67e540592df3",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$1,2, \\cdots, 10$ 共十个数字中任取一�? 然后放回, 先后取出 5 个数�? 则所�?5 个数字全是奇数的事件的概率等�?().",
+                    "analysis": "�?$1,2, \\cdots, 10$ 共十个数字中任取一个有放回地取 5 次共�?$10^5$ 种取�? 所�?5 个数字全是奇数就说明要从 $1,3,5,7,9$ 这五个数字中�? 共有取法 $5^5$ �? 所以事�?$A$ : \"所�?5 个数字全是奇数\" 的概�?$P(A)=\\frac{5^5}{10^5}=\\left(\\frac{1}{2}\\right)^5$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338898
+                    },
+                    "question_json": "mathreact/f3381e7a4d9245e09e3fa9c3852ee496",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84365,
+                            "question_id": 18743,
+                            "is_answer": true,
+                            "choice": "$\\frac{5^5}{10^5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84366,
+                            "question_id": 18743,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84367,
+                            "question_id": 18743,
+                            "is_answer": false,
+                            "choice": "$\\frac{5!}{10!}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84368,
+                            "question_id": 18743,
+                            "is_answer": false,
+                            "choice": "$\\frac{5!}{10^5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.93,
+                    "difficulty_score": 0.17,
+                    "avg_time_spent": 103929,
+                    "ai_tags": "古典概型,概率"
+                },
+                {
+                    "id": 18745,
+                    "subject_id": 3,
+                    "chapter_id": 270,
+                    "question_id": "d679b8ed-63a0-4ef3-a6cc-f5b8ebbeb7d9",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$1 \\sim 20$ 的整数中取一个数, 若取到整�?$k$ 的概率与 $k$ 成正�? 则取到偶数的概率�?( ).",
+                    "analysis": "�?$A_k$ 为取到整�?$k$,\n$$\nP\\left(A_k\\right)=c k, \\quad k=1,2, \\cdots, 20\n$$\n\n因为 $P\\left(\\bigcup_{k=1}^{20} A_k\\right)=\\sum_{k=1}^{20} P\\left(A_k\\right)=c \\sum_{k=1}^{20} k=1$, 所�?$c=\\frac{1}{210}$,\n$$\n\\begin{aligned}\nP\\{\\text { 取到偶数 }\\} & =P\\left\\{A_2 \\cup A_4 \\cup \\cdots \\cup A_{20}\\right\\} \\\\\n& =\\frac{1}{210}(2+4+\\cdots+20)=\\frac{11}{21} .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338901
+                    },
+                    "question_json": "mathreact/58ba5ca3dc09419088f4c72f2205b088",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84379,
+                            "question_id": 18745,
+                            "is_answer": true,
+                            "choice": "$\\frac{11}{21}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84380,
+                            "question_id": 18745,
+                            "is_answer": false,
+                            "choice": "$\\frac{10}{21}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84381,
+                            "question_id": 18745,
+                            "is_answer": false,
+                            "choice": "$\\frac{12}{21}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84382,
+                            "question_id": 18745,
+                            "is_answer": false,
+                            "choice": "$\\frac{19}{21}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.83,
+                    "difficulty_score": 0.28,
+                    "avg_time_spent": 287262,
+                    "ai_tags": "概率�?离散型随机变�?
+                },
+                {
+                    "id": 18746,
+                    "subject_id": 3,
+                    "chapter_id": 270,
+                    "question_id": "ad0592f9-042c-4139-9129-85ba282dfc29",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一副扑克牌�?52 �? 不放回抽�? 每次一�? 连续 4 �? 则四张花色各异的概率�?().",
+                    "analysis": "这是一个组合的问题, 基本事件总数�?$C_{52}^4$, �?$A=\\{$ 四张花色各异 $\\}$ 的基本事件总数�?$C_{13}^1 C_{13}^1 C_{13}^1 C_{13}^1$, �?$A$ 发生的概率为\n$$\nP(A)=\\frac{C_{13}^1 C_{13}^1 C_{13}^1 C_{13}^1}{C_{52}^4}=\\frac{2197}{20825} \\approx 0.1055 .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338902
+                    },
+                    "question_json": "mathreact/637a58d6105b448fb73678f612c88920",
+                    "updated_at": {
+                        "seconds": 1775673111
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84386,
+                            "question_id": 18746,
+                            "is_answer": true,
+                            "choice": "$0.1055$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84387,
+                            "question_id": 18746,
+                            "is_answer": false,
+                            "choice": "$0.1105$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84388,
+                            "question_id": 18746,
+                            "is_answer": false,
+                            "choice": "$0.1036$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84389,
+                            "question_id": 18746,
+                            "is_answer": false,
+                            "choice": "$0.1025$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.81,
+                    "difficulty_score": 0.31,
+                    "avg_time_spent": 314178,
+                    "tags": "近期易错,近期63人做�?,
+                    "ai_tags": "古典概型,排列组合"
+                },
+                {
+                    "id": 18751,
+                    "subject_id": 3,
+                    "chapter_id": 270,
+                    "question_id": "b9da2b3f-1341-4488-88d3-21bfb7cca7ec",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$1,2,3,4,5$ 五个数字中任取三个进行排�? 则取得的三个数字排成的三位数是偶数的事件的概率等�?( ).",
+                    "analysis": "从五个数字中任取三个进行排列的所有可能排列方法有 $P_5^3$, 事件 $A$ : \"取得的三个数字排成的数是三位偶数\"只有当末尾数字是2或�?的时候才可以, 所以事�?$A$ 的可能排列方法有 $C_2^1 \\cdot P_4^2$, �?$P(A)=\\frac{C_2^1 \\cdot P_4^2}{P_5^3}=\\frac{2}{5}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338909
+                    },
+                    "question_json": "mathreact/c7db3d56f1f84fd190c7b945a46c129b",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84421,
+                            "question_id": 18751,
+                            "is_answer": true,
+                            "choice": "$\\frac{2}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84422,
+                            "question_id": 18751,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84423,
+                            "question_id": 18751,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84424,
+                            "question_id": 18751,
+                            "is_answer": false,
+                            "choice": "$\\frac{4}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.33,
+                    "avg_time_spent": 227870,
+                    "ai_tags": "排列组合,古典概型"
+                },
+                {
+                    "id": 18752,
+                    "subject_id": 3,
+                    "chapter_id": 270,
+                    "question_id": "4d3a06e2-bff4-4d4c-819f-4f4633627ce9",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "从一副扑克牌(52�?无大小王)中任意抽�?�?抽取�?张中至少有两张花色相同的概率�?)",
+                    "analysis": "解法一:\n至少有两张花色相�? 可以分解为有两张花色相同和有三张花色相同, 于是有\n$$\nP(A)=\\frac{C_4^1 C_{13}^2 C_{39}^1+C_4^1 C_{13}^3}{C_{52}^3} .\n$$\n\n解法�?\n�?52 张扑克中随机抽取 3 张的取法�?$C_{52}^3$ �? 抽到 3 张花色均不相同的取法�?$C_4^3 C_{13}^1 C_{13}^1 C_{13}^1$ �? 所以\n$$\nP(A)=1-P(\\bar{A})=1-\\frac{C_4^3 C_{13}^1 C_{13}^1 C_{13}^1}{C_{52}^3}=\\frac{C_4^1 C_{13}^2 C_{39}^1+C_4^1 C_{13}^3}{C_{52}^3} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338914
+                    },
+                    "question_json": "mathreact/c87c91e120d24629929a3bf876a62b14",
+                    "updated_at": {
+                        "seconds": 1775673111
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84428,
+                            "question_id": 18752,
+                            "is_answer": true,
+                            "choice": "$\\frac{C_4^1 C_{13}^2 C_{39}^1+C_4^1 C_{13}^3}{C_{52}^3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84429,
+                            "question_id": 18752,
+                            "is_answer": false,
+                            "choice": "$\\frac{C_4^1 C_{13}^2 C_{39}^1}{C_{52}^3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84430,
+                            "question_id": 18752,
+                            "is_answer": false,
+                            "choice": "$\\frac{C_4^1 P_{13}^2 P_{39}^1}{P_{52}^3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84431,
+                            "question_id": 18752,
+                            "is_answer": false,
+                            "choice": "$\\frac{C_{13}^2 C_{39}^1}{C_{52}^3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.89,
+                    "difficulty_score": 0.3,
+                    "avg_time_spent": 97538,
+                    "ai_tags": "古典概型,排列组合"
+                },
+                {
+                    "id": 18753,
+                    "subject_id": 3,
+                    "chapter_id": 270,
+                    "question_id": "afb9194e-f98b-4739-80bd-d4eb135e6e89",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某地区电话号码是�?8 字打头的八个数字组成�?8 位数, 则一个电话号码的八个数字全不相同的概�?$p$ �?( ) ; 一个电话号码的八个数字不全相同的概�?$q$ �?().",
+                    "analysis": "�?$A$ “电话号码的 8 个数全不相同”；$B$ “电话号码的 8 个数不全相同”。由于第 1 个数字固定为 8，故只要确定�?7 个数字，�?$0,1, \\cdots, 9$ 这十个数字中确定 7 个数字，全部等可能的确定方法�?$10^7$，所求概率为\n$$\n\\begin{aligned}\n& p=P(A)=\\frac{P_9^7}{10^7}=\\frac{9 \\times 8 \\times 7 \\times 6 \\times 5 \\times 4 \\times 3}{10^7}=0.018144 \\\\\n& q=P(B)=1-P(\\bar{B})=1-\\frac{1}{10^7}=0.9999999\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338916
+                    },
+                    "question_json": "mathreact/292fd57f7d9b4360abd72e5e376007fb",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84435,
+                            "question_id": 18753,
+                            "is_answer": true,
+                            "choice": "$0.018144, 0.9999999$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84436,
+                            "question_id": 18753,
+                            "is_answer": false,
+                            "choice": "$0.018144, 0.000001$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84437,
+                            "question_id": 18753,
+                            "is_answer": false,
+                            "choice": "$0.012543, 0.11111$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84438,
+                            "question_id": 18753,
+                            "is_answer": false,
+                            "choice": "$0.026544, 0.99889$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.83,
+                    "difficulty_score": 0.34,
+                    "avg_time_spent": 112104,
+                    "tags": "近期易错,近期73人做�?,
+                    "ai_tags": "古典概型,排列组合"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 21,
+            "questions": [
+                {
+                    "id": 18767,
+                    "subject_id": 3,
+                    "chapter_id": 270,
+                    "question_id": "32f1e985-140f-4bae-9434-827ebb0ab6fa",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$1,2, \\cdots, 10$ 的十个数字中, 随机地选取三个数字, 则选到的这三个数中最小的�?5 的概率是 ( ).",
+                    "analysis": "因为三个数中最小的�?5 , 故另外两个数是从 $6,7, \\cdots, 10$ 的五个数字中选取, 共有 $C_5^2$ 种取�? 十个数字中任取三个数共有 $C_{10}^3$ 种取�? 则事�?$A$ : \"取到的三个数中最小的�?5 \" 的概率为 $P(A)=\\frac{C_5^2}{C_{10}^3}=\\frac{1}{12}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338956
+                    },
+                    "question_json": "mathreact/3ef10c21be204a278fe992c0512206f9",
+                    "updated_at": {
+                        "seconds": 1775673109
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84533,
+                            "question_id": 18767,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{12}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84534,
+                            "question_id": 18767,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{12}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84535,
+                            "question_id": 18767,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84536,
+                            "question_id": 18767,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.93,
+                    "difficulty_score": 0.24,
+                    "avg_time_spent": 95986,
+                    "ai_tags": "古典概型,组合数学"
+                }
+            ]
+        }
+    }
+]

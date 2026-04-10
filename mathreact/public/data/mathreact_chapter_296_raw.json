@@ -1,0 +1,1963 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 23,
+            "questions": [
+                {
+                    "id": 13066,
+                    "subject_id": 3,
+                    "chapter_id": 296,
+                    "question_id": "0e6089d4-453e-453c-9385-947e44c816fa",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "随机变量 $X$ 的密度函数为 $f(x)$, 且为偶函�? �?$F(x)$ 是其分布函数, �?( ).",
+                    "analysis": "�?$F(x)=\\int_{-\\infty}^x f(x) d x$ 有\n$$\nF(-a)=\\int_{-\\infty}^{-a} f(x) d x=-\\int_{+\\infty}^a f(-x) d x=\\int_a^{+\\infty} f(x) d x\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/7b9ba52e91ef4830804913b2caee2dbc",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52261,
+                            "question_id": 13066,
+                            "is_answer": true,
+                            "choice": "$F(-a)=\\int_a^{+\\infty} f(x) d x, \\quad \\forall a \\in R$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52262,
+                            "question_id": 13066,
+                            "is_answer": false,
+                            "choice": "$F(x)$ 为奇函数",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52263,
+                            "question_id": 13066,
+                            "is_answer": false,
+                            "choice": "$F(x)$ 为偶函数",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52264,
+                            "question_id": 13066,
+                            "is_answer": false,
+                            "choice": "$F(-a)=F(a)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.46,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 120038,
+                    "ai_tags": "概率密度函数,分布函数,偶函�?
+                },
+                {
+                    "id": 13067,
+                    "subject_id": 3,
+                    "chapter_id": 296,
+                    "question_id": "07c1334c-e4f6-40b9-b634-126dbd5379ae",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "为使 $\\varphi(x)=\\left\\{\\begin{array}{c}\\frac{c}{\\sqrt{1-x^2}},|x|<1 \\\\ 0,|x| \\geq 1\\end{array}\\right.$ 成为某个随机变量的概率密�? 则应满足 ( ).",
+                    "analysis": "由概率密度的性质 $\\int_{-\\infty}^{+\\infty} f(x) d x=1$ �?\n$$\n\\int_{-\\infty}^{+\\infty} \\varphi(x) d x=\\int_{-\\infty}^{-1} 0 d x+\\int_{-1}^1 \\frac{c}{\\sqrt{1-x^2}} d x+\\int_1^{+\\infty} 0 d x=1,\n$$\n\n�?$\\int_{-1}^1 \\frac{c}{\\sqrt{1-x^2}} d x=1$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/9c41a4260b234dbba75799a0ae5ac557",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52268,
+                            "question_id": 13067,
+                            "is_answer": true,
+                            "choice": "$\\int_{-1}^1 \\frac{c}{\\sqrt{1-x^2}} d x=1$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52267,
+                            "question_id": 13067,
+                            "is_answer": false,
+                            "choice": "$\\int_{-\\infty}^{+\\infty} \\frac{c}{\\sqrt{1-x^2}} d x=1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52265,
+                            "question_id": 13067,
+                            "is_answer": false,
+                            "choice": "$\\int_0^1 \\frac{c}{\\sqrt{1-x^2}} d x=1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52266,
+                            "question_id": 13067,
+                            "is_answer": false,
+                            "choice": "$\\int_{-1}^{+\\infty} \\frac{c}{\\sqrt{1-x^2}} d x=1$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.89,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 179834,
+                    "ai_tags": "概率密度,连续型随机变�?
+                },
+                {
+                    "id": 13069,
+                    "subject_id": 3,
+                    "chapter_id": 296,
+                    "question_id": "ca81491f-afe2-41a1-b33a-75157b9029ff",
+                    "difficulty": "Medium",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "设某连续随机变量的密度函�?$f(x)$ 为偶函数, $F(x)$ 为其分布函数, 则对任意实数 $a$, �?() .",
+                    "analysis": "�?$F(x)=\\int_{-\\infty}^x f(t) d t$ 有\n$$\n\\begin{aligned}\nF(-a) & =\\int_{-\\infty}^{-a} f(t) d t \\xrightarrow{t=-x}-\\int_{+\\infty}^a f(-x) d x=\\int_a^{+\\infty} f(x) d x \\\\\n& =1-\\int_{-\\infty}^a f(x) d x=1-F(a) .\n\\end{aligned}\n$$\n\n�?$a=0$ �? $F(-0)=1-F(0) \\Rightarrow F(0)=\\frac{1}{2}$. 故\n$$\n\\begin{aligned}\nF(-a) & =1-\\int_{-\\infty}^a f(x) d x=1-\\int_{-\\infty}^0 f(x) d x-\\int_0^a f(x) d x \\\\\n& =1-F(0)-\\int_0^a f(x) d x=\\frac{1}{2}-\\int_0^a f(x) d x .\n\\end{aligned}\n$$\n\n注意: 本题可以直接�?$\\varphi(x)$ 当做标准正态密度函数来计算.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/3479c5474d64477584edecbb4f9fcb1e",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52273,
+                            "question_id": 13069,
+                            "is_answer": false,
+                            "choice": "$F(-a)=1-\\int_0^a f(x) d x$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52274,
+                            "question_id": 13069,
+                            "is_answer": false,
+                            "choice": "$F(-a)=2 F(a)-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52275,
+                            "question_id": 13069,
+                            "is_answer": false,
+                            "choice": "$F(-a)=F(a)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52276,
+                            "question_id": 13069,
+                            "is_answer": true,
+                            "choice": "$F(-a)=\\frac{1}{2}-\\int_0^a f(x) d x$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.58,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 55458,
+                    "ai_tags": "概率密度函数,分布函数,偶函�?
+                },
+                {
+                    "id": 13071,
+                    "subject_id": 3,
+                    "chapter_id": 296,
+                    "question_id": "77290d5f-5462-47bd-839f-983ada41a126",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\varphi(x)=\\left\\{\\begin{array}{ll}\\frac{x}{c} e^{-x^2 / 2 c}, & x>0 \\\\ 0, & x \\leq 0\\end{array}\\right.$ 是变�?$\\xi$ 的概率密�? 则常�?$c=($ ).",
+                    "analysis": "由概率密度的性质 $\\int_{-\\infty}^{+\\infty} f(x) d x=1$, �?$\\int_{-\\infty}^{+\\infty} \\varphi(x) d x=\\int_0^{+\\infty} \\frac{x}{c} e^{-x^2 / 2 c} d x=1$, �?$-\\left.e^{-x^2 / 2 c}\\right|_0 ^{+\\infty}=1$.�?$c>0$ �? 上式成立.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/628f260321804eff95e58d107e42272d",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52281,
+                            "question_id": 13071,
+                            "is_answer": true,
+                            "choice": "任意正常�?,
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52282,
+                            "question_id": 13071,
+                            "is_answer": false,
+                            "choice": "仅取 1",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52284,
+                            "question_id": 13071,
+                            "is_answer": false,
+                            "choice": "仅取 -1",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52283,
+                            "question_id": 13071,
+                            "is_answer": false,
+                            "choice": "可以是任意非零常�?,
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.29,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 86874,
+                    "ai_tags": "概率密度函数,连续型随机变�?广义积分"
+                },
+                {
+                    "id": 13072,
+                    "subject_id": 3,
+                    "chapter_id": 296,
+                    "question_id": "517823dd-49b5-4c44-a479-8c2e7fd745eb",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$X$ 的概率密度为 $f(x)=\\left\\{\\begin{array}{l}\\frac{C}{\\sqrt{1-x^2}}, \\text { �?}|x|<1 \\\\ 0, \\text { �?}|x| \\geq 1\\end{array}\\right.$, �?$C=($ ).",
+                    "analysis": "由概率密度函数的性质 $\\int_{-\\infty}^{+\\infty} f(x) d x=1$ 有\n$$\n\\int_{-\\infty}^{+\\infty} f(x) d x=C \\int_{-1}^1 \\frac{d x}{\\sqrt{1-x^2}}=2 C \\int_0^1 \\frac{d x}{\\sqrt{1-x^2}}=\\left.2 C \\arcsin x\\right|_0 ^1=2 C \\frac{\\pi}{2}=C \\pi=1\n$$\n\n�?$C=\\frac{1}{\\pi}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/e96dc09c41dd480b870c14ee1e6ee696",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52287,
+                            "question_id": 13072,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{\\pi}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52286,
+                            "question_id": 13072,
+                            "is_answer": false,
+                            "choice": "$2 \\pi$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52285,
+                            "question_id": 13072,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2 \\pi}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52288,
+                            "question_id": 13072,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{\\pi}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.74,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 61737,
+                    "ai_tags": "概率密度函数,定积�?
+                },
+                {
+                    "id": 13073,
+                    "subject_id": 3,
+                    "chapter_id": 296,
+                    "question_id": "c83216e3-9228-4048-a36e-b67a375da824",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "在下列函数中, 可以作为随机变量的概率密度函数的�?( ).",
+                    "analysis": "概率密度的性质有：\n(1) $f(x) \\geq 0$;\n(2) $\\int_{-\\infty}^{+\\infty} f(x) d x=1$.\n\n代入求得 $f(x)=\\left\\{\\begin{array}{cc}2 x, & 0<x<1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$ 满足条件.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/d96e4b5f11ad4f96a9c9816632b00632",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52290,
+                            "question_id": 13073,
+                            "is_answer": true,
+                            "choice": "$f(x)=\\left\\{\\begin{array}{cc}2 x, & 0<x<1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52291,
+                            "question_id": 13073,
+                            "is_answer": false,
+                            "choice": "$f(x)=\\left\\{\\begin{array}{cc}x, & 0<x<1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52289,
+                            "question_id": 13073,
+                            "is_answer": false,
+                            "choice": "$f(x)=\\left\\{\\begin{array}{cc}\\cos x, & 0 \\leq x \\leq \\pi \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52292,
+                            "question_id": 13073,
+                            "is_answer": false,
+                            "choice": "$f(x)=\\left\\{\\begin{array}{cc}2 e^{-x}, & x>0 \\\\ 0, & x \\leq 0\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.75,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 61628,
+                    "ai_tags": "概率密度函数,连续型随机变�?
+                },
+                {
+                    "id": 13074,
+                    "subject_id": 3,
+                    "chapter_id": 296,
+                    "question_id": "39c1807c-279a-40da-9d67-9bc9dcc4922e",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "连续型随机变�?$X$ 的概率密度为 $f(x)=A e^{-|x|}(-\\infty<x<+\\infty)$, �?$A=()$.",
+                    "analysis": "概率密度 $f(x)=A e^{-|x|}(-\\infty<x<+\\infty)=\\left\\{\\begin{array}{c}A e^{-x}, x \\geq 0 \\\\ A e^x, x<0\\end{array}\\right.$,又概率密度的性质 $\\int_{-\\infty}^{+\\infty} f(x) d x=1$, 得\n$$\n\\int_{-\\infty}^{+\\infty} f(x) d x=\\int_{-\\infty}^0 A e^x d x+\\int_0^{+\\infty} A e^{-x} d x=1\n$$\n\n�?$\\left.A e^x\\right|_{-\\infty} ^0-\\left.A e^{-x}\\right|_0 ^{+\\infty}=1 \\Rightarrow 2 A=1$,\n所�?$A=\\frac{1}{2}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/0c5aba083efc4748b9cac53c0785130f",
+                    "updated_at": {
+                        "seconds": 1775673114
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52294,
+                            "question_id": 13074,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52296,
+                            "question_id": 13074,
+                            "is_answer": false,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52295,
+                            "question_id": 13074,
+                            "is_answer": false,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52293,
+                            "question_id": 13074,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.85,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 50402,
+                    "tags": "",
+                    "ai_tags": "连续型随机变�?概率密度函数,定积�?
+                },
+                {
+                    "id": 13075,
+                    "subject_id": 3,
+                    "chapter_id": 296,
+                    "question_id": "5e5f6a3c-54be-4a6e-9486-45560527145c",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$f_1(x)$ 为标准正态分布的概率密度, $f_2(x)$ �?$[-1,3]$ 上的均匀分布的概率密�? 若\n$$\nf(x)=\\left\\{\\begin{array}{ll}\na f_1(x), & x \\leq 0 \\\\\nb f_2(x), & x>0\n\\end{array} \\quad(a>0, b>0)\\right.\n$$\n\n为概率密�? �?$a, b$ 应满�?( ).",
+                    "analysis": "由密度函数的性质: $\\int_{-\\infty}^{+\\infty} f(x) d x=1$, 有\n$$\n\\int_{-\\infty}^0 a f_1(x) d x+\\int_0^3 b f_2(x) d x=1\n$$\n\n根据正态分布密度函数的性质知道，前一个积分值为 $a / 2$ ，由均匀分布的密度函数性质知道，后一个积分值为 $3 b / 4$, 所以有 $2 a+3 b=4$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/588828f499404b928ac3b78940573cc6",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52299,
+                            "question_id": 13075,
+                            "is_answer": true,
+                            "choice": "$2 a+3 b=4$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52298,
+                            "question_id": 13075,
+                            "is_answer": false,
+                            "choice": "$3 a+2 b=4$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52300,
+                            "question_id": 13075,
+                            "is_answer": false,
+                            "choice": "$a+b=1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52297,
+                            "question_id": 13075,
+                            "is_answer": false,
+                            "choice": "$a+b=2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.75,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 77695,
+                    "ai_tags": "概率密度,正态分�?均匀分布"
+                },
+                {
+                    "id": 13076,
+                    "subject_id": 3,
+                    "chapter_id": 296,
+                    "question_id": "9e9c553f-cce0-4043-9f2b-5fba746f2a8e",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "若函�?$y=f(x)$ 是一随机变量 $x$ 的概率密�? �?() 一定成�?",
+                    "analysis": "由概率密度函数的性质有\n(1) $f(x) \\geq 0$,\n(2) $\\int_{-\\infty}^{+\\infty} f(x) d x=1$.\n\n从而可以直接得出答�?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/4dc805a1a6114b619b938d47537646f0",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52301,
+                            "question_id": 13076,
+                            "is_answer": true,
+                            "choice": "$f(x)$ 为非�?,
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52303,
+                            "question_id": 13076,
+                            "is_answer": false,
+                            "choice": "$f(x)$ 的定义域�?$[0,1]$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52302,
+                            "question_id": 13076,
+                            "is_answer": false,
+                            "choice": "$f(x)$ 的值域�?$[0,1]$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52304,
+                            "question_id": 13076,
+                            "is_answer": false,
+                            "choice": "$f(x)$ �?$(-\\infty,+\\infty)$ 内连�?,
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 32934,
+                    "ai_tags": "概率密度函数,随机变量"
+                },
+                {
+                    "id": 13078,
+                    "subject_id": 3,
+                    "chapter_id": 296,
+                    "question_id": "633a6a07-ba94-467d-a450-ae2745e54b53",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "要使函数 $\\varphi(x)=\\left\\{\\begin{array}{cc}A e^{-x}, & x>0 \\\\ 0, & x \\leq 0\\end{array}\\right.$ 是某个随机变�?$\\zeta$ 的概率密�? �?$A$ 的值应�?( ).",
+                    "analysis": "概率密度的性质之一 $\\int_{-\\infty}^{+\\infty} f(x) d x=1$, 得\n$$\n\\int_{-\\infty}^{+\\infty} \\varphi(x) d x=1 \\Rightarrow \\int_0^{+\\infty} A e^{-x} d x=1 \\Rightarrow-\\left.A e^{-x}\\right|_0 ^{+\\infty}=1\n$$\n\n�?$A=1$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/7fad34d7accd407cac59f95e7ea4322c",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52310,
+                            "question_id": 13078,
+                            "is_answer": true,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52311,
+                            "question_id": 13078,
+                            "is_answer": false,
+                            "choice": "$0.1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52312,
+                            "question_id": 13078,
+                            "is_answer": false,
+                            "choice": "$0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52309,
+                            "question_id": 13078,
+                            "is_answer": false,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.84,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 33570,
+                    "ai_tags": "概率密度,广义积分"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 23,
+            "questions": [
+                {
+                    "id": 13079,
+                    "subject_id": 3,
+                    "chapter_id": 296,
+                    "question_id": "2254a96f-63e5-4228-b7e6-303fc88799c6",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "要使函数 $\\varphi(x)=\\left\\{\\begin{array}{cl}\\frac{A x}{(1+x)^4}, & x>0 \\\\ 0, & x \\leq 0\\end{array}\\right.$ 是某个随机变量的概率密度, �?$A$ 的值应�?().",
+                    "analysis": "概率密度的性质 $\\int_{-\\infty}^{+\\infty} f(x) d x=1$ 得\n$$\n\\int_{-\\infty}^{+\\infty} f(x) d x=\\int_0^{+\\infty} \\frac{A x}{(1+x)^4} d x=1 \\Rightarrow-\\left.A \\frac{1}{3} x(1+x)^{-3}\\right|_0 ^{+\\infty}-\\left.A \\frac{1}{6}(1+x)^{-2}\\right|_0 ^{+\\infty}=1,\n$$\n\n�?$A \\frac{1}{6}=1 \\Rightarrow A=6$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/dfdfe52608414569bc8d7b69950269f0",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52313,
+                            "question_id": 13079,
+                            "is_answer": true,
+                            "choice": "$6$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52314,
+                            "question_id": 13079,
+                            "is_answer": false,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52316,
+                            "question_id": 13079,
+                            "is_answer": false,
+                            "choice": "$5$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52315,
+                            "question_id": 13079,
+                            "is_answer": false,
+                            "choice": "$7$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.79,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 126524,
+                    "ai_tags": "概率密度,广义积分"
+                },
+                {
+                    "id": 13080,
+                    "subject_id": 3,
+                    "chapter_id": 296,
+                    "question_id": "93213e86-0101-4fb5-a126-231ec0453c90",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$X$ 的概率密�?$\\varphi(x)$ 为偶函数, $F(x)$ �?$X$ 的分布函�? 则对任意�?$a>0$, 正确的是 ( ).",
+                    "analysis": "(1)\n$$\n\\begin{aligned}\nF(-a) & =\\int_{-\\infty}^{-a} \\varphi(x) d x=\\int_a^{+\\infty} \\varphi(-t) d t=\\int_a^{+\\infty} \\varphi(x) d x \\\\\n& =1-\\int_{-\\infty}^a \\varphi(x) d x=1-F(a)\n\\end{aligned}\n$$\n(2)\n$$\n\\begin{aligned}\nP\\{|X|>a\\} & =P\\{X<-a\\}+P\\{X>a\\} \\\\\n& =F(-a)+P\\{X \\geq a\\} \\\\\n& =F(-a)+1-F(a)=2[1-F(a)]\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/5468c378b0134a1d853164d2d481809c",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52318,
+                            "question_id": 13080,
+                            "is_answer": true,
+                            "choice": "$P\\{|X|>a\\}=2[1-F(a)]$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52317,
+                            "question_id": 13080,
+                            "is_answer": false,
+                            "choice": "$F(-a)=1+F(a)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52320,
+                            "question_id": 13080,
+                            "is_answer": false,
+                            "choice": "$F(-a)=-F(a)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52319,
+                            "question_id": 13080,
+                            "is_answer": false,
+                            "choice": "$P\\{|X|>a\\}=1-F(a)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 75874,
+                    "ai_tags": "概率密度,分布函数,偶函�?
+                },
+                {
+                    "id": 18754,
+                    "subject_id": 3,
+                    "chapter_id": 296,
+                    "question_id": "6c184e90-a63a-4d5e-81a8-1990daa29df2",
+                    "difficulty": "Easy",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "设随机变�?$\\xi$ 的概率密度为 $f(x)=k e^{-\\frac{(x-1)^2}{8}}(-\\infty<x<+\\infty)$, �?$k=()$.",
+                    "analysis": "由概率密度的性质 $\\int_{-\\infty}^{+\\infty} f(x) d x=1$ 得\n$$\n\\int_{-\\infty}^{+\\infty} f(x) d x=\\int_{-\\infty}^{+\\infty} k e^{-(x-1)^2 / 8} d x \\stackrel{\\frac{x-1}{2}=t}{=} \\int_{-\\infty}^{+\\infty} 2 k e^{-t^2 / 2} d t=1,\n$$\n\n又标准正态分布的概率密度 $f(x)=\\frac{1}{\\sqrt{2 \\pi}} e^{-x^2 / 2}$ 可得\n$$\n\\int_{-\\infty}^{+\\infty} \\frac{1}{\\sqrt{2 \\pi}} e^{-x^2 / 2} d x=1 \\Rightarrow \\int_{-\\infty}^{+\\infty} e^{-x^2 / 2} d x=\\sqrt{2 \\pi},\n$$\n\n所�?$\\int_{-\\infty}^{+\\infty} 2 k e^{-t^2 / 2} d t=2 k \\sqrt{2 \\pi}=1$,\n�?$k=\\frac{1}{2 \\sqrt{2 \\pi}}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338924
+                    },
+                    "question_json": "mathreact/121cceb07ee24a219e9df1a49877034a",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84442,
+                            "question_id": 18754,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{\\sqrt{2 \\pi}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84443,
+                            "question_id": 18754,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{\\sqrt{\\pi}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84444,
+                            "question_id": 18754,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{2 \\sqrt{2 \\pi}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84445,
+                            "question_id": 18754,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{\\sqrt{2 \\pi}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 139162,
+                    "ai_tags": "概率密度,正态分�?定积�?
+                },
+                {
+                    "id": 18757,
+                    "subject_id": 3,
+                    "chapter_id": 296,
+                    "question_id": "78e2113a-1413-4605-a9dd-431d5e587e49",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$I$ 是一个区�? $\\varphi(x)=\\left\\{\\begin{array}{cc}\\sin x, & x \\in I \\\\ 0, & x \\notin I\\end{array}\\right.$ 是一个概率密度函�? �?$I$ �?( ).",
+                    "analysis": "�?$I$ 的左端点�?$a$, 右端点为 $b$, 则由 $\\int_{-\\infty}^{+\\infty} \\varphi(x) d x=1$ �?$\\int_a^b \\sin x d x=1$, �?$-\\left.\\cos x\\right|_a ^b=1$. 把选项代入, 可得 $\\left[\\frac{\\pi}{2}, \\pi\\right)$ 满足 $-\\left.\\cos x\\right|_a ^b=1$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338930
+                    },
+                    "question_json": "mathreact/6f075c17cb88453f8c3eeac15f896ea7",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84463,
+                            "question_id": 18757,
+                            "is_answer": true,
+                            "choice": "$\\left[\\frac{\\pi}{2}, \\pi\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84464,
+                            "question_id": 18757,
+                            "is_answer": false,
+                            "choice": "$(0, \\pi]$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84465,
+                            "question_id": 18757,
+                            "is_answer": false,
+                            "choice": "$\\left(\\pi, \\frac{3 \\pi}{2}\\right]$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84466,
+                            "question_id": 18757,
+                            "is_answer": false,
+                            "choice": "$\\left[-\\frac{\\pi}{2}, 0\\right]$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.54,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 67075,
+                    "ai_tags": "概率密度函数,定积�?
+                },
+                {
+                    "id": 18758,
+                    "subject_id": 3,
+                    "chapter_id": 296,
+                    "question_id": "710eebbd-d73f-446b-a03d-75eca54d475a",
+                    "difficulty": "Medium",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "设随机变�?$\\xi$ 的密度函数是连续的偶函数�?$\\eta=\\xi+1$�?$\\varphi(y)$ �?$\\eta$ 的概率密度，�?$F(y)$ �?$\\eta$ 的分布函数，则对任意实数 $a$ �?( ).",
+                    "analysis": "因为 $\\xi$ 的概率密度是偶函数，故有 $F_{\\xi}(-x)=1-F_{\\xi}(x)$。\n�?$F(y)=P\\{\\eta \\le y\\}=P\\{\\xi \\le y-1\\}=F_{\\xi}(y-1)$，即\n$$\nF(-a)=F_{\\xi}(-a-1)=1-F_{\\xi}(a+1)=1-F(a+2),\n$$\n�?$a=-1$ 时，$F(1)=1-F(1) \\Rightarrow F(1)=\\frac{1}{2}$。故\n$$\n\\begin{aligned}\nF(-a) & =1-F(a+2)=1-\\int_{-\\infty}^{a+2} \\varphi(y) d y \\\\\n& =1-\\left[\\int_{-\\infty}^1 \\varphi(y) d y+\\int_1^{a+2} \\varphi(y) d y\\right]=\\frac{1}{2}-\\int_1^{a+2} \\varphi(y) d y .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338939
+                    },
+                    "question_json": "mathreact/8c0ec82d73e1451a98a89c93651647d0",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84470,
+                            "question_id": 18758,
+                            "is_answer": false,
+                            "choice": "$F(a)=F(-a)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84471,
+                            "question_id": 18758,
+                            "is_answer": false,
+                            "choice": "$F(-a)=1-\\int_0^a \\varphi(y) d y$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84472,
+                            "question_id": 18758,
+                            "is_answer": false,
+                            "choice": "$F(-a)=2 F(a)-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84473,
+                            "question_id": 18758,
+                            "is_answer": true,
+                            "choice": "$F(-a)=\\frac{1}{2}-\\int_1^{a+2} \\varphi(y) d y$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.77,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 134694,
+                    "ai_tags": "概率�?随机变量,概率密度"
+                },
+                {
+                    "id": 18759,
+                    "subject_id": 3,
+                    "chapter_id": 296,
+                    "question_id": "f4a6b00b-5725-42c6-b887-b66d703b1639",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "�?$\\varphi(x)=\\left\\{\\begin{array}{c}\\cos x, x \\in G \\\\ 0, \\quad x \\notin G\\end{array}\\right.$ 是某个随机变量的概率密度, 则区�?$G$ �?( ).",
+                    "analysis": "由概率密度的性质 $\\int_{-\\infty}^{+\\infty} f(x) d x=1$ 有\n$$\n\\int_{-\\infty}^{+\\infty} \\varphi(x) d x=\\int_G \\cos x d x=1,\n$$\n\n�?$\\left.\\sin x\\right|_G=1$. 把选项代入, 可得区间 $\\left[0, \\frac{\\pi}{2}\\right]$ 满足 $\\left.\\sin x\\right|_G=1$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338942
+                    },
+                    "question_json": "mathreact/bd0cfc69e4234123893eedc15eb7ddd3",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84477,
+                            "question_id": 18759,
+                            "is_answer": false,
+                            "choice": "$\\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84478,
+                            "question_id": 18759,
+                            "is_answer": true,
+                            "choice": "$\\left[0, \\frac{\\pi}{2}\\right]$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84479,
+                            "question_id": 18759,
+                            "is_answer": false,
+                            "choice": "$\\left(\\frac{\\pi}{2}, \\pi\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84480,
+                            "question_id": 18759,
+                            "is_answer": false,
+                            "choice": "$[\\pi, 2 \\pi]$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.83,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 46971,
+                    "ai_tags": "概率密度,定积�?
+                },
+                {
+                    "id": 18762,
+                    "subject_id": 3,
+                    "chapter_id": 296,
+                    "question_id": "b1c8adb1-7cce-4c4b-a5a3-2f27546f9f51",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$X$ 具有对称的概率密�? �?$f(x)=f(-x)$, 又设 $F(x)$ �?$X$ 的分布函�? 则对任意 $a>0$, $P\\{|X|>a\\}=(\\quad)$.",
+                    "analysis": "由分布函数的定义�?$F(-a)=\\int_{-\\infty}^{-a} f(x) d x$, �?$f(x)$ 为偶函数, 所以\n$$ F(-a) \\stackrel{x=-t}{=} \\int_a^{+\\infty} f(-t) d t=\\int_a^{+\\infty} f(t) d t =1-\\int_{-\\infty}^a f(t) d t=1-F(a) $$\n故\n$$\n\\begin{aligned}\nP\\{|X|>a\\} &= 1-P\\{|X| \\leq a\\} \\\\\n&= 1-P\\{-a \\leq X \\leq a\\} \\\\\n&= 1-[F(a)-F(-a)] \\\\\n&= 1+F(-a)-F(a) \\\\\n&= 2-2 F(a) = 2[1-F(a)]\n\\end{aligned}\n$$\n注意: �?$a=0$ �? $F(0)=1-F(0) \\Rightarrow F(0)=\\frac{1}{2}$;\n本题把标准正态分布代入验证即可得出答�?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338948
+                    },
+                    "question_json": "mathreact/bdbc21557c5540d6b4045be1b5ab1124",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84498,
+                            "question_id": 18762,
+                            "is_answer": true,
+                            "choice": "$2[1-F(a)]$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84499,
+                            "question_id": 18762,
+                            "is_answer": false,
+                            "choice": "$2 F(a)-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84500,
+                            "question_id": 18762,
+                            "is_answer": false,
+                            "choice": "$2-F(a)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84501,
+                            "question_id": 18762,
+                            "is_answer": false,
+                            "choice": "$1-2 F(a)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.95,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 34325,
+                    "ai_tags": "概率密度,分布函数,对称�?
+                },
+                {
+                    "id": 18764,
+                    "subject_id": 3,
+                    "chapter_id": 296,
+                    "question_id": "6f3ad532-2844-4dc9-b184-5f415a27c9e0",
+                    "difficulty": "Easy",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "�?$\\varphi(x)$ 是某随机变量 $\\xi$ 的密度函�? 则有 ( ).",
+                    "analysis": "概率密度�?2 个性质：\n(1) $f(x) \\geq 0$；\n(2) $\\int_{-\\infty}^{+\\infty} f(x) d x=1$。\n\n随机变量的分布函数有：\n(1) $0 \\leq F(x) \\leq 1$；\n(2) 单调非减（若 $x_1<x_2$，则 $F(x_1) \\leq F(x_2)$）；\n(3) $\\lim _{x \\rightarrow+\\infty} F(x)=1$�?\\lim _{x \\rightarrow-\\infty} F(x)=0$）；\n(4) 右连续性（$\\lim _{x \\rightarrow x_0^{+}} F(x)=F(x_0)$）�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338949
+                    },
+                    "question_json": "mathreact/9e2cc3bf23624275870c8b975791c6d4",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84512,
+                            "question_id": 18764,
+                            "is_answer": false,
+                            "choice": "$0 \\leq \\varphi(x) \\leq 1$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84513,
+                            "question_id": 18764,
+                            "is_answer": false,
+                            "choice": "$\\lim _{x \\rightarrow+\\infty} \\varphi(x)=1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84514,
+                            "question_id": 18764,
+                            "is_answer": true,
+                            "choice": "$\\int_{-\\infty}^{+\\infty} \\varphi(x) d x=1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84515,
+                            "question_id": 18764,
+                            "is_answer": false,
+                            "choice": "$\\varphi(x)$ 单调不减",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.85,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 37398,
+                    "ai_tags": "概率密度函数,分布函数"
+                },
+                {
+                    "id": 18765,
+                    "subject_id": 3,
+                    "chapter_id": 296,
+                    "question_id": "c02fb243-050b-4ff7-a613-eaef45c0ad8d",
+                    "difficulty": "Easy",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "下列函数中，为某随机变量 $X$ 的概率密度的�?().",
+                    "analysis": "概率密度的性质有：\n(1) $f(x) \\ge 0$；\n(2) $\\int_{-\\infty}^{+\\infty} f(x) dx = 1$．\n\n代入求得 $f(x)=\\left\\{\\begin{array}{cl}-\\sin x, & \\pi \\leq x \\leq \\frac{3}{2} \\pi \\\\ 0, & \\text{其他}\\end{array}\\right.$ 满足条件�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338952
+                    },
+                    "question_json": "mathreact/330eeeeeb9214ed588e4d9aa13d3295c",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84519,
+                            "question_id": 18765,
+                            "is_answer": false,
+                            "choice": "$f_1(x)=\\left\\{\\begin{array}{cc}\\sin x, & \\pi \\leq x \\leq \\frac{3}{2} \\pi \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84520,
+                            "question_id": 18765,
+                            "is_answer": false,
+                            "choice": "$f_4(x)=\\left\\{\\begin{array}{cc}1-\\cos x, & \\pi \\leq x \\leq \\frac{3}{2} \\pi \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84521,
+                            "question_id": 18765,
+                            "is_answer": true,
+                            "choice": "$f_3(x)=\\left\\{\\begin{array}{cc}-\\sin x, & \\pi \\leq x \\leq \\frac{3}{2} \\pi \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84522,
+                            "question_id": 18765,
+                            "is_answer": false,
+                            "choice": "$f_2(x)=\\left\\{\\begin{array}{c}\\cos x, \\pi \\leq x \\leq \\frac{3}{2} \\pi \\\\ 0, \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.64,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 97014,
+                    "ai_tags": "概率密度,连续型随机变�?
+                },
+                {
+                    "id": 18766,
+                    "subject_id": 3,
+                    "chapter_id": 296,
+                    "question_id": "569bb25d-9d1f-4dec-ac82-7b0d4e76174a",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$\\xi$ 的分布密度为 $\\varphi(x)=\\left\\{\\begin{array}{ll}A x(1-x)^2, & x \\in(0,1) \\\\ 0, & x \\notin(0,1)\\end{array}\\right.$, 则常�?$A=()$.",
+                    "analysis": "由概率密度函数的性质 $\\int_{-\\infty}^{+\\infty} f(x) d x=1$, 有\n$$\n\\int_{-\\infty}^{+\\infty} \\varphi(x) d x=\\int_0^1 \\varphi(x) d x=1 \\Rightarrow A\\left.\\left(\\frac{1}{2} x^2-\\frac{2}{3} x^3+\\frac{1}{4} x^4\\right)\\right|_0 ^1=1,\n$$\n\n�?$A=12$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338955
+                    },
+                    "question_json": "mathreact/13bdd0a517a0438db388975fc20f5b38",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84526,
+                            "question_id": 18766,
+                            "is_answer": true,
+                            "choice": "$12$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84527,
+                            "question_id": 18766,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84528,
+                            "question_id": 18766,
+                            "is_answer": false,
+                            "choice": "$\\frac{4}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84529,
+                            "question_id": 18766,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{12}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 58080,
+                    "ai_tags": "概率密度,定积�?
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 23,
+            "questions": [
+                {
+                    "id": 18769,
+                    "subject_id": 3,
+                    "chapter_id": 296,
+                    "question_id": "67367387-b5b0-4672-8653-7072b81e06e8",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "当随机变�?$\\zeta$ 的可能值充满区�?( ) �? $\\varphi(x)=\\cos x$ 可以是随机变�?$\\zeta$ 的概率密�?",
+                    "analysis": "设该区间的左端点�?$a$, 右端点为 $b$, �?$\\varphi(x)$ 为概率密度必满足\n$$\n\\int_a^b \\varphi(x) d x=\\int_a^b \\cos x d x=1,\n$$\n\n把答案代�? 可得区间 $\\left[0, \\frac{\\pi}{2}\\right]$ 满足条件 $\\int_a^b \\varphi(x) d x=1$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338959
+                    },
+                    "question_json": "mathreact/5978ccaaeed64235a731df7052c7c8e1",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84547,
+                            "question_id": 18769,
+                            "is_answer": true,
+                            "choice": "$\\left[0, \\frac{\\pi}{2}\\right]$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84548,
+                            "question_id": 18769,
+                            "is_answer": false,
+                            "choice": "$[0, \\pi]$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84549,
+                            "question_id": 18769,
+                            "is_answer": false,
+                            "choice": "$\\left[\\frac{\\pi}{2}, \\pi\\right]$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84550,
+                            "question_id": 18769,
+                            "is_answer": false,
+                            "choice": "$\\left[\\frac{3 \\pi}{2}, \\frac{7 \\pi}{4}\\right]$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 26563,
+                    "ai_tags": "概率密度,定积�?
+                },
+                {
+                    "id": 18780,
+                    "subject_id": 3,
+                    "chapter_id": 296,
+                    "question_id": "f0344e73-389f-4dfc-bed1-6c6242c4291b",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$\\xi$ 的分布密度为 $\\varphi(x)=\\frac{A}{e^{-x}+e^x}, -\\infty<x<+\\infty$, �?$A=()$.",
+                    "analysis": "由概率密度的性质 $\\int_{-\\infty}^{+\\infty} f(x) d x=1$, 有\n$$\n\\int_{-\\infty}^{+\\infty} A \\frac{1}{e^{-x}+e^x} d x=1\n$$\n\n�?$e^x=t$, 则有 $d x=\\frac{1}{t} d t$, 故\n$$\n\\int_{-\\infty}^{+\\infty} A \\frac{1}{e^{-x}+e^x} d x=A \\int_0^{+\\infty} \\frac{1}{1+t^2} d t=1\n$$\n\n�?$A \\times\\left.\\arctan t\\right|_0 ^{+\\infty}=A \\times \\frac{\\pi}{2}=1 \\Rightarrow A=\\frac{2}{\\pi}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338985
+                    },
+                    "question_json": "mathreact/cff3bbd3a6bc4a458339b3d717d5df56",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84624,
+                            "question_id": 18780,
+                            "is_answer": true,
+                            "choice": "$\\frac{2}{\\pi}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84625,
+                            "question_id": 18780,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\pi}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84626,
+                            "question_id": 18780,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\pi}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84627,
+                            "question_id": 18780,
+                            "is_answer": false,
+                            "choice": "$\\frac{4}{\\pi}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.85,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 109854,
+                    "tags": "",
+                    "ai_tags": "概率密度,定积�?
+                },
+                {
+                    "id": 20441,
+                    "subject_id": 3,
+                    "chapter_id": 296,
+                    "question_id": "f44c43ec-2752-4e6c-8a5d-d54fef0c863b",
+                    "difficulty": "Medium",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "设随机变�?$X$ 的概率密度为 $f(x)=f(-x), F(x)$ �?$X$ 的分布函数。则对任意实�?$a$, 错误的是 $($ ).",
+                    "analysis": "�?$F(x)=\\int_{-\\infty}^x f(t) d t$ 有\n$$\n\\begin{aligned}\nF(-a) & =\\int_{-\\infty}^{-a} f(t) d t \\xrightarrow{t=-x}-\\int_{+\\infty}^a f(-x) d x=\\int_a^{+\\infty} f(x) d x \\\\\n& =1-\\int_{-\\infty}^a f(x) d x=1-F(a)\n\\end{aligned}\n$$\n所�?$F(a)=\\int_{-\\infty}^a f(t) d t \\xrightarrow{t=-x}-\\int_{+\\infty}^{-a} f(-x) d x=\\int_{-a}^{+\\infty} f(x) d x$（选项 2 正确）。\n\n�?$a=0$ �? $F(-0)=1-F(0) \\Rightarrow F(0)=\\frac{1}{2}$。故\n$$\n\\begin{aligned}\nF(-a) & =1-\\int_{-\\infty}^a f(x) d x=1-\\int_{-\\infty}^0 f(x) d x-\\int_0^a f(x) d x \\\\\n& =1-F(0)-\\int_0^a f(x) d x=\\frac{1}{2}-\\int_0^a f(x) d x\n\\end{aligned}\n$$\n可见选项 4 错误。\n$$\n\\begin{aligned}\nP\\{|X| \\leq a\\} &=P\\{-a \\leq X \\leq a\\}=F(a)-F(-a)=2 F(a)-1 \\quad (\\text{选项 1 正确}) \\\\\nP\\{|X|>a\\} &=1-P\\{|X| \\leq a\\}=2-2 F(a) \\quad (\\text{选项 3 正确})\n\\end{aligned}\n$$\n注意: 本题可以直接�?$f(x)$ 当做标准正态密度函数来计算�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764382192
+                    },
+                    "question_json": "mathreact/4a8088603fd0475c8e46518f7f26294b",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 96251,
+                            "question_id": 20441,
+                            "is_answer": false,
+                            "choice": "$P\\{|X| \\leq a\\}=2 F(a)-1, \\quad(a>0)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 96252,
+                            "question_id": 20441,
+                            "is_answer": false,
+                            "choice": "$F(a)=\\int_{-a}^{+\\infty} f(x) d x$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 96253,
+                            "question_id": 20441,
+                            "is_answer": false,
+                            "choice": "$P\\{|X|>a\\}=2-2 F(a), \\quad(a>0)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 96254,
+                            "question_id": 20441,
+                            "is_answer": true,
+                            "choice": "$F(-a)=1-\\int_0^a f(x) d x$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.53,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 148427,
+                    "ai_tags": "概率密度,分布函数,偶函�?
+                }
+            ]
+        }
+    }
+]

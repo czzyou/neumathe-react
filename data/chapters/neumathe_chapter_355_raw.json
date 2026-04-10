@@ -1,0 +1,347 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 4,
+            "questions": [
+                {
+                    "id": 14137,
+                    "subject_id": 3,
+                    "chapter_id": 355,
+                    "question_id": "93eb6b48-2274-465e-843e-8a817254fbfd",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "若随机变�?$\\xi, \\eta$ 的相关系�?$\\rho(\\xi, \\eta)$ 存在，则 $|\\rho(\\xi, \\eta)|$ 的可能的最大值为 ( ).",
+                    "analysis": "由相关系数的定义�?$\\rho(\\xi, \\eta)=\\frac{\\operatorname{cov}(\\xi, \\eta)}{\\sqrt{D(\\xi) D(\\eta)}}$. 若令 $b=\\frac{\\operatorname{cov}(\\xi, \\eta)}{D(\\xi)}$, �?$D(\\eta-b \\xi)=b^2 D(\\xi)+D(\\eta)-2 b \\operatorname{cov}(\\xi, \\eta)=D(\\eta)\\left[1-\\rho^2(\\xi, \\eta)\\right]$,\n由于方差 $D(\\eta)>0, D(\\eta-b \\xi) \\geq 0$, 故必�?$1-\\rho^2(\\xi, \\eta) \\geq 0$. �?$|\\rho(\\xi, \\eta)| \\leq 1$.\n且当且仅当存在常�?$a, b(a \\neq 0)$, �?$P\\{\\eta=a \\xi+b\\}=1$ �? $|\\rho(\\xi, \\eta)|=1$.\n�?$a>0$ �? $\\rho(\\xi, \\eta)=1$; �?$a<0$ �? $\\rho(\\xi, \\eta)=-1$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/10be12beb8d646a9b810e918e0e24843",
+                    "updated_at": {
+                        "seconds": 1774895445
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56548,
+                            "question_id": 14137,
+                            "is_answer": true,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56547,
+                            "question_id": 14137,
+                            "is_answer": false,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56545,
+                            "question_id": 14137,
+                            "is_answer": false,
+                            "choice": "$0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56546,
+                            "question_id": 14137,
+                            "is_answer": false,
+                            "choice": "$0.8$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.92,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 17951,
+                    "ai_tags": "相关系数,随机变量,数字特征"
+                },
+                {
+                    "id": 14138,
+                    "subject_id": 3,
+                    "chapter_id": 355,
+                    "question_id": "35f84fd7-c693-493c-9f05-a242c20140db",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "相关系数 $\\rho$ 的取值范围是 ( ).",
+                    "analysis": "对随机变�?$X, Y$, 若取实数 $b=\\frac{\\operatorname{cov}(X, Y)}{D(X)}$, 则\n$$\nD(Y-b X)=D(Y)-\\frac{[\\operatorname{cov}(X, Y)]^2}{D(X)}=D(Y)\\left[1-\\frac{[\\operatorname{cov}(X, Y)]^2}{D(X) D(Y)}\\right]=D(Y)\\left[1-\\rho^2\\right],\n$$\n\n由于方差 $D(Y)$ 是正�? 故必�?$1-\\rho^2 \\geq 0$, 所�?$|\\rho| \\leq 1$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/4abf130786964749b3598df5ef7087bc",
+                    "updated_at": {
+                        "seconds": 1774895445
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56551,
+                            "question_id": 14138,
+                            "is_answer": true,
+                            "choice": "$[-1,1]$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56552,
+                            "question_id": 14138,
+                            "is_answer": false,
+                            "choice": "$[0,+\\infty)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56550,
+                            "question_id": 14138,
+                            "is_answer": false,
+                            "choice": "$[0,1]$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56549,
+                            "question_id": 14138,
+                            "is_answer": false,
+                            "choice": "$[-\\infty,+\\infty]$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 1822,
+                    "ai_tags": "概率�?随机变量的数字特�?相关系数"
+                },
+                {
+                    "id": 19410,
+                    "subject_id": 3,
+                    "chapter_id": 355,
+                    "question_id": "fce8a6a3-8c33-4c08-829a-29034ec49995",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$X$ 的方�?$D(X)<+\\infty$, 随机变量 $Y=aX+b$ ($a, b$ 均为常数�?$a \\neq 0$), �?$\\rho_{XY}$ �?( ).",
+                    "analysis": "依据相关系数的性质�?$\\rho_{XY}=\\begin{cases} 1, & a>0 \\\\ -1, & a<0 \\end{cases} = \\frac{a}{|a|}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340522
+                    },
+                    "question_json": "mathreact/af79712ddfb841dcb42166f9209cdef5",
+                    "updated_at": {
+                        "seconds": 1774895444
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89034,
+                            "question_id": 19410,
+                            "is_answer": true,
+                            "choice": "$\\frac{a}{|a|}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89035,
+                            "question_id": 19410,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89036,
+                            "question_id": 19410,
+                            "is_answer": false,
+                            "choice": "$-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89037,
+                            "question_id": 19410,
+                            "is_answer": false,
+                            "choice": "$|\\rho_{XY}|<1$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.6,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 9179,
+                    "ai_tags": "概率�?相关系数,线性变�?
+                },
+                {
+                    "id": 19423,
+                    "subject_id": 3,
+                    "chapter_id": 355,
+                    "question_id": "47293890-5d72-49c8-ba30-86a0cbff087d",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\rho(\\xi, \\eta)$ 是随机变�?$\\xi$ �?$\\eta$ 的相关系�? �?$|\\rho(\\xi, \\eta)|=1$ 的充要条件是 $P\\{\\eta=a \\xi+b\\}$ (其中 $a, b$ 是实数且 $a \\neq 0$ ) 等于 ( ).",
+                    "analysis": "(1) 必要�? �?$\\rho_{XY}= \\pm 1$ 时\n$$\n\\begin{aligned}\nD\\left(\\frac{Y}{\\sqrt{D(Y)}} \\mp \\frac{X}{\\sqrt{D(X)}}\\right) & =D\\left(\\frac{Y}{\\sqrt{D(Y)}}\\right)+D\\left(\\frac{X}{\\sqrt{D(X)}}\\right) \\mp 2 \\operatorname{cov}\\left(\\frac{Y}{\\sqrt{D(Y)}}, \\frac{X}{\\sqrt{D(X)}}\\right) \\\\\n& =1+1 \\mp 2 \\cdot \\frac{\\operatorname{cov}(X, Y)}{\\sqrt{D(Y)} \\sqrt{D(X)}}=2 \\mp 2 \\rho_{XY}=0 .\n\\end{aligned}\n$$\n\n由方差的性质可知: 存在常数 $C$ �?$P\\left\\{\\frac{Y}{\\sqrt{D(Y)}} \\mp \\frac{X}{\\sqrt{D(X)}}=C\\right\\}=1$, �?$P\\left\\{Y= \\pm \\sqrt{\\frac{D(Y)}{D(X)}} X+C \\sqrt{D(Y)}\\right\\}=1$. �?$a= \\pm \\sqrt{\\frac{D(Y)}{D(X)}}, b=C \\sqrt{D(Y)}$, 则有 $P\\{Y=a X+b\\}=1(a \\neq 0)$. �?$\\rho_{XY}=1$ �? $a=\\sqrt{\\frac{D(Y)}{D(X)}}>0$; �?$\\rho_{XY}=-1$ �? $a=-\\sqrt{\\frac{D(Y)}{D(X)}}<0$.\n(2) 充分�? �?$P\\{Y=a X+b\\}=1(a \\neq 0)$, 于是:\n$$\n\\rho=\\frac{\\operatorname{cov}(X, a X+b)}{\\sqrt{D(X)} \\sqrt{D(a X+b)}}=\\frac{a \\operatorname{cov}(X, Y)}{\\sqrt{D(X)} \\cdot \\sqrt{a^2 D(X)}}=\\frac{a D(X)}{\\sqrt{a^2} \\cdot D(X)}=\\frac{a}{|a|}=\\left\\{\\begin{array}{cc}\n1, & a>0 \\\\\n-1, & a<0\n\\end{array} .\\right.\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340559
+                    },
+                    "question_json": "mathreact/5074733918e746d2a9b45464938fd9bc",
+                    "updated_at": {
+                        "seconds": 1774895445
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89125,
+                            "question_id": 19423,
+                            "is_answer": true,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89126,
+                            "question_id": 19423,
+                            "is_answer": false,
+                            "choice": "$0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89127,
+                            "question_id": 19423,
+                            "is_answer": false,
+                            "choice": "$1.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89128,
+                            "question_id": 19423,
+                            "is_answer": false,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 9357,
+                    "ai_tags": "概率�?随机变量,相关系数"
+                }
+            ]
+        }
+    }
+]

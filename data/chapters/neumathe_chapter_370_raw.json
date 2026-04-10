@@ -1,0 +1,767 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 9,
+            "questions": [
+                {
+                    "id": 14140,
+                    "subject_id": 3,
+                    "chapter_id": 370,
+                    "question_id": "df87e76b-5cca-4e41-9db8-729f5ebefdb9",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某批产品的次品率�?0.1 , 连续抽取 10000 �? $\\xi$ 表示其中的次品数, 试用中心极限定理计算 $P\\{\\xi>1030\\}=()$.已知: $\\Phi(1)=0.8413, \\Phi(2)=0.9772$.",
+                    "analysis": "依题意有 $\\xi \\sim b(10000,0.1), E(\\xi)=n p=1000, D(\\xi)=n p q=900$.\n根据中心极限定理，\n$$\n\\begin{aligned}\nP\\{\\xi>1030\\} & =P\\{1030<\\xi<10000\\}=P\\left\\{\\frac{1030-1000}{\\sqrt{900}}<\\frac{\\xi-1000}{\\sqrt{900}}<\\frac{10000-1000}{\\sqrt{900}}\\right\\} \\\\\n& =1-\\Phi(1)=0.1587\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/04260587e97e4c7f94adfd5127a00404",
+                    "updated_at": {
+                        "seconds": 1775068258
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56559,
+                            "question_id": 14140,
+                            "is_answer": true,
+                            "choice": "$0.1587$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56558,
+                            "question_id": 14140,
+                            "is_answer": false,
+                            "choice": "$0.8413$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56557,
+                            "question_id": 14140,
+                            "is_answer": false,
+                            "choice": "$0.9772$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56560,
+                            "question_id": 14140,
+                            "is_answer": false,
+                            "choice": "$0.0228$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.79,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 136452,
+                    "ai_tags": "中心极限定理,二项分布,概率计算"
+                },
+                {
+                    "id": 14144,
+                    "subject_id": 3,
+                    "chapter_id": 370,
+                    "question_id": "77598eaa-c19c-4e8e-8f3e-fb61acbe0795",
+                    "difficulty": "Easy",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "�?$X_n$ 表示 $n$ 次独立重复试验中事件 $A$ 出现的次数， $p$ 是事�?$A$ 在每次试验中出现的概率，�?$P\\left\\{a<X_n \\leq b\\right\\} \\approx()$.",
+                    "analysis": "依题意知 $X_n \\sim b(n, p)$, 根据棣莫�?拉普拉斯定理中心极限定理则有 $X_n \\sim N(n p, n p q)$, 于是\n$$\nP\\left\\{a<X_n \\leq b\\right\\} \\approx \\Phi\\left(\\frac{b-n p}{\\sqrt{n p q}}\\right)-\\Phi\\left(\\frac{a-n p}{\\sqrt{n p q}}\\right) .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/68036cd0e1e14bea91b06d0e925c8735",
+                    "updated_at": {
+                        "seconds": 1775068255
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56574,
+                            "question_id": 14144,
+                            "is_answer": false,
+                            "choice": "$\\Phi\\left(\\frac{b-p}{\\sqrt{p q}}\\right)-\\Phi\\left(\\frac{a-p}{\\sqrt{p q}}\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56575,
+                            "question_id": 14144,
+                            "is_answer": false,
+                            "choice": "$\\Phi\\left(\\frac{b-p}{\\sqrt{n p q}}\\right)-\\Phi\\left(\\frac{a-p}{\\sqrt{n p q}}\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56573,
+                            "question_id": 14144,
+                            "is_answer": true,
+                            "choice": "$\\Phi\\left(\\frac{b-n p}{\\sqrt{n p q}}\\right)-\\Phi\\left(\\frac{a-n p}{\\sqrt{n p q}}\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56576,
+                            "question_id": 14144,
+                            "is_answer": false,
+                            "choice": "$\\Phi\\left(\\frac{b-p}{n \\sqrt{p q}}\\right)-\\Phi\\left(\\frac{a-p}{n \\sqrt{p q}}\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.7,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 26605,
+                    "ai_tags": "棣莫�?拉普拉斯定理,中心极限定理,二项分布"
+                },
+                {
+                    "id": 14147,
+                    "subject_id": 3,
+                    "chapter_id": 370,
+                    "question_id": "ea330521-6bd7-4ee6-ade8-02a132821686",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某批产品的次品率�?0.1 , 连续抽取 10000 �? $\\xi$ 表示其中的次品数, 试用中心极限定理计算 $P\\{\\xi<970\\}=()$.已知: $\\Phi(1)=0.8413, \\Phi(2)=0.9772, \\Phi(33.333)=1$.",
+                    "analysis": "依题意有 $\\xi \\sim b(10000,0.1), E(\\xi)=n p=1000, D(\\xi)=n p q=900$.根据中心极限定理，\n$$\n\\begin{aligned}\nP\\{\\xi<970\\} & =P\\{0<\\xi<970\\}=P\\left\\{\\frac{0-1000}{\\sqrt{900}}<\\frac{\\xi-1000}{\\sqrt{900}}<\\frac{970-1000}{\\sqrt{900}}\\right\\} \\\\\n& =\\Phi(-1)=1-\\Phi(1)=0.1587 .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/2688c537a8be4fe6a2576ed2e59d0808",
+                    "updated_at": {
+                        "seconds": 1775068256
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56586,
+                            "question_id": 14147,
+                            "is_answer": true,
+                            "choice": "$0.1587$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56585,
+                            "question_id": 14147,
+                            "is_answer": false,
+                            "choice": "$0.8413$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56588,
+                            "question_id": 14147,
+                            "is_answer": false,
+                            "choice": "$0.9772$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56587,
+                            "question_id": 14147,
+                            "is_answer": false,
+                            "choice": "$0.0228$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.71,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 36154,
+                    "ai_tags": "中心极限定理,二项分布"
+                },
+                {
+                    "id": 19405,
+                    "subject_id": 3,
+                    "chapter_id": 370,
+                    "question_id": "78e6a40b-4f67-4750-9d3e-da8104fa90e3",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "掷一均匀硬币 10000 次， $\\xi$ 表示出现正面的次数，试用中心极限定理计算 $P\\{5100<\\xi<10000\\}=($ ). 已知�?$\\Phi(1)=0.8413, \\Phi(2)=0.9772, \\Phi(100)=1$.",
+                    "analysis": "依题意有 $\\xi \\sim b(10000,0.5)$, 于是\n$$\nE(\\xi)=n p=5000, \\quad D(\\xi)=n p q=2500 .\n$$\n\n根据中心极限定理有\n$$\n\\begin{aligned}\nP\\{5100<\\xi<10000\\} & =P\\left\\{\\frac{5100-5000}{\\sqrt{2500}}<\\frac{\\xi-5000}{\\sqrt{2500}}<\\frac{10000-5000}{\\sqrt{2500}}\\right\\} \\\\\n& \\approx \\Phi\\left(\\frac{10000-5000}{\\sqrt{2500}}\\right)-\\Phi\\left(\\frac{5100-5000}{\\sqrt{2500}}\\right) \\\\\n& =\\Phi(100)-\\Phi(2)=1-0.9772=0.0228 .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340506
+                    },
+                    "question_json": "mathreact/93724b912c8644a7b4e71b1f80dd50ed",
+                    "updated_at": {
+                        "seconds": 1775068256
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88995,
+                            "question_id": 19405,
+                            "is_answer": true,
+                            "choice": "$0.0228$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89000,
+                            "question_id": 19405,
+                            "is_answer": false,
+                            "choice": "$0.8413$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89001,
+                            "question_id": 19405,
+                            "is_answer": false,
+                            "choice": "$0.9772$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89002,
+                            "question_id": 19405,
+                            "is_answer": false,
+                            "choice": "$0.1587$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.84,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 50743,
+                    "ai_tags": "中心极限定理,二项分布,正态分�?
+                },
+                {
+                    "id": 19407,
+                    "subject_id": 3,
+                    "chapter_id": 370,
+                    "question_id": "173df4c6-1101-452a-b707-9af6f9ad3593",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某批产品的次品率�?0.1 , 连续抽取 10000 �? $\\xi$ 表示其中的次品数, 试用中心极限定理计算 $P\\{970<\\xi<1030\\}=()$. 已知: $\\Phi(1)=0.8413, \\Phi(2)=0.9772$.",
+                    "analysis": "依题意有 $\\xi \\sim b(10000,0.1)$, 于是有\n$$\nE(\\xi)=n p=1000, D(\\xi)=n p q=900 .\n$$\n\n根据中心极限定理有，\n$$\n\\begin{gathered}\nP\\{970<\\xi<1030\\}=P\\left\\{\\frac{970-n p}{\\sqrt{n p q}}<\\frac{\\xi-n p}{\\sqrt{n p q}}<\\frac{1030-n p}{\\sqrt{n p q}}\\right\\} \\\\\n\\approx \\Phi\\left(\\frac{1030-n p}{\\sqrt{n p q}}\\right)-\\Phi\\left(\\frac{970-n p}{\\sqrt{n p q}}\\right) \\\\\n=\\Phi(1)-\\Phi(-1)=2 \\Phi(1)-1=0.6826 .\n\\end{gathered}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340516
+                    },
+                    "question_json": "mathreact/522702e9609f400c975b42b8dff098a9",
+                    "updated_at": {
+                        "seconds": 1767465100
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89013,
+                            "question_id": 19407,
+                            "is_answer": true,
+                            "choice": "$0.6826$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89014,
+                            "question_id": 19407,
+                            "is_answer": false,
+                            "choice": "$0.8413$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89015,
+                            "question_id": 19407,
+                            "is_answer": false,
+                            "choice": "$0.9772$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89016,
+                            "question_id": 19407,
+                            "is_answer": false,
+                            "choice": "$0.9544$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.82,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 43519,
+                    "ai_tags": "中心极限定理,二项分布,概率计算"
+                },
+                {
+                    "id": 19411,
+                    "subject_id": 3,
+                    "chapter_id": 370,
+                    "question_id": "69308590-8a63-4baa-a87d-07aa276998e9",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$X_1, X_2, \\cdots, X_{100}$ 独立同分�? �?$P\\left\\{X_i=k\\right\\}=\\frac{1}{k!} e^{-1}, k=0,1,2, \\cdots(i=1,2, \\cdots, 100)$, 则根据中心极限定理有 $P\\left\\{\\sum_{i=1}^{100} X_i<120\\right\\} \\approx()$.",
+                    "analysis": "由题意知, �?$\\forall i=1,2, \\cdots, 100$, �?$X_i \\sim P(1), E\\left(X_i\\right)=1, D\\left(X_i\\right)=1$. 于是由林德伯�?勒维中心极限定理, 有\n$$\nP\\left\\{\\sum_{i=1}^{100} X_i<120\\right\\}=P\\left\\{\\frac{\\sum_{i=1}^{100} X_i-100}{\\sqrt{100}}<2\\right\\} \\approx \\Phi(2)=0.97725\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340532
+                    },
+                    "question_json": "mathreact/d022371a46b0494285da754e958af5bf",
+                    "updated_at": {
+                        "seconds": 1775068254
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89041,
+                            "question_id": 19411,
+                            "is_answer": true,
+                            "choice": "$\\Phi(2)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89042,
+                            "question_id": 19411,
+                            "is_answer": false,
+                            "choice": "$\\Phi(0)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89043,
+                            "question_id": 19411,
+                            "is_answer": false,
+                            "choice": "$\\Phi(1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89044,
+                            "question_id": 19411,
+                            "is_answer": false,
+                            "choice": "$\\Phi(3)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.92,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 77376,
+                    "ai_tags": "中心极限定理,泊松分布,独立同分�?
+                },
+                {
+                    "id": 19413,
+                    "subject_id": 3,
+                    "chapter_id": 370,
+                    "question_id": "027a9ed7-5da7-4bda-8778-a592eb8b410d",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$\\xi_n(n=1,2 \\ldots)$ 服从二项分布 $B(n, p)$, 其中 $0<p<1$, 则对于任意实�?$x$, �?$\\lim _{n \\rightarrow \\infty} P\\left\\{\\left|\\xi_n-n p\\right|<x\\right\\}=()$.",
+                    "analysis": "由棣莫佛-拉普拉斯定理，有\n$$\nP\\left\\{\\left|\\xi_n-n p\\right|<x\\right\\}=P\\left\\{\\left|\\frac{\\xi_n-n p}{\\sqrt{n p(1-p)}}\\right|<\\frac{x}{\\sqrt{n p(1-p)}}\\right\\} \\approx 2 \\Phi\\left(\\frac{x}{\\sqrt{n p(1-p)}}\\right)-1\n$$\n\n所以，\n$$\n\\lim _{n \\rightarrow \\infty} P\\left\\{\\left|\\xi_n-n p\\right|<x\\right\\}=\\lim _{n \\rightarrow \\infty}\\left(2 \\Phi\\left(\\frac{x}{\\sqrt{n p(1-p)}}\\right)-1\\right)=2 \\Phi(0)-1=0 .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340537
+                    },
+                    "question_json": "mathreact/9f554e50fb35402faf69a2dbdab02553",
+                    "updated_at": {
+                        "seconds": 1775068253
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89055,
+                            "question_id": 19413,
+                            "is_answer": true,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89056,
+                            "question_id": 19413,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{\\sqrt{2 \\pi}} \\int_{-\\infty}^x e^{-\\frac{t^2}{2}} d t$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89057,
+                            "question_id": 19413,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{\\sqrt{2 \\pi}} \\int_{-\\infty}^{+\\infty} e^{-\\frac{t^2}{2}} d t$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89058,
+                            "question_id": 19413,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{\\sqrt{2 \\pi}} \\int_0^x e^{-\\frac{t^2}{2}} d t$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.08,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 34214,
+                    "ai_tags": "二项分布,中心极限定理,概率极限"
+                },
+                {
+                    "id": 19416,
+                    "subject_id": 3,
+                    "chapter_id": 370,
+                    "question_id": "384ac1d1-9993-4505-ac98-75187e4fa850",
+                    "difficulty": "Medium",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "设随机变�?$\\xi$ �?10000 次的重复独立试验中事�?$A$ 发生的次�? �?$P(A)=\\frac{3}{4}$, 则事�?$A$ 发生的频率介�?0.74 �?0.76 之间的概率为 (    ). $(\\Phi(2.31)=0.9896, \\sqrt{1875}=43.3)$",
+                    "analysis": "依题�? $\\xi \\sim b\\left(10000, \\frac{3}{4}\\right), E(\\xi)=n p=7500, D(\\xi)=n p q=1875$. 根据棣莫�?拉普拉斯中心极限定理, $\\xi \\dot{\\sim} N(7500, 1875)$. 于是,\n$$\n\\begin{aligned}\nP\\left\\{0.74<\\frac{\\xi}{10000}<0.76\\right\\} & =P\\{7400<\\xi<7600\\} \\\\\n& \\approx \\Phi\\left(\\frac{7600-7500}{\\sqrt{1875}}\\right)-\\Phi\\left(\\frac{7400-7500}{\\sqrt{1875}}\\right) \\approx 2 \\Phi\\left(\\frac{100}{43.3}\\right)-1 \\\\\n& \\approx 2 \\Phi(2.31)-1=2 \\times 0.9896-1=0.9792 .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340546
+                    },
+                    "question_json": "mathreact/0cd0170b3a674d0381fb351afcc7b0e7",
+                    "updated_at": {
+                        "seconds": 1772908222
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89076,
+                            "question_id": 19416,
+                            "is_answer": false,
+                            "choice": "$0.8215$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89077,
+                            "question_id": 19416,
+                            "is_answer": false,
+                            "choice": "$0.7625$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89078,
+                            "question_id": 19416,
+                            "is_answer": false,
+                            "choice": "$0.7415$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89079,
+                            "question_id": 19416,
+                            "is_answer": true,
+                            "choice": "$0.9792$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 56705,
+                    "ai_tags": "中心极限定理,二项分布,正态近�?
+                },
+                {
+                    "id": 19419,
+                    "subject_id": 3,
+                    "chapter_id": 370,
+                    "question_id": "dc8a3faa-f59c-4a4e-9afc-8e13f9a9da3e",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$X_1, X_2, \\cdots$ 为相互独立的随机变量序列，且 $X_i(i=1,2, \\cdots)$ 服从参数�?$\\lambda$ 的泊松分布，�?$\\lim_{n \\rightarrow \\infty} P\\left\\{\\frac{\\sum_{i=1}^n X_i-n \\lambda}{\\sqrt{n \\lambda}} \\leq x\\right\\} = (\\quad)$.",
+                    "analysis": "$E(X_i)=\\lambda, D(X_i)=\\lambda, (i=1,2, \\cdots)$，代入独立同分布中心极限定理得\n$$\n\\lim _{n \\rightarrow \\infty} P\\left\\{\\frac{\\sum_{i=1}^n X_i-n \\lambda}{\\sqrt{n \\lambda}} \\leq x\\right\\}=\\int_{-\\infty}^x \\frac{1}{\\sqrt{2 \\pi}} e^{-\\frac{t^2}{2}} dt\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340552
+                    },
+                    "question_json": "mathreact/1df8abbaa8d644e6bb5fe502b134d6cb",
+                    "updated_at": {
+                        "seconds": 1775068252
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89097,
+                            "question_id": 19419,
+                            "is_answer": true,
+                            "choice": "$\\int_{-\\infty}^x \\frac{1}{\\sqrt{2 \\pi}} e^{-\\frac{t^2}{2}} dt$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89098,
+                            "question_id": 19419,
+                            "is_answer": false,
+                            "choice": "$\\int_{-\\infty}^x e^{-\\frac{t^2}{2}} dt$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89099,
+                            "question_id": 19419,
+                            "is_answer": false,
+                            "choice": "$\\int_0^x \\frac{1}{\\sqrt{2 \\pi}} e^{-\\frac{t^2}{2}} dt$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89100,
+                            "question_id": 19419,
+                            "is_answer": false,
+                            "choice": "$\\int_0^x e^{-\\frac{t^2}{2}} dt$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.78,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 7078,
+                    "ai_tags": "中心极限定理,泊松分布"
+                }
+            ]
+        }
+    }
+]

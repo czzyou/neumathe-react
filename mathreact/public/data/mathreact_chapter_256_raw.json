@@ -1,0 +1,1036 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 12,
+            "questions": [
+                {
+                    "id": 13696,
+                    "subject_id": 3,
+                    "chapter_id": 256,
+                    "question_id": "91b1b7f7-8e2a-4018-9213-a6b43a7f8fbb",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "随机试验 $E$ 是记录某电话交换�?5 分钟内接到的呼唤次数, �?$E$ 的样本空间是 ( ).",
+                    "analysis": "某电话交换台 5 分钟内接到的呼唤次数可能�?$0,1,2, \\cdots, n, \\cdots$, 所�?$E$ 的样本空间是 $U=\\{0,1,2, \\cdots, n, \\cdots\\}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/21b816ebee8d404481ad35c952f43f53",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54783,
+                            "question_id": 13696,
+                            "is_answer": true,
+                            "choice": "$\\{0,1,2, \\cdots, n, \\cdots\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54782,
+                            "question_id": 13696,
+                            "is_answer": false,
+                            "choice": "$\\{1,2,3,4,5\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54784,
+                            "question_id": 13696,
+                            "is_answer": false,
+                            "choice": "$\\{0,1,2,3,4,5\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54781,
+                            "question_id": 13696,
+                            "is_answer": false,
+                            "choice": "$[0,+\\infty)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.77,
+                    "difficulty_score": 0.26,
+                    "avg_time_spent": 76384,
+                    "ai_tags": "概率�?随机试验,样本空间"
+                },
+                {
+                    "id": 13698,
+                    "subject_id": 3,
+                    "chapter_id": 256,
+                    "question_id": "f252a33c-fa54-42fc-b598-0e6e51835805",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "若随机试�?$E$ �? 在六张卡片上分别标有数字 $0,1,2,3,4,5$, 从中任意依次取出两张, 取后不放�? 组成一个二位数, �?$E$ 的样本空间中基本事件个数�?().",
+                    "analysis": "要组成一个二位数就要求十位数字不能为 0 , 即十位数字只能从非零的五个数字中取一�? 个位数字就从剩下的五个数字中取一�? 所以则 $E$ 的样本空间中基本事件个数�?$C_5^1 C_5^1=25$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/178f614dce594c8c88642984eedc2429",
+                    "updated_at": {
+                        "seconds": 1775673110
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54790,
+                            "question_id": 13698,
+                            "is_answer": true,
+                            "choice": "$25$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54789,
+                            "question_id": 13698,
+                            "is_answer": false,
+                            "choice": "$20$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54791,
+                            "question_id": 13698,
+                            "is_answer": false,
+                            "choice": "$30$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54792,
+                            "question_id": 13698,
+                            "is_answer": false,
+                            "choice": "$36$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.64,
+                    "difficulty_score": 0.38,
+                    "avg_time_spent": 74754,
+                    "tags": "近期易错,近期373人做�?,
+                    "ai_tags": "样本空间,排列组合"
+                },
+                {
+                    "id": 13699,
+                    "subject_id": 3,
+                    "chapter_id": 256,
+                    "question_id": "22931b97-578e-4f6d-9c89-c907cdd5302b",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "打靶3�? 事件 $A_i(i=0,1,2,3)$ 表示 \"击中 $i$ 发\", 那么事件 $A=A_0+A_1+A_2+A_3$ 表示( ).",
+                    "analysis": "题目中的事件 $A$ 表示打靶有可能击�?0 发�?1 发�?2 发�?3 �? 这显然是必然发生的事�?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/b67a7c400a49419581d2e4b48f580829",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54794,
+                            "question_id": 13699,
+                            "is_answer": true,
+                            "choice": "必然事件",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54795,
+                            "question_id": 13699,
+                            "is_answer": false,
+                            "choice": "全部打中",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54793,
+                            "question_id": 13699,
+                            "is_answer": false,
+                            "choice": "至少击中一�?,
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54796,
+                            "question_id": 13699,
+                            "is_answer": false,
+                            "choice": "不少于一发击�?,
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.27,
+                    "avg_time_spent": 24082,
+                    "ai_tags": "随机事件,必然事件"
+                },
+                {
+                    "id": 13700,
+                    "subject_id": 3,
+                    "chapter_id": 256,
+                    "question_id": "939af9fd-726c-4bbb-826f-912dd418597b",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "下列关于随机试验的特�? 不正确的�?( ).",
+                    "analysis": "随机试验有以下三个特点：\n(1) 可重复�? 可以在相同的条件下重复进�?\n(2) 可观察�? 每次试验的可能结果不止一�? 并且能事先明确试验的所有可能结�?\n�?）不确定性：进行一次试验之前不能确定哪一个结果，但肯定会出现上述所有可能结果中的一�?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/e0d6c0e8b68b45b69304a94aa9c32be4",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54799,
+                            "question_id": 13700,
+                            "is_answer": true,
+                            "choice": "每次试验的可能结果不止一�? 并且不能事先明确试验的所有可能结�?,
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54800,
+                            "question_id": 13700,
+                            "is_answer": false,
+                            "choice": "可以在相同的条件下重复进�?,
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54797,
+                            "question_id": 13700,
+                            "is_answer": false,
+                            "choice": "每次试验的可能结果不止一�? 并且能事先明确试验的所有可能结�?,
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54798,
+                            "question_id": 13700,
+                            "is_answer": false,
+                            "choice": "进行一次试验之前不能确定哪一个结�?,
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.68,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 60133,
+                    "tags": "近期易错,近期329人做�?,
+                    "ai_tags": "随机试验,概率�?
+                },
+                {
+                    "id": 13701,
+                    "subject_id": 3,
+                    "chapter_id": 256,
+                    "question_id": "6a36c9b8-26ba-4a60-b8ba-70a63db90d8e",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "打靶3�? 事件 $A_i(i=0,1,2,3)$ 表示 \"击中 $i$ 发\", 那么事件 $A=A_0+A_1$ 表示( ).",
+                    "analysis": "$A_0$ 表示击中 0 �? $A_1$ 表示击中 1 �? 所以事�?$A=A_0+A_1$ 表示击中 0 发或 1 �? 即至多击中一�?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/fbc8a4f0fb88481c8213b16c0e8e4df6",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54801,
+                            "question_id": 13701,
+                            "is_answer": true,
+                            "choice": "至多击中一�?,
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54803,
+                            "question_id": 13701,
+                            "is_answer": false,
+                            "choice": "至少击中一�?,
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54804,
+                            "question_id": 13701,
+                            "is_answer": false,
+                            "choice": "恰好击中一�?,
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54802,
+                            "question_id": 13701,
+                            "is_answer": false,
+                            "choice": "必有一发击�?,
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.27,
+                    "avg_time_spent": 39851,
+                    "tags": "近期59人做�?,
+                    "ai_tags": "随机事件,事件运算"
+                },
+                {
+                    "id": 13702,
+                    "subject_id": 3,
+                    "chapter_id": 256,
+                    "question_id": "8c0275c4-3a73-4435-916e-bbd8b5150b79",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "对目标进行射击四�? �?$A_i$ 表示恰好射中 $i$ 次的事件�?$(i=0,1,2,3,4)$. 那么下列事件的解释中错误的是 ( ).",
+                    "analysis": "$A_0+A_1$ 表示射中次数至多�?1 .",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/8120cfacbd8242eea929a45e4ee61fb0",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54808,
+                            "question_id": 13702,
+                            "is_answer": true,
+                            "choice": "$A_0+A_1$ 表示射中次数�?1",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54806,
+                            "question_id": 13702,
+                            "is_answer": false,
+                            "choice": "$A_2+A_3+A_4$ 表示射中次数大于等于 2",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54805,
+                            "question_id": 13702,
+                            "is_answer": false,
+                            "choice": "$\\bar{A}_0$ 表示射中次数不为 0",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54807,
+                            "question_id": 13702,
+                            "is_answer": false,
+                            "choice": "$A_0+A_1+A_2$ 表示射中次数小于等于 2",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.9,
+                    "difficulty_score": 0.27,
+                    "avg_time_spent": 39007,
+                    "tags": "近期92人做�?,
+                    "ai_tags": "随机事件,事件的运�?
+                },
+                {
+                    "id": 19129,
+                    "subject_id": 3,
+                    "chapter_id": 256,
+                    "question_id": "effd41cb-5976-416b-b6ea-6d9f12ef5f15",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$A$ 表示“掷三个骰子的点数和不大�?5”的事件，样本空间为三个骰子的所有可能点数，�?$A$ 样本点数�?( ).",
+                    "analysis": "掷三个骰子的点数情况如下（即样本空间）：\n$$\n\\begin{aligned}\n\\Omega=\\{&(1,1,1),(1,1,2), \\cdots,(1,1,6), \\cdots,(1,6,1),(1,6,2), \\cdots,(1,6,6) ; \\\\\n&(2,1,1),(1,1,2), \\cdots,(2,1,6), \\cdots,(2,6,1),(2,6,2), \\cdots,(2,6,6) ; \\\\\n& \\cdots \\cdots \\\\\n&(6,1,1),(6,1,2), \\cdots,(6,1,6), \\cdots,(6,6,1),(6,6,2), \\cdots,(6,6,6)\\}\n\\end{aligned}\n$$\n其和不大�?5 的点数情况可能为\n$$\n\\begin{aligned}\nA=\\{&(1,1,1), (1,1,2), (1,2,1), (2,1,1), (1,1,3), \\\\\n&(1,3,1), (3,1,1), (1,2,2), (2,1,2), (2,2,1)\\} .\n\\end{aligned}\n$$\n于是 $A$ 的样本点数为 10 .",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339854
+                    },
+                    "question_json": "mathreact/26b766d527b4425eb2eb3b1ddb980d09",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87067,
+                            "question_id": 19129,
+                            "is_answer": true,
+                            "choice": "$10$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87068,
+                            "question_id": 19129,
+                            "is_answer": false,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87069,
+                            "question_id": 19129,
+                            "is_answer": false,
+                            "choice": "$15$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87070,
+                            "question_id": 19129,
+                            "is_answer": false,
+                            "choice": "$20$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.58,
+                    "difficulty_score": 0.44,
+                    "avg_time_spent": 84159,
+                    "tags": "近期易错,近期374人做�?,
+                    "ai_tags": "概率�?样本空间,古典概型"
+                },
+                {
+                    "id": 19143,
+                    "subject_id": 3,
+                    "chapter_id": 256,
+                    "question_id": "12b37552-78c6-467c-8528-127dc6a06c7d",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "打靶3发，事件 $A_i(i=0,1,2,3)$ 表示“击�?$i$ 发”，那么事件 $A=A_1+A_2+A_3$ 表示（　�?",
+                    "analysis": "$A_1$ 表示 \"击中 1 发\" , $A_2$ 表示 \"击中 2 发\", $A_3$ 表示 \"击中 3 发\", 所以事�?$A=A_1+A_2+A_3$ 表示击中 1 发�?2 发或 3 �? 即至少击中一�?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339882
+                    },
+                    "question_json": "mathreact/f13d81968b32437a8fcbdfc1b690d71e",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87165,
+                            "question_id": 19143,
+                            "is_answer": true,
+                            "choice": "必然击中",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87166,
+                            "question_id": 19143,
+                            "is_answer": false,
+                            "choice": "全部击中",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87167,
+                            "question_id": 19143,
+                            "is_answer": false,
+                            "choice": "必然事件",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87168,
+                            "question_id": 19143,
+                            "is_answer": false,
+                            "choice": "击中不少�?3 �?,
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.84,
+                    "difficulty_score": 0.24,
+                    "avg_time_spent": 59110,
+                    "tags": "近期易错,近期151人做�?,
+                    "ai_tags": "随机事件,事件的运�?
+                },
+                {
+                    "id": 19144,
+                    "subject_id": 3,
+                    "chapter_id": 256,
+                    "question_id": "c1cb5c9f-955a-44d5-bcbf-88490e1e4356",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "随机试验 $E$ 是对同一目标连续独立射击 5 �? 击中 2 �? �?$E$ 的样本空�?$U=()$.",
+                    "analysis": "对于 5 次独立地射击目标, 每次都可能中靶或不中�? 所以其样本点为 $0,1,2,3,4,5$, �?$E$ 的样本空�?$U=\\{0,1,2,3,4,5\\}$. 其中击中 2 次只说明是样本点 $\\{2\\}$ 发生, 它只是样本空间的一个元�?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339883
+                    },
+                    "question_json": "mathreact/f58c3bdacd824d81a731153c67feb0f5",
+                    "updated_at": {
+                        "seconds": 1775673108
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87172,
+                            "question_id": 19144,
+                            "is_answer": true,
+                            "choice": "$\\{0,1,2,3,4,5\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87173,
+                            "question_id": 19144,
+                            "is_answer": false,
+                            "choice": "$\\{2\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87174,
+                            "question_id": 19144,
+                            "is_answer": false,
+                            "choice": "$\\{0,2\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87175,
+                            "question_id": 19144,
+                            "is_answer": false,
+                            "choice": "$\\{1,2,3,4,5\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.61,
+                    "difficulty_score": 0.38,
+                    "avg_time_spent": 62151,
+                    "tags": "近期易错,近期352人做�?,
+                    "ai_tags": "样本空间,随机试验"
+                },
+                {
+                    "id": 19148,
+                    "subject_id": 3,
+                    "chapter_id": 256,
+                    "question_id": "d3fffaf1-7b42-4997-84c8-74d021388414",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "将一枚均匀的硬币抛两次，事�?$A, B, C$ 分别表示“第一次出现正面”、“两次出现同一面”、“至少有一次出现正面”，若试验的样本空间�?$S$，则下列写法不正确的�?( ).",
+                    "analysis": "抛掷一枚均匀硬币两次，样本空间为 $S=\\{(\\text{�? 正}), (\\text{�? 反}), (\\text{�? 正}), (\\text{�? 反})\\}$，故关于 $S$ 的写法正确；\n事件 $A$ 表示“第一次出现正面”，包含样本�?$(\\text{�? 正})$ �?$(\\text{�? 反})$，即 $A=\\{(\\text{�? 正}), (\\text{�? 反})\\}$，故关于 $A$ 的写法正确；\n事件 $B$ 表示“两次出现同一面”，包含样本�?$(\\text{�? 正})$ �?$(\\text{�? 反})$，即 $B=\\{(\\text{�? 正}), (\\text{�? 反})\\}$，故关于 $B$ 的写法正确；\n事件 $C$ 表示“至少有一次出现正面”，包含样本�?$(\\text{�? 正})$�?(\\text{�? 反})$ �?$(\\text{�? 正})$，即 $C=\\{(\\text{�? 正}), (\\text{�? 反}), (\\text{�? 正})\\}$。\n选项中给出的�?$C=\\{(\\text{�? 正}), (\\text{�? 反})\\}$，漏掉了 $(\\text{�? 正})$，故该写法不正确。\n\n综上，应选写法不正确的一项�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339899
+                    },
+                    "question_json": "mathreact/0498455ecf5f418dbf92abb7d26dcce8",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87200,
+                            "question_id": 19148,
+                            "is_answer": true,
+                            "choice": "$C=\\{(\\text{�? 正}), (\\text{�? 反})\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87201,
+                            "question_id": 19148,
+                            "is_answer": false,
+                            "choice": "$S=\\{(\\text{�? 正}), (\\text{�? 反}), (\\text{�? 正}), (\\text{�? 反})\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87202,
+                            "question_id": 19148,
+                            "is_answer": false,
+                            "choice": "$A=\\{(\\text{�? 正}), (\\text{�? 反})\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87203,
+                            "question_id": 19148,
+                            "is_answer": false,
+                            "choice": "$B=\\{(\\text{�? 正}), (\\text{�? 反})\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.3,
+                    "avg_time_spent": 113225,
+                    "tags": "近期易错,近期165人做�?,
+                    "ai_tags": "随机事件,样本空间"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 12,
+            "questions": [
+                {
+                    "id": 20578,
+                    "subject_id": 3,
+                    "chapter_id": 256,
+                    "question_id": "6cfdbf59-a65d-4552-9fd6-5e7c7e63576c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设某人向靶子射击 3 次，$A_i (i=1, 2, 3)$ 表示“第 $i$ 次射击击中靶子”，则下列说法不正确的是 ( ).",
+                    "analysis": "选项 A 中，$(A_1 A_2 \\overline{A_3}) \\cup (\\overline{A_1} A_2 A_3)$ 表示恰好连续两次击中靶子，不包括三次都击中的情况。而“连续两次击中靶子”通常指事�?$(A_1 A_2) \\cup (A_2 A_3)$，包含三次都击中的情�?$(A_1 A_2 A_3)$，即 $(A_1 A_2 \\overline{A_3}) \\cup (\\overline{A_1} A_2 A_3) \\cup (A_1 A_2 A_3)$。因此选项 A 描述不准确。选项 B 表示至少一次未击中，正确；选项 C 表示前两次均未击中，正确；选项 D 描述准确，正确。故�?A�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1774872165
+                    },
+                    "question_json": "https://cdn.mathreact.cn/questions/6cfdbf59-a65d-4552-9fd6-5e7c7e63576c/v4_1774872164.json",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 4,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 97021,
+                            "question_id": 20578,
+                            "is_answer": true,
+                            "choice": "$(A_1 A_2 \\overline{A_3}) \\cup (\\overline{A_1} A_2 A_3)$ 表示连续两次击中靶子",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1774872165
+                            },
+                            "updated_at": {
+                                "seconds": 1774872165
+                            }
+                        },
+                        {
+                            "id": 97022,
+                            "question_id": 20578,
+                            "is_answer": false,
+                            "choice": "$\\overline{A_1} \\cup \\overline{A_2} \\cup \\overline{A_3}$ 表示 3 次射击至少有一次没击中靶子",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1774872165
+                            },
+                            "updated_at": {
+                                "seconds": 1774872165
+                            }
+                        },
+                        {
+                            "id": 97023,
+                            "question_id": 20578,
+                            "is_answer": false,
+                            "choice": "$\\overline{A_1 \\cup A_2}$ 表示前两次都没有击中靶子",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1774872165
+                            },
+                            "updated_at": {
+                                "seconds": 1774872165
+                            }
+                        },
+                        {
+                            "id": 97024,
+                            "question_id": 20578,
+                            "is_answer": false,
+                            "choice": "$(A_1 A_2 \\overline{A_3}) \\cup (\\overline{A_1} A_2 A_3)$ 表示恰好连续两次击中靶子",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1774872165
+                            },
+                            "updated_at": {
+                                "seconds": 1774872165
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.51,
+                    "difficulty_score": 0.41,
+                    "avg_time_spent": 90439,
+                    "ai_tags": "概率论，事件运算，集合表�?
+                },
+                {
+                    "id": 20586,
+                    "subject_id": 3,
+                    "chapter_id": 256,
+                    "question_id": "841c619b-7d95-4d5c-8c46-d429d222619e",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一批产品有合格品也有废品，从中有放回地抽取（将产品取出一件观察后放回）三件产品，�?$A_i(i=1,2,3)$ 表示�?$i$ 次抽到废品，则下列说法不正确的是�?�?",
+                    "analysis": "$A_1 \\cup A_2$ 表示第一次和第二次抽取至少抽到一件废品。此外，至少有一次抽到废品还可表示为 $A_1 \\cup A_2 \\cup A_3$�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1775545970
+                    },
+                    "question_json": "https://cdn.mathreact.cn/questions/841c619b-7d95-4d5c-8c46-d429d222619e/v6_1775545970.json",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 6,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 97053,
+                            "question_id": 20586,
+                            "is_answer": true,
+                            "choice": "$A_1 \\cup A_2$ 表示第一次和第二次抽取至多抽到一件废�?,
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1775545970
+                            },
+                            "updated_at": {
+                                "seconds": 1775545970
+                            }
+                        },
+                        {
+                            "id": 97054,
+                            "question_id": 20586,
+                            "is_answer": false,
+                            "choice": "$A_1 \\cap \\overline{A_2} \\cap \\overline{A_3}$ 表示只有第一次抽到废�?,
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1775545970
+                            },
+                            "updated_at": {
+                                "seconds": 1775545970
+                            }
+                        },
+                        {
+                            "id": 97055,
+                            "question_id": 20586,
+                            "is_answer": false,
+                            "choice": "$\\overline{\\overline{A_1} \\ \\overline{A_2} \\ \\overline{A_3}}$ 表示至少有一次抽到废�?,
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1775545970
+                            },
+                            "updated_at": {
+                                "seconds": 1775545970
+                            }
+                        },
+                        {
+                            "id": 97056,
+                            "question_id": 20586,
+                            "is_answer": false,
+                            "choice": "$\\overline{A_1} A_2 A_3 \\cup A_1 \\overline{A_2} A_3 \\cup A_1 A_2 \\overline{A_3}$ 表示只有两次抽到废品",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1775545970
+                            },
+                            "updated_at": {
+                                "seconds": 1775545970
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.79,
+                    "difficulty_score": 0.31,
+                    "avg_time_spent": 62161,
+                    "ai_tags": "概率论，事件运算，德摩根律，集合关系"
+                }
+            ]
+        }
+    }
+]

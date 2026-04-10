@@ -1,0 +1,2381 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 28,
+            "questions": [
+                {
+                    "id": 13945,
+                    "subject_id": 3,
+                    "chapter_id": 292,
+                    "question_id": "4e4ae67a-647b-4b2b-9aec-a8394d7da0a6",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "200 件产品中, �?96件是正品, 4 件是次品, 今从中随机地抽取一�?若规�?$X=\\left\\{\\begin{array}{l}1, \\text { 取到正品 } \\\\ 0, \\text { 取到次品 }\\end{array}\\right.$ 下列说法正确的是 ( ).",
+                    "analysis": "$$\nP\\{X=1\\}=\\frac{196}{200}=0.98, P\\{X=0\\}=\\frac{4}{200}=0.02 \\text {. }\n$$\n$X$ 服从参数�?0.98 �?$0-1$ 分布.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/0f25392374874fda8d9bf91b81492404",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55778,
+                            "question_id": 13945,
+                            "is_answer": false,
+                            "choice": "$P\\{X=1\\}=0.33$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55777,
+                            "question_id": 13945,
+                            "is_answer": true,
+                            "choice": "$P\\{X=1\\}=0.98$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55780,
+                            "question_id": 13945,
+                            "is_answer": false,
+                            "choice": "$P\\{X=0\\}=0.22$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55779,
+                            "question_id": 13945,
+                            "is_answer": false,
+                            "choice": "$P\\{X=0\\}=0.97$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.98,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 122592,
+                    "ai_tags": "0-1分布,随机变量分布�?
+                },
+                {
+                    "id": 13948,
+                    "subject_id": 3,
+                    "chapter_id": 292,
+                    "question_id": "ee1c55d4-27c6-4da8-9353-c2f0c3e54731",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某射手每次射击命中目标的概率�?0.8 , 现连续射�?30 �? 命中目标的次数为随机变量 $\\xi$,则当 $k=0,1,2, \\cdots, 30$ �? $p\\{\\xi=k\\}=()$.",
+                    "analysis": "根据伯努利定�? 二项分布的定义为 $P\\{X=k\\}=C_n^k p^k(1-p)^{n-k}$.�?$P\\{\\xi=k\\}=C_{30}^k 0.8^k(0.2)^{30-k}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/1c53ea1f8596442caa17c33c0acd64bf",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55791,
+                            "question_id": 13948,
+                            "is_answer": true,
+                            "choice": "$C_{30}^k 0.8^k(0.2)^{30-k}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55790,
+                            "question_id": 13948,
+                            "is_answer": false,
+                            "choice": "$C_{30}^k 0.8^{30-k}(0.2)^k$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55792,
+                            "question_id": 13948,
+                            "is_answer": false,
+                            "choice": "$30 \\times 0.8^k \\times(0.2)^{30-k}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55789,
+                            "question_id": 13948,
+                            "is_answer": false,
+                            "choice": "$C_{29}^{k-1} 0.8^k(0.2)^{30-k}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.88,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 45014,
+                    "ai_tags": "概率�?二项分布,随机变量"
+                },
+                {
+                    "id": 13953,
+                    "subject_id": 3,
+                    "chapter_id": 292,
+                    "question_id": "85c41494-0e45-40a8-9a96-11daa0b969a8",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\xi$ 服从二项分布 $\\xi \\sim B(4, p)$, 且知 $P\\{\\xi \\geq 1\\}=\\frac{65}{81}$, �?$p=()$.",
+                    "analysis": "由对立事件的概率计算得\n$$\n\\begin{aligned}\n& P\\{\\xi \\geq 1\\}=1-P\\{\\xi<1\\}=1-P\\{\\xi=0\\}=1-C_4^0 p^0(1-p)^4=\\frac{65}{81} . \\\\\n& \\Rightarrow 1-p=\\frac{2}{3} \\Rightarrow p=\\frac{1}{3} .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/fa27bca5e551458ba7ebe51297c38494",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55810,
+                            "question_id": 13953,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55812,
+                            "question_id": 13953,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55809,
+                            "question_id": 13953,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55811,
+                            "question_id": 13953,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.98,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 28650,
+                    "ai_tags": "二项分布,概率计算"
+                },
+                {
+                    "id": 13959,
+                    "subject_id": 3,
+                    "chapter_id": 292,
+                    "question_id": "0866fd97-37ec-4856-bfe9-4f9a136d99c6",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "若每次射击中靶的概率�?0.7 , 求射�?10 �? 命中 3 炮的概率�?( ); 至少命中 3 炮的概率�?( ); 最可能命中 ( ) �?",
+                    "analysis": "若随机变�?$X$ 表示射击 10 炮中中靶的次�? 由于各炮是否中靶相互独立, 所以是一�?10 重伯努利概型, $X$ 服从二项分布, 其参数为 $n=10, p=0.7$, �?(1) $P\\{X=3\\}=C_{10}^3(0.7)^3(0.3)^7 \\approx 0.009$;\n(2) $P\\{X \\geq 3\\}=1-P\\{X<3\\}=1-\\left[C_{10}^1(0.7)^0(0.3)^{10}+C_{10}^1(0.7)^1(0.3)^9+C_{10}^2(0.7)^2(0.3)^8\\right] \\approx 0.998$;\n(3) �?$X \\sim b(10,0.7)$, 而\n$k_0=[(n+1) p]=[(10+1)] \\times 0.7=[7.7]=7$, 故最可能命中 7 �?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/b6a55ebb4be14d98ab397667324e1ceb",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55836,
+                            "question_id": 13959,
+                            "is_answer": true,
+                            "choice": "$0.009,0.998,7$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55835,
+                            "question_id": 13959,
+                            "is_answer": false,
+                            "choice": "$0.998,0.009,6$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55834,
+                            "question_id": 13959,
+                            "is_answer": false,
+                            "choice": "$0.998,0.009,7$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55833,
+                            "question_id": 13959,
+                            "is_answer": false,
+                            "choice": "$0.009,0.998,6$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.69,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 103254,
+                    "ai_tags": "二项分布,伯努利概�?
+                },
+                {
+                    "id": 13960,
+                    "subject_id": 3,
+                    "chapter_id": 292,
+                    "question_id": "ba4783b8-e591-44d7-931e-eb3f9ca3d545",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "设随机变�?$X \\sim b(2, p), Y \\sim b(3, p)$, �?$P\\{X \\geq 1\\}=\\frac{5}{9}$, �?$P\\{Y \\geq 1\\}=()$.",
+                    "analysis": "因为 $X \\sim b(2, p)$,\n$$\nP\\{X=0\\}=(1-p)^2=1-P\\{X \\geq 1\\}=1-5 / 9=4 / 9,\n$$\n\n所�?$p=1 / 3$.\n因为 $Y \\sim b(3, p)$, 所以\n$$\nP\\{Y \\geq 1\\}=1-P\\{Y=0\\}=1-(2 / 3)^3=19 / 27\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/e8af981411c04219aaf6f970e52460e5",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55839,
+                            "question_id": 13960,
+                            "is_answer": false,
+                            "choice": "$\\frac{10}{27}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55840,
+                            "question_id": 13960,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{27}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55838,
+                            "question_id": 13960,
+                            "is_answer": false,
+                            "choice": "$\\frac{22}{27}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55837,
+                            "question_id": 13960,
+                            "is_answer": true,
+                            "choice": "$\\frac{19}{27}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.96,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 95746,
+                    "ai_tags": "二项分布,概率计算"
+                },
+                {
+                    "id": 13961,
+                    "subject_id": 3,
+                    "chapter_id": 292,
+                    "question_id": "a1785e44-b70e-422c-91be-bb3fc3138356",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某元件的寿命 $X$ 服从指数分布, 已知其参�?$\\lambda=1 / 1000$, �?3 个这样的元件使用 1000 小时至少已有一个损坏的概率�?( ).",
+                    "analysis": "由题设知�?$X$ 的分布函数为 $F(x)=\\left\\{\\begin{array}{cc}1-e^{-\\frac{x}{1000}}, & x \\geq 0 \\\\ 0, & x<0\\end{array}\\right.$\n由此得到\n$$\nP\\{X>1000\\}=1-P\\{X \\leq 1000\\}=1-F(1000)=e^{-1}\n$$\n\n各元件的寿命是否超过 1000 小时是独立的, �?$Y$ 表示三个元件中使�?1000 小时损坏的元件数, �?$Y \\sim b\\left(3,1-e^{-1}\\right)$.\n所求概率为\n$$\nP\\{Y \\geq 1\\}=1-P\\{Y=0\\}=1-C_3^0\\left(1-e^{-1}\\right)^0\\left(e^{-1}\\right)^3=1-e^{-3}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/4284fc849d1944489efe475bd58e0800",
+                    "updated_at": {
+                        "seconds": 1775673110
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55843,
+                            "question_id": 13961,
+                            "is_answer": true,
+                            "choice": "$P\\{Y \\geq 1\\}=1-e^{-3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55841,
+                            "question_id": 13961,
+                            "is_answer": false,
+                            "choice": "$P\\{Y \\geq 1\\}=1+e^{-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55844,
+                            "question_id": 13961,
+                            "is_answer": false,
+                            "choice": "$P\\{Y \\geq 1\\}=1-e^{-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55842,
+                            "question_id": 13961,
+                            "is_answer": false,
+                            "choice": "$P\\{Y \\geq 1\\}=1+e^{-3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 120607,
+                    "ai_tags": "指数分布,二项分布,概率计算"
+                },
+                {
+                    "id": 13963,
+                    "subject_id": 3,
+                    "chapter_id": 292,
+                    "question_id": "28371a9f-5ac4-4a3a-a6b8-9da1a604f712",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "事件 $A$ 在一次实验中发生的概率为 $p, \\quad \\xi$ 表示�?$n$ 次重复独立实验中事件 $A$ 发生的次�? �?$P\\{\\xi \\geq 1\\}=()$.",
+                    "analysis": "设在 $n$ 次重复独立实验中事件 $A$ 发生的次数为 $k$, 则其概率式子�?$P\\{\\xi=k\\}=C_n^k p^k(1-p)^{n-k}$ ，（ $p$ 为事�?$A$ 发生的概率）\n�?$P\\{\\xi \\geq 1\\}=1-P\\{\\xi<1\\}=1-P\\{\\xi=0\\}$,\n所�?$P\\{\\xi \\geq 1\\}=1-(1-p)^n$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/07f81449c5fd4818a64b93a06a149b9c",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55851,
+                            "question_id": 13963,
+                            "is_answer": true,
+                            "choice": "$1-(1-p)^n$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55850,
+                            "question_id": 13963,
+                            "is_answer": false,
+                            "choice": "$1-p^n$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55852,
+                            "question_id": 13963,
+                            "is_answer": false,
+                            "choice": "$1-p$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55849,
+                            "question_id": 13963,
+                            "is_answer": false,
+                            "choice": "p",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 1410259,
+                    "ai_tags": "概率�?二项分布,伯努利试�?
+                },
+                {
+                    "id": 13964,
+                    "subject_id": 3,
+                    "chapter_id": 292,
+                    "question_id": "3b228e5e-fd25-4730-9182-dcd6c805d1a4",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "某人进行射击, 设每次射击的命中率为 0.02 , 独立射击 400 �? 则至少击中两次的概率�?( ).",
+                    "analysis": "将一次射击看成是一次试�? 设击中的次数�?$X$, 则\n$$\nX \\sim b(400,0.02)\n$$\n$X$ 的分布律为\n$$\nP\\{X=k\\}=\\binom{400}{k}(0.02)^k(0.98)^{400-k}, k=0,1, \\cdots, 400 .\n$$\n\n于是所求概率为\n$$\nP\\{X \\geq 2\\}=1-P\\{X=0\\}-P\\{X=1\\}\n$$\n$$\n=1-(0.98)^{400}-400(0.02)(0.98)^{399}=0.9972\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/713a3b98c97d47418af387771413691b",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55856,
+                            "question_id": 13964,
+                            "is_answer": false,
+                            "choice": "$0.262$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55854,
+                            "question_id": 13964,
+                            "is_answer": true,
+                            "choice": "$0.9972$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55853,
+                            "question_id": 13964,
+                            "is_answer": false,
+                            "choice": "$0.356$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55855,
+                            "question_id": 13964,
+                            "is_answer": false,
+                            "choice": "$0.663$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 72956,
+                    "ai_tags": "二项分布,伯努利试�?概率计算"
+                },
+                {
+                    "id": 13969,
+                    "subject_id": 3,
+                    "chapter_id": 292,
+                    "question_id": "75105f32-78e1-4917-9625-da5e28025082",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设电子管使用寿命(单位: 小时)的密度函�?$\\varphi(x)=\\left\\{\\begin{array}{cc}100 / x^2, & x>100 \\\\ 0, & x \\leq 100\\end{array}\\right.$, 则在 150 小时内独立使用三只管子全部损坏的概率�?( ).",
+                    "analysis": "设电子管使用寿命随机变量分别记为 $X$, 则\n$$\np=P\\{X \\leq 150\\}=\\int_{100}^{150} \\frac{100}{x^2} d x=\\frac{1}{3} .\n$$\n\n设在 150 小时内独立使用的 3 只管子中�?$Y$ 个损�? �?$Y \\sim B(3, p)$.所以在 150 小时内独立使用的三只管子中全部损坏的概率为\n$$\nP\\{Y=3\\}=C_3^3 p^3=\\frac{1}{27} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/f80cab6ec318494ca8eda085a3192ef0",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55874,
+                            "question_id": 13969,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{27}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55875,
+                            "question_id": 13969,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55873,
+                            "question_id": 13969,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55876,
+                            "question_id": 13969,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.88,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 81266,
+                    "ai_tags": "概率密度,二项分布"
+                },
+                {
+                    "id": 19291,
+                    "subject_id": 3,
+                    "chapter_id": 292,
+                    "question_id": "01d68369-8473-46b4-9ce7-532c16664d1a",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "随机变量 $\\xi, \\eta$ 都服从二项分�?$\\xi \\sim B(2, p), \\eta \\sim B(4, p)$, 已知 $P\\{\\xi \\geq 1\\}=\\frac{5}{9}$, �?$P\\{\\eta \\geq 1\\}=()$.",
+                    "analysis": "$$\nP\\{\\xi \\geq 1\\}=1-P\\{\\xi<1\\}=1-P\\{\\xi=0\\}=\\frac{5}{9},\n$$\n�?$1-C_2^0 p^0(1-p)^{2-0}=\\frac{5}{9} \\Rightarrow p=\\frac{1}{3}$.\n�?$P\\{\\eta \\geq 1\\}=1-P\\{\\eta=0\\}$\n$$\n=1-C_4^0 p^0\\left(1-\\frac{1}{3}\\right)^{4-0}=\\frac{65}{81} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340234
+                    },
+                    "question_json": "mathreact/0efc5cb943d7462b9c4f314d811a70db",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88201,
+                            "question_id": 19291,
+                            "is_answer": true,
+                            "choice": "$\\frac{65}{81}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88202,
+                            "question_id": 19291,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88203,
+                            "question_id": 19291,
+                            "is_answer": false,
+                            "choice": "$\\frac{80}{81}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88204,
+                            "question_id": 19291,
+                            "is_answer": false,
+                            "choice": "$\\frac{56}{81}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.79,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 91709,
+                    "ai_tags": "二项分布,概率计算"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 28,
+            "questions": [
+                {
+                    "id": 19292,
+                    "subject_id": 3,
+                    "chapter_id": 292,
+                    "question_id": "938b0385-f058-4f16-a010-ca1ffcb08e37",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$X$ 的概率密度函数为 $f(x)=\\left\\{\\begin{array}{cc}3 x^2, & 0<x<1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$, 若随机变�?$Y$ 表示�?$X$ 的三次独立观察中事件 $\\left\\{X \\leq \\frac{2}{3}\\right\\}$ 出现的次�? $P(Y=0)=(\\quad)$.",
+                    "analysis": "对于随机变量 $X$ �?$p=P\\left(X \\leq \\frac{2}{3}\\right)=\\int_0^{2 / 3} 3 x^2 d x=\\frac{8}{27}$,对于随机变量 $Y$, 依题意有 $Y \\sim B(3, p)$, �?$P(Y=0)=C_3^0 p^0(1-p)^3=\\left(1-\\frac{8}{27}\\right)^3=\\left(\\frac{19}{27}\\right)^3$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340237
+                    },
+                    "question_json": "mathreact/b3e6f7dbffe1494389425c8d7d097795",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88208,
+                            "question_id": 19292,
+                            "is_answer": true,
+                            "choice": "$\\left(\\frac{19}{27}\\right)^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88209,
+                            "question_id": 19292,
+                            "is_answer": false,
+                            "choice": "$\\left(\\frac{8}{27}\\right)^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88210,
+                            "question_id": 19292,
+                            "is_answer": false,
+                            "choice": "$1-\\left(\\frac{19}{27}\\right)^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88211,
+                            "question_id": 19292,
+                            "is_answer": false,
+                            "choice": "$1-\\left(\\frac{8}{27}\\right)^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.65,
+                    "difficulty_score": 0.37,
+                    "avg_time_spent": 85334,
+                    "ai_tags": "概率密度函数,二项分布,独立试验"
+                },
+                {
+                    "id": 19293,
+                    "subject_id": 3,
+                    "chapter_id": 292,
+                    "question_id": "25f69983-2f6b-42ec-9010-1c7a8b540d13",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某种型号的电子管的寿�?$X$ (以小时计) 具有概率密度 $f(x)=\\left\\{\\begin{array}{cc}\\frac{1000}{x^2}, & x>1000 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$. 现有大批这种电子�?从中任取 5 �? 则至少有 2 只寿命大�?1500 小时的概率为 ( ).",
+                    "analysis": "解法一：\n$$\nP\\{X>1500\\}=\\int_{1500}^{+\\infty} f(x) \\mathrm{d} x=\\int_{1500}^{+\\infty} \\frac{1000}{x^2} \\mathrm{d} x=-\\left.\\frac{1000}{x}\\right|_{1500} ^{+\\infty}=\\frac{2}{3}\n$$\n\n�?$Y$ 表示从该批电子管中任�?5 �? 其中寿命大于 1500 的只�? 则\n$$\n\\begin{aligned}\nP\\{Y \\geq 2\\}= & 1-P\\{Y<2\\}=1-P\\{Y=0\\}-P\\{Y=1\\} \\\\\n& =1-\\left(\\frac{1}{3}\\right)^5-5 \\times \\frac{2}{3} \\times\\left(\\frac{1}{3}\\right)^4=1-\\frac{1}{3^5}-\\frac{10}{3^5}=\\frac{232}{243}\n\\end{aligned}\n$$\n\n解法�?\n第一步求电子管寿命超�?1500 小时的概率值，\n$$\np=P\\{X>1500\\}=\\int_{1500}^{+\\infty} f(x) \\mathrm{d} x=\\int_{1500}^{+\\infty} \\frac{1000}{x^2} \\mathrm{d} x=\\frac{2}{3} ;\n$$\n\n第二步，�?$Y$ �?5 只电子管中有 $k$ 只的使用寿命超过 1500 小时，则 $Y$ 服从的是二项分布，\n$$\nP\\{Y=k\\}=C_5^k p^k(1-p)^{5-k}=C_5^k\\left(\\frac{2}{3}\\right)^k\\left(1-\\frac{2}{3}\\right)^{5-k} ;\n$$\n\n第三�?5 只电子管中至少有 2 只电子管的使用寿命超�?1500 小时的概率为\n$$\n\\sum_{k=2}^5 C_5^k\\left(\\frac{2}{3}\\right)^k\\left(\\frac{1}{3}\\right)^{5-k} \\text { （或�?} 1-\\sum_{k=0}^1 C_5^k\\left(\\frac{2}{3}\\right)^k\\left(\\frac{1}{3}\\right)^{5-k} \\text { ）} .\n$$\n\n最后算得所求概率值为 $\\frac{232}{243}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340237
+                    },
+                    "question_json": "mathreact/0bfd59919365480cbde03bdb29a42739",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88215,
+                            "question_id": 19293,
+                            "is_answer": true,
+                            "choice": "$\\frac{232}{243}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88216,
+                            "question_id": 19293,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88217,
+                            "question_id": 19293,
+                            "is_answer": false,
+                            "choice": "$\\frac{11}{243}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88218,
+                            "question_id": 19293,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.92,
+                    "difficulty_score": 0.3,
+                    "avg_time_spent": 137021,
+                    "ai_tags": "概率密度,二项分布,独立重复试验"
+                },
+                {
+                    "id": 19294,
+                    "subject_id": 3,
+                    "chapter_id": 292,
+                    "question_id": "ec5161aa-3e87-497f-85cc-88b493fbc076",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "�?$\\xi$ 服从 $0-1$ 分布, 又知 $\\xi$ �?1 的概率为 $\\xi$ �?0 的概率的三�? �?$P\\{\\xi=0\\}, P\\{\\xi=1\\}$ 的取值依次分别为 ( ).",
+                    "analysis": "由分布律的性质 $\\sum_i p_i=1$, �?$P\\{\\xi=0\\}+P\\{\\xi=1\\}=1$.\n�?$P\\{\\xi=1\\}=3 P\\{\\xi=0\\}$, 所以\n$$\nP\\{\\xi=0\\}=\\frac{1}{4}, P\\{\\xi=1\\}=\\frac{3}{4} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340238
+                    },
+                    "question_json": "mathreact/cd109256ac8a45eebb4658981e3d1170",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88222,
+                            "question_id": 19294,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{4}, \\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88223,
+                            "question_id": 19294,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{6}, \\frac{3}{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88224,
+                            "question_id": 19294,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{5}, \\frac{3}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88225,
+                            "question_id": 19294,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{4}, \\frac{3}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.9,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 83470,
+                    "ai_tags": "0-1分布,概率分布"
+                },
+                {
+                    "id": 19295,
+                    "subject_id": 3,
+                    "chapter_id": 292,
+                    "question_id": "1d85a9b2-66be-443f-94a6-b571ddf6aa4b",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$X$ 服从二项分布, 其分布律�?$P\\{X=k\\}=C_n^k p^k(1-p)^{n-k},(k=0,1, \\cdots, n)$. �?$(n+1) p$ 不是整数,�?( ) �? $P\\{X=k\\}$ 最�?",
+                    "analysis": "一般用比值法, 有\n$$\n\\begin{gathered}\n\\frac{P\\{X=k\\}}{P\\{X=k-1\\}}=\\frac{C_n^k p^k(1-p)^{n-k}}{C_n^{k-1} p^{k-1}(1-p)^{n-k+1}} \\\\\n=\\frac{n-k+1}{k} \\cdot \\frac{p}{1-p}=1+\\frac{(n+1) p-k}{k(1-p)} . \\\\\n\\text { �?} \\frac{P\\{X=k\\}}{P\\{X=k-1\\}}\\left\\{\\begin{array}{l}\n>1, \\text { �?} k<(n+1) p \\text { �?} \\\\\n=1, \\text { �?} k=(n+1) p \\text { �?}(k=0,1,2, \\cdots, n) . \\\\\n<1, \\text { �?} k>(n+1) p \\text { �?}\n\\end{array}\\right.\n\\end{gathered}\n$$\n\n由此可知, �?$(n+1) p$ 不是整数�? 则当 $k=[(n+1) p]$ �? $P\\{X=k\\}$ 取得最大�?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340238
+                    },
+                    "question_json": "mathreact/90f01e2e9463449a8832b62f4e1b03f3",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88229,
+                            "question_id": 19295,
+                            "is_answer": true,
+                            "choice": "$k=[(n+1) p]$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88230,
+                            "question_id": 19295,
+                            "is_answer": false,
+                            "choice": "$k=(n+1) p$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88231,
+                            "question_id": 19295,
+                            "is_answer": false,
+                            "choice": "$k=(n+1) p-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88232,
+                            "question_id": 19295,
+                            "is_answer": false,
+                            "choice": "$k=n p$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.74,
+                    "difficulty_score": 0.37,
+                    "avg_time_spent": 30646,
+                    "ai_tags": "二项分布,概率分布�?最值问�?
+                },
+                {
+                    "id": 19296,
+                    "subject_id": 3,
+                    "chapter_id": 292,
+                    "question_id": "16ca6b2d-68f8-4952-9a2b-8f087f5c058b",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "�?$\\xi$ 服从 $0-1$ 分布, 又知 $\\xi$ �?1 的概率为 $\\xi$ �?0 的概率的三�? �?$P\\{\\xi=0\\}, P\\{\\xi=1\\}$ 取值为 ().",
+                    "analysis": "由分布律的性质 $\\sum_i p_i=1$, �?$P\\{\\xi=0\\}+P\\{\\xi=1\\}=1$. �?$P\\{\\xi=1\\}=3 \\times P\\{\\xi=0\\}$, 所�?$P\\{\\xi=0\\}=\\frac{1}{4}, P\\{\\xi=1\\}=\\frac{3}{4}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340245
+                    },
+                    "question_json": "mathreact/88fc6b7a3fa74db2b7711b47bf3d81b8",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88236,
+                            "question_id": 19296,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{5}, \\frac{3}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88237,
+                            "question_id": 19296,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{4}, \\frac{3}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88238,
+                            "question_id": 19296,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{4}, \\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88239,
+                            "question_id": 19296,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{6}, \\frac{3}{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.89,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 18336,
+                    "ai_tags": "0-1分布,概率计算"
+                },
+                {
+                    "id": 19299,
+                    "subject_id": 3,
+                    "chapter_id": 292,
+                    "question_id": "ced339e5-8fdb-41ce-873d-4cda2e39e2c5",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "某种商品一天的销售量 (�? 服从参数�?$\\lambda$ 的泊松分�? 随机选取 4 �? 其中恰有一天的销售为 5 件的概率�?().",
+                    "analysis": "一天销售为 5 件的概率�?$p=\\frac{\\lambda^5}{5!} e^{-\\lambda}$. 于是所求概率为\n$$\nP_4(1)=C_4^1 P^1(1-P)^{4-1}=C_4^1\\left(\\frac{\\lambda^5}{5!} e^{-\\lambda}\\right)\\left(1-\\frac{\\lambda^5}{5!} e^{-\\lambda}\\right)^3=4\\left(\\frac{\\lambda^5}{5!} e^{-\\lambda}\\right)\\left(1-\\frac{\\lambda^5}{5!} e^{-\\lambda}\\right)^3 .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340251
+                    },
+                    "question_json": "mathreact/20c18aac081b4f4586cd3c8704f9fd32",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88257,
+                            "question_id": 19299,
+                            "is_answer": false,
+                            "choice": "$\\left(\\frac{\\lambda^5}{5!} e^{-\\lambda}\\right)^3\\left(1-\\frac{\\lambda^5}{5!} e^{-\\lambda}\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88258,
+                            "question_id": 19299,
+                            "is_answer": false,
+                            "choice": "$4\\left(\\frac{\\lambda^5}{5!} e^{-\\lambda}\\right)^3\\left(1-\\frac{\\lambda^5}{5!} e^{-\\lambda}\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88259,
+                            "question_id": 19299,
+                            "is_answer": false,
+                            "choice": "$\\left(\\frac{\\lambda^5}{5!} e^{-\\lambda}\\right)\\left(1-\\frac{\\lambda^5}{5!} e^{-\\lambda}\\right)^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88260,
+                            "question_id": 19299,
+                            "is_answer": true,
+                            "choice": "$4\\left(\\frac{\\lambda^5}{5!} e^{-\\lambda}\\right)\\left(1-\\frac{\\lambda^5}{5!} e^{-\\lambda}\\right)^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.93,
+                    "difficulty_score": 0.3,
+                    "avg_time_spent": 91266,
+                    "ai_tags": "泊松分布,伯努利概�?
+                },
+                {
+                    "id": 19300,
+                    "subject_id": 3,
+                    "chapter_id": 292,
+                    "question_id": "ba0813b6-afaa-49ed-a99f-29e4c2b85f28",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "灯泡寿命服从数学期望�?1000 小时的正态分�? 随机抽取 100 只灯泡中至少�?90 只灯泡的寿命超过 1000 小时的概率（列式子即可） $p=()$.",
+                    "analysis": "设灯泡寿命为 $X$, 依题意有\n$$\np=P\\{X>1000\\}=\\frac{1}{2} .\n$$\n\n又设 100 只灯泡中�?$Y$ 只灯泡的寿命超过 1000 小时, �?$Y \\sim B(100, p)$, 即\n$$\nP\\{Y=k\\}=C_{100}^k p^k(1-p)^{100-k}=C_{100}^k\\left(\\frac{1}{2}\\right)^{100},\n$$\n\n所�?100 只灯泡中至少�?90 只灯泡的寿命超过 1000 小时的概率为\n$$\nP\\{Y \\geq 90\\}=\\sum_{k=90}^{100} P\\{Y=k\\}=\\sum_{k=90}^{100} C_{100}^k\\left(\\frac{1}{2}\\right)^{100} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340252
+                    },
+                    "question_json": "mathreact/a247f9dcc1af424fbb632e41fcb0f71c",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88264,
+                            "question_id": 19300,
+                            "is_answer": false,
+                            "choice": "$\\sum_{k=91}^{100} C_{100}^k\\left(\\frac{2}{3}\\right)^k\\left(\\frac{1}{3}\\right)^{100-k}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88265,
+                            "question_id": 19300,
+                            "is_answer": false,
+                            "choice": "$\\sum_{k=91}^{100} C_{100}^k\\left(\\frac{1}{2}\\right)^{100}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88266,
+                            "question_id": 19300,
+                            "is_answer": false,
+                            "choice": "$\\sum_{k=90}^{100} C_{100}^k\\left(\\frac{2}{3}\\right)^k\\left(\\frac{1}{3}\\right)^{100-k}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88267,
+                            "question_id": 19300,
+                            "is_answer": true,
+                            "choice": "$\\sum_{k=90}^{100} C_{100}^k\\left(\\frac{1}{2}\\right)^{100}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.52,
+                    "difficulty_score": 0.47,
+                    "avg_time_spent": 69459,
+                    "ai_tags": "正态分�?二项分布,概率计算"
+                },
+                {
+                    "id": 19301,
+                    "subject_id": 3,
+                    "chapter_id": 292,
+                    "question_id": "fdf5d689-dc2c-4047-be5f-ec65c046f7e0",
+                    "difficulty": "Medium",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "设随机变�?$X \\sim B(n, p)$. �?$k$ 取值为 ( ) �? $P\\{X=k\\}$ 最�?",
+                    "analysis": "�?$a_i=P\\{X=i\\}, t=\\frac{a_k}{a_{k-1}}$, �?$t \\geq 1$, 说明 $a_i$ 单调增加, �?$t<1$, 说明 $a_i$ 单调�?\n�?$X \\sim B(n, p)$ �? �?$t=\\frac{a_k}{a_{k-1}}=\\frac{C_n^k p^k(1-p)^{n-k}}{C_n^{k-1} p^{k-1}(1-p)^{n-k-1}}=\\frac{n-k+1}{k} \\frac{p}{1-p}$,\n要使 $t \\geq 1, \\frac{n-k+1}{k} \\frac{p}{1-p} \\geq 1 \\Rightarrow k \\leq(n+1) p$,\n所以二项分�?$X \\sim B(n, p)$ �?$k \\leq(n+1) p$ �? $P\\{X=k\\}$ 单调增加, �?$k>(n+1) p$ �? $P\\{X=k\\}$ 单调减少. �?$k$ 为整�? 所以\n(1) �?$(n+1) p$ 为整数时, $P\\{X=(n+1) p\\}=P\\{X=(n+1) p-1\\}$ 为最大�?\n(2)�?$(n+1) p$ 不为整数�? $P\\{X=[(n+1) p]\\}$ 为最大�? 其中 $[\\cdot]$ 为取整函�?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340253
+                    },
+                    "question_json": "mathreact/691ae2eb73ff489cbad95c8cb4362860",
+                    "updated_at": {
+                        "seconds": 1775673109
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88271,
+                            "question_id": 19301,
+                            "is_answer": false,
+                            "choice": "$(n+1) p$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88272,
+                            "question_id": 19301,
+                            "is_answer": false,
+                            "choice": "$[(n+1) p]$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88273,
+                            "question_id": 19301,
+                            "is_answer": false,
+                            "choice": "$(n+1) p, \\quad(n+1) p-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88274,
+                            "question_id": 19301,
+                            "is_answer": true,
+                            "choice": "$[(n+1) p]$ �?$\\{(n+1) p,(n+1) p-1\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.77,
+                    "difficulty_score": 0.47,
+                    "avg_time_spent": 28691,
+                    "ai_tags": "二项分布,概率最大�?
+                },
+                {
+                    "id": 19303,
+                    "subject_id": 3,
+                    "chapter_id": 292,
+                    "question_id": "08ccbf5e-25c1-4cc7-aeda-8856f1c60a48",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设随机变�?$X$ 的概率密度为 $f(x)=\\left\\{\\begin{array}{cc}2 x, & 0<x<1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$, �?$Y$ 表示�?$X$ 的三次独立重复观察中事件 $\\left\\{X \\leq \\frac{1}{2}\\right\\}$ 出现的次�? �?$P\\{Y=2\\}=(\\quad)$.",
+                    "analysis": "由于 $Y \\sim B(3, p)$, 其中 $p=P\\left\\{X \\leq \\frac{1}{2}\\right\\}=\\int_0^{\\frac{1}{2}} 2 x d x=\\frac{1}{4}$, �?$P\\{Y=2\\}=C_3^2\\left(\\frac{1}{4}\\right)^2\\left(\\frac{3}{4}\\right)=\\frac{9}{64}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340255
+                    },
+                    "question_json": "mathreact/0e501f20943f4a25bb29dd4ab92eb56a",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88285,
+                            "question_id": 19303,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{16}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88286,
+                            "question_id": 19303,
+                            "is_answer": true,
+                            "choice": "$\\frac{9}{64}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88287,
+                            "question_id": 19303,
+                            "is_answer": false,
+                            "choice": "$\\frac{9}{16}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88288,
+                            "question_id": 19303,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{64}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.81,
+                    "difficulty_score": 0.3,
+                    "avg_time_spent": 49557,
+                    "ai_tags": "概率密度,二项分布,独立重复试验"
+                },
+                {
+                    "id": 19304,
+                    "subject_id": 3,
+                    "chapter_id": 292,
+                    "question_id": "60daa985-6d3f-42b5-80d8-43dbf301c917",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设一批产品共 $N$ �? 其中�?$M$ 个次�? 对这批产品进行放回抽�? 连续抽取 $n$ �?设被抽查�?$n$ 个产品中的次品数�?$X$, �?$P\\{X=i\\}=(\\quad), i=1,2, \\cdots$.",
+                    "analysis": "由伯努利定理可知, 事件 $A$ (发生的概率为 $p$) �?$n$ 重伯努利试验中出�?$k$ 次的概率�?$P\\{X=k\\}=C_n^k p^k(1-p)^{n-k}$. 故抽�?$n$ 个产品中的次品数�?$X=i$ 的概率为\n$$\nP\\{X=i\\}=C_n^i\\left(\\frac{M}{N}\\right)^i\\left(1-\\frac{M}{N}\\right)^{n-i} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340256
+                    },
+                    "question_json": "mathreact/0c86c49454dc437c9d4e7517fe158f89",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88292,
+                            "question_id": 19304,
+                            "is_answer": true,
+                            "choice": "$C_n^i\\left(\\frac{M}{N}\\right)^i\\left(1-\\frac{M}{N}\\right)^{n-i}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88293,
+                            "question_id": 19304,
+                            "is_answer": false,
+                            "choice": "$C_N^i\\left(\\frac{M}{N}\\right)^i\\left(1-\\frac{M}{N}\\right)^{N-i}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88294,
+                            "question_id": 19304,
+                            "is_answer": false,
+                            "choice": "$C_n^i\\left(\\frac{M}{N}\\right)^{n-i}\\left(1-\\frac{M}{N}\\right)^i$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88295,
+                            "question_id": 19304,
+                            "is_answer": false,
+                            "choice": "$C_N^i\\left(\\frac{M}{N}\\right)^{N-i}\\left(1-\\frac{M}{N}\\right)^i$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.74,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 59053,
+                    "ai_tags": "概率�?二项分布,伯努利概�?
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 28,
+            "questions": [
+                {
+                    "id": 19307,
+                    "subject_id": 3,
+                    "chapter_id": 292,
+                    "question_id": "e7c4adf3-979e-4490-8433-e8f5a257c26e",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某公司生产一种产�?300 �? 根据历史生产记录知废品率�?0.01 , 则现在这 300 件产品经检验废品数大于 5 的概率为 ().",
+                    "analysis": "把每件产品的检验看作一次伯努利试验, 它有两个结果: $A=\\{\\text{正品}\\}, \\bar{A}=\\{\\text{废品}\\}$, 检�?300 件产品就是作 300 次独立的伯努利试�? �?$X$ 表示检验出的废品数, 则\n$$\nX \\sim b(300,0.01),\n$$\n\n我们要计�?$P\\{X>5\\}$.\n�?$n=300, p=0.01$, �?$\\lambda=n p=3$, 于是, 得\n$$\nP\\{X>5\\}=\\sum_{k=6}^{300} b(k ; 300,0.01)=1-\\sum_{k=0}^5 b(k ; 300,0.01) \\approx 1-\\sum_{k=0}^5 \\frac{3^k}{k!} e^{-3} .\n$$\n\n查泊松分布表, 得\n$$\nP\\{X>5\\} \\approx 1-0.916082=0.08 .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340263
+                    },
+                    "question_json": "mathreact/df47dd3804634935bcdfaacb6ea0ea54",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88313,
+                            "question_id": 19307,
+                            "is_answer": true,
+                            "choice": "$0.08$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88314,
+                            "question_id": 19307,
+                            "is_answer": false,
+                            "choice": "$0.17$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88315,
+                            "question_id": 19307,
+                            "is_answer": false,
+                            "choice": "$0.55$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88316,
+                            "question_id": 19307,
+                            "is_answer": false,
+                            "choice": "$0.12$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.65,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 75411,
+                    "ai_tags": "二项分布,泊松定理,概率计算"
+                },
+                {
+                    "id": 19308,
+                    "subject_id": 3,
+                    "chapter_id": 292,
+                    "question_id": "16db1d5d-4216-4f1c-aa19-3b2f07f3f16e",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设电子管使用寿命 (单位: 小时)的密度函�?$\\varphi(x)=\\left\\{\\begin{array}{ll}100 / x^2, & x>100 \\\\ 0, & x \\leq 100\\end{array}\\right.$ ，则�?150 小时内独立使用的三只管子中恰有一个损坏的概率�?( ).",
+                    "analysis": "设电子管使用寿命随机变量分别记为 $X$，则\n$$ p=P\\{X \\leq 150\\}=\\int_{100}^{150} \\frac{100}{x^2} d x=\\frac{1}{3} . $$\n设在 150 小时内独立使用的 3 只管子中�?$Y$ 个损坏，�?$Y \\sim B(3, p)$。所以在 150 小时内独立使用的 3 只管子中恰有一个损坏的概率为\n$$ P\\{Y=1\\}=C_3^1 p^1(1-p)^2=\\frac{4}{9} . $$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340265
+                    },
+                    "question_json": "mathreact/8cd5139061884420a88dab1f10230f59",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88320,
+                            "question_id": 19308,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88321,
+                            "question_id": 19308,
+                            "is_answer": true,
+                            "choice": "$\\frac{4}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88322,
+                            "question_id": 19308,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88323,
+                            "question_id": 19308,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.97,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 56260,
+                    "ai_tags": "概率密度函数,二项分布"
+                },
+                {
+                    "id": 19311,
+                    "subject_id": 3,
+                    "chapter_id": 292,
+                    "question_id": "2e0ad5e0-b16c-4b56-8ab1-04bbe861b85a",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "设随机变�?$X$ 服从参数�?$(2, p)$ 的二项分�? 随机变量 $Y$ 服从参数�?$(3, p)$ 的二项分�?�?$P\\{X \\geq 1\\}=\\frac{5}{9}$, �?$P\\{Y \\geq 1\\}=()$.",
+                    "analysis": "由于 $P\\{X=0\\}=1-P\\{X \\geq 1\\}=1-\\frac{5}{9}=\\frac{4}{9}$.\n故由 $P\\{X=0\\}=C_2^0 p^0 q^2=q^2=\\frac{4}{9}$, �?$q=\\frac{2}{3}$.\n从�?$P\\{Y \\geq 1\\}=1-P\\{Y=0\\}=1-C_3^0 p^0 q^3=1-q^3=1-\\left(\\frac{2}{3}\\right)^3=\\frac{19}{27}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340267
+                    },
+                    "question_json": "mathreact/d121aa65e83143f6952e8c5667aa2454",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88341,
+                            "question_id": 19311,
+                            "is_answer": false,
+                            "choice": "$\\frac{8}{27}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88342,
+                            "question_id": 19311,
+                            "is_answer": false,
+                            "choice": "$\\frac{27}{64}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88343,
+                            "question_id": 19311,
+                            "is_answer": false,
+                            "choice": "$\\frac{37}{64}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88344,
+                            "question_id": 19311,
+                            "is_answer": true,
+                            "choice": "$\\frac{19}{27}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 96087,
+                    "ai_tags": "二项分布,概率计算"
+                },
+                {
+                    "id": 19313,
+                    "subject_id": 3,
+                    "chapter_id": 292,
+                    "question_id": "c0145359-1588-48b5-b257-31aa40269dca",
+                    "difficulty": "Medium",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "某厂生产的灯管的使用寿命 $X$ 服从数学期望�?1000 小时的正态分�? 则在 10 支灯管中至少�?7 支灯管的使用寿命超过 1000 小时的概�?(列式) �?( ).",
+                    "analysis": "第一步求灯管使用寿命超过 1000 小时的概率值，\n$$p=P\\{X>1000\\}=\\frac{1}{2}$$\n[注意：若 $\\xi \\sim N(\\mu, \\sigma^2)$，则 $\\eta=\\frac{\\xi-\\mu}{\\sigma} \\sim N(0,1)$，且 $P\\{\\xi>\\mu\\}=P\\{\\eta>0\\}=\\frac{1}{2}$]\n第二步，�?$Y$ �?10 支灯管中使用寿命超过 1000 小时的灯管数，则 $Y$ 服从二项分布，\n$$P\\{Y=k\\}=C_{10}^k p^k(1-p)^{10-k}=C_{10}^k\\left(\\frac{1}{2}\\right)^{10}$$\n第三步求 10 支灯管中至少�?7 支灯管的使用寿命超过 1000 小时的概率，\n$$\\sum_{k=7}^{10} C_{10}^k\\left(\\frac{1}{2}\\right)^{10} \\text{（或�?} 1-\\sum_{k=0}^6 C_{10}^k\\left(\\frac{1}{2}\\right)^{10} \\text{）}$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340273
+                    },
+                    "question_json": "mathreact/bcae8c12a78f4b04a0dc59d5fd209e0e",
+                    "updated_at": {
+                        "seconds": 1775673114
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88355,
+                            "question_id": 19313,
+                            "is_answer": false,
+                            "choice": "$C_{10}^7\\left(\\frac{1}{2}\\right)^7$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88356,
+                            "question_id": 19313,
+                            "is_answer": false,
+                            "choice": "$0.7$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88357,
+                            "question_id": 19313,
+                            "is_answer": true,
+                            "choice": "$1-\\sum_{k=0}^6 C_{10}^k\\left(\\frac{1}{2}\\right)^{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88358,
+                            "question_id": 19313,
+                            "is_answer": false,
+                            "choice": "$\\sum_{k=7}^{10} C_{10}^k\\left(\\frac{1}{2}\\right)^7$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.64,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 29610,
+                    "ai_tags": "正态分�?二项分布,概率"
+                },
+                {
+                    "id": 19314,
+                    "subject_id": 3,
+                    "chapter_id": 292,
+                    "question_id": "7ae2b417-d307-48b1-bf5d-81364762b87a",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某射手每次射击击中目标的概率�?0.5 , 现在连续射击 10 �? 则击中目标的次数 $X$ 的概率分布为 (). 又设至少命中 3 次才可以参加下一步考核, 则此射手不能参加考核的概率为 (), 故选项()正确.",
+                    "analysis": "$X$ 可能取值为 $0,1,2, \\cdots, 10$. 利用二项概型可得 $X$ 的概率分布为 $P\\{X=k\\}=C_{10}^k 0.5^k 0.5^{10-k}(k=0,1,2, \\cdots, 10)$, 此射手不能参加考核的概率应�?$P\\{X \\leq 2\\}=\\sum_{k=0}^2 P\\{X=k\\}=\\sum_{k=0}^2 C_{10}^k 0.5^k 0.5^{10-k}=0.0547$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340276
+                    },
+                    "question_json": "mathreact/cc608d9449d549f3b2029347339ee968",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88362,
+                            "question_id": 19314,
+                            "is_answer": true,
+                            "choice": "$P\\{X=k\\}=C_{10}^k 0.5^{10}(k=0,1,2, \\cdots, 10), \\quad \\sum_{k=0}^2 C_{10}^k 0.5^{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88363,
+                            "question_id": 19314,
+                            "is_answer": false,
+                            "choice": "$P\\{X=k\\}=C_{10}^k 0.5^{10}(k=0,1,2, \\cdots, 10), \\quad \\sum_{k=1}^2 C_{10}^k 0.5^{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88364,
+                            "question_id": 19314,
+                            "is_answer": false,
+                            "choice": "$P\\{X=k\\}=C_{10}^k 0.5^k(k=0,1,2, \\cdots, 10), \\quad \\sum_{k=0}^2 C_{10}^k 0.5^k$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88365,
+                            "question_id": 19314,
+                            "is_answer": false,
+                            "choice": "$P\\{X=k\\}=C_{10}^k 0.5^k(k=0,1,2, \\cdots, 10), \\quad \\sum_{k=1}^2 C_{10}^k 0.5^k$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.74,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 64989,
+                    "ai_tags": "二项分布,概率分布,离散型随机变�?
+                },
+                {
+                    "id": 19315,
+                    "subject_id": 3,
+                    "chapter_id": 292,
+                    "question_id": "2bbcdbea-2340-426b-bf2a-f422fafab153",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "某人向目标独立射�?5 次，每次的命中率�?$p, X=$ 击中目标的次数，已知至少命中一次的概率�?$\\frac{211}{243}$, 则下面各式中成立的是 ( ).",
+                    "analysis": "独立射击 5 次至少命中一次的概率�?$1-(1-p)^5=\\frac{211}{243}$, 所�?$p=\\frac{1}{3}$. 根据二项分布的定义可�?$X \\sim B\\left(5, \\frac{1}{3}\\right)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340276
+                    },
+                    "question_json": "mathreact/1875cb6bf82346d89b61df3bdb7f2068",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88369,
+                            "question_id": 19315,
+                            "is_answer": false,
+                            "choice": "$X \\sim \\pi\\left(\\frac{2}{3}\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88370,
+                            "question_id": 19315,
+                            "is_answer": true,
+                            "choice": "$X \\sim B\\left(5, \\frac{1}{3}\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88371,
+                            "question_id": 19315,
+                            "is_answer": false,
+                            "choice": "$X \\sim B\\left(5, \\frac{2}{3}\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88372,
+                            "question_id": 19315,
+                            "is_answer": false,
+                            "choice": "$X \\sim \\pi\\left(\\frac{1}{3}\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.69,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 47910,
+                    "ai_tags": "二项分布,概率计算"
+                },
+                {
+                    "id": 19317,
+                    "subject_id": 3,
+                    "chapter_id": 292,
+                    "question_id": "b56d7231-a43d-4ca4-9645-1c8b978d09f0",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设随机变�?$X$ 的概率密度函数为 $f(x)=\\left\\{\\begin{array}{cc}2 x, & 0<x<1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$, �?$Y$ 表示�?$X$ 的三次独立重复观察中事件 $\\left\\{X \\leq \\frac{1}{3}\\right\\}$ 出现的次�? �?$P(Y=2)=(\\quad)$.",
+                    "analysis": "随机变量 $Y$ 服从二项分布 $B(3, p)$, 其中 $p=P\\left(X \\leq \\frac{1}{3}\\right)=\\int_0^{\\frac{1}{3}} 2 x d x=\\frac{1}{9}$, 所�?$P(Y=2)=C_3^2\\left(\\frac{1}{9}\\right)^2\\left(\\frac{8}{9}\\right)=3 \\times \\frac{8}{9^3}=\\frac{24}{729}=\\frac{8}{243}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340283
+                    },
+                    "question_json": "mathreact/8038c9be60b14e9995e2a79bad20b092",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88383,
+                            "question_id": 19317,
+                            "is_answer": false,
+                            "choice": "$\\frac{8}{729}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88384,
+                            "question_id": 19317,
+                            "is_answer": true,
+                            "choice": "$\\frac{8}{243}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88385,
+                            "question_id": 19317,
+                            "is_answer": false,
+                            "choice": "$\\frac{8}{81}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88386,
+                            "question_id": 19317,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{81}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.84,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 87494,
+                    "ai_tags": "概率密度函数,二项分布,独立重复试验"
+                },
+                {
+                    "id": 19321,
+                    "subject_id": 3,
+                    "chapter_id": 292,
+                    "question_id": "0ca769d9-68b4-4fcb-938e-c393097d5a27",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某仪器装有三只独立工作的同型号电子元件，其寿命（单位：小时）都服从同一指数分布，密度函数为\n$$\nf(x)=\\begin{cases} \\frac{1}{600} e^{-\\frac{x}{600}}, & x>0 \\\\ 0, & x \\leq 0 \\end{cases}\n$$\n试求在仪器使用的最�?200 小时内，至少有一只电子元件损坏的概率 $a=(\\quad)$�?,
+                    "analysis": "�?$A_i$ 表示事件“在仪器使用最�?200 小时内，�?$i$ 个元件损坏�?$(i=1,2,3)$，以 $X_i(i=1,2,3)$ 表示�?$i$ 个元件使用寿命。由条件�?$X_i$ 都服从密度为 $f(x)$ 的指数分布。\n$$\n\\begin{aligned}\n& P(A_i)=P\\{X_i \\leq 200\\}=\\int_0^{200} \\frac{1}{600} e^{-\\frac{x}{600}} d x=1-e^{-1/3} \\\\\n& P(\\overline{A_i})=e^{-1/3}\n\\end{aligned}\n$$\n因此 $a=P(A_1 \\cup A_2 \\cup A_3)=1-P(\\overline{A_1} \\overline{A_2} \\overline{A_3})=1-(e^{-1/3})^3=1-1/e$�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340294
+                    },
+                    "question_json": "mathreact/0c6989f29f05447e953179f64d868744",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88411,
+                            "question_id": 19321,
+                            "is_answer": true,
+                            "choice": "$1-1/e$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88412,
+                            "question_id": 19321,
+                            "is_answer": false,
+                            "choice": "$1/e-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88413,
+                            "question_id": 19321,
+                            "is_answer": false,
+                            "choice": "$-1/e$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88414,
+                            "question_id": 19321,
+                            "is_answer": false,
+                            "choice": "$1/e$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.95,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 81664,
+                    "ai_tags": "概率�?指数分布,独立事件"
+                }
+            ]
+        }
+    }
+]

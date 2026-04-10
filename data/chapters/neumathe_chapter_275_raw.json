@@ -1,0 +1,1625 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 19,
+            "questions": [
+                {
+                    "id": 13169,
+                    "subject_id": 3,
+                    "chapter_id": 275,
+                    "question_id": "8c925e0a-0f1e-4e5b-a027-97d079fe1027",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设当事件 $A, B$ 同时发生时必导致事件 $C$ 发生, �?().",
+                    "analysis": "由条件概率公式及题目条件 $P(C \\mid A B)=1$ �?$P(A B C)=P(A B)$.\n根据概率性质 $P(A \\cup B)=P(A)+P(B)-P(A B)$, �?$P(A B)=P(A)+P(B)-P(A \\cup B)$,\n由于 $A B C \\subset C, P(A \\cup B) \\leq 1$, 所�?$P(C) \\geq P(A B C)=P(A B)=P(A)+P(B)-P(A \\cup B) \\geq P(A)+P(B)-1$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/1f34a9425fad4074ab0709b4cb9a3bc5",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52674,
+                            "question_id": 13169,
+                            "is_answer": true,
+                            "choice": "$P(C) \\geq P(A)+P(B)-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52675,
+                            "question_id": 13169,
+                            "is_answer": false,
+                            "choice": "$P(A B)=P(C)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52673,
+                            "question_id": 13169,
+                            "is_answer": false,
+                            "choice": "$P(A B) \\geq P(C)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52676,
+                            "question_id": 13169,
+                            "is_answer": false,
+                            "choice": "$P(C) \\leq P(A)+P(B)-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.66,
+                    "difficulty_score": 0.31,
+                    "avg_time_spent": 263915,
+                    "ai_tags": "概率�?随机事件,概率的基本性质"
+                },
+                {
+                    "id": 13170,
+                    "subject_id": 3,
+                    "chapter_id": 275,
+                    "question_id": "cc41876e-7846-4ac5-ac7b-e7d9f3b49c11",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "随机事件 $A, B$ 满足 $B \\subset A$, 则以下各式错误的�?( ).",
+                    "analysis": "�?$B \\subset A$, 可知 $A \\cup B=A, A B=B, P(B) \\leq P(A)$,\n所�?$P(A \\cup B)=P(A), P(\\bar{A} \\bar{B})=P(\\overline{A \\cup B})=P(\\bar{A})$,\n只有 $P(B \\mid A)=P(B)$ 不正�? 因为 $P(B \\mid A)=\\frac{P(A B)}{P(A)}=\\frac{P(B)}{P(A)} \\geq P(B)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/3cc68994799642a18155ba7b55b5f37a",
+                    "updated_at": {
+                        "seconds": 1775673111
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52680,
+                            "question_id": 13170,
+                            "is_answer": true,
+                            "choice": "$P(B \\mid A)=P(B)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52678,
+                            "question_id": 13170,
+                            "is_answer": false,
+                            "choice": "$P(A \\cup B)=P(A)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52679,
+                            "question_id": 13170,
+                            "is_answer": false,
+                            "choice": "$P(\\bar{A} \\bar{B})=P(\\bar{A})$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52677,
+                            "question_id": 13170,
+                            "is_answer": false,
+                            "choice": "$P(B) \\leq P(A)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.77,
+                    "difficulty_score": 0.29,
+                    "avg_time_spent": 65255,
+                    "ai_tags": "概率的基本性质,条件概率"
+                },
+                {
+                    "id": 13171,
+                    "subject_id": 3,
+                    "chapter_id": 275,
+                    "question_id": "d3fa3bac-c59e-48f1-8d3e-248ef7c1328f",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "若事�?$A, B$ 满足 $P(A B)=0$, 则以下说法正确的�?( ).",
+                    "analysis": "由条件概率公式知 $P(B \\mid A)=\\frac{P(A B)}{P(A)}=0$.注意: 事件的概率为 0 并不能表示这个事件是不可能事�?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/0d717f7b2e7f4d5e8d709dafbb9cce2e",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52682,
+                            "question_id": 13171,
+                            "is_answer": true,
+                            "choice": "�?$P(A)>0$, �?$P(B \\mid A)=0$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52681,
+                            "question_id": 13171,
+                            "is_answer": false,
+                            "choice": "$A$ �?$B$ 互斥（互不相容）",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52684,
+                            "question_id": 13171,
+                            "is_answer": false,
+                            "choice": "$P(A)=0$ �?$P(B)=0$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52683,
+                            "question_id": 13171,
+                            "is_answer": false,
+                            "choice": "$A$ �?$B$ 同时出现是不可能事件",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.67,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 47577,
+                    "tags": "近期易错,近期178人做�?,
+                    "ai_tags": "概率性质,条件概率"
+                },
+                {
+                    "id": 13176,
+                    "subject_id": 3,
+                    "chapter_id": 275,
+                    "question_id": "4f029568-6c9d-4b9c-8f8c-598d1e867bf8",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知 $0<P(B)<1$, �?$P\\left(\\left(A_1+A_2\\right) \\mid B\\right)=P\\left(A_1 \\mid B\\right)+P\\left(A_2 \\mid B\\right)$, 则下列选项成立的是 ( ).",
+                    "analysis": "由已�?$P\\left(\\left(A_1+A_2\\right) \\mid B\\right)=P\\left(A_1 \\mid B\\right)+P\\left(A_2 \\mid B\\right)$, 将等式两边都乘以 $P(B)$, 分别有\n$$\n\\begin{aligned}\n& P(B) P\\left(\\left(A_1+A_2\\right) \\mid B\\right)=P\\left(\\left(A_1+A_2\\right) B\\right)=P\\left(A_1 B+A_2 B\\right), \\\\\n& P(B)\\left[P\\left(A_1 \\mid B\\right)+P\\left(A_2 \\mid B\\right)\\right]=P(B) P\\left(A_1 \\mid B\\right)+P(B) P\\left(A_2 \\mid B\\right)=P\\left(A_1 B\\right)+P\\left(A_2 B\\right),\n\\end{aligned}\n$$\n\n所�?$P\\left(A_1 B+A_2 B\\right)=P\\left(A_1 B\\right)+P\\left(A_2 B\\right)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/21d569c219134424b5137546c23cc314",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52703,
+                            "question_id": 13176,
+                            "is_answer": true,
+                            "choice": "$P\\left(A_1 B+A_2 B\\right)=P\\left(A_1 B\\right)+P\\left(A_2 B\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52704,
+                            "question_id": 13176,
+                            "is_answer": false,
+                            "choice": "$P\\left(\\left(A_1+A_2\\right) \\mid \\bar{B}\\right)=P\\left(A_1 \\mid \\bar{B}\\right)+P\\left(A_2 \\mid \\bar{B}\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52701,
+                            "question_id": 13176,
+                            "is_answer": false,
+                            "choice": "$P\\left(A_1+A_2\\right)=P\\left(A_1 \\mid B\\right)+P\\left(A_2 \\mid B\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52702,
+                            "question_id": 13176,
+                            "is_answer": false,
+                            "choice": "$P(B)=P\\left(A_1\\right) P\\left(B \\mid A_1\\right)+P\\left(A_2\\right) P\\left(B \\mid A_2\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.7,
+                    "difficulty_score": 0.29,
+                    "avg_time_spent": 111721,
+                    "tags": "近期易错,近期140人做�?,
+                    "ai_tags": "概率�?条件概率,加法公式"
+                },
+                {
+                    "id": 13178,
+                    "subject_id": 3,
+                    "chapter_id": 275,
+                    "question_id": "8288fb3d-348c-4b42-89ca-6188d8cc095d",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$A, B, C$ 为三个事�? $P(A B)>0$ �?$P(C \\mid A B)=1$, 则有 ( ).",
+                    "analysis": "由条件概率公式及题目条件 $P(C \\mid A B)=1$ �?$P(A B C)=P(A B)$.\n由选项可以看出主要考虑 $P(C)$ �?$P(A \\cup B)$ 的大小关�? 可以根据概率性质 $P(A \\cup B)=P(A)+P(B)-P(A B)$, �?$P(A B)=P(A)+P(B)-P(A \\cup B)$,\n由于 $A B C \\subset C, P(A \\cup B) \\leq 1$, 所�?$P(C) \\geq P(A B C)=P(A B)=P(A)+P(B)-P(A \\cup B) \\geq P(A)+P(B)-1$,",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/0bc8ae67c6574faea162bad35c8dff0c",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52711,
+                            "question_id": 13178,
+                            "is_answer": true,
+                            "choice": "$P(C) \\geq P(A)+P(B)-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52709,
+                            "question_id": 13178,
+                            "is_answer": false,
+                            "choice": "$P(C) \\leq P(A)+P(B)-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52710,
+                            "question_id": 13178,
+                            "is_answer": false,
+                            "choice": "$P(C) \\leq P(A \\cup B)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52712,
+                            "question_id": 13178,
+                            "is_answer": false,
+                            "choice": "$P(C) \\geq P(A \\cup B)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.27,
+                    "avg_time_spent": 67053,
+                    "tags": "近期易错,近期59人做�?,
+                    "ai_tags": "条件概率,概率性质"
+                },
+                {
+                    "id": 13180,
+                    "subject_id": 3,
+                    "chapter_id": 275,
+                    "question_id": "9cd68626-d292-49b0-8760-e5ea75ebebf1",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$A, B$ �?2 个互不相容的事件, $P(A)>0, P(B)>0$, 则一定成立的�?( ).",
+                    "analysis": "由于 $A, B$ �?2 个互不相容的事件, 所�?$A B=\\varnothing$, �?$P(A B)=0$, 所�?$P(A \\mid B)=\\frac{P(A B)}{P(B)}=0$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/c150130c75f545ad92f579fa03f1504b",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52719,
+                            "question_id": 13180,
+                            "is_answer": true,
+                            "choice": "$P(A \\mid B)=0$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52718,
+                            "question_id": 13180,
+                            "is_answer": false,
+                            "choice": "$P(A)=1-P(B)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52717,
+                            "question_id": 13180,
+                            "is_answer": false,
+                            "choice": "$P(A \\mid \\bar{B})=1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52720,
+                            "question_id": 13180,
+                            "is_answer": false,
+                            "choice": "$P(\\overline{A B})=0$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.91,
+                    "difficulty_score": 0.25,
+                    "avg_time_spent": 81936,
+                    "ai_tags": "概率�?互不相容事件,条件概率"
+                },
+                {
+                    "id": 13181,
+                    "subject_id": 3,
+                    "chapter_id": 275,
+                    "question_id": "dca0de07-00d5-4029-afba-01ecea59cb33",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设事�?$A, B$ 为任意两事件, �?$A \\subset B, P(B)>0$, 则下列选项必然成立的是 ( ).",
+                    "analysis": "因为 $A \\subset B$, 所�?$P(A)=P(A B)=P(B) P(A \\mid B) \\leq P(A \\mid B)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/3921ceb3fd084510bc5c37f5447d1858",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52722,
+                            "question_id": 13181,
+                            "is_answer": true,
+                            "choice": "$P(A) \\leq P(A \\mid B)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52724,
+                            "question_id": 13181,
+                            "is_answer": false,
+                            "choice": "$P(A)<P(A \\mid B)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52721,
+                            "question_id": 13181,
+                            "is_answer": false,
+                            "choice": "$P(A)>P(A \\mid B)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52723,
+                            "question_id": 13181,
+                            "is_answer": false,
+                            "choice": "$P(A) \\geq P(A \\mid B)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.77,
+                    "difficulty_score": 0.28,
+                    "avg_time_spent": 150621,
+                    "ai_tags": "条件概率,概率性质"
+                },
+                {
+                    "id": 13183,
+                    "subject_id": 3,
+                    "chapter_id": 275,
+                    "question_id": "4f696dfa-5c3c-4d00-8675-e5e1fe3ac458",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "对任意事�?$A, B$, �?$1>P(B)>0$, 则有 ( ).",
+                    "analysis": "因为 $B=(A B) \\cup(\\bar{A} B)$,所以由条件概率公式�?$P(A \\mid B)+P(\\bar{A} \\mid B)=\\frac{P(A B)}{P(B)}+\\frac{P(\\bar{A} B)}{P(B)}=1$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/c8f600ee0567459abb5838ba7f2a1f34",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52732,
+                            "question_id": 13183,
+                            "is_answer": true,
+                            "choice": "$P(A \\mid B)+P(\\bar{A} \\mid B)=1$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52730,
+                            "question_id": 13183,
+                            "is_answer": false,
+                            "choice": "$P(A \\mid B)+P(\\bar{A} \\mid \\bar{B})=1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52729,
+                            "question_id": 13183,
+                            "is_answer": false,
+                            "choice": "$P(A \\mid B)+P(A \\mid \\bar{B})=1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52731,
+                            "question_id": 13183,
+                            "is_answer": false,
+                            "choice": "$P(\\bar{A} \\mid B)+P(A \\mid \\bar{B})=1$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.85,
+                    "difficulty_score": 0.28,
+                    "avg_time_spent": 83043,
+                    "ai_tags": "条件概率,概率�?
+                },
+                {
+                    "id": 18810,
+                    "subject_id": 3,
+                    "chapter_id": 275,
+                    "question_id": "3cc78439-cc21-4134-807e-8905e3438af7",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$A, B$ 是两个对立事�? $P(A)>0, P(B)>0$, 则下列式子不正确的是 ( ).",
+                    "analysis": "由于 $A, B$ 是两个对立事�? 所�?$B=\\bar{A}$.\n所�?$P(A)=1-P(B), P(A \\mid B)=P(A \\mid \\bar{A})=0, P(A \\mid \\bar{B})=P(A \\mid A)=1, P(\\bar{A} \\bar{B})=P(\\bar{A} A)=0$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339065
+                    },
+                    "question_json": "mathreact/57362e6df89d4d7a82b213e638ceaeb9",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84834,
+                            "question_id": 18810,
+                            "is_answer": true,
+                            "choice": "$P(\\bar{A} \\bar{B})=1$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84835,
+                            "question_id": 18810,
+                            "is_answer": false,
+                            "choice": "$P(A)=1-P(B)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84836,
+                            "question_id": 18810,
+                            "is_answer": false,
+                            "choice": "$P(A \\mid B)=0$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84837,
+                            "question_id": 18810,
+                            "is_answer": false,
+                            "choice": "$P(A \\mid \\bar{B})=1$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.79,
+                    "difficulty_score": 0.22,
+                    "avg_time_spent": 84284,
+                    "tags": "近期易错,近期94人做�?,
+                    "ai_tags": "对立事件,条件概率,概率的基本性质"
+                },
+                {
+                    "id": 18811,
+                    "subject_id": 3,
+                    "chapter_id": 275,
+                    "question_id": "c4dd1507-6678-4afc-b9db-0e9789fb745c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设事�?$A$ �?$B$ 互斥, �?$0<P(B)<1$, 则下列说法正确的�?( ).",
+                    "analysis": "因为 $A$ �?$B$ 互斥, �?$A=A(B \\cup \\bar{B})=AB \\cup A\\bar{B}=A\\bar{B}$, 所�?$P(A)=P(A\\bar{B})$, �?$P(A \\mid \\bar{B})=\\frac{P(A\\bar{B})}{P(\\bar{B})}$, �?$P(\\bar{B})=1-P(B)$, 所�?$P(A \\mid \\bar{B})=\\frac{P(A)}{1-P(B)}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339066
+                    },
+                    "question_json": "mathreact/87475386e857451f93d144afe7618942",
+                    "updated_at": {
+                        "seconds": 1775673111
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84841,
+                            "question_id": 18811,
+                            "is_answer": true,
+                            "choice": "$P(A \\mid \\bar{B})=\\frac{P(A)}{1-P(B)}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84842,
+                            "question_id": 18811,
+                            "is_answer": false,
+                            "choice": "$P(A \\mid \\bar{B})=\\frac{P(A)}{P(B)}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84843,
+                            "question_id": 18811,
+                            "is_answer": false,
+                            "choice": "$P(A \\mid \\bar{B})=\\frac{P(A)}{1+P(B)}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84844,
+                            "question_id": 18811,
+                            "is_answer": false,
+                            "choice": "$P(A \\mid \\bar{B})=\\frac{1-P(A)}{1-P(B)}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.26,
+                    "avg_time_spent": 60272,
+                    "ai_tags": "概率�?互斥事件,条件概率"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 19,
+            "questions": [
+                {
+                    "id": 18812,
+                    "subject_id": 3,
+                    "chapter_id": 275,
+                    "question_id": "2700f21d-014c-4b97-b69b-5ea0085eb2b6",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知 $P(B) P\\left(A_1\\right) P\\left(A_2\\right)>0, P\\left(\\left(A_1 \\cup A_2\\right) \\mid B\\right)=P\\left(A_1 \\mid B\\right)+P\\left(A_2 \\mid B\\right)$, �?$(\\quad)$.",
+                    "analysis": "根据条件概率公式及条�?$P\\left(\\left(A_1 \\cup A_2\\right) \\mid B\\right)=P\\left(A_1 \\mid B\\right)+P\\left(A_2 \\mid B\\right)$, �?$\\frac{P\\left(\\left(A_1 \\cup A_2\\right) B\\right)}{P(B)}=\\frac{P\\left(A_1 B\\right)}{P(B)}+\\frac{P\\left(A_2 B\\right)}{P(B)}$,\n又由事件运算的分配律可知 $\\left(A_1 \\cup A_2\\right) B=A_1 B \\cup A_2 B$,\n所�?$P\\left(A_1 B \\cup A_2 B\\right)=P\\left(A_1 B\\right)+P\\left(A_2 B\\right)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339067
+                    },
+                    "question_json": "mathreact/5c375a45e3e249d5a043e28983909921",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84848,
+                            "question_id": 18812,
+                            "is_answer": true,
+                            "choice": "$P\\left(A_1 B \\cup A_2 B\\right)=P\\left(A_1 B\\right)+P\\left(A_2 B\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84849,
+                            "question_id": 18812,
+                            "is_answer": false,
+                            "choice": "$A_1 A_2=\\varnothing$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84850,
+                            "question_id": 18812,
+                            "is_answer": false,
+                            "choice": "$P\\left(A_1 \\cup A_2\\right)=P\\left(A_1\\right)+P\\left(A_2\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84851,
+                            "question_id": 18812,
+                            "is_answer": false,
+                            "choice": "$P\\left(B \\mid\\left(A_1 \\cup A_2\\right)\\right)=P\\left(B \\mid A_1\\right)+P\\left(B \\mid A_2\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.74,
+                    "difficulty_score": 0.29,
+                    "avg_time_spent": 86195,
+                    "tags": "近期易错,近期119人做�?,
+                    "ai_tags": "条件概率,概率加法公式"
+                },
+                {
+                    "id": 18813,
+                    "subject_id": 3,
+                    "chapter_id": 275,
+                    "question_id": "894e27d6-a2ea-4517-829f-87e494e4e819",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$P(A)>0, P(B)>0$, 则下列公式正确的�?() .",
+                    "analysis": "�?$A$ �?$B$ 相互独立时，$P(AB)=P(A)P(B)$�?P(A-B)=P(A\\bar{B})=P(A)P(\\bar{B})=P(A)[1-P(B)]$。本题未给出独立性条件，故这两个公式一般不成立。\n由条件概率公式，$P(AB \\mid A)=\\frac{P(ABA)}{P(A)}=\\frac{P(AB)}{P(A)}=P(B \\mid A)$，此式恒成立。\n对于 $P(A \\mid B)=P(B \\mid A)$，仅�?$P(A)=P(B)$ 时才成立，故一般不正确�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339069
+                    },
+                    "question_json": "mathreact/34f224bb3433418b8d2337d882093787",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84855,
+                            "question_id": 18813,
+                            "is_answer": true,
+                            "choice": "$P(AB \\mid A)=P(B \\mid A)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84856,
+                            "question_id": 18813,
+                            "is_answer": false,
+                            "choice": "$P(A-B)=P(A)[1-P(B)]$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84857,
+                            "question_id": 18813,
+                            "is_answer": false,
+                            "choice": "$P(AB)=P(A) \\cdot P(B)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84858,
+                            "question_id": 18813,
+                            "is_answer": false,
+                            "choice": "$P(A \\mid B)=P(B \\mid A)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.2,
+                    "avg_time_spent": 61805,
+                    "tags": "近期易错,近期87人做�?,
+                    "ai_tags": "条件概率,事件独立�?概率公式"
+                },
+                {
+                    "id": 18819,
+                    "subject_id": 3,
+                    "chapter_id": 275,
+                    "question_id": "58872d24-790c-4277-b7be-ea185c6e0910",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设事�?$A, B$ 满足 $0<P(A)<1, P(B)>0, P(B \\mid A)=P(B \\mid \\bar{A})$, 则下列各式中必成立的�?( ).",
+                    "analysis": "由于 $0<P(A)<1, P(B)>0$,\n所以对 $P(B \\mid A)=P(B \\mid \\bar{A})$ 应用条件概率公式�?$\\frac{P(AB)}{P(A)}=\\frac{P(\\bar{A}B)}{P(\\bar{A})}$,\n�?$\\frac{P(AB)}{P(A)}=\\frac{P(B)-P(AB)}{1-P(A)}$,\n去分�?$P(AB)(1-P(A))=P(A)(P(B)-P(AB))$,\n整理�?$P(AB)=P(A)P(B)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339085
+                    },
+                    "question_json": "mathreact/39ebdf387efb483b80b8433c5aa26f3e",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84897,
+                            "question_id": 18819,
+                            "is_answer": true,
+                            "choice": "$P(A B)=P(A) P(B)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84898,
+                            "question_id": 18819,
+                            "is_answer": false,
+                            "choice": "$P(A \\mid B)=P(\\bar{A} \\mid B)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84899,
+                            "question_id": 18819,
+                            "is_answer": false,
+                            "choice": "$P(A \\mid B) \\neq P(\\bar{A} \\mid B)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84900,
+                            "question_id": 18819,
+                            "is_answer": false,
+                            "choice": "$P(A B) \\neq P(A) P(B)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.63,
+                    "difficulty_score": 0.38,
+                    "avg_time_spent": 204048,
+                    "ai_tags": "事件的独立�?条件概率"
+                },
+                {
+                    "id": 18821,
+                    "subject_id": 3,
+                    "chapter_id": 275,
+                    "question_id": "ff0f83b6-b57f-45b0-a635-7a17c8d3d98f",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$A, B$ 是两个随机事�? �?$B$ 发生, �?$A$ 发生, 那么下列式子中正确的�?( ).",
+                    "analysis": "�?$B$ 发生, �?$A$ 发生, 表明 $B \\subset A$. 由此可得：\n1. $A \\cup B = A$, �?$P(A \\cup B) = P(A)$, 该选项正确；\n2. $AB = B$, �?$P(AB) = P(B)$, 而一�?$P(B) \\neq P(A)$, 该选项错误；\n3. $P(B \\mid A) = \\frac{P(AB)}{P(A)} = \\frac{P(B)}{P(A)}$, 一般不等于 $P(B)$, 该选项错误；\n4. $B-A = \\varnothing$, �?$P(B-A) = 0$, �?$P(B)-P(A) \\le 0$, 该选项错误.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339089
+                    },
+                    "question_json": "mathreact/f877a18481904538b758f34ec3a57634",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84911,
+                            "question_id": 18821,
+                            "is_answer": true,
+                            "choice": "$P(A \\cup B)=P(A)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84912,
+                            "question_id": 18821,
+                            "is_answer": false,
+                            "choice": "$P(A B)=P(A)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84913,
+                            "question_id": 18821,
+                            "is_answer": false,
+                            "choice": "$P(B \\mid A)=P(B)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84914,
+                            "question_id": 18821,
+                            "is_answer": false,
+                            "choice": "$P(B-A)=P(B)-P(A)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.74,
+                    "difficulty_score": 0.29,
+                    "avg_time_spent": 65257,
+                    "tags": "近期易错,近期108人做�?,
+                    "ai_tags": "随机事件,概率性质"
+                },
+                {
+                    "id": 18822,
+                    "subject_id": 3,
+                    "chapter_id": 275,
+                    "question_id": "f39c8f7e-e0a4-41a4-ad4b-fcdecd9cbf9b",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$P(A)=\\frac{1}{4}, P(A \\mid B)=\\frac{1}{2}, P(\\bar{B} \\mid A)=\\frac{2}{3}$. �?(1) $P(B)=$ ( ), (2) $P(A+B)=$ ( ).",
+                    "analysis": "由乘法公�?$P(A \\bar{B})=P(A) P(\\bar{B} \\mid A)=\\frac{1}{4} \\times \\frac{2}{3}=\\frac{1}{6}$, 又因�?$P(A)=P(A B)+P(A \\bar{B})$, 所以\n$$\nP(A B)=\\frac{1}{4}-\\frac{1}{6}=\\frac{1}{12}\n$$\n(1) 根据条件概率公式 $P(A \\mid B)=\\frac{P(A B)}{P(B)}$, �?$\\frac{1}{2}=\\frac{\\frac{1}{12}}{P(B)}$, 所�?$P(B)=\\frac{1}{6}$\n(2) $P(A+B)=P(A)+P(B)-P(A B)=\\frac{1}{4}+\\frac{1}{6}-\\frac{1}{12}=\\frac{1}{3}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339089
+                    },
+                    "question_json": "mathreact/7ba78c3192eb40ada3c4aa8a76f23e78",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84918,
+                            "question_id": 18822,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{6}, \\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84919,
+                            "question_id": 18822,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}, \\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84920,
+                            "question_id": 18822,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}, \\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84921,
+                            "question_id": 18822,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{6}, \\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.87,
+                    "difficulty_score": 0.27,
+                    "avg_time_spent": 163501,
+                    "ai_tags": "概率�?条件概率,加法公式"
+                },
+                {
+                    "id": 18826,
+                    "subject_id": 3,
+                    "chapter_id": 275,
+                    "question_id": "e901986a-93b7-4fd5-b576-16e6774b0ae5",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$P(B)>0$ �?$P((A_1 \\cup A_2) \\mid B) = P(A_1 \\mid B) + P(A_2 \\mid B)$，则�?() .",
+                    "analysis": "由条件概率公式得:\n$$\nP\\left(\\left(A_1 \\cup A_2\\right) \\mid B\\right)=\\frac{P\\left(\\left(A_1 \\cup A_2\\right) B\\right)}{P(B)}, P\\left(A_1 \\mid B\\right)=\\frac{P\\left(A_1 B\\right)}{P(B)}, P\\left(A_2 \\mid B\\right)=\\frac{P\\left(A_2 B\\right)}{P(B)} .\n$$\n\n代入题目中等式得到\n$$\n\\frac{P\\left(\\left(A_1 \\cup A_2\\right) B\\right)}{P(B)}=\\frac{P\\left(A_1 B\\right)}{P(B)}+\\frac{P\\left(A_2 B\\right)}{P(B)},\n$$\n\n所�?$P\\left(\\left(A_1 \\cup A_2\\right) B\\right)=P\\left(A_1 B\\right)+P\\left(A_2 B\\right)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339097
+                    },
+                    "question_json": "mathreact/2242e7174a624410a035442debda9a99",
+                    "updated_at": {
+                        "seconds": 1775673114
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84946,
+                            "question_id": 18826,
+                            "is_answer": true,
+                            "choice": "$P((A_1 \\cup A_2) B) = P(A_1 B) + P(A_2 B)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84947,
+                            "question_id": 18826,
+                            "is_answer": false,
+                            "choice": "$P(A_1 A_2) = 0$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84948,
+                            "question_id": 18826,
+                            "is_answer": false,
+                            "choice": "$P(A_1 \\cup A_2) = P(A_1) + P(A_2)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84949,
+                            "question_id": 18826,
+                            "is_answer": false,
+                            "choice": "$P(B) = P(B \\mid A_1) P(A_1) + P(B \\mid A_2) P(A_2)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.84,
+                    "difficulty_score": 0.23,
+                    "avg_time_spent": 112265,
+                    "ai_tags": "概率�?条件概率"
+                },
+                {
+                    "id": 18828,
+                    "subject_id": 3,
+                    "chapter_id": 275,
+                    "question_id": "2405ef27-51fe-44d7-84d5-6143cc55c6ce",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知 $P(A)=\\frac{1}{4}, P(B \\mid A)=\\frac{1}{3}, P(A \\mid B)=\\frac{1}{2}$, �?$P(A \\cup B)=()$.",
+                    "analysis": "根据乘法公式 $P(AB)=P(A)P(B \\mid A)=P(B)P(A \\mid B)$,所�?$P(AB)=\\frac{1}{4} \\times \\frac{1}{3}=\\frac{1}{12}, P(B)=\\frac{\\frac{1}{12}}{\\frac{1}{2}}=\\frac{1}{6}$,�?$P(A \\cup B)=P(A)+P(B)-P(AB)=\\frac{1}{3}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339109
+                    },
+                    "question_json": "mathreact/5f6f880a531f4a80aab2951658feac39",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84960,
+                            "question_id": 18828,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84961,
+                            "question_id": 18828,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84962,
+                            "question_id": 18828,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84963,
+                            "question_id": 18828,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.93,
+                    "difficulty_score": 0.24,
+                    "avg_time_spent": 91352,
+                    "tags": "",
+                    "ai_tags": "概率�?条件概率,加法公式"
+                },
+                {
+                    "id": 18840,
+                    "subject_id": 3,
+                    "chapter_id": 275,
+                    "question_id": "83af53d1-b253-414e-bf70-73d66463ddd5",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$A, B$ 是两个随机事�? �?$0<P(A)<1, P(B)>0, P(B \\mid A)=P(B \\mid \\bar{A})$, 则必�?( ).",
+                    "analysis": "由条件概率公式以及条�?$P(B \\mid A)=P(B \\mid \\bar{A})$ �?$\\frac{P(\\bar{A} B)}{P(\\bar{A})}=\\frac{P(A B)}{P(A)}=\\frac{P(A B)}{1-P(\\bar{A})}$, �?$P(\\bar{A} B)[1-P(\\bar{A})]=P(\\bar{A}) P(A B)$, �?$P(\\bar{A} B)+P(A B)=P(B)$, �?$P(\\bar{A} B)[1-P(\\bar{A})]=P(\\bar{A})[P(B)-P(\\bar{A} B)]$, �?$P(\\bar{A} B)=P(\\bar{A}) P(B)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339133
+                    },
+                    "question_json": "mathreact/86ccb41990f14303a8017933dde994d1",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85044,
+                            "question_id": 18840,
+                            "is_answer": true,
+                            "choice": "$P(\\bar{A} B)=P(\\bar{A}) P(B)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 85045,
+                            "question_id": 18840,
+                            "is_answer": false,
+                            "choice": "$P(A \\mid B)=P(\\bar{A} \\mid B)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 85046,
+                            "question_id": 18840,
+                            "is_answer": false,
+                            "choice": "$P(A \\mid B) \\neq P(\\bar{A} \\mid B)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 85047,
+                            "question_id": 18840,
+                            "is_answer": false,
+                            "choice": "$P(\\bar{A} B) \\neq P(\\bar{A}) P(B)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.82,
+                    "difficulty_score": 0.26,
+                    "avg_time_spent": 94958,
+                    "tags": "近期易错,近期73人做�?,
+                    "ai_tags": "概率�?随机事件,独立�?
+                },
+                {
+                    "id": 20581,
+                    "subject_id": 3,
+                    "chapter_id": 275,
+                    "question_id": "79983935-bfea-4ab3-bbbb-c4cbf2234f4c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知 $P(B)>0, A_1 A_2=\\varnothing$, 则下列各式不正确的是 ( ).",
+                    "analysis": "已知 $P(B) > 0$，且 $A_1 A_2 = \\varnothing$（即 $A_1, A_2$ 互斥）：\n\n关于等式 $P(\\overline{A_1} \\ \\overline{A_2} \\mid B) = 1$\n\n由德摩根定律�?\\overline{A_1} \\ \\overline{A_2} = \\overline{A_1 \\cup A_2}$，则 $P(\\overline{A_1} \\ \\overline{A_2} \\mid B) = 1 - P(A_1 \\cup A_2 \\mid B)$\n\n�?$P(A_1 \\cup A_2 \\mid B)$ 不一定为 $0$，故该等式不一定成立（符合题意）。\n\n关于等式 $P(\\overline{A_1} \\cup \\overline{A_2} \\mid B) = 1$\n\n由德摩根定律�?\\overline{A_1} \\cup \\overline{A_2} = \\overline{A_1 A_2}$。\n\n�?$A_1 A_2 = \\varnothing$，其对立事件 $\\overline{A_1 A_2}$ 为必然事件（全集），故条件概率为 $1$。该等式恒成立。\n\n关于等式 $P(A_1 \\cup A_2 \\mid B) = P(A_1 \\mid B) + P(A_2 \\mid B)$\n\n�?$A_1, A_2$ 互斥，直接满足条件概率的加法公式。该等式恒成立。\n\n关于等式 $P(A_1 A_2 \\mid B) = 0$\n\n�?$A_1 A_2 = \\varnothing$ 为不可能事件，其条件概率�?$0$。该等式恒成立�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1775044219
+                    },
+                    "question_json": "https://cdn.mathreact.cn/questions/79983935-bfea-4ab3-bbbb-c4cbf2234f4c/v5_1775044218.json",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 5,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 97033,
+                            "question_id": 20581,
+                            "is_answer": true,
+                            "choice": "$P(\\overline{A_1} \\ \\overline{A_2} \\mid B) = 1$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1775044219
+                            },
+                            "updated_at": {
+                                "seconds": 1775044219
+                            }
+                        },
+                        {
+                            "id": 97034,
+                            "question_id": 20581,
+                            "is_answer": false,
+                            "choice": "$P(A_1 \\cup A_2 \\mid B)=P(A_1 \\mid B)+P(A_2 \\mid B)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1775044219
+                            },
+                            "updated_at": {
+                                "seconds": 1775044219
+                            }
+                        },
+                        {
+                            "id": 97035,
+                            "question_id": 20581,
+                            "is_answer": false,
+                            "choice": "$P(A_1 A_2 \\mid B)=0$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1775044219
+                            },
+                            "updated_at": {
+                                "seconds": 1775044219
+                            }
+                        },
+                        {
+                            "id": 97036,
+                            "question_id": 20581,
+                            "is_answer": false,
+                            "choice": "$P(\\overline{A_1} \\cup \\overline{A_2} \\mid B)=1$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1775044219
+                            },
+                            "updated_at": {
+                                "seconds": 1775044219
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.73,
+                    "difficulty_score": 0.36,
+                    "avg_time_spent": 109931,
+                    "ai_tags": "概率论，条件概率，互斥事件，德摩根律"
+                }
+            ]
+        }
+    }
+]

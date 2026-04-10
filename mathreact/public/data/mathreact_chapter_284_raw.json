@@ -1,0 +1,2655 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 31,
+            "questions": [
+                {
+                    "id": 12811,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "983dcf64-3661-4cbd-b34a-10c0e4b2aa4c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某人买了 $A, B, C$ 三种不同种类的奖券各一�? 已知中奖概率依次�?$P(A)=0.01, P(B)=0.02$ �?$P(C)=0.03$, 且各奖券是否中奖是相互独立的, 求他至少有一张奖券中奖的概率�?( ).",
+                    "analysis": "由于各奖券是否中奖是相互独立�? 所以\n$$\n\\begin{array}{ll}\nP(A B)=P(A) P(B), & P(A C)=P(A) P(C), \\\\\nP(B C)=P(B) P(C), & P(A B C)=P(A) P(B) P(C),\n\\end{array}\n$$\n\n根据概率的性质有\n$$\n\\begin{aligned}\n& P(A \\cup B \\cup C)=P(A)+P(B)+P(C)-P(A B)-P(A C)-P(B C)+P(A B C) \\\\\n& \\quad=0.01+0.02+0.03-0.01 \\times 0.02-0.01 \\times 0.03-0.02 \\times 0.03+0.01 \\times 0.02 \\times 0.03 \\\\\n& \\quad=0.0589 .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/15fcd3f9c5314e8480a852a59ad37765",
+                    "updated_at": {
+                        "seconds": 1775673111
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51244,
+                            "question_id": 12811,
+                            "is_answer": true,
+                            "choice": "$0.0589$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51241,
+                            "question_id": 12811,
+                            "is_answer": false,
+                            "choice": "$0.0156$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51242,
+                            "question_id": 12811,
+                            "is_answer": false,
+                            "choice": "$0.0287$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51243,
+                            "question_id": 12811,
+                            "is_answer": false,
+                            "choice": "$0.106$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.74,
+                    "difficulty_score": 0.33,
+                    "avg_time_spent": 396053,
+                    "ai_tags": "概率�?相互独立事件,概率加法公式"
+                },
+                {
+                    "id": 12812,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "fc7d4b5d-f63e-4d50-a124-5a18f969aa75",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "甲乙两人独立地向目标射击一�? 他们的命中率分别�?0.75 �?0.6 , 现已知目标被命中, 则它是甲和乙共同射中的概率是 ().",
+                    "analysis": "设事�?$A=\\{$ 甲击中目�?$\\}$, 事件 $B=\\{$ 乙击中目�?$\\}$, 则题目中要求的概率可以表示为 $P(A B \\mid A \\cup B)$.\n由于 $A B \\subset A \\cup B$, 所�?$(A B) \\cap(A \\cup B)=A B$,\n则由独立性及概率的性质可知\n$$\n\\begin{gathered}\nP(A B \\mid A \\cup B)=\\frac{P(A B)}{P(A \\cup B)}=\\frac{P(A) P(B)}{P(A)+P(B)-P(A) P(B)} \\\\\n=\\frac{0.75 \\cdot 0.6}{0.75+0.6-0.75 \\cdot 0.6}=0.5\n\\end{gathered}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/bb97ff6dd62d4e7e9ae8782fc69fb320",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51245,
+                            "question_id": 12812,
+                            "is_answer": true,
+                            "choice": "$0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51246,
+                            "question_id": 12812,
+                            "is_answer": false,
+                            "choice": "$0.4$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51248,
+                            "question_id": 12812,
+                            "is_answer": false,
+                            "choice": "$0.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51247,
+                            "question_id": 12812,
+                            "is_answer": false,
+                            "choice": "$0.7$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.89,
+                    "difficulty_score": 0.27,
+                    "avg_time_spent": 95774,
+                    "ai_tags": "条件概率,事件的独立�?
+                },
+                {
+                    "id": 12815,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "264beaec-fc8a-4985-8a5c-2326ff7cd127",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一个自动报警器由雷达和计算机两部分组成, 两部分有任何一个失�? 这个报警器就失灵. 若使�?100 小时�? 雷达部分失灵的概率为 0.1 , 计算机失灵的概率�?0.3 , 若两部分失灵与否为独立的, 则这个报警器使用 100 小时而不失灵的概率为 ( ).",
+                    "analysis": "记事�?$A$ �?\"报警器使�?100 小时后雷达失灵\"，事�?$B$ �?\"报警器使�?100 小时后计算机失灵\"，依题意\n$$\nP(A)=0.1, P(B)=0.3,\n$$\n\n从而所求概率为: $p=P(\\bar{A} \\bar{B})=P(\\bar{A}) P(\\bar{B})=(1-0.1) \\times(1-0.3)=0.63$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/50adf5130ec44df28b132d90426dc55d",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51257,
+                            "question_id": 12815,
+                            "is_answer": true,
+                            "choice": "$0.63$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51259,
+                            "question_id": 12815,
+                            "is_answer": false,
+                            "choice": "$0.49$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51260,
+                            "question_id": 12815,
+                            "is_answer": false,
+                            "choice": "$0.82$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51258,
+                            "question_id": 12815,
+                            "is_answer": false,
+                            "choice": "$0.55$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.21,
+                    "avg_time_spent": 60623,
+                    "ai_tags": "独立�?概率计算"
+                },
+                {
+                    "id": 12816,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "b9951baa-7b79-41ed-b1ad-5e98f4995340",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设袋中有两个白球和三个黑球，从袋中依次取出一个球，有放回地连续取两次，则取得两个白球的事件的概率等于 ().",
+                    "analysis": "由于是有放回的取球，故两次取球的事件是相互独立的，每次从袋子取到白球的概率都�?$\\frac{2}{3+2}=\\frac{2}{5}$, 所以事�?$A$ : \"取得两个白球\"的概率是 $P(A)=\\frac{2}{5} \\cdot \\frac{2}{5}=0.16$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/4cde08274e2c41d4a88445dfb04c71d2",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51264,
+                            "question_id": 12816,
+                            "is_answer": true,
+                            "choice": "$\\frac{4}{25}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51262,
+                            "question_id": 12816,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51263,
+                            "question_id": 12816,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51261,
+                            "question_id": 12816,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.9,
+                    "difficulty_score": 0.27,
+                    "avg_time_spent": 45237,
+                    "ai_tags": "概率计算,独立事件"
+                },
+                {
+                    "id": 12817,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "5c0b6394-84c2-4922-a01d-d01bccb1435c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "电路由元�?$A$ 与两个并联的元件 $B, C$ 串联而成, �?$A, B, C$ 损坏与否是相互独立的, 且他们损坏的概率依次�?0.3 , $0.2,0.1$, 则电路断路的概率�?().",
+                    "analysis": "�?$D=\\{$ 电路断电 $\\}$, �?$D=A \\cup B C$, 从而\n$$\n\\begin{aligned}\nP(D) & =P(A \\cup B C)=P(A)+P(B C)-P(A B C)=P(A)+P(B) P(C)-P(A) P(B) P(C) \\\\\n& =0.3+0.2 \\times 0.1-0.3 \\times 0.2 \\times 0.1=0.314 .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/12c84a7261324e9e8740776c8e1a7480",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51267,
+                            "question_id": 12817,
+                            "is_answer": true,
+                            "choice": "$0.314$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51266,
+                            "question_id": 12817,
+                            "is_answer": false,
+                            "choice": "$0.294$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51268,
+                            "question_id": 12817,
+                            "is_answer": false,
+                            "choice": "$0.32$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51265,
+                            "question_id": 12817,
+                            "is_answer": false,
+                            "choice": "$0.304$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.78,
+                    "difficulty_score": 0.3,
+                    "avg_time_spent": 95185,
+                    "ai_tags": "事件的独立�?概率加法公式"
+                },
+                {
+                    "id": 12821,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "1c4110a8-1903-4ea1-adbf-eca2631c464f",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设电子计算机的第 $i$ 个部件在一天内发生故障的概率为 $p_i(i=1,2, \\cdots, n)$, 如果各部件发生故障是相互独立�? 则某日至少有 1 个部件发生故障的概率�?( ).",
+                    "analysis": "�?$A=\\{$ 至少�?1 个部件发生故�?$\\}$,\n考虑对立事件 $\\bar{A}=\\{$ 没有 1 个部件发生故�?$\\}$.\n�?$P(\\bar{A})=\\left(1-p_1\\right)\\left(1-p_2\\right) \\cdots\\left(1-p_n\\right)$,\n�?$P(A)=1-P(\\bar{A})=1-\\left(1-p_1\\right)\\left(1-p_2\\right) \\cdots\\left(1-p_n\\right)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/a169a0ef31574e288a8122374ab50b2a",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51281,
+                            "question_id": 12821,
+                            "is_answer": true,
+                            "choice": "$1-\\left(1-p_1\\right)\\left(1-p_2\\right) \\cdots\\left(1-p_n\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51283,
+                            "question_id": 12821,
+                            "is_answer": false,
+                            "choice": "$p_1 p_2 \\cdots p_n$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51282,
+                            "question_id": 12821,
+                            "is_answer": false,
+                            "choice": "$\\left(1-p_1\\right)\\left(1-p_2\\right) \\cdots\\left(1-p_n\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51284,
+                            "question_id": 12821,
+                            "is_answer": false,
+                            "choice": "$1-p_1 p_2 \\cdots p_n$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.18,
+                    "avg_time_spent": 45183,
+                    "ai_tags": "概率�?相互独立事件,对立事件"
+                },
+                {
+                    "id": 12824,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "5e7b02c0-d16e-454d-b8f4-887dbbf19a46",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "甲袋中有 4 只红球， 6 只白球；乙袋中有 6 只红球， 10 只白�?现从两袋中各任取 1 球，�?2 个球颜色相同的概率是 ( ).",
+                    "analysis": "�?$A=\\{$ 甲袋取出为红�?$\\}, B=\\{$ 乙袋取出为红�?$\\}$,则显然题目要求的�?$P(A B \\cup \\overline{A B})$.\n因为从甲、乙两袋中取球的事件是相互独立的,\n所�?$P(A B)=P(A) P(B)=\\frac{4}{10} \\times \\frac{6}{16}=\\frac{3}{20}, P(\\bar{A} \\bar{B})=P(\\bar{A}) P(\\bar{B})=\\frac{6}{10} \\times \\frac{10}{16}=\\frac{3}{8}$,\n从�?$P(A B \\cup \\overline{A B})=P(A B)+P(\\bar{A} \\bar{B})=\\frac{21}{40}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/ecf75dc3ff534d08ad83040c7493376d",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51296,
+                            "question_id": 12824,
+                            "is_answer": true,
+                            "choice": "$\\frac{21}{40}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51295,
+                            "question_id": 12824,
+                            "is_answer": false,
+                            "choice": "$\\frac{6}{40}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51293,
+                            "question_id": 12824,
+                            "is_answer": false,
+                            "choice": "$\\frac{15}{40}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51294,
+                            "question_id": 12824,
+                            "is_answer": false,
+                            "choice": "$\\frac{19}{40}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.96,
+                    "difficulty_score": 0.24,
+                    "avg_time_spent": 154492,
+                    "ai_tags": "概率�?相互独立事件,事件的运�?
+                },
+                {
+                    "id": 12826,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "87e42be4-6723-4d17-bf50-e9a0cc011a8a",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "甲、乙、丙 3 人独立地破译一种密码，他们能译出的概率分别�?$\\frac{1}{5}, \\frac{1}{3}, \\frac{1}{4}$ ，则能译出这种密码的概率是（�?",
+                    "analysis": "由于三人是独立地破译密码, 所以有一人破译出来就能译出这种密�? 其逆事件是一个也破译不出这种密码,所以能译出这种密码的概率为 $p=1-\\left(1-\\frac{1}{5}\\right) \\times\\left(1-\\frac{1}{3}\\right) \\times\\left(1-\\frac{1}{4}\\right)=\\frac{3}{5}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/3ea666e7dbbf45a98e09cac590e2d234",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51301,
+                            "question_id": 12826,
+                            "is_answer": true,
+                            "choice": "$\\frac{3}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51303,
+                            "question_id": 12826,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51304,
+                            "question_id": 12826,
+                            "is_answer": false,
+                            "choice": "$\\frac{4}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51302,
+                            "question_id": 12826,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.92,
+                    "difficulty_score": 0.23,
+                    "avg_time_spent": 63907,
+                    "tags": "",
+                    "ai_tags": "事件的独立�?概率计算"
+                },
+                {
+                    "id": 12832,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "4077e9e6-1d3d-4e47-8ae6-4e11c0b23035",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设电路由元件 $A$ �?$B$ 并联而成, �?$A$ �?$B$ 相互独立, 两元件正常工作的概率都为 $p$, 已知电路正常工作的概率为 $\\frac{15}{16}$, �?$p=()$.",
+                    "analysis": "由于电路元件 $A$ �?$B$ 是并联而成, 所以只要两个元件有一个工作电路即可正常工�? 所以电路正常工作可以表示为 $A \\cup B$, 又由�?$A$ �?$B$ 相互独立, 所以\n$$\n\\frac{15}{16}=P(A \\cup B)=P(A)+P(B)-P(A) P(B)=2 p-p^2,\n$$\n\n所�?$p=\\frac{3}{4}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/a6aff3886ad34420af7e4ade095cede0",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51325,
+                            "question_id": 12832,
+                            "is_answer": true,
+                            "choice": "$\\frac{3}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51328,
+                            "question_id": 12832,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51327,
+                            "question_id": 12832,
+                            "is_answer": false,
+                            "choice": "$\\frac{7}{16}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51326,
+                            "question_id": 12832,
+                            "is_answer": false,
+                            "choice": "$\\frac{11}{16}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.95,
+                    "difficulty_score": 0.19,
+                    "avg_time_spent": 65477,
+                    "ai_tags": "概率�?事件的独立�?
+                },
+                {
+                    "id": 12833,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "61cd4596-59df-4d83-b5f7-fb26650a0275",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "甲、乙、丙3部机床独立地工作, �?1 个人照管. 某段时间, 它们不需要照管的概率依次�?$0.9,0.8,0.85$, 则在这段时间�? 机床因无人照管而停工的概率�?( ) �?,
+                    "analysis": "�?$A, B, C$ 分别表示在这段时间内机床甲、乙、丙需要工人照�? 因无人照管而停工即有两台或两台以上机床需要照�? 此事件可表示�?$A B \\cup A C \\cup B C$. 于是, 所求概率为\n$$\n\\begin{aligned}\n& P(A B \\cup A C \\cup B C)=P(A B)+P(A C)+P(B C)-2 P(A B C) \\\\\n= & P(A) P(B)+P(A) P(C)+P(B) P(C)-2 P(A) P(B) P(C) \\\\\n= & 0.1 \\times 0.2+0.1 \\times 0.15+0.2 \\times 0.15-2(0.1 \\times 0.2 \\times 0.15)=0.059 .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/882c1b1edc3049b2badd0ba29a924f2f",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51329,
+                            "question_id": 12833,
+                            "is_answer": true,
+                            "choice": "$0.059$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51330,
+                            "question_id": 12833,
+                            "is_answer": false,
+                            "choice": "$0.038$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51332,
+                            "question_id": 12833,
+                            "is_answer": false,
+                            "choice": "$0.024$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51331,
+                            "question_id": 12833,
+                            "is_answer": false,
+                            "choice": "$0.062$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.59,
+                    "difficulty_score": 0.36,
+                    "avg_time_spent": 125440,
+                    "tags": "近期易错,近期117人做�?,
+                    "ai_tags": "概率�?相互独立事件,事件的运�?
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 31,
+            "questions": [
+                {
+                    "id": 12838,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "50ea04f3-8f3f-4d05-857b-776797131bf9",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "加工一种零件需经过三道独立工序, 各道工序的废品率分别�?$p_1, p_2, p_3$, 则加工该种零件的成品率为 ( ).",
+                    "analysis": "加工一种零件经过的是三道独立工�? 所以应该用乘法原理.根据题意知各道工序的成品率分别是 $1-p_1, 1-p_2, 1-p_3$,则加工该种零件的成品率为 $\\left(1-p_1\\right)\\left(1-p_2\\right)\\left(1-p_3\\right)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/d7add4a19db5422bb4f5c433c454c5a4",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51349,
+                            "question_id": 12838,
+                            "is_answer": true,
+                            "choice": "$\\left(1-p_1\\right)\\left(1-p_2\\right)\\left(1-p_3\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51352,
+                            "question_id": 12838,
+                            "is_answer": false,
+                            "choice": "$1-p_1 p_2 p_3$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51351,
+                            "question_id": 12838,
+                            "is_answer": false,
+                            "choice": "$1-p_1-p_2-p_3$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51350,
+                            "question_id": 12838,
+                            "is_answer": false,
+                            "choice": "$1-p_1-p_2-p_3-p_1 p_2 p_3$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.85,
+                    "difficulty_score": 0.22,
+                    "avg_time_spent": 58539,
+                    "ai_tags": "概率�?独立事件,乘法公式"
+                },
+                {
+                    "id": 18584,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "d1d831bb-7ee6-4de8-a3a9-6d7560c24149",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "甲、乙 2 人独立地对同一目标各射�?1 �? 其命中率分别�?0.6 �?0.5 . 现已知目标被命中, 则它是甲射中的概率是 ().",
+                    "analysis": "�?$C=\\{$ 目标已射�?$\\}, A=\\{$ 甲射�?$\\}, B=\\{$ 乙射�?$\\}$.\n�?$P(A)=0.6, P(B)=0.5, P(AB)=P(A)P(B)=0.6 \\times 0.5=0.3$.\n所�?$P(C)=P(A \\cup B)=P(A)+P(B)-P(AB)=0.8$,\n�?$P(A \\mid C)=\\frac{P(AC)}{P(C)}=\\frac{P(A)}{P(C)}=\\frac{0.6}{0.8}=\\frac{3}{4}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338521
+                    },
+                    "question_json": "mathreact/9d4ef32e5d334991900b8ef4b47b9aa0",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83252,
+                            "question_id": 18584,
+                            "is_answer": true,
+                            "choice": "$\\frac{3}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83253,
+                            "question_id": 18584,
+                            "is_answer": false,
+                            "choice": "$0.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83254,
+                            "question_id": 18584,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{11}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83255,
+                            "question_id": 18584,
+                            "is_answer": false,
+                            "choice": "$\\frac{6}{11}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.81,
+                    "difficulty_score": 0.28,
+                    "avg_time_spent": 48091,
+                    "ai_tags": "概率�?条件概率,事件的独立�?
+                },
+                {
+                    "id": 18585,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "e36bf534-4fee-4dc8-8248-eb103a36e5a2",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "甲、乙两人射击, 甲击中的概率�?0.8 , 乙击中的概率�?0.7 , 两人同时射击, 并假定中靶与否是独立�? 则两人都中靶的概率为 (); 甲中乙不中的概率�?( ); 甲不中乙中的概率�?().",
+                    "analysis": "记事�?$A$ 为“甲击中目标”，事件 $B$ 为“乙击中目标”，则两人都中靶可以表示�?$AB$，甲中乙不中可表示为 $A\\bar{B}$，甲不中乙中可表示为 $\\bar{A}B$，从而\n(1) $P(AB)=P(A)P(B)=0.8 \\times 0.7=0.56$；\n(2) $P(A\\bar{B})=P(A)P(\\bar{B})=0.8 \\times 0.3=0.24$；\n(3) $P(\\bar{A}B)=P(\\bar{A})P(B)=0.2 \\times 0.7=0.14$�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338523
+                    },
+                    "question_json": "mathreact/8f2f3dbd05c84afa83413e50d65da754",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83259,
+                            "question_id": 18585,
+                            "is_answer": true,
+                            "choice": "$0.56,0.24,0.14$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83260,
+                            "question_id": 18585,
+                            "is_answer": false,
+                            "choice": "$0.56,0.33,0.59$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83261,
+                            "question_id": 18585,
+                            "is_answer": false,
+                            "choice": "$0.56,0.24,0.36$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83262,
+                            "question_id": 18585,
+                            "is_answer": false,
+                            "choice": "$0.56,0.58,0.14$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.96,
+                    "difficulty_score": 0.22,
+                    "avg_time_spent": 63009,
+                    "tags": "",
+                    "ai_tags": "概率�?事件的独立�?概率计算"
+                },
+                {
+                    "id": 18586,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "7ec0cccc-0fa3-4cd0-b0ee-a7d2666d0b64",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "从一副不含大小王的扑克牌中任取一�? �?$A=\\{$ 抽到 $K\\}, B=\\{$ 抽到的牌是黑色的 $\\}$ ，下列说法正确的是（）．",
+                    "analysis": "解一 利用定义判断. 由\n$$\n\\begin{aligned}\n& P(A)=\\frac{4}{52}=\\frac{1}{13}, P(B)=\\frac{26}{52}=\\frac{1}{2}, P(A B)=\\frac{2}{52}=\\frac{1}{26}, \\\\\n\\Rightarrow & P(A B)=P(A) P(B),\n\\end{aligned}\n$$\n\n故事�?$A �?B$ 独立.\n解二 利用条件概率判断. 由\n$$\nP(A)=\\frac{1}{13}, P(A \\mid B)=\\frac{2}{26}=\\frac{1}{13} \\Rightarrow P(A)=P(A \\mid B),\n$$\n\n故事�?$A �?B$ 独立.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338524
+                    },
+                    "question_json": "mathreact/11ec4f1f9036403a8e8cb04823787b9a",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83266,
+                            "question_id": 18586,
+                            "is_answer": true,
+                            "choice": "事件 $A �?B$ 独立",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83267,
+                            "question_id": 18586,
+                            "is_answer": false,
+                            "choice": "事件 $A �?B$ 不独�?,
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83268,
+                            "question_id": 18586,
+                            "is_answer": false,
+                            "choice": "$P(A)=\\frac{5}{13}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83269,
+                            "question_id": 18586,
+                            "is_answer": false,
+                            "choice": "$P(A \\mid B)=\\frac{9}{13}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.76,
+                    "difficulty_score": 0.37,
+                    "avg_time_spent": 140889,
+                    "tags": "近期易错,近期85人做�?,
+                    "ai_tags": "事件独立�?古典概型,条件概率"
+                },
+                {
+                    "id": 18587,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "c45267cd-9e67-4828-8639-c397dd5d161e",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "独立重复地掷一枚匀质硬币三次， $A$ 表示至少有一次出现正面的事件，则 $P(A)=()$.",
+                    "analysis": "独立重复掷一枚硬币三次出现的情况共有 $2^3$ �? 一次也不出现正面的情况�?1 �? 所�?$P(\\bar{A})=\\frac{1}{8}$, 从�?$P(A)=1-P(\\bar{A})=1-\\frac{1}{8}=\\frac{7}{8}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338526
+                    },
+                    "question_json": "mathreact/34e3409262f34a949458b739954372b3",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83273,
+                            "question_id": 18587,
+                            "is_answer": true,
+                            "choice": "$\\frac{7}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83274,
+                            "question_id": 18587,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83275,
+                            "question_id": 18587,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83276,
+                            "question_id": 18587,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.97,
+                    "difficulty_score": 0.21,
+                    "avg_time_spent": 103631,
+                    "ai_tags": "概率,独立重复试验,对立事件"
+                },
+                {
+                    "id": 18588,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "19ebdf08-1c32-4c98-ae5a-8d98715c8f80",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某类灯泡使用时数�?500 小时以上的概率为 0.5 , 从中任取 3 个灯泡使�? 则在使用 500 小时之后无一损坏的概率为 (    ).",
+                    "analysis": "三个灯泡的使用时数是相互独立�? 所以在使用 500 小时之后无一损坏的概率为 $(0.5)^3=\\frac{1}{8}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338530
+                    },
+                    "question_json": "mathreact/5e03d251786146a893925341899152be",
+                    "updated_at": {
+                        "seconds": 1775673110
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83280,
+                            "question_id": 18588,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83281,
+                            "question_id": 18588,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83282,
+                            "question_id": 18588,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83283,
+                            "question_id": 18588,
+                            "is_answer": false,
+                            "choice": "$\\frac{4}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.96,
+                    "difficulty_score": 0.2,
+                    "avg_time_spent": 119849,
+                    "ai_tags": "概率�?相互独立事件"
+                },
+                {
+                    "id": 18590,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "82eaf758-9e9a-4a0d-a854-f8f8da4e7682",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某柜台有 4 个服务员，她们是否需用台秤是相互独立的，�?1 小时内每人需用台秤的概率�?$\\frac{1}{4}$，则 4 人中最�?1 人需用台秤的概率为（　）．",
+                    "analysis": "“最多一人需用台秤”就是说“正好一人需用台秤”或者“都不需要台秤”，“正好一人需用台秤”的概率�?$C_4^1 \\frac{1}{4}\\left(1-\\frac{1}{4}\\right)^3=\\frac{108}{256}$，“都不需要台秤”的概率�?$\\left(1-\\frac{1}{4}\\right)^4=\\frac{81}{256}$，所以“最多一人需用台秤”的概率�?$\\frac{108}{256}+\\frac{81}{256}=\\frac{189}{256} \\approx 0.738$�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338540
+                    },
+                    "question_json": "mathreact/c674af2ecc7842a6a200c6e2a61f7e5f",
+                    "updated_at": {
+                        "seconds": 1775673114
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83294,
+                            "question_id": 18590,
+                            "is_answer": true,
+                            "choice": "$\\frac{189}{256}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83295,
+                            "question_id": 18590,
+                            "is_answer": false,
+                            "choice": "$\\frac{81}{256}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83296,
+                            "question_id": 18590,
+                            "is_answer": false,
+                            "choice": "$\\frac{108}{256}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83297,
+                            "question_id": 18590,
+                            "is_answer": false,
+                            "choice": "$\\frac{67}{256}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.82,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 132758,
+                    "ai_tags": "二项分布,相互独立事件,概率计算"
+                },
+                {
+                    "id": 18591,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "2d02996a-49c2-42c6-8fdd-150238abcb3a",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "制造一种零件可采用两种工艺，第一种工艺有三道工序，每道工序的废品率分别为 $0.1, 0.2, 0.3$，第二种工艺有两道工序，每道工序的废品率都是 $0.3$。如果用第一种工艺，在合格零件中，一级品率为 $0.9$；而用第二种工艺，合格品中的一级品率只�?$0.8$，那么下列说法正确的�?(    )�?,
+                    "analysis": "第一种工艺的合格率为\n$$\nP\\left(A_1\\right)=(1-0.1) \\times(1-0.2) \\times(1-0.3)=0.504\n$$\n\n由第一种工艺得到的一级品率为\n$$\np_1=0.9 P\\left(A_1\\right)=0.9 \\times 0.504=0.4536 \\text {; }\n$$\n\n第二种工艺的合格品率为\n$$\nP\\left(A_2\\right)=(1-0.3) \\times(1-0.3)=0.49\n$$\n\n由第二种工艺得到的一级品率为\n$$\np_2=0.8 P\\left(A_2\\right)=0.8 \\times 0.49=0.392\n$$\n\n�?$p_1>p_2$ �? 第一种工艺能保证得到一级品的概率较�?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338542
+                    },
+                    "question_json": "mathreact/f3bc73f940114686a549d99c3b3c4fcf",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83301,
+                            "question_id": 18591,
+                            "is_answer": true,
+                            "choice": "第一种工艺能保证得到一级品的概率较�?,
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83302,
+                            "question_id": 18591,
+                            "is_answer": false,
+                            "choice": "第一种工艺的合格率为 $0.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83303,
+                            "question_id": 18591,
+                            "is_answer": false,
+                            "choice": "第二种工艺的合格率为 $0.55$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83304,
+                            "question_id": 18591,
+                            "is_answer": false,
+                            "choice": "第二种工艺能保证得到一级品的概率较�?,
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.25,
+                    "avg_time_spent": 97794,
+                    "ai_tags": "概率计算,独立事件"
+                },
+                {
+                    "id": 18592,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "87ed500d-d3ee-4b8f-b0a0-797bbb6d62f3",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "有甲、乙、丙三台机器相互独立的运�? 不发生故障的概率分别�?$0.9,0.85,0.8$, 则三台机器中至少有一台发生故障的概率�?().",
+                    "analysis": "令事�?$A_i=\\{$ �?$i$ 台机器发生故�?$\\}, i=1,2,3$, 依次对应甲、乙、丙机器, $B=\\{$ 至少有一台机器发生故�?$\\}$,\n已知 $P\\left(\\overline{A_1}\\right)=0.9, P\\left(\\overline{A_2}\\right)=0.85, P\\left(\\overline{A_3}\\right)=0.8$, 则\n$$\n\\begin{aligned}\nP(B) & =P\\left(A_1 \\cup A_2 \\cup A_3\\right)=1-P\\left(\\overline{A_1 \\cup A_2 \\cup A_3}\\right) \\\\\n& =1-P\\left(\\overline{A_1} \\cdot \\overline{A_2} \\cdot \\overline{A_3}\\right)=1-P\\left(\\overline{A_1}\\right) P\\left(\\overline{A_2}\\right) P\\left(\\overline{A_3}\\right) \\\\\n& =1-0.9 \\times 0.85 \\times 0.8=0.388 .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338546
+                    },
+                    "question_json": "mathreact/514e7abc88c0418d9546e8184d7d13b8",
+                    "updated_at": {
+                        "seconds": 1775673114
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83308,
+                            "question_id": 18592,
+                            "is_answer": true,
+                            "choice": "$0.388$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83309,
+                            "question_id": 18592,
+                            "is_answer": false,
+                            "choice": "$0.280$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83310,
+                            "question_id": 18592,
+                            "is_answer": false,
+                            "choice": "$0.235$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83311,
+                            "question_id": 18592,
+                            "is_answer": false,
+                            "choice": "$0.320$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.93,
+                    "difficulty_score": 0.23,
+                    "avg_time_spent": 64008,
+                    "ai_tags": "概率�?相互独立事件,对立事件"
+                },
+                {
+                    "id": 18593,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "eac626a7-4ab6-4204-8fe9-07293684034c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "甲再能活 20 年的概率�?0.7 , 乙再能活 20 年的概率�?0.9 . 则二人均无法再活 20 年的概率�?( ).",
+                    "analysis": "甲、乙两人是独立的，二人均无法再活 20 年的概率 $p=(1-0.7) \\times(1-0.9)=0.03$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338551
+                    },
+                    "question_json": "mathreact/839333baf8e74b119051be212078d6cc",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83315,
+                            "question_id": 18593,
+                            "is_answer": true,
+                            "choice": "$0.03$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83316,
+                            "question_id": 18593,
+                            "is_answer": false,
+                            "choice": "$0.63$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83317,
+                            "question_id": 18593,
+                            "is_answer": false,
+                            "choice": "$0.27$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83318,
+                            "question_id": 18593,
+                            "is_answer": false,
+                            "choice": "$0.07$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.23,
+                    "avg_time_spent": 24334,
+                    "tags": "",
+                    "ai_tags": "事件的独立�?概率计算"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 31,
+            "questions": [
+                {
+                    "id": 18595,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "2b414dc8-b851-44cb-93a7-6f1c0d5ad0d6",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question_image": "/XDSys/TK/GL/36/Hard/36_Hard_2b414dc8-b851-44cb-93a7-6f1c0d5ad0d6/36_Hard_2b414dc8-b851-44cb-93a7-6f1c0d5ad0d6_0.webp",
+                    "question_image_hash": "a60b1971f1e6a699",
+                    "analysis_image": "/XDSys/TK/GL/36/Hard/36_Hard_2b414dc8-b851-44cb-93a7-6f1c0d5ad0d6/36_Hard_2b414dc8-b851-44cb-93a7-6f1c0d5ad0d6_5.webp",
+                    "analysis_image_hash": "be00c87e7e998599",
+                    "question_render_type": 2,
+                    "analysis_render_type": 2,
+                    "created_at": {
+                        "seconds": 1764338553
+                    },
+                    "question_json": "mathreact/60700211149b4074be2512f2f1a31304",
+                    "updated_at": {
+                        "seconds": 1775673114
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83329,
+                            "question_id": 18595,
+                            "is_answer": true,
+                            "choice": "$p_1 p_2 p_3+p_1 p_4-p_1 p_2 p_3 p_4$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83330,
+                            "question_id": 18595,
+                            "is_answer": false,
+                            "choice": "$1-p_1 p_2 p_3 p_4$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83331,
+                            "question_id": 18595,
+                            "is_answer": false,
+                            "choice": "$p_1 p_2 p_3+p_1 p_4$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83332,
+                            "question_id": 18595,
+                            "is_answer": false,
+                            "choice": "$p_1 p_4-p_1 p_2 p_3 p_4$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.79,
+                    "difficulty_score": 0.28,
+                    "avg_time_spent": 51320,
+                    "ai_tags": "概率�?系统可靠�?事件的独立�?
+                },
+                {
+                    "id": 18596,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "4ba64628-14b6-4cda-9fb2-a18fb1305ac0",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设甲、乙二人独立地向同一目标各射�?1 �? 其命中率分别�?0.6 �?0.5 , 现两人同时射击各一�? 则目标被击中的概率是 ( ) .",
+                    "analysis": "�?$A=\\{$甲射击一次击中目�?\\}, B=\\{$乙射击一次击中目�?\\}$，则由题意可�?$A, B$ 是相互独立的，两人同时射击各一次目标被击中就是\n$$\nP(A \\cup B)=P(A)+P(B)-P(AB)=P(A)+P(B)-P(A)P(B)=0.6+0.5-0.6 \\times 0.5=0.8\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338554
+                    },
+                    "question_json": "mathreact/79badf3f66e346028c27bd36ffba10f6",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83336,
+                            "question_id": 18596,
+                            "is_answer": true,
+                            "choice": "$0.8$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83337,
+                            "question_id": 18596,
+                            "is_answer": false,
+                            "choice": "$0.1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83338,
+                            "question_id": 18596,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{11}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83339,
+                            "question_id": 18596,
+                            "is_answer": false,
+                            "choice": "$0.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.95,
+                    "difficulty_score": 0.22,
+                    "avg_time_spent": 49478,
+                    "tags": "",
+                    "ai_tags": "概率�?事件的独立�?概率加法公式"
+                },
+                {
+                    "id": 18597,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "c0990132-3bff-40e9-b3f6-32b191e80541",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "4 个人独立的猜一谜语，他们能够猜破的概率都是 $\\frac{1}{4}$ ，则此谜语被猜破的概率为（）�?,
+                    "analysis": "�?$A=\\{\\text{谜语被猜破}\\}$，其逆事�?$\\bar{A}=\\{\\text{四人都猜不破谜语}\\}$，则 $P(\\bar{A})=\\left(1-\\frac{1}{4}\\right)^4 = \\frac{81}{256}$，所�?$P(A)=1-P(\\bar{A})=1-\\frac{81}{256}=\\frac{175}{256}$�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338557
+                    },
+                    "question_json": "mathreact/dea1df1499734c1fb8d30839cea59b06",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83343,
+                            "question_id": 18597,
+                            "is_answer": true,
+                            "choice": "$\\frac{175}{256}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83344,
+                            "question_id": 18597,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{256}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83345,
+                            "question_id": 18597,
+                            "is_answer": false,
+                            "choice": "$\\frac{75}{256}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83346,
+                            "question_id": 18597,
+                            "is_answer": false,
+                            "choice": "$\\frac{81}{256}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.89,
+                    "difficulty_score": 0.24,
+                    "avg_time_spent": 29509,
+                    "ai_tags": "概率,独立事件,对立事件"
+                },
+                {
+                    "id": 18599,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "0e41abbb-dcea-4e96-984a-c018d108b236",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一猎人用猎枪向一只野兔射�? 第一枪距离野�?200 m �? 如果未击�? 他追到离野兔 150 m 远处进行第二次射�? 如果仍未击中, 他追到距离野�?100 m 处再进行第三次射�? 此时击中的概率为 $1 / 2$, 如果这个猎人射击的命中率与他离野兔的距离的平方成反比, 则猎人击中野兔的概率�?( ).",
+                    "analysis": "�?$A_i=$ “第 $i$ 次射击击中野兔�?$(i=1,2,3)$�?B=$ “猎人击中野兔”\n由于 $P\\left(A_3\\right)=\\frac{k}{100^2}=\\frac{1}{2} \\Rightarrow k=\\frac{100^2}{2}$，\n于是 $P\\left(A_1\\right)=\\frac{k}{200^2}=\\frac{1}{8}, P\\left(A_2\\right)=\\frac{k}{150^2}=\\frac{2}{9}$，\n�?$B=A_1 \\cup \\overline{A_1} A_2 \\cup \\overline{A_1} \\overline{A_2} A_3$，\n�?$A_1, \\overline{A_1} A_2, \\overline{A_1} \\overline{A_2} A_3$ 两两互不相容，且 $A_1, A_2, A_3$ 相互独立，所以\n$$\nP(B)=P\\left(A_1\\right)+P\\left(\\overline{A_1} A_2\\right)+P\\left(\\overline{A_1} \\overline{A_2} A_3\\right)=\\frac{1}{8}+\\frac{7}{8} \\times \\frac{2}{9}+\\frac{7}{8} \\times \\frac{7}{9} \\times \\frac{1}{2} \\approx 0.66 .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338562
+                    },
+                    "question_json": "mathreact/110b1d1a7a0149fc908e4bb7c441f243",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83357,
+                            "question_id": 18599,
+                            "is_answer": true,
+                            "choice": "$0.66$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83358,
+                            "question_id": 18599,
+                            "is_answer": false,
+                            "choice": "$0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83359,
+                            "question_id": 18599,
+                            "is_answer": false,
+                            "choice": "$0.88$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83360,
+                            "question_id": 18599,
+                            "is_answer": false,
+                            "choice": "$0.58$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.73,
+                    "difficulty_score": 0.33,
+                    "avg_time_spent": 325479,
+                    "tags": "近期易错,近期71人做�?,
+                    "ai_tags": "概率计算,相互独立事件"
+                },
+                {
+                    "id": 18600,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "2219f7e2-6352-42a4-92f4-46b9402b337b",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一只袋中有 4 只白�? 2 只黑�? 另一只袋中有 3 只白球和 5 只黑�? 如果从每只袋中各摸一只球, 则摸到的一只是白球，一只是黑球的事件的概率等于 ().",
+                    "analysis": "事件 $A$：“从第一个口袋中摸出白球”，事件 $B$：“从第二个口袋中摸出白球”，所以要求的事件可以表示�?$A \\bar{B}+\\bar{A} B$，又由于 $A \\bar{B}, \\bar{A} B$ 互不相容，且 $A, B$ 相互独立，所以\n$$ P(A \\bar{B}+\\bar{A} B)=P(A) P(\\bar{B})+P(\\bar{A}) P(B)=\\frac{4}{4+2} \\times \\frac{5}{3+5}+\\frac{2}{4+2} \\times \\frac{3}{3+5}=\\frac{13}{24}. $$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338564
+                    },
+                    "question_json": "mathreact/721f8e890fbf4a3c8329e51240028446",
+                    "updated_at": {
+                        "seconds": 1775673111
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83364,
+                            "question_id": 18600,
+                            "is_answer": true,
+                            "choice": "$\\frac{13}{24}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83365,
+                            "question_id": 18600,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{12}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83366,
+                            "question_id": 18600,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{24}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83367,
+                            "question_id": 18600,
+                            "is_answer": false,
+                            "choice": "$\\frac{7}{24}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.97,
+                    "difficulty_score": 0.24,
+                    "avg_time_spent": 77848,
+                    "tags": "",
+                    "ai_tags": "概率计算,独立事件"
+                },
+                {
+                    "id": 18602,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "ea7fccfb-8b47-494e-a860-44b45d475d75",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "有甲、乙2批种子，发芽率分别为 $0.8$ �?$0.7$，在2批中随机地各取一粒，�?(1) 2粒种子都发芽的概率是 ( )�?2) 至少有一粒能发芽的概率是 ( )�?3) 至多�?粒种子能发芽的概率是 ( )�?,
+                    "analysis": "�?$A=\\{$甲批种子能发�?\\}$�?B=\\{$乙批种子能发�?\\}$，则 $P(A)=0.8$�?P(B)=0.7$。\n(1) $p_1=P(AB)=P(A)P(B)=0.8 \\times 0.7=0.56$；\n(2) $p_2=P(A \\cup B)=P(A)+P(B)-P(AB)=0.8+0.7-0.56=0.94$。\n另解�?p_2=1-P(\\bar{A}\\bar{B})=1-P(\\bar{A})P(\\bar{B})=1-0.2 \\times 0.3=0.94$。\n(3) \n$$\n\\begin{aligned}\np_3 &= P(\\bar{A}\\bar{B} \\cup A \\bar{B} \\cup \\bar{A} B)=P(\\bar{A}\\bar{B})+P(A \\bar{B})+P(\\bar{A} B) \\\\\n&= P(\\bar{A}) P(\\bar{B})+P(A) P(\\bar{B})+P(\\bar{A}) P(B) \\\\\n&= 0.2 \\times 0.3+0.8 \\times 0.3+0.2 \\times 0.7=0.44.\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338566
+                    },
+                    "question_json": "mathreact/92dc40e51a2c43a4810816b360648a04",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83378,
+                            "question_id": 18602,
+                            "is_answer": true,
+                            "choice": "$0.56,0.94,0.44$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83379,
+                            "question_id": 18602,
+                            "is_answer": false,
+                            "choice": "$0.56,0.80,0.38$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83380,
+                            "question_id": 18602,
+                            "is_answer": false,
+                            "choice": "$0.56,0.38,0.44$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83381,
+                            "question_id": 18602,
+                            "is_answer": false,
+                            "choice": "$0.56,0.94,0.38$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.91,
+                    "difficulty_score": 0.29,
+                    "avg_time_spent": 212637,
+                    "ai_tags": "概率�?相互独立事件,概率计算"
+                },
+                {
+                    "id": 18606,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "c25b41f9-c8e5-4ac8-b2b5-44b3428db6c0",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "制造一种零件可采用两种工艺, 第一种工艺有三道工序, 每道工序的废品率分别�?$0.1, 0.2, 0.3$, 第二种工艺有两道工序, 每道工序的废品率都是 $0.3$. 如果用第一种工�? 在合格零件中, 一级品率为 $0.9$; 而用第二种工�? 合格品中的一级品率只�?$0.8$, 那么下列说法正确的是 ( ).",
+                    "analysis": "第一种工艺的合格率为\n$$\nP\\left(A_1\\right)=(1-0.1) \\times(1-0.2) \\times(1-0.3)=0.504,\n$$\n\n由第一种工艺得到的一级品率为\n$$\np_1=0.9 P\\left(A_1\\right)=0.9 \\times 0.504=0.4536 \\text {; }\n$$\n\n第二种工艺的合格品率为\n$$\nP\\left(A_2\\right)=(1-0.3) \\times(1-0.3)=0.49,\n$$\n\n由第二种工艺得到的一级品率为\n$$\np_2=0.8 P\\left(A_2\\right)=0.8 \\times 0.49=0.392 \\text {. }\n$$\n\n�?$p_1>p_2$ �? 第一种工艺能保证得到一级品的概率较�?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338577
+                    },
+                    "question_json": "mathreact/7105cbc768454d70b0785656415a643f",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83406,
+                            "question_id": 18606,
+                            "is_answer": true,
+                            "choice": "第一种工艺能保证得到一级品的概率较�?,
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83407,
+                            "question_id": 18606,
+                            "is_answer": false,
+                            "choice": "第一种工艺的合格率为 $0.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83408,
+                            "question_id": 18606,
+                            "is_answer": false,
+                            "choice": "第二种工艺的合格率为 $0.55$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83409,
+                            "question_id": 18606,
+                            "is_answer": false,
+                            "choice": "第二种工艺能保证得到一级品的概率较�?,
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.92,
+                    "difficulty_score": 0.25,
+                    "avg_time_spent": 47825,
+                    "tags": "",
+                    "ai_tags": "概率计算,独立�?
+                },
+                {
+                    "id": 18607,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "44327ec9-e4e9-4db6-ad0d-d5688c7f83b5",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "如果一危险情况 $C$ 发生�? 一电路闭合并发出警�? 我们可以借用两个或多个开关并联以改善可靠�? �?$C$ 发生时这些开关每一个都应闭合，且若至少一个开关闭合了，警报就发出，如果两个这样的开关并联连接，它们每个具有 0.96 的可靠�?(即在情况 $C$ 发生时闭合的概率), 设各开关闭合与否是相互独立�? 则下列说法不正确的是 ( ).",
+                    "analysis": "依题�? 当情�?$C$ 发生�? 一并联开关系统要形成通路就可发出警报. 现有两个并联开�? 设闭合时�?$A, B$ 发生.\n(1)\n$$\n\\begin{aligned}\nP(A \\cup B) & =P(A)+P(B)-P(A B) \\text { (开关间独立) } \\\\\n& =P(A)+P(B)-P(A) P(B) \\\\\n& =0.96+0.96-0.96 \\times 0.96=0.9984\n\\end{aligned}\n$$\n此即系统的可靠�?\n(2) 设需�?$n$ 只并联开�? 每只开关的可靠性为 0.96 , 设开关依次编号为 $1,2, \\cdots, n$, 开关闭合为 $A_i(i=1,2, \\cdots, n)$ 事件发生, �?$P\\left(A_i\\right)=0.96$, 要\n$$\nP\\left(A_1 \\cup A_2 \\cup \\cdots \\cup A_n\\right) \\geq 0.9999,\n$$\n即\n$$\n\\begin{gathered}\nP\\left(A_1 \\cup A_2 \\cup \\cdots \\cup A_n\\right)=1-P\\left(\\overline{A_1} \\cdots \\overline{A_n}\\right)=1-\\prod_{i=1}^n P\\left(\\overline{A_i}\\right) \\\\\n=1-(0.04)^n \\geq 0.9999\n\\end{gathered}\n$$\n亦即 $(0.04)^n \\leq 0.0001$, 解得\n$$\nn \\geq \\frac{-4}{\\lg 0.04} \\approx 2.86\n$$\n�?$n \\geq 3$, 即至�?3 个开关并联才能保证一个可靠性至少为 0.9999 的系�?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338580
+                    },
+                    "question_json": "mathreact/ef6319775b244226862ac6e397986ceb",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83413,
+                            "question_id": 18607,
+                            "is_answer": true,
+                            "choice": "系统的可靠性为 0.96",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83414,
+                            "question_id": 18607,
+                            "is_answer": false,
+                            "choice": "系统的可靠性为 0.9984",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83415,
+                            "question_id": 18607,
+                            "is_answer": false,
+                            "choice": "若需要有一个可靠性至少为 0.9999 的系�? 则至少需要用 3 只开关并�?,
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83416,
+                            "question_id": 18607,
+                            "is_answer": false,
+                            "choice": "若需要有一个可靠性至少为 0.9999 的系�? 则至少需要并联的开关数 $n \\geq \\frac{-4}{\\lg 0.04}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.71,
+                    "difficulty_score": 0.26,
+                    "avg_time_spent": 81395,
+                    "ai_tags": "概率�?事件的独立�?系统可靠�?
+                },
+                {
+                    "id": 18609,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "cded231e-b592-4a90-af61-24bcd0841cb5",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某电路由元件 $A, B, C$ 串联而成, �?$A, B, C$ 相互独立, 已知各元件不正常的概率分别为 $P(A)=0.3, P(B)=0.4$, $P(C)=0.6$. 求电路不正常概率 $p=()$.",
+                    "analysis": "由于元件 $A, B, C$ 串联而成，所以只要有一个元件不能工作就全部不能正常工作。考虑对立事件“电路正常”，即元�?$A, B, C$ 均正常工作。由�?$A, B, C$ 相互独立，所以\n$$\n\\begin{aligned}\np &= 1 - [1-P(A)][1-P(B)][1-P(C)] \\\\\n&= 1-(1-0.3) \\times(1-0.4) \\times(1-0.6) \\\\\n&= 0.832\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338582
+                    },
+                    "question_json": "mathreact/f868d9d688e94ef2bb0f848ba645b9d1",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83427,
+                            "question_id": 18609,
+                            "is_answer": true,
+                            "choice": "$0.832$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83428,
+                            "question_id": 18609,
+                            "is_answer": false,
+                            "choice": "$0.42$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83429,
+                            "question_id": 18609,
+                            "is_answer": false,
+                            "choice": "$0.24$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83430,
+                            "question_id": 18609,
+                            "is_answer": false,
+                            "choice": "$0.168$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.87,
+                    "difficulty_score": 0.26,
+                    "avg_time_spent": 57681,
+                    "ai_tags": "概率�?相互独立事件,对立事件"
+                },
+                {
+                    "id": 18610,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "ce95518c-d36f-490d-93c6-3876013a6680",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question_image": "/XDSys/TK/GL/36/Hard/36_Hard_ce95518c-d36f-490d-93c6-3876013a6680/36_Hard_ce95518c-d36f-490d-93c6-3876013a6680_0.webp",
+                    "question_image_hash": "a78f091f897ca178",
+                    "analysis": "�?$A$ 表示开�?$a$ 关闭�?B$ 表示开�?$b$ 关闭�?C$ 表示开�?$c$ 关闭�?D$ 表示开�?$d$ 关闭�?A, B, C, D$ 相互独立�?E$ 表示灯亮，则\n$$\n\\begin{aligned}\nP(E) &= P(AB \\cup C \\cup D) \\\\\n&= P(AB)+P(C)+P(D)-P(ABC)-P(ABD)-P(CD)+P(ABCD) \\\\\n&= P(A)P(B)+P(C)+P(D)-P(A)P(B)P(C)-P(A)P(B)P(D)-P(C)P(D)+P(A)P(B)P(C)P(D) \\\\\n&= 0.8125\n\\end{aligned}\n$$\n$$\nP(AB \\mid E)=\\frac{P(AB)}{P(E)}=\\frac{0.25}{0.8125} \\approx 0.31\n$$",
+                    "question_render_type": 2,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338585
+                    },
+                    "question_json": "mathreact/3176ab948b5b4eaf9451f0a6eee5326d",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83434,
+                            "question_id": 18610,
+                            "is_answer": true,
+                            "choice": "$0.31$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83435,
+                            "question_id": 18610,
+                            "is_answer": false,
+                            "choice": "$0.74$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83436,
+                            "question_id": 18610,
+                            "is_answer": false,
+                            "choice": "$0.55$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83437,
+                            "question_id": 18610,
+                            "is_answer": false,
+                            "choice": "$0.28$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.7,
+                    "difficulty_score": 0.34,
+                    "avg_time_spent": 129568,
+                    "ai_tags": "条件概率,相互独立事件"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 31,
+            "questions": [
+                {
+                    "id": 20559,
+                    "subject_id": 3,
+                    "chapter_id": 284,
+                    "question_id": "0f44bc86-8369-49a6-89a4-7c6595845105",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question_image": "/XDSys/TK/GL/36/Hard/36_Hard_0f44bc86-8369-49a6-89a4-7c6595845105/36_Hard_0f44bc86-8369-49a6-89a4-7c6595845105_0.webp",
+                    "question_image_hash": "e4c996c939c8cdb4",
+                    "analysis": "�?$W$ 表示电路系统正常工作, 因各元件独立工作, 故有\n$$\nP(W)=P(A) P(B) P(C \\cup D \\cup E) P(F \\cup G) P(H),\n$$\n\n其中\n$$\n\\begin{aligned}\n& P(C \\cup D \\cup E)=1-P(\\bar{C}) P(\\bar{D}) P(\\bar{E})=0.973, \\\\\n& P(F \\cup G)=1-P(\\bar{F}) P(\\bar{G})=0.9375 .\n\\end{aligned}\n$$\n\n代入得\n$$\nP(W) \\approx 0.782 .\n$$",
+                    "question_render_type": 2,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1773213259
+                    },
+                    "question_json": "https://cdn.mathreact.cn/questions/0f44bc86-8369-49a6-89a4-7c6595845105/v4_1773213258.json",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 4,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 96945,
+                            "question_id": 20559,
+                            "is_answer": true,
+                            "choice": "$0.782$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1773213259
+                            },
+                            "updated_at": {
+                                "seconds": 1773213259
+                            }
+                        },
+                        {
+                            "id": 96946,
+                            "question_id": 20559,
+                            "is_answer": false,
+                            "choice": "$0.525$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1773213259
+                            },
+                            "updated_at": {
+                                "seconds": 1773213259
+                            }
+                        },
+                        {
+                            "id": 96947,
+                            "question_id": 20559,
+                            "is_answer": false,
+                            "choice": "$0.837$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1773213259
+                            },
+                            "updated_at": {
+                                "seconds": 1773213259
+                            }
+                        },
+                        {
+                            "id": 96948,
+                            "question_id": 20559,
+                            "is_answer": false,
+                            "choice": "$0.665$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1773213259
+                            },
+                            "updated_at": {
+                                "seconds": 1773213259
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.73,
+                    "difficulty_score": 0.45,
+                    "avg_time_spent": 80870,
+                    "tags": "近期易错,近期83人做�?
+                }
+            ]
+        }
+    }
+]

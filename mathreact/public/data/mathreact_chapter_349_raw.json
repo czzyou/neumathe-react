@@ -1,0 +1,2297 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 27,
+            "questions": [
+                {
+                    "id": 13267,
+                    "subject_id": 3,
+                    "chapter_id": 349,
+                    "question_id": "71382786-78d2-4753-91a9-e517f874560c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$\\xi \\sim B(n, p)$, �?$D(\\xi+2)=()$.",
+                    "analysis": "由于 $\\xi \\sim B(n, p)$, �?$E(\\xi)=n p, D(\\xi)=n p(1-p)$.�?$D(\\xi+2)=D(\\xi)=n p(1-p)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/063ad2721310400ba0e4f81d3ab87927",
+                    "updated_at": {
+                        "seconds": 1774895446
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53067,
+                            "question_id": 13267,
+                            "is_answer": true,
+                            "choice": "$n p(1-p)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53066,
+                            "question_id": 13267,
+                            "is_answer": false,
+                            "choice": "$n p(1-p)+2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53068,
+                            "question_id": 13267,
+                            "is_answer": false,
+                            "choice": "$n p(1-p)+4$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53065,
+                            "question_id": 13267,
+                            "is_answer": false,
+                            "choice": "$n p(1-p)+2 n p$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.73,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 22532,
+                    "ai_tags": "二项分布,方差性质"
+                },
+                {
+                    "id": 13268,
+                    "subject_id": 3,
+                    "chapter_id": 349,
+                    "question_id": "c195a355-c4bd-498b-84f3-1902a997e14d",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$\\xi$ 的期�?$E(\\xi)$ 为一非负�? �?$E\\left(\\frac{\\xi^2}{2}-1\\right)=2, D\\left(\\frac{\\xi}{2}-1\\right)=\\frac{1}{2}$, �?$E(\\xi)=()$.",
+                    "analysis": "�?$E\\left(\\frac{\\xi^2}{2}-1\\right)=2, D\\left(\\frac{\\xi}{2}-1\\right)=\\frac{1}{2}$, 有\n$$\nE\\left(\\frac{\\xi^2}{2}-1\\right)=\\frac{1}{2} E\\left(\\xi^2\\right)-1=2, D\\left(\\frac{\\xi}{2}-1\\right)=\\frac{1}{4} D(\\xi)=\\frac{1}{2},\n$$\n\n从�?$E\\left(\\xi^2\\right)=6, D(\\xi)=2$.\n另由 $E\\left(\\xi^2\\right)=D(\\xi)+[E(\\xi)]^2, E(\\xi)>0$, �?$E(\\xi)=\\sqrt{E\\left(\\xi^2\\right)-D(\\xi)}=\\sqrt{6-2}=2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/6f177536a7e0481482fadcd78c4ac66d",
+                    "updated_at": {
+                        "seconds": 1774895445
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53072,
+                            "question_id": 13268,
+                            "is_answer": true,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53071,
+                            "question_id": 13268,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53069,
+                            "question_id": 13268,
+                            "is_answer": false,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53070,
+                            "question_id": 13268,
+                            "is_answer": false,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.67,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 55263,
+                    "ai_tags": "随机变量,数学期望,方差"
+                },
+                {
+                    "id": 13269,
+                    "subject_id": 3,
+                    "chapter_id": 349,
+                    "question_id": "e4ecbe0e-a363-4b2a-a15f-d9f775847687",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "现有 5 个灯泡的寿命 $\\xi_i, i=1,2,3,4,5$ 独立同分�? �?$E\\left(\\xi_i\\right)=a, D\\left(\\xi_i\\right)=b, i=1,2,3,4,5$, �?5 个灯泡的平均寿命 $\\eta$的方�?$D(\\eta)=()$.",
+                    "analysis": "由题意知, $\\eta=\\frac{1}{5} \\sum_{i=1}^5 \\xi_i$, �?$\\xi_i, i=1,2,3,4,5$ 独立同分�? �?$D(\\eta)=\\frac{1}{25} \\sum_{i=1}^5 D\\left(\\xi_i\\right)=\\frac{1}{5} b=0.2 b$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/52b35a2849ee4cc3925fd0c6c9fdcb03",
+                    "updated_at": {
+                        "seconds": 1774895444
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53073,
+                            "question_id": 13269,
+                            "is_answer": true,
+                            "choice": "$0.2 b$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53074,
+                            "question_id": 13269,
+                            "is_answer": false,
+                            "choice": "$5 b$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53076,
+                            "question_id": 13269,
+                            "is_answer": false,
+                            "choice": "$b$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53075,
+                            "question_id": 13269,
+                            "is_answer": false,
+                            "choice": "$0.04 b$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.67,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 33813,
+                    "ai_tags": "方差,独立同分�?样本均�?
+                },
+                {
+                    "id": 13271,
+                    "subject_id": 3,
+                    "chapter_id": 349,
+                    "question_id": "f02f9c53-b759-440a-94b5-c23b1fcaa5ca",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$X_1, X_2, X_3, X_4$ 相互独立, 且有 $E\\left(X_i\\right)=i, D\\left(X_i\\right)=5-i, i=1,2,3,4$, 又设 $Y=2 X_1-X_2+3 X_3-\\frac{1}{2} X_4$,�?$E(Y), D(Y)$ 分别�?( ).",
+                    "analysis": "$\\begin{aligned} E(Y) & =E\\left(2 X_1-X_2+3 X_3-\\frac{1}{2} X_4\\right)=2 E\\left(X_1\\right)-E\\left(X_2\\right)+3 E\\left(X_3\\right)-\\frac{1}{2} E\\left(X_4\\right) \\\\ & =2 \\times 1-2+3 \\times 3-\\frac{1}{2} \\times 4=7, \\\\ D(Y) & =4 D\\left(X_1\\right)+D\\left(X_2\\right)+9 D\\left(X_3\\right)+\\frac{1}{4} D\\left(X_4\\right)=4 \\times 4+3+9 \\times 2+\\frac{1}{4} \\times 1=37.25 .\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/5c78e00211314763be45948d3726c267",
+                    "updated_at": {
+                        "seconds": 1774895441
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53082,
+                            "question_id": 13271,
+                            "is_answer": true,
+                            "choice": "$7,37.25$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53081,
+                            "question_id": 13271,
+                            "is_answer": false,
+                            "choice": "$10,37.25$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53084,
+                            "question_id": 13271,
+                            "is_answer": false,
+                            "choice": "$7,36.25$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53083,
+                            "question_id": 13271,
+                            "is_answer": false,
+                            "choice": "$10,36.25$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.7,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 68285,
+                    "ai_tags": "数学期望,方差,随机变量的独立�?
+                },
+                {
+                    "id": 13272,
+                    "subject_id": 3,
+                    "chapter_id": 349,
+                    "question_id": "446c6267-c431-41a4-9fe7-30f009238d4f",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$X_1, X_2, \\cdots, X_n$ 相互独立, 并且服从同一分布; 数学期望�?$a$, 方差�?$\\sigma^2$, �?$\\overline{X_n}=\\frac{1}{n} \\sum_{i=1}^n X_i$, �?$D\\left(\\bar{X}_n\\right)=$ ().",
+                    "analysis": "$D\\left(\\overline{X_n}\\right)=D\\left(\\frac{1}{n} \\sum_{i=1}^n X_i\\right)=\\frac{1}{n^2} D\\left(\\sum_{i=1}^n X_i\\right)=\\frac{1}{n^2} \\sum_{i=1}^n D\\left(X_i\\right)=\\frac{1}{n^2} n \\sigma^2=\\frac{\\sigma^2}{n}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/55ca3c2b3d6c445599e34db9b4473d9e",
+                    "updated_at": {
+                        "seconds": 1767810653
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53085,
+                            "question_id": 13272,
+                            "is_answer": true,
+                            "choice": "$\\frac{\\sigma^2}{n}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53088,
+                            "question_id": 13272,
+                            "is_answer": false,
+                            "choice": "$a$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53087,
+                            "question_id": 13272,
+                            "is_answer": false,
+                            "choice": "$n a$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53086,
+                            "question_id": 13272,
+                            "is_answer": false,
+                            "choice": "$\\sigma^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.92,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 53006,
+                    "ai_tags": "方差,独立同分�?样本均�?
+                },
+                {
+                    "id": 13273,
+                    "subject_id": 3,
+                    "chapter_id": 349,
+                    "question_id": "bdfa09a4-49c7-47c9-ae2b-6ba8f11d9e62",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\xi \\sim N(3,4), \\eta$ 服从参数 $\\lambda=0.2$ 的指数分�? 则错误的�?( ).",
+                    "analysis": "�?$\\xi \\sim N(3,4)$, �?$E(\\xi)=3, D(\\xi)=4$, 从�?$E\\left(\\xi^2\\right)=D(\\xi)+[E(\\xi)]^2=13$.\n�?$\\eta$ 服从参数 $\\lambda=0.2$ 的指数分�? �?$E(\\eta)=\\frac{1}{0.2}=5, D(\\eta)=\\frac{1}{(0.2)^2}=25$,\n从�?$E\\left(\\eta^2\\right)=D(\\eta)+[E(\\eta)]^2=50$,\n�?$E(\\xi+\\eta)=8, E\\left(\\xi^2+\\eta^2\\right)=63, E\\left(\\frac{\\xi}{2}+\\frac{\\eta}{5}-\\frac{5}{2}\\right)=0$.\n但由�?$\\xi$ �?$\\eta$ 的协方差不知, �?$D(\\xi+\\eta)$ 的结果不能求�?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/c601b70129c9480e85a9dae7099847ff",
+                    "updated_at": {
+                        "seconds": 1774895440
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53089,
+                            "question_id": 13273,
+                            "is_answer": true,
+                            "choice": "$D(\\xi+\\eta)=29$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53091,
+                            "question_id": 13273,
+                            "is_answer": false,
+                            "choice": "$E(\\xi+\\eta)=8$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53090,
+                            "question_id": 13273,
+                            "is_answer": false,
+                            "choice": "$E\\left(\\xi^2+\\eta^2\\right)=63$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53092,
+                            "question_id": 13273,
+                            "is_answer": false,
+                            "choice": "$E\\left(\\frac{\\xi}{2}+\\frac{\\eta}{5}-\\frac{5}{2}\\right)=0$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.5,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 81086,
+                    "ai_tags": "正态分�?指数分布,随机变量的数字特�?
+                },
+                {
+                    "id": 13274,
+                    "subject_id": 3,
+                    "chapter_id": 349,
+                    "question_id": "7148073c-be5a-4c2e-933a-f9c80950e13e",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "下面的数学期望与方差都存�? 当随机变�?$\\xi, \\eta$ 相互独立�? 下列关系式中错误的是 ( ).",
+                    "analysis": "由相关系数的性质�? 若随机变�?$\\xi, \\eta$ 相互独立, 则必定有 $\\rho(\\xi, \\eta)=0$,从�?$\\operatorname{cov}(\\xi, \\eta)=0$, �?$E(\\xi \\eta)-E(\\xi) E(\\eta)=0$, �?$D(\\xi \\pm \\eta)=D(\\xi)+D(\\eta)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/6e06d817a7b44300b676195720a999ec",
+                    "updated_at": {
+                        "seconds": 1774895443
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53095,
+                            "question_id": 13274,
+                            "is_answer": true,
+                            "choice": "$D(\\xi \\eta)=D(\\xi) D(\\eta)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53094,
+                            "question_id": 13274,
+                            "is_answer": false,
+                            "choice": "$E(\\xi \\eta)=E(\\xi) E(\\eta)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53093,
+                            "question_id": 13274,
+                            "is_answer": false,
+                            "choice": "$D(\\xi \\pm \\eta)=D(\\xi)+D(\\eta)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53096,
+                            "question_id": 13274,
+                            "is_answer": false,
+                            "choice": "$\\operatorname{cov}(\\xi, \\eta)=0$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 57621,
+                    "ai_tags": "概率�?随机变量独立�?方差"
+                },
+                {
+                    "id": 13276,
+                    "subject_id": 3,
+                    "chapter_id": 349,
+                    "question_id": "f19c83f2-62c0-4a88-9d4f-a9a69ddd2f68",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "若随机变�?$\\xi$ �?$\\eta$ 相互独立, 且方�?$D(\\xi)=0.5, D(\\eta)=1$, �?$D(2 \\xi-3 \\eta)=()$.",
+                    "analysis": "由题意知,\n$$\nD(2 \\xi-3 \\eta)=4 D(\\xi)+9 D(\\eta)=11 .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/454f2f21351f40f69b9607610d350c00",
+                    "updated_at": {
+                        "seconds": 1767810656
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53104,
+                            "question_id": 13276,
+                            "is_answer": true,
+                            "choice": "$11$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53101,
+                            "question_id": 13276,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53102,
+                            "question_id": 13276,
+                            "is_answer": false,
+                            "choice": "$10$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53103,
+                            "question_id": 13276,
+                            "is_answer": false,
+                            "choice": "$9$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 10441,
+                    "ai_tags": "方差,随机变量,独立�?
+                },
+                {
+                    "id": 13277,
+                    "subject_id": 3,
+                    "chapter_id": 349,
+                    "question_id": "b50ec76a-31d2-4a31-8748-c9f894445212",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "若随机变�?$\\xi$ 的方�?$D(\\xi)=3$, �?$D(2 \\xi-5)$ 等于 ( ).",
+                    "analysis": "由方差的性质知， $D(2 \\xi-5)=4 D(\\xi)=12$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/14c16ba12d084ce7938f2ec2546b2227",
+                    "updated_at": {
+                        "seconds": 1767810656
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53105,
+                            "question_id": 13277,
+                            "is_answer": true,
+                            "choice": "$12$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53107,
+                            "question_id": 13277,
+                            "is_answer": false,
+                            "choice": "$6$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53106,
+                            "question_id": 13277,
+                            "is_answer": false,
+                            "choice": "$7$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53108,
+                            "question_id": 13277,
+                            "is_answer": false,
+                            "choice": "$17$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 2400,
+                    "ai_tags": "方差,随机变量的数字特�?
+                },
+                {
+                    "id": 13278,
+                    "subject_id": 3,
+                    "chapter_id": 349,
+                    "question_id": "3ea3f441-4e4f-4a2f-84ac-2be8b843c7a3",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\xi, \\eta$ 相互独立, $\\xi$ 服从 $0-1$ 分布 $(p=0.6), \\eta$ 服从泊松分布�?$E(\\eta)=0.6$, �?$D(\\xi+\\eta)=()$.",
+                    "analysis": "由于 $\\xi$ 服从 $0-1$ 分布 $(p=0.6)$, �?$E(\\xi)=0.6, D(\\xi)=0.24 ; \\eta \\sim P(\\lambda)$, �?$E(\\eta)=0.6=\\lambda$, �?$D(\\eta)=0.6$. 从�?$D(\\xi+\\eta)=D(\\xi)+D(\\eta)=0.24+0.6=0.84$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/ffa3b993dff4427da282db44e90d7ffb",
+                    "updated_at": {
+                        "seconds": 1767810656
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53110,
+                            "question_id": 13278,
+                            "is_answer": true,
+                            "choice": "$0.84$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53109,
+                            "question_id": 13278,
+                            "is_answer": false,
+                            "choice": "$0.24$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53111,
+                            "question_id": 13278,
+                            "is_answer": false,
+                            "choice": "$0.48$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53112,
+                            "question_id": 13278,
+                            "is_answer": false,
+                            "choice": "$0.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 65110,
+                    "ai_tags": "方差,0-1分布,泊松分布"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 27,
+            "questions": [
+                {
+                    "id": 13279,
+                    "subject_id": 3,
+                    "chapter_id": 349,
+                    "question_id": "6c0872c3-28ee-45b1-b5d1-efcff7806131",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\xi �?\\eta$ 相互独立, 且都服从 $N(0,1)$, �?$D(\\xi-\\eta)=()$.",
+                    "analysis": "由题意知, $D(\\xi-\\eta)=D(\\xi)+D(\\eta)=2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/5f5260c9650742a996da7f72b73035c1",
+                    "updated_at": {
+                        "seconds": 1767551648
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53114,
+                            "question_id": 13279,
+                            "is_answer": true,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53115,
+                            "question_id": 13279,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53113,
+                            "question_id": 13279,
+                            "is_answer": false,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53116,
+                            "question_id": 13279,
+                            "is_answer": false,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 13651,
+                    "ai_tags": "方差,正态分�?独立�?
+                },
+                {
+                    "id": 13281,
+                    "subject_id": 3,
+                    "chapter_id": 349,
+                    "question_id": "b7476a11-3dc5-4941-94f9-cc7086af261c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "如果 $\\xi, \\eta$ 独立, $D(\\xi), D(\\eta)$ 存在, 则正确的�?( ).",
+                    "analysis": "�?$\\xi, \\eta$ 独立, �?$D(a \\xi \\pm b \\eta)=a^2 D(\\xi)+b^2 D(\\eta)$, 故\n$$\nD(2 \\xi+\\eta)=4 D(\\xi)+D(\\eta), \\quad D(3 \\xi+2 \\eta)=9 D(\\xi)+4 D(\\eta), \\quad D(\\xi-\\eta)=D(\\xi)+D(\\eta)\n$$\n\n但不能保�?$D(\\xi \\eta)=D(\\xi) D(\\eta)$ 一定成�?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/4357e074e5424b65a75b64fbab98aa42",
+                    "updated_at": {
+                        "seconds": 1774895445
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53123,
+                            "question_id": 13281,
+                            "is_answer": true,
+                            "choice": "$D(3 \\xi+2 \\eta)=9 D(\\xi)+4 D(\\eta)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53121,
+                            "question_id": 13281,
+                            "is_answer": false,
+                            "choice": "$D(\\xi \\eta)=D(\\xi) D(\\eta)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53122,
+                            "question_id": 13281,
+                            "is_answer": false,
+                            "choice": "$D(2 \\xi+\\eta)=2 D(\\xi)+D(\\eta)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53124,
+                            "question_id": 13281,
+                            "is_answer": false,
+                            "choice": "$D(\\xi-\\eta)=D(\\xi)-D(\\eta)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 7877,
+                    "ai_tags": "方差,随机变量独立�?
+                },
+                {
+                    "id": 13283,
+                    "subject_id": 3,
+                    "chapter_id": 349,
+                    "question_id": "52cef5cf-09b6-404f-93cc-cbad1af37d32",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知 $P\\{\\xi=k\\}=\\frac{1}{k!e}(k=0,1,2, \\cdots), \\eta=4 \\xi-1$, �?$D(\\eta)=()$.",
+                    "analysis": "由题意知，\n$$\nE(\\xi)=\\sum_{k=1}^{+\\infty} k \\cdot \\frac{1}{k!e}=\\frac{e}{e}=1, \\quad E\\left(\\xi^2\\right)=\\sum_{k=1}^{+\\infty} k^2 \\cdot \\frac{1}{k!e}=\\frac{2 e}{e}=2\n$$\n\n�?$D(\\xi)=E\\left(\\xi^2\\right)-[E(\\xi)]^2=1$.\n从�?$D(\\eta)=16 D(\\xi)=16$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/fd593ef15f4d41c5aab2e430643bbb35",
+                    "updated_at": {
+                        "seconds": 1766860311
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53131,
+                            "question_id": 13283,
+                            "is_answer": true,
+                            "choice": "$16$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53132,
+                            "question_id": 13283,
+                            "is_answer": false,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53130,
+                            "question_id": 13283,
+                            "is_answer": false,
+                            "choice": "$9$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53129,
+                            "question_id": 13283,
+                            "is_answer": false,
+                            "choice": "$28$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 11283,
+                    "ai_tags": "泊松分布,随机变量,方差"
+                },
+                {
+                    "id": 13284,
+                    "subject_id": 3,
+                    "chapter_id": 349,
+                    "question_id": "35bae1b6-04e9-45f9-8f2b-0b93c43db97c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$X \\sim P(9), Y \\sim b(16,0.5), X$ �?$Y$ 独立, �?$D(X-2 Y+1)=()$.",
+                    "analysis": "�?$X \\sim P(9)$ (泊松分布), �?$E(X)=D(X)=9$,�?$Y \\sim b(16,0.5)$ (二项分布), �?$E(Y)=n p=8, D(Y)=n p(1-p)=4$.�?$X$ �?$Y$ 独立, �?$D(X-2 Y+1)=D(X)+4 D(Y)=25$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/e8a9dad3a84240519a7ea6c8bfeba0bd",
+                    "updated_at": {
+                        "seconds": 1766860319
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53133,
+                            "question_id": 13284,
+                            "is_answer": true,
+                            "choice": "$25$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53136,
+                            "question_id": 13284,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53135,
+                            "question_id": 13284,
+                            "is_answer": false,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53134,
+                            "question_id": 13284,
+                            "is_answer": false,
+                            "choice": "$26$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 44775,
+                    "ai_tags": "方差,泊松分布,二项分布"
+                },
+                {
+                    "id": 13285,
+                    "subject_id": 3,
+                    "chapter_id": 349,
+                    "question_id": "58f6a8f9-bdfb-4d3d-b4ef-765a91c496ce",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "随机变量 $X, Y$ 满足 $D(X) \\neq 0, D(Y) \\neq 0$, �?$D(X+Y)=D(X)+D(Y)$ �?$X$ �?$Y()$.",
+                    "analysis": "�?$D(X) \\neq 0, D(Y) \\neq 0$ �? �?$D(X+Y)=D(X)+D(Y)+2 \\operatorname{cov}(X, Y), \\rho(X, Y)=\\frac{\\operatorname{cov}(X, Y)}{\\sqrt{D(X) D(Y)}}=0$ 知\n$$\nD(X+Y)=D(X)+D(Y) \\Leftrightarrow \\rho(X, Y)=\\frac{\\operatorname{cov}(X, Y)}{\\sqrt{D(X) D(Y)}}=0\n$$\n$D(X+Y)=D(X)+D(Y)$ �?$X$ �?$Y$ 不相关的充分必要条件. �?$X$ �?$Y$ 不相关不说明 $X$ �?$Y$ 独立.\n反之, �?$X$ �?$Y$ 相互独立, �?$\\rho(X, Y)=0$, 从�?$\\operatorname{cov}(X, Y)=0$, 即有 $D(X+Y)=D(X)+D(Y)$. �?$D(X+Y)=D(X)+D(Y)$ �?$X$ �?$Y$ 独立的必要条�? 但不是充分条�?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/53bab46858b942039b8b6e425f4c9fa7",
+                    "updated_at": {
+                        "seconds": 1767551647
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53138,
+                            "question_id": 13285,
+                            "is_answer": true,
+                            "choice": "独立的必要条�? 但不是充分条�?,
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53137,
+                            "question_id": 13285,
+                            "is_answer": false,
+                            "choice": "不相关的充分条件, 但不是必要条�?,
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53139,
+                            "question_id": 13285,
+                            "is_answer": false,
+                            "choice": "不相关的必要条件, 但不是充分条�?,
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53140,
+                            "question_id": 13285,
+                            "is_answer": false,
+                            "choice": "独立的充分必要条�?,
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.88,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 30645,
+                    "ai_tags": "随机变量,方差,独立性与相关�?
+                },
+                {
+                    "id": 13286,
+                    "subject_id": 3,
+                    "chapter_id": 349,
+                    "question_id": "a56c7f1e-9bf3-4642-8845-0cdd8ffa88be",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$X$ �?$Y$ 相互独立, 方差分别�?6 �?3 , �?$D(2 X-Y)=()$.",
+                    "analysis": "由于 $X, Y$ 相互独立, �?$D(2 X-Y)=4 D(X)+D(Y)=27$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/5371ed33302542c981136645a9da7753",
+                    "updated_at": {
+                        "seconds": 1774895445
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53143,
+                            "question_id": 13286,
+                            "is_answer": true,
+                            "choice": "$27$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53144,
+                            "question_id": 13286,
+                            "is_answer": false,
+                            "choice": "$9$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53141,
+                            "question_id": 13286,
+                            "is_answer": false,
+                            "choice": "$15$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53142,
+                            "question_id": 13286,
+                            "is_answer": false,
+                            "choice": "$21$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 19520,
+                    "ai_tags": "随机变量,方差,独立�?
+                },
+                {
+                    "id": 13287,
+                    "subject_id": 3,
+                    "chapter_id": 349,
+                    "question_id": "2f7cf8ba-aabf-4f22-b9a4-da0f3f7d4426",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$\\xi$ 服从 $\\lambda=2$ 的泊松分�? �?$D(2 \\xi)$ 等于 () .",
+                    "analysis": "由于随机变量 $\\xi$ 服从 $\\lambda=2$ 的泊松分�? �?$D(\\xi)=2$, 从�?$D(2 \\xi)=4 D(\\xi)=8$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/856eceb7d98949c38d7848323415f0ce",
+                    "updated_at": {
+                        "seconds": 1767637886
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53146,
+                            "question_id": 13287,
+                            "is_answer": true,
+                            "choice": "$8$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53147,
+                            "question_id": 13287,
+                            "is_answer": false,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53148,
+                            "question_id": 13287,
+                            "is_answer": false,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53145,
+                            "question_id": 13287,
+                            "is_answer": false,
+                            "choice": "$16$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 2112,
+                    "ai_tags": "泊松分布,方差性质"
+                },
+                {
+                    "id": 13288,
+                    "subject_id": 3,
+                    "chapter_id": 349,
+                    "question_id": "5d41fefb-7541-49e0-889f-09a5091d3b6e",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知随机变量 $\\xi$ �?$\\eta$ 的方差分别为 $D(\\xi)=4, D(\\eta)=9, \\operatorname{cov}(\\xi, \\eta)=2$, �?$D(2 \\xi-\\eta)$ 等于 ( ).",
+                    "analysis": "$D(2 \\xi-\\eta)=4 D(\\xi)+D(\\eta)-4 \\operatorname{cov}(\\xi, \\eta)=17$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/b2cd4e9192224aca95f783bba4bb0c8e",
+                    "updated_at": {
+                        "seconds": 1774895442
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53149,
+                            "question_id": 13288,
+                            "is_answer": true,
+                            "choice": "$17$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53150,
+                            "question_id": 13288,
+                            "is_answer": false,
+                            "choice": "$25$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53151,
+                            "question_id": 13288,
+                            "is_answer": false,
+                            "choice": "$21$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53152,
+                            "question_id": 13288,
+                            "is_answer": false,
+                            "choice": "$13$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.67,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 36929,
+                    "ai_tags": "方差,协方�?随机变量"
+                },
+                {
+                    "id": 13292,
+                    "subject_id": 3,
+                    "chapter_id": 349,
+                    "question_id": "d47299f4-96cc-4a8e-95d9-70dc4f3b0ae8",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设随机变�?$X_1, X_2, X_3$ 相互独立, 其中 $X_1$ �?$[0,6]$ 上服从均匀分布, $X_2$ 服从参数 $\\lambda=1 / 2$ 的指数分�? $X_3$ 服从参数 $\\lambda=3$ 的泊松分�? �?$Y=X_1-2 X_2+3 X_3$, �?$D(Y)=()$.",
+                    "analysis": "�?$X_1$ �?$[0,6]$ 上服从均匀分布, �?$D\\left(X_1\\right)=\\frac{(6-0)^2}{12}=3$.\n又因 $X_2 \\sim E(1 / 2), X_3 \\sim P(3)$, �?$D\\left(X_2\\right)=1 /(1 / 2)^2=4, D\\left(X_3\\right)=3$.\n�?$X_1 �?X_2 �?X_3$ 相互独立, 根据方差的性质得\n$$\nD(Y)=D\\left(X_1-2 X_2+3 X_3\\right)=D\\left(X_1\\right)+4 D\\left(X_2\\right)+9 D\\left(X_3\\right)=3+4 \\times 4+9 \\times 3=46 .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/98180e5a40424bc9a57a60638825a05f",
+                    "updated_at": {
+                        "seconds": 1766860308
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53166,
+                            "question_id": 13292,
+                            "is_answer": false,
+                            "choice": "$21$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53165,
+                            "question_id": 13292,
+                            "is_answer": true,
+                            "choice": "$46$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53168,
+                            "question_id": 13292,
+                            "is_answer": false,
+                            "choice": "$54$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 53167,
+                            "question_id": 13292,
+                            "is_answer": false,
+                            "choice": "$32$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.75,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 12657,
+                    "ai_tags": "方差,常见分布,随机变量的独立�?
+                },
+                {
+                    "id": 18869,
+                    "subject_id": 3,
+                    "chapter_id": 349,
+                    "question_id": "c9393d91-1ccf-4fa0-9630-bb05d75df364",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "若随机变�?$\\xi$ �?$\\eta$ 相互独立, 且方�?$D(\\xi)=2, D(\\eta)=1.5$, �?$D(3 \\xi+2 \\eta+1)$ 等于 ( ).",
+                    "analysis": "当随机变量独立时, $D(a X+b Y)=a^2 D(X)+b^2 D(Y)$, �?$D(3 \\xi+2 \\eta+1)=9 D(\\xi)+4 D(\\eta)=24$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339201
+                    },
+                    "question_json": "mathreact/056434ed3bbd4aadb31c6a8d804588f2",
+                    "updated_at": {
+                        "seconds": 1767637882
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85247,
+                            "question_id": 18869,
+                            "is_answer": true,
+                            "choice": "$24$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85248,
+                            "question_id": 18869,
+                            "is_answer": false,
+                            "choice": "$9$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85249,
+                            "question_id": 18869,
+                            "is_answer": false,
+                            "choice": "$25$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85250,
+                            "question_id": 18869,
+                            "is_answer": false,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 23970,
+                    "ai_tags": "随机变量,方差,独立�?
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 27,
+            "questions": [
+                {
+                    "id": 18876,
+                    "subject_id": 3,
+                    "chapter_id": 349,
+                    "question_id": "bc6e79de-fae2-490c-aae9-5843d48230e1",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "对于任意两个随机变量 $\\xi$ �?$\\eta$, �?$E(\\xi \\eta)=E(\\xi) E(\\eta), D(\\xi), D(\\eta)$ 都存�? 则有 () .",
+                    "analysis": "由于 $D(X+Y)=D(X)+D(Y)+2 \\operatorname{cov}(X, Y), \\operatorname{cov}(X, Y)=E(X Y)-E(X) E(Y)$, 再结合题目条�?�?$D(\\xi+\\eta)=D(\\xi)+D(\\eta)$. $\\operatorname{cov}(\\xi, \\eta)=E(\\xi \\eta)-E(\\xi) E(\\eta)=0$ 不说�?$\\xi$ �?$\\eta$ 是否独立.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339230
+                    },
+                    "question_json": "mathreact/ed0d0ff006d3458d96adefb45800bebc",
+                    "updated_at": {
+                        "seconds": 1767724275
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85296,
+                            "question_id": 18876,
+                            "is_answer": true,
+                            "choice": "$D(\\xi+\\eta)=D(\\xi)+D(\\eta)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85297,
+                            "question_id": 18876,
+                            "is_answer": false,
+                            "choice": "$D(\\xi \\eta)=D(\\xi) D(\\eta)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85298,
+                            "question_id": 18876,
+                            "is_answer": false,
+                            "choice": "$\\xi$ �?$\\eta$ 独立",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85299,
+                            "question_id": 18876,
+                            "is_answer": false,
+                            "choice": "$\\xi$ �?$\\eta$ 不独�?,
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 6131,
+                    "ai_tags": "随机变量,方差,协方�?
+                },
+                {
+                    "id": 18877,
+                    "subject_id": 3,
+                    "chapter_id": 349,
+                    "question_id": "8dedab5d-2844-4197-8354-a48fd434e9b2",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\xi$ �?$\\eta$ 是两个相互独立的随机变量, $D(\\xi)=4, D(\\eta)=2$, 随机变量 $\\zeta=3 \\xi-2 \\eta$, �?$D(\\zeta)=()$.",
+                    "analysis": "由于 $\\xi$ �?$\\eta$ 相互独立, �?$\\operatorname{cov}(\\xi, \\eta)=0$. 故\n$$\nD(\\zeta)=D(3 \\xi-2 \\eta)=9 D(\\xi)+4 D(\\eta)-12 \\operatorname{cov}(\\xi, \\eta)=44 .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339233
+                    },
+                    "question_json": "mathreact/4145f42bf2264dbab87042b3b4c8cc68",
+                    "updated_at": {
+                        "seconds": 1767637884
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85303,
+                            "question_id": 18877,
+                            "is_answer": true,
+                            "choice": "$44$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85304,
+                            "question_id": 18877,
+                            "is_answer": false,
+                            "choice": "$8$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85305,
+                            "question_id": 18877,
+                            "is_answer": false,
+                            "choice": "$16$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85306,
+                            "question_id": 18877,
+                            "is_answer": false,
+                            "choice": "$28$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 67432,
+                    "ai_tags": "概率�?方差,随机变量独立�?
+                },
+                {
+                    "id": 18878,
+                    "subject_id": 3,
+                    "chapter_id": 349,
+                    "question_id": "cae5ad56-78b7-4780-8b0d-90f93bb64095",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$\\xi_1, \\xi_2, \\ldots, \\xi_n$ 相互独立, �?$E(\\xi_i)$ �?$D(\\xi_i)$ 都存�?$(i=1,2, \\ldots, n)$, �?$c, k_1, k_2, \\ldots, k_n$ �?$n+1$ 个任意常�? 则下面的等式中错误的�?( ).",
+                    "analysis": "由方差的性质 $D(aX+b)=a^2D(X)$ �?$\\xi_1, \\ldots, \\xi_n$ 相互独立知：\n$$D\\left(\\sum_{i=1}^n k_i \\xi_i+c\\right) = \\sum_{i=1}^n k_i^2 D(\\xi_i)$$\n故选项 1 中的等式错误�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339238
+                    },
+                    "question_json": "mathreact/7ab71516dbc24b59bc52aed880e7374b",
+                    "updated_at": {
+                        "seconds": 1774895444
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85310,
+                            "question_id": 18878,
+                            "is_answer": true,
+                            "choice": "$D\\left(\\sum_{i=1}^n k_i \\xi_i+c\\right)=\\sum_{i=1}^n k_i D(\\xi_i)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85311,
+                            "question_id": 18878,
+                            "is_answer": false,
+                            "choice": "$E\\left(\\sum_{i=1}^n k_i \\xi_i+c\\right)=\\sum_{i=1}^n k_i E(\\xi_i)+c$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85312,
+                            "question_id": 18878,
+                            "is_answer": false,
+                            "choice": "$E\\left(\\prod_{i=1}^n k_i \\xi_i\\right)=\\prod_{i=1}^n k_i E(\\xi_i)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85313,
+                            "question_id": 18878,
+                            "is_answer": false,
+                            "choice": "$D\\left(\\sum_{i=1}^n k_i \\xi_i\\right)=\\sum_{i=1}^n k_i^2 D(\\xi_i)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.78,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 27405,
+                    "ai_tags": "概率�?随机变量,方差,数学期望"
+                },
+                {
+                    "id": 18881,
+                    "subject_id": 3,
+                    "chapter_id": 349,
+                    "question_id": "eb6affa8-8dcb-4358-8875-0d4ee16c250c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "飞机等待清舱以便起飞的时�?(以分�? 为一随机变量 $Y=3 X-2$, $X$ 有概率密�?$f(x)=\\left\\{\\begin{array}{cc}\\frac{1}{4} e^{-\\frac{x}{4}}, & x>0 \\\\ 0, & \\text{其它}\\end{array}\\right.$, �?$D(Y)=(\\quad)$.",
+                    "analysis": "由题意知, $X \\sim E\\left(\\frac{1}{4}\\right)$ (指数分布), �?$D(X)=\\frac{1}{\\left(\\frac{1}{4}\\right)^2}=16$.从�?$D(Y)=D(3 X-2)=9 D(X)=144$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339244
+                    },
+                    "question_json": "mathreact/48ad69d509ca4e31b16078974961928e",
+                    "updated_at": {
+                        "seconds": 1766860310
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85331,
+                            "question_id": 18881,
+                            "is_answer": true,
+                            "choice": "$144$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85332,
+                            "question_id": 18881,
+                            "is_answer": false,
+                            "choice": "$244$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85333,
+                            "question_id": 18881,
+                            "is_answer": false,
+                            "choice": "$44$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85334,
+                            "question_id": 18881,
+                            "is_answer": false,
+                            "choice": "$122$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 89942,
+                    "ai_tags": "概率�?随机变量,方差,指数分布"
+                },
+                {
+                    "id": 18884,
+                    "subject_id": 3,
+                    "chapter_id": 349,
+                    "question_id": "f45e22f7-5a74-4b20-b15c-4d239ba34a18",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "$D(\\xi)=0$ �?$P\\{\\xi=C\\}=1$ ($C$ 是常�? �?( ).",
+                    "analysis": "�?$P\\{\\xi=C\\}=1$ ($C$ 是常�?, 由方差的性质, 显然�?$D(\\xi)=0$. 反之, �?$D(\\xi)=0$, 由方差的定义�?$P\\{\\xi=C\\}=1$ ($C$ 是常�?.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339249
+                    },
+                    "question_json": "mathreact/0167c6cf6b93499ba2dfcd0d5090d4b2",
+                    "updated_at": {
+                        "seconds": 1774895443
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85352,
+                            "question_id": 18884,
+                            "is_answer": true,
+                            "choice": "充分条件又是必要条件",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85353,
+                            "question_id": 18884,
+                            "is_answer": false,
+                            "choice": "充分条件, 但不是必要条�?,
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85354,
+                            "question_id": 18884,
+                            "is_answer": false,
+                            "choice": "必要条件, 但不是充分条�?,
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85355,
+                            "question_id": 18884,
+                            "is_answer": false,
+                            "choice": "既非充分条件又非必要条件",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.56,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 17893,
+                    "ai_tags": "方差,随机变量"
+                },
+                {
+                    "id": 18890,
+                    "subject_id": 3,
+                    "chapter_id": 349,
+                    "question_id": "712ead22-17e3-48e8-9a1c-1d140e737927",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "随机变量 $X, Y$ 相互独立, 概率密度分别�?$f_X(x)=\\begin{cases} 2 e^{-2 x}, & x \\geq 0 \\\\ 0, & x<0 \\end{cases}, f_Y(y)=\\begin{cases} 4 e^{-4 y}, & y>0 \\\\ 0, & y \\leq 0 \\end{cases}$, �?$D(2 X-3 Y+4)=(\\quad)$.",
+                    "analysis": "由题意知 $X \\sim E(2), Y \\sim E(4)$, �?$E(X)=\\frac{1}{2}, D(X)=\\frac{1}{4}, E(Y)=\\frac{1}{4}, D(Y)=\\frac{1}{16}$, 所�?$D(2 X-3 Y+4)=4 D(X)+9 D(Y)=\\frac{4}{4}+\\frac{9}{16}=\\frac{25}{16}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339267
+                    },
+                    "question_json": "mathreact/ee1308152c774b38bd7550fc6ca1d60a",
+                    "updated_at": {
+                        "seconds": 1774895443
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85394,
+                            "question_id": 18890,
+                            "is_answer": false,
+                            "choice": "$\\frac{11}{16}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85395,
+                            "question_id": 18890,
+                            "is_answer": true,
+                            "choice": "$\\frac{25}{16}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85396,
+                            "question_id": 18890,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85397,
+                            "question_id": 18890,
+                            "is_answer": false,
+                            "choice": "$\\frac{7}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.4,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 78392,
+                    "ai_tags": "方差,指数分布,随机变量"
+                },
+                {
+                    "id": 18896,
+                    "subject_id": 3,
+                    "chapter_id": 349,
+                    "question_id": "a50d03bf-7a0b-4958-b8de-0ebbebea2e94",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$X \\sim N\\left(\\mu, \\sigma^2\\right), \\quad Y$ 服从期望值为 $\\frac{1}{\\lambda}(\\lambda>0)$ 的指数分�? 则不正确的是 () .",
+                    "analysis": "$$\n\\begin{aligned}\n& E(X+Y)=E(X)+E(Y)=\\mu+\\lambda^{-1} \\\\\n& E\\left(X^2+Y^2\\right)=E\\left(X^2\\right)+E\\left(Y^2\\right)=D(X)+[E(X)]^2+D(Y)+[E(Y)]^2=\\sigma^2+\\mu^2+2 \\lambda^{-2}\n\\end{aligned}\n$$\n\n因为 $X, Y$ 不一定不相关或独�? 所�?$D(X+Y)=\\sigma^2+\\lambda^{-2}$ 未必成立.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339282
+                    },
+                    "question_json": "mathreact/2b1296b8a425447e9a31c30ebf97a0a8",
+                    "updated_at": {
+                        "seconds": 1767724275
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85436,
+                            "question_id": 18896,
+                            "is_answer": true,
+                            "choice": "$D(X+Y)=\\sigma^2+\\lambda^{-2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85437,
+                            "question_id": 18896,
+                            "is_answer": false,
+                            "choice": "$E(X+Y)=\\mu+\\lambda^{-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85438,
+                            "question_id": 18896,
+                            "is_answer": false,
+                            "choice": "$E\\left(X^2+Y^2\\right)=\\sigma^2+\\mu^2+2 \\lambda^{-2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        },
+                        {
+                            "id": 85439,
+                            "question_id": 18896,
+                            "is_answer": false,
+                            "choice": "$E\\left(X^2\\right)=\\mu^2+\\sigma^2, E\\left(Y^2\\right)=2 \\lambda^{-2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080686
+                            },
+                            "updated_at": {
+                                "seconds": 1735080686
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.75,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 20789,
+                    "ai_tags": "正态分�?指数分布,数字特征"
+                }
+            ]
+        }
+    }
+]

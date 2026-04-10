@@ -1,0 +1,767 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 9,
+            "questions": [
+                {
+                    "id": 13158,
+                    "subject_id": 3,
+                    "chapter_id": 333,
+                    "question_id": "7a6385b7-de26-411f-a833-fe247dae63aa",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$\\xi$ �?$\\eta$ 相互独立, 且有相同的分布律\n\\begin{tabular}{c|cc}\n\\hline$\\xi, \\eta$ & 1 & 2 \\\\\n\\hline$p_i$ & $1 / 3$ & $2 / 3$ \\\\\n\\hline\n\\end{tabular}\n\n�?$\\zeta=\\xi+\\eta$ 的分布列�?() .",
+                    "analysis": "因为相互独立, 故\n\\begin{tabular}{c|cccc}\n\\hline & $(1,1)$ & $(1,2)$ & $(2,1)$ & $(2,2)$ \\\\\n\\hline & $1 / 9$ & $2 / 9$ & $2 / 9$ & $4 / 9$ \\\\\n\\cline { 2 - 5 } & 2 & 3 & 3 & 4 \\\\\n\\hline\n\\end{tabular}\n\n从�?$\\zeta$ 的分布律为\n\\begin{tabular}{l|ccc}\n\\cline { 2 - 4 } & 2 & 3 & 4 \\\\\n\\cline { 2 - 4 } & $1 / 9$ & $4 / 9$ & $4 / 9$ \\\\\n\\hline\n\\end{tabular}",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/b47c06cb95d24ffc957474f4505ec66e",
+                    "updated_at": {
+                        "seconds": 1767292334
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52632,
+                            "question_id": 13158,
+                            "is_answer": true,
+                            "choice": "\\begin{tabular}{c|ccc}\n\\hline$\\zeta$ & 2 & 3 & 4 \\\\\n\\hline$p_i$ & $1 / 9$ & $4 / 9$ & $4 / 9$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52629,
+                            "question_id": 13158,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{l|l}\n\\hline$\\zeta$ & 3 \\\\\n\\hline$p_i$ & 1 \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52631,
+                            "question_id": 13158,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|ccc}\n\\hline$\\zeta$ & 2 & 3 & 4 \\\\\n\\hline$p_i$ & $1 / 3$ & $2 / 9$ & $4 / 9$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52630,
+                            "question_id": 13158,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|cc}\n\\hline$\\zeta$ & 2 & 4 \\\\\n\\hline$p_i$ & $1 / 3$ & $2 / 3$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 87732,
+                    "ai_tags": "随机变量,独立�?分布�?
+                },
+                {
+                    "id": 13162,
+                    "subject_id": 3,
+                    "chapter_id": 333,
+                    "question_id": "dcfd9214-eefe-4387-9887-180cc761b407",
+                    "difficulty": "Easy",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "�?$(\\xi, \\eta)$ 的联合分布律为\n\\begin{tabular}{c|ccc}\n\\hline$\\eta$ & -1 & 0 & 1 \\\\\n\\hline-1 & $1 / 8$ & $1 / 8$ & $1 / 8$ \\\\\n0 & $1 / 8$ & 0 & $1 / 8$ \\\\\n1 & $1 / 8$ & $1 / 8$ & $1 / 8$ \\\\\n\\hline\n\\end{tabular}\n\n�?$P\\{\\xi \\eta=1\\}=()$.",
+                    "analysis": "依题意有\n\\begin{tabular}{c|ccccccccc}\n\\hline$(\\xi, \\eta)$ & $(-1,-1)$ & $(-1,0)$ & $(-1,1)$ & $(0,-1)$ & $(0,0)$ & $(0,1)$ & $(1,-1)$ & $(1,0)$ & $(1,1)$ \\\\\n\\hline$P$ & $1 / 8$ & $1 / 8$ & $1 / 8$ & $1 / 8$ & 0 & $1 / 8$ & $1 / 8$ & $1 / 8$ & $1 / 8$ \\\\\n\\hline$\\xi \\eta$ & 1 & 0 & -1 & 0 & 0 & 0 & -1 & 0 & 1 \\\\\n\\hline\n\\end{tabular}\n\n即\n\\begin{tabular}{c|ccc}\n\\hline$\\xi \\eta$ & -1 & 0 & 1 \\\\\n\\hline$P$ & $1 / 4$ & $1 / 2$ & $1 / 4$ \\\\\n\\hline\n\\end{tabular}\n\n所�?$P\\{\\xi \\eta=1\\}=\\frac{1}{4}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/2bcb7a04a3b648d9a3d423ca95034170",
+                    "updated_at": {
+                        "seconds": 1766687546
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52646,
+                            "question_id": 13162,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52647,
+                            "question_id": 13162,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52645,
+                            "question_id": 13162,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52648,
+                            "question_id": 13162,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 3854,
+                    "ai_tags": "二维离散型随机变�?联合分布�?随机变量函数的分�?
+                },
+                {
+                    "id": 18805,
+                    "subject_id": 3,
+                    "chapter_id": 333,
+                    "question_id": "bf8febbe-016e-4f6a-9f4b-066a9cae7ff3",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "�?$X, Y$ 是相互独立的随机变量, 它们都服从二项分�?$B(n, p)$, 则随机变�?$Z=X+Y$ 服从 ( ).",
+                    "analysis": "根据伯努利概�? 二项分布可以看作多个服从 $0-1$ 分布的独立随机变量之�? �?$X, Y$ 独立, �?$Z=X+Y$ 可以看作 $2n$ 个服�?$0-1$ 分布的独立随机变量之�? 即服从二项分�?$B(2n, p)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339045
+                    },
+                    "question_json": "mathreact/09d93becdc954fcda98112d3ac141ae7",
+                    "updated_at": {
+                        "seconds": 1773945061
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84799,
+                            "question_id": 18805,
+                            "is_answer": false,
+                            "choice": "$B\\left(n, p^2\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84800,
+                            "question_id": 18805,
+                            "is_answer": false,
+                            "choice": "$B(n, p)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84801,
+                            "question_id": 18805,
+                            "is_answer": false,
+                            "choice": "$B\\left(2 n, p^2\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84802,
+                            "question_id": 18805,
+                            "is_answer": true,
+                            "choice": "$B(2 n, p)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.67,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 10382,
+                    "ai_tags": "二项分布,随机变量"
+                },
+                {
+                    "id": 18808,
+                    "subject_id": 3,
+                    "chapter_id": 333,
+                    "question_id": "98180f84-d860-46f2-a940-1a6994d08d77",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$\\xi$ �?$\\eta$ 相互独立，且有相同的分布律\n\\[\n\\begin{array}{c|cc}\n\\hline\n\\xi, \\eta & 1 & 3 \\\\\n\\hline\np_i & 1/3 & 2/3 \\\\\n\\hline\n\\end{array}\n\\]\n�?$\\zeta=\\xi-\\eta$ 的分布列�?(    ).",
+                    "analysis": "因为 $\\xi$ �?$\\eta$ 相互独立，故 $(\\xi, \\eta)$ 的联合分布及 $\\zeta=\\xi-\\eta$ 的取值如下表：\n\\[\n\\begin{array}{c|cccc}\n\\hline\n(\\xi, \\eta) & (1,1) & (1,3) & (3,1) & (3,3) \\\\\n\\hline\nP & 1/9 & 2/9 & 2/9 & 4/9 \\\\\n\\hline\n\\zeta & 0 & -2 & 2 & 0 \\\\\n\\hline\n\\end{array}\n\\]\n整理�?$\\zeta$ 的分布律为\n\\[\n\\begin{array}{c|ccc}\n\\hline\n\\zeta & -2 & 0 & 2 \\\\\n\\hline\np_i & 2/9 & 5/9 & 2/9 \\\\\n\\hline\n\\end{array}\n\\]",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339056
+                    },
+                    "question_json": "mathreact/fef4645091764e3caf63c84a5d59255a",
+                    "updated_at": {
+                        "seconds": 1773945060
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84820,
+                            "question_id": 18808,
+                            "is_answer": true,
+                            "choice": "\\[\n\\begin{array}{c|ccc}\n\\hline\n\\zeta & -2 & 0 & 2 \\\\\n\\hline\np_i & 2/9 & 5/9 & 2/9 \\\\\n\\hline\n\\end{array}\n\\]",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84821,
+                            "question_id": 18808,
+                            "is_answer": false,
+                            "choice": "\\[\n\\begin{array}{c|cc}\n\\hline\n\\zeta & 1 & 3 \\\\\n\\hline\np_i & 1/3 & 2/3 \\\\\n\\hline\n\\end{array}\n\\]",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84822,
+                            "question_id": 18808,
+                            "is_answer": false,
+                            "choice": "\\[\n\\begin{array}{c|ccc}\n\\hline\n\\zeta & -2 & 0 & 2 \\\\\n\\hline\np_i & 2/3 & 0 & 1/3 \\\\\n\\hline\n\\end{array}\n\\]",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84823,
+                            "question_id": 18808,
+                            "is_answer": false,
+                            "choice": "\\[\n\\begin{array}{c|cc}\n\\hline\n\\zeta & 0 & 2 \\\\\n\\hline\np_i & 2/3 & 1/3 \\\\\n\\hline\n\\end{array}\n\\]",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 36656,
+                    "ai_tags": "离散型随机变�?相互独立,随机变量函数的分�?
+                },
+                {
+                    "id": 18809,
+                    "subject_id": 3,
+                    "chapter_id": 333,
+                    "question_id": "2dc674e5-ea22-452f-94df-ac4c4e12c054",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$X$ �?$Y$ 相互独立, 他们分别服从参数�?$\\lambda_1, \\lambda_2$ 的泊松分�? �?$Z=X+Y$ 服从参数�?$($ )的泊松分�?",
+                    "analysis": "$$\nP\\{X=i\\}=\\frac{e^{-\\lambda_1} \\lambda_1^i}{i!}(i=0,1, \\cdots) ; P\\{Y=j\\}=\\frac{e^{-\\lambda_2} \\lambda_2^j}{j!}(j=0,1, \\cdots)\n$$\n\n由离散型卷积公式得\n$$\n\\begin{aligned}\nP\\{Z=r\\} & =\\sum_{i=0}^r P\\{X=i, Y=r-i\\}=\\sum_{i=0}^r e^{-\\lambda_1} \\frac{\\lambda_1^i}{i!} \\cdot e^{-\\lambda_2} \\frac{\\lambda_2^{r-i}}{(r-i)!} \\\\\n& =\\frac{e^{-\\left(\\lambda_1+\\lambda_2\\right)}}{r!} \\sum_{i=0}^r \\frac{r!}{i!(r-i)!} \\lambda_1^i \\lambda_2^{r-i}=\\frac{e^{-\\left(\\lambda_1+\\lambda_2\\right)}}{r!}\\left(\\lambda_1+\\lambda_2\\right)^r, r=0,1, \\cdots\n\\end{aligned}\n$$\n\n�?$Z$ 服从参数�?$\\lambda_1+\\lambda_2$ 的泊松分�?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339058
+                    },
+                    "question_json": "mathreact/c8fa08876521439ca7cb0c7e8c2e1ebb",
+                    "updated_at": {
+                        "seconds": 1773945055
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84827,
+                            "question_id": 18809,
+                            "is_answer": true,
+                            "choice": "$\\lambda_1+\\lambda_2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84828,
+                            "question_id": 18809,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\lambda_1+\\lambda_2}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84829,
+                            "question_id": 18809,
+                            "is_answer": false,
+                            "choice": "$\\lambda_1 \\cdot \\lambda_2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84830,
+                            "question_id": 18809,
+                            "is_answer": false,
+                            "choice": "$\\sqrt{\\lambda_1 \\cdot \\lambda_2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 7805,
+                    "ai_tags": "概率�?泊松分布,随机变量的可加�?
+                },
+                {
+                    "id": 18815,
+                    "subject_id": 3,
+                    "chapter_id": 333,
+                    "question_id": "55492761-3338-43a6-a525-729cbfcddad2",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$\\xi$ �?$\\eta$ 相互独立, 且都有相同的分布列\n\\begin{tabular}{c|cc}\n\\hline $\\xi$ & 1 & 2 \\\\\n\\hline $p_i$ & $\\frac{1}{2}$ & $\\frac{1}{2}$ \\\\\n\\hline\n\\end{tabular}\n\n�?$\\zeta=\\xi+\\eta$ 的分布列�?( ).",
+                    "analysis": "因为相互独立, 故\n\\begin{tabular}{c|cccc}\n\\hline & $(1,1)$ & $(1,2)$ & $(2,1)$ & $(2,2)$ \\\\\n\\hline & $1 / 4$ & $1 / 4$ & $1 / 4$ & $1 / 4$ \\\\\n\\hline & 2 & 3 & 3 & 4 \\\\\n\\cline { 2 - 5 }\n\\end{tabular}\n\n从�?$\\zeta$ 的分布律为\n$$\n\\begin{array}{l|ccc}\n\\hline & 2 & 3 & 4 \\\\\n\\hline & 1 / 4 & 1 / 2 & 1 / 4 \\\\\n\\hline\n\\end{array}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339074
+                    },
+                    "question_json": "mathreact/75b4a955f8244afbb4d66bfc4fd6acbd",
+                    "updated_at": {
+                        "seconds": 1767637887
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84869,
+                            "question_id": 18815,
+                            "is_answer": true,
+                            "choice": "\\begin{tabular}{l|ccc}\n\\hline$\\zeta$ & 2 & 3 & 4 \\\\\n\\hline$p_i$ & $1 / 4$ & $1 / 2$ & $1 / 4$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84870,
+                            "question_id": 18815,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|cc}\n\\hline$\\zeta$ & 2 & 3 \\\\\n\\hline$p_i$ & $1 / 2$ & $1 / 2$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84871,
+                            "question_id": 18815,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{l|ccc}\n\\hline$\\zeta$ & 2 & 3 & 4 \\\\\n\\hline$p_i$ & $1 / 2$ & 0 & $1 / 2$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84872,
+                            "question_id": 18815,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|cc}\n\\hline$\\zeta$ & 2 & 4 \\\\\n\\hline$p_j$ & $1 / 2$ & $1 / 2$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 20729,
+                    "ai_tags": "离散型随机变�?独立�?分布�?
+                },
+                {
+                    "id": 18818,
+                    "subject_id": 3,
+                    "chapter_id": 333,
+                    "question_id": "028279b4-3d17-4833-bfc4-c9157b721a77",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\zeta, \\eta$ 相互独立, �?$P\\{\\zeta=0\\}=P\\{\\eta=0\\}=\\frac{1}{3}, P\\{\\zeta=1\\}=P\\{\\eta=1\\}=\\frac{2}{3}, \\xi=\\begin{cases} 1, & \\zeta+\\eta \\neq 1 \\\\ 0, & \\zeta+\\eta=1 \\end{cases}$, �?$\\xi$ 的分布律�?( ).",
+                    "analysis": "依题�? $(\\zeta, \\eta)$ 的联合分布为 $p_{i j}=P\\{\\zeta=i\\} P\\{\\eta=j\\}$, 即\n\\begin{tabular}{c|cccc}\n\\hline$(\\zeta, \\eta)$ & $(0,0)$ & $(0,1)$ & $(1,0)$ & $(1,1)$ \\\\\n\\hline$p$ & $1 / 9$ & $2 / 9$ & $2 / 9$ & $4 / 9$ \\\\\n\\hline$\\zeta+\\eta$ & 0 & 1 & 1 & 2 \\\\\n\\hline$\\xi$ & 1 & 0 & 0 & 1 \\\\\n\\hline\n\\end{tabular}\n\n即\n\\begin{tabular}{c|cc}\n\\hline$\\xi$ & 0 & 1 \\\\\n\\hline$p$ & $4 / 9$ & $5 / 9$ \\\\\n\\hline\n\\end{tabular}",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339076
+                    },
+                    "question_json": "mathreact/5e6f1489549441e99defc429ad390e36",
+                    "updated_at": {
+                        "seconds": 1773945059
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84890,
+                            "question_id": 18818,
+                            "is_answer": true,
+                            "choice": "\\begin{tabular}{c|cc}\n\\hline$\\xi$ & 0 & 1 \\\\\n\\hline$p_i$ & $4 / 9$ & $5 / 9$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84891,
+                            "question_id": 18818,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|cc}\n\\hline$\\xi$ & 0 & 1 \\\\\n\\hline$p_i$ & $5 / 9$ & $4 / 9$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84892,
+                            "question_id": 18818,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|rc}\n\\hline$\\xi$ & 0 & 1 \\\\\n\\hline$p_i$ & $2 / 3$ & $1 / 3$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84893,
+                            "question_id": 18818,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|cc}\n\\hline$\\xi$ & 0 & 1 \\\\\n\\hline$p_i$ & $1 / 3$ & $2 / 3$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 49719,
+                    "ai_tags": "离散型随机变�?随机变量函数的分�?相互独立"
+                },
+                {
+                    "id": 18825,
+                    "subject_id": 3,
+                    "chapter_id": 333,
+                    "question_id": "ea2d8a3b-0780-4c44-ac2c-1381652449dc",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "测量一矩形土地的长与宽得\n\\begin{tabular}{c|ccc}\n\\hline 长度 $\\xi$ & 29 & 30 & 31 \\\\\n\\hline $p$ & 0.3 & 0.5 & 0.2 \\\\\n\\hline\n\\end{tabular}\n\\begin{tabular}{c|ccc}\n\\hline 宽度 $\\eta$ & 19 & 20 & 21 \\\\\n\\hline $p$ & 0.3 & 0.4 & 0.3 \\\\\n\\hline\n\\end{tabular}\n\n设长与宽相互独立, 则周�?$\\zeta$ 的分布律�?( ).",
+                    "analysis": "由题意知 $\\xi, \\eta$ 相互独立, 且周�?$\\zeta = 2(\\xi + \\eta)$.\n$\\zeta$ 的可能取值为:\n$2(29+19)=96$, $2(29+20)=98$, $2(30+19)=98$, $2(29+21)=100$, $2(30+20)=100$, $2(31+19)=100$, $2(30+21)=102$, $2(31+20)=102$, $2(31+21)=104$.\n�?$\\zeta$ 的取值为 $96, 98, 100, 102, 104$.\n\n计算各取值的概率:\n$P(\\zeta=96) = P(\\xi=29, \\eta=19) = 0.3 \\times 0.3 = 0.09$\n$P(\\zeta=98) = P(\\xi=29, \\eta=20) + P(\\xi=30, \\eta=19) = 0.3 \\times 0.4 + 0.5 \\times 0.3 = 0.12 + 0.15 = 0.27$\n$P(\\zeta=100) = P(\\xi=29, \\eta=21) + P(\\xi=30, \\eta=20) + P(\\xi=31, \\eta=19) = 0.3 \\times 0.3 + 0.5 \\times 0.4 + 0.2 \\times 0.3 = 0.09 + 0.20 + 0.06 = 0.35$\n$P(\\zeta=102) = P(\\xi=30, \\eta=21) + P(\\xi=31, \\eta=20) = 0.5 \\times 0.3 + 0.2 \\times 0.4 = 0.15 + 0.08 = 0.23$\n$P(\\zeta=104) = P(\\xi=31, \\eta=21) = 0.2 \\times 0.3 = 0.06$\n\n故周�?$\\zeta$ 的分布律为\n\\begin{tabular}{c|ccccc}\n\\hline $\\zeta$ & 96 & 98 & 100 & 102 & 104 \\\\\n\\hline $p$ & 0.09 & 0.27 & 0.35 & 0.23 & 0.06 \\\\\n\\hline\n\\end{tabular}",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339095
+                    },
+                    "question_json": "mathreact/2233db8c74154144a368236086126fe9",
+                    "updated_at": {
+                        "seconds": 1771525803
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84939,
+                            "question_id": 18825,
+                            "is_answer": true,
+                            "choice": "\\begin{tabular}{l|cllll}\n\\hline$\\zeta$ & 96 & 98 & 100 & 102 & 104 \\\\\n\\hline$p$ & 0.09 & 0.27 & 0.35 & 0.23 & 0.06 \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84940,
+                            "question_id": 18825,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{l|lcc}\n\\hline$\\zeta$ & 96 & 100 & 104 \\\\\n\\hline$p$ & 0.3 & 0.4 & 0.3 \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84941,
+                            "question_id": 18825,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{l|ccccc}\n\\hline$\\zeta$ & 96 & 98 & 100 & 102 & 104 \\\\\n\\hline$p$ & 0.06 & 0.23 & 0.35 & 0.27 & 0.09 \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84942,
+                            "question_id": 18825,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{l|lll}\n\\hline$\\zeta$ & 96 & 100 & 104 \\\\\n\\hline$p$ & 0.3 & 0.5 & 0.2 \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 26783,
+                    "ai_tags": "二维随机变量,离散型分�?独立�?
+                },
+                {
+                    "id": 18838,
+                    "subject_id": 3,
+                    "chapter_id": 333,
+                    "question_id": "f2c8979b-7e54-4e7b-a1fc-a1ac7e480339",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "�?$\\zeta �?\\eta$ 相互独立, 分布律分别为 $P\\{\\zeta=i\\}=p(i)$ �?$P\\{\\eta=j\\}=q(j), i, j$ 均为正整�? �?$\\xi=\\zeta+\\eta$ 的分布律�?() .",
+                    "analysis": "因为独立, 所以\n$P\\{\\zeta=i, \\eta=j\\}=P\\{\\zeta=i\\} P\\{\\eta=j\\}=p(i) q(j), i, j$ 均为正整�?\n�?$\\xi=\\zeta+\\eta$, 所�?$\\xi=2,3, \\ldots$, 且\n$$\nP\\{\\xi=k\\}=P\\{\\zeta+\\eta=k\\}=\\sum_{i+j=k} P\\{\\zeta=i, \\eta=j\\}=\\sum_{i+j=k} p(i) q(j)=\\sum_{i=1}^{k-1} p(i) q(k-i), k=2,3, \\ldots .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339129
+                    },
+                    "question_json": "mathreact/9c2f4dcd33ec4ae98295bafd663a6159",
+                    "updated_at": {
+                        "seconds": 1767724276
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85030,
+                            "question_id": 18838,
+                            "is_answer": false,
+                            "choice": "$P\\{\\xi=k\\}=\\sum_{i=1}^k \\sum_{j=k-i}^k p(i) q(j), k=2,3, \\ldots$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 85031,
+                            "question_id": 18838,
+                            "is_answer": true,
+                            "choice": "$P\\{\\xi=k\\}=\\sum_{i=1}^{k-1} p(i) q(k-i), k=2,3, \\ldots$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 85032,
+                            "question_id": 18838,
+                            "is_answer": false,
+                            "choice": "$P\\{\\xi=k\\}=\\sum_{i=1}^k \\sum_{j=1}^k p(i) q(j), k=2,3, \\ldots$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 85033,
+                            "question_id": 18838,
+                            "is_answer": false,
+                            "choice": "$P\\{\\xi=k\\}=\\sum_{i=1}^k \\sum_{j=1}^{k-i} p(i) q(j), k=2,3, \\ldots$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 49194,
+                    "ai_tags": "离散型随机变�?独立�?卷积公式"
+                }
+            ]
+        }
+    }
+]

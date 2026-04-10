@@ -1,0 +1,1546 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 18,
+            "questions": [
+                {
+                    "id": 14058,
+                    "subject_id": 3,
+                    "chapter_id": 258,
+                    "question_id": "34b46958-7827-4520-bbf8-6fc5da9f4550",
+                    "difficulty": "Beginner",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "下面关系正确的是 ( ).",
+                    "analysis": "$\\varnothing$ �?$\\{0\\}$ 是两个集合， $\\varnothing$ 包含于任何集合，所�?$\\varnothing \\subset\\{0\\}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/bc7f36a960ea4d08b06b54c89fc476b8",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56231,
+                            "question_id": 14058,
+                            "is_answer": true,
+                            "choice": "$\\varnothing \\subset\\{0\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56229,
+                            "question_id": 14058,
+                            "is_answer": false,
+                            "choice": "$0 \\in \\varnothing$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56230,
+                            "question_id": 14058,
+                            "is_answer": false,
+                            "choice": "$\\varnothing \\in\\{0\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56232,
+                            "question_id": 14058,
+                            "is_answer": false,
+                            "choice": "$\\varnothing=\\{0\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.71,
+                    "difficulty_score": 0.31,
+                    "avg_time_spent": 70364,
+                    "tags": "近期易错,近期287人做�?,
+                    "ai_tags": "集合,空集"
+                },
+                {
+                    "id": 14059,
+                    "subject_id": 3,
+                    "chapter_id": 258,
+                    "question_id": "33502e30-48f6-45d3-93b4-43be5e76a71d",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?5 个数�?$1,2,3,4,5$ 中任取一�? $A=\\{1,2,3\\}, B=\\{2,3,4\\}$, �?$(\\bar{A} \\cup B) \\cap(A \\cup \\bar{B})=()$.",
+                    "analysis": "依题意有 $\\bar{A}=\\{4,5\\}, \\bar{B}=\\{1,5\\}$, 故\n$$\n\\bar{A} \\cup B=\\{2,3,4,5\\}, A \\cup \\bar{B}=\\{1,2,3,5\\},\n$$\n\n所�?$(\\bar{A} \\cup B) \\cap(A \\cup \\bar{B})=\\{2,3,5\\}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/006a66e0d9f845258e0fd1d23ef3bf3b",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56236,
+                            "question_id": 14059,
+                            "is_answer": true,
+                            "choice": "$\\{2,3,5\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56233,
+                            "question_id": 14059,
+                            "is_answer": false,
+                            "choice": "$\\{1,5\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56235,
+                            "question_id": 14059,
+                            "is_answer": false,
+                            "choice": "$\\{2,4\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56234,
+                            "question_id": 14059,
+                            "is_answer": false,
+                            "choice": "$\\{2,3,4\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.89,
+                    "difficulty_score": 0.28,
+                    "avg_time_spent": 153152,
+                    "tags": "近期易错,近期82人做�?,
+                    "ai_tags": "集合的基本运�?交集,补集"
+                },
+                {
+                    "id": 14062,
+                    "subject_id": 3,
+                    "chapter_id": 258,
+                    "question_id": "a0b9b28f-b936-4e0a-9cc9-142f303e242a",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$U$ 为基本空间， $A, B, C$ �?$U$ 中的事件，且 $U=\\{1,2, \\cdots, 10\\}, A=\\{1,3,5,7,9\\}, B=\\{2,4,6,8,10\\}$ �?$C=\\{6,7,8,9,10\\}$, �?$A+B-A C-B C=()$.",
+                    "analysis": "依题意有\n$$\n\\begin{gathered}\nA+B=\\{1,2,3,4,5,6,7,8,9,10\\}=U ; \\\\\nA C=\\{7,9\\}, B C=\\{6,8,10\\} .\n\\end{gathered}\n$$\n\n�?$A+B-A C-B C=\\{1,2,3,4,5\\}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/bac7620f49c442b0bc22037f09d95383",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56247,
+                            "question_id": 14062,
+                            "is_answer": true,
+                            "choice": "$\\{1,2,3,4,5\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56246,
+                            "question_id": 14062,
+                            "is_answer": false,
+                            "choice": "$\\{1,3,5,7,9\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56245,
+                            "question_id": 14062,
+                            "is_answer": false,
+                            "choice": "$\\{2,4,6,8,10\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56248,
+                            "question_id": 14062,
+                            "is_answer": false,
+                            "choice": "$\\{6,7,8,9,10\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.97,
+                    "difficulty_score": 0.21,
+                    "avg_time_spent": 78156,
+                    "tags": "",
+                    "ai_tags": "事件运算,集合运算"
+                },
+                {
+                    "id": 14065,
+                    "subject_id": 3,
+                    "chapter_id": 258,
+                    "question_id": "d69ae221-9827-4f3c-b015-51a9e5569f4d",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设样本空�?$U=\\{1,2, \\cdots, 10\\}, A=\\{2,3,4\\}, B=\\{3,4,5\\}, C=\\{5,6,7\\}$, �?$\\overline{A(B \\cup C)}$ 表示的集合为 ( ).",
+                    "analysis": "由题意知: $B \\cup C=\\{3,4,5,6,7\\}$,\n�?$A(B \\cup C)=\\{3,4\\}$, 所�?$\\overline{A(B \\cup C)}=\\{1,2,5,6,7,8,9,10\\}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/c9822d121040482e825acc13671590c5",
+                    "updated_at": {
+                        "seconds": 1775673109
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56257,
+                            "question_id": 14065,
+                            "is_answer": true,
+                            "choice": "$\\{1,2,5,6,7,8,9,10\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56258,
+                            "question_id": 14065,
+                            "is_answer": false,
+                            "choice": "$\\{3,4,9,10\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56259,
+                            "question_id": 14065,
+                            "is_answer": false,
+                            "choice": "$\\{1,2,5,6,7,8\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56260,
+                            "question_id": 14065,
+                            "is_answer": false,
+                            "choice": "$\\{3,4\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.84,
+                    "difficulty_score": 0.29,
+                    "avg_time_spent": 86563,
+                    "tags": "近期易错,近期113人做�?,
+                    "ai_tags": "事件的运�?集合运算"
+                },
+                {
+                    "id": 14068,
+                    "subject_id": 3,
+                    "chapter_id": 258,
+                    "question_id": "f44cbce6-d32e-4e5d-8832-31ddebeda890",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$A �?B$ 为两个事�? �?$A B=\\bar{A} \\cap \\bar{B}$, 则下列说法正确的�?( ).",
+                    "analysis": "由对偶律�?$\\bar{A} \\cap \\bar{B}=\\overline{A \\cup B}$, 又已�?$A B=\\bar{A} \\cap \\bar{B}$, 所以有 $A B=\\overline{A \\cup B}$, 即\n$A, B$ 同时发生 $\\Leftrightarrow A, B$ 无一个发生。\n又因�?$A \\cup B \\supset A B$, 所�?$A B=\\varnothing$, �?$\\overline{A \\cup B}=\\varnothing, A \\cup B=S$, 所�?$A$ �?$B$ 互为对立事件.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/a5e25a89ed32471fb06b54d87c9b7a7e",
+                    "updated_at": {
+                        "seconds": 1775673114
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56269,
+                            "question_id": 14068,
+                            "is_answer": true,
+                            "choice": "$A \\cap B=\\varnothing$ �?$A \\cup B=S$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56271,
+                            "question_id": 14068,
+                            "is_answer": false,
+                            "choice": "$A \\cap B=\\varnothing$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56270,
+                            "question_id": 14068,
+                            "is_answer": false,
+                            "choice": "$A \\cup B=S$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56272,
+                            "question_id": 14068,
+                            "is_answer": false,
+                            "choice": "$A \\cap B=A$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.71,
+                    "difficulty_score": 0.38,
+                    "avg_time_spent": 110328,
+                    "tags": "近期易错,近期238人做�?,
+                    "ai_tags": "概率�?事件的关系与运算"
+                },
+                {
+                    "id": 14069,
+                    "subject_id": 3,
+                    "chapter_id": 258,
+                    "question_id": "c0589881-40d9-48ad-ad4c-c18d62fb0d15",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?5 个数�?$1,2,3,4,5$ 中任取一�? $A=\\{1,2,3\\}, B=\\{2,3,4\\}$, �?$(\\bar{A} B) \\cup(A \\bar{B})=()$.",
+                    "analysis": "$\\begin{aligned} & \\bar{A}=\\{4,5\\}, B=\\{2,3,4\\}, \\bar{B}=\\{1,5\\}, \\text { �?} \\\\ & \\bar{A} B=\\{4\\}, A \\bar{B}=\\{1\\}, \\\\ & (\\bar{A} B) \\cup(A \\bar{B})=\\{1,4\\} .\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/1199ca8ffd8c4aa187c3751666fa4271",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56275,
+                            "question_id": 14069,
+                            "is_answer": true,
+                            "choice": "$\\{1,4\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56273,
+                            "question_id": 14069,
+                            "is_answer": false,
+                            "choice": "$\\{1,3\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56274,
+                            "question_id": 14069,
+                            "is_answer": false,
+                            "choice": "$\\{2,4\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56276,
+                            "question_id": 14069,
+                            "is_answer": false,
+                            "choice": "$\\{2,5\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.96,
+                    "difficulty_score": 0.24,
+                    "avg_time_spent": 59479,
+                    "ai_tags": "集合的基本运�?补集"
+                },
+                {
+                    "id": 14070,
+                    "subject_id": 3,
+                    "chapter_id": 258,
+                    "question_id": "247ce2c0-1b9d-4951-9c16-50789069c865",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "在某大学任意选出一名学�? �? $A=\\{$ 选出的学生是男生 $\\} ; \\quad B=\\{$ 选出的学生是三年级学�?$\\} ; C=\\{$ 选出的学生是数学系的学生 $\\}$, 则当 ( ) �? $A B C=C$ 成立.",
+                    "analysis": "等式 $A B C=C$ 成立当且仅当 $C \\subset A B C$ 成立, 即当且仅�?$C \\subset A B$ 成立. �?$A B$ 表示事件 \"选出的学生是三年级的男生\". 因此�?\"数学系的学生都是三年级的男生\"�? $A B C=C$ 成立.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/dd3e023cda56409ea9e6f753fbdd62c8",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56277,
+                            "question_id": 14070,
+                            "is_answer": true,
+                            "choice": "数学系的学生都是三年级的男生",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56279,
+                            "question_id": 14070,
+                            "is_answer": false,
+                            "choice": "三年级的学生都是数学系的男生",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56278,
+                            "question_id": 14070,
+                            "is_answer": false,
+                            "choice": "该学校的男生都是数学系三年级的学�?,
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56280,
+                            "question_id": 14070,
+                            "is_answer": false,
+                            "choice": "三年级的男生都是数学系的学生",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.64,
+                    "difficulty_score": 0.37,
+                    "avg_time_spent": 54459,
+                    "tags": "近期易错,近期273人做�?,
+                    "ai_tags": "随机事件,事件的运�?
+                },
+                {
+                    "id": 14071,
+                    "subject_id": 3,
+                    "chapter_id": 258,
+                    "question_id": "196e4be9-7b89-4216-b78f-527cff3331c3",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$U$ 为基本空间， $A, B, C$ �?$U$ 中的事件，且 $U=\\{0 \\leq x \\leq 5\\}, A=\\{0 \\leq x \\leq 3\\}, B=\\{1 \\leq x \\leq 2\\}$, �?$A-B=()$.",
+                    "analysis": "如图, �?$A-B=\\{0 \\leq x<1\\} \\cup\\{2<x \\leq 3\\}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/a7f71e8cf6074f9db7f52859bb663afc",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56283,
+                            "question_id": 14071,
+                            "is_answer": true,
+                            "choice": "$\\{0 \\leq x<1\\} \\cup\\{2<x \\leq 3\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56284,
+                            "question_id": 14071,
+                            "is_answer": false,
+                            "choice": "$\\{0 \\leq x<2\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56281,
+                            "question_id": 14071,
+                            "is_answer": false,
+                            "choice": "$\\{1<x \\leq 3\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56282,
+                            "question_id": 14071,
+                            "is_answer": false,
+                            "choice": "$\\{0<x \\leq 1\\} \\cup\\{2 \\leq x<3\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.89,
+                    "difficulty_score": 0.23,
+                    "avg_time_spent": 165560,
+                    "tags": "近期易错,近期74人做�?,
+                    "ai_tags": "事件的关系与运算,差事�?
+                },
+                {
+                    "id": 14072,
+                    "subject_id": 3,
+                    "chapter_id": 258,
+                    "question_id": "a18c2384-c1ae-4a9b-a0b7-44db11bd30e8",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$A, B$ 是任意两个随机事�? 则以下等式正确的�?( ).",
+                    "analysis": "首先应明�?$A+B=A \\cup B, A-B=A \\cap \\bar{B}$, 所以含�?$2 B, A^2$ 之类的选项先排除掉.根据事件运算的分配律�?$(A+B)-B=(A \\cup B) \\cap \\bar{B}=(A \\cap \\bar{B}) \\cup(B \\cap \\bar{B})=A \\cap \\bar{B}$,所�?$A[(A+B)-B]=A \\cap(A \\cap \\bar{B})=A \\cap \\bar{B}=A-B$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/0512ab0494444342887c3fef16b306c5",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56285,
+                            "question_id": 14072,
+                            "is_answer": true,
+                            "choice": "$A[(A+B)-B]=A-B$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56286,
+                            "question_id": 14072,
+                            "is_answer": false,
+                            "choice": "$(A+B)-B=A$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56287,
+                            "question_id": 14072,
+                            "is_answer": false,
+                            "choice": "$(A-B)-B=A-2 B$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56288,
+                            "question_id": 14072,
+                            "is_answer": false,
+                            "choice": "$A(A-B)=A^2-A B$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.52,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 156936,
+                    "tags": "近期易错,近期376人做�?,
+                    "ai_tags": "随机事件,事件的关系与运算"
+                },
+                {
+                    "id": 14074,
+                    "subject_id": 3,
+                    "chapter_id": 258,
+                    "question_id": "ddf89906-590c-42dc-9a63-591128974ed7",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$A, B$ 是两个随机事�? �?$P((\\bar{A}+B)(A+B)(\\bar{A}+\\bar{B})(A+\\bar{B}))=()$.",
+                    "analysis": "由于 $(\\bar{A}+B)(A+B)(\\bar{A}+\\bar{B})(A+\\bar{B})=[(\\bar{A}+B)(A+B)][\\overline{(\\bar{A}+B)(A+B)}]=\\varnothing$, 所以答案是 0 .",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/f7cb01c0e6444eacb54369d1a26145fd",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56293,
+                            "question_id": 14074,
+                            "is_answer": true,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56295,
+                            "question_id": 14074,
+                            "is_answer": false,
+                            "choice": "$0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56294,
+                            "question_id": 14074,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56296,
+                            "question_id": 14074,
+                            "is_answer": false,
+                            "choice": "$0.25$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.81,
+                    "difficulty_score": 0.3,
+                    "avg_time_spent": 156140,
+                    "tags": "近期易错,近期145人做�?,
+                    "ai_tags": "随机事件,事件运算,概率"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 18,
+            "questions": [
+                {
+                    "id": 19364,
+                    "subject_id": 3,
+                    "chapter_id": 258,
+                    "question_id": "d75fbb51-2032-428b-87f5-0319d9abe26b",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "$A, B$ 为任意二事件, �?$\\overline{A-B}=( \\quad )$.",
+                    "analysis": "根据 $A-B=A \\bar{B}$ 及事件运算规律之对偶律知: $\\overline{A-B}=\\overline{A \\bar{B}}=\\bar{A} \\cup B$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340389
+                    },
+                    "question_json": "mathreact/ab5fc220d609429294e5ed39dab268e3",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88712,
+                            "question_id": 19364,
+                            "is_answer": true,
+                            "choice": "$\\bar{A} \\cup B$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 88713,
+                            "question_id": 19364,
+                            "is_answer": false,
+                            "choice": "$\\overline{B-A}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 88714,
+                            "question_id": 19364,
+                            "is_answer": false,
+                            "choice": "$B-A$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 88715,
+                            "question_id": 19364,
+                            "is_answer": false,
+                            "choice": "$\\bar{A} B$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.77,
+                    "difficulty_score": 0.29,
+                    "avg_time_spent": 81225,
+                    "tags": "近期易错,近期171人做�?,
+                    "ai_tags": "概率�?事件运算,对偶�?
+                },
+                {
+                    "id": 19378,
+                    "subject_id": 3,
+                    "chapter_id": 258,
+                    "question_id": "b2366ebc-fdfe-4ab6-8bc4-4e9533969d1a",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "从自然数 1 �?10 中任取一�? �?$A$ 表示事件 \"取得的数是偶数\" , $B$ 表示事件 \"取得的数小于 5 \", �?$\\overline{A B}$ 表示事件（）�?,
+                    "analysis": "依题意有\n$$\n\\Omega=\\{1,2,3,4,5,6,7,8,9,10\\}, A=\\{2,4,6,8,10\\}, B=\\{1,2,3,4\\} .\n$$\n从�?$A B=\\{2,4\\}$, 于是\n$$\n\\overline{A B}=\\Omega-A B=\\{1,3,5,6,7,8,9,10\\}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340434
+                    },
+                    "question_json": "mathreact/590dd7867ef741118034db6fbed998f7",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88810,
+                            "question_id": 19378,
+                            "is_answer": true,
+                            "choice": "$\\{1,3,5,6,7,8,9,10\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 88811,
+                            "question_id": 19378,
+                            "is_answer": false,
+                            "choice": "$\\{1,3,5,7,9\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 88812,
+                            "question_id": 19378,
+                            "is_answer": false,
+                            "choice": "$\\{2,4\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 88813,
+                            "question_id": 19378,
+                            "is_answer": false,
+                            "choice": "$\\{1,3,5\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.23,
+                    "avg_time_spent": 81724,
+                    "tags": "近期42人做�?,
+                    "ai_tags": "事件的关系与运算,概率�?
+                },
+                {
+                    "id": 19384,
+                    "subject_id": 3,
+                    "chapter_id": 258,
+                    "question_id": "0095d1eb-42e0-476d-ba86-d9d5cac3bffc",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$A$ �?$B$ 是任意两个事�? 则下列说法不正确的是 ( ) .",
+                    "analysis": "(1) 由事件运算的性质, 有\n$$\n\\begin{aligned}\n& (A \\cup B)(A \\cup \\bar{B}) = AA \\cup A\\bar{B} \\cup BA \\cup B\\bar{B} = A \\cup A(\\bar{B} \\cup B) = A, \\\\\n& (\\bar{A} \\cup B)(\\bar{A} \\cup \\bar{B}) = \\bar{A}\\bar{A} \\cup \\bar{A}\\bar{B} \\cup B\\bar{A} \\cup B\\bar{B} = \\bar{A} \\cup \\bar{A}(B \\cup \\bar{B}) = \\bar{A},\n\\end{aligned}\n$$\n所�?$(A \\cup B)(A \\cup \\bar{B})(\\bar{A} \\cup B)(\\bar{A} \\cup \\bar{B}) = A\\bar{A} = \\varnothing$.\n\n(2) 由事件运算的性质, 有\n$$\n\\begin{aligned}\nAB \\cup \\bar{A}B \\cup A\\bar{B} \\cup \\bar{A}\\bar{B} - \\overline{AB} &= (A \\cup \\bar{A})B \\cup (A \\cup \\bar{A})\\bar{B} - \\overline{AB} \\\\\n&= B \\cup \\bar{B} - \\overline{AB} = S - \\overline{AB} = AB.\n\\end{aligned}\n$$\n\n(3) 由定�? �?$A - B = A\\bar{B}$, 并且\n$$\n(A \\cup B) - B = (A \\cup B)\\bar{B} = A\\bar{B} \\cup B\\bar{B} = A\\bar{B} \\cup \\varnothing = A\\bar{B},\n$$\n�?$A - AB = A\\overline{AB} = A(\\bar{A} \\cup \\bar{B}) = A\\bar{A} \\cup A\\bar{B} = A\\bar{B}$.\n所�?$(A \\cup B) - B = A - AB = A\\bar{B} = A - B$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340459
+                    },
+                    "question_json": "mathreact/0d8b3798945e4bb998f3c3bc3b53ebd2",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88852,
+                            "question_id": 19384,
+                            "is_answer": true,
+                            "choice": "$AB \\cup \\bar{A}B \\cup A\\bar{B} \\cup \\bar{A}\\bar{B} - \\overline{AB} = \\varnothing$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 88853,
+                            "question_id": 19384,
+                            "is_answer": false,
+                            "choice": "$(A \\cup B)(A \\cup \\bar{B})(\\bar{A} \\cup B)(\\bar{A} \\cup \\bar{B}) = \\varnothing$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 88854,
+                            "question_id": 19384,
+                            "is_answer": false,
+                            "choice": "$(A \\cup B) - B = A - AB$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 88855,
+                            "question_id": 19384,
+                            "is_answer": false,
+                            "choice": "$(A \\cup B) - B = A\\bar{B}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.64,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 150813,
+                    "ai_tags": "事件运算,概率�?
+                },
+                {
+                    "id": 19387,
+                    "subject_id": 3,
+                    "chapter_id": 258,
+                    "question_id": "1e38c5c9-67b2-4100-8e40-428b21dd691c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设事�?$A, B, C$ 满足 $ABC \\neq \\varnothing$, 则下列表示不正确的是 ( ).",
+                    "analysis_image": "/XDSys/TK/GL/5/Easy/5_Easy_1e38c5c9-67b2-4100-8e40-428b21dd691c/5_Easy_1e38c5c9-67b2-4100-8e40-428b21dd691c_5.webp",
+                    "analysis_image_hash": "a0f03f02f60f323f",
+                    "question_render_type": 1,
+                    "analysis_render_type": 2,
+                    "created_at": {
+                        "seconds": 1764340462
+                    },
+                    "question_json": "mathreact/74de373732c546f2b79dde81711e9824",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88873,
+                            "question_id": 19387,
+                            "is_answer": true,
+                            "choice": "$A \\cup B \\cup C=A\\bar{B}\\bar{C}+A\\bar{B}C+AB\\bar{C}+ABC$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 88874,
+                            "question_id": 19387,
+                            "is_answer": false,
+                            "choice": "$AB \\cup C=AB\\bar{C}+C$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 88875,
+                            "question_id": 19387,
+                            "is_answer": false,
+                            "choice": "$B-AC=AB\\bar{C}+\\bar{A}B\\bar{C}+\\bar{A}BC$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 88876,
+                            "question_id": 19387,
+                            "is_answer": false,
+                            "choice": "$B-AC=B\\bar{C}+\\bar{A}BC$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.57,
+                    "difficulty_score": 0.39,
+                    "avg_time_spent": 171684,
+                    "ai_tags": "事件的运�?文氏�?
+                },
+                {
+                    "id": 19392,
+                    "subject_id": 3,
+                    "chapter_id": 258,
+                    "question_id": "7f53eb92-0c04-4285-bf55-f4452f2f332b",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "下列各式不正确的�?( ).",
+                    "analysis": "对于选项“若 $A \\subset B$, �?$\\bar{B} \\subset \\bar{A}$”：该命题成立。否�?$B$ 不发生不导致 $A$ 不发生，换言之，$B$ 不发生导�?$A$ 发生，即 $\\bar{B} \\subset A$，又因为 $A \\subset B$，则 $\\bar{B} \\subset B$，矛盾。\n\n对于选项�?(A \\cup B)-B=A$”：该式不一定成立。利用事件运算的分配律，有\n$$\n(A \\cup B)-B=(A \\cup B) \\bar{B}=A \\bar{B} \\cup \\varnothing=A \\bar{B}=A-A B \\subset A\n$$\n显然�?A-A B$ 一般不等于 $A$，故该选项不一定成立，只当 $A, B$ 互不相容时，等式成立。\n\n对于选项�?A(B-C)=A B-A C$”：该式成立。右�?$=A B \\overline{A C}=A B(\\bar{A} \\cup \\bar{C})=\\varnothing \\cup A B \\bar{C}=A(B \\bar{C})=A(B-C)=$ 左边。以上等式关系是可逆的，所以又可证明左�?$=$ 右边。\n\n对于选项�?\\overline{(\\overline{A B} \\cup C)(\\overline{A C})}=A(B \\cup C)$”：由事件运算和性质，有\n$$\n\\overline{(\\overline{A B} \\cup C)(\\overline{A C})}=\\overline{\\overline{A B} \\cup C} \\cup A C=\\overline{\\overline{A B}} \\bar{C} \\cup A C=A B \\bar{C} \\cup A C=A(B \\bar{C} \\cup C)=A(B \\cup C)\n$$\n故该式正确�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340478
+                    },
+                    "question_json": "mathreact/1e7bff9e2faf4c97b42d821039dbc070",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88908,
+                            "question_id": 19392,
+                            "is_answer": true,
+                            "choice": "$(A \\cup B)-B=A$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 88909,
+                            "question_id": 19392,
+                            "is_answer": false,
+                            "choice": "�?$A \\subset B$, �?$\\bar{B} \\subset \\bar{A}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 88910,
+                            "question_id": 19392,
+                            "is_answer": false,
+                            "choice": "$A(B-C)=A B-A C$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 88911,
+                            "question_id": 19392,
+                            "is_answer": false,
+                            "choice": "$\\overline{(\\overline{A B} \\cup C)(\\overline{A C})}=A(B \\cup C)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.78,
+                    "difficulty_score": 0.28,
+                    "avg_time_spent": 167918,
+                    "ai_tags": "事件运算,概率�?
+                },
+                {
+                    "id": 19397,
+                    "subject_id": 3,
+                    "chapter_id": 258,
+                    "question_id": "4bd129ac-5186-4a52-a30d-9a2d585ab8ed",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "下列各式不正确的�?( ).",
+                    "analysis": "利用运算性质和运算律，有\n(1)\n$$\n\\begin{aligned}\nA \\cup B & =(A \\cup B) \\cap S=(A \\cup B) \\cap(A \\cup \\bar{A}) \\\\\n& =A \\cup A B \\cup B \\bar{A}=A \\cup B \\bar{A}\n\\end{aligned}\n$$\n(2) $\\overline{A B}-\\overline{\\bar{A} B}=\\overline{A B} \\cap \\bar{A} B=(\\bar{A} \\cup \\bar{B}) \\cap(\\bar{A} B)=\\bar{A} B=B-A$.\n(3)\n$$\n\\begin{aligned}\n\\overline{A B \\cup \\bar{A} \\bar{B}} & = \\overline{A B} \\cap \\overline{\\bar{A} \\bar{B}} \\\\\n& =(\\bar{A} \\cup \\bar{B}) \\cap(A \\cup B) \\\\\n& =\\bar{A} A \\cup \\bar{B} A \\cup \\bar{A} B \\cup \\bar{B} B=A \\bar{B} \\cup B \\bar{A}=(A-B) \\cup(B-A)\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340486
+                    },
+                    "question_json": "mathreact/b6598666ac8e494e88674b6cc7dacd92",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88943,
+                            "question_id": 19397,
+                            "is_answer": true,
+                            "choice": "$A-B=\\overline{A B}-\\overline{\\bar{A} B}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 88944,
+                            "question_id": 19397,
+                            "is_answer": false,
+                            "choice": "$A \\cup B=A \\cup B \\bar{A}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 88945,
+                            "question_id": 19397,
+                            "is_answer": false,
+                            "choice": "$(A-B) \\cup(B-A)=\\overline{A B \\cup \\bar{A} \\bar{B}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 88946,
+                            "question_id": 19397,
+                            "is_answer": false,
+                            "choice": "$A B \\cup \\bar{A} B=A B \\cup B \\bar{A}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.59,
+                    "difficulty_score": 0.44,
+                    "avg_time_spent": 193370,
+                    "tags": "近期易错,近期275人做�?,
+                    "ai_tags": "集合运算,集合恒等�?
+                },
+                {
+                    "id": 20437,
+                    "subject_id": 3,
+                    "chapter_id": 258,
+                    "question_id": "8e4e2b09-b495-4002-8862-e625ca8ce7fe",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$A, B, C$ 为随机试验中的三个事�? �?$\\overline{A \\cup B \\cup C}$ 等于 ( ).",
+                    "analysis": "根据事件运算规律之对偶律�? $\\overline{A \\cup B \\cup C}=\\bar{A} \\cap \\bar{B} \\cap \\bar{C}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764382180
+                    },
+                    "question_json": "mathreact/766ebe5752724e9fb04b0a66d7c1031b",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 96223,
+                            "question_id": 20437,
+                            "is_answer": true,
+                            "choice": "$\\bar{A} \\cap \\bar{B} \\cap \\bar{C}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 96224,
+                            "question_id": 20437,
+                            "is_answer": false,
+                            "choice": "$A \\cup B \\cup C$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 96225,
+                            "question_id": 20437,
+                            "is_answer": false,
+                            "choice": "$A \\cap B \\cap C$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 96226,
+                            "question_id": 20437,
+                            "is_answer": false,
+                            "choice": "$A \\cup B \\cup C$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.95,
+                    "difficulty_score": 0.2,
+                    "avg_time_spent": 115472,
+                    "tags": "",
+                    "ai_tags": "概率�?随机事件,对偶�?
+                },
+                {
+                    "id": 20505,
+                    "subject_id": 3,
+                    "chapter_id": 258,
+                    "question_id": "f1a7ac32-2a51-4d3a-bed9-709ec0f58a20",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$A, B$ 为两个不同事�? 下列等式中有哪个是正确的 ().",
+                    "analysis": "由事件的运算规律之对偶律: $\\overline{A \\cup B}=\\bar{A} \\cap \\bar{B}, \\overline{A \\cap B}=\\bar{A} \\cup \\bar{B}$, 即可得到正确选项.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764384452
+                    },
+                    "question_json": "mathreact/3efec8e58a744ba3aff3d68fa5b71835",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 96699,
+                            "question_id": 20505,
+                            "is_answer": true,
+                            "choice": "$\\overline{A \\cap B}=\\bar{A} \\cup \\bar{B}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 96700,
+                            "question_id": 20505,
+                            "is_answer": false,
+                            "choice": "$\\overline{A \\cap B}=A \\cap B$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 96701,
+                            "question_id": 20505,
+                            "is_answer": false,
+                            "choice": "$\\overline{A \\cup B}=A \\cup B$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 96702,
+                            "question_id": 20505,
+                            "is_answer": false,
+                            "choice": "$\\overline{A \\cup B}=(A \\cap B) \\cup(A B)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.22,
+                    "avg_time_spent": 47346,
+                    "ai_tags": "事件的关系与运算,对偶�?
+                }
+            ]
+        }
+    }
+]

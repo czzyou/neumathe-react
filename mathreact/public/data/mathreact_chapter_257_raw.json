@@ -1,0 +1,774 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 9,
+            "questions": [
+                {
+                    "id": 13836,
+                    "subject_id": 3,
+                    "chapter_id": 257,
+                    "question_id": "caef3548-5c30-4a44-8e37-20034956bc8c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$A$ 表示事件\"防空兵击中飞机\"�?$B$ 表示事件 \"防空兵击落飞机\"，则 $A$ �?$B$ 的关系是（）�?,
+                    "analysis": "防空兵击落飞机必然击中飞机，但击中飞机不一定就必然击落飞机，所以事�?$B$ 发生必然导致事件 $A$ 发生，反之不�? �?$A \\supset B$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/9c49ced35bb94ce7957897b8be6544b9",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55341,
+                            "question_id": 13836,
+                            "is_answer": true,
+                            "choice": "$A \\supset B$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55342,
+                            "question_id": 13836,
+                            "is_answer": false,
+                            "choice": "$A \\subset B$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55344,
+                            "question_id": 13836,
+                            "is_answer": false,
+                            "choice": "$A \\cap B=\\varnothing$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55343,
+                            "question_id": 13836,
+                            "is_answer": false,
+                            "choice": "$A$ �?$B$ 独立",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.69,
+                    "difficulty_score": 0.37,
+                    "avg_time_spent": 76801,
+                    "ai_tags": "随机事件,事件的关�?
+                },
+                {
+                    "id": 13837,
+                    "subject_id": 3,
+                    "chapter_id": 257,
+                    "question_id": "f5bb6f29-5f10-4540-83e7-8dd3b8c8f23d",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "如果 $A \\cup B=A$, �?$A B=A$, 则事�?$A$ �?$B$ 满足的关系是 ( ).",
+                    "analysis": "$\\begin{aligned} & \\left.\\begin{array}{c}A \\cup B=A, \\\\ B \\subset A \\cup B\\end{array}\\right\\} \\Rightarrow B \\subset A, \\\\ & \\left.\\begin{array}{c}A B=A, \\\\ A B \\subset B\\end{array}\\right\\} \\Rightarrow A \\subset B, \\\\ & \\text { 所�?} A=B .\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/9f0a3dbc872a407a96e0d544d5668115",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55348,
+                            "question_id": 13837,
+                            "is_answer": true,
+                            "choice": "$A$ �?$B$ 相等",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55345,
+                            "question_id": 13837,
+                            "is_answer": false,
+                            "choice": "$A$ �?$B$ 对立",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55347,
+                            "question_id": 13837,
+                            "is_answer": false,
+                            "choice": "$A$ �?$B$ 互斥",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55346,
+                            "question_id": 13837,
+                            "is_answer": false,
+                            "choice": "$A$ �?$B$ 独立",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.95,
+                    "difficulty_score": 0.18,
+                    "avg_time_spent": 70785,
+                    "tags": "近期42人做�?,
+                    "ai_tags": "随机事件,事件的关系与运算"
+                },
+                {
+                    "id": 13838,
+                    "subject_id": 3,
+                    "chapter_id": 257,
+                    "question_id": "37c6bf84-4270-43eb-bf0c-aec57807c658",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$P=\\left\\{(x, y) \\mid x^2+y^2=1\\right\\}, Q=\\left\\{(x, y) \\mid x^2+y^2=4\\right\\}$, �?( ).",
+                    "analysis": "$P$ �?$Q$ 分别表示两个圆上的点的集�? 两个圆没有相�? 所以这两个集合没有任何关系.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/43b5b423fd01469fadfc7abe1953f672",
+                    "updated_at": {
+                        "seconds": 1775673111
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55350,
+                            "question_id": 13838,
+                            "is_answer": true,
+                            "choice": "$P \\subset Q$ �?$P \\supset Q$ 都不�?,
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55351,
+                            "question_id": 13838,
+                            "is_answer": false,
+                            "choice": "$P \\subset Q$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55349,
+                            "question_id": 13838,
+                            "is_answer": false,
+                            "choice": "$P \\supset Q$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55352,
+                            "question_id": 13838,
+                            "is_answer": false,
+                            "choice": "$4 P=Q$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.67,
+                    "difficulty_score": 0.33,
+                    "avg_time_spent": 41564,
+                    "tags": "近期易错,近期301人做�?,
+                    "ai_tags": "集合,平面解析几何"
+                },
+                {
+                    "id": 13839,
+                    "subject_id": 3,
+                    "chapter_id": 257,
+                    "question_id": "d494dccb-245f-43ab-ad5d-2a325b2a0f50",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "随机试验 $E$ 为：统计某路段一个月中的重大交通事故的次数：\n$A_1$ 表示事件\"无重大交通事故\"；\n$A_2$ 表示事件 \"至少有一次重大交通事故\"；\n$A_3$ 表示事件 \"重大交通事故的次数大于 1 \"�?$A_4$ 表示事件 \"重大交通事故的次数小于 2 \".\n则相容的事件�?().",
+                    "analysis": "相容事件: �?$B_1 \\cap B_2 \\neq \\varnothing$, 则称事件 $B_1$ 与事�?$B_2$ 是相容的.\n对于选项�? $A_1 \\cap A_3=\\varnothing, A_3 \\cap A_4=\\varnothing, A_1 \\cap A_2=\\varnothing, A_2 \\cap A_4 \\neq \\varnothing$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/b8ab01a057fd4a2fa66d65111b7b19d3",
+                    "updated_at": {
+                        "seconds": 1775673114
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55353,
+                            "question_id": 13839,
+                            "is_answer": true,
+                            "choice": "$A_2$ �?$A_4$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55355,
+                            "question_id": 13839,
+                            "is_answer": false,
+                            "choice": "$A_1$ �?$A_3$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55356,
+                            "question_id": 13839,
+                            "is_answer": false,
+                            "choice": "$A_3$ �?$A_4$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55354,
+                            "question_id": 13839,
+                            "is_answer": false,
+                            "choice": "$A_1$ �?$A_2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.74,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 265447,
+                    "tags": "近期易错,近期203人做�?,
+                    "ai_tags": "随机事件,事件的关系与运算"
+                },
+                {
+                    "id": 13840,
+                    "subject_id": 3,
+                    "chapter_id": 257,
+                    "question_id": "ebf05a48-559f-4105-b5b1-59c528d80c68",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$A, B, C$ �?3 个事�? 与事�?$A$ 互不相容的事件是 ().",
+                    "analysis": "与事�?$A$ 互斥的事件就是要找到与事�?$A$ 不能同时发生的事�? 通过观察可以看出只有 $\\overline{A \\cup B \\cup C}$ 是正确的.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/ad4f21202c8a427fa71e0432da433a77",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55357,
+                            "question_id": 13840,
+                            "is_answer": true,
+                            "choice": "$\\overline{A \\cup B \\cup C}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55360,
+                            "question_id": 13840,
+                            "is_answer": false,
+                            "choice": "$\\bar{A} B+A \\bar{C}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55358,
+                            "question_id": 13840,
+                            "is_answer": false,
+                            "choice": "$\\overline{A(B+C)}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55359,
+                            "question_id": 13840,
+                            "is_answer": false,
+                            "choice": "$\\bar{A} \\cup C$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.69,
+                    "difficulty_score": 0.36,
+                    "avg_time_spent": 85246,
+                    "tags": "近期易错,近期260人做�?,
+                    "ai_tags": "随机事件,互不相容"
+                },
+                {
+                    "id": 13842,
+                    "subject_id": 3,
+                    "chapter_id": 257,
+                    "question_id": "3f50ae23-510d-43da-bfcf-89c31500c617",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "随机试验 $E$ 为：统计某路段一个月中的重大交通事故的次数：\n$A_1$ 表示事件\"无重大交通事故\"；\n$A_2$ 表示事件 \"至少有一次重大交通事故\";\n$A_3$ 表示事件 \"重大交通事故的次数大于 1 \"�?$A_4$ 表示事件\"重大交通事故的次数小于 2 \"。\n则互不相容的事件�?( ).",
+                    "analysis": "若两个事件是不能同时发生�? 则这两个事件是互不相容的.对于四个选项�? 只有 $A_3, A_4$ 两个事件是不能同时发生的.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/57f6440032154904a56622ee549a14bc",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55367,
+                            "question_id": 13842,
+                            "is_answer": true,
+                            "choice": "$A_3$ �?$A_4$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55366,
+                            "question_id": 13842,
+                            "is_answer": false,
+                            "choice": "$A_2$ �?$A_3$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55365,
+                            "question_id": 13842,
+                            "is_answer": false,
+                            "choice": "$A_1$ �?$A_4$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55368,
+                            "question_id": 13842,
+                            "is_answer": false,
+                            "choice": "$A_2$ �?$A_4$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.65,
+                    "difficulty_score": 0.31,
+                    "avg_time_spent": 50236,
+                    "tags": "近期易错,近期267人做�?,
+                    "ai_tags": "随机事件,互不相容"
+                },
+                {
+                    "id": 13844,
+                    "subject_id": 3,
+                    "chapter_id": 257,
+                    "question_id": "16faa9a0-22ed-4e37-8625-84cbfb6ee5c6",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "掷一颗骰子的试验, 观察其出现的点数, 事件 $A=$ \"偶数点\" , $B=$ \"奇数点\", $C=$ \"点数小于 5 \" $D=$ \"点数为小�?5 的偶数\"，则下列说法中不正确的是 ( ).",
+                    "analysis": "易知样本空间 $S=\\{1,2,3,4,5,6\\}$, 则\n$$\n\\begin{aligned}\n& A=\\{2,4,6\\}, \\quad B=\\{1,3,5\\}, \\\\\n& C=\\{1,2,3,4\\}, D=\\{2,4\\} .\n\\end{aligned}\n$$\n\n从�?$D \\subset A, D \\subset C, \\bar{A}=B, B \\cap D=\\varnothing$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/ba488124e7f8488aaa6e9013b5a54c75",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55375,
+                            "question_id": 13844,
+                            "is_answer": true,
+                            "choice": "$B \\cap D \\neq \\varnothing$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55374,
+                            "question_id": 13844,
+                            "is_answer": false,
+                            "choice": "$D \\subset A$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55376,
+                            "question_id": 13844,
+                            "is_answer": false,
+                            "choice": "$D \\subset C$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55373,
+                            "question_id": 13844,
+                            "is_answer": false,
+                            "choice": "$\\bar{A}=B$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.29,
+                    "avg_time_spent": 62619,
+                    "ai_tags": "随机事件,事件的关系与运算"
+                },
+                {
+                    "id": 19216,
+                    "subject_id": 3,
+                    "chapter_id": 257,
+                    "question_id": "0f6680cc-32ce-4a62-afdf-c412de83a880",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$A$ 表示事件“掷一颗骰子出现偶数点”，$B$ 表示事件“掷一颗骰子出�?2 点”，�?$A$ �?$B$ 的关系是（）�?,
+                    "analysis": "当骰子出�?2 点时, 骰子也就是出现了偶数�? 即事�?$B$ 的发生必然导致事�?$A$ 的发�? 所�?$A \\supset B$. 而掷一次骰子的全集�?$\\Omega=\\{1,2,3,4,5,6\\}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340081
+                    },
+                    "question_json": "mathreact/a7a0ade2222249a99c68b9a419c2adf7",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87676,
+                            "question_id": 19216,
+                            "is_answer": true,
+                            "choice": "$A \\supset B$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87677,
+                            "question_id": 19216,
+                            "is_answer": false,
+                            "choice": "$A \\subset B$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87678,
+                            "question_id": 19216,
+                            "is_answer": false,
+                            "choice": "$A \\cup B=\\Omega$ ( $\\Omega$ 为全�?$)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87679,
+                            "question_id": 19216,
+                            "is_answer": false,
+                            "choice": "$A \\cap B=\\varnothing$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.18,
+                    "avg_time_spent": 39562,
+                    "tags": "近期49人做�?,
+                    "ai_tags": "随机事件,事件的关�?
+                },
+                {
+                    "id": 19217,
+                    "subject_id": 3,
+                    "chapter_id": 257,
+                    "question_id": "3d1abedb-91e3-4d82-a91e-9361dc274f93",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$A$ 表示事件 \"甲种产品滞销, 且乙种产品滞销\", 则其逆事�?$\\bar{A}$ �?( ).",
+                    "analysis": "�?$B=\\{$甲种产品畅销$\\}, C=\\{$乙种产品畅销$\\}$, �?$A=\\overline{B}\\overline{C}=\\overline{B \\cup C}$. 因此 $\\bar{A}=\\overline{\\overline{B \\cup C}}=B \\cup C$. �?$\\bar{A}$ 表示 “甲种产品、乙种产品至少有一种畅销�?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340081
+                    },
+                    "question_json": "mathreact/b882ad736ddb4b3ea1a01263afdd0b88",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87683,
+                            "question_id": 19217,
+                            "is_answer": true,
+                            "choice": "\"甲种产品或乙种产品畅销\"",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87684,
+                            "question_id": 19217,
+                            "is_answer": false,
+                            "choice": "\"甲种产品滞销, 乙种产品畅销\"",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87685,
+                            "question_id": 19217,
+                            "is_answer": false,
+                            "choice": "\"甲、乙两种产品均畅销\"",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87686,
+                            "question_id": 19217,
+                            "is_answer": false,
+                            "choice": "\"甲种产品滞销\"",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.78,
+                    "difficulty_score": 0.34,
+                    "avg_time_spent": 30004,
+                    "tags": "近期易错,近期195人做�?,
+                    "ai_tags": "事件的关系与运算,逆事�?
+                }
+            ]
+        }
+    }
+]

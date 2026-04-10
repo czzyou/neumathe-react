@@ -1,0 +1,1197 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 14,
+            "questions": [
+                {
+                    "id": 13973,
+                    "subject_id": 3,
+                    "chapter_id": 300,
+                    "question_id": "2335920f-6620-4e94-9854-4e9c6150eab8",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\xi \\sim N(0,1)$, 且有 $\\Phi(2)=0.97725$, �?$P\\{\\xi>2\\}=()$.",
+                    "analysis": "由概率计算的逆事件求法得，\n$$\nP\\{\\xi>2\\}=1-P\\{\\xi \\leq 2\\}=1-\\Phi(2)=0.02275\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/f877918ac14541e1ab717a4a3de8b5fd",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55890,
+                            "question_id": 13973,
+                            "is_answer": true,
+                            "choice": "$0.02275$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55892,
+                            "question_id": 13973,
+                            "is_answer": false,
+                            "choice": "$0.97725$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55889,
+                            "question_id": 13973,
+                            "is_answer": false,
+                            "choice": "$0.95450$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55891,
+                            "question_id": 13973,
+                            "is_answer": false,
+                            "choice": "$0.4550$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.91,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 91392,
+                    "ai_tags": "正态分�?标准正态分�?
+                },
+                {
+                    "id": 13975,
+                    "subject_id": 3,
+                    "chapter_id": 300,
+                    "question_id": "ce898efd-1b88-4327-9422-5cbbdee67cc5",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\xi \\sim N(0,1), \\xi$ 的分布函�?$P\\{\\xi \\leq x\\}=F(x)(0<x<+\\infty)$, 用分布函�?$F(x)$ 之值表示概�?$P\\{\\xi>a\\}=()$ (其中 $a>0$ ).",
+                    "analysis": "标准正态分�?$F(x)$ �?$(a,+\\infty)$ 上的概率计算为\n$$\n\\begin{aligned}\n& P\\{X>a\\}=1-P\\{X \\leq a\\}=1-F(a), \\\\\n& \\text { �?} P\\{\\xi>a\\}=1-F(a) .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/d4b4f31bc8f2419392dab86596b2c95c",
+                    "updated_at": {
+                        "seconds": 1775673114
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55899,
+                            "question_id": 13975,
+                            "is_answer": true,
+                            "choice": "$1-F(a)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55898,
+                            "question_id": 13975,
+                            "is_answer": false,
+                            "choice": "$F(a)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55900,
+                            "question_id": 13975,
+                            "is_answer": false,
+                            "choice": "$2 F(a)-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55897,
+                            "question_id": 13975,
+                            "is_answer": false,
+                            "choice": "$2[1-F(a)]$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.91,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 70401,
+                    "ai_tags": "正态分�?分布函数,概率计算"
+                },
+                {
+                    "id": 13976,
+                    "subject_id": 3,
+                    "chapter_id": 300,
+                    "question_id": "ec5debe0-220b-4412-b031-8a4b370fc3f8",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\xi \\sim N(0,1)$, 且有 $\\Phi(2.2)=0.9861, \\Phi(0.8)=0.7881$, �?$P\\{0.8<\\xi<2.2\\}=()$.",
+                    "analysis": "标准正态分布在某区间内的概率计算式为\n$$\nP\\{a<X<b\\}=P\\{a \\leq X \\leq b\\}=P\\{a \\leq X<b\\}=P\\{a<X \\leq b\\}=\\Phi(b)-\\Phi(a) .\n$$\n\n�?$P\\{0.8<\\xi<2.2\\}=\\Phi(2.2)-\\Phi(0.8)=0.198$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/03d058d1cb5d4850bfaad266e09af42c",
+                    "updated_at": {
+                        "seconds": 1775586668
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55903,
+                            "question_id": 13976,
+                            "is_answer": true,
+                            "choice": "$0.1980$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55901,
+                            "question_id": 13976,
+                            "is_answer": false,
+                            "choice": "$0.8020$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55902,
+                            "question_id": 13976,
+                            "is_answer": false,
+                            "choice": "$0.2252$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55904,
+                            "question_id": 13976,
+                            "is_answer": false,
+                            "choice": "$0.7748$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.88,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 21314,
+                    "ai_tags": "概率�?正态分�?
+                },
+                {
+                    "id": 13983,
+                    "subject_id": 3,
+                    "chapter_id": 300,
+                    "question_id": "0a7ec7cc-3d4d-4a9e-97f6-5642ebc899c9",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\xi \\sim N(0,1), \\xi$ 的分布函�?$P\\{\\xi \\leq x\\}=F(x)(0 \\leq x<+\\infty)$ �?$a>0, b>0$, 用分布函�?$F(x)$ 之值表示概�?$P\\{-a<\\xi \\leq b\\}=()$.",
+                    "analysis": "由分布函数的概率计算式子 $P\\{a<X \\leq b\\}=F(b)-F(a)$ 有\n$$\nP\\{-a<\\xi \\leq b\\}=F(b)-F(-a) .\n$$\n\n又根据标准正态分布的对称性有 $\\Phi(-t)=1-\\Phi(t)(t>0)$, 所以\n$$\nP\\{-a<\\xi \\leq b\\}=F(b)-F(-a)=F(b)+F(a)-1 .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/1691a20c4a32441ba9034052a5079fe5",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55930,
+                            "question_id": 13983,
+                            "is_answer": true,
+                            "choice": "$F(b)+F(a)-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55929,
+                            "question_id": 13983,
+                            "is_answer": false,
+                            "choice": "$F(b)-F(a)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55931,
+                            "question_id": 13983,
+                            "is_answer": false,
+                            "choice": "$F(b)+F(a)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55932,
+                            "question_id": 13983,
+                            "is_answer": false,
+                            "choice": "$2-[F(b)+F(a)]$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.6,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 100037,
+                    "ai_tags": "正态分�?分布函数"
+                },
+                {
+                    "id": 13984,
+                    "subject_id": 3,
+                    "chapter_id": 300,
+                    "question_id": "2b61d011-ad3e-41b4-9f74-84af59434a46",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\xi \\sim N(0,1)$, 且有 $\\Phi(2.12)=0.983, \\Phi(1.16)=0.877$, �?$P\\{-2.12<\\xi<1.16\\}=()$.",
+                    "analysis": "标准正态分布在某区间内的概率计算式为\n$$\n\\begin{aligned}\n& P\\{a<X<b\\}=P\\{a \\leq X \\leq b\\}=P\\{a \\leq X<b\\}=P\\{a<X \\leq b\\}=\\Phi(b)-\\Phi(a) . \\\\\n& \\text { �?} P\\{-2.12<\\xi<1.16\\}=\\Phi(1.16)-\\Phi(-2.12) . \\\\\n& \\text { �?} \\Phi(-2.12)=1-\\Phi(2.12),\n\\end{aligned}\n$$\n$$\n\\text { 所�?} P\\{-2.12<\\xi<1.16\\}=\\Phi(1.16)-\\Phi(-2.12)=\\Phi(1.16)+\\Phi(2.12)-1=0.860 \\text {. }\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/d32809ce11a5449bbda185897887e623",
+                    "updated_at": {
+                        "seconds": 1775586662
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55933,
+                            "question_id": 13984,
+                            "is_answer": true,
+                            "choice": "$0.860$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55935,
+                            "question_id": 13984,
+                            "is_answer": false,
+                            "choice": "$0.106$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55936,
+                            "question_id": 13984,
+                            "is_answer": false,
+                            "choice": "$0.894$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55934,
+                            "question_id": 13984,
+                            "is_answer": false,
+                            "choice": "$0.140$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.88,
+                    "difficulty_score": 0.29,
+                    "avg_time_spent": 44500,
+                    "ai_tags": "标准正态分�?概率计算"
+                },
+                {
+                    "id": 13985,
+                    "subject_id": 3,
+                    "chapter_id": 300,
+                    "question_id": "c0a39d13-7fa3-47b3-9a19-24b406abb575",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\xi \\sim N(0,1)$, 且有 $\\Phi(1)=0.8413$, �?$P\\{\\xi>-1\\}=()$.",
+                    "analysis": "标准正态分�?$(a,+\\infty)$ 的概率计算式子为\n$$\n\\begin{aligned}\n& \\quad P\\{X>a\\}=1-P\\{X \\leq a\\}=1-\\Phi(a), \\\\\n& \\text { �?} \\quad \\Phi(-t)=1-\\Phi(t)(t \\geq 0), \\\\\n& \\text { 所�?} \\quad P\\{\\xi>-1\\}=1-\\Phi(-1)=1-(1-\\Phi(1))=\\Phi(1)=0.8413 .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/20386742101f42be8529dddc8a48041f",
+                    "updated_at": {
+                        "seconds": 1775671213
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55938,
+                            "question_id": 13985,
+                            "is_answer": true,
+                            "choice": "$0.8413$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55940,
+                            "question_id": 13985,
+                            "is_answer": false,
+                            "choice": "$0.6826$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55939,
+                            "question_id": 13985,
+                            "is_answer": false,
+                            "choice": "$0.1587$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55937,
+                            "question_id": 13985,
+                            "is_answer": false,
+                            "choice": "$0.3174$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 26269,
+                    "tags": "",
+                    "ai_tags": "标准正态分�?概率计算"
+                },
+                {
+                    "id": 13986,
+                    "subject_id": 3,
+                    "chapter_id": 300,
+                    "question_id": "0ef30fa2-13e7-4fb4-bf16-2dd168c7c7fd",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\xi \\sim N(0,1)$, 且有 $\\Phi(2)=0.97725$, �?$P\\{\\xi<2\\}=()$.",
+                    "analysis": "标准正态分布的概率计算式子之一为\n$$\nP\\{X \\leq a\\}=P\\{X<a\\}=\\Phi(a),\n$$\n\n�?$P\\{\\xi<2\\}=\\Phi(2)=0.97725$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/148acf3869f94b15954e5b72a281f5c9",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55942,
+                            "question_id": 13986,
+                            "is_answer": true,
+                            "choice": "$0.97725$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55944,
+                            "question_id": 13986,
+                            "is_answer": false,
+                            "choice": "$0.95450$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55941,
+                            "question_id": 13986,
+                            "is_answer": false,
+                            "choice": "$0.02275$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 55943,
+                            "question_id": 13986,
+                            "is_answer": false,
+                            "choice": "$0.04550$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.82,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 9183,
+                    "ai_tags": "标准正态分�?分布函数"
+                },
+                {
+                    "id": 19306,
+                    "subject_id": 3,
+                    "chapter_id": 300,
+                    "question_id": "18041795-8c1a-4a0a-8e78-21c56318239e",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\xi \\sim N(0,1)$, 已知 $\\xi$ 的分布函�?$P\\{\\xi \\leq x\\}=F(x)(0 \\leq x<+\\infty)$ �?$a>0$, 用分布函�?$F(x)$ 之值表示概�?$P\\{|\\xi|<a\\}=()$.",
+                    "analysis": "由标准正态分布的对称�? 有\n$$\nP\\{|\\xi|<a\\}=P\\{-a<\\xi<a\\}=F(a)-F(-a)=2 F(a)-1 .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340263
+                    },
+                    "question_json": "mathreact/160e7093aa274b2887d256f80eecfdad",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88306,
+                            "question_id": 19306,
+                            "is_answer": true,
+                            "choice": "$2 F(a)-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88307,
+                            "question_id": 19306,
+                            "is_answer": false,
+                            "choice": "$F(a)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88308,
+                            "question_id": 19306,
+                            "is_answer": false,
+                            "choice": "$1-F(a)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88309,
+                            "question_id": 19306,
+                            "is_answer": false,
+                            "choice": "$2[1-F(a)]$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.77,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 263282,
+                    "ai_tags": "正态分�?分布函数,概率计算"
+                },
+                {
+                    "id": 19312,
+                    "subject_id": 3,
+                    "chapter_id": 300,
+                    "question_id": "e72d27f4-9cec-4ed1-aa91-109bb074dd95",
+                    "difficulty": "Easy",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "�?$\\xi \\sim N(0,1)$, 已知 $\\xi$ 的分布函数为 $P\\{\\xi \\leq x\\}=F(x)(0 \\leq x<+\\infty)$ �?$0<a<b$, 用分布函�?$F(x)$ 之值表示概�?$P\\{-b<\\xi \\leq-a\\}=()$.",
+                    "analysis": "标准正态分�?$F(x)$ �?$x=-t(t>0)$ 的概率计算为 $F(-t)=1-F(t)$,�?$P\\{-b<\\xi \\leq-a\\}=F(-a)-F(-b)=[1-F(a)]-[1-F(b)]=F(b)-F(a)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340272
+                    },
+                    "question_json": "mathreact/984cefe027be4191ab19707444ec2349",
+                    "updated_at": {
+                        "seconds": 1775673111
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88348,
+                            "question_id": 19312,
+                            "is_answer": false,
+                            "choice": "$F(a)+1-F(b)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88349,
+                            "question_id": 19312,
+                            "is_answer": false,
+                            "choice": "$2-[F(a)+F(b)]$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88350,
+                            "question_id": 19312,
+                            "is_answer": true,
+                            "choice": "$F(b)-F(a)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88351,
+                            "question_id": 19312,
+                            "is_answer": false,
+                            "choice": "$F(b)+F(a)-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.82,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 41511,
+                    "ai_tags": "正态分�?分布函数,概率计算"
+                },
+                {
+                    "id": 19319,
+                    "subject_id": 3,
+                    "chapter_id": 300,
+                    "question_id": "b1cca99f-d699-447f-8372-0170ff10dd98",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\xi \\sim N(0,1)$，已�?$\\xi$ 的分布函数为 $P\\{\\xi \\leq x\\}=F(x)(0 \\leq x<+\\infty)$ �?$0<a<b$，用分布函数 $F(x)$ 之值表示概�?$P\\{a<\\xi \\leq b\\}=(\\quad)$�?,
+                    "analysis": "$\\begin{aligned} & \\text { 由定�?} P\\{\\xi \\leq x\\}=F(x) \\text { �?} \\\\ & \\qquad P\\{a<\\xi \\leq b\\}=P\\{\\xi \\leq b\\}-P\\{\\xi \\leq a\\}=F(b)-F(a) .\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340287
+                    },
+                    "question_json": "mathreact/5f3946c3033e4eb8b77a86ecb6c356c2",
+                    "updated_at": {
+                        "seconds": 1775673114
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88397,
+                            "question_id": 19319,
+                            "is_answer": true,
+                            "choice": "$F(b)-F(a)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88398,
+                            "question_id": 19319,
+                            "is_answer": false,
+                            "choice": "$F(b)+F(a)-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88399,
+                            "question_id": 19319,
+                            "is_answer": false,
+                            "choice": "$F(a)+1-F(b)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88400,
+                            "question_id": 19319,
+                            "is_answer": false,
+                            "choice": "$2-[F(a)+F(b)]$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.96,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 26935,
+                    "ai_tags": "概率�?分布函数,正态分�?
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 14,
+            "questions": [
+                {
+                    "id": 19320,
+                    "subject_id": 3,
+                    "chapter_id": 300,
+                    "question_id": "f566e0c2-7d06-4ef8-818e-48ef05619794",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\xi \\sim N(0,1)$, 且有 $\\Phi(1.96)=0.975$, �?$P\\{|\\xi| > 1.96\\} = (\\quad)$.",
+                    "analysis": "标准正态分布在 $|X| \\leq a$ 的概率计算式为\n$$\nP\\{|X| \\leq a\\} = P\\{X \\leq a\\} - P\\{X \\leq -a\\} = 2\\Phi(a) - 1\n$$\n所以\n$$\nP\\{|\\xi| > 1.96\\} = 1 - P\\{|\\xi| \\leq 1.96\\} = 2 - 2\\Phi(1.96) = 2 - 2 \\times 0.975 = 0.05\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340292
+                    },
+                    "question_json": "mathreact/54d4f71788c74af1b18d4409fe444975",
+                    "updated_at": {
+                        "seconds": 1775673111
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88404,
+                            "question_id": 19320,
+                            "is_answer": true,
+                            "choice": "$0.05$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88405,
+                            "question_id": 19320,
+                            "is_answer": false,
+                            "choice": "$0.025$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88406,
+                            "question_id": 19320,
+                            "is_answer": false,
+                            "choice": "$0.10$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88407,
+                            "question_id": 19320,
+                            "is_answer": false,
+                            "choice": "$0.075$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.81,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 24623,
+                    "ai_tags": "正态分�?概率计算"
+                },
+                {
+                    "id": 19322,
+                    "subject_id": 3,
+                    "chapter_id": 300,
+                    "question_id": "1f23f317-da30-4d7e-8285-2741396e9c15",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\xi \\sim N(0,1)$�?\\xi$ 的分布函�?$P\\{\\xi \\leq x\\}=F(x)(-\\infty < x < +\\infty)$，用分布函数 $F(x)$ 之值表示概�?$P\\{\\xi \\leq -a\\}=(\\quad)$ (其中 $a>0)$�?,
+                    "analysis": "标准正态分�?$F(x)$ �?$x=-t(t>0)$ 的概率计算为 $F(-t)=1-F(t)$,�?$P\\{\\xi \\leq-a\\}=F(-a)=1-F(a)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340294
+                    },
+                    "question_json": "mathreact/c57fdcbd3f794fa8a8b9ade2d78c492c",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88418,
+                            "question_id": 19322,
+                            "is_answer": true,
+                            "choice": "$1-F(a)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88419,
+                            "question_id": 19322,
+                            "is_answer": false,
+                            "choice": "$F(a)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88420,
+                            "question_id": 19322,
+                            "is_answer": false,
+                            "choice": "$2 F(a)-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88421,
+                            "question_id": 19322,
+                            "is_answer": false,
+                            "choice": "$2[1-F(a)]$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.96,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 60838,
+                    "ai_tags": "正态分�?分布函数,概率计算"
+                },
+                {
+                    "id": 19325,
+                    "subject_id": 3,
+                    "chapter_id": 300,
+                    "question_id": "4e2cefdd-ac98-40ed-9b08-7042a040c218",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\xi \\sim N(0,1)$, 且有 $\\Phi(1.6)=0.9452$, �?$P\\{\\xi<-1.6\\}=()$.",
+                    "analysis": "标准正态分布在 $(-\\infty, a]$ 的概率计算为\n$$\nP\\{X \\leq a\\}=P\\{X<a\\}=\\Phi(a),\n$$\n�?$\\Phi(-t)=1-\\Phi(t)(t \\geq 0)$,\n所�?$P\\{\\xi<-1.6\\}=\\Phi(-1.6)=1-\\Phi(1.6)=0.0548$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340301
+                    },
+                    "question_json": "mathreact/f47f6f18e00642ad95990e216d4f007d",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88439,
+                            "question_id": 19325,
+                            "is_answer": true,
+                            "choice": "$0.0548$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88440,
+                            "question_id": 19325,
+                            "is_answer": false,
+                            "choice": "$0.1096$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88441,
+                            "question_id": 19325,
+                            "is_answer": false,
+                            "choice": "$0.8904$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88442,
+                            "question_id": 19325,
+                            "is_answer": false,
+                            "choice": "$0.9452$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.9,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 28984,
+                    "ai_tags": "正态分�?概率计算"
+                },
+                {
+                    "id": 20433,
+                    "subject_id": 3,
+                    "chapter_id": 300,
+                    "question_id": "542ebc04-dcd9-4796-9b72-f147fe5cdd39",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$X \\sim N(0,1)$, $X$ 的分布函数为 $\\Phi(x)$, �?$P\\{|X|>2\\}$ 的值为 ( ).",
+                    "analysis": "$$\n\\begin{aligned}\nP\\{|X|> 2\\} &= 1-P\\{|X| \\leq 2\\} \\\\\n&= 1-P\\{-2 \\leq X \\leq 2\\} \\\\\n&= 1-[\\Phi(2)-\\Phi(-2)],\n\\end{aligned}\n$$\n�?$\\Phi(-x)=1-\\Phi(x)$, 所以\n$$\nP\\{|X|>2\\}=2-2 \\Phi(2) .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764382172
+                    },
+                    "question_json": "mathreact/5ce59cd63dc64b11903ee5665fb1de5e",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 96195,
+                            "question_id": 20433,
+                            "is_answer": true,
+                            "choice": "$2[1-\\Phi(2)]$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 96196,
+                            "question_id": 20433,
+                            "is_answer": false,
+                            "choice": "$2 \\Phi(2)-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 96197,
+                            "question_id": 20433,
+                            "is_answer": false,
+                            "choice": "$2-\\Phi(2)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 96198,
+                            "question_id": 20433,
+                            "is_answer": false,
+                            "choice": "$1-2 \\Phi(2)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.83,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 35609,
+                    "ai_tags": "正态分�?分布函数"
+                }
+            ]
+        }
+    }
+]

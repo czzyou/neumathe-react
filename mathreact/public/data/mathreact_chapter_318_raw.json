@@ -1,0 +1,600 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 7,
+            "questions": [
+                {
+                    "id": 14021,
+                    "subject_id": 3,
+                    "chapter_id": 318,
+                    "question_id": "be66a442-74fc-4ca6-a9a7-1bc8e762291d",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "在元旦茶话会�? 每人发给一袋水�? 内装 3 只橘�? 2 只苹�? 3 只香�? 今从袋中随机抽出 4 �?�?$X$ 记橘子数, $Y$ 记苹果数, �?$P\\{X=2, Y=1\\}=()$.",
+                    "analysis": "$P\\{X=2, Y=1\\}=C_3^2 C_2^1 C_3^1 / C_8^4=\\frac{18}{70}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/62ffef5ab9394cad8547256c1ced8c5f",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56081,
+                            "question_id": 14021,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{70}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 56084,
+                            "question_id": 14021,
+                            "is_answer": true,
+                            "choice": "$\\frac{18}{70}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 56082,
+                            "question_id": 14021,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{70}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 56083,
+                            "question_id": 14021,
+                            "is_answer": false,
+                            "choice": "$\\frac{9}{70}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.63,
+                    "difficulty_score": 0.47,
+                    "avg_time_spent": 288855,
+                    "ai_tags": "古典概型,多维随机变量"
+                },
+                {
+                    "id": 14022,
+                    "subject_id": 3,
+                    "chapter_id": 318,
+                    "question_id": "ee491dc4-1a68-4346-b5a7-1b7702df69d0",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设在 $1,2,3,4$ 四个整数中等可能地取一个数 $X$, �?$1 \\sim X$ 中等可能地取另一整数 $Y$, �?$P\\{X=2, Y=1\\}=()$.",
+                    "analysis": "易知 $\\{X=i, Y=j\\}$ 的取值情况是 $i=1,2,3,4, j$ 取不大于 $i$ 的正整数, 且\n$$\nP\\{X=i, Y=j\\}=P\\{Y=j \\mid X=i\\} P\\{X=i\\}=\\frac{1}{i} \\cdot \\frac{1}{4}, j=1, \\cdots, i, i=1,2,3,4 .\n$$\n\n所�?$P\\{X=2, Y=1\\}=\\frac{1}{2} \\cdot \\frac{1}{4}=\\frac{1}{8}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/585902fd79674988a80721cf7f231c7f",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56087,
+                            "question_id": 14022,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 56085,
+                            "question_id": 14022,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 56086,
+                            "question_id": 14022,
+                            "is_answer": false,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 56088,
+                            "question_id": 14022,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.63,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 190174,
+                    "ai_tags": "条件概率,古典概型,随机变量"
+                },
+                {
+                    "id": 19331,
+                    "subject_id": 3,
+                    "chapter_id": 318,
+                    "question_id": "e5931a99-18b7-42ba-b759-95aded6eaac3",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "掷两颗均匀骰子, $\\xi$ �?$\\eta$ 分别表示第一和第二颗骰子所出现�? �?$P\\{\\xi=\\eta\\}=()$.",
+                    "analysis": "依题�? 骰子均匀, 且每颗骰子出现点数没有关�? �?$\\xi, \\eta$ 相互独立, 故\n$$\n\\begin{aligned}\nP\\{\\xi=\\eta\\} & =P\\{\\xi=\\eta=1\\}+P\\{\\xi=\\eta=2\\}+\\cdots+P\\{\\xi=\\eta=6\\} \\\\\n& =P\\{\\xi=1\\} P\\{\\eta=1\\}+P\\{\\xi=2\\} P\\{\\eta=2\\}+\\cdots+P\\{\\xi=6\\} P\\{\\eta=6\\} \\\\\n& =\\frac{1}{6} \\times \\frac{1}{6}+\\cdots+\\frac{1}{6} \\times \\frac{1}{6}=\\frac{1}{36} \\times 6=\\frac{1}{6} .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340320
+                    },
+                    "question_json": "mathreact/03ed62f2e8934ae59f582924618d356b",
+                    "updated_at": {
+                        "seconds": 1775673110
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88481,
+                            "question_id": 19331,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88482,
+                            "question_id": 19331,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88483,
+                            "question_id": 19331,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88484,
+                            "question_id": 19331,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 27422,
+                    "ai_tags": "古典概型,随机变量,独立�?
+                },
+                {
+                    "id": 19343,
+                    "subject_id": 3,
+                    "chapter_id": 318,
+                    "question_id": "4d767400-a625-4eb1-88d1-a8c4c8e60bd4",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "已知离散随机向量 $(X, Y)$ 的联合分布律�?$p_{i j}=\\frac{i+j}{30}, i=0,1,2,3, j=0,1,2$, �?$P\\{X+Y=4\\}=()$.",
+                    "analysis": "根据联合分布律的概率计算式子 $P\\{(X, Y) \\in D\\}=\\sum_{(i, j) \\in D} p_{i j}$，有\n$$ P\\{X+Y=4\\}=\\sum_{i=0}^3 p_{i, 4-i}=p_{22}+p_{31}=\\frac{4}{15}. $$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340345
+                    },
+                    "question_json": "mathreact/5fdd49835ddd404cb3d60476989cb87d",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88565,
+                            "question_id": 19343,
+                            "is_answer": false,
+                            "choice": "$\\frac{7}{30}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88566,
+                            "question_id": 19343,
+                            "is_answer": true,
+                            "choice": "$\\frac{4}{15}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88567,
+                            "question_id": 19343,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88568,
+                            "question_id": 19343,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.88,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 181941,
+                    "ai_tags": "概率�?联合分布�?离散型随机变�?
+                },
+                {
+                    "id": 19348,
+                    "subject_id": 3,
+                    "chapter_id": 318,
+                    "question_id": "18a1eca9-db7f-4646-aa06-54eead1e20bf",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "抛一枚硬币三�? $\\xi$ �?$\\eta$ 分别表示出现正面次数和出现反面次�? �?$P\\{\\xi>\\eta\\}=(\\quad)$.",
+                    "analysis": "因为出现正面的次数与出现反面的次数是对立�? 所�?$P\\{\\xi=i\\}=P\\{\\eta=3-i\\}, i=0,1,2,3,(\\xi, \\eta)$ 的联合分布律为\n\\begin{tabular}{c|cccc} \n& 0 & 1 & 2 & 3 \\\\\n\\hline 0 & 0 & 0 & 0 & $1 / 8$ \\\\\n1 & 0 & 0 & $3 / 8$ & 0 \\\\\n2 & 0 & $3 / 8$ & 0 & 0 \\\\\n3 & $1 / 8$ & 0 & 0 & 0 \\\\\n\\hline\n\\end{tabular}\n\n于是 $P\\{\\xi>\\eta\\}=P\\{\\xi=3, \\eta=0\\}+P\\{\\xi=2, \\eta=1\\}=\\frac{1}{2}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340352
+                    },
+                    "question_json": "mathreact/e77ab036d63943b3b9563a4cb0df125a",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88600,
+                            "question_id": 19348,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88601,
+                            "question_id": 19348,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88602,
+                            "question_id": 19348,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88603,
+                            "question_id": 19348,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 64574,
+                    "ai_tags": "概率�?随机变量,联合分布"
+                },
+                {
+                    "id": 19353,
+                    "subject_id": 3,
+                    "chapter_id": 318,
+                    "question_id": "f0815f3f-619c-46d2-987c-d3509209b8af",
+                    "difficulty": "Medium",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "设二维离散型随机变量的联合分布如�?\n\\begin{tabular}{|c|cccc|}\n\\hline$X \\backslash Y$ & 1 & 2 & 3 & 4 \\\\\n\\hline 1 & $1 / 4$ & 0 & 0 & $1 / 16$ \\\\\n\\hline 2 & $1 / 16$ & $1 / 4$ & 0 & $1 / 4$ \\\\\n\\hline 3 & 0 & $1 / 16$ & $1 / 16$ & 0 \\\\\n\\hline\n\\end{tabular}\n\n�?$P\\left\\{\\frac{1}{2}<X<\\frac{3}{2}, 0<Y<4\\right\\}, P\\{1 \\leq X \\leq 2,3 \\leq Y \\leq 4\\}$ 分别等于 ( ).",
+                    "analysis": "$\\begin{aligned} P\\left\\{\\frac{1}{2}<X<\\frac{3}{2}, 0<Y<4\\right\\} &= P\\{X=1, Y=1\\}+P\\{X=1, Y=2\\}+P\\{X=1, Y=3\\} \\\\ &= \\frac{1}{4}+0+0=\\frac{1}{4} \\\\ P\\{1 \\leq X \\leq 2,3 \\leq Y \\leq 4\\} &= P\\{X=1, Y=3\\}+P\\{X=1, Y=4\\}+P\\{X=2, Y=3\\}+P\\{X=2, Y=4\\} \\\\ &= 0+\\frac{1}{16}+0+\\frac{1}{4}=\\frac{5}{16}. \\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340360
+                    },
+                    "question_json": "mathreact/a0e5e2bf2a5543c7949cc69ab2e13f0e",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88635,
+                            "question_id": 19353,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}, \\frac{1}{16}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88636,
+                            "question_id": 19353,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}, \\frac{9}{16}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88637,
+                            "question_id": 19353,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{16}, \\frac{5}{16}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88638,
+                            "question_id": 19353,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{4}, \\frac{5}{16}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.79,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 45151,
+                    "tags": "",
+                    "ai_tags": "二维离散型随机变�?联合分布�?概率计算"
+                },
+                {
+                    "id": 19354,
+                    "subject_id": 3,
+                    "chapter_id": 318,
+                    "question_id": "8a93a3a5-94a0-4cfd-b612-b44f8579e46f",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "在一箱子中装�?12 只开�? 其中 2 只是次品. 在其中取两次, 每次任取一�? 考虑两种试验:\n(1) 放回抽样;\n(2) 不放回抽�? 定义随机变量 $X, Y$ 如下:\n$$\nX=\\left\\{\\begin{array}{l}\n0, \\text{若第一次取得正品} \\\\\n1, \\text{若第一次取得次品}\n\\end{array}\\right., \\quad Y=\\left\\{\\begin{array}{l}\n0, \\text{若第二次取得正品} \\\\\n1, \\text{若第二次取得次品}\n\\end{array}\\right.\n$$\n�?(1), (2) 两种情况�?$\\{X=1, Y=0\\}$ 的概率为 ( ).",
+                    "analysis": "(1) 有放回抽样\n$$\nP\\{X=1, Y=0\\}=\\frac{2 \\times 10}{12 \\times 12}=\\frac{5}{36} .\n$$\n(2) 不放回抽样\n$$\nP\\{X=1, Y=0\\}=\\frac{2 \\times 10}{12 \\times 11}=\\frac{10}{66} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340361
+                    },
+                    "question_json": "mathreact/f1f8e69021dc4c1688d4529172214a9a",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88642,
+                            "question_id": 19354,
+                            "is_answer": true,
+                            "choice": "$\\frac{5}{36}, \\frac{10}{66}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88643,
+                            "question_id": 19354,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{36}, \\frac{1}{66}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88644,
+                            "question_id": 19354,
+                            "is_answer": false,
+                            "choice": "$\\frac{25}{36}, \\frac{10}{66}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88645,
+                            "question_id": 19354,
+                            "is_answer": false,
+                            "choice": "$\\frac{25}{36}, \\frac{1}{66}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.9,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 100825,
+                    "ai_tags": "古典概型,条件概率,随机变量"
+                }
+            ]
+        }
+    }
+]

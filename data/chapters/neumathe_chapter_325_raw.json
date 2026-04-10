@@ -1,0 +1,851 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 10,
+            "questions": [
+                {
+                    "id": 13827,
+                    "subject_id": 3,
+                    "chapter_id": 325,
+                    "question_id": "55698b5c-c8da-47a9-9213-820acd8bbd54",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "�?$(\\xi, \\eta)$ 的联合分布函数为\n$$\nF(x, y)=\\left\\{\\begin{array}{c}\n1-e^{-x}-e^{-y}+e^{-x-y-\\frac{1}{2} x y}, x \\geq 0, y \\geq 0, \\\\\n0,\n\\end{array}\\right.\n$$\n\n�?$P\\{\\eta<1\\}=()$.",
+                    "analysis": "$P\\{\\eta<1\\}=F(+\\infty, 1)=1-e^{-1}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/dc0bcaa8b1fa4a9d8826d4aa42b6971f",
+                    "updated_at": {
+                        "seconds": 1775413849
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55307,
+                            "question_id": 13827,
+                            "is_answer": false,
+                            "choice": "$1-e^{-2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55308,
+                            "question_id": 13827,
+                            "is_answer": true,
+                            "choice": "$1-e^{-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55305,
+                            "question_id": 13827,
+                            "is_answer": false,
+                            "choice": "$e^{-2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55306,
+                            "question_id": 13827,
+                            "is_answer": false,
+                            "choice": "$e^{-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 191650,
+                    "ai_tags": "联合分布函数,边缘分布,概率计算"
+                },
+                {
+                    "id": 13828,
+                    "subject_id": 3,
+                    "chapter_id": 325,
+                    "question_id": "58e2512d-551a-4345-b261-fabb05fa3d52",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设随机变量的联合分布函数�?$F(x, y)=P\\{\\xi \\leq x, \\eta \\leq y\\}$, 用它表示出事�?$P\\{\\xi \\leq x, \\eta<+\\infty\\}=()$.",
+                    "analysis": "根据联合分布函数的定�? 有\n$$\nP\\{\\xi \\leq x, \\eta<+\\infty\\}=F(x,+\\infty) .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/86854968349c442a8bfe839f1254bffa",
+                    "updated_at": {
+                        "seconds": 1775413852
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55312,
+                            "question_id": 13828,
+                            "is_answer": false,
+                            "choice": "$F(x,+\\infty)-F(x, y)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55309,
+                            "question_id": 13828,
+                            "is_answer": true,
+                            "choice": "$F(x,+\\infty)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55310,
+                            "question_id": 13828,
+                            "is_answer": false,
+                            "choice": "$F(x, y)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55311,
+                            "question_id": 13828,
+                            "is_answer": false,
+                            "choice": "$F(+\\infty,+\\infty)-F(+\\infty, y)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.93,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 27741,
+                    "ai_tags": "概率�?联合分布函数,边缘分布"
+                },
+                {
+                    "id": 13830,
+                    "subject_id": 3,
+                    "chapter_id": 325,
+                    "question_id": "94264bee-c5ff-4501-851d-4e80a0e59358",
+                    "difficulty": "Medium",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "若定义二维随机变�?$(\\xi, \\eta)$ 的联合分布函数为 $F(x, y)=P\\{\\xi<x, \\eta<y\\}$, �?$P\\{\\xi \\geq 2, \\eta \\geq 3\\}=()$.",
+                    "analysis": "根据该定义有,\n$$\n\\begin{aligned}\nP\\{\\xi \\geq 2, \\eta \\geq 3\\} & =P\\{\\xi \\geq 2\\}-P\\{\\xi \\geq 2, \\eta<3\\} \\\\\n& =(1-P(\\xi<2))-(P\\{\\eta<3\\}-P\\{\\xi<2, \\eta<3\\}) \\\\\n& =1-F(2,+\\infty)-F(+\\infty, 3)+F(2,3) .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/29661b1aa28a41bab92e6f78fca85ccc",
+                    "updated_at": {
+                        "seconds": 1775413855
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55319,
+                            "question_id": 13830,
+                            "is_answer": false,
+                            "choice": "$F(2,3)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55317,
+                            "question_id": 13830,
+                            "is_answer": false,
+                            "choice": "$1-F(2,3)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55320,
+                            "question_id": 13830,
+                            "is_answer": false,
+                            "choice": "$F(2,+\\infty)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55318,
+                            "question_id": 13830,
+                            "is_answer": true,
+                            "choice": "$1-F(2,+\\infty)-F(+\\infty, 3)+F(2,3)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 55063,
+                    "ai_tags": "二维随机变量,联合分布函数,概率计算"
+                },
+                {
+                    "id": 13831,
+                    "subject_id": 3,
+                    "chapter_id": 325,
+                    "question_id": "a7da675c-a1c5-4bd4-a460-bccff431df2a",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设二维离散型随机变量的联合分布如�?\n\\begin{tabular}{|c|cccc|}\n\\hline$X \\backslash Y$ & 1 & 2 & 3 & 4 \\\\\n\\hline 1 & $1 / 4$ & 0 & 0 & $1 / 16$ \\\\\n\\hline 2 & $1 / 16$ & $1 / 4$ & 0 & $1 / 4$ \\\\\n\\hline 3 & 0 & $1 / 16$ & $1 / 16$ & 0 \\\\\n\\hline\n\\end{tabular}\n\n�?$F(2,3)=()$.",
+                    "analysis": "$\\begin{aligned} F(2,3)=P\\{X \\leq 2, Y \\leq 3\\} & =P(1,1)+P(1,2)+P(1,3)+P(2,1)+P(2,2)+P(2,3) \\\\ & =\\frac{1}{4}+0+0+\\frac{1}{16}+\\frac{1}{4}+0=\\frac{9}{16} .\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/c01ab42a96ad48b7bbd67a1ed615a88f",
+                    "updated_at": {
+                        "seconds": 1775413853
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55324,
+                            "question_id": 13831,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55322,
+                            "question_id": 13831,
+                            "is_answer": true,
+                            "choice": "$\\frac{9}{16}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55321,
+                            "question_id": 13831,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{16}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55323,
+                            "question_id": 13831,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{16}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 21905,
+                    "ai_tags": "二维离散型随机变�?联合分布�?分布函数"
+                },
+                {
+                    "id": 13833,
+                    "subject_id": 3,
+                    "chapter_id": 325,
+                    "question_id": "8f6558df-86ff-4f47-a183-e43ede9af959",
+                    "difficulty": "Easy",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "已知随机变量 $(\\xi, \\eta)$ 的联合分布函�?$F(x, y)=P\\{\\xi \\leq x, \\eta \\leq y\\}$, 用它表示概率 $P\\{\\xi=a, \\eta \\leq y\\}=()$.",
+                    "analysis": "根据联合分布函数的定义有\n$$\nP\\{\\xi=a, \\eta \\leq y\\}=P\\{\\xi \\leq a, \\eta \\leq y\\}-P\\{\\xi<a, \\eta \\leq y\\}=F(a, y)-F(a-0, y) .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/10467544bad8426a85bf1a198c2a92fa",
+                    "updated_at": {
+                        "seconds": 1775413855
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55330,
+                            "question_id": 13833,
+                            "is_answer": false,
+                            "choice": "$F(a+0, y)-F(a, y)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55332,
+                            "question_id": 13833,
+                            "is_answer": false,
+                            "choice": "$F(a, y)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55331,
+                            "question_id": 13833,
+                            "is_answer": true,
+                            "choice": "$F(a, y)-F(a-0, y)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55329,
+                            "question_id": 13833,
+                            "is_answer": false,
+                            "choice": "$F(a-0, y)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.67,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 23377,
+                    "ai_tags": "联合分布函数,概率计算"
+                },
+                {
+                    "id": 13834,
+                    "subject_id": 3,
+                    "chapter_id": 325,
+                    "question_id": "16b999b4-e952-44d6-a834-88ca9ccf6840",
+                    "difficulty": "Medium",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设随机变�?$(\\xi, \\eta)$ 的联合分布函数为\n$$\nF(x, y)=\\left\\{\\begin{array}{lc}\n\\left(1-e^{-2 x}\\right)\\left(1-e^{-2 y}\\right), & 0<x<\\infty, 0<y<+\\infty \\\\\n0, & \\text { 其它 }\n\\end{array} .\\right.\n$$\n\n�?$P\\{\\xi>1, \\eta>1\\}=()$.",
+                    "analysis": "$\\begin{aligned} P\\{\\xi>1, \\eta>1\\} & =1-P\\{\\xi \\leq 1, \\eta<+\\infty\\}-P\\{\\xi<+\\infty, \\eta \\leq 1\\}+P\\{\\xi \\leq 1, \\eta \\leq 1\\} \\\\ & =1-F(1,+\\infty)-F(+\\infty, 1)+F(1,1)=1-\\left(1-e^{-2}\\right)-\\left(1-e^{-2}\\right)+\\left(1-e^{-2}\\right)^2=e^{-4} .\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/ca63fbe314414e618ed406f0b6f812bd",
+                    "updated_at": {
+                        "seconds": 1775413852
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55334,
+                            "question_id": 13834,
+                            "is_answer": false,
+                            "choice": "$e^{-2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55335,
+                            "question_id": 13834,
+                            "is_answer": true,
+                            "choice": "$e^{-4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55336,
+                            "question_id": 13834,
+                            "is_answer": false,
+                            "choice": "$1-e^{-2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55333,
+                            "question_id": 13834,
+                            "is_answer": false,
+                            "choice": "$1-e^{-4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.38,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 58513,
+                    "ai_tags": "二维随机变量,联合分布函数,概率计算"
+                },
+                {
+                    "id": 13835,
+                    "subject_id": 3,
+                    "chapter_id": 325,
+                    "question_id": "64a3a7ce-a8b4-465e-9186-5b22b9457791",
+                    "difficulty": "Medium",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "�?$(X, Y)$ 的联合分布函�?$F(X, Y)$ 表示 $P\\{X>a, Y>b\\}=(\\quad)$.",
+                    "analysis": "根据联合分布函数的定�?$F(x, y)=P\\{X \\leq x, Y \\leq y\\}$, 有\n$$\nP\\{X>a, Y>b\\}=1+F(a, b)-F(+\\infty, b)-F(a,+\\infty) .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/023f28f9308240e1a825dd28cd410474",
+                    "updated_at": {
+                        "seconds": 1775413849
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55339,
+                            "question_id": 13835,
+                            "is_answer": false,
+                            "choice": "$F(b, c)-F(a, c)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55340,
+                            "question_id": 13835,
+                            "is_answer": false,
+                            "choice": "$F(a, b)-F(a, b-0)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55338,
+                            "question_id": 13835,
+                            "is_answer": false,
+                            "choice": "$F(-\\infty, a)-F(-\\infty, 0)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55337,
+                            "question_id": 13835,
+                            "is_answer": true,
+                            "choice": "$1+F(a, b)-F(+\\infty, b)-F(a,+\\infty)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.92,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 44578,
+                    "ai_tags": "概率�?联合分布函数,二维随机变量"
+                },
+                {
+                    "id": 19212,
+                    "subject_id": 3,
+                    "chapter_id": 325,
+                    "question_id": "7455fdf2-e08c-46e0-a94f-2036ce11180d",
+                    "difficulty": "Medium",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "�?$(\\xi, \\eta)$ 的联合分布函数为\n$$\nF(x, y)=\\begin{cases} 1-e^{-x^2}-e^{-2 y^2}+e^{-x^2-2 y^2}, & x \\geq 0, y \\geq 0 \\\\ 0, & \\text{其它} \\end{cases},\n$$\n�?$P\\{\\xi \\geq \\sqrt{2}\\}=( )$.",
+                    "analysis": "$P\\{\\xi \\geq \\sqrt{2}\\}=1-P\\{\\xi<\\sqrt{2}\\}=1-F(\\sqrt{2},+\\infty)=e^{-2}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340064
+                    },
+                    "question_json": "mathreact/6403ca8873214c23ae5ddcb76b2fcfb5",
+                    "updated_at": {
+                        "seconds": 1775413848
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87648,
+                            "question_id": 19212,
+                            "is_answer": false,
+                            "choice": "$e^{-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87649,
+                            "question_id": 19212,
+                            "is_answer": false,
+                            "choice": "$1-e^{-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87650,
+                            "question_id": 19212,
+                            "is_answer": true,
+                            "choice": "$e^{-2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87651,
+                            "question_id": 19212,
+                            "is_answer": false,
+                            "choice": "$1-e^{-2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.5,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 39186,
+                    "ai_tags": "概率�?联合分布,边缘分布"
+                },
+                {
+                    "id": 19214,
+                    "subject_id": 3,
+                    "chapter_id": 325,
+                    "question_id": "10400886-42be-4c3b-97a3-0b978e4af2c8",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "若定义二维随机变�?$(\\xi, \\eta)$ 的联合分布函数为 $F(x, y)=P\\{\\xi<x, \\eta<y\\}$, 用它表示 $P\\{a \\leq \\xi<b, c \\leq \\eta<d\\}=()$.",
+                    "analysis": "根据该定义有，\n$$\n\\begin{aligned}\nP\\{a \\leq \\xi<b, c \\leq \\eta<d\\} & =P\\{\\xi<b, c \\leq \\eta<d\\}-P\\{\\xi<a, c \\leq \\eta<d\\} \\\\\n& =(P\\{\\xi<b, \\eta<d\\}-P\\{\\xi<b, \\eta<c\\})-(P\\{\\xi<a, \\eta<d\\}-P\\{\\xi<a, \\eta<c\\}) \\\\\n& =P\\{\\xi<b, \\eta<d\\}-P\\{\\xi<b, \\eta<c\\}-P\\{\\xi<a, \\eta<d\\}+P\\{\\xi<a, \\eta<c\\} \\\\\n& =F(b, d)-F(b, c)-F(a, d)+F(a, c).\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340075
+                    },
+                    "question_json": "mathreact/4d3a0e76b48a424b86dc8c8eaff776a0",
+                    "updated_at": {
+                        "seconds": 1775413849
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87662,
+                            "question_id": 19214,
+                            "is_answer": true,
+                            "choice": "$F(b, d)-F(b, c)-F(a, d)+F(a, c)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87663,
+                            "question_id": 19214,
+                            "is_answer": false,
+                            "choice": "$F(b, d)+F(b, c)-F(a, d)-F(a, c)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87664,
+                            "question_id": 19214,
+                            "is_answer": false,
+                            "choice": "$F(b, d)-F(b, c)+F(a, d)-F(a, c)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87665,
+                            "question_id": 19214,
+                            "is_answer": false,
+                            "choice": "$F(b, d)-F(b, c)-F(a, d)-F(a, c)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.92,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 31173,
+                    "ai_tags": "二维随机变量,联合分布函数,概率计算"
+                },
+                {
+                    "id": 19223,
+                    "subject_id": 3,
+                    "chapter_id": 325,
+                    "question_id": "c37a84c0-1686-450c-b53f-69de632ec769",
+                    "difficulty": "Medium",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "�?$(\\xi, \\eta)$ 的联合分布函数为\n$$\nF(x, y)=\\begin{cases} 1-e^{-x^2}-e^{-2 y^2}+e^{-x^2-2 y^2}, & x \\geq 0, y \\geq 0 \\\\ 0, & \\text{其它} \\end{cases}\n$$\n�?$P\\{1 \\leq \\xi \\leq 2,1 \\leq \\eta \\leq 2\\}=( \\quad ).$",
+                    "analysis": "$$\\begin{aligned} \\varphi(x, y) &= \\frac{\\partial^2 F(x, y)}{\\partial x \\partial y}=\\begin{cases} 8 x y e^{-x^2-2 y^2}, & x \\geq 0, y \\geq 0 \\\\ 0, & \\text{其它} \\end{cases} \\\\ P\\{1 \\leq \\xi \\leq 2,1 \\leq \\eta \\leq 2\\} &= \\int_1^2 dx \\int_1^2 8 x y e^{-x^2-2 y^2} dy \\\\ &= \\left( \\int_1^2 2x e^{-x^2} dx \\right) \\left( \\int_1^2 4y e^{-2y^2} dy \\right) \\\\ &= (e^{-1}-e^{-4})(e^{-2}-e^{-8}) \\\\ &= \\frac{(e^6-1)(e^3-1)}{e^{12}} \\end{aligned}$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340094
+                    },
+                    "question_json": "mathreact/9bc60f85af764f76ba6794fe9c803059",
+                    "updated_at": {
+                        "seconds": 1775413848
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87725,
+                            "question_id": 19223,
+                            "is_answer": false,
+                            "choice": "$e^{-3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87726,
+                            "question_id": 19223,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\left(e^6-1\\right)\\left(e^3-1\\right)}{e^9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87727,
+                            "question_id": 19223,
+                            "is_answer": true,
+                            "choice": "$\\frac{\\left(e^6-1\\right)\\left(e^3-1\\right)}{e^{12}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87728,
+                            "question_id": 19223,
+                            "is_answer": false,
+                            "choice": "$e^{-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 59062,
+                    "ai_tags": "概率�?联合分布函数,二维随机变量"
+                }
+            ]
+        }
+    }
+]

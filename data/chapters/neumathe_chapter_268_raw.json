@@ -1,0 +1,859 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 10,
+            "questions": [
+                {
+                    "id": 14126,
+                    "subject_id": 3,
+                    "chapter_id": 268,
+                    "question_id": "905202bd-e9b4-4967-9954-8ee88ae24a9e",
+                    "difficulty": "Beginner",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "6 个毕业生, 两个留校, �?4 人分配到 4 个不同的单位, 每单位一�? 则分配方法有 ()�?",
+                    "analysis": "4 人分配到 4 个不同的单位可以看做�?4 个单位从 6 个人中选取 4 个人, 其余的两个留校的, 第一个单位的选择可能�?6�? 第二个单位的选择可能�?5 �? 第三个单位的选择可能�?4�? 第四个单位的选择可能�?3 �? 所以分配方法有 $6 \\times 5 \\times 4 \\times 3=360$ �?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/0a21851d633b4f81bac77cab61cf9e49",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56503,
+                            "question_id": 14126,
+                            "is_answer": true,
+                            "choice": "$360$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56504,
+                            "question_id": 14126,
+                            "is_answer": false,
+                            "choice": "$720$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56502,
+                            "question_id": 14126,
+                            "is_answer": false,
+                            "choice": "$225$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56501,
+                            "question_id": 14126,
+                            "is_answer": false,
+                            "choice": "$120$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.91,
+                    "difficulty_score": 0.27,
+                    "avg_time_spent": 338762,
+                    "tags": "近期52人做�?,
+                    "ai_tags": "排列组合,分步计数原理"
+                },
+                {
+                    "id": 14127,
+                    "subject_id": 3,
+                    "chapter_id": 268,
+                    "question_id": "d3c02f53-c12f-4184-a89e-9de8cca82715",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "编号�?$1,2,3,4,5$ �?5 个小球任意的放到编号�?$A, B, C, D, E, F$ 的六个小盒子�? 每一个盒至多可放一�? 则不同的放法�?( ) �?",
+                    "analysis": "要使每个盒中至多一个球, 就是要是 5 个球放到 6 个盒子其中的 5 个盒子里�? 我们可以分成五个步骤来完�?第一个球的放置方法有 6 �? 第二个球的放置方法有 5 �? 第三个球的放置方法有 4 �? 第四个球的放置方法有 3�? 第五个球的放置方法有 2 �? 所以不同的放法�?$(6 \\times 5 \\times 4 \\times 3 \\times 2)=720$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/c4fe50270014484186c3abf2d0a12f92",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56508,
+                            "question_id": 14127,
+                            "is_answer": true,
+                            "choice": "$720$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56505,
+                            "question_id": 14127,
+                            "is_answer": false,
+                            "choice": "$60$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56506,
+                            "question_id": 14127,
+                            "is_answer": false,
+                            "choice": "$120$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56507,
+                            "question_id": 14127,
+                            "is_answer": false,
+                            "choice": "$2520$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.92,
+                    "difficulty_score": 0.25,
+                    "avg_time_spent": 100632,
+                    "tags": "近期44人做�?,
+                    "ai_tags": "排列组合,分步乘法计数原理"
+                },
+                {
+                    "id": 14128,
+                    "subject_id": 3,
+                    "chapter_id": 268,
+                    "question_id": "d8536012-6ec4-40b7-85ae-fe1edf3b0d7a",
+                    "difficulty": "Beginner",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "5 个篮球队�? 分工打右前锋, 左前�? 中锋, 左后�? 右后�?5 个位置共有种 ()分工方法?",
+                    "analysis": "5 名队员分�?5 个位置上, 相当于这 5 名队员的全排�? 即分法为 $P_5^5=5!=120$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/f87a6dfb898c4310bf82495a84770177",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56510,
+                            "question_id": 14128,
+                            "is_answer": true,
+                            "choice": "$120$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56511,
+                            "question_id": 14128,
+                            "is_answer": false,
+                            "choice": "$60$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56512,
+                            "question_id": 14128,
+                            "is_answer": false,
+                            "choice": "$30$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56509,
+                            "question_id": 14128,
+                            "is_answer": false,
+                            "choice": "$10$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.96,
+                    "difficulty_score": 0.22,
+                    "avg_time_spent": 39855,
+                    "tags": "",
+                    "ai_tags": "排列"
+                },
+                {
+                    "id": 14129,
+                    "subject_id": 3,
+                    "chapter_id": 268,
+                    "question_id": "02180b02-aca1-4126-9735-5c5def58021d",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "平面上有 12 个点, 其中任意三点都不在一条直线上, 这些点可以确�?()条不同的直线.",
+                    "analysis": "只要�?12 个点中选取两个不同的点就可以确定一条直�? 选取两个点的方法�?$C_{12}^2=66$ �? 所以可以确定的直线数是 66 .",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/7b9dbe34aa4e46c5bd289bfb26c64f6e",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56514,
+                            "question_id": 14129,
+                            "is_answer": true,
+                            "choice": "$66$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56513,
+                            "question_id": 14129,
+                            "is_answer": false,
+                            "choice": "$142$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56516,
+                            "question_id": 14129,
+                            "is_answer": false,
+                            "choice": "$220$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56515,
+                            "question_id": 14129,
+                            "is_answer": false,
+                            "choice": "$22$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.81,
+                    "difficulty_score": 0.29,
+                    "avg_time_spent": 65949,
+                    "tags": "近期易错,近期108人做�?,
+                    "ai_tags": "排列组合"
+                },
+                {
+                    "id": 14130,
+                    "subject_id": 3,
+                    "chapter_id": 268,
+                    "question_id": "4a29c67f-ff18-45b3-a0ce-452b62796831",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设由十个数字 $0,1,2, \\cdots, 9$ 的任意七个数字都可以组成电话号码, 则所有可能组成的电话号码的总数�?( ).",
+                    "analysis": "由于电话号码中这七个数字是可以重复的, 所以所有组成的电话号码总数�?$10^7$ �?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/db7e41a2f42b4ef19948523a5dc863cc",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56520,
+                            "question_id": 14130,
+                            "is_answer": true,
+                            "choice": "$10^7$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56518,
+                            "question_id": 14130,
+                            "is_answer": false,
+                            "choice": "$10^6$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56517,
+                            "question_id": 14130,
+                            "is_answer": false,
+                            "choice": "$9 \\times 10^6$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56519,
+                            "question_id": 14130,
+                            "is_answer": false,
+                            "choice": "$7^{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.7,
+                    "difficulty_score": 0.37,
+                    "avg_time_spent": 58685,
+                    "tags": "近期易错,近期172人做�?,
+                    "ai_tags": "排列组合,分步乘法计数原理"
+                },
+                {
+                    "id": 14131,
+                    "subject_id": 3,
+                    "chapter_id": 268,
+                    "question_id": "d35d1ab7-ac4a-4610-9d2d-da1db72634e0",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "5 个教师分�?5 门课，每人教一门，但教师甲只能教其中三门课，则不同的分配方法有（）�?",
+                    "analysis": "由于教师甲只能教其中三门�? 所以给教师甲分配只�?3 分配方法, 其余四个人可以自由分配其余四门课�?相当于四个人的全排列�?$P_4^4$, 所�?5 名教师的不同分配方法�?$3 \\times P_4^4=72$ �?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/26c2d62c4a574f5ea99443c65b4b650e",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56523,
+                            "question_id": 14131,
+                            "is_answer": true,
+                            "choice": "$72$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56521,
+                            "question_id": 14131,
+                            "is_answer": false,
+                            "choice": "$48$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56524,
+                            "question_id": 14131,
+                            "is_answer": false,
+                            "choice": "$36$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56522,
+                            "question_id": 14131,
+                            "is_answer": false,
+                            "choice": "$24$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.96,
+                    "difficulty_score": 0.22,
+                    "avg_time_spent": 58784,
+                    "tags": "",
+                    "ai_tags": "排列组合,计数原理"
+                },
+                {
+                    "id": 14135,
+                    "subject_id": 3,
+                    "chapter_id": 268,
+                    "question_id": "07ccce0a-486d-48dd-be18-b78531dd1cf5",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "6 个学生和一个老师并排照相, 让老师在正中间共有 () 种排�?",
+                    "analysis": "老师的位置是固定�? 剩下 6 个位置和 6 个学�? 相当�?6 个学生的全排�? 所以排法共�?$P_6^6=6!=720$ �?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/36e33cb6fe614e3c84f343a7446419a5",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56540,
+                            "question_id": 14135,
+                            "is_answer": true,
+                            "choice": "$720$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56538,
+                            "question_id": 14135,
+                            "is_answer": false,
+                            "choice": "$36$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56537,
+                            "question_id": 14135,
+                            "is_answer": false,
+                            "choice": "$144$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56539,
+                            "question_id": 14135,
+                            "is_answer": false,
+                            "choice": "$5040$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.96,
+                    "difficulty_score": 0.23,
+                    "avg_time_spent": 54259,
+                    "tags": "",
+                    "ai_tags": "排列组合,计数原理"
+                },
+                {
+                    "id": 19402,
+                    "subject_id": 3,
+                    "chapter_id": 268,
+                    "question_id": "721736a0-b516-4763-aba1-471651835e0c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "九名战士排成一�? 正班长必须排在前�? 副班长必须排在后�? 共有()种不同的排法.",
+                    "analysis": "显然正副班长的位置是固定�? 那么剩下 $7$ 个位置由 $7$ 名战士排�? 相当于是 $7$ 个人的全排列, 则排列方法有 $P_7^7=7!=5040$ �?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340503
+                    },
+                    "question_json": "mathreact/bde7ff54974945d7927328c48adb2384",
+                    "updated_at": {
+                        "seconds": 1775673110
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88978,
+                            "question_id": 19402,
+                            "is_answer": true,
+                            "choice": "$5040$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88979,
+                            "question_id": 19402,
+                            "is_answer": false,
+                            "choice": "$362880$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88980,
+                            "question_id": 19402,
+                            "is_answer": false,
+                            "choice": "$20160$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88981,
+                            "question_id": 19402,
+                            "is_answer": false,
+                            "choice": "$181440$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.95,
+                    "difficulty_score": 0.23,
+                    "avg_time_spent": 41370,
+                    "ai_tags": "排列组合"
+                },
+                {
+                    "id": 19403,
+                    "subject_id": 3,
+                    "chapter_id": 268,
+                    "question_id": "ba7b083e-88be-4337-a37d-81a1104455ba",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "平面上有 10 个点, 其中任何三点都不在一直线�? 这些点可以确�?()个三角形.",
+                    "analysis": "只要选取三个不同的点就可以确定一个三角形, 点的选取方法共有 $C_{10}^3=120$ �? 所以可以确定的三角形数也是 $120$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340505
+                    },
+                    "question_json": "mathreact/37e083e32fe043979837be08c0a720a3",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88985,
+                            "question_id": 19403,
+                            "is_answer": true,
+                            "choice": "$120$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88986,
+                            "question_id": 19403,
+                            "is_answer": false,
+                            "choice": "$720$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88987,
+                            "question_id": 19403,
+                            "is_answer": false,
+                            "choice": "$240$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88988,
+                            "question_id": 19403,
+                            "is_answer": false,
+                            "choice": "$360$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.85,
+                    "difficulty_score": 0.27,
+                    "avg_time_spent": 43221,
+                    "ai_tags": "排列组合,组合"
+                },
+                {
+                    "id": 19412,
+                    "subject_id": 3,
+                    "chapter_id": 268,
+                    "question_id": "19639067-36df-4f1d-9744-2dcccbe16580",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "编号�?$1,2,3,4,5$ �?5 个小球任意的放到编号�?$A, B, C, D, E, F$ 的六个小箱子�? 每一个箱子可�?0 �?5 个球, 则不同的放法�?( ) 种�?,
+                    "analysis": "由于每个箱子里面可以�?0 �?5 个球, 所以每个球的的放法都是 6 �? 故不同的放法�?$6^5$ �?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340533
+                    },
+                    "question_json": "mathreact/e2cdfd2b8725449aa46b0fdc9fd4e6bf",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89048,
+                            "question_id": 19412,
+                            "is_answer": true,
+                            "choice": "$6^5$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89049,
+                            "question_id": 19412,
+                            "is_answer": false,
+                            "choice": "$5^6$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89050,
+                            "question_id": 19412,
+                            "is_answer": false,
+                            "choice": "$5!$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89051,
+                            "question_id": 19412,
+                            "is_answer": false,
+                            "choice": "$6!$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.82,
+                    "difficulty_score": 0.29,
+                    "avg_time_spent": 65046,
+                    "tags": "近期易错,近期103人做�?,
+                    "ai_tags": "排列组合,分步计数原理"
+                }
+            ]
+        }
+    }
+]

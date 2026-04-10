@@ -1,0 +1,515 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 6,
+            "questions": [
+                {
+                    "id": 13413,
+                    "subject_id": 3,
+                    "chapter_id": 281,
+                    "question_id": "fefa2ed4-52a7-4bdd-b2d4-6bfe73249029",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "有三个罐子， 1 号装�?2 �?1 黑共 3 个球�?2 号装�?3 �?1 黑共 4 个球�?3 号装�?2 �?2 黑共 4 个球，如图所�? 某人从中随机取一罐，再从中任意取出一球，若取出的一球是红球，则该红球是从第一个罐中取出的概率�?().",
+                    "analysis": "�?$B_i=\\{$ 球取�?$i$ 号罐 $\\}, i=1,2,3 ; A=\\{$ 取得红球 $\\}$.\n要求 $P\\left(B_1 \\mid A\\right)$, 由贝叶斯公式知\n$$\n\\begin{aligned}\nP\\left(B_1 \\mid A\\right) & =\\frac{P\\left(A \\mid B_1\\right) P\\left(B_1\\right)}{P\\left(A \\mid B_1\\right) P\\left(B_1\\right)+P\\left(A \\mid B_2\\right) P\\left(B_2\\right)+P\\left(A \\mid B_3\\right) P\\left(B_3\\right)} \\\\\n& =\\frac{P\\left(A \\mid B_1\\right) P\\left(B_1\\right)}{P(A)} \\approx 0.348 .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/0f231dc52b884b52add0aa4c6f1df814",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53651,
+                            "question_id": 13413,
+                            "is_answer": true,
+                            "choice": "$0.348$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53649,
+                            "question_id": 13413,
+                            "is_answer": false,
+                            "choice": "$0.873$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53650,
+                            "question_id": 13413,
+                            "is_answer": false,
+                            "choice": "$0.625$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53652,
+                            "question_id": 13413,
+                            "is_answer": false,
+                            "choice": "$0.226$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.85,
+                    "difficulty_score": 0.26,
+                    "avg_time_spent": 296579,
+                    "ai_tags": "概率�?贝叶斯公�?
+                },
+                {
+                    "id": 18951,
+                    "subject_id": 3,
+                    "chapter_id": 281,
+                    "question_id": "4300bb8b-9852-42ed-9451-991d1f6e9a71",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知 $A_1, A_2, A_3$ 为一完备事件�? �?$P\\left(A_1\\right)=0.1, P\\left(A_2\\right)=0.5, P\\left(B \\mid A_1\\right)=0.2, P\\left(B \\mid A_2\\right)=0.6, P\\left(B \\mid A_3\\right)=0.1$,�?$P\\left(A_1 \\mid B\\right)=()$.",
+                    "analysis": "由于 $A_1, A_2, A_3$ 为一完备事件�? 所�?$P\\left(A_3\\right)=1-P\\left(A_1\\right)-P\\left(A_2\\right)=1-0.1-0.5=0.4$,根据贝叶斯公式有\n$$\nP\\left(A_1 \\mid B\\right)=\\frac{P\\left(A_1\\right) P\\left(B \\mid A_1\\right)}{\\sum_{i=1}^3 P\\left(A_i\\right) P\\left(B \\mid A_i\\right)}=\\frac{0.1 \\times 0.2}{0.1 \\times 0.2+0.5 \\times 0.6+0.4 \\times 0.1}=\\frac{1}{18} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339416
+                    },
+                    "question_json": "mathreact/e2c9f09ad6ef48d38d5862b48d448254",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85821,
+                            "question_id": 18951,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{18}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85822,
+                            "question_id": 18951,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85823,
+                            "question_id": 18951,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85824,
+                            "question_id": 18951,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.9,
+                    "difficulty_score": 0.23,
+                    "avg_time_spent": 186552,
+                    "ai_tags": "概率�?贝叶斯公�?完备事件�?
+                },
+                {
+                    "id": 18954,
+                    "subject_id": 3,
+                    "chapter_id": 281,
+                    "question_id": "9cab549e-7723-4e3f-92d6-2e61bbfce94a",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某种仪器由三个部件组装而成，假设各部件质量互不影响且它们的优质率分别为 $0.8, 0.7$ �?$0.9$，已知：如果三个部件都是优质品，则组装后的仪器一定合格；如果有一个部件不是优质品，则组装后的仪器不合格率�?$0.2$；如果两件不是优质品，则仪器的不合格率为 $0.6$；如果三件都不是优质品，则仪器的不合格率�?$0.9$。则下列说法中不正确的是 ( )�?,
+                    "analysis": "�?$B$ 为“仪器不合格”，$A_i$ 为“仪器上�?$i$ 个部件不是优质品”，$i=0,1,2,3$，显�?$A_0, A_1, A_2, A_3$ 构成一个完备事件组，且\n$$\n\\begin{aligned}\n& P\\left(B \\mid A_0\\right)=0, P\\left(B \\mid A_1\\right)=0.2, P\\left(B \\mid A_2\\right)=0.6, P\\left(B \\mid A_3\\right)=0.9, \\\\\n& P\\left(A_0\\right)=0.8 \\times 0.7 \\times 0.9=0.504, \\\\\n& P\\left(A_1\\right)=0.2 \\times 0.7 \\times 0.9+0.8 \\times 0.3 \\times 0.9+0.8 \\times 0.7 \\times 0.1=0.398, \\\\\n& P\\left(A_3\\right)=0.2 \\times 0.3 \\times 0.1=0.006, \\\\\n& P\\left(A_2\\right)=1-P\\left(A_0\\right)-P\\left(A_1\\right)-P\\left(A_3\\right)=0.092.\n\\end{aligned}\n$$\n(1) 应用全概率公式，有\n$$\n\\begin{aligned}\nP(B) & =\\sum_{i=0}^3 P\\left(A_i\\right) P\\left(B \\mid A_i\\right) \\\\\n& =0.504 \\times 0+0.398 \\times 0.2+0.092 \\times 0.6+0.006 \\times 0.9=0.1402\n\\end{aligned}\n$$\n(2) 应用贝叶斯公式，有\n$$\n\\begin{aligned}\n& P\\left(A_0 \\mid B\\right)=0, P\\left(A_1 \\mid B\\right)=\\frac{P\\left(A_1\\right) P\\left(B \\mid A_1\\right)}{P(B)}=\\frac{796}{1402}, \\\\\n& P\\left(A_2 \\mid B\\right)=\\frac{P\\left(A_2\\right) P\\left(B \\mid A_2\\right)}{P(B)}=\\frac{552}{1402}, \\\\\n& P\\left(A_3 \\mid B\\right)=\\frac{P\\left(A_3\\right) P\\left(B \\mid A_3\\right)}{P(B)}=\\frac{54}{1402}.\n\\end{aligned}\n$$\n从计算结果可知，一台不合格的仪器中有一个部件不是优质品的概率最大�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339423
+                    },
+                    "question_json": "mathreact/7c5cf7ccbcc7496b834eeae83323679e",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85842,
+                            "question_id": 18954,
+                            "is_answer": true,
+                            "choice": "仪器的不合格率为 $0.059$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85843,
+                            "question_id": 18954,
+                            "is_answer": false,
+                            "choice": "仪器的不合格率为 $0.1402$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85844,
+                            "question_id": 18954,
+                            "is_answer": false,
+                            "choice": "若已发现一台仪器不合格，则它有一个部件不是优质品的概率最�?,
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85845,
+                            "question_id": 18954,
+                            "is_answer": false,
+                            "choice": "若已发现一台仪器不合格，则它有一个部件不是优质品的概率为 $\\frac{796}{1402}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.64,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 162140,
+                    "ai_tags": "全概率公�?贝叶斯公�?事件的独立�?
+                },
+                {
+                    "id": 18961,
+                    "subject_id": 3,
+                    "chapter_id": 281,
+                    "question_id": "bac2e3d8-c54b-430e-b68e-1fdf9eb206f5",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "三个箱子，第一个箱子中�?4 个黑球，1 个白球，第二个箱子中�?3 个黑球，3 个白球，第三个箱子中�?3 个黑球，5 个白球，现随机地取一个箱子，再从这个箱子中取出一个球�?1) 这个球为白球的概率为 $\\qquad$�?2) 已知取出的球是白球，此球属于第二个箱子的概率�?$\\qquad$。下列选项正确的是（）�?,
+                    "analysis": "�?$A_i=\\{$取自�?$i$ 只箱�?\\}, i=1,2,3$�?B=\\{$取出的球是白�?\\}$，\n(1) 由全概率公式 $P(B)=\\sum_{i=1}^3 P(A_i) P(B \\mid A_i)=\\frac{1}{3} \\cdot \\frac{1}{5}+\\frac{1}{3} \\cdot \\frac{3}{6}+\\frac{1}{3} \\cdot \\frac{5}{8}=\\frac{53}{120}$；\n(2) 由贝叶斯公式 $P(A_2 \\mid B)=\\frac{P(A_2) P(B \\mid A_2)}{P(B)}=\\frac{\\frac{1}{3} \\cdot \\frac{3}{6}}{\\frac{53}{120}}=\\frac{20}{53}$�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339441
+                    },
+                    "question_json": "mathreact/a95b84106dc94165a6e85af9cf0a01c1",
+                    "updated_at": {
+                        "seconds": 1775673114
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85891,
+                            "question_id": 18961,
+                            "is_answer": true,
+                            "choice": "$\\frac{53}{120}, \\frac{20}{53}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85892,
+                            "question_id": 18961,
+                            "is_answer": false,
+                            "choice": "$\\frac{55}{120}, \\frac{20}{55}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85893,
+                            "question_id": 18961,
+                            "is_answer": false,
+                            "choice": "$\\frac{13}{30}, \\frac{5}{13}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85894,
+                            "question_id": 18961,
+                            "is_answer": false,
+                            "choice": "$\\frac{20}{53}, \\frac{53}{120}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.92,
+                    "difficulty_score": 0.26,
+                    "avg_time_spent": 256078,
+                    "ai_tags": "全概率公�?贝叶斯公�?概率计算"
+                },
+                {
+                    "id": 18965,
+                    "subject_id": 3,
+                    "chapter_id": 281,
+                    "question_id": "8dcddc37-ff97-42b9-af09-2c6f1e632f5f",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "发报台分别以概率 $0.6$ �?$0.4$ 发出信号 �?�?�?�?”，由于通信系统受到干扰，当发出信号 �?�?时，收报台分别以概率 $0.8$ �?$0.2$ 收到 �?�?�?�?”；又当发出信号 �?�?时，收报台分别以概率 $0.9$ �?$0.1$ 收到 �?�?�?�?”，求当收报台收�?�?�?时，发报台确实发出信�?�?�?的概率，以及收到 �?�?时，确实发出 �?�?的概率�?,
+                    "analysis": "�?$A$ 为发报台发出信号 �?”，$B$ 为收报台收到信号 �?”，依题意，\n$$\n\\begin{aligned}\nP(A) & =0.6, P(\\bar{A})=0.4 \\\\\nP(B \\mid A) & =0.8, P(\\bar{B} \\mid A)=0.2, P(B \\mid \\bar{A})=0.1, P(\\bar{B} \\mid \\bar{A})=0.9\n\\end{aligned}\n$$\n由贝叶斯公式\n$$\n\\begin{aligned}\nP(A \\mid B) & =\\frac{P(A) P(B \\mid A)}{P(A) P(B \\mid A)+P(\\bar{A}) P(B \\mid \\bar{A})}=\\frac{0.6 \\times 0.8}{0.6 \\times 0.8+0.4 \\times 0.1} \\approx 0.923 \\\\\nP(\\bar{A} \\mid \\bar{B}) & =\\frac{P(\\bar{A}) P(\\bar{B} \\mid \\bar{A})}{P(\\bar{A}) P(\\bar{B} \\mid \\bar{A})+P(A) P(\\bar{B} \\mid A)}=\\frac{0.4 \\times 0.9}{0.4 \\times 0.9+0.6 \\times 0.2}=0.75\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339456
+                    },
+                    "question_json": "mathreact/de53530614f548228211f4b95d83b916",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85919,
+                            "question_id": 18965,
+                            "is_answer": true,
+                            "choice": "$0.923, 0.75$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85920,
+                            "question_id": 18965,
+                            "is_answer": false,
+                            "choice": "$0.66, 0.32$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85921,
+                            "question_id": 18965,
+                            "is_answer": false,
+                            "choice": "$0.923, 0.2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85922,
+                            "question_id": 18965,
+                            "is_answer": false,
+                            "choice": "$0.8, 0.2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.82,
+                    "difficulty_score": 0.29,
+                    "avg_time_spent": 115542,
+                    "ai_tags": "贝叶斯公�?条件概率,全概率公�?
+                },
+                {
+                    "id": 18968,
+                    "subject_id": 3,
+                    "chapter_id": 281,
+                    "question_id": "c829078a-3883-4c9f-9c5f-588772fd1da4",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一批产�?100 件，�?80 件正品，20 件次�? 其中甲厂生产的为 60 件，�?50 件正品，10 件次品，余下�?40 件均由乙厂生�? 现从该批产品中任取一件，�?$A=$ “正品”，$B=$ “甲厂生产的产品”，�?$P(A)=(\\quad), P(B)=(\\quad), P(B \\mid A)=(\\quad), P(A \\mid B)=(\\quad)$.",
+                    "analysis": "由题意知�?P(B)=\\frac{60}{100}=\\frac{3}{5}, \\quad P(\\bar{B})=\\frac{40}{100}=\\frac{2}{5}, \\quad P(A \\mid B)=\\frac{5}{6}, \\quad P(A \\mid \\bar{B})=\\frac{80-50}{40}=\\frac{3}{4}$.\n则由全概率公式得�?P(A)=P(B) P(A \\mid B)+P(\\bar{B}) P(A \\mid \\bar{B})=\\frac{4}{5}=0.8$；\n由乘法公式得�?P(AB)=P(B) P(A \\mid B)=\\frac{1}{2}=0.5$；\n由贝叶斯公式得：$P(B \\mid A)=\\frac{P(AB)}{P(A)}=\\frac{0.5}{0.8}=\\frac{5}{8}=0.625$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339465
+                    },
+                    "question_json": "mathreact/b56c7c7683d14c37a2fd2c4034a40582",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85940,
+                            "question_id": 18968,
+                            "is_answer": true,
+                            "choice": "$\\frac{4}{5}, \\frac{3}{5}, \\frac{5}{8}, \\frac{5}{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85941,
+                            "question_id": 18968,
+                            "is_answer": false,
+                            "choice": "$\\frac{4}{5}, \\frac{1}{5}, \\frac{3}{8}, \\frac{5}{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85942,
+                            "question_id": 18968,
+                            "is_answer": false,
+                            "choice": "$\\frac{4}{5}, \\frac{3}{5}, \\frac{5}{6}, \\frac{5}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85943,
+                            "question_id": 18968,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{5}, \\frac{4}{5}, \\frac{5}{8}, \\frac{5}{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 210172,
+                    "ai_tags": "全概率公�?贝叶斯公�?条件概率"
+                }
+            ]
+        }
+    }
+]

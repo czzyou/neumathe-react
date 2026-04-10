@@ -1,0 +1,1113 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 13,
+            "questions": [
+                {
+                    "id": 13579,
+                    "subject_id": 3,
+                    "chapter_id": 293,
+                    "question_id": "e1dfa461-e80f-429d-9313-ffc952eea426",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$X$ 服从泊松分布, �?$P(X \\leq 1)=4 P(X=2)$, �?$P(X=3)=()$.",
+                    "analysis": "设泊松分布的参数�?$\\lambda(\\lambda>0)$, 则\n$$\nP(X \\leq 1)=4 P(X=2) \\Rightarrow e^{-\\lambda}+\\lambda e^{-\\lambda}=4 \\frac{\\lambda^2}{2!} e^{-\\lambda} \\Rightarrow 2 \\lambda^2-\\lambda-1=0 \\Rightarrow \\lambda=1(\\lambda>0)\n$$\n\n�?$P\\{X=3\\}=e^{-1} \\frac{1^3}{3!}=\\frac{1}{6} e^{-1}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/c8c2bdf32948491aa5123a6f22a62396",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54314,
+                            "question_id": 13579,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{6} e^{-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54315,
+                            "question_id": 13579,
+                            "is_answer": false,
+                            "choice": "$1-e^{-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54313,
+                            "question_id": 13579,
+                            "is_answer": false,
+                            "choice": "$1-\\frac{1}{6} e^{-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54316,
+                            "question_id": 13579,
+                            "is_answer": false,
+                            "choice": "$e^{-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.83,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 153900,
+                    "ai_tags": "泊松分布,概率计算"
+                },
+                {
+                    "id": 13583,
+                    "subject_id": 3,
+                    "chapter_id": 293,
+                    "question_id": "85943f12-41d6-49d0-b59e-17904ef1ddef",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知随机变量 $X$ 服从参数�?$\\lambda$ 的泊松分�? �?$P\\{X=0\\}=\\frac{1}{2}$, �?$P\\{X<2\\}=()$.",
+                    "analysis": "$\\begin{aligned} & \\text { �?} P\\{X=0\\}=\\frac{1}{2} \\Rightarrow e^{-\\lambda}=\\frac{1}{2} \\Rightarrow \\lambda=\\ln 2 \\text {, } \\\\ & \\text { �?} P\\{X<2\\}=P\\{X=0\\}+P\\{X=1\\}=e^{-\\lambda}+\\lambda e^{-\\lambda}=e^{-\\lambda}(1+\\lambda)=\\frac{1}{2}(1+\\ln 2) .\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/6260991e35c94d11842f8c4eac6cd38d",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54331,
+                            "question_id": 13583,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{2}(1+\\ln 2)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54330,
+                            "question_id": 13583,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2} \\ln 2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54329,
+                            "question_id": 13583,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}(1-\\ln 2)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54332,
+                            "question_id": 13583,
+                            "is_answer": false,
+                            "choice": "$1-\\ln 2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.89,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 75714,
+                    "ai_tags": "概率�?泊松分布,随机变量"
+                },
+                {
+                    "id": 13587,
+                    "subject_id": 3,
+                    "chapter_id": 293,
+                    "question_id": "99f7413c-07ea-4085-838f-acbbe748ef39",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$X$ 服从参数�?$\\lambda$ 的泊松分�? �?$P\\{X=1\\}=P\\{X=2\\}$, �?$\\lambda=()$.",
+                    "analysis": "�?$P\\{X=1\\}=P\\{X=2\\}$, �?$\\lambda e^{-\\lambda}=\\frac{\\lambda^2}{2} e^{-\\lambda}$, �?$\\lambda=2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/d9970cd8ebaa45c5a61fafc309f4bbd4",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54345,
+                            "question_id": 13587,
+                            "is_answer": true,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54348,
+                            "question_id": 13587,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54346,
+                            "question_id": 13587,
+                            "is_answer": false,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54347,
+                            "question_id": 13587,
+                            "is_answer": false,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.89,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 38874,
+                    "ai_tags": "泊松分布,随机变量"
+                },
+                {
+                    "id": 19055,
+                    "subject_id": 3,
+                    "chapter_id": 293,
+                    "question_id": "6dcc7695-ce8f-451b-8403-c4d88238db63",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设书籍上每页的印刷错误的个数 $X$ 服从泊松分布，经统计发现在某本书上，有一个印刷错误与有两个印刷错误的页数相同，求任意检�?4 页，每页上都没有印刷错误的概率是 ( ).",
+                    "analysis": "$\\begin{aligned} & \\because P\\{X=1\\}=P\\{X=2\\}, \\text { �?} \\\\ & \\qquad \\frac{\\lambda^1}{1!} e^{-\\lambda}=\\frac{\\lambda^2}{2!} e^{-\\lambda} \\Rightarrow \\lambda=2, \\\\ & \\therefore P\\{X=0\\}=e^{-2}, \\quad p=\\left(e^{-2}\\right)^4=e^{-8} .\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339678
+                    },
+                    "question_json": "mathreact/6e5eaaf4efe24bcd848ec4a6de6ee62c",
+                    "updated_at": {
+                        "seconds": 1775673114
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86549,
+                            "question_id": 19055,
+                            "is_answer": true,
+                            "choice": "$e^{-8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86550,
+                            "question_id": 19055,
+                            "is_answer": false,
+                            "choice": "$e^{-2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86551,
+                            "question_id": 19055,
+                            "is_answer": false,
+                            "choice": "$e^{-4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86552,
+                            "question_id": 19055,
+                            "is_answer": false,
+                            "choice": "$e^{-6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.5,
+                    "difficulty_score": 0.47,
+                    "avg_time_spent": 425286,
+                    "ai_tags": "泊松分布,概率计算"
+                },
+                {
+                    "id": 19058,
+                    "subject_id": 3,
+                    "chapter_id": 293,
+                    "question_id": "340db5e4-9e33-47ba-b8e5-d50f1ea0a380",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\xi$ 服从参数�?$\\lambda$ 的泊松分�? �?$P\\{\\xi=3\\}=P\\{\\xi=4\\}$, �?$P\\{\\xi=2\\}=($ ).",
+                    "analysis": "泊松分布分布律为 $P\\{X=k\\}=e^{-\\lambda} \\frac{\\lambda^k}{k!}$, �?$P\\{\\xi=3\\}=P\\{\\xi=4\\} \\Rightarrow e^{-\\lambda} \\frac{\\lambda^3}{3!}=e^{-\\lambda} \\frac{\\lambda^4}{4!} \\Rightarrow \\lambda=4$, 所�?$P\\{\\xi=2\\}=e^{-4} \\frac{4^2}{2!}=8 e^{-4}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339684
+                    },
+                    "question_json": "mathreact/d13f4e9d32814aaa94e15bd5be318953",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86570,
+                            "question_id": 19058,
+                            "is_answer": true,
+                            "choice": "$8 e^{-4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86571,
+                            "question_id": 19058,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4} e^{-2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86572,
+                            "question_id": 19058,
+                            "is_answer": false,
+                            "choice": "$4 e^{-2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86573,
+                            "question_id": 19058,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{8} e^{-4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.88,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 53134,
+                    "ai_tags": "泊松分布,概率计算"
+                },
+                {
+                    "id": 19061,
+                    "subject_id": 3,
+                    "chapter_id": 293,
+                    "question_id": "31a3399a-14df-4e00-a8c6-a6cc1f6121b8",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设电话交换台每分钟的呼唤次数服从参数�?4 的泊松分�? 则某分钟完全没有呼唤的概率为 ( ).",
+                    "analysis": "泊松分布的分布律�?$P\\{X=k\\}=e^{-\\lambda} \\frac{\\lambda^k}{k!}, k=0,1,2, \\ldots$, 依题�? 所求概率为 $P\\{X=0\\}=e^{-4}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339694
+                    },
+                    "question_json": "mathreact/57771b221bdc4e95a84db5557a03445d",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86591,
+                            "question_id": 19061,
+                            "is_answer": true,
+                            "choice": "$e^{-4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86592,
+                            "question_id": 19061,
+                            "is_answer": false,
+                            "choice": "$4 e^{-4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86593,
+                            "question_id": 19061,
+                            "is_answer": false,
+                            "choice": "$\\frac{4^4}{4!} e^{-4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86594,
+                            "question_id": 19061,
+                            "is_answer": false,
+                            "choice": "$\\frac{4^3}{3!} e^{-4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.88,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 33790,
+                    "ai_tags": "泊松分布,概率计算"
+                },
+                {
+                    "id": 19062,
+                    "subject_id": 3,
+                    "chapter_id": 293,
+                    "question_id": "c5a8dbd6-e983-4976-b03e-0a326ff039bd",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "某种商品一天的销售量 (�? 服从参数�?$\\lambda$ 的泊松分�? 随机选取 4 �? 其中恰有一天的销售为 5 件的概率�?().",
+                    "analysis": "一天销售为 5 件的概率�?$p=\\frac{\\lambda^5}{5!} e^{-\\lambda}$. 于是所求概率为\n$$\nP_4(1)=C_4^1 p^1(1-p)^{4-1}=C_4^1\\left(\\frac{\\lambda^5}{5!} e^{-\\lambda}\\right)\\left(1-\\frac{\\lambda^5}{5!} e^{-\\lambda}\\right)^3=4\\left(\\frac{\\lambda^5}{5!} e^{-\\lambda}\\right)\\left(1-\\frac{\\lambda^5}{5!} e^{-\\lambda}\\right)^3\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339694
+                    },
+                    "question_json": "mathreact/04efdd8d58d14bb0821bfd05dd09a5f9",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86598,
+                            "question_id": 19062,
+                            "is_answer": false,
+                            "choice": "$\\left(\\frac{\\lambda^5}{5!} e^{-\\lambda}\\right)\\left(1-\\frac{\\lambda^5}{5!} e^{-\\lambda}\\right)^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86599,
+                            "question_id": 19062,
+                            "is_answer": false,
+                            "choice": "$4\\left(\\frac{\\lambda^5}{5!} e^{-\\lambda}\\right)^3\\left(1-\\frac{\\lambda^5}{5!} e^{-\\lambda}\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86600,
+                            "question_id": 19062,
+                            "is_answer": false,
+                            "choice": "$\\left(\\frac{\\lambda^5}{5!} e^{-\\lambda}\\right)^3\\left(1-\\frac{\\lambda^5}{5!} e^{-\\lambda}\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86601,
+                            "question_id": 19062,
+                            "is_answer": true,
+                            "choice": "$4\\left(\\frac{\\lambda^5}{5!} e^{-\\lambda}\\right)\\left(1-\\frac{\\lambda^5}{5!} e^{-\\lambda}\\right)^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.83,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 60783,
+                    "ai_tags": "泊松分布,伯努利概�?
+                },
+                {
+                    "id": 19065,
+                    "subject_id": 3,
+                    "chapter_id": 293,
+                    "question_id": "3c632942-605f-4944-9182-b75f8c5f9c3c",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "�?$\\xi$ 服从参数�?$\\lambda$ 的泊松分�? 且已�?$P\\{\\xi=7\\}=P\\{\\xi=9\\}$, �?$\\lambda=()$.",
+                    "analysis": "泊松分布的分布律�?$P\\{X=k\\}=e^{-\\lambda} \\frac{\\lambda^k}{k!}, k=0,1,2, \\ldots$, 故由 $P\\{\\xi=7\\}=P\\{\\xi=9\\} \\Rightarrow e^{-\\lambda} \\frac{\\lambda^7}{7!}=e^{-\\lambda} \\frac{\\lambda^9}{9!} \\Rightarrow \\lambda^2=72 \\Rightarrow \\lambda=6 \\sqrt{2}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339698
+                    },
+                    "question_json": "mathreact/1ae3772693d74c0daff19dca9b614c58",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86619,
+                            "question_id": 19065,
+                            "is_answer": false,
+                            "choice": "$4 \\sqrt{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86620,
+                            "question_id": 19065,
+                            "is_answer": false,
+                            "choice": "$3 \\sqrt{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86621,
+                            "question_id": 19065,
+                            "is_answer": false,
+                            "choice": "$2 \\sqrt{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86622,
+                            "question_id": 19065,
+                            "is_answer": true,
+                            "choice": "$6 \\sqrt{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.97,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 113627,
+                    "ai_tags": "泊松分布,概率分布"
+                },
+                {
+                    "id": 19068,
+                    "subject_id": 3,
+                    "chapter_id": 293,
+                    "question_id": "8b428113-5e42-47dd-bce9-031785a38bc5",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\xi$ 服从参数�?$\\lambda$ 的泊松分�? 已知 $P\\{\\xi=2\\}=P\\{\\xi=3\\}$, �?$P\\{\\xi=4\\}=(\\quad)$.",
+                    "analysis": "泊松分布的分布律�?$P\\{X=k\\}=e^{-\\lambda} \\frac{\\lambda^k}{k!}, k=0,1,2, \\ldots$,\n$$\nP\\{\\xi=2\\}=P\\{\\xi=3\\} \\Rightarrow e^{-\\lambda} \\frac{\\lambda^2}{2!}=e^{-\\lambda} \\frac{\\lambda^3}{3!} \\Rightarrow \\lambda=3,\n$$\n\n所�?$P\\{\\xi=4\\}=e^{-3} \\frac{3^4}{4!}=\\frac{27}{8} e^{-3}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339703
+                    },
+                    "question_json": "mathreact/a56da5732f2e45758b0f4712088ab78c",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86640,
+                            "question_id": 19068,
+                            "is_answer": true,
+                            "choice": "$\\frac{27}{8} e^{-3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86641,
+                            "question_id": 19068,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{4} e^{-3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86642,
+                            "question_id": 19068,
+                            "is_answer": false,
+                            "choice": "$\\frac{8}{27} e^{-3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86643,
+                            "question_id": 19068,
+                            "is_answer": false,
+                            "choice": "$\\frac{4}{3} e^{-3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.91,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 60246,
+                    "ai_tags": "泊松分布,概率计算"
+                },
+                {
+                    "id": 19072,
+                    "subject_id": 3,
+                    "chapter_id": 293,
+                    "question_id": "550c08c5-5942-4fbf-8f2b-6ba8bfe964a7",
+                    "difficulty": "Easy",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "在长度为 $t$ 的时间间隔内, 某急救中心收到紧急呼救的次数 $X$ 服从参数 $\\frac{t}{2}$ 的泊松分�? 而与时间间隔的起点无�?(时间以小时计), 则某一天从中午 12 至下�?3 时没有收到紧急呼救的概率�?$(\\quad)$; 某一天从中午 12 时至下午 5 时至少收�?1 次紧急呼救的概率�?$(\\quad)$.",
+                    "analysis": "(1) $t=3, \\lambda=3 / 2, \\quad P\\{X=0\\}=e^{-3 / 2} \\approx 0.223$;\n(2) $t=5, \\lambda=5 / 2, P\\{X \\geq 1\\}=1-P\\{X=0\\}=1-e^{-5 / 2} \\approx 0.918$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339713
+                    },
+                    "question_json": "mathreact/a4a267987b1145c497af1586d0982796",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86668,
+                            "question_id": 19072,
+                            "is_answer": false,
+                            "choice": "$0.223,0.833$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86669,
+                            "question_id": 19072,
+                            "is_answer": false,
+                            "choice": "$0.118,0.918$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86670,
+                            "question_id": 19072,
+                            "is_answer": true,
+                            "choice": "$0.223,0.918$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86671,
+                            "question_id": 19072,
+                            "is_answer": false,
+                            "choice": "$0.118,0.833$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.71,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 247650,
+                    "ai_tags": "泊松分布,概率计算"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 13,
+            "questions": [
+                {
+                    "id": 19073,
+                    "subject_id": 3,
+                    "chapter_id": 293,
+                    "question_id": "ac065ee4-ceda-4984-bcf8-d788a5bf6440",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "�?$\\xi$ 服从参数�?$\\lambda$ 的泊松分�? 且已�?$P\\{\\xi=2\\}=P\\{\\xi=4\\}$, �?$\\lambda=()$.",
+                    "analysis": "泊松分布的分布律�?$P\\{X=k\\}=e^{-\\lambda} \\frac{\\lambda^k}{k!}, k=0,1,2, \\ldots$, 故由 $P\\{\\xi=2\\}=P\\{\\xi=4\\} \\Rightarrow e^{-\\lambda} \\frac{\\lambda^2}{2!}=e^{-\\lambda} \\frac{\\lambda^4}{4!} \\Rightarrow \\lambda^2=12 \\Rightarrow \\lambda=2 \\sqrt{3}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339719
+                    },
+                    "question_json": "mathreact/17357f0cb4db464b856721610c889ef3",
+                    "updated_at": {
+                        "seconds": 1775673114
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86675,
+                            "question_id": 19073,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\sqrt{3}}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86676,
+                            "question_id": 19073,
+                            "is_answer": false,
+                            "choice": "$3 \\sqrt{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86677,
+                            "question_id": 19073,
+                            "is_answer": false,
+                            "choice": "$\\frac{2 \\sqrt{3}}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86678,
+                            "question_id": 19073,
+                            "is_answer": true,
+                            "choice": "$2 \\sqrt{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 68370,
+                    "tags": "",
+                    "ai_tags": "泊松分布,概率计算"
+                },
+                {
+                    "id": 19076,
+                    "subject_id": 3,
+                    "chapter_id": 293,
+                    "question_id": "0ccdabde-7d89-42d0-9d70-1ddaff584013",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "假设某地在任何长�?$t$ (�?的时间间隔内发生地震的次�?$N(t)$ 服从参数�?$\\lambda=0.1 t$ 的泊松分布，$X$ 表示连续两次地震之间间隔的时间（单位：年），则今�?3 年内再次发生地震的概率为 ( )；今�?3 年到 5 年内再次发生地震的概率为 ( ).",
+                    "analysis": "�?$t \\geq 0$ 时，$P\\{X>t\\}=P\\{N(t)=0\\}=e^{-0.1 t}$，\n$$\n\\therefore F(t)=P\\{X \\leq t\\}=1-P\\{X>t\\}=1-e^{-0.1 t}\n$$\n�?$t<0$ 时，$F(t)=0$。\n$$\n\\therefore F(x)=\\begin{cases}1-e^{-0.1 x}, & x \\geq 0 \\\\ 0, & x<0\\end{cases}\n$$\n�?$X$ 服从参数 $\\lambda=0.1$ 的指数分布。\n$$\n\\begin{aligned}\n& F(3)=1-e^{-0.1 \\times 3} \\approx 0.26 \\\\\n& P(3 < X \\le 5) = F(5)-F(3) \\approx 0.13\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339725
+                    },
+                    "question_json": "mathreact/de69b90fe7774a419e739dbeeaf1f42a",
+                    "updated_at": {
+                        "seconds": 1775673109
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86696,
+                            "question_id": 19076,
+                            "is_answer": true,
+                            "choice": "$0.26, 0.13$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86697,
+                            "question_id": 19076,
+                            "is_answer": false,
+                            "choice": "$0.52, 0.34$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86698,
+                            "question_id": 19076,
+                            "is_answer": false,
+                            "choice": "$0.59, 0.33$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86699,
+                            "question_id": 19076,
+                            "is_answer": false,
+                            "choice": "$0.36, 0.22$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.89,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 96669,
+                    "ai_tags": "泊松分布,指数分布"
+                },
+                {
+                    "id": 19082,
+                    "subject_id": 3,
+                    "chapter_id": 293,
+                    "question_id": "87c39c6e-8c86-447f-b17d-4768fa0d330c",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "某路口在一天的某一时间段内�?800 辆汽车通过，每辆汽车通过该路口时发生故障的概率为 0.002，试利用泊松定理近似计算通过�?800 辆汽车中恰有 3 辆车发生故障的概率为 (    ) (只写出计算公式，而不必计算出最后结�?�?,
+                    "analysis": "�?$X$ 表示通过�?800 辆汽车中发生故障的车辆数，则 $X \\sim B(800,0.002)$。利用泊松定理近似计算，�?$\\lambda=800 \\times 0.002=1.6$，于是\n$$\nP\\{X=3\\} \\approx \\frac{1.6^3}{3!} e^{-1.6}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339744
+                    },
+                    "question_json": "mathreact/30987d08789940d9900cd496b08f2edd",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86738,
+                            "question_id": 19082,
+                            "is_answer": false,
+                            "choice": "$\\frac{1.6^4}{4!} e^{-1.6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86739,
+                            "question_id": 19082,
+                            "is_answer": false,
+                            "choice": "$\\frac{1.6^2}{2!} e^{-1.6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86740,
+                            "question_id": 19082,
+                            "is_answer": false,
+                            "choice": "$\\frac{1.6^3}{3!} e^{1.6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86741,
+                            "question_id": 19082,
+                            "is_answer": true,
+                            "choice": "$\\frac{1.6^3}{3!} e^{-1.6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.92,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 121938,
+                    "ai_tags": "泊松定理,二项分布,概率计算"
+                }
+            ]
+        }
+    }
+]

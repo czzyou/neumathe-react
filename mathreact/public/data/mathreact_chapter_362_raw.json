@@ -1,0 +1,1877 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 22,
+            "questions": [
+                {
+                    "id": 13705,
+                    "subject_id": 3,
+                    "chapter_id": 362,
+                    "question_id": "b8207d7d-5dbe-4963-89a8-8e23d9786eb8",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\xi$ 服从 $n=100, p=0.8$ 的二项分�? $\\eta=a \\xi+b$, �?$a, b$ �?( ) �? $E(\\eta)=0, D(\\eta)=1$.",
+                    "analysis": "由题意知 $E(\\xi)=100 \\times 0.8=80, D(\\xi)=100 \\times 0.8 \\times 0.2=16$, 则\n$$\nE(\\eta)=a E(\\xi)+b=80 a+b=0, D(\\eta)=a^2 D(\\xi)=16 a^2=1,\n$$\n\n�?$a=\\frac{1}{4}, b=-20$ �?$a=-\\frac{1}{4}, b=20$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/de2fb09e63a94331b1aef3481d460efc",
+                    "updated_at": {
+                        "seconds": 1774981847
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54818,
+                            "question_id": 13705,
+                            "is_answer": true,
+                            "choice": "$a=\\frac{1}{4}, b=-20$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54819,
+                            "question_id": 13705,
+                            "is_answer": false,
+                            "choice": "$a=\\frac{1}{2}, b=-20$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54817,
+                            "question_id": 13705,
+                            "is_answer": false,
+                            "choice": "$a=\\frac{1}{2}, b=-40$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54820,
+                            "question_id": 13705,
+                            "is_answer": false,
+                            "choice": "$a=\\frac{1}{4}, b=-40$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 201508,
+                    "ai_tags": "二项分布,数学期望,方差"
+                },
+                {
+                    "id": 13707,
+                    "subject_id": 3,
+                    "chapter_id": 362,
+                    "question_id": "9dd5d906-c84a-47d6-9512-6099d1b18248",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$\\xi$ 服从 $\\lambda=2$ 的泊松分�? �?$D(2 \\xi)$ 等于 ( ).",
+                    "analysis": "由于随机变量 $\\xi$ 服从 $\\lambda=2$ 的泊松分�? �?$D(\\xi)=2$, 从�?$D(2 \\xi)=4 D(\\xi)=8$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/bbbc25446aa74b088a34628a65234809",
+                    "updated_at": {
+                        "seconds": 1774981853
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54828,
+                            "question_id": 13707,
+                            "is_answer": true,
+                            "choice": "$8$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54826,
+                            "question_id": 13707,
+                            "is_answer": false,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54825,
+                            "question_id": 13707,
+                            "is_answer": false,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54827,
+                            "question_id": 13707,
+                            "is_answer": false,
+                            "choice": "$16$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.78,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 15860,
+                    "ai_tags": "泊松分布,方差"
+                },
+                {
+                    "id": 13708,
+                    "subject_id": 3,
+                    "chapter_id": 362,
+                    "question_id": "e30d510e-0095-45c5-8ffd-45e8d1be3741",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\xi \\sim N(3,4), \\eta$ 服从参数 $\\lambda=0.2$ 的指数分�? 则下列各式错误的�?( ).",
+                    "analysis": "�?$\\xi \\sim N(3,4)$, �?$E(\\xi)=3, D(\\xi)=4$, 从�?$E\\left(\\xi^2\\right)=D(\\xi)+[E(\\xi)]^2=13$.\n�?$\\eta$ 服从参数 $\\lambda=0.2$ 的指数分�? �?$E(\\eta)=\\frac{1}{0.2}=5, D(\\eta)=\\frac{1}{(0.2)^2}=25$,从�?$E\\left(\\eta^2\\right)=D(\\eta)+[E(\\eta)]^2=50$.\n�?$E(\\xi+\\eta)=8, E\\left(\\xi^2+\\eta^2\\right)=63, E\\left(\\frac{\\xi}{2}+\\frac{\\eta}{5}-\\frac{5}{2}\\right)=0$.\n但由�?$\\xi$ �?$\\eta$ 的协方差不知, �?$D(\\xi+\\eta)$ 的结果不能求�?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/039e7a61f427472eaf8fb25c3aff0fdc",
+                    "updated_at": {
+                        "seconds": 1766773900
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54831,
+                            "question_id": 13708,
+                            "is_answer": true,
+                            "choice": "$D(\\xi+\\eta)=29$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54832,
+                            "question_id": 13708,
+                            "is_answer": false,
+                            "choice": "$E(\\xi+\\eta)=8$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54829,
+                            "question_id": 13708,
+                            "is_answer": false,
+                            "choice": "$E\\left(\\xi^2+\\eta^2\\right)=63$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54830,
+                            "question_id": 13708,
+                            "is_answer": false,
+                            "choice": "$E\\left(\\frac{\\xi}{2}+\\frac{\\eta}{5}-\\frac{5}{2}\\right)=0$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 39704,
+                    "ai_tags": "正态分�?指数分布,数学期望与方�?
+                },
+                {
+                    "id": 13709,
+                    "subject_id": 3,
+                    "chapter_id": 362,
+                    "question_id": "9e419f05-95e5-4abd-94fa-6c0ae253b221",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$X$ 服从参数�?$\\lambda$ 的泊松分�? �?$E[(X-1)(X-2)]=1$, �?$\\lambda=()$.",
+                    "analysis": "�?$X \\sim P(\\lambda)$, �?$D(X)=\\lambda, E(X)=\\lambda, E\\left(X^2\\right)=D(X)+E^2(X)=\\lambda+\\lambda^2$.\n由题�?$E[(X-1)(X-2)]=1$, 有\n$$\nE\\left(X^2-3 X+2\\right)=E\\left(X^2\\right)-3 E(X)+2=\\lambda+\\lambda^2-3 \\lambda+2=1 .\n$$\n\n�?$\\lambda^2-2 \\lambda+1=0$, �?$\\lambda=1$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/88ccae75d7214b9dacc269f1643e5663",
+                    "updated_at": {
+                        "seconds": 1767637889
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54833,
+                            "question_id": 13709,
+                            "is_answer": true,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54834,
+                            "question_id": 13709,
+                            "is_answer": false,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54836,
+                            "question_id": 13709,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54835,
+                            "question_id": 13709,
+                            "is_answer": false,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 50203,
+                    "ai_tags": "泊松分布,数学期望"
+                },
+                {
+                    "id": 13710,
+                    "subject_id": 3,
+                    "chapter_id": 362,
+                    "question_id": "f2c4b678-28d5-41bd-bb20-f62295d34913",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "若随机变�?$X$ 服从均值为 2 、方差为 $\\sigma^2$ 的正态分�? �?$P\\{2<X<4\\}=0.3$, �?$P\\{X<0\\}=()$.",
+                    "analysis": "依题意知 $X \\sim N\\left(2, \\sigma^2\\right)$, �?$P\\{2<X<4\\}=0.3$ 得\n$$\n\\begin{gathered}\nP\\{2<X<4\\}=P\\left\\{\\frac{2-2}{\\sigma}<\\frac{X-2}{\\sigma}<\\frac{4-2}{\\sigma}\\right\\}=\\Phi\\left(\\frac{2}{\\sigma}\\right)-\\Phi(0)=0.3, \\\\\n\\Phi\\left(\\frac{2}{\\sigma}\\right)=0.8\n\\end{gathered}\n$$\n\n所以\n$$\nP\\{X<0\\}=P\\left\\{\\frac{X-2}{\\sigma}<\\frac{0-2}{\\sigma}\\right\\}=\\Phi\\left(-\\frac{2}{\\sigma}\\right)=1-\\Phi\\left(\\frac{2}{\\sigma}\\right)=1-0.8=0.2 .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/face72bf55c042549b1dfee996884113",
+                    "updated_at": {
+                        "seconds": 1767637888
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54840,
+                            "question_id": 13710,
+                            "is_answer": true,
+                            "choice": "$0.2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54838,
+                            "question_id": 13710,
+                            "is_answer": false,
+                            "choice": "$0.1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54837,
+                            "question_id": 13710,
+                            "is_answer": false,
+                            "choice": "$0.3$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54839,
+                            "question_id": 13710,
+                            "is_answer": false,
+                            "choice": "$0.4$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 25775,
+                    "ai_tags": "正态分�?概率计算"
+                },
+                {
+                    "id": 13713,
+                    "subject_id": 3,
+                    "chapter_id": 362,
+                    "question_id": "b182993a-c6fb-4644-bcc4-44028a6cd7b2",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\xi$ 服从二项分布 $\\xi \\sim B(25,0.2), \\eta \\sim N\\left(a, \\sigma^2\\right)$, �?$E(\\xi)=E(\\eta), D(\\xi)=D(\\eta)$, �?$\\eta$ 的概率密度函�?$\\varphi(y)=()$.",
+                    "analysis": "�?$\\xi \\sim B(25,0.2)$, 所�?$E(\\xi)=n p=5, D(\\xi)=n p(1-p)=4$, 从�?$E(\\eta)=5, D(\\eta)=4$. 于是 $a=5, \\sigma=2$, $\\eta$ 的概率密度函数为\n$$\n\\varphi(y)=\\frac{1}{2 \\sqrt{2 \\pi}} e^{-\\frac{(y-5)^2}{8}} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/0e90d148ea7f4d5cac0a1bbfdfa66084",
+                    "updated_at": {
+                        "seconds": 1766428301
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54849,
+                            "question_id": 13713,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{2 \\sqrt{2 \\pi}} e^{-\\frac{(y-5)^2}{8}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54850,
+                            "question_id": 13713,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{\\sqrt{2 \\pi}} e^{-\\frac{y^2}{2}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54851,
+                            "question_id": 13713,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2 \\sqrt{2 \\pi}} e^{\\frac{y^2}{8}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54852,
+                            "question_id": 13713,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4 \\sqrt{2 \\pi}} e^{-\\frac{(y-5)^2}{32}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 51604,
+                    "ai_tags": "二项分布,正态分�?随机变量的数字特�?
+                },
+                {
+                    "id": 13714,
+                    "subject_id": 3,
+                    "chapter_id": 362,
+                    "question_id": "1f6a80ae-51c6-4fce-8ac9-9b40d909c707",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "$$\\text{�?}\\xi\\text{服从泊松分布,且}E(\\xi^2)=20,\\text{则}E(\\xi)=().$$",
+                    "analysis": "已知�?$\\xi \\sim P(\\lambda)$, �?$E(\\xi)=D(\\xi)=\\lambda$.\n由于 $E\\left(\\xi^2\\right)=D(\\xi)+[E(\\xi)]^2=20$,\n�?$\\lambda^2+\\lambda=20$, 解得 $\\lambda=4, \\lambda=-5$ (舍去).",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/6bf63576927c4427a6697b31157bf843",
+                    "updated_at": {
+                        "seconds": 1766860313
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54854,
+                            "question_id": 13714,
+                            "is_answer": true,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54856,
+                            "question_id": 13714,
+                            "is_answer": false,
+                            "choice": "$5$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54853,
+                            "question_id": 13714,
+                            "is_answer": false,
+                            "choice": "$9$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54855,
+                            "question_id": 13714,
+                            "is_answer": false,
+                            "choice": "$20$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 113059,
+                    "ai_tags": "泊松分布,数学期望,方差"
+                },
+                {
+                    "id": 13716,
+                    "subject_id": 3,
+                    "chapter_id": 362,
+                    "question_id": "4b5f2952-c047-4e83-99b3-417c5b4ae3c8",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\xi$ 服从泊松分布, �?$D(\\xi)=9$, �?$E(\\xi)=()$.",
+                    "analysis": "已知�?$\\xi \\sim P(\\lambda)$, �?$E(\\xi)=D(\\xi)=\\lambda$.由于 $D(\\xi)=9$, �?$E(\\xi)=9$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/e11e58e85d6c4bd78d8adbc29e92d5e5",
+                    "updated_at": {
+                        "seconds": 1767637890
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54862,
+                            "question_id": 13716,
+                            "is_answer": true,
+                            "choice": "$9$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54863,
+                            "question_id": 13716,
+                            "is_answer": false,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54864,
+                            "question_id": 13716,
+                            "is_answer": false,
+                            "choice": "$5$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54861,
+                            "question_id": 13716,
+                            "is_answer": false,
+                            "choice": "$20$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 12134,
+                    "ai_tags": "泊松分布,数学期望,方差"
+                },
+                {
+                    "id": 13717,
+                    "subject_id": 3,
+                    "chapter_id": 362,
+                    "question_id": "4e33d4f8-ed93-4848-afe4-5360f496a1b4",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\xi$ 服从参数�?$\\lambda$ 的指数分�? �?$D(\\xi)=4$, �?$\\lambda=()$.",
+                    "analysis": "由于 $\\xi$ 服从参数�?$\\lambda$ 的指数分�? �?$E(\\xi)=\\frac{1}{\\lambda}, D(\\xi)=\\frac{1}{\\lambda^2}$.�?$D(\\xi)=4$, �?$\\lambda=\\frac{1}{2}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/f51782b1451d49e295bff13e80d28598",
+                    "updated_at": {
+                        "seconds": 1767637883
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54867,
+                            "question_id": 13717,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54868,
+                            "question_id": 13717,
+                            "is_answer": false,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54865,
+                            "question_id": 13717,
+                            "is_answer": false,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54866,
+                            "question_id": 13717,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 15709,
+                    "ai_tags": "指数分布,方差"
+                },
+                {
+                    "id": 13719,
+                    "subject_id": 3,
+                    "chapter_id": 362,
+                    "question_id": "8fa8d900-0d49-48f8-a3bf-1084d17b397f",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$X \\sim b(n, p)$, �?$E(X), D(X)$ 分别�?() .",
+                    "analysis": "若设 $X_i=\\left\\{\\begin{array}{l}1, \\text { �?} i \\text { 次试验成�?} \\\\ 0, \\text { �?} i \\text { 试验失败 }\\end{array}(i=1,2, \\cdots, n)\\right.$, �?$X=\\sum_{i=1}^n X_i$ 即表�?$n$ 重伯努利试验�?\"成功\"的次�?\n$$\nE\\left(X_i\\right)=P\\left\\{X_i=1\\right\\}=p, D\\left(X_i\\right)=E\\left(X_i^2\\right)-\\left[E\\left(X_i\\right)\\right]^2=p-p^2=p(1-p), i=1,2, \\cdots, n\n$$\n\n由于 $X_1, X_2, \\cdots, X_n$ 相互独立, 所以\n$$\nE(X)=\\sum_{i=1}^n E\\left(X_i\\right)=n p, D(X)=\\sum_{i=1}^n D\\left(X_i\\right)=n p(1-p)\n$$\n\n或由�?$X$ 是二项变�? 所�?$E(X)=n p, D(X)=n p(1-p)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/f81e9629c257493e999c04dabb7fbbed",
+                    "updated_at": {
+                        "seconds": 1766860312
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54873,
+                            "question_id": 13719,
+                            "is_answer": true,
+                            "choice": "$n p, n p(1-p)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54875,
+                            "question_id": 13719,
+                            "is_answer": false,
+                            "choice": "$n p, p(1-p)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54876,
+                            "question_id": 13719,
+                            "is_answer": false,
+                            "choice": "$p(1-p), n p(1-p)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54874,
+                            "question_id": 13719,
+                            "is_answer": false,
+                            "choice": "$p(1-p), n p$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 26516,
+                    "ai_tags": "二项分布,数学期望,方差"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 22,
+            "questions": [
+                {
+                    "id": 13721,
+                    "subject_id": 3,
+                    "chapter_id": 362,
+                    "question_id": "38bbb3ac-9a06-435a-bafc-ae694ff7938d",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\xi$ 服从 $n=100, p=0.02$ 的二项分�? $\\eta$ 服从正态分�? �?$E(\\xi)=E(\\eta), D(\\xi)=D(\\eta)$, �?$\\eta$ 的概率密度函�?$\\varphi(x)=()$.",
+                    "analysis": "因为 $\\xi$ 服从 $n=100, p=0.02$ 的二项分�? 所�?$E(\\xi)=n p=2, D(\\xi)=n p(1-p)=1.96$. 于是 $E(\\eta)=2, D(\\eta)=1.96$,�?$\\eta \\sim N\\left(2,(1.4)^2\\right), \\eta$ 的概率密度函数为\n$$\n\\varphi(x)=\\frac{1}{1.4 \\sqrt{2 \\pi}} e^{-\\frac{(x-2)^2}{3.92}}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/442fdadabb9046b6ad6c6d45fb25868c",
+                    "updated_at": {
+                        "seconds": 1766514711
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54883,
+                            "question_id": 13721,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{1.4 \\sqrt{2 \\pi}} e^{-\\frac{(x-2)^2}{3.92}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54884,
+                            "question_id": 13721,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{1.4 \\sqrt{2 \\pi}} e^{-\\frac{(x-2)^2}{1.96}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54882,
+                            "question_id": 13721,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{1.96 \\sqrt{2 \\pi}} e^{-\\frac{(x-2)^2}{3.92}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54881,
+                            "question_id": 13721,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{1.4 \\sqrt{2 \\pi}} e^{\\frac{(x-2)^2}{3.92}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 84761,
+                    "ai_tags": "二项分布,正态分�?概率密度函数"
+                },
+                {
+                    "id": 13723,
+                    "subject_id": 3,
+                    "chapter_id": 362,
+                    "question_id": "6a9f9c89-1dfc-45e4-b8cd-152e2d158aa4",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知 $X$ 的概率密度为 $f(x)=\\frac{1}{\\sqrt{\\pi}} e^{-x^2+2 x-1}$, �?$E(X), D(X)$ �?( ).",
+                    "analysis": "�?$\\xi \\sim N\\left(\\mu, \\sigma^2\\right)$, 则其概率密度�?$f(x)=\\frac{1}{\\sqrt{2 \\pi} \\sigma} e^{-\\frac{(x-\\mu)^2}{2 \\sigma^2}}$.今\n$$\nf(x)=\\frac{1}{\\sqrt{\\pi}} e^{-x^2+2 x-1}=\\frac{1}{\\sqrt{2 \\pi} \\frac{1}{\\sqrt{2}}} e^{-\\frac{(x-1)^2}{2\\left(\\frac{1}{\\sqrt{2}}\\right)^2}},\n$$\n\n所�?$X \\sim N\\left(1,\\left(\\frac{1}{\\sqrt{2}}\\right)^2\\right)$, �?$E(X)=1, D(X)=\\frac{1}{2}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/ad622ae1a68143249bf8ee9eb5325b37",
+                    "updated_at": {
+                        "seconds": 1766514705
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54890,
+                            "question_id": 13723,
+                            "is_answer": true,
+                            "choice": "$E(X)=1, D(X)=\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54892,
+                            "question_id": 13723,
+                            "is_answer": false,
+                            "choice": "$E(X)=1, D(X)=\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54891,
+                            "question_id": 13723,
+                            "is_answer": false,
+                            "choice": "$E(X)=2, D(X)=\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54889,
+                            "question_id": 13723,
+                            "is_answer": false,
+                            "choice": "$E(X)=2, D(X)=\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 42480,
+                    "ai_tags": "正态分�?数学期望,方差"
+                },
+                {
+                    "id": 19139,
+                    "subject_id": 3,
+                    "chapter_id": 362,
+                    "question_id": "861470bb-9e9d-4c11-a9b0-72a0db0a5c96",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "下列命题中正确的�?( ).",
+                    "analysis": "$0-1$ 分布的定�? �?$\\xi$ 的分布律�?$\\varphi(x)=\\theta^x(1-\\theta)^{1-x}, 0<\\theta<1, x=0,1$, 则称 $\\xi$ 服从 $0-1$ 分布.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339876
+                    },
+                    "question_json": "mathreact/608e81142fd147deb9c266ccb8ed8661",
+                    "updated_at": {
+                        "seconds": 1767637892
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87137,
+                            "question_id": 19139,
+                            "is_answer": true,
+                            "choice": "�?$\\xi$ 的分布律�?$\\varphi(x)=\\theta^x(1-\\theta)^{1-x}, 0<\\theta<1, x=0,1$, 则称 $\\xi$ 服从 $0-1$ 分布",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87138,
+                            "question_id": 19139,
+                            "is_answer": false,
+                            "choice": "�?$\\xi \\sim N(0,1)$, 则称 $\\xi$ 服从 $0-1$ 分布",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87139,
+                            "question_id": 19139,
+                            "is_answer": false,
+                            "choice": "�?$E(\\xi)=0, D(\\xi)=1$, 则称 $\\xi$ 服从 $0-1$ 分布",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87140,
+                            "question_id": 19139,
+                            "is_answer": false,
+                            "choice": "�?$\\xi$ 的分布密度为 $\\varphi(x)=\\left\\{\\begin{array}{l}0, x \\notin(0,1) \\\\ 1, x \\in(0,1)\\end{array}\\right.$, 则称 $\\xi$ 服从 $0-1$ 分布",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.75,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 76803,
+                    "ai_tags": "概率�?0-1分布,分布�?
+                },
+                {
+                    "id": 19140,
+                    "subject_id": 3,
+                    "chapter_id": 362,
+                    "question_id": "24dab95f-7e60-44ec-b520-32e5518159ef",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设某人练习射�? 每次命中率为 $p$, 重复射击 $n$ 次得命中次数记为 $X$, 如果 $X$ 的数学期望和方差分别�?$E(X)=8$, $D(X)=1.6$, 则射击次数与命中率为 ( ).",
+                    "analysis": "由题意知�?X \\sim b(n, p)$，由二项分布的数学期望和方差知，\n$$\nE(X)=n p=8, \\quad D(X)=n p(1-p)=1.6\n$$\n解得 $n=10, p=0.8$�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339876
+                    },
+                    "question_json": "mathreact/502240b0dda94a2da5300334ccf02b56",
+                    "updated_at": {
+                        "seconds": 1766687559
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87144,
+                            "question_id": 19140,
+                            "is_answer": true,
+                            "choice": "$n=10, \\quad p=0.8$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87145,
+                            "question_id": 19140,
+                            "is_answer": false,
+                            "choice": "$n=40, \\quad p=0.2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87146,
+                            "question_id": 19140,
+                            "is_answer": false,
+                            "choice": "$n=25, \\quad p=0.32$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87147,
+                            "question_id": 19140,
+                            "is_answer": false,
+                            "choice": "$n=20, \\quad p=0.4$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 58363,
+                    "ai_tags": "二项分布,数学期望,方差"
+                },
+                {
+                    "id": 19142,
+                    "subject_id": 3,
+                    "chapter_id": 362,
+                    "question_id": "843af392-677a-4244-bb74-9152cd063616",
+                    "difficulty": "Easy",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "随机变量 $\\xi$ 服从指数分布, 参数 $\\lambda=( \\quad )$ �? $E\\left(\\xi^2\\right)=18$.",
+                    "analysis": "由于随机变量 $\\xi$ 服从参数�?$\\lambda$ 的指数分�? �?$E(\\xi)=\\frac{1}{\\lambda}, D(\\xi)=\\frac{1}{\\lambda^2}$, 从�?$E\\left(\\xi^2\\right)=D(\\xi)+[E(\\xi)]^2=\\frac{2}{\\lambda^2}$, �?$\\lambda=\\frac{1}{3}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339877
+                    },
+                    "question_json": "mathreact/4bc21694c7904f6390d6ea55df504f1e",
+                    "updated_at": {
+                        "seconds": 1774981847
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87158,
+                            "question_id": 19142,
+                            "is_answer": false,
+                            "choice": "$6$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87159,
+                            "question_id": 19142,
+                            "is_answer": false,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87160,
+                            "question_id": 19142,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87161,
+                            "question_id": 19142,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.4,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 30197,
+                    "ai_tags": "指数分布,随机变量的数字特�?
+                },
+                {
+                    "id": 19145,
+                    "subject_id": 3,
+                    "chapter_id": 362,
+                    "question_id": "c7099327-51b9-421f-b6dc-d08713557aa5",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$X$ 服从二项分布 $B(n, p)$, 已知 $E(X)=1.6, D(X)=1.28$, 则参�?$n, p$ 各为 ( ).",
+                    "analysis": "由二项分布的数学期望和方差知，\n$$\nE(X)=n p=1.6, \\quad D(X)=n p(1-p)=1.28,\n$$\n\n解得 $n=8, \\quad p=0.2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339888
+                    },
+                    "question_json": "mathreact/1572568fb3e04ff1a4757fb077b456d9",
+                    "updated_at": {
+                        "seconds": 1767637890
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87179,
+                            "question_id": 19145,
+                            "is_answer": true,
+                            "choice": "$n=8, \\quad p=0.2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87180,
+                            "question_id": 19145,
+                            "is_answer": false,
+                            "choice": "$n=4, \\quad p=0.4$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87181,
+                            "question_id": 19145,
+                            "is_answer": false,
+                            "choice": "$n=2, \\quad p=0.8$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87182,
+                            "question_id": 19145,
+                            "is_answer": false,
+                            "choice": "$n=10, \\quad p=0.16$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 32743,
+                    "ai_tags": "二项分布,数学期望,方差"
+                },
+                {
+                    "id": 19146,
+                    "subject_id": 3,
+                    "chapter_id": 362,
+                    "question_id": "1fa73687-8503-4c33-9bc4-cd02c294cbce",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知随机变量 $\\xi$ 服从二项分布, �?$E(\\xi)=2.4, D(\\xi)=(1.2)^2$, 则二项分布的参数 $n$ �?$p$ 之值为 $($ ).",
+                    "analysis": "�?$\\xi \\sim B(n, p)$, �?$E(\\xi)=n p, D(\\xi)=n p(1-p)$,�?$E(\\xi)=2.4, D(\\xi)=(1.2)^2$ 分别代入上式, �?$n=6, p=0.4$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339889
+                    },
+                    "question_json": "mathreact/0448b8ec407a492496a9420562201f1f",
+                    "updated_at": {
+                        "seconds": 1766946705
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87186,
+                            "question_id": 19146,
+                            "is_answer": true,
+                            "choice": "$n=6, p=0.4$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87187,
+                            "question_id": 19146,
+                            "is_answer": false,
+                            "choice": "$n=4, p=0.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87188,
+                            "question_id": 19146,
+                            "is_answer": false,
+                            "choice": "$n=25, p=0.096$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87189,
+                            "question_id": 19146,
+                            "is_answer": false,
+                            "choice": "$n=3, p=0.8$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 103332,
+                    "ai_tags": "二项分布,数学期望,方差"
+                },
+                {
+                    "id": 19147,
+                    "subject_id": 3,
+                    "chapter_id": 362,
+                    "question_id": "f72b27be-675f-4097-8324-d3fa48ad009b",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\xi \\sim N\\left(0, \\sigma^2\\right)$, $\\lambda$ 是任意实�? 则有 ()",
+                    "analysis": "�?$\\xi \\sim N\\left(0, \\sigma^2\\right)$, �?$\\frac{\\xi}{\\sigma} \\sim N(0,1)$.\n由标准正态分布的性质, �?$P\\left\\{\\frac{\\xi}{\\sigma} \\leq k\\right\\}=1-P\\left\\{\\frac{\\xi}{\\sigma} \\leq-k\\right\\}$, 其中 $k$ 为任意实�? 因此, $P\\{\\xi \\leq \\lambda\\}=1-P\\{\\xi \\leq-\\lambda\\}$ ，其�?$\\lambda$ 是任意实数。\n由正态分布的性质及数字特征的性质, 知\n$$\n|\\lambda| \\xi \\sim N\\left(0, \\lambda^2 \\sigma^2\\right), \\quad \\xi+\\lambda \\sim N\\left(\\lambda, \\sigma^2\\right) .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339898
+                    },
+                    "question_json": "mathreact/770f8cdf56e84d07b28b3769ab5ad46c",
+                    "updated_at": {
+                        "seconds": 1767637887
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87193,
+                            "question_id": 19147,
+                            "is_answer": true,
+                            "choice": "$P\\{\\xi \\leq \\lambda\\}=1-P\\{\\xi \\leq-\\lambda\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87194,
+                            "question_id": 19147,
+                            "is_answer": false,
+                            "choice": "$P\\{\\xi \\leq \\lambda\\}=P\\{\\xi \\geq \\lambda\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87195,
+                            "question_id": 19147,
+                            "is_answer": false,
+                            "choice": "$|\\lambda| \\xi \\sim N\\left(0,|\\lambda| \\sigma^2\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87196,
+                            "question_id": 19147,
+                            "is_answer": false,
+                            "choice": "$\\xi+\\lambda \\sim N\\left(\\lambda, \\sigma^2+\\lambda^2\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 43774,
+                    "ai_tags": "正态分�?概率计算"
+                },
+                {
+                    "id": 19149,
+                    "subject_id": 3,
+                    "chapter_id": 362,
+                    "question_id": "b7eafa71-1491-4e1c-9e03-0ce16794b8f9",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "下列说法中正确的�?( ).",
+                    "analysis": "正态分�?$N(\\mu, \\sigma^2)$ 的密度函数为 $\\varphi(x)=\\frac{1}{\\sqrt{2 \\pi} \\sigma} e^{-\\frac{(x-\\mu)^2}{2 \\sigma^2}}, x \\in(-\\infty,+\\infty)$，则期望、方差分别为 $\\mu, \\sigma^2$。指数分�?$E(\\lambda)$ 的密度函数为 $\\varphi(x)=\\begin{cases}\\lambda e^{-\\lambda x}, & x>0 \\\\ 0, & x \\leq 0\\end{cases}$，则期望、方差分别为 $\\frac{1}{\\lambda}, \\frac{1}{\\lambda^2}$�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339904
+                    },
+                    "question_json": "mathreact/020ee5cb1341458a8332403e6c02a5c5",
+                    "updated_at": {
+                        "seconds": 1774981849
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87207,
+                            "question_id": 19149,
+                            "is_answer": true,
+                            "choice": "正态分�?$N\\left(\\mu, \\sigma^2\\right)$ 的密度函数为 $\\varphi(x)=\\frac{1}{\\sqrt{2 \\pi} \\sigma} e^{-\\frac{(x-\\mu)^2}{2 \\sigma^2}}, x \\in(-\\infty,+\\infty)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87208,
+                            "question_id": 19149,
+                            "is_answer": false,
+                            "choice": "正态分�?$N\\left(\\mu, \\sigma^2\\right)$ 的期望和方差分别�?$\\mu, \\sigma$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87209,
+                            "question_id": 19149,
+                            "is_answer": false,
+                            "choice": "指数分布 $E(\\lambda)$ 的密度函数为 $\\varphi(x)=\\left\\{\\begin{array}{cc}\\lambda e^{-x}, & x>0 \\\\ 0, & x \\leq 0\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87210,
+                            "question_id": 19149,
+                            "is_answer": false,
+                            "choice": "指数分布 $E(\\lambda)$ 的期望与方差分别�?$\\frac{1}{\\lambda}, \\frac{1}{\\lambda}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.6,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 8695,
+                    "ai_tags": "正态分�?指数分布,概率密度函数"
+                },
+                {
+                    "id": 19150,
+                    "subject_id": 3,
+                    "chapter_id": 362,
+                    "question_id": "756641ce-0983-4989-926d-d72c8ab3d199",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\xi$ 在区�?$[2-\\sqrt{3}, 2+\\sqrt{3}]$ 上服从均匀分布, 则当 $\\eta=a \\xi+b=( \\quad )$ �? 可使 $E(\\eta)=0, D(\\eta)=1$.",
+                    "analysis": "由题�? �?$E(\\xi)=\\frac{4}{2}=2, D(\\xi)=\\frac{(2 \\sqrt{3})^2}{12}=1$, 因此\n$$\nE(\\eta)=a E(\\xi)+b=2 a+b=0, D(\\eta)=a^2 D(\\xi)=a^2=1 .\n$$\n\n从�?$a=1, b=-2$, �?$\\eta=\\xi-2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339905
+                    },
+                    "question_json": "mathreact/2f029443d6284e059a464a59ec649145",
+                    "updated_at": {
+                        "seconds": 1766860318
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87214,
+                            "question_id": 19150,
+                            "is_answer": true,
+                            "choice": "$\\xi-2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87215,
+                            "question_id": 19150,
+                            "is_answer": false,
+                            "choice": "$2 \\xi-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87216,
+                            "question_id": 19150,
+                            "is_answer": false,
+                            "choice": "$\\xi-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87217,
+                            "question_id": 19150,
+                            "is_answer": false,
+                            "choice": "$2 \\xi-2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.75,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 84517,
+                    "ai_tags": "均匀分布,数学期望,方差"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 22,
+            "questions": [
+                {
+                    "id": 19151,
+                    "subject_id": 3,
+                    "chapter_id": 362,
+                    "question_id": "aa930bde-adc7-4848-b16a-c29e5a50746e",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "$\\xi$ 服从二项分布, 已知 $E(\\xi)=20, D(\\xi)=4$, �?$\\xi$ 的分布律�?$P\\{\\xi=k\\}=()$.",
+                    "analysis": "由二项分布的性质, �?$\\xi \\sim B(n, p)$, 则\n$$\nE(\\xi)=np=20, D(\\xi)=np(1-p)=4,\n$$\n\n解得 $n=25, p=0.8$. 从而\n$$\nP\\{\\xi=k\\}=C_n^k p^k(1-p)^{n-k}=C_{25}^k(0.8)^k(0.2)^{25-k}(k=0,1,2, \\cdots, 25) .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339907
+                    },
+                    "question_json": "mathreact/af41a9e0668c4039bef5086f832b9253",
+                    "updated_at": {
+                        "seconds": 1767724275
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87221,
+                            "question_id": 19151,
+                            "is_answer": true,
+                            "choice": "$C_{25}^k(0.8)^k(0.2)^{25-k}(k=0,1,2, \\cdots, 25)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87222,
+                            "question_id": 19151,
+                            "is_answer": false,
+                            "choice": "$C_{25}^k(0.8)^{25-k}(0.2)^k(k=0,1,2, \\cdots, 25)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87223,
+                            "question_id": 19151,
+                            "is_answer": false,
+                            "choice": "$C_{25}^k(0.8)^{25-k}(0.2)^k$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87224,
+                            "question_id": 19151,
+                            "is_answer": false,
+                            "choice": "$C_{25}^k(0.8)^k(0.2)^{25-k}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 94000,
+                    "ai_tags": "概率�?二项分布,数学期望,方差"
+                },
+                {
+                    "id": 19162,
+                    "subject_id": 3,
+                    "chapter_id": 362,
+                    "question_id": "a31cc218-3db1-4a4e-ba79-b6c2d104af06",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "下列命题中错误的�?( ).",
+                    "analysis": "�?$\\xi$ 服从参数�?$\\lambda$ 的指数分�? �?$E(\\xi)=\\frac{1}{\\lambda}, D(\\xi)=\\frac{1}{\\lambda^2}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339937
+                    },
+                    "question_json": "mathreact/26aa4a7ddf1643ee8bb431a1b107dbff",
+                    "updated_at": {
+                        "seconds": 1766860313
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87298,
+                            "question_id": 19162,
+                            "is_answer": true,
+                            "choice": "�?$\\xi$ 服从参数�?$\\lambda$ 的指数分�? �?$E(\\xi)=D(\\xi)=\\frac{1}{\\lambda}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87299,
+                            "question_id": 19162,
+                            "is_answer": false,
+                            "choice": "�?$\\xi \\sim P(\\lambda)$, �?$E(\\xi)=D(\\xi)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87300,
+                            "question_id": 19162,
+                            "is_answer": false,
+                            "choice": "�?$\\xi \\sim B(1, \\theta)$, �?$E(\\xi)=\\theta, D(\\xi)=\\theta(1-\\theta)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87301,
+                            "question_id": 19162,
+                            "is_answer": false,
+                            "choice": "�?$\\xi$ 服从区间 $[a, b]$ 的均匀分布, �?$E(\\xi^2)=\\frac{a^2+ab+b^2}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 100086,
+                    "ai_tags": "概率�?随机变量,数字特征"
+                }
+            ]
+        }
+    }
+]

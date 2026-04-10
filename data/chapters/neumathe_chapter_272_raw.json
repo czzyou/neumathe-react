@@ -1,0 +1,2993 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 35,
+            "questions": [
+                {
+                    "id": 14164,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "f9003630-3b29-447b-9deb-f3a72a5df79e",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一批产品共�?10 个正品和 2 个次�? 任意抽取两次, 每次抽一个抽出后不放�? 则第二次抽出的是次品的概率为 ( ).",
+                    "analysis": "设事�?$A=\\{$ 第二次抽出的是次�?$\\}$, 基本事件总数�?$C_{12}^1 C_{11}^1=12 \\times 11$, 有利�?$A$ 的基本事件个数为 $C_{10}^1 C_2^1+C_2^1 C_1^1=22$, �?$P(A)=\\frac{22}{12 \\times 11}=\\frac{1}{6}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/79641432353043c0b7859c913615afa7",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56653,
+                            "question_id": 14164,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56656,
+                            "question_id": 14164,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{11}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56655,
+                            "question_id": 14164,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{66}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56654,
+                            "question_id": 14164,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{66}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.93,
+                    "difficulty_score": 0.19,
+                    "avg_time_spent": 230562,
+                    "tags": "",
+                    "ai_tags": "概率�?古典概型"
+                },
+                {
+                    "id": 14165,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "4fe02412-6e58-450b-9ff1-534051b5110c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一批产�?1000 �? 其中�?10 件次�? 每次任取一�? 取出后仍放回�? 连取两次, 则恰取得一件次品的事件的概率等于（�?",
+                    "analysis": "�?1000 件产品中有放回的连取两件的取法有 $(1000)^2$ �? 恰好取到一件次品的取法�?$10 \\times(1000-10) \\times P_2^2$�? 所以恰取得一件次品的事件的概率为 $p=\\frac{10 \\times(1000-10) \\times P_2^2}{(1000)^2}=0.0198$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/199c42e540ce4e1988627213071ff4d5",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56660,
+                            "question_id": 14165,
+                            "is_answer": true,
+                            "choice": "$\\frac{10 \\times 990 \\times 2!}{(1000)^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56657,
+                            "question_id": 14165,
+                            "is_answer": false,
+                            "choice": "$\\frac{10 \\times 990}{(1000)^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56659,
+                            "question_id": 14165,
+                            "is_answer": false,
+                            "choice": "$\\frac{10 \\times 990 \\times 2!+990^2}{(1000)^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56658,
+                            "question_id": 14165,
+                            "is_answer": false,
+                            "choice": "$\\frac{10 \\times 990+990^2}{(1000)^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.84,
+                    "difficulty_score": 0.33,
+                    "avg_time_spent": 85421,
+                    "tags": "近期易错,近期67人做�?,
+                    "ai_tags": "概率�?有放回抽�?古典概型"
+                },
+                {
+                    "id": 14170,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "daf2338b-033e-4d00-80f5-88dba3e6f393",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某教研室共有 11 名教师，其中男教�?7 人，现该教研室中要任�?3 名为优秀教师，则 3 名优秀教师中至少有 1 名女教师的概率为 ( ).",
+                    "analysis": "�?$A$ \" 3 名优秀教师中有女教师\" , $A_i$ \" 3 名优秀教师中恰�?$i$ 名女教师\" $, i=1,2,3$, �?$A=A_1 \\cup A_2 \\cup A_3, A_1, A_2, A_3$ 两两互斥, 由加法公式有: $P(A)=P\\left(A_1\\right)+P\\left(A_2\\right)+P\\left(A_3\\right)$ $=\\frac{C_4^1 C_7^2}{C_{11}^3}+\\frac{C_4^2 C_7^1}{C_{11}^3}+\\frac{C_4^3 C_7^0}{C_{11}^3} \\approx 0.788$.\n[另解] $P(A)=1-P(\\bar{A}), \\bar{A}$ \"3个优秀教师全是男的\" , $\\therefore P(A)=1-\\frac{C_7^3}{C_{11}^3} \\approx 0.788$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/fc8fc79150a248be8e743089b2faaa04",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56678,
+                            "question_id": 14170,
+                            "is_answer": true,
+                            "choice": "$0.788$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56677,
+                            "question_id": 14170,
+                            "is_answer": false,
+                            "choice": "$0.625$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56679,
+                            "question_id": 14170,
+                            "is_answer": false,
+                            "choice": "$0.523$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56680,
+                            "question_id": 14170,
+                            "is_answer": false,
+                            "choice": "$0.885$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.89,
+                    "difficulty_score": 0.27,
+                    "avg_time_spent": 146915,
+                    "tags": "近期易错,近期41人做�?,
+                    "ai_tags": "古典概型,概率加法公式,对立事件"
+                },
+                {
+                    "id": 14171,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "5c7c220b-b502-4baa-aa50-fd450a57ddd5",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "甲，乙，丙三人中恰好有两人出生在同一月份的概率是 ( ).",
+                    "analysis": "三人出生月份的情况共�?$12^3$ �? 恰好有两人出生在同一月份的情况有 $C_3^2 C_{12}^1 C_{11}^1$ �? 所以事�?$A:$ \"三人恰好有两人出生在同一月份\" 的概率是 $P(A)=\\frac{C_3^2 C_{12}^1 C_{11}^1}{12^3}=\\frac{11}{48}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/3a38bd2c331e4bb197711fffcc3aa1df",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56683,
+                            "question_id": 14171,
+                            "is_answer": true,
+                            "choice": "$\\frac{11}{48}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56684,
+                            "question_id": 14171,
+                            "is_answer": false,
+                            "choice": "$\\frac{12}{48}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56682,
+                            "question_id": 14171,
+                            "is_answer": false,
+                            "choice": "$\\frac{11}{144}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56681,
+                            "question_id": 14171,
+                            "is_answer": false,
+                            "choice": "$\\frac{12}{144}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.78,
+                    "difficulty_score": 0.28,
+                    "avg_time_spent": 78538,
+                    "tags": "近期易错,近期88人做�?,
+                    "ai_tags": "概率�?古典概型"
+                },
+                {
+                    "id": 14172,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "4359059a-7721-495c-9e1c-05f91474e4fc",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "5 本数学书�?3 本外文书, 任意在书架上排放, �?5 本数学书放在一起的概率�?().",
+                    "analysis": "令事�?$A=\\{5$ 本数学书放在一�?$\\}$, �?5 本数学书放在一起可以把�?5 本书看成一个整�? 先和外文书一起是 4 个位置的全排�? �?5 本书进行排列, 所�?$P(A)=\\frac{4!5!}{8!}=\\frac{1}{14}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/3717ba1ce27a4a418d9b7bb0484cc63b",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56686,
+                            "question_id": 14172,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{14}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56685,
+                            "question_id": 14172,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{56}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56688,
+                            "question_id": 14172,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{28}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56687,
+                            "question_id": 14172,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{7}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.31,
+                    "avg_time_spent": 122891,
+                    "ai_tags": "概率�?古典概型,排列组合"
+                },
+                {
+                    "id": 14175,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "d3ff4cf7-751d-405f-86bf-3a6062b14e44",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某班级有 10 名女�?20 名男�? 从中选出三名学生代表, 则恰好选出一位女生和两位男生的概率是 ().",
+                    "analysis": "从全部学生中选出三名学生代表的所有可能结果数�?$C_{30}^3$, 恰好选出一位女生和两位男生的可能选法�?$C_{10}^1 C_{20}^2$, 所以事�?$A:$ \"恰好选出一位女生和两位男生\" 的概�?$P(A)=\\frac{C_{10}^1 C_{20}^2}{C_{30}^3}=\\frac{95}{203}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/893046f673e042349ba6da74473d080c",
+                    "updated_at": {
+                        "seconds": 1775673109
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56700,
+                            "question_id": 14175,
+                            "is_answer": true,
+                            "choice": "$\\frac{95}{203}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56698,
+                            "question_id": 14175,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{100}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56699,
+                            "question_id": 14175,
+                            "is_answer": false,
+                            "choice": "$\\frac{95}{609}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56697,
+                            "question_id": 14175,
+                            "is_answer": false,
+                            "choice": "$\\frac{4}{27}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.9,
+                    "difficulty_score": 0.26,
+                    "avg_time_spent": 84146,
+                    "ai_tags": "古典概型,排列组合"
+                },
+                {
+                    "id": 14177,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "f03fceec-e621-402d-8ba8-e92cef3825db",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "将两封信随机的投入标号为 $1,2,3,4$ 的四个邮�? 则第 2 个邮筒恰好投入一封信的概率为 ().",
+                    "analysis": "两封信投入到四个邮筒的投法共�?$4^2$ �? �?2 个邮筒恰好投入一封信的投法共�?$C_2^1 C_3^1$ �? 令事�?$A=\\{$ �?2 个邮筒恰好投入一封信 $\\}$, �?$P(A)=\\frac{C_2^1 C_3^1}{4^2}=\\frac{6}{16}=\\frac{3}{8}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/3d0a0e86b76146dfb34649962747b394",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56708,
+                            "question_id": 14177,
+                            "is_answer": true,
+                            "choice": "$\\frac{3}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56706,
+                            "question_id": 14177,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56707,
+                            "question_id": 14177,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56705,
+                            "question_id": 14177,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.83,
+                    "difficulty_score": 0.31,
+                    "avg_time_spent": 65719,
+                    "tags": "近期易错,近期65人做�?,
+                    "ai_tags": "概率�?古典概型"
+                },
+                {
+                    "id": 14181,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "0bdd0067-e376-4a8b-ad78-b556b8d96b53",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一批产�?1000 �? 其中�?10 件次�? 无放回的从中任取两件, 则取得都是正品的事件的概率等�?( ).",
+                    "analysis": "�?1000 件产品中无放回地任取两件的可能取法有 $C_{1000}^2$ �? 事件 $A$ : \"取得的两件都是正品\" 的可能取法有 $C_{990}^2$, 所�?$P(A)=\\frac{C_{990}^2}{C_{1000}^2}=\\frac{990 \\times 989}{1000 \\times 999}=\\frac{10879}{11100} \\approx 0.98009$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/e8c8c82f458c423fb7b14cfda818c784",
+                    "updated_at": {
+                        "seconds": 1775673110
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56722,
+                            "question_id": 14181,
+                            "is_answer": true,
+                            "choice": "$\\frac{10879}{11100}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56724,
+                            "question_id": 14181,
+                            "is_answer": false,
+                            "choice": "$\\frac{9}{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56723,
+                            "question_id": 14181,
+                            "is_answer": false,
+                            "choice": "$\\frac{99}{100}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56721,
+                            "question_id": 14181,
+                            "is_answer": false,
+                            "choice": "$\\frac{9801}{10000}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.76,
+                    "difficulty_score": 0.26,
+                    "avg_time_spent": 108895,
+                    "ai_tags": "古典概型,概率计算"
+                },
+                {
+                    "id": 14183,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "faf04664-793e-46db-b4b5-40bb9e5b1a7a",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "书架上按任意次序摆着 15 本教科书, 其中 5 本数学书, 现从中随机抽�?3 �? 则没有数学书的概率是 ( ).",
+                    "analysis": "�?15 本书中随机抽出三本的可能方法�?$C_{15}^3$ �? 抽到没有数学书的可能方法�?$C_{10}^3$ �? 所以事�?$A$ : \"抽取的书中没有数学书\" 的概率为 $P(A)=\\frac{C_{10}^3}{C_{15}^3}=\\frac{24}{91}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/0db5a50ff6644efd9be1a9e9a6818799",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56731,
+                            "question_id": 14183,
+                            "is_answer": true,
+                            "choice": "$\\frac{24}{91}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56730,
+                            "question_id": 14183,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{91}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56732,
+                            "question_id": 14183,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56729,
+                            "question_id": 14183,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.97,
+                    "difficulty_score": 0.22,
+                    "avg_time_spent": 71805,
+                    "ai_tags": "古典概型,概率�?组合数学"
+                },
+                {
+                    "id": 14184,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "6de5b1dc-0867-4a6a-9987-349a0949542c",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "包括 $a$ �?$b$ 二人在内�?$n$ 个人排队, �?$a, b$ 间恰�?$r$ 个人的概率是 ().",
+                    "analysis": "首先 $0 \\leq r \\leq n-2, n$ 个人共有 $n!$ 种排�? 设所求概率的事件�?$A$ 事件. 先考虑 $a, b$ 二人间隔 $r$ 个人的排�? �?$a$ 在前, 则有 $n-(r+1)$ 种站�? $a$ 站定位置, $b$ 的位置就自然定了. 因为间隔 $r$ 个人, 在考虑 $b$ 在前也有 $n-(r+1)$ 种站�? 所�?$a, b$ 二人共有 $2[n-(r+1)]$ 种排�? 其余 $n-2$ 个人共有 $(n-2)$ ! 种排�? 所�? 其有 $K_A=2[n-(r+1)](n-2)!$ 种排�? 从而\n$$\nP(A)=\\frac{2[n-(r+1)](n-2)!}{n!}=\\frac{2(n-r-1)}{n(n-1)} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/26f2e899a02e44088e589634c4538375",
+                    "updated_at": {
+                        "seconds": 1775673114
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56735,
+                            "question_id": 14184,
+                            "is_answer": true,
+                            "choice": "$\\frac{2(n-r-1)}{n(n-1)}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56733,
+                            "question_id": 14184,
+                            "is_answer": false,
+                            "choice": "$\\frac{n-r-1}{n(n-1)}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56734,
+                            "question_id": 14184,
+                            "is_answer": false,
+                            "choice": "$\\frac{2(n-r)}{n(n-1)}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56736,
+                            "question_id": 14184,
+                            "is_answer": false,
+                            "choice": "$\\frac{2(n-r-1)}{n(n+1)}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.82,
+                    "difficulty_score": 0.27,
+                    "avg_time_spent": 222162,
+                    "tags": "近期易错,近期65人做�?,
+                    "ai_tags": "古典概型,排列组合"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 35,
+            "questions": [
+                {
+                    "id": 14185,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "d4aaa339-e7cd-49eb-a205-b78a1b0430b9",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一书架上有 5 本小说�?3 本诗集以�?1 本字�? 今随机取�?3 �? 则选中 2 本小说和 1 本诗集的概率�?( ).",
+                    "analysis": "随机抽取 3本的所有可能的取法�?$C_9^3=84$ �? 选中 2 本小说和 1本诗集的取法�?$C_5^2 C_3^1=10 \\times 3=30$. 故所求概率为 $p=\\frac{30}{84}=\\frac{5}{14}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/b559d5cadc0941029454ff0b24a0750a",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56740,
+                            "question_id": 14185,
+                            "is_answer": true,
+                            "choice": "$\\frac{5}{14}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56739,
+                            "question_id": 14185,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{7}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56738,
+                            "question_id": 14185,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{28}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56737,
+                            "question_id": 14185,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{42}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.9,
+                    "difficulty_score": 0.31,
+                    "avg_time_spent": 103316,
+                    "ai_tags": "古典概型,排列组合"
+                },
+                {
+                    "id": 14194,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "0642b651-0353-4351-bd0e-ca7b7f23d590",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "袋中�?5 张卡�? 每张卡片上分别写有数 $1,2,3,4,5$, 从中随机抽取 3 �? 则取到的 3 张卡片中最大数与最小数之差等于 3 的概率是 ( ).",
+                    "analysis": "从五张卡片种随机取出三张的取法有 $C_5^3=10$ �? 符合最大数与最小数之差等于 3 �?3 张卡片是 $(1,2,4)$, $(1,3,4),(2,3,5),(2,4,5)$ 即样品点数为 4 �? 则所求事件概率为 $P(A)=\\frac{4}{10}=\\frac{2}{5}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/868fb43a988a4829bf7518b9bd0d486e",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56773,
+                            "question_id": 14194,
+                            "is_answer": true,
+                            "choice": "$\\frac{2}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56774,
+                            "question_id": 14194,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56776,
+                            "question_id": 14194,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56775,
+                            "question_id": 14194,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.76,
+                    "difficulty_score": 0.31,
+                    "avg_time_spent": 195699,
+                    "tags": "近期易错,近期101人做�?,
+                    "ai_tags": "古典概型,组合"
+                },
+                {
+                    "id": 19418,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "e1b932c2-22f6-4837-89f3-5cf0b88d9769",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知 10 件产品中�?3 件次�? 任意一次性抽�?4 �? �?4 件中恰有 1 件次品的概率�?().",
+                    "analysis": "�?10 件产品中任意抽取 4 件的抽取方法�?$C_{10}^4$ �? 四件中恰有一件次品三件合格品的抽取方法有 $C_3^1 \\cdot C_7^3$, 所以四件中恰有一件次品的概率�?$\\frac{C_3^1 \\cdot C_7^3}{C_{10}^4}=\\frac{1}{2}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340552
+                    },
+                    "question_json": "mathreact/32cd0db9609e4f7baea92adb55af81b4",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89090,
+                            "question_id": 19418,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89091,
+                            "question_id": 19418,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89092,
+                            "question_id": 19418,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89093,
+                            "question_id": 19418,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.23,
+                    "avg_time_spent": 79037,
+                    "ai_tags": "古典概型,排列组合"
+                },
+                {
+                    "id": 19421,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "99eff32b-dadf-49cc-a047-15a5cd04a010",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一批产�?1000 �? 其中�?10 件次�? 每次任取一�? 取出后仍放回�? 连取两次, 则取得都是正品的事件的概率等�?( ).",
+                    "analysis": "�?1000 件产品中有放回的连取两次的可能取法有 $(1000)^2$ �? 取到的都是正品的取法�?$(1000-10)^2$ �? 所以取得都是正品的事件的概率是 $p=\\frac{(990)^2}{(1000)^2}=0.9801$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340554
+                    },
+                    "question_json": "mathreact/fcecd4f06d1f42e09197979d8bd506a7",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89111,
+                            "question_id": 19421,
+                            "is_answer": true,
+                            "choice": "$\\frac{(990)^2}{(1000)^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89112,
+                            "question_id": 19421,
+                            "is_answer": false,
+                            "choice": "$\\frac{990 \\times 989}{1000 \\times 999}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89113,
+                            "question_id": 19421,
+                            "is_answer": false,
+                            "choice": "$\\frac{(990)^2+10 \\times 990}{(1000)^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89114,
+                            "question_id": 19421,
+                            "is_answer": false,
+                            "choice": "$\\frac{(990)^2+10 \\times 990 \\times 2}{(1000)^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.84,
+                    "difficulty_score": 0.24,
+                    "avg_time_spent": 79611,
+                    "ai_tags": "概率�?古典概型,有放回抽�?
+                },
+                {
+                    "id": 19424,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "981a6cb5-cb29-4f30-9392-b9b6f734f5a9",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某宾馆一楼有3部电�? 今有 5 人要乘坐电梯, 假定各人选哪部电梯是随机�? 则每部电梯中至少有一人的概率�?( ).",
+                    "analysis": "(从对立事件考虑) �?$A_i$ 表示“第 $i$ 部电梯内无人�?$(i=1,2,3)$�?W$ 表示“每部电梯中至少有一人”，$\\bar{W}$ 表示“至少一部电梯中无人”，于是\n$$ P(A_i)=\\left(\\frac{2}{3}\\right)^5 \\quad(i=1,2,3), \\quad P(A_i A_j)=\\left(\\frac{1}{3}\\right)^5 \\quad(i, j=1,2,3 ; i \\neq j) $$\n$$ P(A_1 A_2 A_3) = 0 $$\n$$ \\begin{aligned} P(\\bar{W}) & =P(A_1 \\cup A_2 \\cup A_3)=P(A_1)+P(A_2)+P(A_3)-P(A_1 A_2)-P(A_1 A_3)-P(A_2 A_3)+P(A_1 A_2 A_3) \\\\ & =3 \\times\\left(\\frac{2}{3}\\right)^5-3 \\times\\left(\\frac{1}{3}\\right)^5+0 \\approx 0.38 \\end{aligned} $$\n$$ P(W) = 1-P(\\bar{W})=1-0.38=0.62 $$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340560
+                    },
+                    "question_json": "mathreact/61d99890998f4294988a386705442209",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89132,
+                            "question_id": 19424,
+                            "is_answer": true,
+                            "choice": "$0.62$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89133,
+                            "question_id": 19424,
+                            "is_answer": false,
+                            "choice": "$0.64$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89134,
+                            "question_id": 19424,
+                            "is_answer": false,
+                            "choice": "$0.63$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89135,
+                            "question_id": 19424,
+                            "is_answer": false,
+                            "choice": "$0.61$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.68,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 213318,
+                    "tags": "近期易错,近期101人做�?,
+                    "ai_tags": "古典概型,容斥原理,概率计算"
+                },
+                {
+                    "id": 19426,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "7f5cae91-cc97-4ce8-a864-4a9d99ad1785",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "10 个人中有一对夫�? 他们随意坐在一张圆桌周�? 则该对夫妇正好坐在一起的概率�?( ).",
+                    "analysis": "�?$A$ 为“该对夫妇正好坐在一起�?\n方法 1: 10 个人随机坐在一张圆桌周�? 共有 $9!$ 种方�? 先考虑该对夫妇男左女右坐在一�? 把相邻的两个座位看成一个特号座, 考虑捆绑法的思路, 9 个座位有 $8!$ 种排�? 同理再考虑男右女左的坐�? 所以\n$$\nP(A)=\\frac{2 \\times 8!}{9!}=\\frac{2}{9}.\n$$\n方法 2: 只考虑夫妇俩人. 夫妇俩人随机坐有 $P_{10}^2$ 种坐�? 把座位按 $1 \\sim 10$ 排号, 夫妇相邻而坐且于男右�? 则有 10 种坐�? 男坐 $1,2,3, \\cdots, 9,10$; 女坐 $2,3, \\cdots, 10,1$; 同理再考虑女坐于男左侧, 亦有 10 种坐�? 共有 20 种坐�? 所�?$P(A)=\\frac{20}{P_{10}^2}=\\frac{2}{9}$.\n方法 3: 假设夫妇中一人坐�? 考虑另一�?(不妨设是�?. 此人随机�? �?9 种坐�? 若要夫妇相邻, 她只能坐在男方的左右两个位置, 所�?$P(A)=\\frac{2}{9}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340565
+                    },
+                    "question_json": "mathreact/7c55a2a5ab1447d088a3e55b97a50136",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89146,
+                            "question_id": 19426,
+                            "is_answer": true,
+                            "choice": "$\\frac{2}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89147,
+                            "question_id": 19426,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89148,
+                            "question_id": 19426,
+                            "is_answer": false,
+                            "choice": "$\\frac{4}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89149,
+                            "question_id": 19426,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.77,
+                    "difficulty_score": 0.28,
+                    "avg_time_spent": 133139,
+                    "tags": "近期易错,近期80人做�?,
+                    "ai_tags": "概率�?古典概型,排列组合"
+                },
+                {
+                    "id": 19427,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "11df4a1b-d86b-4688-9e49-7ac06243795c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知�?10 只晶体管中有 2 只次�? 在其中取 2 �? 每次任取 1 �? 取后不放�? 则事�?$\\{2\\text{只都是正品}\\}$ �?$\\{1\\text{只是正品}\\}$ 的概率分别为 ( ).",
+                    "analysis": "�?10 只晶体管中不放回的抽�?2 �? 抽取的所有可能结果数�?$C_{10}^2=45$.\n(1) 抽到两只都是正品的可能取法为 $C_8^2=28$, 所以事�?$A$ : \" 2 只都是正品\" 的概率是 $P(A)=\\frac{28}{45}$;\n(2)抽到1只是正品1只是次品的可能取法为 $C_8^1 C_2^1=16$, 所以事�?$B$ : \" 1 只是正品, 1 只是次品\" 的概率是\n$$\nP(B)=\\frac{16}{45}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340566
+                    },
+                    "question_json": "mathreact/c1a7541c781b4ff08c1442c9991723c6",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89153,
+                            "question_id": 19427,
+                            "is_answer": true,
+                            "choice": "$\\left(\\frac{28}{45}, \\frac{16}{45}\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89154,
+                            "question_id": 19427,
+                            "is_answer": false,
+                            "choice": "$\\left(\\frac{28}{45}, \\frac{4}{25}\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89155,
+                            "question_id": 19427,
+                            "is_answer": false,
+                            "choice": "$\\left(\\frac{16}{25}, \\frac{4}{25}\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89156,
+                            "question_id": 19427,
+                            "is_answer": false,
+                            "choice": "$\\left(\\frac{16}{25}, \\frac{16}{45}\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.26,
+                    "avg_time_spent": 172994,
+                    "tags": "",
+                    "ai_tags": "古典概型,概率计算"
+                },
+                {
+                    "id": 19429,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "78dab5ee-1b10-43f9-8771-a6eb77a791bd",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "$n$ 张奖券中含有 $m$ 张有奖的, $k$ 个人购买, 每人一�? 其中至少有一个人中奖的概率为 ( ).",
+                    "analysis": "至少有一人中奖的逆事件为 $k$ 个人都没中奖, �?$k$ 个人都没中奖的概率为 $P(\\bar{A})=\\frac{C_{n-m}^k}{C_n^k}$, 则所求事件概率为\n$$\nP(A)=1-P(\\bar{A})=1-\\frac{C_{n-m}^k}{C_n^k} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340567
+                    },
+                    "question_json": "mathreact/ebd4ebf021214a98b28049fe706d35f1",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89167,
+                            "question_id": 19429,
+                            "is_answer": true,
+                            "choice": "$1-\\frac{C_{n-m}^k}{C_n^k}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89168,
+                            "question_id": 19429,
+                            "is_answer": false,
+                            "choice": "$\\frac{m}{C_n^k}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89169,
+                            "question_id": 19429,
+                            "is_answer": false,
+                            "choice": "$\\frac{C_m^1 C_{n-m}^{k-1}}{C_n^k}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89170,
+                            "question_id": 19429,
+                            "is_answer": false,
+                            "choice": "$\\sum_{r=1}^k \\frac{C_m^r}{C_n^k}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.91,
+                    "difficulty_score": 0.26,
+                    "avg_time_spent": 50146,
+                    "ai_tags": "古典概型,排列组合,概率计算"
+                },
+                {
+                    "id": 19430,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "05a5a7d5-d862-4b5b-b4f8-ebd33e505042",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "两封信随机地投入四个邮筒，则前两个邮筒内没有信的概率及第一个邮筒内只有一封信的概率为（）�?,
+                    "analysis": "样本空间的样本点总数�?$4 \\times 4=16$。\n记事�?$A$ 为“前两个邮筒内没有信”，此时两封信投在后两个邮筒中，从而事�?$A$ 所包含的样本点数为\n$$ m_1=2 \\times 2=4 \\text{，于�?} P(A)=\\frac{m_1}{n}=\\frac{4}{16}=0.25. $$\n记事�?$B$ 为“第一个邮筒内只有一封信”，此时，需将两封信中的一封放入第一个邮筒，共有 2 种放法，剩下的一封放入其他三个邮筒中的一个，共有 3 种放法，从而事�?$B$ 包含的样本点数为 $m_2=2 \\times 3=6$，故\n$$ P(B)=\\frac{m_2}{n}=\\frac{6}{16}=0.375. $$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340569
+                    },
+                    "question_json": "mathreact/8b7445c0071941a78cd65a5c048d083a",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89174,
+                            "question_id": 19430,
+                            "is_answer": true,
+                            "choice": "$0.25,0.375$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89175,
+                            "question_id": 19430,
+                            "is_answer": false,
+                            "choice": "$0.25,0.325$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89176,
+                            "question_id": 19430,
+                            "is_answer": false,
+                            "choice": "$0.2,0.3$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89177,
+                            "question_id": 19430,
+                            "is_answer": false,
+                            "choice": "$0.25,0.35$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.9,
+                    "difficulty_score": 0.23,
+                    "avg_time_spent": 113800,
+                    "tags": "近期易错,近期33人做�?,
+                    "ai_tags": "古典概型,概率"
+                },
+                {
+                    "id": 19434,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "348ca24e-05b5-4e32-ad10-3dcb5765631d",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "50 只铆钉随机地取来用在 10 个部件上, 其中�?3 个铆钉强度太�? 每个部件�?3 只铆�? 若将 3 只强度太弱的铆钉都装在一个部件上, 则这个部件强度就太弱, 则发生一个部件强度太弱的概率�?( ).",
+                    "analysis": "将部件自 1 �?10 编号, 试验 $E$ 为各部件上装�?3 只铆�? �?$A_i(i=1,2, \\cdots, 10)$ 表示事件 \"�?$i$ 号部件强度太弱\". �?3 只强度太弱的铆钉同时装在�?$i$ 号部件上�? �?$A_i$ 发生. �?50 只铆钉中任取 3 只装在第 $i$ 号部件上, 共有 $C_{50}^3$ 种取�? 而强度太弱的铆钉只有 3 �? 它们都装在第 $i$ 号部件上只有 $C_3^3$ 种取�? 所以\n$$\nP\\left(A_i\\right)=\\frac{1}{C_{50}^3}(i=1,2, \\cdots, 10)\n$$\n\n由于 $A_i$ 间是互斥�? 因此, 10 个部件中有一个强度太弱的概率为\n$$\np=P\\left(\\bigcup_{i=1}^{10} A_i\\right)=\\sum_{i=1}^{10} P\\left(A_i\\right)=10 \\times \\frac{1}{C_{50}^3}=\\frac{1}{1960} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340586
+                    },
+                    "question_json": "mathreact/0249c9c4d5174960ad6ef33383667d91",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89202,
+                            "question_id": 19434,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{1960}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89203,
+                            "question_id": 19434,
+                            "is_answer": false,
+                            "choice": "$\\frac{11}{1960}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89204,
+                            "question_id": 19434,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{196}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89205,
+                            "question_id": 19434,
+                            "is_answer": false,
+                            "choice": "$\\frac{11}{150}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.74,
+                    "difficulty_score": 0.31,
+                    "avg_time_spent": 274103,
+                    "tags": "近期易错,近期83人做�?,
+                    "ai_tags": "概率�?古典概型,互斥事件"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 35,
+            "questions": [
+                {
+                    "id": 19435,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "82a67343-0a27-488c-8d25-37d9cd488d02",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "10 把钥匙中�?3 把能打开�? 今任取两�? 则能打开门的概率�?().",
+                    "analysis": "解法一 随机试验是从 10 把钥匙中任取两把, 从而样本空�?$S$ 的样本点总数�? $n=C_{10}^2=45$.要想把门打开, 取出的两把钥匙至少有一把从能把门开的三把钥匙中获得, 从�?\"能把门打开\" 这一事件所包含的样本点数为 $m=C_3^2+C_7^1 C_3^1=24$, 故所求概率为: $p=\\frac{m}{n}=\\frac{24}{45}=\\frac{8}{15} \\approx 0.53$.\n解法�?随机试验是从 10 把钥匙中任取两把, 从而样本空�?$S$ 的样本点总数�? $n=C_{10}^2=45$.记事�?$A$ �?\"能把门打开\"，则 $\\bar{A}$ �?\"不能把门打开\"，从 7 把不能把门打开的钥匙中任取两把，共�?$C_7^2=21$种取�? 即事�?$\\bar{A}$ 共包�?21 个样本点, 从�? $P(A)=1-P(\\bar{A})=1-\\frac{21}{45}=\\frac{24}{45} \\approx 0.53$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340588
+                    },
+                    "question_json": "mathreact/d4b305844a344af38308693b566621e9",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89209,
+                            "question_id": 19435,
+                            "is_answer": true,
+                            "choice": "$0.53$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89210,
+                            "question_id": 19435,
+                            "is_answer": false,
+                            "choice": "$0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89211,
+                            "question_id": 19435,
+                            "is_answer": false,
+                            "choice": "$0.51$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89212,
+                            "question_id": 19435,
+                            "is_answer": false,
+                            "choice": "$0.52$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.88,
+                    "difficulty_score": 0.31,
+                    "avg_time_spent": 82345,
+                    "ai_tags": "古典概型,组合"
+                },
+                {
+                    "id": 19436,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "d999edef-71e3-42b1-906e-ef02f2b49fcd",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一部五卷的选集, 按任意顺序放到书架上, 则第一卷及第五卷分别在两端的概率是 ().",
+                    "analysis": "5 本书按任意顺序放到书架上去的排法�?$5!$ �? 又第一卷及第五卷分别排在两端的排法�?$2!$ �? 第二、三、四卷在中间的排法有 $3!$ �? 配合起来的排法共�?$2! \\times 3!$ �? �?$p=\\frac{2! \\times 3!}{5!} = \\frac{1}{10}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340591
+                    },
+                    "question_json": "mathreact/b4dc8562333240ca8577b340d05aac9c",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89216,
+                            "question_id": 19436,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89217,
+                            "question_id": 19436,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89218,
+                            "question_id": 19436,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89219,
+                            "question_id": 19436,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.22,
+                    "avg_time_spent": 79197,
+                    "ai_tags": "古典概型,排列组合"
+                },
+                {
+                    "id": 19438,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "be18a6de-5fde-4cbc-aea2-d5de6ab7d95c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知 10 件产品中�?3 件次�? 任意一次性抽�?4 �? �?4 件中恰有 1 件次品的概率�?().",
+                    "analysis": "�?10 件产品中任意抽取 4 件的抽取方法�?$C_{10}^4$ �? 四件中恰有一件次品三件合格品的抽取方法有 $C_3^1 C_7^3$, 所以四件中恰有一件次品的概率�?$\\frac{C_3^1 \\cdot C_7^3}{C_{10}^4}=\\frac{1}{2}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340593
+                    },
+                    "question_json": "mathreact/5a1f8e3be8794050a6c3732714db46f3",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89230,
+                            "question_id": 19438,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89231,
+                            "question_id": 19438,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89232,
+                            "question_id": 19438,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89233,
+                            "question_id": 19438,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.25,
+                    "avg_time_spent": 82294,
+                    "ai_tags": "古典概型,排列组合"
+                },
+                {
+                    "id": 19441,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "86f0eae7-168c-4ff3-9276-399f9d502a2d",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某专业研究生复试�? �?张考签, 3 个考生应试, 一个人抽一张后立即放回, 再另一人抽, 如此 3 人各抽一�? 求抽签结束后, 至少有一张考签没有被抽到的概率�?().",
+                    "analysis": "解法一 �?$A_i=$ \"�?$i$ 张考签没有被抽到\" , $i=1,2,3, B=$ \"至少有一张考签没有被抽到\", �?$B=A_1 \\cup A_2 \\cup A_3$, �?$A_1, A_2, A_3$ 可能相容, 故\n$$\nP(B)=P\\left(A_1\\right)+P\\left(A_2\\right)+P\\left(A_3\\right)-P\\left(A_1 A_2\\right)-P\\left(A_2 A_3\\right)-P\\left(A_1 A_3\\right)+P\\left(A_1 A_2 A_3\\right),\n$$\n\n由题设知 $P\\left(A_i\\right)=\\frac{2^3}{3^3}=\\frac{8}{27}(i=1,2,3), P\\left(A_i A_j\\right)=\\frac{1}{3^3}=\\frac{1}{27}(i \\neq j, i, j=1,2,3), P\\left(A_1 A_2 A_3\\right)=0$,\n所�?$P(B)=\\frac{8}{27}+\\frac{8}{27}+\\frac{8}{27}-\\frac{1}{27}-\\frac{1}{27}-\\frac{1}{27}+0=\\frac{7}{9}$.\n解法�?考虑 $B$ 的对立事�?$\\bar{B}$, 因为 $\\bar{B}=$ \"三张都抽到\", 且易知\n$$\nP(\\bar{B})=\\frac{P_3^3}{3^3}=\\frac{6}{27}=\\frac{2}{9} \\text {, 所�?} \\quad P(B)=1-P(\\bar{B})=\\frac{7}{9} \\text {. }\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340598
+                    },
+                    "question_json": "mathreact/59684c31fef24d288cfda75ef0cb335d",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89251,
+                            "question_id": 19441,
+                            "is_answer": true,
+                            "choice": "$\\frac{7}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89252,
+                            "question_id": 19441,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89253,
+                            "question_id": 19441,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89254,
+                            "question_id": 19441,
+                            "is_answer": false,
+                            "choice": "$\\frac{8}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.72,
+                    "difficulty_score": 0.34,
+                    "avg_time_spent": 968669,
+                    "ai_tags": "古典概型,概率加法公式"
+                },
+                {
+                    "id": 19442,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "6be25d52-7a0b-48b4-baf0-d2e1a1d6ec94",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一个人�?8 把钥�? 其中�?2 把能打开办公室的�? 今从中任�?2 把钥�? 则能打开门的概率�?().",
+                    "analysis": "令事�?$A=\\{$ 任取 2 把钥�? 能将门打开 $\\}$, 任取 2 把钥匙的基本事件总数�?$C_8^2$, 事件 $A$ 发生的基本事件数�?$C_2^1 C_6^1+C_2^2$, 则事�?$A$ 发生的概率为 $P(A)=\\frac{C_2^1 C_6^1+C_2^2}{C_8^2}=\\frac{2 \\times 6+1}{28}=\\frac{13}{28}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340599
+                    },
+                    "question_json": "mathreact/f0c3480b4e014301bb5126fa57e73f7e",
+                    "updated_at": {
+                        "seconds": 1775673114
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89258,
+                            "question_id": 19442,
+                            "is_answer": true,
+                            "choice": "$\\frac{13}{28}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89259,
+                            "question_id": 19442,
+                            "is_answer": false,
+                            "choice": "$\\frac{12}{28}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89260,
+                            "question_id": 19442,
+                            "is_answer": false,
+                            "choice": "$\\frac{14}{28}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89261,
+                            "question_id": 19442,
+                            "is_answer": false,
+                            "choice": "$\\frac{15}{28}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.91,
+                    "difficulty_score": 0.23,
+                    "avg_time_spent": 210781,
+                    "ai_tags": "古典概型,排列组合"
+                },
+                {
+                    "id": 19448,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "22516a0a-0ad1-4638-a451-781aeccedb40",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一批产品的废品率为 0.01 , 从中随机抽取 10 �? �?10 件中废品数是 2 的概率为 ().",
+                    "analysis": "�?0 件中�?2 个废品”相当于“从 10 件产品中抽取 2 个这 2 个是废品其余都是正品”，抽取 2 个的取法�?$C_{10}^2$，这两个是废品的概率�?$(0.01)^2$，其�?8 个正好为正品的概率为 $(0.99)^8$，所�?10 件中废品数是 2 的概率为 $C_{10}^2(0.01)^2(0.99)^8=C_{10}^8(0.01)^2(0.99)^8$�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340624
+                    },
+                    "question_json": "mathreact/5162d304f37b4485ac0935d03642955d",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89300,
+                            "question_id": 19448,
+                            "is_answer": true,
+                            "choice": "$C_{10}^8(0.01)^2(0.99)^8$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89301,
+                            "question_id": 19448,
+                            "is_answer": false,
+                            "choice": "$C_{10}^2(0.01)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89302,
+                            "question_id": 19448,
+                            "is_answer": false,
+                            "choice": "$C_{10}^2(0.01)^8(0.99)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89303,
+                            "question_id": 19448,
+                            "is_answer": false,
+                            "choice": "$C_{10}^8(0.01)^8(0.99)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.91,
+                    "difficulty_score": 0.28,
+                    "avg_time_spent": 46084,
+                    "ai_tags": "概率�?二项分布"
+                },
+                {
+                    "id": 19451,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "3b1a9c8b-3af8-4576-8629-eadb7e031e71",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "盒内装有 10 只晶体管, 其中 7 只正�? 3 只次�? 每次随机测试 1 �? 区分正品或次�? 不放�? 直至�?3 只次品都找出为止, 则需测试 7 次的概率�?().",
+                    "analysis": "可以看着每个晶体管都是可以区别的, 则测�?7 次的所有可能情况有 $P_{10}^7$ �? 需要测�?7 次的意思就是在�?6 次测试中找到 2 只次品且在第 7 次测试时找到�?3 只次�? 其可能情况有 $C_6^2 P_3^2 P_7^4$ �? 所以事�?$A$ : “需测试 7 次�?的概率为 $P(A)=\\frac{C_6^2 P_3^2 P_7^4}{P_{10}^7}=\\frac{1}{8}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340627
+                    },
+                    "question_json": "mathreact/94a71f8213634e01b2552d6f40a5a5ea",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89321,
+                            "question_id": 19451,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89322,
+                            "question_id": 19451,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89323,
+                            "question_id": 19451,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{16}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89324,
+                            "question_id": 19451,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{16}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.63,
+                    "difficulty_score": 0.46,
+                    "avg_time_spent": 178926,
+                    "tags": "近期易错,近期101人做�?,
+                    "ai_tags": "概率�?古典概型"
+                },
+                {
+                    "id": 19452,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "9b7ecef6-dec8-45d4-8345-604ff5c4d4b2",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?10 个文曲星, 其中�?3 个为型号 $A, 7$ 个为型号 $B$, 随机地分�?10 位大学生, 每人一�? 则最后三位大学生中恰有一位得到型�?$A$ 的文曲星的概率为 ( ).",
+                    "analysis": "�?0个文曲星随机分给10位大学生，最后三位大学生得到的文曲星可以看作是从10个文曲星中随机抽取的3个。\n总的取法�?$C_{10}^3$ 种。\n最后三位大学生中恰有一位得到型�?$A$，意味着�?个文曲星中有1个型�?$A$ �?个型�?$B$。\n符合条件的取法有 $C_3^1 C_7^2$ 种。\n故所求概率为 $\\frac{C_3^1 C_7^2}{C_{10}^3} = \\frac{3 \\times 21}{120} = \\frac{21}{40}$�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340628
+                    },
+                    "question_json": "mathreact/d7c0a92a55c2452183c21cf78dc7436a",
+                    "updated_at": {
+                        "seconds": 1775673114
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89328,
+                            "question_id": 19452,
+                            "is_answer": true,
+                            "choice": "$\\frac{21}{40}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89329,
+                            "question_id": 19452,
+                            "is_answer": false,
+                            "choice": "$\\frac{7}{120}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89330,
+                            "question_id": 19452,
+                            "is_answer": false,
+                            "choice": "$\\frac{7}{40}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89331,
+                            "question_id": 19452,
+                            "is_answer": false,
+                            "choice": "$\\frac{21}{80}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.73,
+                    "difficulty_score": 0.34,
+                    "avg_time_spent": 147597,
+                    "tags": "近期易错,近期78人做�?,
+                    "ai_tags": "古典概型,排列组合"
+                },
+                {
+                    "id": 19453,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "730a1de7-8637-4dda-9483-39f05320d476",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设一批产品共 100 �? 其中 98 件正�? 2 件次�? 从中任意抽取�?3 �?(一次拿 3 �?, 则取出的 3 件中恰有 1 件是次品的概率为 (); 取出�?3 件中至少有一件是次品的概率为 ().",
+                    "analysis": "一次拿 3 �?\n(1) $P=\\frac{C_{98}^2 C_2^1}{C_{100}^3} \\approx 0.0588$;\n(2) $P=\\frac{C_2^1 C_{98}^2+C_2^2 C_{98}^1}{C_{100}^3} \\approx 0.0594$;\n\n每次拿一�? 取后放回, �?3 �?\n(1) $P=\\frac{2 \\times 98^2}{100^3} \\approx 0.0576$;\n(2) $P=1-\\frac{98^3}{100^3} \\approx 0.0588$;\n\n每次拿一�? 取后不放�? �?3 �?\n(1) $P=\\frac{1 \\times 98 \\times 97}{100 \\times 99 \\times 98} \\times 3 \\approx 0.0588$;\n(2) $P=1-\\frac{98 \\times 97 \\times 96}{100 \\times 99 \\times 98} \\approx 0.0594$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340630
+                    },
+                    "question_json": "mathreact/3e90e30a61a4475aad36e564f7dedd7f",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89335,
+                            "question_id": 19453,
+                            "is_answer": true,
+                            "choice": "$0.0588, \\quad 0.0594$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89336,
+                            "question_id": 19453,
+                            "is_answer": false,
+                            "choice": "$0.0264, \\quad 0.0358$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89337,
+                            "question_id": 19453,
+                            "is_answer": false,
+                            "choice": "$0.0588, \\quad 0.0358$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89338,
+                            "question_id": 19453,
+                            "is_answer": false,
+                            "choice": "$0.0526, \\quad 0.0594$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.79,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 107006,
+                    "tags": "近期易错,近期58人做�?,
+                    "ai_tags": "古典概型,超几何分�?概率计算"
+                },
+                {
+                    "id": 19454,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "1a03d396-4b55-4e01-8aee-5783fbbb79ae",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "在编号为 $1,2, \\cdots, n$ �?$n$ 张赠券中采用不放回方式抽�? 则在�?$k$ �?$(1 \\leq k \\leq n)$ 抽签中抽�?1 号赠券的概率�?( ).",
+                    "analysis": "�? �?$A=\\{$不放回地在第 $k$ 次抽签时抽到 1 号赠�?\\}$，从 $n$ 张赠券中抽出 $k$ 张的排列总数�?$P_n^k$。在�?$k$ 次抽�?1 号赠券，而在�?$k-1$ 次抽到的都不�?1 号赠券。这样的排列种数就是�?$n-1$ 张赠券中抽出 $k-1$ 张的排列总数，为 $P_{n-1}^{k-1}$。从而所求概率为 $p=\\frac{P_{n-1}^{k-1}}{P_n^k}=\\frac{(n-1)(n-2) \\cdots(n-k+1)}{n(n-1) \\cdots(n-k+1)}=\\frac{1}{n}$。\n�? �?$A_k=\\{$�?$k$ 次抽到第 1 号赠�?\\}$，则�?$A_k \\subset \\overline{A_1} \\overline{A_2} \\cdots \\overline{A_{k-1}}$，故\n$$\n\\begin{aligned}\n P(A_k) &= P(\\overline{A_1} \\overline{A_2} \\cdots \\overline{A_{k-1}} A_k) \\\\\n &= P(\\overline{A_1}) P(\\overline{A_2} \\mid \\overline{A_1}) \\cdots P(\\overline{A_{k-1}} \\mid \\overline{A_1} \\cdots \\overline{A_{k-2}}) \\cdot P(A_k \\mid \\overline{A_1} \\overline{A_2} \\cdots \\overline{A_{k-1}}) \\\\\n &= \\frac{n-1}{n} \\frac{n-2}{n-1} \\cdots \\frac{n-k+1}{n-k+2} \\cdot \\frac{1}{n-k+1} \\\\\n &= \\frac{1}{n}\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340631
+                    },
+                    "question_json": "mathreact/3546844aa86e41d79c8ee7426431e5e9",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89342,
+                            "question_id": 19454,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{n}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89343,
+                            "question_id": 19454,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n+k}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89344,
+                            "question_id": 19454,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n-k+1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89345,
+                            "question_id": 19454,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n+k+1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.84,
+                    "difficulty_score": 0.19,
+                    "avg_time_spent": 85822,
+                    "ai_tags": "概率�?抽签原理,乘法公式"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 35,
+            "questions": [
+                {
+                    "id": 19455,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "60652879-04f0-4eeb-8259-549a8202f83d",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?5名新生（其中�?名优秀生）随机地分配到三个班级中，其中一�?名，二班5名，三班6名，则每一个班级各分配到一名优秀生的概率�?( )�?名优秀生被分配到一个班级的概率�?( ).",
+                    "analysis": "15 名新生分别分配给一�?4 名，二班 5 名，三班 6 名的分法有：$C_{15}^4 C_{11}^5 C_6^6=\\frac{15!}{4!5!6!}$ (�?\n(1) �?3 名优秀生分配给三个班级各一名，共有 $3!$ 种分法，再将剩余�?12 名新生分配给一�?3 名，二班 4 名，三班 5 名，共有 $C_{12}^3 C_9^4 C_5^5=\\frac{12!}{3!4!5!}$ (�? 分法.\n根据乘法法则，每个班级分配到一名优秀生的分法有：$3!\\cdot \\frac{12!}{3!4!5!}=\\frac{12!}{4!5!}$ (�?，故其对应概率\n$$\nP=\\frac{12!}{4!5!} / \\frac{15!}{4!5!6!}=\\frac{12!6!}{15!}=\\frac{24}{91}=0.2637\n$$\n(2) �?$A_i$ 表示事件�?名优秀生全部分配到 $i$ 班�?$(i=1, 2, 3)$.\n$A_1$ 中所含基本事件个�?$m_1=C_{12}^1 \\cdot C_{11}^6=\\frac{12!}{5!6!}$\n$A_2$ 中所含基本事件个�?$m_2=C_{12}^4 \\cdot C_8^2=\\frac{12!}{2!4!6!}$\n$A_3$ 中所含基本事件个�?$m_3=C_{12}^4 \\cdot C_8^5=\\frac{12!}{3!4!5!}$\n�?(1) 中分析知基本事件的总数 $n=\\frac{15!}{4!5!6!}$，所以\n$$\n\\begin{aligned}\n& P(A_1)=\\frac{m_1}{n}=\\frac{12!}{5!6!} / \\frac{15!}{4!5!6!}=\\frac{4!12!}{15!}=0.00879 \\\\\n& P(A_2)=\\frac{m_2}{n}=\\frac{12!}{2!4!6!} / \\frac{15!}{4!5!6!}=\\frac{12!5!}{2!15!}=0.02198 \\\\\n& P(A_3)=\\frac{m_3}{n}=\\frac{12!}{3!4!5!} / \\frac{15!}{4!5!6!}=\\frac{12!6!}{3!15!}=0.04396\n\\end{aligned}\n$$\n因为 $A_1, A_2, A_3$ 互不相容，所�?3 名优秀生被分配到同一班级的概率为：\n$$\nP(A)=P(A_1 \\cup A_2 \\cup A_3)=P(A_1)+P(A_2)+P(A_3)=0.07473\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340632
+                    },
+                    "question_json": "mathreact/337c3cfee99e4b41bd0e3bb62a04b85e",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89349,
+                            "question_id": 19455,
+                            "is_answer": true,
+                            "choice": "$0.2637,0.07473$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89350,
+                            "question_id": 19455,
+                            "is_answer": false,
+                            "choice": "$0.2237,0.07073$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89351,
+                            "question_id": 19455,
+                            "is_answer": false,
+                            "choice": "$0.2637,0.06473$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89352,
+                            "question_id": 19455,
+                            "is_answer": false,
+                            "choice": "$0.2156,0.07473$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.79,
+                    "difficulty_score": 0.28,
+                    "avg_time_spent": 169861,
+                    "ai_tags": "古典概型,排列组合"
+                },
+                {
+                    "id": 19458,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "a364c9d8-ea2a-4051-96ab-556a88a1431a",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "7 个人随意的围一圆桌坐一�? 则其中某二人必须靠在一起的概率�?().",
+                    "analysis": "令事�?$A=\\{$ 其中某二人必须靠在一�?$\\}$, 由于桌子是圆�? 我们先固定其中一个人, 剩下�?6 个人所有的坐法�?$6!=720$ �? 即为 7 个人围圆桌坐成一圈的总排列方式数, 其中某二人必须靠在一�? 可以把这特定�?2 个人看作一个人, �?6 个人坐一圈共�?$5!$ 种坐�? 所考虑�?2 个人, 又有 $2!$ 种排列方�? 所以共�?$5!2!=240$ 种排列的方式. �?$P(A)=\\frac{5!2!}{6!}=\\frac{240}{720}=\\frac{1}{3}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340637
+                    },
+                    "question_json": "mathreact/ce601e1fabfd45c0be29e147a6bb7ee7",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89370,
+                            "question_id": 19458,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89371,
+                            "question_id": 19458,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{7}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89372,
+                            "question_id": 19458,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89373,
+                            "question_id": 19458,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{7}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.63,
+                    "difficulty_score": 0.36,
+                    "avg_time_spent": 59515,
+                    "ai_tags": "概率�?古典概型,圆排�?
+                },
+                {
+                    "id": 19460,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "e9012708-205c-47a9-b9a5-64edaf71de7b",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一批产�? 优质品占 $20 \\%$, 进行重复抽样检�? 共取 5 件产品进行检�? 则恰好有三件是优质品的概率等�?().",
+                    "analysis": "该问题属于独立重复试验（伯努利概型）。\n设事�?$A$ 为“检查的 5 件产品中恰好有三件是优质品”。\n每次抽取优质品的概率 $p=20\\%=0.2$，非优质品的概率 $q=1-0.2=0.8$。\n根据伯努利概型公�?$P_n(k)=C_n^k p^k q^{n-k}$，当 $n=5, k=3$ 时：\n$$\nP(A) = C_5^3 \\times 0.2^3 \\times 0.8^2 = 10 \\times 0.2^3 \\times 0.8^2\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340639
+                    },
+                    "question_json": "mathreact/668472f86177404f9e9f8bb146eebb4f",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89384,
+                            "question_id": 19460,
+                            "is_answer": true,
+                            "choice": "$10 \\times 0.2^3 \\times 0.8^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89385,
+                            "question_id": 19460,
+                            "is_answer": false,
+                            "choice": "$0.2^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89386,
+                            "question_id": 19460,
+                            "is_answer": false,
+                            "choice": "$0.2^3 \\times 0.8^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89387,
+                            "question_id": 19460,
+                            "is_answer": false,
+                            "choice": "$0.2^3 \\times 10$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.87,
+                    "difficulty_score": 0.27,
+                    "avg_time_spent": 56175,
+                    "ai_tags": "概率�?伯努利概�?
+                },
+                {
+                    "id": 19464,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "f39890a4-a08f-4939-ba42-427b0939b5fe",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$1500$ 个产品中�?$400$ 个次品�?1100$ 个正品，任取 $200$ 个。则恰有 $90$ 个次品的概率�?$(\\quad)$；至少有 $2$ 个次品的概率�?$(\\quad)$�?,
+                    "analysis": "(1) $P\\{\\text{恰有 } 90 \\text{ 个次品}\\} = \\frac{C_{400}^{90} C_{1100}^{110}}{C_{1500}^{200}}$。\n(2) $P\\{\\text{至少�?} 2 \\text{ 个次品}\\} = 1 - P\\{\\text{无次品}\\} - P\\{\\text{恰有 } 1 \\text{ 个次品}\\}$\n$$\n= 1 - \\frac{C_{1100}^{200}}{C_{1500}^{200}} - \\frac{C_{400}^{1} C_{1100}^{199}}{C_{1500}^{200}}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340647
+                    },
+                    "question_json": "mathreact/67ad24a0fb994178a9942c2787994f7f",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89412,
+                            "question_id": 19464,
+                            "is_answer": true,
+                            "choice": "$\\frac{C_{400}^{90} C_{1100}^{110}}{C_{1500}^{200}}; 1-\\frac{C_{1100}^{200}}{C_{1500}^{200}}-\\frac{C_{400}^{1} C_{1100}^{199}}{C_{1500}^{200}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89413,
+                            "question_id": 19464,
+                            "is_answer": false,
+                            "choice": "$\\frac{C_{400}^{90} C_{1100}^{110}}{C_{1500}^{200}}; 1-\\frac{C_{1100}^{200}}{C_{1500}^{200}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89414,
+                            "question_id": 19464,
+                            "is_answer": false,
+                            "choice": "$\\frac{C_{400}^{90} C_{1100}^{110}}{C_{1500}^{200}}; 1-\\frac{C_{400}^{1} C_{1100}^{199}}{C_{1500}^{200}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89415,
+                            "question_id": 19464,
+                            "is_answer": false,
+                            "choice": "$\\frac{C_{400}^{90} C_{1100}^{90}}{C_{1100}^{200}}; 1-\\frac{C_{1100}^{200}}{C_{1500}^{200}}-\\frac{C_{400}^{1} C_{1100}^{199}}{C_{1500}^{200}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.9,
+                    "difficulty_score": 0.31,
+                    "avg_time_spent": 61200,
+                    "ai_tags": "古典概型,超几何分�?
+                },
+                {
+                    "id": 20499,
+                    "subject_id": 3,
+                    "chapter_id": 272,
+                    "question_id": "4ef0ea25-ba46-450a-bc39-3615d808da6e",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?5 双不同的鞋子中任�?4 �? 则这 4 只鞋子中至少有两只配成一双的概率�?().",
+                    "analysis": "解法一 试验为从 5 双不同的鞋子中任�?4 �? 若一只接一只取�? 总共�?$N=10 \\cdot 9 \\cdot 8 \\cdot 7$ 种取�? �?$A$ �?$\\{ \\text{4 只鞋中至少有 2 只配对} \\}$, 因为涉及“至少�? 为和事件, 故可先考虑对立事件的概�? 求出 $\\bar{A}$ 中的样本点数. 仍一只只取出, 第一只可以在 10 只鞋中任取一�? 第二只只能在剩下的与第一只不配对�?8 只鞋中任取一�? 第三只又只能在剩下的与前两只都不配对�?6 只鞋中任取一�? �?4 只只�?4 种取�? 所�?$\\bar{A}$ 中的样本点总数 $k=10 \\cdot 8 \\cdot 6 \\cdot 4$, �?$P(A)=1-P(\\bar{A})=1-\\frac{10 \\cdot 8 \\cdot 6 \\cdot 4}{10 \\cdot 9 \\cdot 8 \\cdot 7}=1-\\frac{8}{21}=\\frac{13}{21}$.\n解法�?仍沿用解法一中的记号, 不考虑次序, 一次取�?4 �? 试验结果总数�?$C_{10}^4$ �? 有利�?$\\bar{A}$ 的样本点数为�?5 双鞋中取�?4 �? 然后每双任取一只的不同取法共有 $C_5^4 \\cdot 2^4$ �? 所以\n$$\nP(A)=1-P(\\bar{A})=1-\\frac{C_5^4 \\cdot 2^4}{C_{10}^4}=1-\\frac{8}{21}=\\frac{13}{21} .\n$$\n解法�?可以直接�?$P(A)$. 因为 $A$ 是和事件, 所以设 $B_1=\\{ \\text{取出�?4 只鞋中恰�?2 只配成一双} \\}, B_2=\\{ \\text{取出�?4 只鞋子恰配成 2 双} \\}$,\n于是 $A=B_1 \\cup B_2$, �?$B_1 B_2=\\varnothing$. $B_1$ 中的样本点数�?$C_5^1 \\cdot C_4^2 \\cdot 2^2$ �?$C_5^1(C_8^2-C_4^1)$, �?$B_2$ 中的样本点数�?$C_5^2$. 因此\n$$\nP(A)=P(B_1)+P(B_2)=\\frac{C_5^1 \\cdot C_4^2 \\cdot 2^2}{C_{10}^4}+\\frac{C_5^2}{C_{10}^4}=\\frac{4}{7}+\\frac{1}{21}=\\frac{13}{21} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764383738
+                    },
+                    "question_json": "mathreact/d7b421755862403a9e54b676ef0b4573",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 96657,
+                            "question_id": 20499,
+                            "is_answer": true,
+                            "choice": "$\\frac{13}{21}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 96658,
+                            "question_id": 20499,
+                            "is_answer": false,
+                            "choice": "$\\frac{11}{21}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 96659,
+                            "question_id": 20499,
+                            "is_answer": false,
+                            "choice": "$\\frac{17}{21}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 96660,
+                            "question_id": 20499,
+                            "is_answer": false,
+                            "choice": "$\\frac{10}{21}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.76,
+                    "difficulty_score": 0.38,
+                    "avg_time_spent": 199307,
+                    "ai_tags": "古典概型,排列组合"
+                }
+            ]
+        }
+    }
+]

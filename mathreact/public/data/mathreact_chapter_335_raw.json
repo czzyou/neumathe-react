@@ -1,0 +1,1364 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 16,
+            "questions": [
+                {
+                    "id": 13476,
+                    "subject_id": 3,
+                    "chapter_id": 335,
+                    "question_id": "6648fd4d-2871-495f-900a-d0981838b982",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "�?$X, Y$ 是两个随机变�? �?$P\\{X \\geq 0\\}=P\\{Y \\geq 0\\}=\\frac{4}{7}, P\\{X \\geq 0, Y \\geq 0\\}=\\frac{3}{7}$, �?$P\\{\\max \\{X, Y\\}<0\\}=($ ).",
+                    "analysis": "$\\begin{aligned} P\\{\\max \\{X, Y\\}<0\\} & =1-P\\{\\max \\{X, Y\\} \\geq 0\\} \\\\ & =1-(P\\{X \\geq 0\\}+P\\{Y \\geq 0\\}-P\\{X \\geq 0, Y \\geq 0\\}) \\\\ & =1-\\left(\\frac{4}{7}+\\frac{4}{7}-\\frac{3}{7}\\right) \\\\ & =\\frac{2}{7} .\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/dd0303e3744a4d1db97f19d76fae0b39",
+                    "updated_at": {
+                        "seconds": 1773945060
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53904,
+                            "question_id": 13476,
+                            "is_answer": false,
+                            "choice": "$\\frac{4}{7}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53901,
+                            "question_id": 13476,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{7}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53903,
+                            "question_id": 13476,
+                            "is_answer": false,
+                            "choice": "$\\frac{6}{7}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53902,
+                            "question_id": 13476,
+                            "is_answer": true,
+                            "choice": "$\\frac{2}{7}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.88,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 48707,
+                    "ai_tags": "概率�?随机变量,事件的概�?
+                },
+                {
+                    "id": 13478,
+                    "subject_id": 3,
+                    "chapter_id": 335,
+                    "question_id": "094ed519-f9a5-4824-87cb-899849162738",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$X$ �?$Y$ 相互独立具有同一分布�? �?$X$ 的分布律为\n\\begin{tabular}{c|cc}\n\\hline$X$ & 0 & 1 \\\\\n\\hline$P$ & $\\frac{1}{3}$ & $\\frac{2}{3}$ \\\\\n\\hline\n\\end{tabular}\n\n�?$Z=\\max \\{X, Y\\}$ 的分布律�?$(\\mathrm{)}$.",
+                    "analysis": "依题意有\n\\begin{tabular}{c|cccc}\n\\hline$(X, Y)$ & $(0,0)$ & $(0,1)$ & $(1,0)$ & $(1,1)$ \\\\\n\\hline$P$ & $1 / 9$ & $2 / 9$ & $2 / 9$ & $4 / 9$ \\\\\n\\hline$Z$ & 0 & 1 & 1 & 1 \\\\\n\\hline\n\\end{tabular}\n\n于是 $Z$ 的分布律为\n\\begin{tabular}{c|cc}\n\\hline Z & 0 & 1 \\\\\n\\hline$P$ & $1 / 9$ & $8 / 9$ \\\\\n\\hline\n\\end{tabular}",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/10dd1a9ff3cc46dfa8cab46b8c13c0f6",
+                    "updated_at": {
+                        "seconds": 1767292341
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53910,
+                            "question_id": 13478,
+                            "is_answer": true,
+                            "choice": "\\begin{tabular}{l|rr}\n\\hline Z & 0 & 1 \\\\\n\\hline$p_j$ & $1 / 9$ & $8 / 9$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53909,
+                            "question_id": 13478,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{l|cc}\n\\hline Z & 0 & 1 \\\\\n\\hline$p_j$ & $1 / 2$ & $1 / 2$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53911,
+                            "question_id": 13478,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|cc}\n\\hline Z & 0 & 1 \\\\\n\\hline$p_i$ & $3 / 4$ & $1 / 4$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53912,
+                            "question_id": 13478,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|cc}\n\\hline Z & 0 & 1 \\\\\n\\hline$p_j$ & $1 / 3$ & $2 / 3$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 18084,
+                    "ai_tags": "离散型随机变�?相互独立,随机变量的分�?
+                },
+                {
+                    "id": 13480,
+                    "subject_id": 3,
+                    "chapter_id": 335,
+                    "question_id": "d93ee1b6-7259-40f2-8895-305e80127964",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "�?$X$ �?$Y$ 为两个随机变�? �?$P\\{X \\leq 1, Y \\leq 1\\}=\\frac{4}{9}, P\\{X \\leq 1\\}=\\frac{5}{9}, P\\{Y \\leq 1\\}=\\frac{5}{9}$, �?$P\\{\\min (X, Y) \\leq 1\\}=()$.",
+                    "analysis": "$\\begin{aligned} P\\{\\min (X, Y) \\leq 1\\} & =P\\{X \\leq 1\\}+P\\{Y \\leq 1\\}-P\\{X \\leq 1, Y \\leq 1\\} \\\\ & =\\frac{5}{9}+\\frac{5}{9}-\\frac{4}{9}=\\frac{6}{9}=\\frac{2}{3} .\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/3ccdd789c63e44debc69c3da45287894",
+                    "updated_at": {
+                        "seconds": 1773945061
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53917,
+                            "question_id": 13480,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53919,
+                            "question_id": 13480,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53918,
+                            "question_id": 13480,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53920,
+                            "question_id": 13480,
+                            "is_answer": true,
+                            "choice": "$\\frac{2}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.88,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 154698,
+                    "ai_tags": "概率�?随机变量,概率加法公式"
+                },
+                {
+                    "id": 13482,
+                    "subject_id": 3,
+                    "chapter_id": 335,
+                    "question_id": "c0fcc28b-b914-4183-ab00-9bf3215725d3",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "�?$X$ �?$Y$ 为两个随机变�? �?$P\\{X \\geq 0, Y \\geq 0\\}=\\frac{3}{7}, P\\{X \\geq 0\\}=P\\{Y \\geq 0\\}=\\frac{4}{7}$, �?$P\\{\\min (X, Y)<0\\}=()$.",
+                    "analysis": "$\\begin{aligned} P\\{\\min (X, Y)<0\\} & =1-P\\{\\min (X, Y) \\geq 0) \\\\ & =1-P\\{X \\geq 0, Y \\geq 0\\} \\\\ & =1-\\frac{3}{7}=\\frac{4}{7} .\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/f3e497659fde48ee9c623d87a040d19d",
+                    "updated_at": {
+                        "seconds": 1773945058
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53925,
+                            "question_id": 13482,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{7}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53928,
+                            "question_id": 13482,
+                            "is_answer": true,
+                            "choice": "$\\frac{4}{7}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53927,
+                            "question_id": 13482,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{7}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53926,
+                            "question_id": 13482,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{7}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.55,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 39394,
+                    "ai_tags": "概率的基本性质,随机变量"
+                },
+                {
+                    "id": 13488,
+                    "subject_id": 3,
+                    "chapter_id": 335,
+                    "question_id": "9ecf62e1-f995-45a2-a8b2-133bf32657e6",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$\\xi, \\eta$ 独立同分�? �?$\\xi$ 的概率分布为\n\\begin{tabular}{c|cc}\n\\hline$\\xi$ & 0 & 1 \\\\\n\\hline$p_i$ & $2 / 3$ & $1 / 3$ \\\\\n\\hline\n\\end{tabular}\n\n�?$\\zeta=\\max \\{\\xi, \\eta\\}$ 的概率分布为 ( ).",
+                    "analysis": "因为独立, 所以有\n\\begin{tabular}{c|cccc}\n\\hline$(\\xi, \\eta)$ & $(0,0)$ & $(0,1)$ & $(1,0)$ & $(1,1)$ \\\\\n\\hline$p_i$ & $4 / 9$ & $2 / 9$ & $2 / 9$ & $1 / 9$ \\\\\n\\hline$\\zeta$ & 0 & 1 & 1 & 1 \\\\\n\\hline\n\\end{tabular}\n\n故\n\\begin{tabular}{c|cc}\n\\hline$\\zeta$ & 0 & 1 \\\\\n\\hline$p_1$ & $4 / 9$ & $5 / 9$ \\\\\n\\hline\n\\end{tabular}",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/15f987db3b6242ec9aec6e8b54e82423",
+                    "updated_at": {
+                        "seconds": 1767551642
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53950,
+                            "question_id": 13488,
+                            "is_answer": true,
+                            "choice": "\\begin{tabular}{c|cc}\n\\hline$\\zeta$ & 0 & 1 \\\\\n\\hline$p_i$ & $4 / 9$ & $5 / 9$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53949,
+                            "question_id": 13488,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|cc}\n\\hline$\\zeta$ & 0 & 1 \\\\\n\\hline$p_i$ & $1 / 2$ & $1 / 2$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53952,
+                            "question_id": 13488,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|ccc}\n\\hline$\\zeta$ & 0 & 1 & 2 \\\\\n\\hline$p_i$ & $1 / 4$ & $1 / 4$ & $1 / 2$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53951,
+                            "question_id": 13488,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{l|l}\n\\hline$\\zeta$ & 1 \\\\\n\\hline$p_i$ & 1 \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 38926,
+                    "ai_tags": "概率�?离散型随机变�?独立同分�?
+                },
+                {
+                    "id": 18994,
+                    "subject_id": 3,
+                    "chapter_id": 335,
+                    "question_id": "fb0ad537-33f0-43ef-a60a-d61a0abc911f",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$X$ �?$Y$ 相互独立, 其分布函数分别为 $F_X(x)$ �?$F_Y(y)$, 则随机变�?$Z=\\min (X, Y)$ 的分布函�?$F_Z(z)$ 等于 ( ).",
+                    "analysis": "$\\begin{aligned} F_Z(z) & =P\\{Z \\leq z\\}=1-P\\{\\min (X, Y)>z\\} \\\\ & =1-P\\{X>z\\} P\\{Y>z\\}=1-\\left[1-F_X(z)\\right]\\left[1-F_Y(z)\\right] \\\\ & =F_X(z)+F_Y(z)-F_X(z) F_Y(z) .\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339530
+                    },
+                    "question_json": "mathreact/a66a07a8c0084e5790f81bc72bad28d5",
+                    "updated_at": {
+                        "seconds": 1768242611
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86122,
+                            "question_id": 18994,
+                            "is_answer": true,
+                            "choice": "$F_X(z)+F_Y(z)-F_X(z) F_Y(z)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86123,
+                            "question_id": 18994,
+                            "is_answer": false,
+                            "choice": "$\\min \\left\\{F_X(z), F_Y(z)\\right\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86124,
+                            "question_id": 18994,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}\\left[F_X(z)+F_Y(z)\\right]$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86125,
+                            "question_id": 18994,
+                            "is_answer": false,
+                            "choice": "$F_X(z) F_Y(z)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.89,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 19763,
+                    "ai_tags": "概率�?随机变量,分布函数"
+                },
+                {
+                    "id": 18997,
+                    "subject_id": 3,
+                    "chapter_id": 335,
+                    "question_id": "e4b84e30-41cd-482e-ae43-be96e4d6d56d",
+                    "difficulty": "Medium",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "设随机变�?$X, Y$ 相互独立, �?$X$ �?$Y$ 分别服从区间 $(0,1)$ �?$(0,2)$ 上的均匀分布, �?$U=\\max \\{X, Y\\}$ 的概率密度为 ().",
+                    "analysis": "由题设知�?X$ �?$Y$ 的概率密度分别为\n$$\nf_X(x)=\\left\\{\\begin{array}{ll}\n1, & 0<x<1 \\\\\n0, & \\text { 其它 }\n\\end{array}\\right., \\quad f_Y(y)=\\left\\{\\begin{array}{ll}\n1 / 2, & 0<y<2 \\\\\n0, & \\text { 其它 }\n\\end{array}\\right.\n$$\n于是�?X$ �?$Y$ 的分布函数分别为\n$$\nF_X(x)=\\left\\{\\begin{array}{ll}\n0, & x \\leq 0 \\\\\nx, & 0 \\leq x<1 \\\\\n1, & x \\geq 1\n\\end{array}\\right., \\quad F_Y(y)=\\left\\{\\begin{array}{ll}\n0, & y<0 \\\\\ny / 2, & 0 \\leq y<2 \\\\\n1, & y \\geq 2\n\\end{array}\\right.\n$$\n从�?$U=\\max \\{X, Y\\}$ 的分布函数为\n$$\nF_U(u)=F_X(u) F_Y(u)=\\left\\{\\begin{array}{ll}\n0, & u<0 \\\\\nu^2 / 2, & 0 \\leq u<1 \\\\\nu / 2, & 1 \\leq u<2 \\\\\n1, & u \\geq 2\n\\end{array}\\right.\n$$\n�?$U=\\max \\{X, Y\\}$ 的概率密度为\n$$\nf_U(u)=\\left\\{\\begin{array}{ll}\nu, & 0<u<1 \\\\\n1 / 2, & 1 \\leq u<2 \\\\\n0, & \\text { 其它 }\n\\end{array}\\right.\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339532
+                    },
+                    "question_json": "mathreact/41d5f737505449be8320907f117931fa",
+                    "updated_at": {
+                        "seconds": 1767465101
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86143,
+                            "question_id": 18997,
+                            "is_answer": false,
+                            "choice": "$f_U(u)=\\left\\{\\begin{array}{c}u+1, \\quad 0<u<1 \\\\ \\frac{1}{2}, 1 \\leq u<2 \\\\ 0, \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86144,
+                            "question_id": 18997,
+                            "is_answer": false,
+                            "choice": "$f_U(u)=\\left\\{\\begin{array}{c}u, 0<u<1 \\\\ 1,1 \\leq u<2 \\\\ 0, \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86145,
+                            "question_id": 18997,
+                            "is_answer": false,
+                            "choice": "$f_U(u)=\\left\\{\\begin{array}{c}u, \\quad 0<u<1 \\\\ \\frac{1}{2}(u-1), 1 \\leq u<2 \\\\ 0, \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86146,
+                            "question_id": 18997,
+                            "is_answer": true,
+                            "choice": "$f_U(u)=\\left\\{\\begin{array}{cc}u, & 0<u<1 \\\\ \\frac{1}{2}, & 1 \\leq u<2 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 66042,
+                    "ai_tags": "概率�?均匀分布,随机变量函数的分�?
+                },
+                {
+                    "id": 18998,
+                    "subject_id": 3,
+                    "chapter_id": 335,
+                    "question_id": "d03b1ff9-30ef-4ea1-9946-e58b91a882f1",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$X$ �?$Y$ 相互独立具有同一分布�? �?$X$ 的分布律为\n\\begin{tabular}{c|cc}\n\\hline$X$ & 0 & 1 \\\\\n\\hline$p_i$ & $\\frac{1}{2}$ & $\\frac{1}{2}$ \\\\\n\\hline\n\\end{tabular}\n\n�?$Z=\\max \\{X, Y\\}$ 的分布律�?( ).",
+                    "analysis": "依题意有\n\\begin{tabular}{c|cccc}\n\\hline$(X, Y)$ & $(0,0)$ & $(0,1)$ & $(1,0)$ & $(1,1)$ \\\\\n\\hline$P$ & $1 / 4$ & $1 / 4$ & $1 / 4$ & $1 / 4$ \\\\\n\\hline$Z$ & 0 & 1 & 1 & 1 \\\\\n\\hline\n\\end{tabular}\n\n于是 $Z$ 的分布律为\n\\begin{tabular}{c|cc}\n\\hline Z & 0 & 1 \\\\\n\\hline$P$ & $1 / 4$ & $3 / 4$ \\\\\n\\hline\n\\end{tabular}",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339533
+                    },
+                    "question_json": "mathreact/cf8d857356ca4b95a57fedeb84090c27",
+                    "updated_at": {
+                        "seconds": 1773945058
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86150,
+                            "question_id": 18998,
+                            "is_answer": true,
+                            "choice": "\\begin{tabular}{l|cc}\n\\hline Z & 0 & 1 \\\\\n\\hline$p_i$ & $1 / 4$ & $3 / 4$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86151,
+                            "question_id": 18998,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|cc}\n\\hline Z & 0 & 1 \\\\\n\\hline$p_i$ & $1 / 2$ & $1 / 2$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86152,
+                            "question_id": 18998,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|cc}\n\\hline Z & 0 & 1 \\\\\n\\hline$p_j$ & $3 / 4$ & $1 / 4$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86153,
+                            "question_id": 18998,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|cc}\n\\hline Z & 0 & 1 \\\\\n\\hline$p_i$ & $1 / 3$ & $2 / 3$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.63,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 28310,
+                    "ai_tags": "离散型随机变�?相互独立,随机变量函数的分�?
+                },
+                {
+                    "id": 19001,
+                    "subject_id": 3,
+                    "chapter_id": 335,
+                    "question_id": "f9bb3652-1a2d-4489-ad0a-3ada11deaa0d",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设相互独立的两个随机变量 $X, Y$ 具有同一分布�? �?$X$ 的分布律为\n\\begin{tabular}{c|cc}\n\\hline$X$ & 0 & 1 \\\\\n\\hline$p_j$ & $1 / 5$ & $4 / 5$ \\\\\n\\hline\n\\end{tabular}\n\n则随机变�?$Z=\\max \\{X, Y\\}$ 的分布律�?().",
+                    "analysis": "由于 $X$ �?$Y$ 相互独立, 所�?$P\\{X=i, Y=j\\}=P\\{X=i\\} P\\{Y=j\\}$, 于是\n$$\n\\begin{gathered}\nP\\{Z=i\\}=P\\{\\max \\{X, Y\\}=i\\}=P\\{X=i, Y<i\\}+P\\{X \\leq i, Y=i\\} \\\\\n=\\sum_{k=0}^{i-1} P\\{X=i, Y=k\\}+\\sum_{k=0}^i P\\{X=k, Y=i\\} \\quad (i=0,1), \\\\\nP\\{Z=0\\}=P\\{\\max \\{X, Y\\}=0\\}=p(0,0)=\\frac{1}{5^2}, \\\\\nP\\{Z=1\\}=P\\{\\max \\{X, Y\\}=1\\}=1-p(0,0)=1-\\frac{1}{5^2},\n\\end{gathered}\n$$\n\n�?$Z=\\max \\{X, Y\\}$ 的分布律为\n\\begin{tabular}{|l|l|l|}\n\\hline$Z$ & 0 & 1 \\\\\n\\hline$p_i$ & $\\frac{1}{25}$ & $\\frac{24}{25}$ \\\\\n\\hline\n\\end{tabular}",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339541
+                    },
+                    "question_json": "mathreact/ce6516b489ef4266b57e0eee7115e5ae",
+                    "updated_at": {
+                        "seconds": 1767551639
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86171,
+                            "question_id": 19001,
+                            "is_answer": true,
+                            "choice": "\\begin{tabular}{c|cc}\n\\hline Z & 0 & 1 \\\\\n\\hline$p_j$ & $1 / 25$ & $24 / 25$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86172,
+                            "question_id": 19001,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|cc}\n\\hline Z & 0 & 1 \\\\\n\\hline$p_i$ & $1 / 5$ & $4 / 5$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86173,
+                            "question_id": 19001,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|ccc}\n\\hline Z & 0 & 1 & 2 \\\\\n\\hline$p_i$ & $4 / 25$ & $6 / 25$ & $15 / 25$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86174,
+                            "question_id": 19001,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|c}\n\\hline Z & 1 \\\\\n\\hline$p_i$ & 1 \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 96768,
+                    "ai_tags": "离散型随机变�?概率分布,独立�?
+                },
+                {
+                    "id": 19005,
+                    "subject_id": 3,
+                    "chapter_id": 335,
+                    "question_id": "015612e0-bbe6-4a54-9972-f7cb3c5595c8",
+                    "difficulty": "Medium",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "设随机变�?$X, Y$ 相互独立, �?$X, Y$ 的分布函数分别为 $F_X(x), F_Y(y)$. �?$\\xi=\\min(X, Y), \\eta=\\max\\{X, Y\\}$, �?$(\\xi, \\eta)$ 的分布函�?$F(u, v)=(\\quad)$.",
+                    "analysis": "�?$u>v$ �? $F(u, v)=0$.\n�?$u \\leq v$ �?\n$$\n\\begin{aligned}\nF(u, v) &= P\\{\\min (X, Y) \\leq u, \\max \\{X, Y\\} \\leq v\\} \\\\\n&= P\\{\\min (X, Y) \\leq u, X \\leq v, Y \\leq v\\} \\\\\n&= P\\{\\{X \\leq u \\text { �?} Y \\leq u\\}, X \\leq v, Y \\leq v\\} \\\\\n&= P\\{\\{X \\leq u, X \\leq v, Y \\leq v\\} \\cup \\{Y \\leq u, X \\leq v, Y \\leq v\\}\\} \\\\\n&= P\\{X \\leq u, Y \\leq v\\}+P\\{Y \\leq u, X \\leq v\\}-P\\{X \\leq u, Y \\leq u\\} \\\\\n&= F_X(u) F_Y(v)+F_X(v) F_Y(u)-F_X(u) F_Y(u).\n\\end{aligned}\n$$\n综上,\n$$\nF(u, v)=\\begin{cases} F_X(u) F_Y(v)+F_X(v) F_Y(u)-F_X(u) F_Y(u), & u \\leq v, \\\\ 0, & u>v. \\end{cases}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339565
+                    },
+                    "question_json": "mathreact/8959fa61e2c8457db6672d05d7766983",
+                    "updated_at": {
+                        "seconds": 1773945059
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86199,
+                            "question_id": 19005,
+                            "is_answer": false,
+                            "choice": "$\\begin{cases} F_X(u) F_Y(v)+F_X(v) F_Y(u)+F_X(u) F_Y(u), & u \\leq v, \\\\ 0, & u>v. \\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86200,
+                            "question_id": 19005,
+                            "is_answer": false,
+                            "choice": "$\\left(1-F_X(u)\\right)\\left(1-F_Y(v)\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86201,
+                            "question_id": 19005,
+                            "is_answer": false,
+                            "choice": "$1-\\left(1-F_X(u)\\right)\\left(1-F_Y(v)\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86202,
+                            "question_id": 19005,
+                            "is_answer": true,
+                            "choice": "$\\begin{cases} F_X(u) F_Y(v)+F_X(v) F_Y(u)-F_X(u) F_Y(u), & u \\leq v, \\\\ 0, & u>v. \\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.67,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 52074,
+                    "ai_tags": "概率�?分布函数,次序统计�?
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 16,
+            "questions": [
+                {
+                    "id": 19006,
+                    "subject_id": 3,
+                    "chapter_id": 335,
+                    "question_id": "da13e447-d28f-486f-9216-fb57ecb9f184",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "�?$X$ �?$Y$ 相互独立具有同一分布�? �?$X$ 的分布律为\n\\begin{tabular}{c|ccc}\n\\hline $X$ & 0 & 1 & 2 \\\\\n\\hline $p_i$ & $1/3$ & $1/3$ & $1/3$ \\\\\n\\hline\n\\end{tabular}\n\n�?$Z=\\max \\{X, Y\\}$ 的分布律�?( ).",
+                    "analysis": "依题意有\n\\begin{tabular}{c|ccccccccc}\n\\hline $(X, Y)$ & $(0,0)$ & $(0,1)$ & $(0,2)$ & $(1,0)$ & $(1,1)$ & $(1,2)$ & $(2,0)$ & $(2,1)$ & $(2,2)$ \\\\\n\\hline & $1/9$ & $1/9$ & $1/9$ & $1/9$ & $1/9$ & $1/9$ & $1/9$ & $1/9$ & $1/9$ \\\\\n\\hline & 0 & 1 & 2 & 1 & 1 & 2 & 2 & 2 & 2 \\\\\n\\hline\n\\end{tabular}\n\n于是 $Z$ 的分布律为\n\\begin{tabular}{c|ccc}\n\\hline $Z$ & 0 & 1 & 2 \\\\\n\\hline $p_i$ & $1/9$ & $1/3$ & $5/9$ \\\\\n\\hline\n\\end{tabular}",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339567
+                    },
+                    "question_json": "mathreact/dc2302a5cb9a4cc9b83e685a982680d3",
+                    "updated_at": {
+                        "seconds": 1766773902
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86206,
+                            "question_id": 19006,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|ccc}\n\\hline $Z$ & 0 & 1 & 2 \\\\\n\\hline $p_i$ & $3/16$ & $1/2$ & $5/16$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86207,
+                            "question_id": 19006,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|ccc}\n\\hline $Z$ & 0 & 1 & 2 \\\\\n\\hline $p_i$ & $1/4$ & $1/2$ & $1/4$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86208,
+                            "question_id": 19006,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|ccc}\n\\hline $Z$ & 0 & 1 & 2 \\\\\n\\hline $p_i$ & $1/8$ & $5/8$ & $1/4$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86209,
+                            "question_id": 19006,
+                            "is_answer": true,
+                            "choice": "\\begin{tabular}{c|ccc}\n\\hline $Z$ & 0 & 1 & 2 \\\\\n\\hline $p_i$ & $1/9$ & $1/3$ & $5/9$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 22341,
+                    "ai_tags": "离散型随机变�?随机变量函数的分�?相互独立"
+                },
+                {
+                    "id": 19007,
+                    "subject_id": 3,
+                    "chapter_id": 335,
+                    "question_id": "a532ff01-2570-4670-ad23-c6ff527df91f",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设系�?$L$ 是由两个相互独立的子系统 $L_1$ �?$L_2$ 以串联方式联接而成, $L_1$ �?$L_2$ 的寿命分别为 $X$ �?$Y$, 其概率密度分别为\n$$\n\\varphi_1(x)=\\begin{cases} \\alpha e^{-\\alpha x}, & x>0 \\\\ 0, & x \\leq 0 \\end{cases}, \\quad \\varphi_2(y)=\\begin{cases} \\beta e^{-\\beta y}, & y>0 \\\\ 0, & y \\leq 0 \\end{cases}\n$$\n其中 $\\alpha>0, \\beta>0, \\alpha \\neq \\beta$, 则系�?$L$ 的寿�?$Z$ 的概率密度为 ( ).",
+                    "analysis": "�?$Z=\\min \\{X, Y\\}$, 则\n$$\n\\begin{aligned}\nF(z) & =P\\{Z \\leq z\\}=P\\{\\min (X, Y) \\leq z\\} \\\\\n& =1-P\\{\\min (X, Y)>z\\}=1-P\\{X > z, Y > z\\} \\\\\n& =1-[1-P\\{X \\leq z\\}][1-P\\{Y \\leq z\\}]=1-[1-F_1(z)][1-F_2(z)]\n\\end{aligned}\n$$\n由于 $F_1(z)=\\begin{cases}\\int_0^z \\alpha e^{-\\alpha x} d x=1-e^{-\\alpha z}, & z \\geq 0 \\\\ 0, & z<0\\end{cases}$,\n$$\nF_2(z)=\\begin{cases}\n1-e^{-\\beta z}, & z \\geq 0 \\\\\n0, & z<0\n\\end{cases}\n$$\n�?$F(z)=\\begin{cases}1-e^{-(\\alpha+\\beta) z}, & z \\geq 0 \\\\ 0, & z<0\\end{cases}$,\n从�?$\\varphi(z)=\\begin{cases}(\\alpha+\\beta) e^{-(\\alpha+\\beta) z}, & z>0 \\\\ 0, & z \\leq 0\\end{cases}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339568
+                    },
+                    "question_json": "mathreact/4178469281b94a0d9c34f86198a0b887",
+                    "updated_at": {
+                        "seconds": 1773945061
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86213,
+                            "question_id": 19007,
+                            "is_answer": false,
+                            "choice": "$\\varphi(z)=\\left\\{\\begin{array}{c}(\\alpha+\\beta) e^{-(\\alpha-\\beta) z}, z>0 \\\\ 0, \\quad z \\leq 0\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86214,
+                            "question_id": 19007,
+                            "is_answer": true,
+                            "choice": "$\\varphi(z)=\\left\\{\\begin{array}{c}(\\alpha+\\beta) e^{-(\\alpha+\\beta) z}, z>0 \\\\ 0, \\\\ z \\leq 0\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86215,
+                            "question_id": 19007,
+                            "is_answer": false,
+                            "choice": "$\\varphi(z)=\\left\\{\\begin{array}{c}(\\alpha-\\beta) e^{-(\\alpha+\\beta) z}, z>0 \\\\ 0, \\quad z \\leq 0\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86216,
+                            "question_id": 19007,
+                            "is_answer": false,
+                            "choice": "$\\varphi(z)=\\left\\{\\begin{array}{c}(\\alpha-\\beta) e^{-(\\alpha-\\beta) z}, z>0 \\\\ 0, \\quad z \\leq 0\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.5,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 23065,
+                    "ai_tags": "概率�?指数分布,随机变量函数的分�?
+                },
+                {
+                    "id": 19008,
+                    "subject_id": 3,
+                    "chapter_id": 335,
+                    "question_id": "b04b48f9-f729-4078-8472-fb428b3dca28",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$X, Y$ 相互独立, 且均服从参数�?$\\lambda$ 的指数分�? $P\\{X>1\\}=e^{-2}$, �?$P\\{\\min (X, Y) \\leq 1\\}=()$.",
+                    "analysis": "依题意有\n$$\nP\\{X>1\\}=1-P\\{X \\leq 1\\}=1-\\int_0^1 \\lambda e^{-\\lambda x} dx=e^{-2},\n$$\n�?$1-\\left(1-e^{-\\lambda}\\right)=e^{-2}$, �?$\\lambda=2$. 于是\n$$\n\\begin{aligned}\nP\\{\\min (X, Y) \\leq 1\\} & =1-P\\{\\min (X, Y)>1\\} \\\\\n& =1-P\\{X>1, Y>1\\}=1-P\\{X>1\\} P\\{Y>1\\} \\\\\n& =1-e^{-2} \\times e^{-2}=1-e^{-4}.\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339568
+                    },
+                    "question_json": "mathreact/46f7a88ad3cd420db3cf01a809ae07a2",
+                    "updated_at": {
+                        "seconds": 1773945054
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86220,
+                            "question_id": 19008,
+                            "is_answer": true,
+                            "choice": "$1-e^{-4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86221,
+                            "question_id": 19008,
+                            "is_answer": false,
+                            "choice": "$1-e^{-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86222,
+                            "question_id": 19008,
+                            "is_answer": false,
+                            "choice": "$1-e^{-2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86223,
+                            "question_id": 19008,
+                            "is_answer": false,
+                            "choice": "$1-e^{-3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.71,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 448198,
+                    "ai_tags": "指数分布,相互独立,随机变量"
+                },
+                {
+                    "id": 19009,
+                    "subject_id": 3,
+                    "chapter_id": 335,
+                    "question_id": "d13dafbc-8723-4e58-b3f6-71d4c86373fa",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "�?$X, Y$ 是相互独立的两个随机变量, 它们的分布函数分别是 $F_X(x), F_Y(y)$, �?$Z=\\max \\{X, Y\\}$ 的分布函数是 ( ).",
+                    "analysis": "$\\begin{aligned} P\\{Z \\leq z\\} &= P\\{\\max \\{X, Y\\} \\leq z\\} = P\\{X \\leq z, Y \\leq z\\}, \\\\ &\\text { 因为独立, �?} \\\\ P\\{X \\leq z, Y \\leq z\\} &= P\\{X \\leq z\\} P\\{Y \\leq z\\} = F_X(z) F_Y(z), \\\\ \\text { �?} F_Z(z) &= F_X(z) F_Y(z). \\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339570
+                    },
+                    "question_json": "mathreact/077c8968211f411bb3f77d3156754355",
+                    "updated_at": {
+                        "seconds": 1773945055
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86227,
+                            "question_id": 19009,
+                            "is_answer": false,
+                            "choice": "其他选项都不正确",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86228,
+                            "question_id": 19009,
+                            "is_answer": false,
+                            "choice": "$F(z)=1-[1-F_1(z)][1-F_2(z)]$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86229,
+                            "question_id": 19009,
+                            "is_answer": false,
+                            "choice": "$F_Z(z)=\\max \\{F_X(z), F_Y(z)\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86230,
+                            "question_id": 19009,
+                            "is_answer": true,
+                            "choice": "$F_Z(z)=F_X(z) F_Y(z)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.71,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 12558,
+                    "ai_tags": "随机变量,分布函数,相互独立"
+                },
+                {
+                    "id": 19010,
+                    "subject_id": 3,
+                    "chapter_id": 335,
+                    "question_id": "26eb6f50-b7d1-4c2c-bfdd-533cc91ebdb1",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$X$ �?$Y$ 相互独立具有同一分布�? �?$X$ 的分布律为\n\\begin{tabular}{c|ccc}\n\\hline $X$ & 0 & 1 & 2 \\\\\n\\hline $p_i$ & $1 / 4$ & $1 / 2$ & $1 / 4$ \\\\\n\\hline\n\\end{tabular}\n\n�?$Z=\\min \\{X, Y\\}$ 的分布律�?( ).",
+                    "analysis": "依题意有\n\\begin{tabular}{c|ccccccccc}\n\\hline $(X, Y)$ & $(0,0)$ & $(0,1)$ & $(0,2)$ & $(1,0)$ & $(1,1)$ & $(1,2)$ & $(2,0)$ & $(2,1)$ & $(2,2)$ \\\\\n\\hline & $1 / 16$ & $1 / 8$ & $1 / 16$ & $1 / 8$ & $1 / 4$ & $1 / 8$ & $1 / 16$ & $1 / 8$ & $1 / 16$ \\\\\n\\hline & 0 & 1 & 2 & 1 & 1 & 2 & 2 & 2 & 2 \\\\\n\\hline\n\\end{tabular}\n\n于是 $Z$ 的分布律为\n\\begin{tabular}{c|ccc}\n\\hline $Z$ & 0 & 1 & 2 \\\\\n\\hline $P$ & $7 / 16$ & $1 / 2$ & $1 / 16$ \\\\\n\\hline\n\\end{tabular}",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339573
+                    },
+                    "question_json": "mathreact/6bce0cd58c424589bd3835e43b0b7655",
+                    "updated_at": {
+                        "seconds": 1773945057
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86234,
+                            "question_id": 19010,
+                            "is_answer": true,
+                            "choice": "\\begin{tabular}{c|ccc}\n\\hline $Z$ & 0 & 1 & 2 \\\\\n\\hline $P$ & $7 / 16$ & $1 / 2$ & $1 / 16$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86235,
+                            "question_id": 19010,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|ccc}\n\\hline $Z$ & 0 & 1 & 2 \\\\\n\\hline $p_i$ & $1 / 8$ & $5 / 8$ & $1 / 4$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86236,
+                            "question_id": 19010,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|ccc}\n\\hline $Z$ & 0 & 1 & 2 \\\\\n\\hline $p_i$ & $1 / 16$ & $1 / 2$ & $7 / 16$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86237,
+                            "question_id": 19010,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|ccc}\n\\hline $Z$ & 0 & 1 & 2 \\\\\n\\hline $p_i$ & $3 / 16$ & $1 / 2$ & $5 / 16$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.75,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 50763,
+                    "ai_tags": "离散型随机变�?相互独立,随机变量函数的分�?
+                },
+                {
+                    "id": 19016,
+                    "subject_id": 3,
+                    "chapter_id": 335,
+                    "question_id": "2fb13ac1-c46c-4547-8555-57ce2ee23c2b",
+                    "difficulty": "Medium",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "设随机变�?$X, Y$ 相互独立, �?$X$ �?$Y$ 分别服从区间 $(0,1)$ �?$(0,2)$ 上的均匀分布, �?$V=\\min \\{X, Y\\}$ 的概率密度为 ( ).",
+                    "analysis": "由题设知�?X$ �?$Y$ 的概率密度分别为\n$$\nf_X(x)=\\left\\{\\begin{array}{cc}\n1, & 0<x<1 \\\\\n0, & \\text { 其它 }\n\\end{array}\\right., \\quad f_Y(y)=\\left\\{\\begin{array}{cc}\n1 / 2, & 0<y<2 \\\\\n0, & \\text { 其它 }\n\\end{array}\\right.\n$$\n于是�?X$ �?$Y$ 的分布函数分别为\n$$\nF_X(x)=\\left\\{\\begin{array}{cc}\n0, & x \\leq 0 \\\\\nx, & 0 \\leq x<1 \\\\\n1, & x \\geq 1\n\\end{array}\\right., \\quad F_Y(y)=\\left\\{\\begin{array}{cc}\n0, & y<0 \\\\\ny / 2, & 0 \\leq y<2 \\\\\n1, & y \\geq 2\n\\end{array}\\right.\n$$\n从�?$V=\\min \\{X, Y\\}$ 的分布函数为\n$$\n\\begin{aligned}\nF_V(v) &= 1-\\left[1-F_X(v)\\right]\\left[1-F_Y(v)\\right] \\\\\n&= F_X(v)+F_Y(v)-F_X(v) F_Y(v) \\\\\n&= \\left\\{\\begin{array}{cc}\n0, & v<0 \\\\\n\\frac{v}{2}(3-v), & 0 \\leq v<1 \\\\\n1, & v \\geq 1\n\\end{array}\\right.\n\\end{aligned}\n$$\n�?$V=\\min \\{X, Y\\}$ 的概率密度为\n$$\nf_V(v)=\\left\\{\\begin{array}{cc}\n\\frac{3}{2}-v, & 0<v<1 \\\\\n0, & \\text { 其它 }\n\\end{array}\\right.\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339582
+                    },
+                    "question_json": "mathreact/2e84570ab8f24ce99e222dc131588f4c",
+                    "updated_at": {
+                        "seconds": 1773945059
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86276,
+                            "question_id": 19016,
+                            "is_answer": false,
+                            "choice": "$f_V(v)=\\left\\{\\begin{array}{cc}\\frac{1}{2}(3-v), & 0<v<2 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86277,
+                            "question_id": 19016,
+                            "is_answer": false,
+                            "choice": "$f_V(v)=\\left\\{\\begin{array}{cc}\\frac{1}{2}(3-v), & 0<v<1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86278,
+                            "question_id": 19016,
+                            "is_answer": false,
+                            "choice": "$f_V(v)=\\left\\{\\begin{array}{cc}\\frac{3}{2}-v, & 0<v<2 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86279,
+                            "question_id": 19016,
+                            "is_answer": true,
+                            "choice": "$f_V(v)=\\left\\{\\begin{array}{cc}\\frac{3}{2}-v, & 0<v<1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.6,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 81115,
+                    "ai_tags": "概率密度,均匀分布,随机变量函数的分�?
+                }
+            ]
+        }
+    }
+]

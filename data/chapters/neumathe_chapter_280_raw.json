@@ -1,0 +1,1966 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 23,
+            "questions": [
+                {
+                    "id": 13192,
+                    "subject_id": 3,
+                    "chapter_id": 280,
+                    "question_id": "51c515bd-f15f-44f1-8cff-0a158bff8584",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "三批产品, 第一批优质品率为 0.2 , 第二批优质品率为 0.5 , 第三批优质品率为 0.35 , 现从这三批中任取一批再从该批中任取一件产�? 则取到优质品的概率为 ( ).",
+                    "analysis": "�?$A_1=\\{$ 抽到的是第一批产�?$\\}, A_2=\\{$ 抽到的是第二批产�?$\\}, A_3=\\{$ 抽到的是第三批产�?$\\}$,显然 $A_1, A_2, A_3$ 构成一个完备事件组, �?$P\\left(A_1\\right)=P\\left(A_2\\right)=P\\left(A_3\\right)=\\frac{1}{3}$,再设 $B=\\{$ 取到优质�?$\\}$, �?$P\\left(B \\mid A_1\\right)=0.2, P\\left(B \\mid A_2\\right)=0.5, P\\left(B \\mid A_3\\right)=0.35$,根据全概率公式有\n$$\nP(B)=P\\left(A_1\\right) P\\left(B \\mid A_1\\right)+P\\left(A_2\\right) P\\left(B \\mid A_2\\right)+P\\left(A_3\\right) P\\left(B \\mid A_3\\right)=\\frac{1}{3}(0.2+0.5+0.35)=0.35 .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/124c2018f8d34d2b8e76d7d800189525",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52768,
+                            "question_id": 13192,
+                            "is_answer": true,
+                            "choice": "$0.35$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52767,
+                            "question_id": 13192,
+                            "is_answer": false,
+                            "choice": "$0.33$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52766,
+                            "question_id": 13192,
+                            "is_answer": false,
+                            "choice": "$0.45$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52765,
+                            "question_id": 13192,
+                            "is_answer": false,
+                            "choice": "$0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.92,
+                    "difficulty_score": 0.24,
+                    "avg_time_spent": 922767,
+                    "ai_tags": "概率�?全概率公�?
+                },
+                {
+                    "id": 13195,
+                    "subject_id": 3,
+                    "chapter_id": 280,
+                    "question_id": "ee96aac0-6596-4dd8-80f0-170ccfc4912a",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?3 个袋子，甲袋中装�?2 个白球和 1 个黑球，乙袋中装�?2 个白球和 2 个黑球，丙袋中装�?4 个白球和 5 个黑球，今任�?1 个袋子并从该袋中任取 2 个球，则这两个球均为白球的概率为（）�?,
+                    "analysis": "�?$A_1=\\{$ 从甲袋中取出两个�?$\\}, A_2=\\{$ 从乙袋中取出两个�?$\\}, A_3=\\{$ 从丙袋中取出两个�?$\\}$, 显然 $P\\left(A_1\\right)=P\\left(A_2\\right)=P\\left(A_3\\right)=\\frac{1}{3}$, �?$A_1, A_2, A_3$ 构成一个完备事件组. 对于事件 $B=\\{$ 取到的两个球都是白球 $\\}$, 有\n$$\nP\\left(B \\mid A_1\\right)=\\frac{C_2^2}{C_3^2}=\\frac{1}{3}, P\\left(B \\mid A_2\\right)=\\frac{C_2^2}{C_4^2}=\\frac{1}{6}, P\\left(B \\mid A_3\\right)=\\frac{C_4^2}{C_9^2}=\\frac{1}{6},\n$$\n\n根据全概率公式知\n$$\n\\begin{aligned}\nP(B) & =P\\left(A_1\\right) P\\left(B \\mid A_1\\right)+P\\left(A_2\\right) P\\left(B \\mid A_2\\right)+P\\left(A_3\\right) P\\left(B \\mid A_3\\right) \\\\\n& =\\frac{1}{3}\\left(\\frac{1}{3}+\\frac{1}{6}+\\frac{1}{6}\\right)=\\frac{2}{9} .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/bc365e7999344fa78d6b756f3a03234c",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52777,
+                            "question_id": 13195,
+                            "is_answer": true,
+                            "choice": "$\\frac{2}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52779,
+                            "question_id": 13195,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52778,
+                            "question_id": 13195,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52780,
+                            "question_id": 13195,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.92,
+                    "difficulty_score": 0.27,
+                    "avg_time_spent": 118946,
+                    "ai_tags": "全概率公�?古典概型"
+                },
+                {
+                    "id": 13196,
+                    "subject_id": 3,
+                    "chapter_id": 280,
+                    "question_id": "f01be49b-1882-4063-a5b3-5ae3719e4694",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "袋中�?3 个红�? 2 个白�? 不放回的取两�? 每次取一个球, 则第二次取到红球的概率为 ().",
+                    "analysis": "设事�?$A$ : \"第二次取到红球\", 事件 $B$ : \"第一次取到红球\",�?$P(B)=\\frac{3}{5}, P(\\bar{B})=\\frac{2}{5}, P(A \\mid B)=\\frac{2}{4}, P(A \\mid \\bar{B})=\\frac{3}{4}$,所以由全概率公式得\n$$\nP(A)=P(B) P(A \\mid B)+P(\\bar{B}) P(A \\mid \\bar{B})=\\frac{3}{5} \\times \\frac{2}{4}+\\frac{2}{5} \\times \\frac{3}{4}=\\frac{12}{20}=\\frac{3}{5} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/2dea10b2c11b4e43be1a0ad3e5366d4a",
+                    "updated_at": {
+                        "seconds": 1775673110
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52781,
+                            "question_id": 13196,
+                            "is_answer": true,
+                            "choice": "$\\frac{3}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52784,
+                            "question_id": 13196,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52782,
+                            "question_id": 13196,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52783,
+                            "question_id": 13196,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.89,
+                    "difficulty_score": 0.27,
+                    "avg_time_spent": 50222,
+                    "tags": "近期易错,近期34人做�?,
+                    "ai_tags": "全概率公�?条件概率"
+                },
+                {
+                    "id": 13197,
+                    "subject_id": 3,
+                    "chapter_id": 280,
+                    "question_id": "127c6e35-362d-46ce-b245-ea51dfbb93fc",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "有五只箱�? 第一种箱子有三只, 内装 4 个红球， 2 个白球；第二种箱子有两只，内�?3 个红球�?3 个白球，先随机抽取一只箱子再该从箱子中任意抽取一个球，则这个球是白球的概率是 ( ).",
+                    "analysis": "设事�?$A=\\{$ 抽取到的箱子是第一�?$\\}$, �?$\\bar{A}=\\{$ 抽取到的箱子是第二种 $\\}$,则根据全概率公式事件 $B=\\{$ 抽取到的球是白球 $\\}$ 的概率为\n$$\nP(B)=P(A) P(B \\mid A)+P(\\bar{A}) P(B \\mid \\bar{A})=\\frac{3}{5} \\cdot \\frac{2}{6}+\\frac{2}{5} \\cdot \\frac{3}{6}=\\frac{2}{5} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/d0f887f201f6400dadb3c06190292015",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52787,
+                            "question_id": 13197,
+                            "is_answer": true,
+                            "choice": "$\\frac{2}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52786,
+                            "question_id": 13197,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52785,
+                            "question_id": 13197,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52788,
+                            "question_id": 13197,
+                            "is_answer": false,
+                            "choice": "$\\frac{4}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.91,
+                    "difficulty_score": 0.23,
+                    "avg_time_spent": 68911,
+                    "ai_tags": "概率�?全概率公�?
+                },
+                {
+                    "id": 13200,
+                    "subject_id": 3,
+                    "chapter_id": 280,
+                    "question_id": "1b11768c-a93e-4efa-b7f3-53d369057a43",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设袋中有 $a$ 只黑�? $b$ 只白�? 每次从中取出一�? 取后不放�? 从中取两�? 则第二次取出白球的概率为 ( ).",
+                    "analysis": "�?$A=\\{$ 第一次取出白�?$\\}, B=\\{$ 第二次取出白�?$\\}$\n由全概率公式, �?$P(B)=P(A) P(B \\mid A)+P(\\bar{A}) P(B \\mid \\bar{A})=\\frac{b}{a+b} \\cdot \\frac{b-1}{a+b-1}+\\frac{a}{a+b} \\cdot \\frac{b}{a+b-1}=\\frac{b}{a+b}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/df63483855c14bfe82544df818f6cc50",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52800,
+                            "question_id": 13200,
+                            "is_answer": true,
+                            "choice": "$\\frac{b}{a+b}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52799,
+                            "question_id": 13200,
+                            "is_answer": false,
+                            "choice": "$\\frac{b^2}{(a+b)^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52798,
+                            "question_id": 13200,
+                            "is_answer": false,
+                            "choice": "$\\frac{b(b-1)}{(a+b)(a+b-1)}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52797,
+                            "question_id": 13200,
+                            "is_answer": false,
+                            "choice": "$\\frac{b-1}{a+b-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.81,
+                    "difficulty_score": 0.31,
+                    "avg_time_spent": 80652,
+                    "tags": "近期易错,近期70人做�?,
+                    "ai_tags": "全概率公�?条件概率"
+                },
+                {
+                    "id": 13201,
+                    "subject_id": 3,
+                    "chapter_id": 280,
+                    "question_id": "ec01c4ee-2c8e-4d5d-b1f2-e05c0d5aefd6",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "有两个袋子，甲袋中有 5 个白球和 7 个黑球，乙袋中有 3 个白球和 12 个黑球，抽编号为 $1,2,3$ 的卡片，抽到 1 号�?3 号卡片向甲袋中摸一个球，抽�?2 号卡片向乙袋摸一个球，则摸到白球的概率为（）�?,
+                    "analysis": "�?$A=\\{$ 摸到白球 $\\}, A_1=\\{$ 抽到 1 号�?3 号卡�?$\\}, A_2=\\{$ 抽到 2 号卡�?$\\}$,显然 $A_1, A_2$ 构成一个完备事件组，且 $P\\left(A_1\\right)=\\frac{2}{3}, P\\left(A_2\\right)=\\frac{1}{3}, P\\left(A \\mid A_1\\right)=\\frac{5}{12}, P\\left(A \\mid A_2\\right)=\\frac{3}{15}=\\frac{1}{5}$,所�?$P(A)=P\\left(A_1\\right) P\\left(A \\mid A_1\\right)+P\\left(A_2\\right) P\\left(A \\mid A_2\\right)=\\frac{2}{3} \\cdot \\frac{5}{12}+\\frac{1}{3} \\cdot \\frac{1}{5}=\\frac{31}{90}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/67ca907076ef4b24b46ee8308772282d",
+                    "updated_at": {
+                        "seconds": 1775673111
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52804,
+                            "question_id": 13201,
+                            "is_answer": true,
+                            "choice": "$\\frac{31}{90}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52801,
+                            "question_id": 13201,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{15}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52802,
+                            "question_id": 13201,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{18}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52803,
+                            "question_id": 13201,
+                            "is_answer": false,
+                            "choice": "$\\frac{49}{180}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.91,
+                    "difficulty_score": 0.27,
+                    "avg_time_spent": 84508,
+                    "tags": "",
+                    "ai_tags": "全概率公�?完备事件�?
+                },
+                {
+                    "id": 13202,
+                    "subject_id": 3,
+                    "chapter_id": 280,
+                    "question_id": "d194453d-d7c6-436b-9770-024531fc457b",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "100 件产品中, �?10 件次�? 不放回地从中取两�? 每次取一件产�? 则第二次取到正品的概率为 ().",
+                    "analysis": "设事�?$A$ ：\"第二次取到正品\", 事件 $B$ ：\"第一次取到正品\", 则\n$$\n\\begin{gathered}\nP(B)=\\frac{100-10}{100}=0.9, P(\\bar{B})=\\frac{10}{100}=0.1 \\\\\nP(A \\mid B)=\\frac{100-10-1}{100-1}=\\frac{89}{99}, P(A \\mid \\bar{B})=\\frac{100-10}{100-1}=\\frac{90}{99},\n\\end{gathered}\n$$\n\n所以由全概率公式得\n$$\nP(A)=P(B) P(A \\mid B)+P(\\bar{B}) P(A \\mid \\bar{B})=0.9 \\times \\frac{89}{99}+0.1 \\times \\frac{90}{99}=0.9 .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/4ce444b87f6f4fc896fb887315b9a71f",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52807,
+                            "question_id": 13202,
+                            "is_answer": true,
+                            "choice": "$0.90$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52808,
+                            "question_id": 13202,
+                            "is_answer": false,
+                            "choice": "$0.89$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52805,
+                            "question_id": 13202,
+                            "is_answer": false,
+                            "choice": "$0.10$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52806,
+                            "question_id": 13202,
+                            "is_answer": false,
+                            "choice": "$0.0909$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.76,
+                    "difficulty_score": 0.31,
+                    "avg_time_spent": 69318,
+                    "ai_tags": "全概率公�?不放回抽�?条件概率"
+                },
+                {
+                    "id": 13205,
+                    "subject_id": 3,
+                    "chapter_id": 280,
+                    "question_id": "73a1e37c-72fb-473c-9897-d29c54f4a076",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "有三个罐子， 1 号装�?2 �?1 黑共 3 个球�?2 号装�?3 �?黑共 4 个球�?3 号装�?2 �?2 黑共 4 个球。某人从中随机取一罐，再从中任意取出一�? 则取得红球的概率�?().",
+                    "analysis": "�?$B_i=\\{$ 球取�?$i$ 号罐 $\\}, i=1,2,3 ; A=\\{$ 取得红球 $\\}$. $B_1, B_2, B_3$ 是样本空间的一个划�?由全概率公式得\n$$\nP(A)=\\sum_{i=1}^3 P\\left(B_i\\right) P\\left(A \\mid B_i\\right)\n$$\n\n依题意：\n$$\n\\begin{aligned}\n& P\\left(A \\mid B_1\\right)=2 / 3, P\\left(A \\mid B_2\\right)=3 / 4, P\\left(A \\mid B_3\\right)=1 / 2, \\\\\n& P\\left(B_1\\right)=P\\left(B_2\\right)=P\\left(B_3\\right)=1 / 3,\n\\end{aligned}\n$$\n\n代入数据计算得：\n$$\nP(A) \\approx 0.639\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/a5fa8b6a4e864fb4911d135c962fd784",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52820,
+                            "question_id": 13205,
+                            "is_answer": true,
+                            "choice": "$0.639$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52817,
+                            "question_id": 13205,
+                            "is_answer": false,
+                            "choice": "$0.837$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52819,
+                            "question_id": 13205,
+                            "is_answer": false,
+                            "choice": "$0.464$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52818,
+                            "question_id": 13205,
+                            "is_answer": false,
+                            "choice": "$0.215$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.9,
+                    "difficulty_score": 0.28,
+                    "avg_time_spent": 82269,
+                    "ai_tags": "概率�?全概率公�?
+                },
+                {
+                    "id": 13207,
+                    "subject_id": 3,
+                    "chapter_id": 280,
+                    "question_id": "5f094474-93ff-432e-bfa7-965c5b1cbd67",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "袋中�?12 个球, 9 个红�? 3 个白�? 从中任抽一球无放回的连抽两�? 用事�?$A$ 表示第二次抽出的是红�? �?$P(A)=()$.",
+                    "analysis": "�?$B_1=\\{$ 第一次抽取的是红�?$\\}, B_2=\\{$ 第一次抽取的是白�?$\\}$, 则\n$$\n\\begin{aligned}\n& P\\left(B_1\\right)=\\frac{9}{12}=\\frac{3}{4}, P\\left(B_2\\right)=\\frac{3}{12}=\\frac{1}{4}, \\\\\n& P\\left(A \\mid B_1\\right)=\\frac{8}{11}, P\\left(A \\mid B_2\\right)=\\frac{9}{11},\n\\end{aligned}\n$$\n\n所�?$P(A)=P\\left(B_1\\right) P\\left(A \\mid B_1\\right)+P\\left(B_2\\right) P\\left(A \\mid B_2\\right)=\\frac{3}{4}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/d83a08bd257a4f58b645e348c71c4f6f",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52826,
+                            "question_id": 13207,
+                            "is_answer": true,
+                            "choice": "$\\frac{3}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52827,
+                            "question_id": 13207,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52828,
+                            "question_id": 13207,
+                            "is_answer": false,
+                            "choice": "$\\frac{8}{11}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52825,
+                            "question_id": 13207,
+                            "is_answer": false,
+                            "choice": "$\\frac{9}{11}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.92,
+                    "difficulty_score": 0.23,
+                    "avg_time_spent": 52852,
+                    "ai_tags": "全概率公�?条件概率,古典概型"
+                },
+                {
+                    "id": 13208,
+                    "subject_id": 3,
+                    "chapter_id": 280,
+                    "question_id": "b2332909-cb3b-44be-a759-35af3f26d0d3",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$A_1, A_2, \\cdots, A_n$ 两两互斥, �?$A_1 \\cup A_2 \\cup \\cdots \\cup A_n \\supset B$, �?$P\\left(A_i\\right)>0, P\\left(B \\mid A_i\\right)(i=1,2,3, \\cdots, n)$ 均为已知, �?$P(B)=$ ( ).",
+                    "analysis": "由于 $A_1 \\cup A_2 \\cup \\cdots \\cup A_n \\supset B$, 所�?$\\left(A_1 \\cup A_2 \\cup \\cdots \\cup A_n\\right) \\cap B=B$,\n又由�?$A_1, A_2, \\cdots, A_n$ 两两互斥,\n所以\n$$\n\\begin{aligned}\nP(B) & =P\\left(B \\cap\\left(A_1 \\cup A_2 \\cup \\cdots \\cup A_n\\right)\\right)=P\\left(\\bigcup_{i=1}^n\\left(A_i B\\right)\\right) \\\\\n& =\\sum_{i=1}^n P\\left(A_i B\\right)=\\sum_{i=1}^n P\\left(A_i\\right) P\\left(B \\mid A_i\\right) .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/244a6d1daf484cc68af2e055e58c4b6d",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52831,
+                            "question_id": 13208,
+                            "is_answer": true,
+                            "choice": "$\\sum_{i=1}^n P\\left(B \\mid A_i\\right) P\\left(A_i\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52830,
+                            "question_id": 13208,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\sum_{i=1}^n P\\left(B \\mid A_i\\right)}{\\sum_{i=1}^n P\\left(A_i\\right)}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52829,
+                            "question_id": 13208,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\sum_{i=1}^n P\\left(A_i\\right) P\\left(B \\mid A_i\\right)}{\\sum_{i=1}^n P\\left(A_i\\right)}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52832,
+                            "question_id": 13208,
+                            "is_answer": false,
+                            "choice": "$\\left(\\sum_{i=1}^n P\\left(B \\mid A_i\\right)\\right)\\left(\\sum_{i=1}^n P\\left(A_i\\right)\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.76,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 70955,
+                    "ai_tags": "全概率公�?互斥事件,条件概率"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 23,
+            "questions": [
+                {
+                    "id": 18823,
+                    "subject_id": 3,
+                    "chapter_id": 280,
+                    "question_id": "bfebffe7-90df-4c37-9ca9-ed0319ac92ba",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某仓库有同样规格的产�?6 �? 甲、乙、丙 3 个厂各生�?3 箱�?2 箱�?1 �? 甲、乙、丙 3 个厂的次品率分别�?$\\frac{1}{10}, \\frac{1}{15}, \\frac{1}{20}$, 现从 6 箱中任取 1 �? 再从取得的箱中任�?1 �? 则取得次品的概率�?().",
+                    "analysis": "�?$B=\\{$ 取得的一件是次品 $\\}$;\n$A_1=\\{$ 取得的一件为甲厂生产 $\\}$ ；\n$A_2=\\{$ 取得的一件为乙厂生产 $\\} ;$\n$A_3=\\{$ 取得的一件为丙厂生产 $\\}$.\n�?$P\\left(A_1\\right)=\\frac{3}{6}=\\frac{1}{2}, P\\left(A_2\\right)=\\frac{2}{6}=\\frac{1}{3}, P\\left(A_3\\right)=\\frac{1}{6}, P\\left(B \\mid A_1\\right)=\\frac{1}{10}, P\\left(B \\mid A_2\\right)=\\frac{1}{15}, P\\left(B \\mid A_3\\right)=\\frac{1}{20}$.\n�?$P(B)=P\\left(A_1\\right) P\\left(B \\mid A_1\\right)+P\\left(A_2\\right) P\\left(B \\mid A_2\\right)+P\\left(A_3\\right) P\\left(B \\mid A_3\\right)=\\frac{1}{2} \\times \\frac{1}{10}+\\frac{1}{3} \\times \\frac{1}{15}+\\frac{1}{6} \\times \\frac{1}{20}=\\frac{29}{360}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339092
+                    },
+                    "question_json": "mathreact/a4c6974222574879ab82b17bbae6f9bf",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84925,
+                            "question_id": 18823,
+                            "is_answer": true,
+                            "choice": "$\\frac{29}{360}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84926,
+                            "question_id": 18823,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84927,
+                            "question_id": 18823,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{15}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84928,
+                            "question_id": 18823,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{20}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.96,
+                    "difficulty_score": 0.25,
+                    "avg_time_spent": 120951,
+                    "ai_tags": "概率�?全概率公�?
+                },
+                {
+                    "id": 18827,
+                    "subject_id": 3,
+                    "chapter_id": 280,
+                    "question_id": "06a278bb-92e7-4dfa-b3d7-0a7966de2900",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "人们为了解一只股票未来一定时期内价格的变�? 往往会去分析影响股票价格的基本因�? 比如利率的变�? 现假设人们经分析估计利率下调的概率为 $60 \\%$ ，利率不变的概率�?$40 \\%$ 。根据经验，人们估计，在利率下调的情况下，该只股票价格上涨的概率�?$80 \\%$ ，而在利率不变的情况下，其价格上涨的概率为 $40 \\%$ ，则该只股票将上涨的概率为（）�?,
+                    "analysis": "�?$A$ 为事�?\"利率下调\"，那�?$\\bar{A}$ 即为 \"利率不变\"，记 $B$ 为事�?\"股票价格上涨\"．依题设知\n$$\n\\begin{aligned}\n& P(A)=60 \\%, \\quad P(\\bar{A})=40 \\%, \\\\\n& P(B \\mid A)=80 \\%, \\quad P(B \\mid \\bar{A})=40 \\%, \\\\\n& \\text { 于是 } \\quad \\begin{aligned}\n& \\\\\nP(B)=P(A B)+P(\\bar{A} B) & =P(A) P(B \\mid A)+P(\\bar{A}) P(B \\mid \\bar{A}) \\\\\n=60 \\% & \\times 80 \\%+40 \\% \\times 40 \\%=64 \\% .\n\\end{aligned}\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339099
+                    },
+                    "question_json": "mathreact/eddd8ae6ceb64888bc6d8fbbca353ad0",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84953,
+                            "question_id": 18827,
+                            "is_answer": true,
+                            "choice": "$64 \\%$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84954,
+                            "question_id": 18827,
+                            "is_answer": false,
+                            "choice": "$60 \\%$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84955,
+                            "question_id": 18827,
+                            "is_answer": false,
+                            "choice": "$40 \\%$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84956,
+                            "question_id": 18827,
+                            "is_answer": false,
+                            "choice": "$80 \\%$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.95,
+                    "difficulty_score": 0.16,
+                    "avg_time_spent": 66968,
+                    "ai_tags": "全概率公�?概率计算"
+                },
+                {
+                    "id": 18829,
+                    "subject_id": 3,
+                    "chapter_id": 280,
+                    "question_id": "8ba27d48-68b6-4f9d-aaab-32ea0e1abf0e",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设有 10 个人�?10 个阄抽取两张戏票，则第三个人抓到有戏票的事件的概率等�?( ).",
+                    "analysis": "�?$A=\\{$第三个人抓到有戏票的�?\\}$�?B_i=\\{$前两个人抓到 $i$ 张戏�?\\}$ ($i=0,1,2$)，则 $P(B_0)=\\frac{C_8^2}{C_{10}^2}, P(B_1)=\\frac{C_2^1 C_8^1}{C_{10}^2}, P(B_2)=\\frac{C_2^2}{C_{10}^2}, P(A \\mid B_0)=\\frac{2}{8}, P(A \\mid B_1)=\\frac{1}{8}, P(A \\mid B_2)=0$，由全概率公式，$P(A)=\\sum_{i=0}^2 P(B_i) P(A \\mid B_i)=\\frac{1}{5}$。\\n注：这是一个典型的抽签问题，其实抽签是最公平的抉择方式，不管第几个抽取其概率都是一样的，如果了解了这一点，这里直接就可以得出答案�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339113
+                    },
+                    "question_json": "mathreact/801a00b0ebaf49569bdc01e94460b77c",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84967,
+                            "question_id": 18829,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84968,
+                            "question_id": 18829,
+                            "is_answer": false,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84969,
+                            "question_id": 18829,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84970,
+                            "question_id": 18829,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.93,
+                    "difficulty_score": 0.19,
+                    "avg_time_spent": 39581,
+                    "ai_tags": "全概率公�?古典概型,抽签模型"
+                },
+                {
+                    "id": 18830,
+                    "subject_id": 3,
+                    "chapter_id": 280,
+                    "question_id": "6328fc76-46db-4a90-8e3e-f19eccd48ddb",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?3 个机床加工同一种零�? 零件由各机床加工的概率分别为 $0.5 �?0.3 �?0.2$, 各机床加工的零件为合格的概率分别等于 $0.94 �?0.9 �?0.95$, 则全部产品中的合格率�?().",
+                    "analysis": "设事�?$A, B, C$ 分别表示三个机床加工的产品，事件 $E$ 表示合格品，依题意，\n$$ P(A)=0.5, P(B)=0.3, P(C)=0.2, \\quad P(E \\mid A)=0.94, P(E \\mid B)=0.9, P(E \\mid C)=0.95 $$\n由全概率公式\n$$ \\begin{aligned} P(E)&=P(A) P(E \\mid A)+P(B) P(E \\mid B)+P(C) P(E \\mid C) \\\\ &= 0.5 \\times 0.94+0.3 \\times 0.9+0.2 \\times 0.95=0.93 \\end{aligned} $$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339114
+                    },
+                    "question_json": "mathreact/96cafe46e84243cabc1e935f7ae785d2",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84974,
+                            "question_id": 18830,
+                            "is_answer": true,
+                            "choice": "$0.93$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84975,
+                            "question_id": 18830,
+                            "is_answer": false,
+                            "choice": "$0.76$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84976,
+                            "question_id": 18830,
+                            "is_answer": false,
+                            "choice": "$0.95$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84977,
+                            "question_id": 18830,
+                            "is_answer": false,
+                            "choice": "$0.88$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.24,
+                    "avg_time_spent": 61110,
+                    "ai_tags": "概率�?全概率公�?
+                },
+                {
+                    "id": 18832,
+                    "subject_id": 3,
+                    "chapter_id": 280,
+                    "question_id": "68adcece-6993-4564-b622-d7de58eb91ec",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "12 个乒乓球中有 9 个新的， 3 个旧的，第一次比赛取出了 3 个，用完后放回去，第二次比赛又取�?3 个，则第二次取到�?3 个球中有 2 个新球的概率�?().",
+                    "analysis": "�?$A_i$ 为第一次取出的 3 个球中有 $i(i=0,1,2,3)$ 个新球， $B$ 为第二次取到�?3 个球中有 2 个新�? 则\n$$\n\\begin{array}{cc}\nP\\left(A_0\\right)=\\frac{C_3^3}{C_{12}^3}=\\frac{1}{220}, & P\\left(B \\mid A_0\\right)=\\frac{C_9^2 C_3^1}{C_{12}^3}=\\frac{27}{55} ; \\\\\nP\\left(A_1\\right)=\\frac{C_9^1 C_3^2}{C_{12}^3}=\\frac{27}{220}, & P\\left(B \\mid A_1\\right)=\\frac{C_8^2 C_4^1}{C_{12}^3}=\\frac{28}{55} ; \\\\\nP\\left(A_2\\right)=\\frac{C_9^2 C_3^1}{C_{12}^3}=\\frac{27}{55}, & P\\left(B \\mid A_2\\right)=\\frac{C_7^2 C_5^1}{C_{12}^3}=\\frac{21}{44} ; \\\\\nP\\left(A_3\\right)=\\frac{C_9^3}{C_{12}^3}=\\frac{21}{55}, & P\\left(B \\mid A_3\\right)=\\frac{C_6^2 C_6^1}{C_{12}^3}=\\frac{9}{22} .\n\\end{array}\n$$\n\n由全概率公式\n$$\nP(B)=\\sum_{i=0}^3 P\\left(A_i\\right) P\\left(B \\mid A_i\\right)=\\frac{1}{220} \\times \\frac{27}{55}+\\frac{27}{220} \\times \\frac{28}{55}+\\frac{27}{55} \\times \\frac{21}{44}+\\frac{21}{55} \\times \\frac{9}{22} \\approx 0.455 .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339121
+                    },
+                    "question_json": "mathreact/d70640e809844000bc4555a439a26a9f",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84988,
+                            "question_id": 18832,
+                            "is_answer": true,
+                            "choice": "$0.455$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84989,
+                            "question_id": 18832,
+                            "is_answer": false,
+                            "choice": "$0.525$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84990,
+                            "question_id": 18832,
+                            "is_answer": false,
+                            "choice": "$0.323$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84991,
+                            "question_id": 18832,
+                            "is_answer": false,
+                            "choice": "$0.633$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.69,
+                    "difficulty_score": 0.26,
+                    "avg_time_spent": 239355,
+                    "ai_tags": "全概率公�?古典概型"
+                },
+                {
+                    "id": 18834,
+                    "subject_id": 3,
+                    "chapter_id": 280,
+                    "question_id": "9be1b9bc-69c2-493a-b41b-137f4ce57a5c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某仓库有同样规格的产品六�? 其中三箱是甲厂生产的, 二箱是乙厂生产的, 另一箱是丙厂生产�? 且它们的次品率依次为 $\\frac{1}{10}, \\frac{1}{15}, \\frac{1}{20}$, 现从中任取一件产�? 则取得的一件产品是正品的概率为 ().",
+                    "analysis": "$A_i(i=1,2,3)$ 分别表示所取一箱产品是�? �? 丙厂生产的事�? $B$ : \"取得一件产品为正品\".\n$$\n\\begin{aligned}\n& P\\left(A_1\\right)=\\frac{3}{6}, \\quad P\\left(B \\mid A_1\\right)=\\frac{9}{10}, \\\\\n& P\\left(A_2\\right)=\\frac{2}{6}, \\quad P\\left(B \\mid A_2\\right)=\\frac{14}{15}, \\\\\n& P\\left(A_3\\right)=\\frac{1}{6}, \\quad P\\left(B \\mid A_3\\right)=\\frac{19}{20} .\n\\end{aligned}\n$$\n\n由全概率公式\n$$\n\\begin{gathered}\nP(B)=\\sum_{i=1}^3 P\\left(A_i\\right) P\\left(B \\mid A_i\\right)=\\frac{3}{6} \\times \\frac{9}{10}+\\frac{2}{6} \\times \\frac{14}{15}+\\frac{1}{6} \\times \\frac{19}{20} \\\\\n=\\frac{162+112+57}{360}=\\frac{331}{360}(\\approx 0.92) .\n\\end{gathered}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339122
+                    },
+                    "question_json": "mathreact/5e7ec19ec4d54128b798e9f311f54c75",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85002,
+                            "question_id": 18834,
+                            "is_answer": true,
+                            "choice": "$0.92$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 85003,
+                            "question_id": 18834,
+                            "is_answer": false,
+                            "choice": "$0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 85004,
+                            "question_id": 18834,
+                            "is_answer": false,
+                            "choice": "$0.73$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 85005,
+                            "question_id": 18834,
+                            "is_answer": false,
+                            "choice": "$0.88$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.84,
+                    "difficulty_score": 0.3,
+                    "avg_time_spent": 112771,
+                    "tags": "近期易错,近期41人做�?,
+                    "ai_tags": "全概率公�?概率"
+                },
+                {
+                    "id": 18835,
+                    "subject_id": 3,
+                    "chapter_id": 280,
+                    "question_id": "a0d48159-44ec-42b6-b3be-c3e4a85431a7",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "10 箱产品中�?8 箱次品率�?0.1�? 箱次品率�?0.2，从这批产品中任取一件为次品的概率是 ().",
+                    "analysis": "�?$A_1=\\{$ 抽到次品率为 0.1 的箱�?$\\}, A_2=\\{$ 抽到次品率为 0.2 的箱�?$\\}$, $B=\\{$ 从这批产品中任取一件为次品 $\\}$.\n根据全概率公式\n$$\nP(B)=P\\left(A_1\\right) P\\left(B \\mid A_1\\right)+P\\left(A_2\\right) P\\left(B \\mid A_2\\right)=0.8 \\times 0.1+0.2 \\times 0.2 .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339122
+                    },
+                    "question_json": "mathreact/50f242af16f7488aa1b7af41e34ae9db",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85009,
+                            "question_id": 18835,
+                            "is_answer": true,
+                            "choice": "$0.8 \\times 0.1+0.2 \\times 0.2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 85010,
+                            "question_id": 18835,
+                            "is_answer": false,
+                            "choice": "$0.1+0.2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 85011,
+                            "question_id": 18835,
+                            "is_answer": false,
+                            "choice": "$\\frac{0.1+0.2}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 85012,
+                            "question_id": 18835,
+                            "is_answer": false,
+                            "choice": "$0.1+0.2-0.1 \\times 0.2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.98,
+                    "difficulty_score": 0.22,
+                    "avg_time_spent": 97124,
+                    "ai_tags": "全概率公�?概率计算"
+                },
+                {
+                    "id": 18837,
+                    "subject_id": 3,
+                    "chapter_id": 280,
+                    "question_id": "fb98a01c-cb26-4ae5-9288-100700a9af29",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某地区成年人患某种癌症的概率�?0.02 , 若医生能正确诊断某一癌症病人具有癌症的概率是 0.78 , 而将健康人误诊为癌症患者的概率�?0.06 , 则某人经诊断患有癌症的概率是 ().",
+                    "analysis": "�?$A=\\{\\text{某成年人患癌症}\\}$, $B=\\{\\text{医生诊断患有癌症}\\}$. 依题�? $P(A)=0.02, P(B \\mid A)=0.78$. �?$P(\\bar{A})=0.98, P(B \\mid \\bar{A})=0.06$. \n由全概率公式\n$$ P(B)=P(B \\mid A) P(A)+P(B \\mid \\bar{A}) P(\\bar{A})=0.78 \\times 0.02+0.06 \\times 0.98=0.0744 $$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339127
+                    },
+                    "question_json": "mathreact/9bc9b3dcf96c4bf7a00637dac1fb71de",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85023,
+                            "question_id": 18837,
+                            "is_answer": true,
+                            "choice": "$0.0744$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 85024,
+                            "question_id": 18837,
+                            "is_answer": false,
+                            "choice": "$0.0782$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 85025,
+                            "question_id": 18837,
+                            "is_answer": false,
+                            "choice": "$0.0986$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 85026,
+                            "question_id": 18837,
+                            "is_answer": false,
+                            "choice": "$0.0891$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.9,
+                    "difficulty_score": 0.26,
+                    "avg_time_spent": 100519,
+                    "tags": "",
+                    "ai_tags": "概率�?全概率公�?
+                },
+                {
+                    "id": 18839,
+                    "subject_id": 3,
+                    "chapter_id": 280,
+                    "question_id": "caa75c02-cb7e-4847-a644-cefb949d2c67",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "要验收一�?(100�? 微机，验收方案如下：自该批微机中随机地取�?3 台进行测�?(设三台微机的测试是相互独立的)�? 台中只要有一台在测试中被认为是次品，这批微机就会被拒�? 由于测试条件和水平，将次品的微机误认为正品的概率�?0.05，而将正品的微机误判为次品的概率为 0.01. 如果已知�?100 台微机恰�?4 台次品，则这批微机被接收的概率是 ( ).",
+                    "analysis": "�?$A$ 为“这批微机被接收”，$B_i$ 为“随机抽取出�?3 台中恰有 $i$ 台次品”，$i=0,1,2,3$. 显然�?B_0, B_1, B_2, B_3$ 是一个完备事件组.\n$$\n\\begin{aligned}\n& P(B_0)=\\frac{C_{96}^3}{C_{100}^3}, P(B_1)=\\frac{C_4^1 C_{96}^2}{C_{100}^3}, P(B_2)=\\frac{C_4^2 C_{96}^1}{C_{100}^3}, P(B_3)=\\frac{C_4^3}{C_{100}^3}, \\\\\n& P(A \\mid B_0)=(0.99)^3, P(A \\mid B_1)=(0.99)^2 \\times 0.05, \\\\\n& P(A \\mid B_2)=0.99 \\times(0.05)^2, P(A \\mid B_3)=(0.05)^3, \\\\\n\\therefore & P(A)=\\sum_{i=0}^3 P(A \\mid B_i) P(B_i)=0.8574+0.0055+0+0=0.8629 .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339133
+                    },
+                    "question_json": "mathreact/a51f492e70e248268ef99e3e65a6cd0a",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85037,
+                            "question_id": 18839,
+                            "is_answer": true,
+                            "choice": "$0.8629$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 85038,
+                            "question_id": 18839,
+                            "is_answer": false,
+                            "choice": "$0.6829$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 85039,
+                            "question_id": 18839,
+                            "is_answer": false,
+                            "choice": "$0.8269$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 85040,
+                            "question_id": 18839,
+                            "is_answer": false,
+                            "choice": "$0.6289$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.21,
+                    "avg_time_spent": 151026,
+                    "ai_tags": "全概率公�?条件概率,独立�?
+                },
+                {
+                    "id": 18842,
+                    "subject_id": 3,
+                    "chapter_id": 280,
+                    "question_id": "ea7da543-89ee-4b05-9d55-28de8caa4f8b",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "甲、乙、丙 3 人同向一飞机射击，设击中飞机的概率分别为 $0.4, 0.5, 0.7$. 如果只有 1 人击中飞机，则飞机被击落的概率是 $0.2$；如果有 2 人击中飞机，则飞机被击落的概率是 $0.6$；如�?3 人都击中飞机，则飞机一定被击落，则飞机被击落的概率�?$(\\quad)$.",
+                    "analysis": "�?$A_1, A_2, A_3$ 分别表示甲、乙、丙击中飞机�?$B_i$ 表示�?$i$ 个人击中飞机�?$i=1,2,3$ ，则\n$$\n\\begin{gathered}\nP\\left(B_1\\right)=P\\left(A_1 \\overline{A_2} \\overline{A_3}\\right)+P\\left(\\overline{A_1} A_2 \\overline{A_3}\\right)+P\\left(\\overline{A_1} \\overline{A_2} A_3\\right)=P\\left(A_1\\right) P\\left(\\overline{A_2}\\right) P\\left(\\overline{A_3}\\right)+P\\left(\\overline{A_1}\\right) P\\left(A_2\\right) P\\left(\\overline{A_3}\\right)+P\\left(\\overline{A_1}\\right) P\\left(\\overline{A_2}\\right) P\\left(A_3\\right) \\\\\n\\quad=0.4 \\times 0.5 \\times 0.3+0.6 \\times 0.5 \\times 0.3+0.6 \\times 0.5 \\times 0.7=0.36 \\\\\nP\\left(B_2\\right)=P\\left(A_1 A_2 \\overline{A_3}\\right)+P\\left(A_1 \\overline{A_2} A_3\\right)+P\\left(\\overline{A_1} A_2 A_3\\right)=P\\left(A_1\\right) P\\left(A_2\\right) P\\left(\\overline{A_3}\\right)+P\\left(A_1\\right) P\\left(\\overline{A_2}\\right) P\\left(A_3\\right)+P\\left(\\overline{A_1}\\right) P\\left(A_2\\right) P\\left(A_3\\right) \\\\\n=0.4 \\times 0.5 \\times 0.3+0.4 \\times 0.5 \\times 0.7+0.6 \\times 0.5 \\times 0.7=0.41 \\\\\nP\\left(B_3\\right)=P\\left(A_1 A_2 A_3\\right)=P\\left(A_1\\right) P\\left(A_2\\right) P\\left(A_3\\right)=0.4 \\times 0.5 \\times 0.7=0.14 .\n\\end{gathered}\n$$\n\n�?$B=$ “飞机被击落”，由全概率公式\n$$\nP(B)=P\\left(B_1\\right) P\\left(B \\mid B_1\\right)+P\\left(B_2\\right) P\\left(B \\mid B_2\\right)+P\\left(B_3\\right) P\\left(B \\mid B_3\\right)=0.36 \\times 0.2+0.41 \\times 0.6+0.14 \\times 1=0.458\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339143
+                    },
+                    "question_json": "mathreact/1ee15d1d0da446afbbcea24c581fc685",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85058,
+                            "question_id": 18842,
+                            "is_answer": true,
+                            "choice": "$0.458$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 85059,
+                            "question_id": 18842,
+                            "is_answer": false,
+                            "choice": "$0.632$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 85060,
+                            "question_id": 18842,
+                            "is_answer": false,
+                            "choice": "$0.525$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 85061,
+                            "question_id": 18842,
+                            "is_answer": false,
+                            "choice": "$0.366$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.77,
+                    "difficulty_score": 0.37,
+                    "avg_time_spent": 126429,
+                    "ai_tags": "概率�?全概率公�?事件的独立�?
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 23,
+            "questions": [
+                {
+                    "id": 18845,
+                    "subject_id": 3,
+                    "chapter_id": 280,
+                    "question_id": "e059d789-69da-4104-be6a-a8d7e48e5cd3",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "甲，乙两个盒子里各装�?10 只螺钉，每个盒子的螺钉中各有一只是次品，其余均为正品，现从甲盒中任取二只螺钉放入乙盒中，再从乙盒中取出两只，问从乙盒中取出的恰好是一只正品，一只次品的概率�?( ).",
+                    "analysis": "$A_i(i=1,2)$ ：\"放入乙盒的螺钉中�?$i$ 只正品\"�?$B$：\"乙盒中取出的二只螺钉是一只次品，一只正品\".\n$$\n\\begin{aligned}\nP(A_1)&=\\frac{C_1^1 C_9^1}{C_{10}^2}=\\frac{1}{5}, & P(B \\mid A_1)&=\\frac{C_2^1 C_{10}^1}{C_{12}^2}=\\frac{10}{33} \\\\\nP(A_2)&=\\frac{C_9^2}{C_{10}^2}=\\frac{4}{5}, & P(B \\mid A_2)&=\\frac{C_1^1 C_{11}^1}{C_{12}^2}=\\frac{1}{6}\n\\end{aligned}\n$$\n由全概率公式�?$P(B)=\\sum_{i=1}^2 P(A_i) P(B \\mid A_i)=\\frac{1}{5} \\times \\frac{10}{33}+\\frac{4}{5} \\times \\frac{1}{6}=\\frac{10+22}{165}=\\frac{32}{165} \\approx 0.194$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339146
+                    },
+                    "question_json": "mathreact/1bf1b4574dd44689a1484d8886c5f1e3",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85079,
+                            "question_id": 18845,
+                            "is_answer": true,
+                            "choice": "$0.194$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 85080,
+                            "question_id": 18845,
+                            "is_answer": false,
+                            "choice": "$0.464$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 85081,
+                            "question_id": 18845,
+                            "is_answer": false,
+                            "choice": "$0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 85082,
+                            "question_id": 18845,
+                            "is_answer": false,
+                            "choice": "$0.235$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.73,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 136225,
+                    "ai_tags": "全概率公�?古典概型"
+                },
+                {
+                    "id": 18852,
+                    "subject_id": 3,
+                    "chapter_id": 280,
+                    "question_id": "5148b96b-3e77-46a8-9a4a-3d01b61d478e",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "功率�?$40\\mathrm{W}, 60\\mathrm{W}, 100\\mathrm{W}$ 的灯泡分别有 3 箱， 5 箱， 2 箱，次品率分别为 $10\\%, 4\\%, 5\\%$, 随机�?1 箱，再从该箱内随机取�?1 只灯�? 则取出灯泡为次品的概率等�?( ).",
+                    "analysis": "�?$A_1=\\{$抽到的是 $40\\mathrm{W}$ 的灯�?\\}, A_2=\\{$抽到的是 $60\\mathrm{W}$ 的灯�?\\}, A_3=\\{$抽到的是 $100\\mathrm{W}$ 的灯�?\\}$, 显然 $A_1, A_2, A_3$ 构成了一个完备事件组. 再令 $B=\\{$取出的灯泡是次品$\\}$, 则\n$$\n\\begin{gathered}\nP(A_1)=\\frac{3}{3+5+2}=0.3, \\quad P(A_2)=0.5 \\\\\nP(A_3)=0.2, \\quad P(B \\mid A_1)=10\\%, \\quad P(B \\mid A_2)=4\\%, \\quad P(B \\mid A_3)=5\\%\n\\end{gathered}\n$$\n所以根据全概率公式有\n$$\n\\begin{aligned}\nP(B) & =P(A_1) P(B \\mid A_1)+P(A_2) P(B \\mid A_2)+P(A_3) P(B \\mid A_3) \\\\\n& =0.3 \\times 10\\%+0.5 \\times 4\\%+0.2 \\times 5\\%=\\frac{3}{50}\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339155
+                    },
+                    "question_json": "mathreact/d340db2286794536a2c2639582179a30",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85128,
+                            "question_id": 18852,
+                            "is_answer": true,
+                            "choice": "$0.06$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 85129,
+                            "question_id": 18852,
+                            "is_answer": false,
+                            "choice": "$0.02$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 85130,
+                            "question_id": 18852,
+                            "is_answer": false,
+                            "choice": "$0.03$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 85131,
+                            "question_id": 18852,
+                            "is_answer": false,
+                            "choice": "$0.05$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.92,
+                    "difficulty_score": 0.24,
+                    "avg_time_spent": 71254,
+                    "ai_tags": "全概率公�?概率�?
+                },
+                {
+                    "id": 18855,
+                    "subject_id": 3,
+                    "chapter_id": 280,
+                    "question_id": "75f3260c-bb6c-4cbd-9513-fbe535295ba3",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "现有编号�?I, II, III的三个口�? 其中 I 号袋内装有两�?1 号球, 一�?2 号球与一�?3 号球; II 号袋内装有两�?1 号球与一�?3 号球；III号袋内装有三�?1 号球与两�?2 号球. 现在先从 I 号袋内随机地取一个球，放入与球上号数相同的口袋中, 第二次从该口袋中任取一个球, 下列说法正确的是 ( ).",
+                    "analysis": "�?$A_i$ 为第一次取�?$i$ 号球 ($i=1,2,3$)�?B_i$ 为第二次取到 $i$ 号球 ($i=1,2,3$)。\\n由题意知 $A_1, A_2, A_3$ 两两互不相容，构成完备事件组。\\nI 号袋初始�?2 �?1 号球�? �?2 号球�? �?3 号球，共 4 个球，故\\n$$P(A_1)=\\frac{2}{4}, \\quad P(A_2)=\\frac{1}{4}, \\quad P(A_3)=\\frac{1}{4}$$\\n\\n若发�?$A_1$，将 1 号球放入 I 号袋，I 号袋变为 3 �?1 号球�? �?2 号球�? �?3 号球，共 5 个球。\\n$$P(B_1|A_1)=\\frac{3}{5}, \\quad P(B_2|A_1)=\\frac{1}{5}, \\quad P(B_3|A_1)=\\frac{1}{5}$$\\n\\n若发�?$A_2$，将 2 号球放入 II 号袋，II 号袋（原 2 �?1�? �?3）变�?2 �?1�? �?2�? �?3，共 4 个球。\\n$$P(B_1|A_2)=\\frac{2}{4}, \\quad P(B_2|A_2)=\\frac{1}{4}, \\quad P(B_3|A_2)=\\frac{1}{4}$$\\n\\n若发�?$A_3$，将 3 号球放入 III 号袋，III 号袋（原 3 �?1�? �?2）变�?3 �?1�? �?2�? �?3，共 6 个球。\\n$$P(B_1|A_3)=\\frac{3}{6}, \\quad P(B_2|A_3)=\\frac{2}{6}, \\quad P(B_3|A_3)=\\frac{1}{6}$$\\n\\n由全概率公式：\\n$$P(B_1) = \\sum_{i=1}^3 P(A_i)P(B_1|A_i) = \\frac{2}{4}\\times\\frac{3}{5} + \\frac{1}{4}\\times\\frac{2}{4} + \\frac{1}{4}\\times\\frac{3}{6} = \\frac{3}{10} + \\frac{1}{8} + \\frac{1}{8} = 0.55$$\\n$$P(B_2) = \\sum_{i=1}^3 P(A_i)P(B_2|A_i) = \\frac{2}{4}\\times\\frac{1}{5} + \\frac{1}{4}\\times\\frac{1}{4} + \\frac{1}{4}\\times\\frac{2}{6} = \\frac{1}{10} + \\frac{1}{16} + \\frac{1}{12} = \\frac{59}{240} \\approx 0.246$$\\n$$P(B_3) = \\sum_{i=1}^3 P(A_i)P(B_3|A_i) = \\frac{2}{4}\\times\\frac{1}{5} + \\frac{1}{4}\\times\\frac{1}{4} + \\frac{1}{4}\\times\\frac{1}{6} = \\frac{1}{10} + \\frac{1}{16} + \\frac{1}{24} = \\frac{49}{240} \\approx 0.204$$\\n\\n综上�?P(B_1)$ 最大，即第二次取得 1 号球的概率最大�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339160
+                    },
+                    "question_json": "mathreact/cad92158853e4971bed911fef5b83955",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85149,
+                            "question_id": 18855,
+                            "is_answer": true,
+                            "choice": "第二次取�?1 号球的概率最�?,
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 85150,
+                            "question_id": 18855,
+                            "is_answer": false,
+                            "choice": "第二次取�?2 号球的概率最�?,
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 85151,
+                            "question_id": 18855,
+                            "is_answer": false,
+                            "choice": "第二次取�?3 号球的概率最�?,
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 85152,
+                            "question_id": 18855,
+                            "is_answer": false,
+                            "choice": "概率一样大",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.79,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 156116,
+                    "ai_tags": "全概率公�?条件概率"
+                }
+            ]
+        }
+    }
+]

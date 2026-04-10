@@ -1,0 +1,2472 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 29,
+            "questions": [
+                {
+                    "id": 12980,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "252fa6c5-0300-4a12-bc8e-25be808f3add",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一试验可以独立重复进行, 每次试验成功率为 $p$, 则直到第 8 次试验才取得 3 次成功的概率�?().",
+                    "analysis": "试验直到�?8 次试验才取得 3 次成�? 说明�?7 次试验中成功�?2 �? 到第 8 次试验时成功�? 令事�?$A=\\{$ 直到�?8 次试验才取得 3 次成�?$\\}$, �?$P(A)=C_7^2(1-p)^5 p^2 p=C_7^2 p^3(1-p)^5$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/fa81b1fb7aa5487c895406edd4309964",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51919,
+                            "question_id": 12980,
+                            "is_answer": true,
+                            "choice": "$C_7^2 p^3(1-p)^5$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 51920,
+                            "question_id": 12980,
+                            "is_answer": false,
+                            "choice": "$C_8^2 p^3(1-p)^5$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 51918,
+                            "question_id": 12980,
+                            "is_answer": false,
+                            "choice": "$C_8^3 p^3(1-p)^5$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 51917,
+                            "question_id": 12980,
+                            "is_answer": false,
+                            "choice": "$8 \\cdot p^3(1-p)^5$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.67,
+                    "difficulty_score": 0.29,
+                    "avg_time_spent": 44185,
+                    "tags": "近期易错,近期121人做�?,
+                    "ai_tags": "概率�?伯努利概�?独立重复试验"
+                },
+                {
+                    "id": 12987,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "cc843171-71f5-4f91-b6ae-ec5286ca626e",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某厂�?9 台同种设备各台设备是否正常运转是相互独立�? 如在任一时刻每台设备处于正常运作状态的概率�?$\\frac{1}{3}$,则在任一时刻至少�?8 台设备正常运作状态的概率�?( ).",
+                    "analysis": "�?$A=\\{$ 至少�?台设备正常运�?$\\}, B=\\{$ 正好�?台设备正常运�?$\\}, C=\\{9$ 台设备都正常运作 $\\}$,\n�?$A=B \\cup C, B C=\\varnothing$, 所�?$P(A)=P(B)+P(C)$.\n其中 $P(B)=C_9^8\\left(\\frac{1}{3}\\right)^8 \\frac{2}{3}=\\frac{9 \\times 2}{3^9}, P(C)=\\left(\\frac{1}{3}\\right)^9$,\n所�?$P(A)=\\frac{9 \\times 2+1}{3^9}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/0c155c71ba3144ba90bba4b68037aecc",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51946,
+                            "question_id": 12987,
+                            "is_answer": true,
+                            "choice": "$\\frac{9 \\times 2+1}{3^9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 51945,
+                            "question_id": 12987,
+                            "is_answer": false,
+                            "choice": "$\\frac{8 \\times 2+1}{3^9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 51947,
+                            "question_id": 12987,
+                            "is_answer": false,
+                            "choice": "$\\frac{2^8+1}{3^9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 51948,
+                            "question_id": 12987,
+                            "is_answer": false,
+                            "choice": "$\\frac{8+2}{3^9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.72,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 121711,
+                    "ai_tags": "二项分布,相互独立事件,概率计算"
+                },
+                {
+                    "id": 12990,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "c922c0b1-da49-4a77-8ca0-b7d345fc95f9",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设在一次试验中事件 $A$ 发生的概率为 $p$, 则在 4 次重复独立试验中, $A$ 至多有一次不发生的概率是 ().",
+                    "analysis": "$\\{A$ 至多有一次不发生 $\\}$ 可以分为: $\\{A$ 每次都发�?$\\}\\{A$ 恰好有一次不发生 $\\}$, 所�?$A$ 至多有一次不发生的概率是 $p^4+C_4^1 p^3(1-p)=p^4+4 p^3(1-p)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/8d872b56ab784168ac166cbd0210e48e",
+                    "updated_at": {
+                        "seconds": 1775673110
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51957,
+                            "question_id": 12990,
+                            "is_answer": true,
+                            "choice": "$p^4+4 p^3(1-p)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 51958,
+                            "question_id": 12990,
+                            "is_answer": false,
+                            "choice": "$p^4+p^3(1-p)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 51960,
+                            "question_id": 12990,
+                            "is_answer": false,
+                            "choice": "$4 p^4+p^3(1-p)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 51959,
+                            "question_id": 12990,
+                            "is_answer": false,
+                            "choice": "$p^4+3 p^3(1-p)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.81,
+                    "difficulty_score": 0.28,
+                    "avg_time_spent": 80852,
+                    "tags": "近期易错,近期61人做�?,
+                    "ai_tags": "伯努利试�?概率计算"
+                },
+                {
+                    "id": 12992,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "ff9f1194-3e6e-40e6-a306-d3c85e3d7403",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设事�?$A$ 在每一次试验中发生的概率为 0.3 , �?$A$ 发生不少�?3 次时, 指示灯发出信�? 进行�?5 次重复独立试�?则指示灯发出信号的概率为 (); 进行�?7 次重复独立试�? 则指示灯发出信号的概率为 ( ).",
+                    "analysis": "(1)�?$X$ 表示 5 次重复独立试验中事件 $A$ 发生的次�? 相当�?5 重伯努利试验.\n$$\np=P(A)=0.3\n$$\n$P\\{$ 指示灯发出信�?$\\}=P\\{X \\geq 3\\}=P\\{X=3\\}+P\\{X=4\\}+P\\{X=5\\}$\n$$\n=C_5^3 \\cdot(0.3)^3 \\cdot(0.7)^2+C_5^4 \\cdot(0.3)^4 \\cdot 0.7+C_5^5 \\cdot(0.3)^5 \\approx 0.163\n$$\n(2) �?$Y$ 表示 7 次重复独立试验中事件 $A$ 发生的次�? 相当�?7 重伯努利试验.\n$$\n\\begin{aligned}\nP\\{\\text { 指示灯发出信�?}\\}= & P\\{Y \\geq 3\\}=1-P\\{Y=0\\}-P\\{Y=1\\}-P\\{Y=2\\} \\\\\n& =1-C_7^0 \\cdot(0.7)^7-C_7^1 \\cdot 0.3 \\cdot(0.7)^6-C_7^2 \\cdot 0.3^2 \\cdot(0.7)^5 \\approx 0.353 .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/2c99c3bb0b774fcab8788a505c86904e",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51965,
+                            "question_id": 12992,
+                            "is_answer": true,
+                            "choice": "$0.163,0.353$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 51968,
+                            "question_id": 12992,
+                            "is_answer": false,
+                            "choice": "$0.338,0.336$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 51966,
+                            "question_id": 12992,
+                            "is_answer": false,
+                            "choice": "$0.774,0.500$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 51967,
+                            "question_id": 12992,
+                            "is_answer": false,
+                            "choice": "$0.282,0.146$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.77,
+                    "difficulty_score": 0.33,
+                    "avg_time_spent": 109305,
+                    "ai_tags": "独立重复试验,二项分布,概率计算"
+                },
+                {
+                    "id": 12995,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "f3488d22-856e-4753-9546-d091ca891fe9",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "在四次独立重复试验中, 事件 $A$ 至少发生一次的概率�?$\\frac{80}{81}$, 则事�?$A$ 在每次试验中发生的概率为 ().",
+                    "analysis": "设事�?$A$ 在每次试验中出现的概率为 $p$, 则根据伯努利概型, 在四次试验中事件 $A$ 至少发生一次的概率�?$1-(1-p)^4$, 即有 $1-(1-p)^4=\\frac{80}{81}$, 所�?$p=\\frac{2}{3}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/fbf7b529f2bc47f48629dd17c491cabc",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51979,
+                            "question_id": 12995,
+                            "is_answer": true,
+                            "choice": "$\\frac{2}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 51978,
+                            "question_id": 12995,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 51980,
+                            "question_id": 12995,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 51977,
+                            "question_id": 12995,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.73,
+                    "difficulty_score": 0.29,
+                    "avg_time_spent": 42034,
+                    "ai_tags": "独立重复试验,概率计算"
+                },
+                {
+                    "id": 12996,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "1acd11e8-8bf5-4614-af1b-4fc352c048a2",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某射手射击的命中率为 0.6 , 重复独立进行射击, 事件 $A$ : 直到�?6 次射击才第三次命中目�? �?$P(A)=()$.",
+                    "analysis": "事件 $A$ : 直到�?6 次射击才第三次命中目标相当于前五次射击两次击中目标而第六次射击恰好击中目标,根据伯努利定理可�? $P(A)=C_5^2 0.6^2 0.4^3 \\times 0.6 \\approx 0.138$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/a0aa84886e3a444f8069da2c200f5f66",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51983,
+                            "question_id": 12996,
+                            "is_answer": true,
+                            "choice": "$C_5^2 \\times 0.6^3 \\times 0.4^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 51984,
+                            "question_id": 12996,
+                            "is_answer": false,
+                            "choice": "$C_6^3 \\times 0.6^3 \\times 0.4^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 51981,
+                            "question_id": 12996,
+                            "is_answer": false,
+                            "choice": "$5 \\times 0.6^3 \\times 0.4^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 51982,
+                            "question_id": 12996,
+                            "is_answer": false,
+                            "choice": "$6 \\times 0.6^3 \\times 0.4^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.96,
+                    "difficulty_score": 0.23,
+                    "avg_time_spent": 49333,
+                    "tags": "",
+                    "ai_tags": "伯努利概�?独立重复试验,概率计算"
+                },
+                {
+                    "id": 12997,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "0bd03b35-1a32-4cf6-b7c5-4132bfc0875d",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某射手在三次射击中至少命中一次的概率�?0.875 , 则该射手在一次射击中命中的概率为 ().",
+                    "analysis": "由在三次射击中至少命中一次的概率�?0.875 , 知三次射击中没有一次命中的概率�?$(1-p)^3=1-0.875$, �?$(1-p)^3=0.125$, 因此 $p=\\frac{1}{2}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/3d186cc111a64f699d49a4bdf1debcba",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51985,
+                            "question_id": 12997,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 51987,
+                            "question_id": 12997,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 51986,
+                            "question_id": 12997,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 51988,
+                            "question_id": 12997,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.85,
+                    "difficulty_score": 0.2,
+                    "avg_time_spent": 39058,
+                    "ai_tags": "概率�?伯努利概�?
+                },
+                {
+                    "id": 13000,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "5c3d3499-695d-4067-ad76-cfee3f229031",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "袋中�?3 个黑�? 2 个白�? 大小、形状都相同, 进行有放回的独立重复抽样, 每次抽一个球, 共抽三次, 则恰好有两次抽到白球的事件的概率�?(）�?,
+                    "analysis": "这是个伯努利概型, 每次抽到白球的概率都�?$\\frac{2}{5}$, 所以由伯努利定理知恰好两次抽到白球的事件的概率是\n$$\nC_3^2\\left(\\frac{2}{5}\\right)^2 \\cdot \\frac{3}{5}=\\frac{36}{125} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/402ac5db38674bdc9d9e3072ae005ca4",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52000,
+                            "question_id": 13000,
+                            "is_answer": true,
+                            "choice": "$\\frac{36}{125}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 51997,
+                            "question_id": 13000,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 51998,
+                            "question_id": 13000,
+                            "is_answer": false,
+                            "choice": "$\\frac{12}{125}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 51999,
+                            "question_id": 13000,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.83,
+                    "difficulty_score": 0.3,
+                    "avg_time_spent": 139690,
+                    "ai_tags": "伯努利概�?二项分布"
+                },
+                {
+                    "id": 13002,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "cbefcc7c-68e9-43e3-97a0-b6e2cab5d911",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设某人打靶的命中率为 0.7 , 现独立地重复射击 5 �? 则恰好命�?2 次的概率�?( ).",
+                    "analysis": "根据伯努利概型公式，事件 $A$ ：\"恰好命中 2 次\" 的概�?$P(A)=C_5^2(0.7)^2(1-0.7)^3=10 \\times(0.7)^2 \\times(0.3)^3$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/85882150dc5e4a768d14b593c1a3b9f2",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52007,
+                            "question_id": 13002,
+                            "is_answer": true,
+                            "choice": "$10 \\times(0.7)^2 \\times(0.3)^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52005,
+                            "question_id": 13002,
+                            "is_answer": false,
+                            "choice": "$5 \\times(0.3)^2 \\times(0.7)^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52006,
+                            "question_id": 13002,
+                            "is_answer": false,
+                            "choice": "$5 \\times(0.7)^2 \\times(0.3)^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 52008,
+                            "question_id": 13002,
+                            "is_answer": false,
+                            "choice": "$10 \\times(0.3)^2 \\times(0.7)^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.93,
+                    "difficulty_score": 0.21,
+                    "avg_time_spent": 39167,
+                    "ai_tags": "伯努利概�?二项分布"
+                },
+                {
+                    "id": 18692,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "6c0f1fca-e795-4bbd-8232-bec7529ae616",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设一个病人从某种心脏手术中复原的概率�?0.8，则 (1) �?3 个病人，恰有 2 个手术后存活的概率是 ( )�?2) 3 个病人中至少�?1 个不能存活的概率�?( ).",
+                    "analysis": "(1) 由伯努利概型，在独立重复试验中事�?$A$ 发生的概率为 $p$，则�?$n$ 次独立重复试验中�?A$ 发生 $m$ 次的概率�?$P_n(m)=C_n^m p^m q^{n-m}$，现在\n$$\np=0.8, n=3, m=2,\n$$\n�?$p_1=C_3^2 \\times 0.8^2 \\times 0.2=0.384$.\n(2) 先考虑对立事件的概率，�?3 个病人全部存活的概率�?$0.8^3=0.512$，故所求概率为 $1-0.8^3=0.488$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338787
+                    },
+                    "question_json": "mathreact/682695bd87944135be79e58216926a90",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84008,
+                            "question_id": 18692,
+                            "is_answer": true,
+                            "choice": "$0.384,0.488$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84009,
+                            "question_id": 18692,
+                            "is_answer": false,
+                            "choice": "$0.106,0.488$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84010,
+                            "question_id": 18692,
+                            "is_answer": false,
+                            "choice": "$0.384,0.512$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84011,
+                            "question_id": 18692,
+                            "is_answer": false,
+                            "choice": "$0.106, \\quad 0.512$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.82,
+                    "difficulty_score": 0.31,
+                    "avg_time_spent": 64676,
+                    "tags": "近期易错,近期47人做�?,
+                    "ai_tags": "伯努利概�?二项分布,独立重复试验"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 29,
+            "questions": [
+                {
+                    "id": 18696,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "b5b3da3e-2c5a-449f-ae1d-b39272614e6d",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "从一大批发芽率为 0.9 的种子中随意抽取 100 �? 则这 100 粒种子的发芽率不低于 0.88 的概率为 ( ).",
+                    "analysis": "对每个种子的出芽作为一次试�? 出芽率为 0.9 , 种子数是 100 , 发芽率不低于 0.88 意味着至少�?88 粒种子发�? 根据伯努利概�? 若有 $k$ 粒种子发�? 则其发生的概率为 $C_{100}^k(0.9)^k(0.1)^{100-k}$, 于是至少�?88 粒种子发芽的概率�?$\\sum_{k=88}^{100} C_{100}^k(0.9)^k(0.1)^{100-k}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338794
+                    },
+                    "question_json": "mathreact/a640b322aa87421980db8b1819d2cc2f",
+                    "updated_at": {
+                        "seconds": 1775673109
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84036,
+                            "question_id": 18696,
+                            "is_answer": true,
+                            "choice": "$\\sum_{k=88}^{100} C_{100}^k(0.9)^k(0.1)^{100-k}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84037,
+                            "question_id": 18696,
+                            "is_answer": false,
+                            "choice": "$1-\\sum_{k=89}^{100} C_{100}^k(0.9)^k(0.1)^{100-k}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84038,
+                            "question_id": 18696,
+                            "is_answer": false,
+                            "choice": "$\\sum_{k=89}^{100} C_{100}^k(0.9)^k(0.1)^{100-k}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84039,
+                            "question_id": 18696,
+                            "is_answer": false,
+                            "choice": "$1-\\sum_{k=88}^{100} C_{100}^k(0.9)^k(0.1)^{100-k}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.68,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 58979,
+                    "ai_tags": "伯努利概�?二项分布"
+                },
+                {
+                    "id": 18700,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "269aac7b-60ca-45e2-90b0-05cb7cc4ccdd",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "每次试验成功的概率为 $p(0<p<1)$, 则在 3 次重复独立试验中至多失败两次的概率为 ().",
+                    "analysis": "因为是三次试�? 所以至多失败两次就等价于至少成功一�? 至少成功一次的逆事件是一次也不成�? 一次也不成功的概率�?$(1-p)^3$, 所以至多失败两次的概率�?$1-(1-p)^3$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338806
+                    },
+                    "question_json": "mathreact/edd5f42dcd554700a400e7772693f6ea",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84064,
+                            "question_id": 18700,
+                            "is_answer": true,
+                            "choice": "$1-(1-p)^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84065,
+                            "question_id": 18700,
+                            "is_answer": false,
+                            "choice": "$3 p(1-p)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84066,
+                            "question_id": 18700,
+                            "is_answer": false,
+                            "choice": "$3 p^2(1-p)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84067,
+                            "question_id": 18700,
+                            "is_answer": false,
+                            "choice": "$1-p^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.85,
+                    "difficulty_score": 0.25,
+                    "avg_time_spent": 69607,
+                    "tags": "近期易错,近期43人做�?,
+                    "ai_tags": "伯努利概�?概率"
+                },
+                {
+                    "id": 18701,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "e72fb9f0-b891-4298-8cfd-98c5849c4f8c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "掷一枚钱币，反复�?4 次，则恰�?3 次出正面的概率是 ( ).",
+                    "analysis": "这是伯努利概型问�? 根据伯努利定�? 这里 $p=\\frac{1}{2}, n=4, m=3$, �?$P_3(4)=C_4^3 \\times\\left(\\frac{1}{2}\\right)^3 \\times \\frac{1}{2}=\\frac{1}{4}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338810
+                    },
+                    "question_json": "mathreact/6a77fc27e6464dcca932f5cfb9a71871",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84071,
+                            "question_id": 18701,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84072,
+                            "question_id": 18701,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{16}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84073,
+                            "question_id": 18701,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84074,
+                            "question_id": 18701,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.93,
+                    "difficulty_score": 0.26,
+                    "avg_time_spent": 39721,
+                    "ai_tags": "伯努利概�?概率计算"
+                },
+                {
+                    "id": 18703,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "ebafe8b2-61d8-497f-9810-d4b9036fe2ee",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某人射击�? 中靶的概率为 $\\frac{3}{4}$. 若射击直到中靶为�? 则射击次数为 3 的概率为 ( ).",
+                    "analysis": "射击次数�?3 , 说明前两次都没有射中, 第三次射中了, 所以概率应该为 $\\left(\\frac{1}{4}\\right)^2 \\times \\frac{3}{4}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338813
+                    },
+                    "question_json": "mathreact/dabe41de81d64564afccd25c1a2a1742",
+                    "updated_at": {
+                        "seconds": 1775673109
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84085,
+                            "question_id": 18703,
+                            "is_answer": true,
+                            "choice": "$\\left(\\frac{1}{4}\\right)^2 \\times \\frac{3}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84086,
+                            "question_id": 18703,
+                            "is_answer": false,
+                            "choice": "$\\left(\\frac{3}{4}\\right)^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84087,
+                            "question_id": 18703,
+                            "is_answer": false,
+                            "choice": "$\\left(\\frac{3}{4}\\right)^2 \\times \\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84088,
+                            "question_id": 18703,
+                            "is_answer": false,
+                            "choice": "$\\left(\\frac{1}{4}\\right)^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.95,
+                    "difficulty_score": 0.26,
+                    "avg_time_spent": 57425,
+                    "tags": "",
+                    "ai_tags": "概率�?几何分布,独立事件"
+                },
+                {
+                    "id": 18704,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "3824f6d3-a605-49b0-9227-6e6fa4d3636a",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "甲、乙两人进行乒乓球比赛，每局甲胜的概率为 $p, p \\geq 1/2$。问对甲而言，设各局胜负相互独立，那么下列说法正确的�?( )�?,
+                    "analysis": "采用三局二胜制，甲最终获胜，其胜局的情况是：“甲甲”或“乙甲甲”或“甲乙甲”。而这三种结局互不相容，于是由独立性得甲最终获胜的概率�?$p_1=p^2+2 p^2(1-p)$。\n采用五局三胜制，甲最终获胜，至少需比赛 3 局（可能赛 3 局，也可能�?4 局�?5 局），且最后一局必须是甲胜，而前面甲需胜二局。例如，共赛 4 局，则甲的胜局情况是：“甲乙甲甲”，“乙甲甲甲”，“甲甲乙甲”，且这三种结局互不相容。由独立性得甲最终获胜的概率�?$p_2=p^3+C_{3}^{2} p^3(1-p)+C_{4}^{2} p^3(1-p)^2$。\n于是 $p_2-p_1=p^2(6 p^3-15 p^2+12 p-3)=3 p^2(p-1)^2(2 p-1)$。\n�?$p>1/2$ 时，$p_2>p_1$，即对甲来说采用五局三胜制较为有利；�?$p=1/2$ 时，$p_2=p_1=1/2$，即两种赛制甲、乙最终获胜的概率相同�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338813
+                    },
+                    "question_json": "mathreact/861874def4a5487f94abd5c0ba5a6fe5",
+                    "updated_at": {
+                        "seconds": 1775673114
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84092,
+                            "question_id": 18704,
+                            "is_answer": true,
+                            "choice": "五局三胜制较为有�?,
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84093,
+                            "question_id": 18704,
+                            "is_answer": false,
+                            "choice": "采用三局二胜制有�?,
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84094,
+                            "question_id": 18704,
+                            "is_answer": false,
+                            "choice": "机会均等",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84095,
+                            "question_id": 18704,
+                            "is_answer": false,
+                            "choice": "以上无正确答�?,
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.79,
+                    "difficulty_score": 0.3,
+                    "avg_time_spent": 56928,
+                    "ai_tags": "独立�?互斥事件,概率计算"
+                },
+                {
+                    "id": 18707,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "2c9411ad-e915-45fe-a215-286287bd5e08",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某车间有 5 台机�? 每天每台需要维修的概率�?0.2 , 则某一天恰好有一台需要维修的概率�?().",
+                    "analysis": "每台机器是否需要维修是相互独立�? 且维修概率相�? 故可以看做是伯努利概�? 根据伯努利定理知 $P\\{\\text{恰好有一台需要维修}\\} = C_5^1(0.2)(0.8)^4 = 0.4096$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338819
+                    },
+                    "question_json": "mathreact/c4492182362f42adb913c8852b317414",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84113,
+                            "question_id": 18707,
+                            "is_answer": true,
+                            "choice": "$0.4096$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84114,
+                            "question_id": 18707,
+                            "is_answer": false,
+                            "choice": "$0.5120$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84115,
+                            "question_id": 18707,
+                            "is_answer": false,
+                            "choice": "$0.32768$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84116,
+                            "question_id": 18707,
+                            "is_answer": false,
+                            "choice": "$0.2048$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.27,
+                    "avg_time_spent": 50553,
+                    "ai_tags": "概率�?伯努利概�?
+                },
+                {
+                    "id": 18708,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "30196f4f-1d3d-48e9-990d-19a77e3b80e2",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "同时抛掷 3 枚均称的硬币，则恰好有两枚正面向上的概率为（）�?,
+                    "analysis": "每次抛掷硬币正面向上的概率为 0.5，根据伯努利定理，恰好有两枚正面向上的概率为 $C_3^2(0.5)^2 \\cdot 0.5=0.375$�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338822
+                    },
+                    "question_json": "mathreact/51763a42c6c3433ab9c5be780dcf622c",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84120,
+                            "question_id": 18708,
+                            "is_answer": true,
+                            "choice": "$0.375$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84121,
+                            "question_id": 18708,
+                            "is_answer": false,
+                            "choice": "$0.75$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84122,
+                            "question_id": 18708,
+                            "is_answer": false,
+                            "choice": "$0.25$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84123,
+                            "question_id": 18708,
+                            "is_answer": false,
+                            "choice": "$0.125$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.93,
+                    "difficulty_score": 0.25,
+                    "avg_time_spent": 29014,
+                    "ai_tags": "概率�?二项分布"
+                },
+                {
+                    "id": 18709,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "3574c9d5-aeac-4e6e-96a3-8f54428a3279",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设在一次试验中事件 $A$ 发生的概率为 $p$, 则在 5 次重复独立试验中, $A$ 至少发生一次的概率�?().",
+                    "analysis": "考虑事件 $A$ 至少发生一次的逆事�? 事件 $A$ 一次都不发�?根据伯努利定理，事件 $A$ 一次都不发生的概率�?$(1-p)^5$ ，所以事�?$A$ 至少发生一次的概率�?$1-(1-p)^5$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338822
+                    },
+                    "question_json": "mathreact/7daf9f0212844261a48895559ea00a28",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84127,
+                            "question_id": 18709,
+                            "is_answer": true,
+                            "choice": "$1-(1-p)^5$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84128,
+                            "question_id": 18709,
+                            "is_answer": false,
+                            "choice": "$p^5$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84129,
+                            "question_id": 18709,
+                            "is_answer": false,
+                            "choice": "$1-p^5$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84130,
+                            "question_id": 18709,
+                            "is_answer": false,
+                            "choice": "$(1-p)^5$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.93,
+                    "difficulty_score": 0.24,
+                    "avg_time_spent": 121588,
+                    "ai_tags": "独立重复试验,对立事件"
+                },
+                {
+                    "id": 18710,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "3f79beb3-19be-4743-9295-7dcc9e07d380",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设每次试验成功的概率�?$p(0<p<1)$, 则在 3 次重复试验中至少失败 1 次的概率�?().",
+                    "analysis": "考虑 $\\{$至少失败一�?\\}$ 的逆事件即 $\\{$三次都成�?\\}$�?\\{$三次都成�?\\}$ 的概率为 $p^3$，所以三次重复试验中至少失败一次的概率�?$1-p^3$�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338824
+                    },
+                    "question_json": "mathreact/faf0832ca32343b8a70fd775e33cd1b7",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84134,
+                            "question_id": 18710,
+                            "is_answer": true,
+                            "choice": "$1-p^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84135,
+                            "question_id": 18710,
+                            "is_answer": false,
+                            "choice": "$p^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84136,
+                            "question_id": 18710,
+                            "is_answer": false,
+                            "choice": "$(1-p)^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84137,
+                            "question_id": 18710,
+                            "is_answer": false,
+                            "choice": "$(1-p)^3+p(1-p)^2+p^2(1-p)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.88,
+                    "difficulty_score": 0.28,
+                    "avg_time_spent": 22584,
+                    "ai_tags": "概率�?独立重复试验,对立事件"
+                },
+                {
+                    "id": 18711,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "2253850c-8791-4355-82b8-e79ae03dd7f1",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "独立重复地掷一枚匀质硬币三�? $A$ 表示至少有一次出现正面的事件, �?$P(A)=()$.",
+                    "analysis": "独立重复掷一枚硬币三次出现的情况共有 $2^3$ �? 一次也不出现正面的情况�?1 �? 所�?$P(\\bar{A})=\\frac{1}{8}$, 从�?$P(A)=1-P(\\bar{A})=1-\\frac{1}{8}=\\frac{7}{8}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338825
+                    },
+                    "question_json": "mathreact/13e83c6f06b4414a9f88359772f87c56",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84141,
+                            "question_id": 18711,
+                            "is_answer": true,
+                            "choice": "$\\frac{7}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84142,
+                            "question_id": 18711,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84143,
+                            "question_id": 18711,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84144,
+                            "question_id": 18711,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.92,
+                    "difficulty_score": 0.27,
+                    "avg_time_spent": 29158,
+                    "ai_tags": "概率,独立重复试验,对立事件"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 29,
+            "questions": [
+                {
+                    "id": 18712,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "bddf601e-3cdc-4eb9-b106-c34c24a81163",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某型号高炮，每门炮发射一发炮弹击中飞机的概率�?$0.6$，现若干门炮同时各射一发，则下列说法中不正确的�?( ).",
+                    "analysis": "设需配置 $n$ 门炮. 因为 $n$ 门炮是各自独立发射的，因此该问题可以看作 $n$ 重伯努利试验.\n�?$A$ 表示“高炮击中飞机”，$P(A)=0.6$�?B$ 表示“敌机被击落�?\n\n(1) 若欲�?$99\\%$ 的把握击中敌机，即要�?$P(B) \\ge 0.99$.\n$$P(B) = 1 - P(\\bar{B}) = 1 - (1-0.6)^n = 1 - 0.4^n \\ge 0.99$$\n�?$0.4^n \\le 0.01$.\n两边取对数得 $n \\lg 0.4 \\le \\lg 0.01$,\n解得 $$n \\ge \\frac{\\lg 0.01}{\\lg 0.4} \\approx 5.03$$\n故至少应配置 $6$ 门炮才能达到要求.\n由此可知，“若欲以 $99\\%$ 的把握击中一架来犯的敌机至少需配置 $6$ 门炮”说法正�?\n\n对于 $90\\%$ 的把握，\n$$1 - 0.4^n \\ge 0.9 \\Rightarrow 0.4^n \\le 0.1 \\Rightarrow n \\ge \\frac{\\lg 0.1}{\\lg 0.4} \\approx 2.51$$\n即至少需 $3$ 门炮.\n故“若欲以 $90\\%$ 的把握击中一架来犯的敌机至少需配置 $6$ 门炮”说法不正确.\n\n(2) 现有 $3$ 门炮，欲�?$99\\%$ 的把握击中敌�? 设每门炮命中率为 $p$.\n$$1 - (1-p)^3 \\ge 0.99 \\Rightarrow (1-p)^3 \\le 0.01$$\n解得 $1-p \\le \\sqrt[3]{0.01} \\approx 0.215$.\n�?$p \\ge 1 - \\sqrt[3]{0.01} \\approx 0.785$.\n故关于命中率的两个说法均正确.\n\n综上，不正确的说法是“若欲以 $90\\%$ 的把握击中一架来犯的敌机至少需配置 $6$ 门炮”�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338826
+                    },
+                    "question_json": "mathreact/4d46ae022dbb44f7b50157b596595d49",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84148,
+                            "question_id": 18712,
+                            "is_answer": true,
+                            "choice": "若欲�?$90\\%$ 的把握击中一架来犯的敌机至少需配置 $6$ 门炮",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84149,
+                            "question_id": 18712,
+                            "is_answer": false,
+                            "choice": "若欲�?$99\\%$ 的把握击中一架来犯的敌机至少需配置 $6$ 门炮",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84150,
+                            "question_id": 18712,
+                            "is_answer": false,
+                            "choice": "若现�?$3$ 门炮，欲�?$99\\%$ 的把握击中一架来犯的敌机，则每门炮的命中率应提高�?$0.785$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84151,
+                            "question_id": 18712,
+                            "is_answer": false,
+                            "choice": "若现�?$3$ 门炮，欲�?$99\\%$ 的把握击中一架来犯的敌机，则每门炮的命中率应提高�?$1-\\sqrt[3]{0.01}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.64,
+                    "difficulty_score": 0.38,
+                    "avg_time_spent": 122202,
+                    "tags": "近期易错,近期122人做�?,
+                    "ai_tags": "概率�?伯努利试�?独立�?
+                },
+                {
+                    "id": 18713,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "34e514e5-6dc3-4ef6-a491-f45a8f5fcaa5",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一批产�? 优质品占 $20 \\%$, 进行重复抽样检�? 共取 5 件产品进行检�? 则恰好有三件是优质品的概率等于（�?",
+                    "analysis": "由题意知，该检查属于独立重复试验（伯努利概型）�?n=5$，优质品概率 $p=20\\%=0.2$，非优质品概�?$1-p=0.8$。\n恰好有三件是优质品的概率为：\n$$\nP(A) = C_5^3 p^3 (1-p)^{5-3} = C_5^3 \\times 0.2^3 \\times 0.8^2 = 10 \\times 0.2^3 \\times 0.8^2\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338837
+                    },
+                    "question_json": "mathreact/5136965476cc4c59a46514a641674fd7",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84155,
+                            "question_id": 18713,
+                            "is_answer": true,
+                            "choice": "$10 \\times 0.2^3 \\times 0.8^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84156,
+                            "question_id": 18713,
+                            "is_answer": false,
+                            "choice": "$0.2^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84157,
+                            "question_id": 18713,
+                            "is_answer": false,
+                            "choice": "$0.2^3 \\times 0.8^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84158,
+                            "question_id": 18713,
+                            "is_answer": false,
+                            "choice": "$0.2^3 \\times 10$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.98,
+                    "difficulty_score": 0.24,
+                    "avg_time_spent": 34182,
+                    "ai_tags": "概率�?二项分布,独立重复试验"
+                },
+                {
+                    "id": 18714,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "b3750691-18bf-4fc7-88c5-c72be95ca715",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "有一大批产品其验收方案如下一�? 先作第一次检验：从中任取 10 件，经检验无次品，则接受这批产品，次品数大于 2，则拒收；否则作第二次检验，其做法是从中再任�?5 件，�?5 件中无次品时接受这批产品. 假设次品率为 $10\\%$，则这批产品经第一次检验就能被接受的概率为 ( )；需做第二次检验的概率�?( )；这批产品按第二次检验的标准被接受的概率�?( )；这批产品在第一次检验未能作决定且第二次检验时被通过的概率为 ( )；这批产品的被接受的概率�?( ).",
+                    "analysis": "�?$X$ 表示第一次检验中的次品数�?$X$ 取�?$0,1, \\cdots, 10$，相当于 10 重伯努利试验. $Y$ 表示第二次检验时的次品数�?$Y$ 取�?$0,1, \\cdots, 5$，相当于 5 重伯努利试验.\n(1) $P\\{X=0\\}=0.9^{10} \\approx 0.349$.\n(2) $P\\{1 \\leq X \\leq 2\\}=C_{10}^1 \\cdot 0.1 \\cdot 0.9^9+C_{10}^2 \\cdot 0.1^2 \\cdot 0.9^8 \\approx 0.581$.\n(3) $P\\{Y=0\\}=0.9^5 \\approx 0.590$.\n(4) $P\\{1 \\leq X \\leq 2, Y=0\\}=P\\{1 \\leq X \\leq 2\\} P\\{Y=0\\}=0.581 \\times 0.590 \\approx 0.343$.\n(5) $P\\{X=0\\}+P\\{1 \\leq X \\leq 2, Y=0\\}=0.9^{10}+0.581 \\times 0.590 \\approx 0.692$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338838
+                    },
+                    "question_json": "mathreact/1b8b7f4ce86b48ad8ea4e5bec5d2969f",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84162,
+                            "question_id": 18714,
+                            "is_answer": true,
+                            "choice": "$0.349,0.581,0.590,0.343,0.692$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84163,
+                            "question_id": 18714,
+                            "is_answer": false,
+                            "choice": "$0.349,0.770,0.290,0.343,0.552$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84164,
+                            "question_id": 18714,
+                            "is_answer": false,
+                            "choice": "$0.265,0.581,0.290,0.565,0.692$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84165,
+                            "question_id": 18714,
+                            "is_answer": false,
+                            "choice": "$0.349,0.581,0.977,0.460,0.692$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.83,
+                    "difficulty_score": 0.21,
+                    "avg_time_spent": 144318,
+                    "ai_tags": "伯努利试�?概率计算"
+                },
+                {
+                    "id": 18715,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "97f384d7-60c2-466c-9ad5-4b90d10c8864",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某产品的次品率为 0.002 , 先对其进行重复抽样检�? 共取 200 件样�? 则查得其中有 4 件次品的概率 $p$ 的计算式�?( ).",
+                    "analysis": "这是一个伯努利概型, 根据概率公式可知 $p=C_{200}^4(0.002)^4(0.998)^{196}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338839
+                    },
+                    "question_json": "mathreact/de0880ddec8b445c82745c9980ce709f",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84169,
+                            "question_id": 18715,
+                            "is_answer": true,
+                            "choice": "$C_{200}^4(0.002)^4(0.998)^{196}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84170,
+                            "question_id": 18715,
+                            "is_answer": false,
+                            "choice": "$200 \\times(0.002)^4$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84171,
+                            "question_id": 18715,
+                            "is_answer": false,
+                            "choice": "$200 \\times(0.002)^4(0.998)^{196}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84172,
+                            "question_id": 18715,
+                            "is_answer": false,
+                            "choice": "$C_{200}^4(0.998)^4(0.002)^{186}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.18,
+                    "avg_time_spent": 67949,
+                    "ai_tags": "伯努利概�?二项分布"
+                },
+                {
+                    "id": 18716,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "dc687a95-c132-42c0-8f89-e4e782ceb19d",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设事�?$A$ 在每一次试验中发生的概率为 0.3 , �?$A$ 发生不少�?3 次时, 指示灯发出信�? 则下列说法中不正确的�?( ).",
+                    "analysis": "(1) �?$X$ 表示 5 次重复独立试验中事件 $A$ 发生的次�? 相当�?5 重伯努利试验.\n$$\np=P(A)=0.3,\n$$\n$P\\{\\text{指示灯发出信号}\\} = P\\{X \\geq 3\\} = P\\{X=3\\}+P\\{X=4\\}+P\\{X=5\\}$\n$$\n=C_5^3 \\cdot(0.3)^3 \\cdot(0.7)^2+C_5^4 \\cdot(0.3)^4 \\cdot 0.7+C_5^5 \\cdot(0.3)^5 \\approx 0.163\n$$\n(2) �?$Y$ 表示 7 次重复独立试验中事件 $A$ 发生的次�? 相当�?7 重伯努利试验.\n$$\n\\begin{aligned}\nP\\{\\text { 指示灯发出信�?}\\} & =P\\{Y \\geq 3\\}=1-P\\{Y=0\\}-P\\{Y=1\\}-P\\{Y=2\\} \\\\\n& =1-C_7^0 \\cdot(0.7)^7-C_7^1 \\cdot 0.3 \\cdot(0.7)^6-C_7^2 \\cdot 0.3^2 \\cdot(0.7)^5 \\approx 0.353 .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338841
+                    },
+                    "question_json": "mathreact/bfc3f87418964d79810b05a378531c0a",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84176,
+                            "question_id": 18716,
+                            "is_answer": true,
+                            "choice": "若进�?7 次重复独立试�? 则指示灯发出信号的概率为 $C_7^0 \\cdot(0.7)^7+C_7^1 \\cdot 0.3 \\cdot(0.7)^6+C_7^2 \\cdot 0.3^2 \\cdot(0.7)^5$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84177,
+                            "question_id": 18716,
+                            "is_answer": false,
+                            "choice": "若进�?5 次重复独立试验，则指示灯发出信号的概率为 0.163",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84178,
+                            "question_id": 18716,
+                            "is_answer": false,
+                            "choice": "若进�?7 次重复独立试�? 则指示灯发出信号的概率为 0.353",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84179,
+                            "question_id": 18716,
+                            "is_answer": false,
+                            "choice": "若进�?5 次重复独立试�? 则指示灯发出信号的概率为 $C_5^3 \\cdot(0.3)^3 \\cdot(0.7)^2+C_5^4 \\cdot(0.3)^4 \\cdot 0.7+C_5^5 \\cdot(0.3)^5$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.75,
+                    "difficulty_score": 0.31,
+                    "avg_time_spent": 110398,
+                    "ai_tags": "伯努利试�?二项分布,对立事件"
+                },
+                {
+                    "id": 18717,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "ebb74535-ddbb-47ac-b3e7-1df26531b548",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知 100 个产品中�?5 个次�? 现从中有放回地取 3 �? 每次任取 1 �? 则在所取的 3 个中恰有 2 个次品的概率�?().",
+                    "analysis": "因为这是有放回地�?3 �? 因此�?3 次试验的条件完全相同且独�? 它是伯努利试�? 依题�? 每次试验取到次品的概率为 0.05.\n�?$X$ 为所取的 3 个中的次品数, 则\n$$\nX \\sim b(3,0.05),\n$$\n\n于是, 所求概率为:\n$$\nP\\{X=2\\}=C_3^2(0.05)^2(0.95)=0.007125.\n$$\n\n注：将本例中�?\"有放回\" 改为 \"无放回\"，那么各次试验条件就不同了，已不是伯努利概型，此时，只能用古典概型求解，\n$$\nP\\{X=2\\}=\\frac{C_{95}^1 C_5^2}{C_{100}^3} \\approx 0.00588.\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338843
+                    },
+                    "question_json": "mathreact/809911666edd47fc907fa313f2546e84",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84183,
+                            "question_id": 18717,
+                            "is_answer": true,
+                            "choice": "$0.007125$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84184,
+                            "question_id": 18717,
+                            "is_answer": false,
+                            "choice": "$0.00452$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84185,
+                            "question_id": 18717,
+                            "is_answer": false,
+                            "choice": "$0.00633$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84186,
+                            "question_id": 18717,
+                            "is_answer": false,
+                            "choice": "$0.00588$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.85,
+                    "difficulty_score": 0.29,
+                    "avg_time_spent": 79221,
+                    "ai_tags": "伯努利试�?二项分布,概率"
+                },
+                {
+                    "id": 18719,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "0965ef86-b2fd-4129-a463-e2d1ab7757ab",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一批产品的废品率为 0.01，从中随机抽�?10 件，�?10 件中废品数是 2 的概率为 ( )�?,
+                    "analysis": "�?0 件中�?2 个废品”相当于“从 10 件产品中抽取 2 个这 2 个是废品其余都是正品”，抽取 2 个的方法数是 $C_{10}^2$，这两个是废品的概率�?$(0.01)^2$，其�?8 个正好为正品的概率为 $(0.99)^8$，所�?10 件中废品数是 2 的概率为 $C_{10}^2(0.01)^2(0.99)^8=C_{10}^8(0.01)^2(0.99)^8$�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338843
+                    },
+                    "question_json": "mathreact/2e7b9a90a22b426199811960f461d4e8",
+                    "updated_at": {
+                        "seconds": 1775673111
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84197,
+                            "question_id": 18719,
+                            "is_answer": true,
+                            "choice": "$C_{10}^8(0.01)^2(0.99)^8$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84198,
+                            "question_id": 18719,
+                            "is_answer": false,
+                            "choice": "$C_{10}^2(0.01)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84199,
+                            "question_id": 18719,
+                            "is_answer": false,
+                            "choice": "$C_{10}^2(0.01)^8(0.99)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84200,
+                            "question_id": 18719,
+                            "is_answer": false,
+                            "choice": "$C_{10}^8(0.01)^8(0.99)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.26,
+                    "avg_time_spent": 26992,
+                    "ai_tags": "二项分布,概率计算"
+                },
+                {
+                    "id": 18720,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "77ce169c-ae73-4003-a43b-b74907b6be99",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某电器元件的寿命超过 1000 小时的概率为 0.3 , 进行重复独立试验, 则三个元件在使用�?1000 小时最多只有一个损坏的概率�?().",
+                    "analysis": "�?$A=\\{$ 最多只有一个损�?$\\}, B=\\{$ 一个都没有损坏 $\\}, C=\\{$ 恰好损坏一�?$\\}$, 显然 $A=B \\cup C$, 其中 $P(B)=(0.3)^3, P(C)=C_3^1(1-0.3) \\times(0.3)^2$,\n所�?$P(A)=P(B)+P(C)=0.216$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338845
+                    },
+                    "question_json": "mathreact/437d95f18fa74ecf952c69cabb8f037e",
+                    "updated_at": {
+                        "seconds": 1775673114
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84204,
+                            "question_id": 18720,
+                            "is_answer": true,
+                            "choice": "$0.216$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84205,
+                            "question_id": 18720,
+                            "is_answer": false,
+                            "choice": "$0.09$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84206,
+                            "question_id": 18720,
+                            "is_answer": false,
+                            "choice": "$0.189$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84207,
+                            "question_id": 18720,
+                            "is_answer": false,
+                            "choice": "$0.784$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.65,
+                    "difficulty_score": 0.39,
+                    "avg_time_spent": 86358,
+                    "ai_tags": "独立重复试验,二项分布"
+                },
+                {
+                    "id": 18728,
+                    "subject_id": 3,
+                    "chapter_id": 286,
+                    "question_id": "64a855ae-50a2-4025-85bb-0bb3d2258444",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设某人射击的命中率为 $0.4$，共进行�?$n$ 次独立射击，恰能使至少命中一次的概率大于 $0.9$，则 $n$ 值为�?   �?",
+                    "analysis": "对于至少一次的题目我们一般考虑逆事件，这个题的逆事件是一次也没有命中，逆事件的概率�?$(1-0.4)^n$，问题就可以归结为求下面不等式中�?$n$�?1-(1-0.4)^n>0.9$，解�?$n>\\frac{\\lg 0.1}{\\lg 0.6} \\approx 4.50$，所�?$n=5$�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338874
+                    },
+                    "question_json": "mathreact/fbd869dd44664d248aebd5f3fd9ae3c3",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84260,
+                            "question_id": 18728,
+                            "is_answer": true,
+                            "choice": "$5$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84261,
+                            "question_id": 18728,
+                            "is_answer": false,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84262,
+                            "question_id": 18728,
+                            "is_answer": false,
+                            "choice": "$6$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        },
+                        {
+                            "id": 84263,
+                            "question_id": 18728,
+                            "is_answer": false,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080683
+                            },
+                            "updated_at": {
+                                "seconds": 1735080683
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.73,
+                    "difficulty_score": 0.33,
+                    "avg_time_spent": 57428,
+                    "ai_tags": "伯努利概�?独立重复试验,概率"
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,2899 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 34,
+            "questions": [
+                {
+                    "id": 14075,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "74bfc464-6b33-4c2f-9353-8aa704adbd33",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知随机变量 $X$ 只能�?$-1,0,1,2$ 四个数�? 其相应的概率依次�?$\\frac{1}{2 c}, \\frac{3}{4 c}, \\frac{5}{8 c}, \\frac{2}{16 c}$, �?$c=()$.",
+                    "analysis": "�?$\\sum_{k=1}^4 P_k=1$, �?$\\frac{1}{2 c}+\\frac{3}{4 c}+\\frac{5}{8 c}+\\frac{2}{16 c}=\\frac{8+12+10+2}{16 c}=1$, 可得 $c=2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/9416fc6a7f7e45cb80b4860da47fe027",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56300,
+                            "question_id": 14075,
+                            "is_answer": true,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56299,
+                            "question_id": 14075,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56297,
+                            "question_id": 14075,
+                            "is_answer": false,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56298,
+                            "question_id": 14075,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.87,
+                    "difficulty_score": 0.28,
+                    "avg_time_spent": 76171,
+                    "ai_tags": "离散型随机变�?概率分布"
+                },
+                {
+                    "id": 14076,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "5fa3d25e-68d8-408b-a817-5037ebd1750b",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "离散随机变量 $X$ 的分布律�?\\begin{tabular}{c|ccccc}\n$X$ & -2 & -1 & 0 & 1 & 2 \\\\\n\\hline$p$ & $1 / 16$ & () & $1 / 2$ & $1 / 8$ & $1 / 16$\n\\end{tabular} , 在空缺处填入的数值为 ().",
+                    "analysis": "$\\begin{aligned} & \\text { �?} \\sum_i p_i=1 \\text { �?} \\\\ & \\sum_{k=-2}^2 P\\{X=k\\}=1 \\Rightarrow P\\{X=-1\\}=\\frac{1}{4} .\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/2e0df4be5d1c47a59524034486ba1501",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56301,
+                            "question_id": 14076,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56302,
+                            "question_id": 14076,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56303,
+                            "question_id": 14076,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56304,
+                            "question_id": 14076,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.93,
+                    "difficulty_score": 0.29,
+                    "avg_time_spent": 23913,
+                    "ai_tags": "离散随机变量,分布�?
+                },
+                {
+                    "id": 14077,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "f05d3bed-f11a-4c0e-8507-352be55b29c1",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "盒中装有大小相同的球 10 �? 编号�?$0,1,2, \\cdots, 9$, 从中任取 1 �? 观察号码�?\"小于 5 \"，\"等于 5 \"，\"大于 5 \" 的情�? 若定义一个随机变量来表达上述随机试验结果, 则该随机变量取每一个特定值的概率分别�?( ).",
+                    "analysis": "分别�?$\\omega_1, \\omega_2, \\omega_3$ 表示试验的三个结�?\"小于 5 \" , \"等于 5 \", \"大于 5 \", 则样本空�?$S=\\left\\{\\omega_1, \\omega_2, \\omega_3\\right\\}$, 定义随机变量 $X$ 如下：\n$$\nX=X(\\omega)=\\left\\{\\begin{array}{l}\n0, \\omega=\\omega_1 \\\\\n1, \\omega=\\omega_2 \\\\\n2, \\omega=\\omega_3\n\\end{array}\\right.\n$$\n\n�?$X$ 取每个值的概率为\n$P\\{X=0\\}=P\\{$ 取出球的号码小于 5$\\}=5 / 10$,\n$P\\{X=1\\}=P\\{$ 取出球的号码等于 5$\\}=1 / 10$,\n$P\\{X=2\\}=P\\{$ 取出球的号码大于 5$\\}=4 / 10$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/3994f8547e16489d94a1086ef226a3b7",
+                    "updated_at": {
+                        "seconds": 1775673108
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56306,
+                            "question_id": 14077,
+                            "is_answer": true,
+                            "choice": "$\\frac{5}{10}, \\frac{1}{10}, \\frac{4}{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56308,
+                            "question_id": 14077,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{10}, \\frac{4}{10}, \\frac{3}{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56305,
+                            "question_id": 14077,
+                            "is_answer": false,
+                            "choice": "$\\frac{6}{10}, \\frac{7}{10}, \\frac{4}{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56307,
+                            "question_id": 14077,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{10}, \\frac{1}{10}, \\frac{3}{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.97,
+                    "difficulty_score": 0.15,
+                    "avg_time_spent": 61902,
+                    "ai_tags": "随机变量,古典概型"
+                },
+                {
+                    "id": 14079,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "1b215d17-13c7-40bb-81ea-cfe3a3896d68",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设某批电子元件的正品率为 $4 / 5$, 次品率为 $1 / 5$. 现对这批元件进行测试, 只要测试得一个正品就停止测试工作, 则测试次数的分布律为 ( ).",
+                    "analysis": "设测试次数为 $X$, �?$X$ 的可能值为 $1,2, \\cdots$, �?$X=k$ �? 相当于前 $k-1$ 次测得的都是次品,而第 $k$ 次测到的是正�? �?$P\\{X=k\\}=\\left(\\frac{1}{5}\\right)^{k-1} \\frac{4}{5}, k=1,2, \\cdots$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/221a28b5d5da433b90ded230434cfafe",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56315,
+                            "question_id": 14079,
+                            "is_answer": true,
+                            "choice": "$P\\{X=k\\}=\\left(\\frac{1}{5}\\right)^{k-1} \\frac{4}{5}(k=1,2, \\cdots)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56313,
+                            "question_id": 14079,
+                            "is_answer": false,
+                            "choice": "$P\\{X=k\\}=\\left(\\frac{1}{5}\\right)^k \\frac{4}{5}(k=1,2, \\cdots)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56314,
+                            "question_id": 14079,
+                            "is_answer": false,
+                            "choice": "$P\\{X=k\\}=\\left(\\frac{4}{5}\\right)^{k-1} \\quad \\frac{1}{5}(k=1,2, \\cdots)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56316,
+                            "question_id": 14079,
+                            "is_answer": false,
+                            "choice": "$P\\{X=k\\}=\\left(\\frac{4}{5}\\right)^k \\frac{1}{5}(k=1,2, \\cdots)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.84,
+                    "difficulty_score": 0.26,
+                    "avg_time_spent": 27148,
+                    "ai_tags": "几何分布,离散型随机变�?概率分布"
+                },
+                {
+                    "id": 14080,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "8bd8d339-00c8-4c08-9db8-95a885337d7a",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设离散型随机变量 $X$ 的分布律�?$P\\{X=i\\}=a \\frac{(2 \\lambda)^i}{i!}(\\lambda>0), i=0,1,2, \\cdots$ �?$a=()$.",
+                    "analysis": "由分布律性质 $\\sum_{i=0}^{\\infty} p_i=\\sum_{i=0}^{\\infty} P\\{X=i\\}=1$, �?$1=\\sum_{i=0}^{\\infty} a \\frac{(2 \\lambda)^i}{i!}=a e^{2 \\lambda}$, �?$a=e^{-2 \\lambda}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/f52dad7e71a54a669201226c3abe1595",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56319,
+                            "question_id": 14080,
+                            "is_answer": true,
+                            "choice": "$e^{-2 \\lambda}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56317,
+                            "question_id": 14080,
+                            "is_answer": false,
+                            "choice": "$e^{-\\lambda}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56320,
+                            "question_id": 14080,
+                            "is_answer": false,
+                            "choice": "$e^\\lambda$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56318,
+                            "question_id": 14080,
+                            "is_answer": false,
+                            "choice": "$e^{2 \\lambda}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.68,
+                    "difficulty_score": 0.36,
+                    "avg_time_spent": 82695,
+                    "tags": "近期易错",
+                    "ai_tags": "概率�?离散型随机变�?分布�?
+                },
+                {
+                    "id": 14081,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "15754228-2ac7-40bd-8906-5dd3055a3407",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设某离散型随机变�?$\\xi$ 的分布律�?$P\\{\\xi=k\\}=c(0.75)^k, k=1,2,3, \\cdots$, �?$c$ 的值应�?( ).",
+                    "analysis": "由分布律的性质 $\\sum_i p_i=1$ 得\n$$\n\\sum_{k=1}^{\\infty} P\\{\\xi=k\\}=1 \\Rightarrow c \\sum_{k=1}^{\\infty}(0.75)^k=c \\lim _{n \\rightarrow \\infty} \\frac{0.75}{1-0.75}\\left(1-(0.75)^n\\right)=1\n$$\n\n�?$3 c=1, c=\\frac{1}{3}$.\n注意：等比数�?$a_k=q^k$ �?$n$ 项和公式 $S_n=\\frac{q}{1-q}\\left(1-q^n\\right)(k=1,2,3, \\cdots)$,�?$S_n=\\sum_{k=1}^n(0.75)^k=\\frac{0.75}{1-0.75}\\left(1-(0.75)^n\\right)=3\\left(1-(0.75)^n\\right)$,\n�?$\\sum_{k=1}^{\\infty}(0.75)^k=\\lim _{n \\rightarrow \\infty} S_n=\\lim _{n \\rightarrow \\infty} 3\\left(1-(0.75)^n\\right)=3$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/ee4d7480d6394dfcbda5bd3db26dde67",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56321,
+                            "question_id": 14081,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56322,
+                            "question_id": 14081,
+                            "is_answer": false,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56323,
+                            "question_id": 14081,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56324,
+                            "question_id": 14081,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.74,
+                    "difficulty_score": 0.24,
+                    "avg_time_spent": 87810,
+                    "ai_tags": "离散型随机变�?分布�?无穷级数"
+                },
+                {
+                    "id": 14082,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "dfbc7b1f-5aa3-4958-82f1-ddaf744143ec",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一袋中装有 5 只球, 编号�?$1,2,3,4,5$. 在袋中同时取 3 只球, �?$X$ 表示�?3 只球的最大号�?则正确的选项�?( ).",
+                    "analysis": "随机变量 $X$ 的可能取值为 $3,4,5$.\n$$\nP\\{X=3\\}=\\frac{C_2^2 \\cdot 1}{C_5^3}=\\frac{1}{10}, \\quad P\\{X=4\\}=\\frac{C_3^2 \\cdot 1}{C_5^3}=\\frac{3}{10}, \\quad P\\{X=5\\}=\\frac{C_4^2 \\cdot 1}{C_5^3}=\\frac{3}{5},\n$$\n\n�?$X$ 的分布律为\n\\begin{tabular}{|c|c|c|c|}\n\\hline$X$ & 3 & 4 & 5 \\\\\n\\hline$p_k$ & $1 / 10$ & $3 / 10$ & $3 / 5$ \\\\\n\\hline\n\\end{tabular}",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/91dee0a47628428e99bcce80c7a90112",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56325,
+                            "question_id": 14082,
+                            "is_answer": true,
+                            "choice": "$P\\{X=5\\}=\\frac{3}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56326,
+                            "question_id": 14082,
+                            "is_answer": false,
+                            "choice": "$P\\{X=3\\}=\\frac{3}{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56328,
+                            "question_id": 14082,
+                            "is_answer": false,
+                            "choice": "$P\\{X=4\\}=\\frac{1}{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56327,
+                            "question_id": 14082,
+                            "is_answer": false,
+                            "choice": "$P\\{X=3\\}=\\frac{1}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.82,
+                    "difficulty_score": 0.33,
+                    "avg_time_spent": 64321,
+                    "ai_tags": "古典概型,离散型随机变�?概率分布"
+                },
+                {
+                    "id": 14084,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "c03f7500-3df0-436f-9481-52528bf617ec",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设离散随机变�?$X$ 的分布律�?$P\\{X=i\\}=\\frac{a}{2 N}, i=1,2, \\cdots, N$, �?$a=()$.",
+                    "analysis": "由分布律的性质 $\\sum_i p_i=1$ 有\n$$\n\\sum_{i=1}^N P\\{X=i\\}=\\frac{a}{2} \\sum_{i=1}^N \\frac{1}{N}=1 \\Rightarrow \\frac{a}{2}=1,\n$$\n\n�?$a=2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/c586fb068e274803879da6504d18c53b",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56333,
+                            "question_id": 14084,
+                            "is_answer": true,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56334,
+                            "question_id": 14084,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56335,
+                            "question_id": 14084,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56336,
+                            "question_id": 14084,
+                            "is_answer": false,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.78,
+                    "difficulty_score": 0.3,
+                    "avg_time_spent": 50140,
+                    "tags": "近期易错",
+                    "ai_tags": "离散型随机变�?分布�?
+                },
+                {
+                    "id": 14085,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "fd335327-4650-42f2-9453-621ec4423f68",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$X$ 的可能值为 $1,2, \\cdots, n$, 且已知概�?$P\\{X=i\\}$ �?$i$ 成正�? �?$P\\{X=i\\}=a i, i=1,2, \\cdots, n$, �?$a=()$.",
+                    "analysis": "由分布律的性质 $\\sum_i p_i=1$ �?$\\sum_{i=1}^n P\\{X=i\\}=1 \\Rightarrow a \\sum_{i=1}^n i=1 \\Rightarrow a \\frac{n(n+1)}{2}=1$,�?$\\quad a=\\frac{2}{n(n+1)}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/d845dc22e6524c5e8aafa8024ae0ce19",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56340,
+                            "question_id": 14085,
+                            "is_answer": true,
+                            "choice": "$\\frac{2}{n(n+1)}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56337,
+                            "question_id": 14085,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n(n+1)}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56338,
+                            "question_id": 14085,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{(n+1)^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56339,
+                            "question_id": 14085,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n(n-1)}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.28,
+                    "avg_time_spent": 240543,
+                    "ai_tags": "离散型随机变�?概率分布�?
+                },
+                {
+                    "id": 14086,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "6c2edaed-f022-4bf7-b4e8-27ae41fc3984",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知 $P\\{X=k\\}=\\frac{a}{k}, P\\{Y=-k\\}=\\frac{b}{k^2}(k=1,2,3)$, �?( ).",
+                    "analysis": "根据 $\\sum_i p_i=1$ �? $\\frac{a}{1}+\\frac{a}{2}+\\frac{a}{3}=1, \\frac{b}{1}+\\frac{b}{4}+\\frac{b}{9}=1$, 解得 $a=\\frac{6}{11}, b=\\frac{36}{49}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/d445939bf38e4de2a50bc316a3c1c8db",
+                    "updated_at": {
+                        "seconds": 1775673111
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56342,
+                            "question_id": 14086,
+                            "is_answer": true,
+                            "choice": "$a=\\frac{6}{11}, \\quad b=\\frac{36}{49}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56341,
+                            "question_id": 14086,
+                            "is_answer": false,
+                            "choice": "$a=1, \\quad b=1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56343,
+                            "question_id": 14086,
+                            "is_answer": false,
+                            "choice": "$\\frac{11}{6} a=\\frac{49}{36} b-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56344,
+                            "question_id": 14086,
+                            "is_answer": false,
+                            "choice": "$a, b$ 为任意数",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.82,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 267543,
+                    "ai_tags": "离散型随机变�?概率分布�?
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 34,
+            "questions": [
+                {
+                    "id": 14087,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "31203953-1ce7-4826-aae4-7e2ea44c3b90",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设某离散型随机变�?$\\xi$ 的分布律�?$P\\{\\xi=k\\}=C \\frac{\\lambda^k}{(k-1)!}, k=1,2, \\cdots$, 常数 $\\lambda>0$, �?$C$ 的值应�?( ).",
+                    "analysis": "由分布律的性质 $\\sum_i p_i=1$ 得\n$$\n\\sum_{k=1}^{\\infty} P\\{\\xi=k\\}=\\lambda C \\sum_{k=1}^{\\infty} \\frac{\\lambda^{k-1}}{(k-1)!}=\\lambda C e^\\lambda=1,\n$$\n\n�?$C=\\frac{1}{\\lambda} e^{-\\lambda}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/012d3415090e4324a40e76e6f8f56738",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56348,
+                            "question_id": 14087,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{\\lambda} e^{-\\lambda}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56345,
+                            "question_id": 14087,
+                            "is_answer": false,
+                            "choice": "$e^{-1 / \\lambda}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56346,
+                            "question_id": 14087,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{\\lambda} e^{-1 / \\lambda}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56347,
+                            "question_id": 14087,
+                            "is_answer": false,
+                            "choice": "$e^{-\\lambda}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.77,
+                    "difficulty_score": 0.16,
+                    "avg_time_spent": 101017,
+                    "ai_tags": "概率�?离散型随机变�?分布�?
+                },
+                {
+                    "id": 14088,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "f791aabf-4e99-42de-a348-5ed63cb0a5d9",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设某离散型随机变�?$\\xi$ 的分布律�?$P\\{\\xi=k\\}=\\frac{k}{C}, k=1,2, \\cdots, 10$, �?$C$ 的值应�?( ).",
+                    "analysis": "分布律的性质之一 $\\sum_i p_i=1$,�?$\\sum_{k=1}^{10} \\frac{k}{C}=1 \\Rightarrow C=55$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/e60bf71dc3c94039aa72731780057a3f",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56351,
+                            "question_id": 14088,
+                            "is_answer": true,
+                            "choice": "$55$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56352,
+                            "question_id": 14088,
+                            "is_answer": false,
+                            "choice": "$45$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56349,
+                            "question_id": 14088,
+                            "is_answer": false,
+                            "choice": "$50$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 56350,
+                            "question_id": 14088,
+                            "is_answer": false,
+                            "choice": "$60$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.28,
+                    "avg_time_spent": 212551,
+                    "ai_tags": "离散型随机变�?分布�?
+                },
+                {
+                    "id": 14090,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "e990f37b-24e7-4f63-be66-40d07f448648",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$X$ 为一离散型随机变�? 其分布律为\n\\begin{tabular}{|c|ccc|}\n\\hline$X$ & -1 & 0 & 1 \\\\\n\\hline$p_i$ & $1 / 2$ & $1-2 q$ & $q^2$ \\\\\n\\hline\n\\end{tabular}\n\n�?$q$ 的值为 ().",
+                    "analysis": "$\\because$ 离散型随机变量的概率函数 $P\\left\\{X=x_i\\right\\}=p_i$, 满足 $\\sum_i p_i=1$, �?$0 \\leq p_i \\leq 1$,\n$$\n\\therefore \\quad\\left\\{\\begin{array}{c}\n1 / 2+1-2 q+q^2=1 \\\\\n0 \\leq 1-2 q \\leq 1 \\\\\nq^2 \\leq 1\n\\end{array}\\right.\n$$\n\n解得 $q=1-\\sqrt{1 / 2}$. 从�?$X$ 的分布律为下表所�?\n\\begin{tabular}{|l|lll|}\n\\hline$X$ & -1 & 0 & 1 \\\\\n\\hline$p_i$ & $1 / 2$ & $1-2 q$ & $q^2$ \\\\\n\\hline\n\\end{tabular}",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/0b34c34adc2241cfb74a4413f1c8a1cf",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56358,
+                            "question_id": 14090,
+                            "is_answer": true,
+                            "choice": "$q=1-\\sqrt{1 / 2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56357,
+                            "question_id": 14090,
+                            "is_answer": false,
+                            "choice": "$q=1-\\sqrt{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56360,
+                            "question_id": 14090,
+                            "is_answer": false,
+                            "choice": "$q=\\sqrt{1 / 2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56359,
+                            "question_id": 14090,
+                            "is_answer": false,
+                            "choice": "$q=1+\\sqrt{1 / 2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.69,
+                    "difficulty_score": 0.29,
+                    "avg_time_spent": 334598,
+                    "ai_tags": "离散型随机变�?分布�?
+                },
+                {
+                    "id": 14091,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "bdb179d5-7e52-488e-a9f7-5f6f1fe39292",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "若随机变�?$\\xi$ 只取�?$1,2,3$, �?$P\\{\\xi=1\\}=a, P\\{\\xi=2\\}=2 a, P\\{\\xi=3\\}=0.4$, �?$a$ 的值应�?().",
+                    "analysis": "分布律的性质之一 $\\sum_i p_i=1$,�?$a+2 a+0.4=1 \\Rightarrow a=0.2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/b31047e5337642528e0933db92a2afe5",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56363,
+                            "question_id": 14091,
+                            "is_answer": true,
+                            "choice": "$0.2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56362,
+                            "question_id": 14091,
+                            "is_answer": false,
+                            "choice": "$0.1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56364,
+                            "question_id": 14091,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56361,
+                            "question_id": 14091,
+                            "is_answer": false,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.29,
+                    "avg_time_spent": 200642,
+                    "ai_tags": "概率�?离散型随机变�?分布�?
+                },
+                {
+                    "id": 14094,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "41bd9666-df52-4809-baa1-668d903a8df4",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$X$ 的概率分布为 $P(X=k)=\\frac{c}{N} k, k=1,2, \\cdots, N$, 则常�?$c=()$.",
+                    "analysis": "$\\sum_{k=1}^N \\frac{C}{N} k=\\frac{C}{N} \\sum_{k=1}^N k=\\frac{C}{N} \\cdot \\frac{(1+N) N}{2}=\\frac{C(1+N)}{2}$, �?$\\frac{C(1+N)}{2}=1$, �?$C=\\frac{2}{1+N}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/7f4e8a01c50c4060a97332c3df95fb8e",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56376,
+                            "question_id": 14094,
+                            "is_answer": true,
+                            "choice": "$\\frac{2}{1+N}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56374,
+                            "question_id": 14094,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{1+N}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56373,
+                            "question_id": 14094,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{N}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56375,
+                            "question_id": 14094,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{N}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.87,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 213674,
+                    "ai_tags": "概率分布,离散型随机变�?
+                },
+                {
+                    "id": 14099,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "4f295222-2f98-4e62-a767-a4032c12df70",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$\\xi$ 的分布律�?$P\\{\\xi=k\\}=\\frac{a}{N}(k=1,2, \\cdots, N)$, 则常�?$a=()$.",
+                    "analysis": "由分布律的性质 $\\sum_i p_i=1$ �?$\\sum_{k=1}^N \\frac{a}{N}=1$,\n\n�?$\\frac{a}{N} N=1 \\Rightarrow a=1$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/5834aeb1dfec4fba80236823b2dc8db5",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56394,
+                            "question_id": 14099,
+                            "is_answer": true,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56393,
+                            "question_id": 14099,
+                            "is_answer": false,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56395,
+                            "question_id": 14099,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56396,
+                            "question_id": 14099,
+                            "is_answer": false,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.9,
+                    "difficulty_score": 0.17,
+                    "avg_time_spent": 40935,
+                    "ai_tags": "随机变量,分布�?概率性质"
+                },
+                {
+                    "id": 14102,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "6e859939-56cc-4200-be04-8113f129898d",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$X$ 是一个离散型随机变量, �?( ) 可以作为 $X$ 的概率分�?",
+                    "analysis": "分布律的性质�?\n(1) $p_i \\geq 0$;\n(2) $\\sum_i p_i=1$.\n\n经验�? 只有 $\\left\\{\\left(\\frac{2^n}{n!}\\right) e^{-2}: n=0,1,2, \\cdots\\right\\}$ 满足条件.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/593aebaefe014123a768976130f68766",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56405,
+                            "question_id": 14102,
+                            "is_answer": true,
+                            "choice": "$\\left\\{\\left(\\frac{2^n}{n!}\\right) e^{-2}: n=0,1,2, \\cdots\\right\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56408,
+                            "question_id": 14102,
+                            "is_answer": false,
+                            "choice": "$p, p^2$ ( $p$ 为任意实�?",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56407,
+                            "question_id": 14102,
+                            "is_answer": false,
+                            "choice": "$0.1,0.2,0.3,0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56406,
+                            "question_id": 14102,
+                            "is_answer": false,
+                            "choice": "$\\left\\{\\frac{2^n}{n!}: n=1,2, \\cdots\\right\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 212223,
+                    "ai_tags": "离散型随机变�?概率分布,泊松分布"
+                },
+                {
+                    "id": 14107,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "9530ead0-278f-401d-a9a9-fb023da56f81",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "若某运动员投篮命中的概率�?0.6 , �?$X$ 为运动员一次投篮的投中次数, 则下列正确的�?( ).",
+                    "analysis": "此运动员一次投篮的投中次数是一个随机变�? 设为 $X$, 它可能的值只有两�? �?0 �?1 . $X=0$ 表示未投�? 其概率为\n$$\np_1=P\\{X=0\\}=1-0.6=0.4\n$$\n$X=1$ 表示投中一�? 其概率为\n$$\np_2=P\\{X=1\\}=0.6\n$$\n\n则随机变量的分布律为\n\\begin{tabular}{|c|c|c|}\n\\hline$X$ & 0 & 1 \\\\\n\\hline$P$ & 0.4 & 0.6 \\\\\n\\hline\n\\end{tabular}",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/d1c33774dc4d4f9ca371e4725fa1728e",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56425,
+                            "question_id": 14107,
+                            "is_answer": true,
+                            "choice": "$P(X=1)=0.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56426,
+                            "question_id": 14107,
+                            "is_answer": false,
+                            "choice": "$P(X=1)=0.4$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56428,
+                            "question_id": 14107,
+                            "is_answer": false,
+                            "choice": "$P(X=0)=0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 56427,
+                            "question_id": 14107,
+                            "is_answer": false,
+                            "choice": "$P(X=0)=0.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.28,
+                    "avg_time_spent": 26708,
+                    "ai_tags": "概率�?离散型随机变�?分布�?
+                },
+                {
+                    "id": 19377,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "2fc698b3-837c-478c-a3d2-3ddc90113466",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设离散型随机变量 $\\xi$ 的分布律�?$P\\{\\xi=k\\}=\\frac{1}{A 3^k k!}, k=0,1,2, \\cdots$, 则常�?$A$ 应为 $($ ).",
+                    "analysis": "由分布律性质 $\\sum_i p_i=1$ 有\n$$\n\\sum_{k=0}^{\\infty} \\frac{1}{A 3^k k!}=1 \\Rightarrow \\frac{e^{1 / 3}}{A}=1 \\Rightarrow A=e^{1 / 3}\n$$\n\n这里用到 $e^\\lambda=1+\\frac{\\lambda}{1!}+\\frac{\\lambda^2}{2!}+\\cdots+\\frac{\\lambda^n}{n!}+\\cdots=\\sum_{k=0}^{\\infty} \\frac{\\lambda^k}{k!}$. 这根据泊松分布及分布律的性质易知.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340431
+                    },
+                    "question_json": "mathreact/499ddc17b6d04f46af1f25a67400eeb4",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88803,
+                            "question_id": 19377,
+                            "is_answer": false,
+                            "choice": "$e^{-1 / 3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 88804,
+                            "question_id": 19377,
+                            "is_answer": true,
+                            "choice": "$e^{1 / 3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 88805,
+                            "question_id": 19377,
+                            "is_answer": false,
+                            "choice": "$e^{-3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 88806,
+                            "question_id": 19377,
+                            "is_answer": false,
+                            "choice": "$e^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.46,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 183038,
+                    "ai_tags": "离散型随机变�?分布�?泰勒级数"
+                },
+                {
+                    "id": 19379,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "fc000281-eec1-4c25-a856-7a7b881a744f",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$\\xi$ 的分布律�?$P\\{\\xi=k\\}=a \\frac{\\lambda^k}{k!} (k=0,1,2, \\cdots)$�?\\lambda>0$ 为常数，�?$a=(\\quad)$.",
+                    "analysis": "由分布律的性质 $\\sum_i p_i=1$，有\n$$\n\\sum_{k=0}^{\\infty} a \\frac{\\lambda^k}{k!}=1 \\Rightarrow a \\sum_{k=0}^{\\infty} \\frac{\\lambda^k}{k!}=a e^{\\lambda}=1\n$$\n�?$a=e^{-\\lambda}$。\n\n注意：由泰勒展开公式有\n$$\ne^x=1+\\frac{1}{1!} x+\\frac{1}{2!} x^2+\\cdots+\\frac{1}{k!} x^k+\\cdots,\n$$\n�?$e^\\lambda=1+\\frac{1}{1!} \\lambda+\\frac{1}{2!} \\lambda^2+\\cdots+\\frac{1}{k!} \\lambda^k+\\cdots=\\sum_{k=0}^{\\infty} \\frac{\\lambda^k}{k!}$�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340440
+                    },
+                    "question_json": "mathreact/1065c34fa613485aafd78ccce14181a8",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88817,
+                            "question_id": 19379,
+                            "is_answer": true,
+                            "choice": "$e^{-\\lambda}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88818,
+                            "question_id": 19379,
+                            "is_answer": false,
+                            "choice": "$-\\lambda$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88819,
+                            "question_id": 19379,
+                            "is_answer": false,
+                            "choice": "$\\lambda$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88820,
+                            "question_id": 19379,
+                            "is_answer": false,
+                            "choice": "$e^\\lambda$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.95,
+                    "difficulty_score": 0.26,
+                    "avg_time_spent": 25651,
+                    "ai_tags": "概率�?离散型随机变�?分布�?
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 34,
+            "questions": [
+                {
+                    "id": 19380,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "73a951ff-bf8d-4e38-8d26-3956549a17bb",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "200 件产品中, �?196 件是正品, 4 件是次品, 今从中随机地抽取一�? 若规�?$X=\\left\\{\\begin{array}{l}1, \\text { 取到正品 } \\\\ 0, \\text { 取到次品 }\\end{array}\\right.$, 下列说法正确的是 ( ).",
+                    "analysis": "200 件产品中, �?96件是正品, 4件是次品, 今从中随机地抽取一�? 若规定\n$$\nX=\\left\\{\\begin{array}{l}\n1, \\text { 取到正品 } \\\\\n0, \\text { 取到次品 }\n\\end{array}\\right.\n$$\n\n�?$P\\{X=1\\}=\\frac{196}{200}=0.98, \\quad P\\{X=0\\}=\\frac{4}{200}=0.02$.\n于是, $X$ 服从参数�?0.98 的两点分�?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340440
+                    },
+                    "question_json": "mathreact/98c180f8e4d04b5fbb902f17c632ae33",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88824,
+                            "question_id": 19380,
+                            "is_answer": true,
+                            "choice": "$P\\{X=1\\}=0.98$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 88825,
+                            "question_id": 19380,
+                            "is_answer": false,
+                            "choice": "$P\\{X=1\\}=0.33$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 88826,
+                            "question_id": 19380,
+                            "is_answer": false,
+                            "choice": "$P\\{X=0\\}=0.22$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 88827,
+                            "question_id": 19380,
+                            "is_answer": false,
+                            "choice": "$P\\{X=0\\}=0.97$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.98,
+                    "difficulty_score": 0.3,
+                    "avg_time_spent": 29020,
+                    "ai_tags": "两点分布,概率计算"
+                },
+                {
+                    "id": 19381,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "17dbb587-8905-4407-95f1-9f4367199bb3",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设离散随机变量的分布律为 $P\\{X=i\\}=c q^{i-1} p(q=1-p), i=1,2, \\cdots, n$, �?$c=()$.",
+                    "analysis": "由分布律的性质有\n$$\n\\sum_{i=1}^n P\\{X=i\\}=1,\n$$\n\n即\n$$\n\\sum_{i=1}^n c q^{i-1} p=c p \\frac{1-q^n}{1-q}=1 \\Rightarrow c=\\frac{1}{1-q^n}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340442
+                    },
+                    "question_json": "mathreact/932a5c13bc404c10859a143a9c5d36b6",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88831,
+                            "question_id": 19381,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{1-q^n}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88832,
+                            "question_id": 19381,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88833,
+                            "question_id": 19381,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{1-q^{n+1}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88834,
+                            "question_id": 19381,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{1-q^{n-1}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.42,
+                    "difficulty_score": 0.3,
+                    "avg_time_spent": 77097,
+                    "ai_tags": "概率�?离散型随机变�?分布�?
+                },
+                {
+                    "id": 19382,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "b848de63-cf40-4fc9-be5c-fa4d80b4c58f",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "重复独立的掷一枚均匀硬币, 直到出现正面为止, �?$\\xi$ 表示首次出现正面的实验次�? �?$\\xi$ 的分布律 $P\\{\\xi=k\\}=()$.",
+                    "analysis": "根据伯努利定理的推论 1 , 事件 $A$ �?$k$ 次试验中首次发生的概率为 $p(1-p)^{k-1}$. 故抛一枚均匀硬币 $k$ 次首次出现正面的概率�?$\\frac{1}{2} \\times\\left(1-\\frac{1}{2}\\right)^{k-1}=\\frac{1}{2^k}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340451
+                    },
+                    "question_json": "mathreact/8540dd02ba8245168a7aa2857a11e413",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88838,
+                            "question_id": 19382,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{2^k}(k=1,2,3, \\cdots)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88839,
+                            "question_id": 19382,
+                            "is_answer": false,
+                            "choice": "$\\frac{k}{2^k}(k=1,2,3, \\cdots)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88840,
+                            "question_id": 19382,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2^{k-1}}(k=1,2,3, \\cdots)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88841,
+                            "question_id": 19382,
+                            "is_answer": false,
+                            "choice": "$\\frac{k-1}{2^{k-1}}(k=1,2,3, \\cdots)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.83,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 232960,
+                    "ai_tags": "几何分布,概率分布�?伯努利试�?
+                },
+                {
+                    "id": 19383,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "5770c0e9-8247-4b48-98fe-de8c56ba02e3",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "随机变量 $\\xi$ 的分布律�?$P\\{\\xi=k\\}=C \\lambda^k e^{-\\lambda} \\cdot \\frac{1}{k!} (k=0,2,4, \\cdots)$, 并已�?$\\sum_{n=0}^{\\infty} \\frac{x^{2 n}}{(2 n)!}=\\frac{1}{2}\\left(e^x+e^{-x}\\right)$, �?$C=(\\quad)$.",
+                    "analysis": "由分布律的性质 $\\sum_i p_i=1$ 有\n$$\n\\begin{aligned}\n& \\sum_i p_i=\\sum_{k=0}^{\\infty} C e^{-\\lambda} \\frac{\\lambda^{2 k}}{(2 k)!}=C e^{-\\lambda} \\frac{1}{2}\\left(e^{-\\lambda}+e^\\lambda\\right)=1, \\\\\n\\Rightarrow & C=\\frac{2}{1+e^{-2 \\lambda}} .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340455
+                    },
+                    "question_json": "mathreact/0d926e3ae21c4398a09764cf657e1f69",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88845,
+                            "question_id": 19383,
+                            "is_answer": true,
+                            "choice": "$\\frac{2}{1+e^{-2 \\lambda}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88846,
+                            "question_id": 19383,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{1+e^{-\\lambda}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88847,
+                            "question_id": 19383,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{1+e^{-\\lambda}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88848,
+                            "question_id": 19383,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{1+e^{-2 \\lambda}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.83,
+                    "difficulty_score": 0.41,
+                    "avg_time_spent": 278010,
+                    "ai_tags": "概率�?离散型随机变�?分布�?
+                },
+                {
+                    "id": 19385,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "fdc5b054-63c3-4e6f-acd6-2f52f3a89045",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$\\xi$ 的分布律�?$P(\\xi=k)=\\frac{\\lambda^k}{a k!}(\\lambda>0, k=1,2,3, \\cdots)$, �?$a=()$.",
+                    "analysis": "由分布律的性质 $\\sum_i P_i=1$ 有\n$$\n\\sum_{k=1}^{\\infty} \\frac{\\lambda^k}{a k!}=1 \\Rightarrow \\frac{e^{\\lambda}-1}{a}=1 \\Rightarrow a=e^\\lambda-1\n$$\n\n注意�?e^\\lambda=\\sum_{k=0}^{\\infty} \\frac{\\lambda^k}{k!}$�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340461
+                    },
+                    "question_json": "mathreact/838335ad66b544939e624294db51bed7",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88859,
+                            "question_id": 19385,
+                            "is_answer": true,
+                            "choice": "$e^\\lambda-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88860,
+                            "question_id": 19385,
+                            "is_answer": false,
+                            "choice": "$e^{-\\lambda}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88861,
+                            "question_id": 19385,
+                            "is_answer": false,
+                            "choice": "$e^\\lambda$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88862,
+                            "question_id": 19385,
+                            "is_answer": false,
+                            "choice": "$e^{-\\lambda}-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.21,
+                    "difficulty_score": 0.47,
+                    "avg_time_spent": 72578,
+                    "tags": "近期45人做�?,
+                    "ai_tags": "概率�?离散型随机变�?分布�?
+                },
+                {
+                    "id": 19388,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "9554d76d-5370-4479-8683-2efe17ab3363",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变�?$X$ 只取正整数�?$N$, �?$P\\{X=N\\}$ �?$N^2$ 成反�? �?$X$ 的分布律�?$P\\{X=N\\}=()$.",
+                    "analysis": "依题�?$P\\{X=N\\}=\\frac{c}{N^2}$, 其中 $c$ 待定. 由于 $\\sum_{N=1}^{\\infty} \\frac{c}{N^2}=c \\cdot \\frac{\\pi^2}{6}=1$, 所�?$c=\\frac{6}{\\pi^2}$, �?$X$ 的分布律�?$P\\{X=N\\}=\\frac{6}{\\pi^2 N^2}, N$ 取正整数.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340465
+                    },
+                    "question_json": "mathreact/8c4f30220238471780800a08c0d27fbe",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88880,
+                            "question_id": 19388,
+                            "is_answer": true,
+                            "choice": "$\\frac{6}{\\pi^2 N^2}, N$ 取正整数",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88881,
+                            "question_id": 19388,
+                            "is_answer": false,
+                            "choice": "$\\frac{6}{\\pi N^2}, N$ 取正整数",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88882,
+                            "question_id": 19388,
+                            "is_answer": false,
+                            "choice": "$\\frac{6}{\\pi N}, N$ 取正整数",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88883,
+                            "question_id": 19388,
+                            "is_answer": false,
+                            "choice": "$\\frac{6}{\\pi^2 N}$ �?$N$ 取正整数",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.68,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 1081158,
+                    "ai_tags": "离散型随机变�?分布�?无穷级数"
+                },
+                {
+                    "id": 19389,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "a0f12be1-1ce4-4691-9b30-df01ff34ee64",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设某产品 40 �? 其中有次�?3 �? 现从其中任取 3 �? 若记取出的次品数�?$X$, �?$P\\{X=i\\}=(), i=0,1,2,3$.",
+                    "analysis": "依题意可�? 所求事件概率的古典概型.\n基本事件总数�?$C_{40}^3$,\n取出的产品中含有次品�?$X=i$ 所包含的基本事件为 $C_3^i C_{37}^{3-i}$, �?$P\\{X=i\\}=\\frac{C_3^i C_{37}^{3-i}}{C_{40}^3}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340466
+                    },
+                    "question_json": "mathreact/6fdfc4de0e3d4906b6276877dcd3c12c",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88887,
+                            "question_id": 19389,
+                            "is_answer": true,
+                            "choice": "$\\frac{C_3^i C_{37}^{3-i}}{C_{40}^3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 88888,
+                            "question_id": 19389,
+                            "is_answer": false,
+                            "choice": "$\\frac{C_3^i P_{37}^{3-i}}{P_{40}^3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 88889,
+                            "question_id": 19389,
+                            "is_answer": false,
+                            "choice": "$\\frac{C_3^i C_{37}^{3-i}}{P_{40}^3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        },
+                        {
+                            "id": 88890,
+                            "question_id": 19389,
+                            "is_answer": false,
+                            "choice": "$\\frac{C_3^i C_{40}^{3-i}}{C_{40}^3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080696
+                            },
+                            "updated_at": {
+                                "seconds": 1735080696
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.79,
+                    "difficulty_score": 0.37,
+                    "avg_time_spent": 143307,
+                    "ai_tags": "古典概型,超几何分�?
+                },
+                {
+                    "id": 19391,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "35d513f6-4c2a-42ed-ab6e-4797bafb51e0",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一批产品共 10 �? 其中�?7 件正�? 3 件次�? 每次从这批产品中任取一�? 取出的产品仍放回�? 则直至取到正品为止所需次数 $X$ 的概率分布为 ().",
+                    "analysis": "由于每次取出的产品仍放回�? 各次抽取相互独立, 下次抽取时情况与前一次抽取时完全相同, 所�?$X$ 的可能取值是所有正整数 $1,2, \\cdots, k, \\cdots$.\n设第 $k$ 次才取到正品 (�?$k-1$ 次都取到次品), 则随机变�?$X$ 的分布律为\n$$\nP\\{X=k\\}=\\frac{3}{10} \\times \\frac{3}{10} \\times \\cdots \\times \\frac{3}{10} \\times \\frac{7}{10}=\\left(\\frac{3}{10}\\right)^{k-1} \\times \\frac{7}{10}, k=1,2, \\cdots .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340476
+                    },
+                    "question_json": "mathreact/5a352c1bbb04490e86a8d2aa806cf1dd",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88901,
+                            "question_id": 19391,
+                            "is_answer": true,
+                            "choice": "$P\\{X=k\\}=\\left(\\frac{3}{10}\\right)^{k-1} \\times \\frac{7}{10}, k=1,2, \\cdots$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88902,
+                            "question_id": 19391,
+                            "is_answer": false,
+                            "choice": "$P\\{X=k\\}=\\left(\\frac{7}{10}\\right)^{k-1} \\times \\frac{3}{10}, k=1,2, \\cdots$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88903,
+                            "question_id": 19391,
+                            "is_answer": false,
+                            "choice": "$P\\{X=k\\}=\\left(\\frac{3}{10}\\right)^k \\times \\frac{7}{10}, k=1,2, \\cdots$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88904,
+                            "question_id": 19391,
+                            "is_answer": false,
+                            "choice": "$P\\{X=k\\}=\\left(\\frac{7}{10}\\right)^k \\times \\frac{3}{10}, k=1,2, \\cdots$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.3,
+                    "avg_time_spent": 79205,
+                    "tags": "近期易错",
+                    "ai_tags": "概率分布,几何分布,独立重复试验"
+                },
+                {
+                    "id": 19395,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "cc754a83-d62a-4541-a160-d7fb9175eb87",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "离散型随机变�?$\\xi$ 的概率分布为 $P(\\xi=k)=b \\lambda^k(k=0,1,2, \\cdots)$ 的充分必要条件是 () .",
+                    "analysis": "由分布律的性质 $p_i \\geq 0, \\sum_i p_i=1$ 有\n$$\n\\begin{cases}\nP \\{ \\xi = k \\} \\geq 0 \\\\\n\\sum_{k} P \\{ \\xi = k \\} = 1\n\\end{cases} \\Rightarrow \\begin{cases}\nb \\lambda^k \\geq 0 \\\\\n\\sum_{k} b \\lambda^k=1\n\\end{cases}\n$$\n要使 $\\sum_{k} b \\lambda^k=1$, 则必满足 $b \\neq 0, 0<\\lambda<1$. �?$p_0=b \\lambda^0=b \\geq 0$, 所以有 $0<b<1, 0<\\lambda<1$. 进一步求解得\n$$\n\\lambda=1-b \\text { �?} 0<b<1 \\text { (或�?} b=1-\\lambda, 0<\\lambda<1 \\text { ). }\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340481
+                    },
+                    "question_json": "mathreact/66a76de24b4842f780c539572b213659",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88929,
+                            "question_id": 19395,
+                            "is_answer": true,
+                            "choice": "$b=1-\\lambda$ �?$0<\\lambda<1$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88930,
+                            "question_id": 19395,
+                            "is_answer": false,
+                            "choice": "$b>0$ �?$0<\\lambda<1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88931,
+                            "question_id": 19395,
+                            "is_answer": false,
+                            "choice": "$b=\\frac{1}{\\lambda}-1$ �?$\\lambda<1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88932,
+                            "question_id": 19395,
+                            "is_answer": false,
+                            "choice": "$\\lambda=\\frac{1}{1+b}$ �?$b>0$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.62,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 258079,
+                    "ai_tags": "概率�?离散型随机变�?概率分布"
+                },
+                {
+                    "id": 19396,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "95f38cf1-b0f8-4892-a8c2-248cfe77970e",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "从一副扑克牌�?(52 �? 不放回地连续抽取 3 �? �?$X$ 是其中含黑桃牌的数目，则 $X$ 的分布律�?( ).",
+                    "analysis": "$\\begin{aligned} & P\\{X=0\\}=\\frac{C_{13}^0 C_{39}^3}{C_{52}^3}=\\frac{39}{52} \\times \\frac{38}{51} \\times \\frac{37}{50}=\\frac{703}{1700}, \\\\ & P\\{X=1\\}=\\frac{C_{13}^1 C_{39}^2}{C_{52}^3}=3 \\times \\frac{13}{52} \\times \\frac{39}{51} \\times \\frac{38}{50}=\\frac{741}{1700}, \\\\ & P\\{X=2\\}=\\frac{C_{13}^2 C_{39}^1}{C_{52}^3}=3 \\times \\frac{13}{52} \\times \\frac{12}{51} \\times \\frac{39}{50}=\\frac{117}{850}, \\\\ & P\\{X=3\\}=\\frac{C_{13}^3 C_{39}^0}{C_{52}^3}=\\frac{13}{52} \\times \\frac{12}{51} \\times \\frac{11}{50}=\\frac{11}{850} .\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340485
+                    },
+                    "question_json": "mathreact/6c2c7106cb834e718307389cd26b061f",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88936,
+                            "question_id": 19396,
+                            "is_answer": true,
+                            "choice": "$\\begin{array}{c|cccc} \\hline X & 0 & 1 & 2 & 3 \\\\ \\hline p_i & \\frac{703}{1700} & \\frac{741}{1700} & \\frac{117}{850} & \\frac{11}{850} \\\\ \\hline \\end{array}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88937,
+                            "question_id": 19396,
+                            "is_answer": false,
+                            "choice": "$\\begin{array}{c|cccc} \\hline X & 0 & 1 & 2 & 3 \\\\ \\hline p_i & \\frac{741}{1700} & \\frac{703}{1700} & \\frac{117}{850} & \\frac{11}{850} \\\\ \\hline \\end{array}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88938,
+                            "question_id": 19396,
+                            "is_answer": false,
+                            "choice": "$\\begin{array}{c|cccc} \\hline X & 0 & 1 & 2 & 3 \\\\ \\hline p_i & \\frac{703}{1700} & \\frac{741}{1700} & \\frac{117}{1700} & \\frac{11}{1700} \\\\ \\hline \\end{array}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88939,
+                            "question_id": 19396,
+                            "is_answer": false,
+                            "choice": "$\\begin{array}{c|cccc} \\hline X & 0 & 1 & 2 & 3 \\\\ \\hline p_i & \\frac{741}{1700} & \\frac{703}{1700} & \\frac{117}{1700} & \\frac{11}{1700} \\\\ \\hline \\end{array}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.48,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 179316,
+                    "ai_tags": "概率�?超几何分�?离散型随机变�?
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 34,
+            "questions": [
+                {
+                    "id": 19398,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "ae8d7879-4492-4a3e-ae8b-d786bfba3930",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设离散型随机变量 $X$ 的分布率�?$P\\{X=k\\}=b \\lambda^k,(k=1,2, \\cdots ; b>0)$, �?$\\lambda$ �?( \\quad ).",
+                    "analysis": "�?$S_n=\\sum_{k=1}^n b \\lambda^k$, �?$S_n=b \\cdot \\frac{\\left(1-\\lambda^n\\right) \\lambda}{1-\\lambda}$, 又由分布律的性质 $\\sum_{k=1}^{\\infty} P\\{X=k\\}=\\sum_{k=1}^{\\infty} b \\lambda^k=1$ 有\n$$\n\\lim _{n \\rightarrow \\infty} S_n=\\lim _{n \\rightarrow \\infty} b \\lambda \\frac{1-\\lambda^n}{1-\\lambda}=1\n$$\n\n于是, �?$|\\lambda|<1$ �? 极限存在, �?$b \\frac{\\lambda}{1-\\lambda}=1$.\n�?$\\lambda=\\frac{1}{1+b}(b>0)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340488
+                    },
+                    "question_json": "mathreact/b6eddebb9911429fa50257ba3ed5b914",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88950,
+                            "question_id": 19398,
+                            "is_answer": true,
+                            "choice": "$\\lambda=\\frac{1}{1+b}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88951,
+                            "question_id": 19398,
+                            "is_answer": false,
+                            "choice": "$\\lambda$ 为大�?0 的任意实�?,
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88952,
+                            "question_id": 19398,
+                            "is_answer": false,
+                            "choice": "$\\lambda=b+1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88953,
+                            "question_id": 19398,
+                            "is_answer": false,
+                            "choice": "$\\lambda=\\frac{1}{b-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.73,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 146482,
+                    "ai_tags": "概率�?离散型随机变�?分布�?
+                },
+                {
+                    "id": 19401,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "6748f6a9-1435-428f-bdb3-901644a2b405",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "盒中�?12 只晶体管, 其中�?10 只正�? 2 只次�? 现从盒中任取 3 �? �?3 只中所含次品数�?$X$, �?$X$ 的分布列为\n\\begin{tabular}{l|l|l|l}\n$X$ & 0 & 1 & 2 \\\\\n\\hline$P$ & & &\n\\end{tabular} , �?( ).",
+                    "analysis": "因是一次性取�?�? 属古典概�? 故有\n$$\n\\begin{aligned}\n& p_0=P\\{X=0\\}=\\frac{C_{10}^3}{C_{12}^3}=\\frac{6}{11} \\approx 0.545, \\\\\n& p_1=P\\{X=1\\}=\\frac{C_{10}^2 C_2^1}{C_{12}^3}=\\frac{9}{22} \\approx 0.409, \\\\\n& p_2=P\\{X=2\\}=\\frac{C_2^2 C_{10}^1}{C_{12}^3}=\\frac{1}{22} \\approx 0.046.\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340501
+                    },
+                    "question_json": "mathreact/351e6f22cbd04addb97313caa5353b94",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88971,
+                            "question_id": 19401,
+                            "is_answer": true,
+                            "choice": "$(0.545,0.409,0.046)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88972,
+                            "question_id": 19401,
+                            "is_answer": false,
+                            "choice": "$(0.046,0.409,0.545)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88973,
+                            "question_id": 19401,
+                            "is_answer": false,
+                            "choice": "$(0.409,0.046,0.545)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88974,
+                            "question_id": 19401,
+                            "is_answer": false,
+                            "choice": "$(0.409,0.545,0.046)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.81,
+                    "difficulty_score": 0.37,
+                    "avg_time_spent": 110936,
+                    "ai_tags": "古典概型,离散型随机变�?分布�?
+                },
+                {
+                    "id": 19404,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "7fcb7f50-98e8-4c2c-b2af-734db9597cb1",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "将一枚硬币抛掷三次，观察正面 $H$、反�?$T$ 出现的情况，记每次试验出现正�?$H$ 的总次数为随机变量 $X$，则下列说法正确的是 ( ).",
+                    "analysis": "在将一枚硬币抛掷三次，观察正面 $H$、反�?$T$ 出现情况的试验中，其样本空间\n$$\nS=\\{H H H, H H T, H T H, T H H, H T T, T H T, T T H, T T T\\}\n$$\n若记每次试验出现正面 $H$ 的总次数为随机变量 $X$，则 $X$ 作为样本空间 $S$ 上的函数定义为\n\\begin{tabular}{|c|cccccccc|}\n\\hline $\\omega$ & $H H H$ & $H H T$ & $H T H$ & $T H H$ & $H T T$ & $T H T$ & $T T H$ & $T T T$ \\\\\n\\hline $X$ & 3 & 2 & 2 & 2 & 1 & 1 & 1 & 0 \\\\\n\\hline\n\\end{tabular}\n\n易见，使 $X$ 取值为 2 的样本点构成的子�?$A=\\{H H T, H T H, T H H\\}$，\n故\n$$\nP\\{X=2\\}=P(A)=3 / 8,\n$$\n类似地有\n$$\nP\\{X \\leq 1\\}=P\\{H T T, T H T, T T H, T T T\\}=4 / 8.\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340506
+                    },
+                    "question_json": "mathreact/9718dac300774826a51194a2a02dbd3f",
+                    "updated_at": {
+                        "seconds": 1775673108
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88992,
+                            "question_id": 19404,
+                            "is_answer": true,
+                            "choice": "$P\\{X=2\\}=3 / 8$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88993,
+                            "question_id": 19404,
+                            "is_answer": false,
+                            "choice": "$P\\{X=2\\}=1 / 8$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88994,
+                            "question_id": 19404,
+                            "is_answer": false,
+                            "choice": "$P\\{X \\leq 1\\}=3 / 8$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 88996,
+                            "question_id": 19404,
+                            "is_answer": false,
+                            "choice": "$P\\{X \\leq 1\\}=1 / 8$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.37,
+                    "avg_time_spent": 306341,
+                    "ai_tags": "随机变量,样本空间,古典概型"
+                },
+                {
+                    "id": 19415,
+                    "subject_id": 3,
+                    "chapter_id": 289,
+                    "question_id": "0cc89fec-f77c-4844-b8d1-92560645df51",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某射手每次射击命中目标的概率�?0.8, 现连续向一个目标射�? 直至第一次命中目标为�? 射击次数 $\\xi$ 的分布律 $P\\{\\xi=k\\}=()$.",
+                    "analysis": "根据伯努利试验的性质, 事件 $A$ �?$k$ 次试验中首次发生的概率为 $p(1-p)^{k-1}$, 即\n$$\nP\\{\\xi=k\\}=p(1-p)^{k-1}=0.8 \\times 0.2^{k-1}, k=1,2, \\cdots .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340542
+                    },
+                    "question_json": "mathreact/1857b511633143469c287172224f29cd",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89069,
+                            "question_id": 19415,
+                            "is_answer": true,
+                            "choice": "$(0.2)^{k-1}(0.8), k=1,2, \\cdots$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89070,
+                            "question_id": 19415,
+                            "is_answer": false,
+                            "choice": "$C_k^1(0.2)(0.8)^{k-1}, k=1,2, \\cdots$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89071,
+                            "question_id": 19415,
+                            "is_answer": false,
+                            "choice": "$C_k^1(0.2)^{k-1}(0.8), k=1,2, \\cdots$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        },
+                        {
+                            "id": 89072,
+                            "question_id": 19415,
+                            "is_answer": false,
+                            "choice": "$(0.2)(0.8)^{k-1}, k=1,2, \\cdots$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080697
+                            },
+                            "updated_at": {
+                                "seconds": 1735080697
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.87,
+                    "difficulty_score": 0.37,
+                    "avg_time_spent": 192422,
+                    "tags": "近期易错",
+                    "ai_tags": "概率�?几何分布,伯努利试�?
+                }
+            ]
+        }
+    }
+]

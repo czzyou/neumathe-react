@@ -1,0 +1,2730 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 32,
+            "questions": [
+                {
+                    "id": 12927,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "1d770542-7669-409a-b701-629e5cdedda6",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设二维随机变�?$(\\xi, \\eta)$ 的联合概率密度为 $\\varphi(x, y)=k x y e^{-\\left(x^2+y^2\\right)}(x \\geq 0, y \\geq 0)$, 则常�?$k=()$.",
+                    "analysis": "根据联合概率密度性质 $\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} \\varphi(x, y) d x d y=1$, �?$\\frac{k}{4}=1$, �?$k=4$.注意: $\\int_0^{+\\infty} e^{-x^2} d x=\\frac{\\sqrt{\\pi}}{2}, \\int_0^{+\\infty} x e^{-x^2} d x=\\frac{1}{2}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/cfa0f232e6d641a88ee122f46dc06b25",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51705,
+                            "question_id": 12927,
+                            "is_answer": false,
+                            "choice": "$6$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 51706,
+                            "question_id": 12927,
+                            "is_answer": true,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 51707,
+                            "question_id": 12927,
+                            "is_answer": false,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 51708,
+                            "question_id": 12927,
+                            "is_answer": false,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.83,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 89517,
+                    "ai_tags": "二维随机变量,联合概率密度,二重积分"
+                },
+                {
+                    "id": 12928,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "4481e4b3-5cd0-4f0d-b8d8-ddc3a7f00fef",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设二维随机变�?$(\\xi, \\eta)$ 的联合概率密度为 $\\varphi(x, y)$, 在条�?$\\xi=x$ 下关�?$\\eta$ 的条件分布密度为 $\\varphi_1(y \\mid x)$,�?$P\\left\\{\\left.\\eta \\leq \\frac{1}{2} \\right\\rvert\\, \\xi \\leq \\frac{1}{2}\\right\\}=()$.",
+                    "analysis": "$P\\left\\{\\left.\\eta \\leq \\frac{1}{2} \\right\\rvert\\, \\xi \\leq \\frac{1}{2}\\right\\}=\\frac{P\\left\\{\\eta \\leq \\frac{1}{2}, \\xi \\leq \\frac{1}{2}\\right\\}}{P\\left\\{\\xi \\leq \\frac{1}{2}\\right\\}}=\\frac{\\int_{-\\infty}^{\\frac{1}{2}} \\int_{-\\infty}^{\\frac{1}{2}} \\varphi(x, y) d x d y}{\\int_{-\\infty}^{\\frac{1}{2}} \\int_{-\\infty}^{+\\infty} \\varphi(x, y) d y d x}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/e10fed5fb76845369c0851ea669b07bb",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51712,
+                            "question_id": 12928,
+                            "is_answer": true,
+                            "choice": "$\\frac{\\int_{-\\infty}^{\\frac{1}{2}} \\int_{-\\infty}^{\\frac{1}{2}} \\varphi(x, y) d x d y}{\\int_{-\\infty}^{\\frac{1}{2}} \\int_{-\\infty}^{+\\infty} \\varphi(x, y) d y d x}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 51709,
+                            "question_id": 12928,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\int_{-\\infty}^{\\frac{1}{2}} \\int_{-\\infty}^{\\frac{1}{2}} \\varphi(x, y) d x d y}{\\int_{-\\infty}^{\\frac{1}{2}} \\varphi(x, y) d x}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 51710,
+                            "question_id": 12928,
+                            "is_answer": false,
+                            "choice": "$\\int_{-\\infty}^{\\frac{1}{2}} \\int_{-\\infty}^{\\frac{1}{2}} \\varphi_1(y \\mid x) d x d y$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 51711,
+                            "question_id": 12928,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\int_{-\\infty}^{\\frac{1}{2}} \\int_{-\\infty}^{\\frac{1}{2}} \\varphi(x, y) d x d y}{\\int_{-\\infty}^{\\frac{1}{2}} \\varphi(x, y) d y}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.46,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 37883,
+                    "tags": "",
+                    "ai_tags": "概率�?二维随机变量,条件概率"
+                },
+                {
+                    "id": 12935,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "04f7bae0-90c5-4c8d-932a-161be1d555eb",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设二维随机向�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\frac{6}{\\pi^2\\left(4+x^2\\right)\\left(9+y^2\\right)}(-\\infty<x<+\\infty,-\\infty<y<+\\infty),\n$$\n\n�?$f_x(x)=()$.",
+                    "analysis": "$f_X(x)=\\int_{-\\infty}^{+\\infty} f(x, y) d y=\\int_{-\\infty}^{+\\infty} \\frac{6}{\\pi^2\\left(4+x^2\\right)\\left(9+y^2\\right)} d y=\\frac{2}{\\pi^2\\left(4+x^2\\right)} \\int_{-\\infty}^{+\\infty} \\frac{3}{\\left(9+y^2\\right)} d y=\\frac{2}{\\pi\\left(4+x^2\\right)}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/f76e33c856904d5a8102f0a216d9df3e",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51740,
+                            "question_id": 12935,
+                            "is_answer": true,
+                            "choice": "$\\frac{2}{\\pi\\left(4+x^2\\right)}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 51737,
+                            "question_id": 12935,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{\\pi\\left(9+x^2\\right)}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 51739,
+                            "question_id": 12935,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{\\pi\\left(4+x^2\\right)}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 51738,
+                            "question_id": 12935,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{\\pi\\left(9+x^2\\right)}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.81,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 99758,
+                    "tags": "",
+                    "ai_tags": "二维随机变量,边缘概率密度,概率密度函数"
+                },
+                {
+                    "id": 12936,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "258a7f91-4533-4390-9497-56fedf203396",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设连续随机向�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{l}\nk x y^2, 0 \\leq x<2,0 \\leq y<1, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$\n\n�?$k=()$.",
+                    "analysis": "�?$\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x, y) d x d y=1$, �?$\\int_0^1 d y \\int_0^2 k x y^2 d x=1$, �?$\\frac{2}{3} k=1$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/3261936b118c4c6da3fee6ec69127204",
+                    "updated_at": {
+                        "seconds": 1775673110
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51741,
+                            "question_id": 12936,
+                            "is_answer": true,
+                            "choice": "$\\frac{3}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 51742,
+                            "question_id": 12936,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 51744,
+                            "question_id": 12936,
+                            "is_answer": false,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 51743,
+                            "question_id": 12936,
+                            "is_answer": false,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.84,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 61698,
+                    "ai_tags": "概率密度函数,二重积分,连续随机向量"
+                },
+                {
+                    "id": 12948,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "adb70912-2358-4b74-bc9a-96338553adbe",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{l}\nk\\left(x^2+y^2\\right), 0<x<2,1<y<4, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$\n\n�?$k=()$.",
+                    "analysis": "根据联合概率密度性质有\n$$\n\\int_0^2 \\int_1^4 k\\left(x^2+y^2\\right) d x d y=1,\n$$\n\n解得 $k=\\frac{1}{50}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/5ab6168652384305bb0ffaf57cb3924e",
+                    "updated_at": {
+                        "seconds": 1775673114
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51792,
+                            "question_id": 12948,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{50}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 51791,
+                            "question_id": 12948,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{30}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 51790,
+                            "question_id": 12948,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{20}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 51789,
+                            "question_id": 12948,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{45}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 86256,
+                    "ai_tags": "二维随机变量,概率密度,二重积分"
+                },
+                {
+                    "id": 12950,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "52cab3f7-a765-4409-af93-0ae2b902730f",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{l}\n\\frac{2}{3}(x+2 y), 0 \\leq x \\leq 1,0 \\leq y \\leq 1, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$\n\n则关�?$x$ 的边缘概率密度为 ().",
+                    "analysis": "$f_X(x)=\\int_{-\\infty}^{+\\infty} f(x, y) d y=\\left\\{\\begin{array}{l}\\int_0^1 \\frac{2}{3}(x+2 y) d y, 0 \\leq x \\leq 1 \\\\ 0, \\text { 其它 }\\end{array}=\\left\\{\\begin{array}{l}\\frac{2}{3}(x+1), 0 \\leq x \\leq 1, \\\\ 0, \\text { 其它. }\\end{array}\\right.\\right.$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/1b0d3d180973430486126e3fd906da57",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51797,
+                            "question_id": 12950,
+                            "is_answer": true,
+                            "choice": "$f_X(x)=\\left\\{\\begin{array}{cc}\\frac{2}{3}(x+1), & 0 \\leq x \\leq 1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 51799,
+                            "question_id": 12950,
+                            "is_answer": false,
+                            "choice": "$f_X(x)=\\left\\{\\begin{array}{cl}\\frac{4}{3}(x+1), & 0 \\leq x \\leq 1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 51800,
+                            "question_id": 12950,
+                            "is_answer": false,
+                            "choice": "$f_X(x)=\\left\\{\\begin{array}{cc}\\frac{2}{3} x+1, & 0 \\leq x \\leq 1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 51798,
+                            "question_id": 12950,
+                            "is_answer": false,
+                            "choice": "$f_X(x)=\\left\\{\\begin{array}{cc}\\frac{4}{3} x+1, & 0 \\leq x \\leq 1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.81,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 72144,
+                    "ai_tags": "概率�?二维随机变量,边缘概率密度"
+                },
+                {
+                    "id": 12955,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "693b4514-781a-4300-95d7-d177c4fcc117",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设二维随机变�?$(\\xi, \\eta)$ 的联合概率密度函数是 $\\varphi(x, y)$, 则关�?$\\xi$ 的边缘分布密�?$\\varphi_1(x)=()$.",
+                    "analysis": "根据边缘密度函数的定义有 $\\varphi_1(x)=\\int_{-\\infty}^{+\\infty} \\varphi(x, y) d y$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "mathreact/c659ebc56c104ae6853cb109f5e86859",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51820,
+                            "question_id": 12955,
+                            "is_answer": true,
+                            "choice": "$\\int_{-\\infty}^{+\\infty} \\varphi(x, y) d y$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 51817,
+                            "question_id": 12955,
+                            "is_answer": false,
+                            "choice": "$\\int_{-\\infty}^{+\\infty} \\varphi(x, y) d x$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 51818,
+                            "question_id": 12955,
+                            "is_answer": false,
+                            "choice": "$\\varphi(x,+\\infty)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 51819,
+                            "question_id": 12955,
+                            "is_answer": false,
+                            "choice": "$\\int_{-\\infty}^x \\varphi(x, y) d y$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.95,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 74920,
+                    "ai_tags": "概率�?二维随机变量,边缘分布密度"
+                },
+                {
+                    "id": 18657,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "2abf06b0-fb17-46d2-a68d-bbd9cd94b6dd",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设二维随机变�?$(X, Y)$ 的联合密度为\n$$\nf(x, y)=\\begin{cases} ce^{-(x+y)}, & x \\ge 0, y \\ge 0 \\\\ 0, & \\text{其它} \\end{cases}\n$$\n�?$c$ 的值为 ( ).",
+                    "analysis": "根据联合概率密度性质有\n$$\n\\int_0^{+\\infty} \\int_0^{+\\infty} c e^{-(x+y)} d x d y=1,\n$$\n\n解得 $c=1$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338709
+                    },
+                    "question_json": "mathreact/ca946626b8dc46978786a8b96ad3a13e",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83763,
+                            "question_id": 18657,
+                            "is_answer": true,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83764,
+                            "question_id": 18657,
+                            "is_answer": false,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83765,
+                            "question_id": 18657,
+                            "is_answer": false,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83766,
+                            "question_id": 18657,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.88,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 88917,
+                    "ai_tags": "二维随机变量,联合概率密度"
+                },
+                {
+                    "id": 18661,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "b2fd67bd-9f8c-4220-ae0b-93e14f611d29",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机向�?$(X, Y)$ 的概率密度为 $f(x, y)=\\begin{cases} 6xy, & 0<x<1, 0<y<2(1-x) \\\\ 0, & \\text{其它} \\end{cases}$，则 $X$ 的边缘概率密度为 ( ).",
+                    "analysis": "随机变量 $X$ 的边缘概率密�?$f_X(x)=\\int_{-\\infty}^{+\\infty} f(x, y) d y$, 且当 $0<x<1$ �? $f_X(x)=\\int_0^{2(1-x)} 6 x y d y=12 x(1-x)^2$; �?$x \\leq 0$ �?$x \\geq 1$ �? $f_X(x)=\\int_{-\\infty}^{+\\infty} 0 d y=0$.�?$X$ 的边缘概率密度为\n$$\nf_X(x)=\\left\\{\\begin{array}{l}\n12 x(1-x)^2, 0<x<1, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338718
+                    },
+                    "question_json": "mathreact/7188ac0f512649a0872e076e6c7c5a50",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83791,
+                            "question_id": 18661,
+                            "is_answer": true,
+                            "choice": "$f_X(x)=\\left\\{\\begin{array}{cl}12 x(1-x)^2, & 0<x<1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83792,
+                            "question_id": 18661,
+                            "is_answer": false,
+                            "choice": "$f_X(x)=\\left\\{\\begin{array}{cl}6 x(1-x)^2, & 0 \\leq x \\leq 1 \\\\ 0, & \\text { 其他 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83793,
+                            "question_id": 18661,
+                            "is_answer": false,
+                            "choice": "$f_X(x)=12 x\\left(1-x^2\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83794,
+                            "question_id": 18661,
+                            "is_answer": false,
+                            "choice": "$f_X(x)=\\left\\{\\begin{array}{cc}3 x\\left(1-\\frac{x}{2}\\right)^2, & 0<x \\leq 2 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.71,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 510046,
+                    "ai_tags": "概率�?边缘概率密度,二维随机变量"
+                },
+                {
+                    "id": 18663,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "9f8cc8a9-0fdd-43f8-b9cd-a72b9cbb415c",
+                    "difficulty": "Easy",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "设二维随机变�?$(\\xi, \\eta)$ 的联合概率密度为 $\\varphi(x, y)$, 关于 $\\xi$ �?$\\eta$ 的边缘概率密度分别为 $\\varphi_1(x)$ �?$\\varphi_2(y)$, 则在 $\\eta=y(\\varphi_2(y)>0)$ 的条件下 $\\xi$ 的条件概率密�?$\\varphi(x \\mid y)=(\\quad)$.",
+                    "analysis": "根据条件概率密度的定�? �?$\\eta=y\\left(\\varphi_2(y)>0\\right)$ 条件下即�?$\\varphi(x \\mid y)=\\frac{\\varphi(x, y)}{\\varphi_2(y)}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338721
+                    },
+                    "question_json": "mathreact/b9d58cf387db4576b5ff2dd9ef1b0df9",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83805,
+                            "question_id": 18663,
+                            "is_answer": false,
+                            "choice": "$\\varphi(x \\mid y)=\\frac{\\varphi_2(y)}{\\varphi(x, y)} \\quad(\\varphi(x, y)>0)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83806,
+                            "question_id": 18663,
+                            "is_answer": false,
+                            "choice": "$\\varphi(x \\mid y)=\\frac{\\varphi(x, y)}{\\varphi_1(y)} \\quad\\left(\\varphi_1(y)>0\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83807,
+                            "question_id": 18663,
+                            "is_answer": true,
+                            "choice": "$\\varphi(x \\mid y)=\\frac{\\varphi(x, y)}{\\varphi_2(y)} \\quad\\left(\\varphi_2(y)>0\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83808,
+                            "question_id": 18663,
+                            "is_answer": false,
+                            "choice": "$\\varphi(x \\mid y)=\\frac{\\varphi_1(x)}{\\varphi_2(y)} \\quad\\left(\\varphi_2(y)>0\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.7,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 132358,
+                    "ai_tags": "二维随机变量,条件概率密度"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 32,
+            "questions": [
+                {
+                    "id": 18664,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "1c88ab71-cdef-4e35-ad02-aa3ef2cd0da3",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设连续随机向�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{ll}\n\\frac{1}{2}(x+y) x y, & 0<x<1,0<y<2, \\\\\n0, & \\text { 其它 }\n\\end{array}\\right.\n$$\n则关�?$X$ 的边缘概率密度为 ( ).",
+                    "analysis": "边缘概率密度 $f_X(x)$ 的计算公式为\n$$\nf_X(x)=\\int_{-\\infty}^{+\\infty} f(x, y) d y\n$$\n�?$0<x<1$ 时，\n$$\n\\begin{aligned}\nf_X(x) &= \\int_0^2 \\frac{1}{2}(x+y) x y d y \\\\\n&= \\frac{1}{2} x \\int_0^2 (xy + y^2) d y \\\\\n&= \\frac{1}{2} x \\left[ \\frac{1}{2}xy^2 + \\frac{1}{3}y^3 \\right]_0^2 \\\\\n&= \\frac{1}{2} x \\left( 2x + \\frac{8}{3} \\right) \\\\\n&= x^2 + \\frac{4}{3}x = x\\left(x+\\frac{4}{3}\\right)\n\\end{aligned}\n$$\n�?$x \\le 0$ �?$x \\ge 1$ 时，$f_X(x)=0$。\n\n综上所述，\n$$\nf_X(x)=\\left\\{\\begin{array}{ll}\nx\\left(x+\\frac{4}{3}\\right), & 0<x<1 \\\\\n0, & \\text { 其它 }\n\\end{array}\\right.\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338722
+                    },
+                    "question_json": "mathreact/0d3caa0f830141e9904dd982a2496cb8",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83812,
+                            "question_id": 18664,
+                            "is_answer": true,
+                            "choice": "$f_X(x)=\\left\\{\\begin{array}{ll}x\\left(x+\\frac{4}{3}\\right), & 0<x<1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83813,
+                            "question_id": 18664,
+                            "is_answer": false,
+                            "choice": "$f_X(x)=\\left\\{\\begin{array}{ll}x^2+\\frac{1}{2} x, & 0<x<1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83814,
+                            "question_id": 18664,
+                            "is_answer": false,
+                            "choice": "$f_X(x)=\\left\\{\\begin{array}{ll}\\frac{1}{2}\\left(1-x^2\\right), & 0<x<1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83815,
+                            "question_id": 18664,
+                            "is_answer": false,
+                            "choice": "$f_X(x)=\\left\\{\\begin{array}{ll}x\\left(1+\\frac{x}{2}\\right), & 0<x<1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 45016,
+                    "ai_tags": "概率�?二维随机变量,边缘概率密度"
+                },
+                {
+                    "id": 18666,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "6d1c5716-56f0-46cb-831e-07b5714a89cc",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设二维随机变�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\begin{cases}\n4.8 y(1-x), & 0 \\leq x \\leq 1, x \\leq y \\leq 1 \\\\\n0, & \\text { 其它 }\n\\end{cases}\n$$\n则边缘概率密�?$f_Y(y)=(\\quad)$.",
+                    "analysis": "$$f_Y(y)=\\int_{-\\infty}^{+\\infty} f(x, y) d x$$\n�?$0 \\leq y \\leq 1$ 时，\n$$\n\\begin{aligned}\nf_Y(y) &= \\int_0^y 4.8 y(1-x) d x \\\\\n&= 4.8 y \\left[x - \\frac{x^2}{2}\\right]_0^y \\\\\n&= 4.8 y \\left(y - \\frac{y^2}{2}\\right) \\\\\n&= 2.4 y^2(2-y)\n\\end{aligned}\n$$\n�?$y < 0$ �?$y > 1$ 时，$f_Y(y)=0$。\n故\n$$\nf_Y(y)=\\begin{cases}\n2.4 y^2(2-y), & 0 \\leq y \\leq 1 \\\\\n0, & \\text { 其它 }\n\\end{cases}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338733
+                    },
+                    "question_json": "mathreact/1f636897c7f3437ea5cb9af97bff6d7b",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83826,
+                            "question_id": 18666,
+                            "is_answer": true,
+                            "choice": "$\\begin{cases} 2.4 y^2(2-y), & 0 \\leq y \\leq 1 \\\\ 0, & \\text { 其它 } \\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83827,
+                            "question_id": 18666,
+                            "is_answer": false,
+                            "choice": "$\\begin{cases} 2.4 y\\left(4 y-y^2\\right), & 0 \\leq y \\leq 1 \\\\ 0, & \\text { 其它 } \\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83828,
+                            "question_id": 18666,
+                            "is_answer": false,
+                            "choice": "$\\begin{cases} 4.8 y^2(2-y), & 0 \\leq y \\leq 1 \\\\ 0, & \\text { 其它 } \\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83829,
+                            "question_id": 18666,
+                            "is_answer": false,
+                            "choice": "$\\begin{cases} 4.8 y\\left(y-y^2\\right), & 0 \\leq y \\leq 1 \\\\ 0, & \\text { 其它 } \\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.67,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 51473,
+                    "ai_tags": "二维随机变量,边缘概率密度"
+                },
+                {
+                    "id": 18667,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "1edecc95-0704-42de-b4c7-a2e6d74e7273",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设二维随机变�?$(\\xi, \\eta)$ 的联合概率密度函数是 $\\varphi(x, y)$, 则关�?$\\eta$ 的边缘分布密�?$\\varphi_2(y)=()$.",
+                    "analysis": "根据边缘密度函数的定义有 $\\varphi_2(y)=\\int_{-\\infty}^{+\\infty} \\varphi(x, y) d x$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338736
+                    },
+                    "question_json": "mathreact/cc4f31027bcb4ef396cfc774c7a3598c",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83833,
+                            "question_id": 18667,
+                            "is_answer": false,
+                            "choice": "$\\int_{-\\infty}^{+\\infty} \\varphi(x, y) d y$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83834,
+                            "question_id": 18667,
+                            "is_answer": true,
+                            "choice": "$\\int_{-\\infty}^{+\\infty} \\varphi(x, y) d x$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83835,
+                            "question_id": 18667,
+                            "is_answer": false,
+                            "choice": "$\\int_{-\\infty}^y \\varphi(x, y) d x$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83836,
+                            "question_id": 18667,
+                            "is_answer": false,
+                            "choice": "$\\varphi(+\\infty, y)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.92,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 142408,
+                    "ai_tags": "概率�?二维随机变量,边缘分布"
+                },
+                {
+                    "id": 18668,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "0dde1702-d9eb-4aa2-b0f8-bb481e38b059",
+                    "difficulty": "Medium",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "设二维随机变�?$(X, Y)$ 的概率密度为 $f(x, y)=A e^{-2 x^2+2 x y-y^2}(-\\infty<x<+\\infty,-\\infty<y<+\\infty)$, 则常�?$A=( )$.",
+                    "analysis": "根据概率密度的性质, �?$\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x, y) d x d y=1$, 有\n$$\nA \\int_{-\\infty}^{+\\infty} e^{-x^2} d x \\int_{-\\infty}^{+\\infty} e^{-(y-x)^2} d y=A \\sqrt{\\pi} \\int_{-\\infty}^{+\\infty} e^{-x^2} d x=A \\pi=1,\n$$\n\n�?$A=\\frac{1}{\\pi}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338738
+                    },
+                    "question_json": "mathreact/04c21edd622a4c19b5ecb2258e225413",
+                    "updated_at": {
+                        "seconds": 1775673110
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83840,
+                            "question_id": 18668,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{\\pi}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83841,
+                            "question_id": 18668,
+                            "is_answer": false,
+                            "choice": "$2 \\pi$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83842,
+                            "question_id": 18668,
+                            "is_answer": false,
+                            "choice": "$\\pi$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83843,
+                            "question_id": 18668,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{\\pi}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.29,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 59035,
+                    "ai_tags": "二维随机变量,概率密度"
+                },
+                {
+                    "id": 18669,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "80b5a014-e1b1-4166-a016-0e0046e44460",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$(\\xi, \\eta)$ 的联合概率密度为 $\\varphi(x, y)=\\left\\{\\begin{array}{l}\\frac{1}{8}\\left(x^2+y^2\\right) e^{-x},|y| \\leq x \\\\ 0, \\text { 其它 }\\end{array}\\right.$, 则关�?$\\xi$ 的边缘概率密�?$\\varphi_1(x)=()$.",
+                    "analysis": "根据边缘密度函数的定义有\n$$\n\\varphi_1(x)=\\int_{-\\infty}^{+\\infty} \\varphi(x, y) d y=\\left\\{\\begin{array}{ll}\n\\int_{-x}^x \\frac{1}{8}\\left(x^2+y^2\\right) e^{-x} d y, & x>0 \\\\\n0, & x \\leq 0\n\\end{array}\\right.=\\left\\{\\begin{array}{ll}\n\\frac{1}{3} x^3 e^{-x}, & x>0 \\\\\n0, & x \\leq 0\n\\end{array}\\right.\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338741
+                    },
+                    "question_json": "mathreact/86829ce4fdc04a44b69c767eb7355476",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83847,
+                            "question_id": 18669,
+                            "is_answer": true,
+                            "choice": "$\\left\\{\\begin{array}{cc}\\frac{1}{3} x^3 e^{-x}, & x>0 \\\\ 0, & x \\leq 0\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83848,
+                            "question_id": 18669,
+                            "is_answer": false,
+                            "choice": "$\\left\\{\\begin{array}{c}6 x^3 e^{-x}, x>0 \\\\ 0, \\quad x \\leq 0\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83849,
+                            "question_id": 18669,
+                            "is_answer": false,
+                            "choice": "$\\left\\{\\begin{array}{c}\\frac{1}{6} x^3 e^{-x}, x>0 \\\\ 0, \\quad x \\leq 0\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83850,
+                            "question_id": 18669,
+                            "is_answer": false,
+                            "choice": "$\\left\\{\\begin{array}{c}3 x^2 e^{-x}, x>0 \\\\ 0, \\quad x \\leq 0\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.7,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 74463,
+                    "ai_tags": "概率�?二维随机变量,边缘概率密度"
+                },
+                {
+                    "id": 18670,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "e527d194-b227-4e68-9a2f-f9a185c615ff",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量的联合概率密度为\n$$\n\\varphi(x, y)= \\begin{cases}c(1+x+y)^{-n}, & x>0, y>0, \\\\ 0, & \\text { 其他}.\\end{cases} \\quad (n>2)\n$$\n则常�?$c=(\\quad)$.",
+                    "analysis": "�?$\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x, y) dx dy=1$, 有\n$$\nc \\int_0^{+\\infty} dx \\int_0^{+\\infty}(1+x+y)^{-n} dy=c \\int_0^{+\\infty} \\frac{1}{n-1}(1+x)^{-n+1} dx=\\frac{c}{(n-1)(n-2)}=1,\n$$\n所�?$c=(n-1)(n-2)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338743
+                    },
+                    "question_json": "mathreact/50e0c9f66d3a4918b010f6ed004e0207",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83854,
+                            "question_id": 18670,
+                            "is_answer": true,
+                            "choice": "$(n-1)(n-2)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83855,
+                            "question_id": 18670,
+                            "is_answer": false,
+                            "choice": "$\\frac{n-2}{n-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83856,
+                            "question_id": 18670,
+                            "is_answer": false,
+                            "choice": "$\\frac{n-1}{n-2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83857,
+                            "question_id": 18670,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{(n-1)(n-2)}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.58,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 142913,
+                    "ai_tags": "概率�?二维随机变量,联合概率密度"
+                },
+                {
+                    "id": 18671,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "ad3f2bbb-2935-4f6c-9c43-6c9d0f4c6d78",
+                    "difficulty": "Medium",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "设随机变�?$(X, Y)$ 的联合概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{l}\nc\\left(R-\\sqrt{x^2+y^2}\\right), \\quad x^2+y^2<R^2, \\\\\n0, x^2+y^2 \\geq R^2 .\n\\end{array}\\right.\n$$\n\n则常�?$c=($ ).",
+                    "analysis": "�?$\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x, y) dx dy=1$, 有\n$$\n\\iint_{x^2+y^2<R^2} c\\left(R-\\sqrt{x^2+y^2}\\right) dx dy=\\int_0^{2 \\pi} \\int_0^R c(R-\\rho) \\rho d \\rho d \\theta=\\frac{c \\pi R^3}{3}=1,\n$$\n\n所�?$c=\\frac{3}{\\pi R^3}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338744
+                    },
+                    "question_json": "mathreact/e7f476a401e040f790568dfa55ac3c90",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83861,
+                            "question_id": 18671,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{\\pi R^3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83862,
+                            "question_id": 18671,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{\\pi R}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83863,
+                            "question_id": 18671,
+                            "is_answer": true,
+                            "choice": "$\\frac{3}{\\pi R^3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83864,
+                            "question_id": 18671,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{\\pi R}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.69,
+                    "difficulty_score": 0.37,
+                    "avg_time_spent": 4381958,
+                    "ai_tags": "概率�?联合概率密度,二重积分"
+                },
+                {
+                    "id": 18672,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "509e8df1-49db-47eb-bd36-9087c11f035d",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$(X, Y)$ 的联合密度函数为 $f(x, y)=\\begin{cases}\\frac{1}{\\pi R^2}, & x^2+y^2 \\leq R^2 \\\\ 0, & \\text { 其它 }\\end{cases}$, 则完全正确的选项�?(    ) .\n(1) $f_X(x)=\\begin{cases}\\frac{2 \\sqrt{R^2-x^2}}{\\pi R^2}, & -R \\leq x \\leq R \\\\ 0, & \\text { 其它 }\\end{cases}$;\n(2) $f_Y(y)=\\begin{cases}\\frac{2 \\sqrt{R^2-y^2}}{\\pi R^2}, & -R \\leq y \\leq R \\\\ 0, & \\text { 其它 }\\end{cases}$;\n(3) $f_{X \\mid Y}(x \\mid y)=\\begin{cases}\\frac{1}{2 \\sqrt{R^2-y^2}}, & |x| \\leq \\sqrt{R^2-y^2} \\\\ 0, & \\text { 其它 }\\end{cases}$;\n(4) $f_{Y \\mid X}(y \\mid x)=\\begin{cases}\\frac{1}{2 \\sqrt{R^2-x^2}}, & |y| \\leq \\sqrt{R^2-x^2} \\\\ 0, & \\text { 其它 }\\end{cases}$;\n(5) $X$ �?$Y$ 不独�?",
+                    "analysis": "(1) �?$x<-R$ �?$x>R$ �? $f_X(x)=\\int_{-\\infty}^{+\\infty} f(x, y) d y=0$;\n�?$-R \\leq x \\leq R$ �?\n$$\nf_X(x)=\\int_{-\\infty}^{+\\infty} f(x, y) d y=\\frac{1}{\\pi R^2} \\int_{-\\sqrt{R^2-x^2}}^{\\sqrt{R^2-x^2}} d y=\\frac{2}{\\pi R^2} \\sqrt{R^2-x^2}\n$$\n于是,\n$$\nf_X(x)=\\begin{cases}\\frac{2 \\sqrt{R^2-x^2}}{\\pi R^2}, & -R \\leq x \\leq R \\\\ 0, & \\text { 其它 }\\end{cases}\n$$\n由于 $X$ �?$Y$ 的地位平�? 同法可得 $Y$ 的边缘概率密度\n$$\nf_Y(y)=\\begin{cases}\\frac{2 \\sqrt{R^2-y^2}}{\\pi R^2}, & -R \\leq y \\leq R \\\\ 0, & \\text { 其它 }\\end{cases}\n$$\n(2) �?$-R<y<R$ �? $f_{X \\mid Y}(x \\mid y)=\\frac{f(x, y)}{f_Y(y)}$.\n注意�?$y$ �?$x$ 值位�?$|x| \\leq \\sqrt{R^2-y^2}$ 这个范围�? 此时 $f(x, y) \\neq 0$, 有\n$$\nf_{X \\mid Y}(x \\mid y)=\\frac{\\frac{1}{\\pi R^2}}{\\frac{2}{\\pi R^2} \\sqrt{R^2-y^2}}=\\frac{1}{2 \\sqrt{R^2-y^2}}\n$$\n故当 $-R<y<R$ �? $X$ 的条件概率密度为\n$$\nf_{X \\mid Y}(x \\mid y)=\\begin{cases}\\frac{1}{2 \\sqrt{R^2-y^2}}, & |x| \\leq \\sqrt{R^2-y^2} \\\\ 0, & \\text { 其它 }\\end{cases}\n$$\n同理, �?$-R<x<R$ �? $Y$ 的条件概率密度为\n$$\nf_{Y \\mid X}(y \\mid x)=\\begin{cases}\\frac{1}{2 \\sqrt{R^2-x^2}}, & |y| \\leq \\sqrt{R^2-x^2} \\\\ 0, & \\text { 其它 }\\end{cases}\n$$\n由于条件概率密度与边缘概率密度不相等 (�?$f(x,y) \\neq f_X(x)f_Y(y)$), 所�?$X$ �?$Y$ 不独�?\n\n(注：选项 (3) �?(4) 在严格意义上未注明条件概率密度存在的条件 $-R<y<R$ �?$-R<x<R$, 故通常认为不完全正�? 因此完全正确的选项�?(1)�?2)�?5) �?3 �?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338745
+                    },
+                    "question_json": "mathreact/c65c7537ba6f4f56983d99edbb09de07",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83868,
+                            "question_id": 18672,
+                            "is_answer": true,
+                            "choice": "3 �?,
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83869,
+                            "question_id": 18672,
+                            "is_answer": false,
+                            "choice": "4 �?,
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83870,
+                            "question_id": 18672,
+                            "is_answer": false,
+                            "choice": "2 �?,
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83871,
+                            "question_id": 18672,
+                            "is_answer": false,
+                            "choice": "5�?,
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.5,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 255823,
+                    "ai_tags": "二维随机变量,边缘概率密度,条件概率密度"
+                },
+                {
+                    "id": 18673,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "96b3ed14-7dff-42ee-baba-fa5af8f37e25",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设二维随机变�?$(X, Y)$ 的概率密度为 $f(x, y)=\\frac{1}{\\pi} e^{-2 x^2+2 x y-y^2}(-\\infty<x<+\\infty,-\\infty<y<+\\infty)$, 则条件概率密�?$f_{Y|X}(y \\mid x)=()$.",
+                    "analysis": "$$\nf_X(x)=\\int_{-\\infty}^{+\\infty} f(x, y) d y=\\frac{1}{\\sqrt{\\pi}} e^{-x^2}, \\quad-\\infty<x<+\\infty,\n$$\n\n故对任意 $x \\in(-\\infty,+\\infty)$, 有\n$$\nf_{Y|X}(y \\mid x)=\\frac{f(x, y)}{f_X(x)}=\\frac{1}{\\sqrt{\\pi}} e^{-(y-x)^2},-\\infty<y<+\\infty .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338746
+                    },
+                    "question_json": "mathreact/53dd6c10b2054babaed1bb9a46ca5762",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83875,
+                            "question_id": 18673,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{\\sqrt{\\pi}} e^{-(y-x)^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83876,
+                            "question_id": 18673,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{\\sqrt{2 \\pi}} e^{-y^2+2 x y}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83877,
+                            "question_id": 18673,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2 \\sqrt{\\pi}} e^{-x^2+2 x y-y^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83878,
+                            "question_id": 18673,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2 \\sqrt{\\pi}} e^{-y^2+2 x y}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.44,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 406930,
+                    "ai_tags": "二维随机变量,条件概率密度,边缘概率密度"
+                },
+                {
+                    "id": 18674,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "0d6e5540-3093-410c-89af-616be2fa1816",
+                    "difficulty": "Medium",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设随机变�?$(X, Y)$ 的联合概率密�?$f(x, y)=\\begin{cases} 1, & 0 \\leq x \\leq 2, \\max (0, x-1) \\leq y \\leq \\min (1, x) \\\\ 0, & \\text{其它} \\end{cases}$, 则关�?$Y$ 的边缘概率密度为 ( ).",
+                    "analysis_image": "/XDSys/TK/GL/83/Averge/83_Averge_0d6e5540-3093-410c-89af-616be2fa1816/83_Averge_0d6e5540-3093-410c-89af-616be2fa1816_70c6.webp",
+                    "analysis_image_hash": "cb4aa4b4b5694b5a",
+                    "question_render_type": 1,
+                    "analysis_render_type": 2,
+                    "created_at": {
+                        "seconds": 1764338746
+                    },
+                    "question_json": "mathreact/6cf13adee13944f783d720f42535afb1",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83882,
+                            "question_id": 18674,
+                            "is_answer": false,
+                            "choice": "$f_Y(y)=\\begin{cases} 2 y, & 0 \\leq y \\leq 1, \\\\ 0, & \\text { 其它. } \\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83883,
+                            "question_id": 18674,
+                            "is_answer": true,
+                            "choice": "$f_Y(y)=\\begin{cases} 1, & 0 \\leq y \\leq 1, \\\\ 0, & \\text { 其它. } \\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83884,
+                            "question_id": 18674,
+                            "is_answer": false,
+                            "choice": "$f_Y(y)=\\begin{cases} 2(1-y), & 0 \\leq y \\leq 1, \\\\ 0, & \\text { 其它. } \\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83885,
+                            "question_id": 18674,
+                            "is_answer": false,
+                            "choice": "$f_Y(y)=\\begin{cases} 2(y-1), & 0 \\leq y \\leq 1, \\\\ 0, & \\text { 其它. } \\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.58,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 269893,
+                    "ai_tags": "概率�?二维随机变量,边缘概率密度"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 32,
+            "questions": [
+                {
+                    "id": 18675,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "19e4c87b-53ce-4774-90b5-9415621ece8b",
+                    "difficulty": "Medium",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "�?$(\\xi, \\eta)$ 的联合概率密度为\n$$\n\\varphi(x, y)=\\left\\{\\begin{array}{l}\n\\frac{6}{(1+x+y)^4}, \\quad x \\geq 0, y \\geq 0, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$\n\n则边缘概率密�?$f_{\\xi}(x)=()$.",
+                    "analysis": "$f_{\\xi}(x)=\\int_{-\\infty}^{+\\infty} \\varphi(x, y) d y = \\begin{cases} \\int_0^{+\\infty} \\frac{6}{(1+x+y)^4} d y, & x \\geq 0 \\\\ 0, & x<0 \\end{cases} = \\begin{cases} \\frac{2}{(1+x)^3}, & x \\geq 0 \\\\ 0, & x<0 \\end{cases}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338747
+                    },
+                    "question_json": "mathreact/db0cfeb175994e80a0ffe457ee9c1c52",
+                    "updated_at": {
+                        "seconds": 1775673111
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83889,
+                            "question_id": 18675,
+                            "is_answer": false,
+                            "choice": "$\\left\\{\\begin{array}{l}\\frac{1}{(1+x)^3}, \\quad x \\geq 0, \\\\ 0, \\quad x<0 .\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83890,
+                            "question_id": 18675,
+                            "is_answer": false,
+                            "choice": "$\\left\\{\\begin{array}{cc}\\frac{1}{(1+x)}, & x \\geq 0 \\\\ 0, \\quad x<0\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83891,
+                            "question_id": 18675,
+                            "is_answer": false,
+                            "choice": "$\\left\\{\\begin{array}{c}\\frac{1}{(1+x)^2}, \\quad x \\geq 0 \\\\ 0, \\quad x<0\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83892,
+                            "question_id": 18675,
+                            "is_answer": true,
+                            "choice": "$\\left\\{\\begin{array}{l}\\frac{2}{(1+x)^3}, \\quad x \\geq 0, \\\\ 0, \\quad x<0 .\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 105436,
+                    "ai_tags": "概率�?边缘概率密度,二维随机变量"
+                },
+                {
+                    "id": 18677,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "cbe0f130-9058-4f61-b366-d6260b0f5477",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$\\varphi(x, y) = \\begin{cases} A e^{-(5x+2y)}, & x>0, y>0 \\\\ 0, & \\text{其它} \\end{cases}$ 为随机变�?$(\\xi, \\eta)$ 的联合概率密度，则常�?$A=(\\quad)$.",
+                    "analysis": "根据联合概率密度性质有\n$$\n\\int_0^{+\\infty} \\int_0^{+\\infty} A e^{-(5 x+2 y)} dx dy=1\n$$\n解得 $A=10$�?,
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338751
+                    },
+                    "question_json": "mathreact/77d8897dda1f4301ac849706cd0fbee7",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83903,
+                            "question_id": 18677,
+                            "is_answer": true,
+                            "choice": "$10$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83904,
+                            "question_id": 18677,
+                            "is_answer": false,
+                            "choice": "$6$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83905,
+                            "question_id": 18677,
+                            "is_answer": false,
+                            "choice": "$9$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83906,
+                            "question_id": 18677,
+                            "is_answer": false,
+                            "choice": "$8$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 217133,
+                    "ai_tags": "概率�?二维随机变量,联合概率密度"
+                },
+                {
+                    "id": 18678,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "89260de9-242e-4d81-9df2-346d22518c74",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设随机变�?$(X, Y)$ 的概率密度为 $f(x, y)=\\left\\{\\begin{array}{l}k(6-x-y), 0<x<2,2<y<4 \\\\ 0, \\text { 其它 }\\end{array}\\right.$, �?$k=()$.",
+                    "analysis": "如图所�? �?$\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x, y) dx dy=1$, 有\n$$\n\\int_0^2 \\int_2^4 k(6-x-y) dy dx=k \\int_0^2(6-2 x) dx=8 k=1,\n$$\n\n所�?$k=\\frac{1}{8}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338752
+                    },
+                    "question_json": "mathreact/ca7f3d141b8343bb867481495e75f2a1",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83910,
+                            "question_id": 18678,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83911,
+                            "question_id": 18678,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83912,
+                            "question_id": 18678,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83913,
+                            "question_id": 18678,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.89,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 68110,
+                    "ai_tags": "概率�?二维随机变量,概率密度"
+                },
+                {
+                    "id": 18679,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "566632ae-99bd-429a-9616-e82797e8659e",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设连续随机向�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{l}\n24 y(1-x), 0 \\leq x \\leq 1,0 \\leq y \\leq x, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$\n\n则关�?$Y$ 的边缘概率密度为 ( ).",
+                    "analysis": "如图, $f(x, y)$ 不为零的区域�?$E$, 故\n$$\nf_Y(y)=\\int_{-\\infty}^{+\\infty} f(x, y) d x=\\left\\{\\begin{array}{l}\n\\int_y^1 24 y(1-x) d x, 0 \\leq y \\leq 1 \\\\\n0, \\text { 其它. }\n\\end{array}\\right. = \\left\\{\\begin{array}{l}\n12 y(1-y)^2, 0 \\leq y \\leq 1, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338752
+                    },
+                    "question_json": "mathreact/16da3c6ab2544d57a39cada7e6d058e7",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83917,
+                            "question_id": 18679,
+                            "is_answer": true,
+                            "choice": "$f_Y(y)=\\left\\{\\begin{array}{l}12 y(1-y)^2, 0 \\leq y \\leq 1, \\\\ 0, \\text { 其它. }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83918,
+                            "question_id": 18679,
+                            "is_answer": false,
+                            "choice": "$f_Y(y)=\\left\\{\\begin{array}{l}8 y(1-y)^2, 0 \\leq y \\leq 1, \\\\ 0, \\text { 其它. }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83919,
+                            "question_id": 18679,
+                            "is_answer": false,
+                            "choice": "$f_Y(y)=\\left\\{\\begin{array}{l}6 y^2(1-y), \\quad 0 \\leq y \\leq 1, \\\\ 0, \\text { 其它. }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83920,
+                            "question_id": 18679,
+                            "is_answer": false,
+                            "choice": "$f_Y(y)= \\begin{cases}12 y^2(1-y), & 0 \\leq y \\leq 1, \\\\ 0, & \\text { 其它. }\\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.89,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 109826,
+                    "ai_tags": "概率�?边缘概率密度,连续型随机向�?
+                },
+                {
+                    "id": 18680,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "d8916f88-3d20-4f56-b63b-35565ae3557f",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设连续随机向�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{l}\n24 y(1-x), 0 \\leq x \\leq 1,0 \\leq y \\leq x, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$\n\n则关�?$x$ 的边缘概率密度为 ().",
+                    "analysis_image": "/XDSys/TK/GL/85/Averge/85_Averge_d8916f88-3d20-4f56-b63b-35565ae3557f/85_Averge_d8916f88-3d20-4f56-b63b-35565ae3557f_5.webp",
+                    "analysis_image_hash": "da1d8d4aa5f0e2c3",
+                    "question_render_type": 1,
+                    "analysis_render_type": 2,
+                    "created_at": {
+                        "seconds": 1764338755
+                    },
+                    "question_json": "mathreact/54f85b26aaef43e3826bf6b556439762",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83924,
+                            "question_id": 18680,
+                            "is_answer": true,
+                            "choice": "$f_X(x)=\\left\\{\\begin{array}{l}12 x^2(1-x), 0 \\leq x \\leq 1, \\\\ 0, \\text { 其它. }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83925,
+                            "question_id": 18680,
+                            "is_answer": false,
+                            "choice": "$f_X(x)=12 x^2(1-x)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83926,
+                            "question_id": 18680,
+                            "is_answer": false,
+                            "choice": "$f_X(x)=12 x(1-x)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83927,
+                            "question_id": 18680,
+                            "is_answer": false,
+                            "choice": "$f_X(x)=\\left\\{\\begin{array}{l}12 x(1-x)^2, 0 \\leq x \\leq 1, \\\\ 0, \\text { 其它. }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.67,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 74122,
+                    "ai_tags": "边缘概率密度,二维随机变量,概率密度函数"
+                },
+                {
+                    "id": 18681,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "fff27102-9493-4bcf-86a5-486d32510ae4",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "已知 $X$ �?$Y$ 的联合密度函数为\n$$\nf(x, y)=\\begin{cases} c x y, & 0 \\leq x \\leq 1, 0 \\leq y \\leq 1 \\\\ 0, & \\text{其他} \\end{cases}\n$$\n�?$c$ 的值为 ().",
+                    "analysis": "根据联合概率密度性质有\n$$\nc \\int_0^1 \\int_0^1 x y d x d y=1,\n$$\n\n�?$c=4$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338757
+                    },
+                    "question_json": "mathreact/9fba09e3c56a470fb2b9e32285550b52",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83931,
+                            "question_id": 18681,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83932,
+                            "question_id": 18681,
+                            "is_answer": false,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83933,
+                            "question_id": 18681,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83934,
+                            "question_id": 18681,
+                            "is_answer": true,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.91,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 55724,
+                    "ai_tags": "概率�?联合概率密度,二重积分"
+                },
+                {
+                    "id": 18683,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "4f728858-869d-4695-a988-b4fe2c583d03",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "�?$(X, Y)$ 的概率密度为 $f(x, y)=\\begin{cases} A, & 0<x<1, 0<y<x \\\\ 0, & \\text{其它} \\end{cases}$, �?$A=(\\quad)$.",
+                    "analysis": "�?$\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x, y) d x d y=1$, 有\n$$\n\\int_0^1 d x \\int_0^x A d y=\\frac{A}{2}=1,\n$$\n\n�?$A=2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338763
+                    },
+                    "question_json": "mathreact/43cf388ec9134dd3b270f6e665eb103c",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83945,
+                            "question_id": 18683,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83946,
+                            "question_id": 18683,
+                            "is_answer": true,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83947,
+                            "question_id": 18683,
+                            "is_answer": false,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83948,
+                            "question_id": 18683,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 46761,
+                    "ai_tags": "二维随机变量,概率密度,二重积分"
+                },
+                {
+                    "id": 18687,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "72bba690-33c8-4d84-9d97-9a90d18591af",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{l}\n\\frac{2}{3}(x+2 y), 0 \\leq x \\leq 1,0 \\leq y \\leq 1, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$\n\n则关�?$Y$ 的边缘概率密度为 ( ).",
+                    "analysis": "$f_Y(y)=\\int_{-\\infty}^{+\\infty} f(x, y) d x=\\begin{cases}\\int_0^1 \\frac{2}{3}(x+2 y) d x, & 0 \\leq y \\leq 1 \\\\ 0, & \\text { 其它. }\\end{cases}=\\begin{cases}\\frac{4}{3} y+\\frac{1}{3}, & 0 \\leq y \\leq 1, \\\\ 0, & \\text { 其它. }\\end{cases}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338777
+                    },
+                    "question_json": "mathreact/655b660e0f8140d1b38a5fcd7e89a098",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83973,
+                            "question_id": 18687,
+                            "is_answer": true,
+                            "choice": "$f_Y(y)=\\begin{cases}\\frac{4}{3} y+\\frac{1}{3}, & 0 \\leq y \\leq 1 \\\\ 0, & \\text { 其它 }\\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83974,
+                            "question_id": 18687,
+                            "is_answer": false,
+                            "choice": "$f_Y(y)=\\begin{cases}\\frac{4}{3}(y+1), & 0 \\leq y \\leq 1 \\\\ 0, & \\text { 其它 }\\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83975,
+                            "question_id": 18687,
+                            "is_answer": false,
+                            "choice": "$f_Y(y)=\\begin{cases}\\frac{2}{3} y+1, & 0 \\leq y \\leq 1 \\\\ 0, & \\text { 其它 }\\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83976,
+                            "question_id": 18687,
+                            "is_answer": false,
+                            "choice": "$f_Y(y)=\\begin{cases}\\frac{2}{3}(y+1), & 0 \\leq y \\leq 1 \\\\ 0, & \\text { 其它 }\\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 50533,
+                    "ai_tags": "概率�?边缘概率密度,二维随机变量"
+                },
+                {
+                    "id": 18688,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "63d221b4-3a48-419f-a27c-199d1e039fa6",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设二维随机向�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{l}\ne^{-2 a x} e^{b y}, x>0, y>0, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$\n\n�?$a, b$ 需要满足的条件�?( ).",
+                    "analysis": "�?$\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x, y) d x d y=1$, 有\n$$\n\\int_0^{+\\infty} \\int_0^{+\\infty} e^{-2 a x} e^{b y} d x d y=\\left(\\int_0^{+\\infty} e^{-2 a x} d x\\right)\\left(\\int_0^{+\\infty} e^{b y} d y\\right)=1\n$$\n\n要使上式积分有意�? 则必�?$a>0, b<0$. 此时, 有\n$$\nf_X(x)=\\left\\{\\begin{array}{l}\n2 a e^{-2 a x}, x>0 \\\\\n0, \\text { 其它 }\n\\end{array}\\right., \\quad f_Y(y)=\\left\\{\\begin{array}{l}\n-b e^{b y}, y>0 \\\\\n0, \\text { 其它 }\n\\end{array}\\right..\n$$\n\n所以只�?$a>0, b<0$, �?$-2 a b=1$ �?$a b=-\\frac{1}{2}$ �? $f(x, y)$ 为概率密�?",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338778
+                    },
+                    "question_json": "mathreact/9add46322db347ee955899c881463834",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83980,
+                            "question_id": 18688,
+                            "is_answer": true,
+                            "choice": "$a b=-\\frac{1}{2}, \\quad a>0, b<0$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83981,
+                            "question_id": 18688,
+                            "is_answer": false,
+                            "choice": "$a b=\\frac{1}{2}, \\quad a>0, b>0$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83982,
+                            "question_id": 18688,
+                            "is_answer": false,
+                            "choice": "$a b=-\\frac{1}{2}, \\quad a<0, b>0$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 83983,
+                            "question_id": 18688,
+                            "is_answer": false,
+                            "choice": "$a b=\\frac{1}{2}, a<0, b<0$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.73,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 638222,
+                    "ai_tags": "二维随机变量,概率密度函数,广义积分"
+                },
+                {
+                    "id": 18694,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "d568a9e5-6855-4673-87f2-2bd40e9f5f13",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设连续随机向�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{c}\n\\frac{1}{2}(x+y) x y, 0<x<1,0<y<2 \\\\\n0, \\text { 其它 }\n\\end{array}\\right. \\text {, }\n$$\n\n则关�?$Y$ 的边缘概率密度为 ( ).",
+                    "analysis": "由边缘概率密度的定义 $f_Y(y)=\\int_{-\\infty}^{+\\infty} f(x, y) dx$。\n�?$0 \\leq y \\leq 2$ 时，\n$$ f_Y(y) = \\int_0^1 \\frac{1}{2}(x+y)xy dx = \\frac{1}{2}y \\int_0^1 (x^2+xy) dx = \\frac{1}{2}y \\left[ \\frac{x^3}{3} + \\frac{x^2y}{2} \\right]_0^1 = \\frac{1}{2}y \\left( \\frac{1}{3} + \\frac{y}{2} \\right) = \\frac{1}{4}y \\left( y + \\frac{2}{3} \\right) $$\n其它情况 $f_Y(y)=0$。\n故\n$$ f_Y(y)=\\begin{cases} \\frac{1}{4} y\\left(y+\\frac{2}{3}\\right), & 0 \\leq y \\leq 2 \\\\ 0, & \\text{其它} \\end{cases} $$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338792
+                    },
+                    "question_json": "mathreact/6df57eff2892409fa0b17d902909c336",
+                    "updated_at": {
+                        "seconds": 1775673109
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84022,
+                            "question_id": 18694,
+                            "is_answer": true,
+                            "choice": "$f_Y(y)=\\begin{cases} \\frac{1}{4} y\\left(y+\\frac{2}{3}\\right), & 0<y \\leq 2 \\\\ 0, & \\text{其它} \\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 84023,
+                            "question_id": 18694,
+                            "is_answer": false,
+                            "choice": "$f_Y(y)=\\begin{cases} y\\left(y+\\frac{1}{2}\\right), & 0<y \\leq 2 \\\\ 0, & \\text{其它} \\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 84024,
+                            "question_id": 18694,
+                            "is_answer": false,
+                            "choice": "$f_Y(y)=\\begin{cases} y\\left(y+\\frac{2}{3}\\right), & 0<y \\leq 2 \\\\ 0, & \\text{其它} \\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 84025,
+                            "question_id": 18694,
+                            "is_answer": false,
+                            "choice": "$f_Y(y)=\\begin{cases} \\frac{1}{2}\\left(1-y^2\\right), & 0 \\leq y \\leq 2 \\\\ 0, & \\text{其它} \\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.82,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 132381,
+                    "ai_tags": "边缘概率密度,连续型随机向�?概率密度函数"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 32,
+            "questions": [
+                {
+                    "id": 18723,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "04b5714c-0fae-4dd0-92f5-8543ff6e77de",
+                    "difficulty": "Easy",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "设二维随机变�?$(X, Y)$ 的概率密度函�?$f(x, y)=\\begin{cases} c e^{-(2 x+y)}, & x>0, y>0 \\\\ 0, & \\text { 其它 }\\end{cases}$, 则常�?$c=()$.",
+                    "analysis": "�?$\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x, y) d x d y=1$, 有\n$$\n\\int_0^{+\\infty} \\int_0^{+\\infty} c e^{-(2 x+y)} d x d y=\\left.\\left.c\\left(-\\frac{1}{2} e^{-2 x}\\right)\\right|_0 ^{+\\infty}\\left(-e^{-y}\\right)\\right|_0 ^{+\\infty}=\\frac{c}{2}=1,\n$$\n\n所�?$c=2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338854
+                    },
+                    "question_json": "mathreact/022fe010facc4a7aac0d36682e6213c7",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84225,
+                            "question_id": 18723,
+                            "is_answer": false,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 84226,
+                            "question_id": 18723,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 84227,
+                            "question_id": 18723,
+                            "is_answer": true,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 84228,
+                            "question_id": 18723,
+                            "is_answer": false,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 59386,
+                    "ai_tags": "二维随机变量,概率密度函数"
+                },
+                {
+                    "id": 20434,
+                    "subject_id": 3,
+                    "chapter_id": 320,
+                    "question_id": "5e5e2f43-1bda-46b1-b4ae-c1aab8d6ef67",
+                    "difficulty": "Medium",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "设随机变�?$(X, Y)$ 的联合概率密�?$f(x, y)=\\left\\{\\begin{array}{lc}1, & 0 \\leq x \\leq 2, \\max (0, x-1) \\leq y \\leq \\min (1, x) \\\\ 0, & \\text { 其它 }\\end{array}\\right.$,则关�?$X$ 的边缘概率密度为 ( ).",
+                    "analysis": "$$\n\\max (0, x-1)=\\begin{cases} 0, & x<1 \\\\ x-1, & x \\geq 1 \\end{cases}, \\quad \\min (1, x)=\\begin{cases} x, & x<1 \\\\ 1, & x \\geq 1 \\end{cases}\n$$\n所�?$f(x, y)$ 有意义的区域分为 $\\{0 \\leq x \\leq 1, 0 \\leq y \\leq x\\}$ �?$\\{1 \\leq x \\leq 2, x-1 \\leq y \\leq 1\\}$，\n即\n$$\nf(x, y)=\\begin{cases} 1, & 0 \\leq x \\leq 1, 0 \\leq y \\leq x \\\\ 1, & 1 \\leq x \\leq 2, x-1 \\leq y \\leq 1 \\\\ 0, & \\text{其它} \\end{cases}\n$$\n所以\n$$\nf_X(x)=\\int_{-\\infty}^{+\\infty} f(x, y) d y=\\begin{cases} \\int_0^x d y=x, & 0 \\leq x<1 \\\\ \\int_{x-1}^1 d y=2-x, & 1 \\leq x \\leq 2 \\\\ 0, & \\text{其它} \\end{cases}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764382172
+                    },
+                    "question_json": "mathreact/43329f9e792c4175baf72f42e4e73dbd",
+                    "updated_at": {
+                        "seconds": 1775586666
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 96202,
+                            "question_id": 20434,
+                            "is_answer": false,
+                            "choice": "$f_X(x)= \\begin{cases}\\frac{1}{2} x, & 0 \\leq x \\leq 2, \\\\ 0, & \\text { 其它. }\\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 96203,
+                            "question_id": 20434,
+                            "is_answer": false,
+                            "choice": "$f_X(x)=\\left\\{\\begin{array}{l}1-\\frac{1}{2} x, 0 \\leq x \\leq 2, \\\\ 0, \\text { 其它. }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 96204,
+                            "question_id": 20434,
+                            "is_answer": true,
+                            "choice": "$f_X(x)=\\left\\{\\begin{array}{l}x, \\quad 0 \\leq x<1, \\\\ 2-x, \\quad 1 \\leq x \\leq 2, \\\\ 0, \\text { 其它. }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        },
+                        {
+                            "id": 96205,
+                            "question_id": 20434,
+                            "is_answer": false,
+                            "choice": "$f_X(x)=\\left\\{\\begin{array}{l}1-x, 0 \\leq x<1, \\\\ 2-x, 1 \\leq x \\leq 2, \\\\ 0, \\text { 其它. }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080682
+                            },
+                            "updated_at": {
+                                "seconds": 1735080682
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.58,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 56913,
+                    "ai_tags": "概率�?边缘概率密度,二维随机变量"
+                }
+            ]
+        }
+    }
+]
