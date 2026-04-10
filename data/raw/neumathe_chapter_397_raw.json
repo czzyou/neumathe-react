@@ -1,0 +1,1794 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 21,
+            "questions": [
+                {
+                    "id": 13442,
+                    "subject_id": 3,
+                    "chapter_id": 397,
+                    "question_id": "e3193629-a9b1-45ea-8c8b-35e20840adb0",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 的概率分布为\n\\begin{tabular}{|c||ccc|}\n\\hline$X$ & 1 & 2 & 3 \\\\\n\\hline \\hline$p_i$ & $\\theta^2$ & $2 \\theta(1-\\theta)$ & $(1-\\theta)^2$ \\\\\n\\hline\n\\end{tabular}\n\n其中 $\\theta$ 为未知参数. 现抽得一个样本 $x_1=1, x_2=2, x_3=1$, 则 $\\theta$ 的矩估计值为 ().",
+                    "analysis": "先求总体一阶原点矩\n$$\n\\begin{aligned}\n& E(X)=1 \\times \\theta^2+2 \\times 2 \\theta(1-\\theta)+3(1-\\theta)^2=3-2 \\theta, \\\\\n& \\quad \\bar{x}=\\frac{1}{3}(1+2+1)=\\frac{4}{3} .\n\\end{aligned}\n$$\n\n一阶样本矩\n由 $E(X)=\\bar{x}$, 得 $3-2 \\theta=\\frac{4}{3}$ 推出 $\\hat{\\theta}=\\frac{5}{6}$, 所以 $\\theta$ 的矩估计值 $\\hat{\\theta}=\\frac{5}{6}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/193f5bd083694a23aae521ab71b193dc",
+                    "updated_at": {
+                        "seconds": 1772735428
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53765,
+                            "question_id": 13442,
+                            "is_answer": true,
+                            "choice": "$\\frac{5}{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53767,
+                            "question_id": 13442,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53768,
+                            "question_id": 13442,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53766,
+                            "question_id": 13442,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.81,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 34749,
+                    "ai_tags": "矩估计,参数估计,离散型随机变量"
+                },
+                {
+                    "id": 13449,
+                    "subject_id": 3,
+                    "chapter_id": 397,
+                    "question_id": "91067f6a-6a9e-4213-a34e-a0540fcb06ea",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 以等概率 $\\frac{1}{\\theta}$ 取值 $1,2, \\cdots, \\theta$, 则未知参数 $\\theta$ 的矩估计量为（）。",
+                    "analysis": "$$\nE(X)=1 \\times \\frac{1}{\\theta}+2 \\times \\frac{1}{\\theta}+\\cdots+\\theta \\times \\frac{1}{\\theta}=\\frac{1+\\theta}{2}=\\frac{1}{n} \\sum_{i=1}^n X_i=\\bar{X},\n$$\n\n得 $\\theta$ 的矩估计为 $\\widehat{\\theta}=2 \\bar{X}-1$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/c891451df5744de680626c5c7ff451a0",
+                    "updated_at": {
+                        "seconds": 1772735427
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53793,
+                            "question_id": 13449,
+                            "is_answer": true,
+                            "choice": "$\\hat{\\theta}=2 \\bar{X}-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53796,
+                            "question_id": 13449,
+                            "is_answer": false,
+                            "choice": "$\\widehat{\\theta}=2 \\bar{X}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53795,
+                            "question_id": 13449,
+                            "is_answer": false,
+                            "choice": "$\\widehat{\\theta}=2 \\bar{X}+1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53794,
+                            "question_id": 13449,
+                            "is_answer": false,
+                            "choice": "$\\widehat{\\theta}=2 \\bar{X}+3$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.88,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 43832,
+                    "ai_tags": "矩估计,参数估计"
+                },
+                {
+                    "id": 13450,
+                    "subject_id": 3,
+                    "chapter_id": 397,
+                    "question_id": "56247513-333b-4d5b-b4f6-ead0e0d00a73",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设某种元件的寿命 $X \\sim N\\left(\\mu, \\sigma^2\\right)$, 其中参数 $\\mu, \\sigma^2$ 未知, 为估计平均寿命 $\\mu$ 及方差 $\\sigma^2$, 随机抽取 7只元件的寿命为\n（单位：小时）：\n$$\n1575,1503,1346,1630,1575,1453,1950 .\n$$\n\n则 $\\mu$ 的矩法估计为 ( ).",
+                    "analysis": "$\\mu$ 的矩估计为\n$$\n\\hat{\\mu}=\\bar{x}=\\frac{1}{7} \\sum_{i=1}^7 x_i=1576 .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/053ff8e02d2a49a4b57c0133932e90af",
+                    "updated_at": {
+                        "seconds": 1772735426
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53797,
+                            "question_id": 13450,
+                            "is_answer": true,
+                            "choice": "$1576$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53799,
+                            "question_id": 13450,
+                            "is_answer": false,
+                            "choice": "$1575$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53800,
+                            "question_id": 13450,
+                            "is_answer": false,
+                            "choice": "$223.34$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53798,
+                            "question_id": 13450,
+                            "is_answer": false,
+                            "choice": "$175.72$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.52,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 400930,
+                    "ai_tags": "矩估计,参数估计,正态分布"
+                },
+                {
+                    "id": 13458,
+                    "subject_id": 3,
+                    "chapter_id": 397,
+                    "question_id": "c435d35d-1c12-4484-8262-f40727145fdf",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 服从均匀分布 $U[\\theta, \\theta+1]$, 其中 $\\theta$ 未知, 则 $\\theta$ 的矩估计是 ( ).",
+                    "analysis": "求 $X$ 的一阶矩, 为 $\\mu_1=E(X)=\\theta+\\frac{1}{2}$, 即 $\\theta=\\mu_1-\\frac{1}{2}$. 用样本均值 $\\bar{X}$ 代替一阶矩 $\\mu_1$, 即得参数 $\\theta$ 的矩估计, 也就是参数的矩估计为 $\\hat{\\theta}=\\bar{X}-\\frac{1}{2}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/be435684066f46e4a9fb811486249f6d",
+                    "updated_at": {
+                        "seconds": 1772735428
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53831,
+                            "question_id": 13458,
+                            "is_answer": true,
+                            "choice": "$\\bar{X}-\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53829,
+                            "question_id": 13458,
+                            "is_answer": false,
+                            "choice": "$\\bar{X}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53830,
+                            "question_id": 13458,
+                            "is_answer": false,
+                            "choice": "$\\bar{X}+\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53832,
+                            "question_id": 13458,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\bar{X}+1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 36965,
+                    "ai_tags": "矩估计,均匀分布,参数估计"
+                },
+                {
+                    "id": 13459,
+                    "subject_id": 3,
+                    "chapter_id": 397,
+                    "question_id": "31f46642-ba52-4ee9-9565-d73c3c7ea41a",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "从一批加工的零件中随机取 8 件, 测得其标准件误差 (单位: mm ) 为\n$$\n3.1,2.6,2.8,3.3,2.9,3.2,2.4,2.5 ;\n$$\n\n则标准误差的样本二阶原点距为 (). (至小数后 4 位)",
+                    "analysis": "二阶原点矩 $M=\\frac{1}{8} \\sum_{i=1}^8 x_i^2=65.7600 / 8=8.2200$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/bc778476307a43e8b45c487182eece00",
+                    "updated_at": {
+                        "seconds": 1772735428
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53835,
+                            "question_id": 13459,
+                            "is_answer": true,
+                            "choice": "$8.2200$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53833,
+                            "question_id": 13459,
+                            "is_answer": false,
+                            "choice": "$2.8500$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53836,
+                            "question_id": 13459,
+                            "is_answer": false,
+                            "choice": "$8.1225$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53834,
+                            "question_id": 13459,
+                            "is_answer": false,
+                            "choice": "$2.8671$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.51,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 28471,
+                    "ai_tags": "数理统计,样本矩,二阶原点矩"
+                },
+                {
+                    "id": 18964,
+                    "subject_id": 3,
+                    "chapter_id": 397,
+                    "question_id": "2d6b0367-d9ea-4da5-af8d-0e8a2df035db",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一批产品中含有废品, 从中随机地抽取 60 件, 发现废品 4 件, 试用矩估计法估计这批产品的废品率为 ().",
+                    "analysis": "设 $p$ 为抽得废品的概率, $1-p$ 为抽得正品的概率 (放回抽取). 引入随机变量\n$$\nX_i=\\begin{cases} 1, & \\text{第 } i \\text{ 次抽取到的是废品} \\\\ 0, & \\text{第 } i \\text{ 次抽取到的是正品} \\end{cases}\n$$\n于是 $P\\{X_i=1\\}=p, P\\{X_i=0\\}=1-p=q, \\quad i=1,2, \\cdots, 60$ 且 $E(X_i)=p$. 故对于样本 $X_1, X_2, \\cdots, X_{60}$ 的一组观测值 $x_1, x_2, \\cdots, x_{60}$，由矩估计法得 $p$ 的估计值为\n$$\n\\hat{p}=\\frac{1}{60} \\sum_{i=1}^{60} x_i=\\frac{4}{60}=\\frac{1}{15},\n$$\n即这批产品的废品率可能为 $\\frac{1}{15}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339452
+                    },
+                    "question_json": "neu-mathe/0971727d45ff46dab750375eb0d09932",
+                    "updated_at": {
+                        "seconds": 1772735428
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85912,
+                            "question_id": 18964,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{15}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85913,
+                            "question_id": 18964,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{15}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85914,
+                            "question_id": 18964,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85915,
+                            "question_id": 18964,
+                            "is_answer": false,
+                            "choice": "$\\frac{4}{15}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.88,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 7835,
+                    "ai_tags": "矩估计法,参数估计,0-1分布"
+                },
+                {
+                    "id": 18967,
+                    "subject_id": 3,
+                    "chapter_id": 397,
+                    "question_id": "6c9a671e-2601-4e17-b772-675edbe54567",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设某种零件的寿命 $Y \\sim N\\left(\\mu, \\sigma^2\\right)$, 其中 $\\mu$ 和 $\\sigma^2$ 均未知. 现随机抽取 4 只, 测得寿命（单位小时）为 $1502,1453,1367,1650$, 则用矩法估计可求得 $\\hat{\\mu}=$ $\\qquad$ , $\\hat{\\sigma}^2=$ $\\qquad$ .",
+                    "analysis": "由矩估计, 有\n$$\n\\hat{\\mu}=A_1=\\bar{X}, \\hat{\\sigma}^2=\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2,\n$$\n\n把具体的数值代入, 得 $\\hat{\\mu}=1493, \\hat{\\sigma}^2=\\frac{1}{4}\\left((-9)^2+40^2+(-126)^2+157^2\\right)=\\frac{1}{4} \\times 42206=10551.5$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339460
+                    },
+                    "question_json": "neu-mathe/597a94ec474f457589f9c85684d78b65",
+                    "updated_at": {
+                        "seconds": 1772735426
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85933,
+                            "question_id": 18967,
+                            "is_answer": true,
+                            "choice": "$1493,10551.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85934,
+                            "question_id": 18967,
+                            "is_answer": false,
+                            "choice": "$1497,8441.2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85935,
+                            "question_id": 18967,
+                            "is_answer": false,
+                            "choice": "$1493,14068.7$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85936,
+                            "question_id": 18967,
+                            "is_answer": false,
+                            "choice": "$1493,8441.2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.39,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 10407,
+                    "ai_tags": "参数估计,矩估计,正态分布"
+                },
+                {
+                    "id": 18969,
+                    "subject_id": 3,
+                    "chapter_id": 397,
+                    "question_id": "21198ebc-bfb5-4fce-a750-572eb0414eac",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 服从参数为 $\\lambda$ 的 Poisson 分布， $\\lambda>0$ 为未知参数. $(X_1, \\cdots, X_n)$ 是从总体 $X$ 中抽取的一个样本，则参数 $\\lambda$ 的矩估计量 $\\hat{\\lambda}=(\\quad)$.",
+                    "analysis": "由于总体 $X$ 服从参数为 $\\lambda$ 的 Poisson 分布, 所以 $X$ 的分布律为 $P(X=k)=\\frac{\\lambda^k}{k!} e^{-\\lambda}(k=0,1,2, \\cdots)$ 所以, $E(X)=\\lambda$. 将 $E(X)$ 替换成样本均值 $\\bar{X}$, 得参数 $\\lambda$ 的矩估计为 $\\lambda=\\bar{X}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339466
+                    },
+                    "question_json": "neu-mathe/f3695b2fc50a4ed6a65e2cbe84c0da39",
+                    "updated_at": {
+                        "seconds": 1772735426
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85947,
+                            "question_id": 18969,
+                            "is_answer": true,
+                            "choice": "$\\bar{X}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85948,
+                            "question_id": 18969,
+                            "is_answer": false,
+                            "choice": "$X_1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85949,
+                            "question_id": 18969,
+                            "is_answer": false,
+                            "choice": "$X_n$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85950,
+                            "question_id": 18969,
+                            "is_answer": false,
+                            "choice": "$\\frac{X_1+X_n}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.9,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 15107,
+                    "ai_tags": "矩估计,泊松分布"
+                },
+                {
+                    "id": 18970,
+                    "subject_id": 3,
+                    "chapter_id": 397,
+                    "question_id": "35b2537a-47ee-4fa8-975f-cb7ee07f6dd1",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 的概率密度为 $f(x)=\\left\\{\\begin{array}{cc}(\\alpha+1) x^\\alpha, & 0<x<1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$, 其中 $\\alpha(\\alpha>-1)$ 是未知参数, $X_1, X_2, \\cdots, X_n$ 是取自 $X$ 的样本, 参数 $\\alpha$ 的矩估计为 ( ).",
+                    "analysis": "数学期望是一阶原点矩\n$$\n\\mu_1=E(X)=\\int_0^1 x(\\alpha+1) x^\\alpha d x=(\\alpha+1) \\int_0^1 x^{\\alpha+1} d x=\\frac{\\alpha+1}{\\alpha+2},\n$$\n\n其样本矩为 $\\bar{X}=\\frac{\\alpha+1}{\\alpha+2}$, 而 $\\hat{\\alpha}=\\frac{2 \\bar{X}-1}{1-\\bar{X}}$ 即为 $\\alpha$ 的矩估计.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339468
+                    },
+                    "question_json": "neu-mathe/b38f7f6fcf5d49ac86ae00bfd245b68b",
+                    "updated_at": {
+                        "seconds": 1772735428
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85954,
+                            "question_id": 18970,
+                            "is_answer": true,
+                            "choice": "$\\hat{\\alpha}=\\frac{2 \\bar{X}-1}{1-\\bar{X}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85955,
+                            "question_id": 18970,
+                            "is_answer": false,
+                            "choice": "$\\hat{\\alpha}=\\frac{2 \\bar{X}+1}{1-\\bar{X}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85956,
+                            "question_id": 18970,
+                            "is_answer": false,
+                            "choice": "$\\hat{\\alpha}=\\frac{2 \\bar{X}-1}{2-\\bar{X}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85957,
+                            "question_id": 18970,
+                            "is_answer": false,
+                            "choice": "$\\hat{\\alpha}=\\frac{2 \\bar{X}-3}{1-\\bar{X}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 18190,
+                    "ai_tags": "矩估计,参数估计,概率密度"
+                },
+                {
+                    "id": 18971,
+                    "subject_id": 3,
+                    "chapter_id": 397,
+                    "question_id": "c12f6a07-b8ac-40f9-9d13-93ca97d36ca8",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 服从均匀分布 $U[0, \\theta]$, 则 $\\theta$ 的矩估计为 () .",
+                    "analysis": "均匀分布的一阶矩为 $\\mu=E(X)=\\frac{\\theta}{2}$, 得 $\\theta=2 \\mu$又由矩估计的定义, 用样本一阶矩代替总体一阶矩, 有, $\\hat{\\theta}=2 \\bar{X}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339469
+                    },
+                    "question_json": "neu-mathe/1adafc1519304871b01597c8b403d057",
+                    "updated_at": {
+                        "seconds": 1772735427
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85961,
+                            "question_id": 18971,
+                            "is_answer": true,
+                            "choice": "$2 \\bar{X}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85962,
+                            "question_id": 18971,
+                            "is_answer": false,
+                            "choice": "$\\bar{X}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85963,
+                            "question_id": 18971,
+                            "is_answer": false,
+                            "choice": "$2 \\bar{X}-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85964,
+                            "question_id": 18971,
+                            "is_answer": false,
+                            "choice": "$2 \\bar{X}+1$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.83,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 25986,
+                    "ai_tags": "矩估计,均匀分布"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 21,
+            "questions": [
+                {
+                    "id": 18972,
+                    "subject_id": 3,
+                    "chapter_id": 397,
+                    "question_id": "e0c82b4f-13e7-42be-b02e-6af601f4e668",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体具有概率密度\n$$\nf(x)=\\left\\{\\begin{array}{c}\n\\theta x^{\\theta-1}, 0<x<1 \\\\\n0, \\text { 其它 }\n\\end{array} \\text { 其中 } \\theta>0,\\right.\n$$\n\n则 $\\theta$ 的矩估计是 ( ).",
+                    "analysis": "$E(X)=\\int_0^1 x \\cdot \\theta x^{\\theta-1} d x=\\int_0^1 \\theta x^{\\theta} d x=\\frac{\\theta}{\\theta+1}$, 即 $\\theta=\\frac{E(X)}{1-E(X)}$, 用样本矩 $\\bar{X}$ 代替 $E(X)$ 即得 $\\hat{\\theta}=\\frac{\\bar{X}}{1-\\bar{X}}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339471
+                    },
+                    "question_json": "neu-mathe/9cb8061cf9d1403e90cc3953a179130c",
+                    "updated_at": {
+                        "seconds": 1772735425
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85968,
+                            "question_id": 18972,
+                            "is_answer": true,
+                            "choice": "$\\frac{\\bar{X}}{1-\\bar{X}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85969,
+                            "question_id": 18972,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{\\bar{X}}-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85970,
+                            "question_id": 18972,
+                            "is_answer": false,
+                            "choice": "$-\\frac{n}{\\sum_{i=1}^n \\ln X_i}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85971,
+                            "question_id": 18972,
+                            "is_answer": false,
+                            "choice": "$\\frac{n}{\\sum_{i=1}^n \\ln X_i}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.89,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 46794,
+                    "ai_tags": "矩估计,参数估计"
+                },
+                {
+                    "id": 18974,
+                    "subject_id": 3,
+                    "chapter_id": 397,
+                    "question_id": "cf2d3817-c33b-41de-8f9c-084c6fcf4e8b",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 有概率密度\n$$\nf(x ; \\theta)=\\left\\{\\begin{array}{cc}\n\\frac{3}{\\theta^3} x^2, & 0 \\leq x \\leq \\theta \\\\\n0, & \\text { 其它 }\n\\end{array},\\right.\n$$\n$X_1, X_2, \\cdots, X_n$ 是 $X$ 的样本, $\\bar{X}$ 是样本均值, 则 ( ) 是 $\\theta$ 的矩估计.",
+                    "analysis": "$E(X)=\\int_0^\\theta x f(x ; \\theta) d x=\\left.\\frac{3}{4 \\theta^3} x^4\\right|_0 ^\\theta=\\frac{3}{4} \\theta$. 令 $\\frac{3}{4} \\theta=\\bar{X}$, 得 $\\theta$ 的矩估计量为 $\\hat{\\theta}=\\frac{4}{3} \\bar{X}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339474
+                    },
+                    "question_json": "neu-mathe/c598ceedbd71413c8d976b0c3afe7544",
+                    "updated_at": {
+                        "seconds": 1772735427
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85982,
+                            "question_id": 18974,
+                            "is_answer": true,
+                            "choice": "$\\frac{4}{3} \\bar{X}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 85983,
+                            "question_id": 18974,
+                            "is_answer": false,
+                            "choice": "$\\bar{X}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 85984,
+                            "question_id": 18974,
+                            "is_answer": false,
+                            "choice": "$2 \\bar{X}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 85985,
+                            "question_id": 18974,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{4} \\bar{X}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.73,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 48890,
+                    "ai_tags": "矩估计,参数估计,概率密度"
+                },
+                {
+                    "id": 18975,
+                    "subject_id": 3,
+                    "chapter_id": 397,
+                    "question_id": "cc664245-396b-4db0-bccf-06ac819c8cef",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设某总体 $X$ 的密度函数为\n$$\nf(x ; a)=\\left\\{\\begin{array}{cc}\n\\frac{2}{a^2}(a-x), & 0<x<a \\\\\n0, & \\text{其它}\n\\end{array}\\right.,\n$$\n\n对容量为 $n$ 的子样 $X_1, X_2, \\cdots, X_n$, 参数 $a$ 的矩估计量为 ().",
+                    "analysis": "令\n$$\nE(X)=\\int_0^a \\frac{2}{a^2}(a-x) x d x=\\left.\\left(\\frac{1}{a} x^2-\\frac{2}{3 a^2} x^3\\right)\\right|_0 ^a=\\frac{a}{3}=\\bar{X},\n$$\n\n得参数 $a$ 的矩估计 $\\widehat{a}=3 \\bar{X}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339474
+                    },
+                    "question_json": "neu-mathe/40b1f726ecca492dbd4e3f1a52fd638d",
+                    "updated_at": {
+                        "seconds": 1772735428
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85989,
+                            "question_id": 18975,
+                            "is_answer": true,
+                            "choice": "$3 \\bar{X}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85990,
+                            "question_id": 18975,
+                            "is_answer": false,
+                            "choice": "$3 X_n$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85991,
+                            "question_id": 18975,
+                            "is_answer": false,
+                            "choice": "$2 X_1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85992,
+                            "question_id": 18975,
+                            "is_answer": false,
+                            "choice": "$2 \\bar{X}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 14646,
+                    "ai_tags": "矩估计,参数估计,概率密度函数"
+                },
+                {
+                    "id": 18976,
+                    "subject_id": 3,
+                    "chapter_id": 397,
+                    "question_id": "deb1896c-34ac-4256-a530-d64a5bbdb7f3",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设某种元件的寿命 $X \\sim N\\left(\\mu, \\sigma^2\\right)$, 其中参数 $\\mu, \\sigma^2$ 未知, 为估计平均寿命 $\\mu$ 及方差 $\\sigma^2$, 随机抽取 7 只元件的寿命为 (单位: 小时) :\n$$\n1575,1503,1346,1630,1575,1453,1950 .\n$$\n\n则 $\\sigma^2$ 的矩估计约为 ( ).",
+                    "analysis": "$\\mu$ 和 $\\sigma^2$ 的矩估计分别为\n$$\n\\hat{\\mu}=\\bar{x}=\\frac{1}{7} \\sum_{i=1}^7 x_i=1576, \\quad \\widehat{\\sigma^2}=\\frac{1}{n} \\sum_{i=1}^7\\left(x_i-\\bar{x}\\right)^2 \\approx(175.7238)^2 .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339477
+                    },
+                    "question_json": "neu-mathe/d0706d78aaee4d048ad00bf452553aa6",
+                    "updated_at": {
+                        "seconds": 1775671213
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85996,
+                            "question_id": 18976,
+                            "is_answer": true,
+                            "choice": "$175.72^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85997,
+                            "question_id": 18976,
+                            "is_answer": false,
+                            "choice": "$1575$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85998,
+                            "question_id": 18976,
+                            "is_answer": false,
+                            "choice": "$1576$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85999,
+                            "question_id": 18976,
+                            "is_answer": false,
+                            "choice": "$223.34^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.46,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 3290,
+                    "tags": "",
+                    "ai_tags": "矩估计,参数估计,正态分布"
+                },
+                {
+                    "id": 18977,
+                    "subject_id": 3,
+                    "chapter_id": 397,
+                    "question_id": "1b8d7ec5-3201-4a97-b015-4a54399f7fc7",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 服从均匀分布 $U[1, \\theta]$, 则 ( ) 是 $\\theta$ 的矩估计.",
+                    "analysis": "$E(X)=\\frac{\\theta+1}{2}$. 令 $\\frac{\\theta+1}{2}=\\bar{X}$, 得 $\\theta$ 的矩估计量为 $\\hat{\\theta}=2 \\bar{X}-1$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339478
+                    },
+                    "question_json": "neu-mathe/b801f90aad8346d1908041166f9a1ad5",
+                    "updated_at": {
+                        "seconds": 1772735425
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86003,
+                            "question_id": 18977,
+                            "is_answer": true,
+                            "choice": "$2 \\bar{X}-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 86004,
+                            "question_id": 18977,
+                            "is_answer": false,
+                            "choice": "$\\bar{X}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 86005,
+                            "question_id": 18977,
+                            "is_answer": false,
+                            "choice": "$2 \\bar{X}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 86006,
+                            "question_id": 18977,
+                            "is_answer": false,
+                            "choice": "$2 \\bar{X}+1$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.93,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 5729,
+                    "ai_tags": "矩估计,均匀分布,点估计"
+                },
+                {
+                    "id": 18980,
+                    "subject_id": 3,
+                    "chapter_id": 397,
+                    "question_id": "08043260-25da-4492-ae7a-09bb0a669d4a",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 的均值 $\\mu$ 及方差 $\\sigma^2$ 都存在, 且有 $\\sigma^2>0$, 但 $\\mu, \\sigma^2$ 均为未知, 又设 $X_1, X_2, \\cdots, X_n$ 是来自 $X$ 的样本, 则 $\\mu, \\sigma^2$ 的矩估计量分别为 ( ).",
+                    "analysis": "得到\n$$\n\\begin{aligned}\n& \\mu_1=E(X)=\\mu, \\mu_2=E\\left(X^2\\right)=D(X)+[E(X)]^2=\\sigma^2+\\mu_1^2, \\\\\n& \\mu=\\mu_1, \\sigma^2=\\mu_2-\\mu_1^2 .\n\\end{aligned}\n$$\n\n以 $A_1, A_2$ 代替 $\\mu_1, \\mu_2$, 得 $\\mu$ 和 $\\sigma^2$ 的矩估计量分别为\n$$\n\\hat{\\mu}=A_1=\\bar{X}, \\quad \\hat{\\sigma}^2=A_2-A_1^2=\\frac{1}{n} \\sum_{i=1}^n X_i^2-\\bar{X}^2=\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339488
+                    },
+                    "question_json": "neu-mathe/27ba63be353948b09217e295177ff764",
+                    "updated_at": {
+                        "seconds": 1772735427
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86024,
+                            "question_id": 18980,
+                            "is_answer": true,
+                            "choice": "$\\hat{\\mu}=\\bar{X}, \\quad \\hat{\\sigma}^2=\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 86025,
+                            "question_id": 18980,
+                            "is_answer": false,
+                            "choice": "$\\hat{\\mu}=\\bar{X}, \\quad \\hat{\\sigma}^2=\\frac{1}{n} \\sum_{i=1}^n\\left(X_i+\\bar{X}\\right)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 86026,
+                            "question_id": 18980,
+                            "is_answer": false,
+                            "choice": "$\\hat{\\mu}=\\bar{X}, \\quad \\hat{\\sigma}^2=\\frac{2}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 86027,
+                            "question_id": 18980,
+                            "is_answer": false,
+                            "choice": "$\\hat{\\mu}=-\\bar{X}, \\quad \\hat{\\sigma}^2=\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.87,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 5837,
+                    "ai_tags": "矩估计,点估计"
+                },
+                {
+                    "id": 18983,
+                    "subject_id": 3,
+                    "chapter_id": 397,
+                    "question_id": "12509261-0c60-4104-a3e7-115af6a4d305",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 服从 $[0, \\theta]$ 上的均匀分布, $X_1, X_2, \\cdots, X_n$ 为样本, 记 $\\bar{X}$ 为样本均值, 则下列统计量不是 $\\theta$ 的矩估计量的是 ( ).",
+                    "analysis": "由均匀分布的数字特征, 有\n$$\n\\mu=E(X)=\\frac{\\theta}{2}, \\quad \\sigma^2=D(X)=\\frac{\\theta^2}{12}, E\\left(X^2\\right)=D(X)+[E(X)]^2=\\frac{\\theta^2}{3} .\n$$\n\n由矩估计法, 令\n$$\n\\bar{X}=\\frac{\\theta}{2}, \\quad A_2-A_1^2=\\frac{1}{n} \\sum_{i=1}^n X_i^2-\\bar{X}^2=\\frac{\\theta^2}{12}, \\frac{1}{n} \\sum_{i=1}^n X_i^2=\\frac{\\theta^2}{3},\n$$\n\n从而, $\\theta_4=2 \\bar{X}, \\theta_2=\\sqrt{\\frac{12}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2}, \\theta_3=\\sqrt{\\frac{3}{n} \\sum_{i=1}^n X_i^2}$ 都是 $\\theta$ 的矩估计.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339492
+                    },
+                    "question_json": "neu-mathe/ecb9afdfd95948da8360f42a94e75b66",
+                    "updated_at": {
+                        "seconds": 1772735428
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86045,
+                            "question_id": 18983,
+                            "is_answer": true,
+                            "choice": "$\\theta_1=\\frac{1}{2} \\bar{X}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 86046,
+                            "question_id": 18983,
+                            "is_answer": false,
+                            "choice": "$\\theta_2=\\sqrt{\\frac{12}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 86047,
+                            "question_id": 18983,
+                            "is_answer": false,
+                            "choice": "$\\theta_3=\\sqrt{\\frac{3}{n} \\sum_{i=1}^n X_i^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 86048,
+                            "question_id": 18983,
+                            "is_answer": false,
+                            "choice": "$\\theta_4=2 \\bar{X}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.59,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 7528,
+                    "ai_tags": "矩估计,均匀分布,统计量"
+                },
+                {
+                    "id": 18987,
+                    "subject_id": 3,
+                    "chapter_id": 397,
+                    "question_id": "0acfdf2b-cace-4599-a64d-57d984ffb3ec",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知总体 $X$ 的概率分布 $P\\{X=k\\}=C_2^k(1-\\theta)^k \\theta^{2-k}, k=0,1,2$, 则参数 $\\theta$ 的矩估计为 ( ).",
+                    "analysis": "总体 $X$ 为离散型分布, 且只含一个未知参数 $\\theta$, 因此, 只要先求离散型随机变量的数学期望 $E(X)$, 然后解出 $\\theta$并用样本均值 $\\bar{X}$ 代替 $E(X)$ 即可得 $\\theta$ 的矩估计 $\\hat{\\theta}$.\n由 $E(X)=\\sum_{k=0}^2 k C_2^k(1-\\theta)^k \\theta^{2-k}=1 \\times 2(1-\\theta) \\theta+2(1-\\theta)^2=2-2 \\theta$, 即有\n$$\n\\theta=1-\\frac{E(X)}{2} .\n$$\n\n用样本均值 $\\bar{X}$ 代替上式的 $E(X)$, 得矩估计为 $\\hat{\\theta}=1-\\frac{\\bar{X}}{2}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339506
+                    },
+                    "question_json": "neu-mathe/beb7b0d028f14909b111a882fd01c858",
+                    "updated_at": {
+                        "seconds": 1772735426
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86073,
+                            "question_id": 18987,
+                            "is_answer": true,
+                            "choice": "$\\hat{\\theta}=1-\\frac{\\bar{X}}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 86074,
+                            "question_id": 18987,
+                            "is_answer": false,
+                            "choice": "$\\hat{\\theta}=2-\\frac{\\bar{X}}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 86075,
+                            "question_id": 18987,
+                            "is_answer": false,
+                            "choice": "$\\hat{\\theta}=1-\\frac{3 \\bar{X}}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 86076,
+                            "question_id": 18987,
+                            "is_answer": false,
+                            "choice": "$\\widehat{\\theta}=1+\\frac{\\bar{X}}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.87,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 30474,
+                    "ai_tags": "矩估计,参数估计"
+                },
+                {
+                    "id": 18988,
+                    "subject_id": 3,
+                    "chapter_id": 397,
+                    "question_id": "14f92003-9894-4408-b9d1-555da11c6e06",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X \\sim B(1, p)$, 其中未知参数 $0<p<1, X_1, X_2, \\cdots, X_n$ 是 $X$ 的子样, 则 $p$ 的矩估计为（）.",
+                    "analysis": "总体一阶矩为 $\\mu_1=E(X)=p$, 用样本一阶矩 $\\bar{X}$ 代替总体一阶矩 $\\mu_1$ 即得参数 $p$ 的矩估计, 即\n$$\n\\hat{p}=\\bar{X}=\\frac{1}{n} \\sum_{i=1}^n X_i\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339509
+                    },
+                    "question_json": "neu-mathe/245e9ced97444b87a98b5f670211c10a",
+                    "updated_at": {
+                        "seconds": 1772735426
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86080,
+                            "question_id": 18988,
+                            "is_answer": true,
+                            "choice": "$\\bar{X}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 86081,
+                            "question_id": 18988,
+                            "is_answer": false,
+                            "choice": "$\\bar{X} / 2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 86082,
+                            "question_id": 18988,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\bar{X}}{\\bar{X}+1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 86083,
+                            "question_id": 18988,
+                            "is_answer": false,
+                            "choice": "$1-\\bar{X}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 25776,
+                    "ai_tags": "矩估计,参数估计"
+                },
+                {
+                    "id": 18989,
+                    "subject_id": 3,
+                    "chapter_id": 397,
+                    "question_id": "2d2be038-f412-4a88-851e-8fe545a35685",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X \\sim b(k, p)$，$k$ 是正整数，$0<p<1$，$k, p$ 都未知，$X_1, X_2, \\cdots, X_n$ 是一样本，则 $p$ 的矩估计为 ( ).",
+                    "analysis": "因总体 $X$ 服从二项分布 $b(k, p)$，故令\n$$\n\\begin{cases}\na_1=E(X)=kp \\\\\na_2=E(X^2)=D(X)+[E(X)]^2=kp(1-p)+(kp)^2\n\\end{cases}\n$$\n解此方程组得 $p=\\frac{a_1+a_1^2-a_2}{a_1}, k=\\frac{a_1^2}{a_1+a_1^2-a_2}$。用 $A_1=\\frac{1}{n} \\sum_{i=1}^n X_i=\\bar{X}, A_2=\\frac{1}{n} \\sum_{i=1}^n X_i^2$ 分别代替 $a_1, a_2$，得 $p, k$ 的矩估计为\n$$\n\\hat{p}=\\frac{\\bar{X}-S^2}{\\bar{X}}, \\quad \\hat{k}=\\left[\\frac{\\bar{X}^2}{\\bar{X}-S^2}\\right]\n$$\n其中 $S^2=\\frac{1}{n} \\sum_{i=1}^n(X_i-\\bar{X})^2$，$ [x]$ 表示 $x$ 的最大整数部分。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339509
+                    },
+                    "question_json": "neu-mathe/fe7ad6be80874255a967147128c92aa4",
+                    "updated_at": {
+                        "seconds": 1772735426
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86087,
+                            "question_id": 18989,
+                            "is_answer": true,
+                            "choice": "$\\hat{p}=\\frac{\\bar{X}-S^2}{\\bar{X}}$, 其中 $S^2=\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86088,
+                            "question_id": 18989,
+                            "is_answer": false,
+                            "choice": "$\\hat{p}=\\frac{\\bar{X}+S^2}{\\bar{X}}$, 其中 $S^2=\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86089,
+                            "question_id": 18989,
+                            "is_answer": false,
+                            "choice": "$\\hat{p}=\\frac{\\bar{X}-S}{\\bar{X}}$, 其中 $S^2=\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86090,
+                            "question_id": 18989,
+                            "is_answer": false,
+                            "choice": "$\\hat{p}=\\frac{2 \\bar{X}-S^2}{\\bar{X}}$, 其中 $S^2=\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.78,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 171848,
+                    "ai_tags": "矩估计,二项分布,参数估计"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 21,
+            "questions": [
+                {
+                    "id": 20440,
+                    "subject_id": 3,
+                    "chapter_id": 397,
+                    "question_id": "818fef03-fc1a-4701-a647-574b4f4796e3",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 的密度函数为 $f(x, \\theta)=\\begin{cases} \\theta x^{\\theta-1}, & 0<x<1 \\\\ 0, & \\text{其他} \\end{cases}$, 参数 $\\theta>0$, $X_1, X_2, \\cdots, X_n$ 为样本, 记 $\\overline{X^k}=\\frac{1}{n} \\sum_{i=1}^n X_i^k, k=1,2,3$, 则以下结论中错误的是 ( ).",
+                    "analysis": "依题意, 有\n$$\n\\begin{aligned}\n& \\mu_1=E(X)=\\frac{\\theta}{1+\\theta}, \\quad \\mu_2=E(X^2)=\\frac{\\theta}{2+\\theta}, \\quad \\mu_3=E(X^3)=\\frac{\\theta}{3+\\theta} \\\\\n& \\Rightarrow \\theta=\\frac{\\mu_1}{1-\\mu_1}, \\quad \\theta=\\frac{2 \\mu_2}{1-\\mu_2}, \\quad \\theta=\\frac{3 \\mu_3}{1-\\mu_3}\n\\end{aligned}\n$$\n又由矩估计的定义, 用样本矩代替总体矩, 有\n$$\n\\hat{\\theta}=\\frac{\\bar{X}}{1-\\bar{X}}, \\quad \\hat{\\theta}=\\frac{2 \\overline{X^2}}{1-\\overline{X^2}}, \\quad \\hat{\\theta}=\\frac{3 \\overline{X^3}}{1-\\overline{X^3}}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764382191
+                    },
+                    "question_json": "neu-mathe/4267f1e3f4954f028a6ae8328d04a0d9",
+                    "updated_at": {
+                        "seconds": 1772735427
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 96244,
+                            "question_id": 20440,
+                            "is_answer": true,
+                            "choice": "$\\bar{X}$ 是 $\\theta$ 的矩估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 96245,
+                            "question_id": 20440,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\bar{X}}{1-\\bar{X}}$ 是 $\\theta$ 的矩估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 96246,
+                            "question_id": 20440,
+                            "is_answer": false,
+                            "choice": "$\\frac{2 \\overline{X^2}}{1-\\overline{X^2}}$ 是 $\\theta$ 的矩估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 96247,
+                            "question_id": 20440,
+                            "is_answer": false,
+                            "choice": "$\\frac{3 \\overline{X^3}}{1-\\overline{X^3}}$ 是 $\\theta$ 的矩估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.58,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 31251,
+                    "ai_tags": "矩估计,参数估计"
+                }
+            ]
+        }
+    }
+]

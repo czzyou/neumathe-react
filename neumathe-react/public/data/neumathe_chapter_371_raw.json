@@ -1,0 +1,1365 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 16,
+            "questions": [
+                {
+                    "id": 12862,
+                    "subject_id": 3,
+                    "chapter_id": 371,
+                    "question_id": "11b3e982-3108-4834-8a9f-ff0fc52e1ec7",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设每次射击击中目标的概率为 0.001 , 那么如果射击 5000 次, 根据中心极限定理, 击中次数不大于 2 的概率等于 ( ) . ( $\\Phi(1.34)=0.9099, \\Phi(1.35)=0.9115, \\Phi(2.23)=0.9871, \\Phi(2.24)=0.9874, \\sqrt{4.995}=2.235)$",
+                    "analysis": "设 $Y$ 表示射击 5000 次中击中目标的次数，则 $Y \\sim b(5000,0.001)$. 根据中心极限定理，则 $Y \\dot{\\sim} N(5,4.995)$ ， $P\\{$ 击中次数不大于 2$\\}=P\\{0 \\leq Y \\leq 2\\}$\n$$\n\\begin{aligned}\n& =P\\left\\{\\frac{0-5}{\\sqrt{5000 \\times 0.001 \\times 0.999}} \\leq \\frac{Y-5000 \\times 0.001}{\\sqrt{5000 \\times 0.001 \\times 0.999}} \\leq \\frac{2-5}{\\sqrt{5000 \\times 0.001 \\times 0.999}}\\right\\} \\\\\n& \\approx \\Phi\\left(\\frac{2-5}{\\sqrt{4.995}}\\right)-\\Phi\\left(\\frac{0-5}{\\sqrt{4.995}}\\right) \\approx \\Phi(2.24)-\\Phi(1.34) \\\\\n& =0.9874-0.9099=0.0775 .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/bb9d850ab0cc472faa211e843e3f1d5e",
+                    "updated_at": {
+                        "seconds": 1775068256
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51448,
+                            "question_id": 12862,
+                            "is_answer": true,
+                            "choice": "$0.0775$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51445,
+                            "question_id": 12862,
+                            "is_answer": false,
+                            "choice": "$0.0885$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51446,
+                            "question_id": 12862,
+                            "is_answer": false,
+                            "choice": "$0.0770$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51447,
+                            "question_id": 12862,
+                            "is_answer": false,
+                            "choice": "$0.0802$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.6,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 220669,
+                    "ai_tags": "中心极限定理,二项分布,正态近似"
+                },
+                {
+                    "id": 12863,
+                    "subject_id": 3,
+                    "chapter_id": 371,
+                    "question_id": "3679128c-9847-482a-8680-beeb2ab96343",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设各零件的重量都是随机变量, 它们相互独立, 且服从相同的分布, 其数学期望为 0.5 kg , 均方差为 0.1 kg ,则 5000 只零件的总重量超过 2510 kg 的概率为 ( ). $(\\Phi(1.414)=0.9214)$",
+                    "analysis": "设各零件的重量为 $X_i(i=1,2, \\cdots, 5000)$, 已知 $\\mu=E\\left(X_i\\right)=0.5 \\mathrm{~kg}, \\sqrt{D\\left(X_i\\right)}=\\sigma=0.1 \\mathrm{~kg}$,总重量 $Z=\\sum_{i=1}^{5000} X_i$, 所求概率为\n$$\n\\begin{aligned}\nP\\{Z>2510\\} & =P\\left\\{\\frac{Z-5000 \\times 0.5}{0.1 \\sqrt{5000}}>\\frac{2510-5000 \\times 0.5}{0.1 \\sqrt{5000}}\\right\\} \\approx 1-\\Phi\\left(\\frac{10}{0.1 \\sqrt{5000}}\\right) \\\\\n& =1-\\Phi(1.414)=1-0.9214=0.0786 .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/1ea7535c67a04380a6dd82b06078f7bb",
+                    "updated_at": {
+                        "seconds": 1775068255
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51450,
+                            "question_id": 12863,
+                            "is_answer": true,
+                            "choice": "$0.0786$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51449,
+                            "question_id": 12863,
+                            "is_answer": false,
+                            "choice": "$0.0789$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51452,
+                            "question_id": 12863,
+                            "is_answer": false,
+                            "choice": "$0.8428$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51451,
+                            "question_id": 12863,
+                            "is_answer": false,
+                            "choice": "$0.1574$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.75,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 57865,
+                    "ai_tags": "中心极限定理,独立同分布,正态分布"
+                },
+                {
+                    "id": 12864,
+                    "subject_id": 3,
+                    "chapter_id": 371,
+                    "question_id": "b2b6eb0a-8fad-4ed2-a4d4-c614ea41693a",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "据以往经验, 某种电器元件的寿命服从均值为 100 小时的指数分布. 现随机地取 16 只, 设它们的寿命是相互独立的, 则这 16 只元件的寿命的总和大于 1920 小时的概率为 ()$(\\Phi(0.8)=0.7881)$.",
+                    "analysis": "设 $X_i(i=1,2, \\cdots, 16)$ 表示第 $i$ 只电器元件的寿命, 则依题意知 $E\\left(X_i\\right)=100, \\sqrt{D\\left(X_i\\right)}=100, i=1,2, \\cdots, 16$.根据中心极限定理可知 $\\sum_{i=1}^{16} X_i \\dot{\\sim} N(1600,160000)$, 于是所求概率为\n$$\nP\\left\\{\\sum_{i=1}^{16} X_i>1920\\right\\} \\approx 1-\\Phi\\left(\\frac{320}{400}\\right)=1-\\Phi(0.8)=1-0.7881=0.2119\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/e951ead85a624adf92fd84f34407eb58",
+                    "updated_at": {
+                        "seconds": 1767810655
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51454,
+                            "question_id": 12864,
+                            "is_answer": true,
+                            "choice": "$0.2119$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51455,
+                            "question_id": 12864,
+                            "is_answer": false,
+                            "choice": "$0.7881$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51456,
+                            "question_id": 12864,
+                            "is_answer": false,
+                            "choice": "$0.4238$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51453,
+                            "question_id": 12864,
+                            "is_answer": false,
+                            "choice": "$0.5762$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.88,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 31770,
+                    "ai_tags": "概率论,中心极限定理,指数分布"
+                },
+                {
+                    "id": 12866,
+                    "subject_id": 3,
+                    "chapter_id": 371,
+                    "question_id": "e67c66eb-29a5-4f1e-8905-28be168ca632",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "计算机在进行数学计算时, 遵从四舍五入原则. 为简单计, 现在对小数点后面第一位进行舍入运算,则误差 $X$ 可以认为服从 $[-0.5,0.5]$ 上的均匀分布. 若在一项计算中进行了 100 次数字计算, 则平均误差落在区间 $[-\\sqrt{3} / 20, \\sqrt{3} / 20]$ 上的概率为 ( ).",
+                    "analysis": "设 $X_i$ 表示第 $i$ 次运算中产生的误差, 则 $X_1, X_2, \\cdots, X_{100}$ 相互独立, 都服从 $[-0.5,0.5]$ 上的均匀分布, $E\\left(X_i\\right)=0, D\\left(X_i\\right)=1 / 12, i=1,2, \\cdots, 100$ ，从而\n$$\nY_{100}=\\frac{\\sum_{i=1}^{100} X_i-100 \\times 0}{\\sqrt{100 / 12}}=\\frac{\\sqrt{3}}{5} \\sum_{i=1}^{100} X_i \\sim N(0,1) .\n$$\n\n平均误差 $\\bar{X}=\\frac{1}{100} \\sum_{i=1}^{100} X_i$ 落在 $\\left[-\\frac{\\sqrt{3}}{20}, \\frac{\\sqrt{3}}{20}\\right]$ 上的概率为\n$$\n\\begin{aligned}\nP\\left\\{-\\frac{\\sqrt{3}}{20} \\leq \\bar{X} \\leq \\frac{\\sqrt{3}}{20}\\right\\} & =P\\left\\{-\\frac{\\sqrt{3}}{20} \\leq \\frac{1}{100} \\sum_{i=1}^{100} X_i \\leq \\frac{\\sqrt{3}}{20}\\right\\} \\\\\n& =P\\left\\{-3 \\leq \\frac{\\sqrt{3}}{5} \\sum_{i=1}^{100} X_i \\leq 3\\right\\} \\approx \\Phi(3)-\\Phi(-3)=0.9973\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/9754233c3d8d45a58833277bbd79fdca",
+                    "updated_at": {
+                        "seconds": 1775068256
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51463,
+                            "question_id": 12866,
+                            "is_answer": true,
+                            "choice": "$\\Phi(3)-\\Phi(-3)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51462,
+                            "question_id": 12866,
+                            "is_answer": false,
+                            "choice": "$\\Phi(2)-\\Phi(-2)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51464,
+                            "question_id": 12866,
+                            "is_answer": false,
+                            "choice": "$\\Phi(1)-\\Phi(-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51461,
+                            "question_id": 12866,
+                            "is_answer": false,
+                            "choice": "$\\Phi(4)-\\Phi(-4)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.56,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 189399,
+                    "ai_tags": "中心极限定理,均匀分布,独立同分布"
+                },
+                {
+                    "id": 12867,
+                    "subject_id": 3,
+                    "chapter_id": 371,
+                    "question_id": "2da3313a-0d46-422e-8f3b-0cf19d1085e5",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某车间有同型号机床 200 部, 每部开动的概率为 0.7 , 假定各机床开关是独立的, 开动时每部要消耗电能 15 个单位，若要能以 $95 \\%$ 的概率保证不致于因供电不足而影响生产，则电厂最少要供应这个车间的电能为 ()$.(\\Phi(1.65)=0.95, \\sqrt{42}=6.48)$",
+                    "analysis": "设电厂最少要供应这个车间的电能为 $k$ 个单位, 并记 200 部机床中开动的机床部数为 $X$, 则 $X \\sim b(200,0.7)$.根据中心极限定理, 有\n$$\n\\begin{aligned}\n& P\\{0 \\leq 15 X \\leq k\\}=P\\left\\{0 \\leq X \\leq \\frac{k}{15}\\right\\} \\\\\n= & P\\left\\{\\frac{0-140}{\\sqrt{200 \\times 0.7 \\times 0.3}} \\leq \\frac{X-200 \\times 0.7}{\\sqrt{200 \\times 0.7 \\times 0.3}} \\leq \\frac{\\frac{k}{15}-140}{\\sqrt{200 \\times 0.7 \\times 0.3}}\\right\\} \\approx \\Phi\\left(\\frac{k-2100}{15 \\sqrt{42}}\\right) .\n\\end{aligned}\n$$\n\n今 $\\Phi\\left(\\frac{k-2100}{15 \\sqrt{42}}\\right) \\geq 0.95$, 得 $\\frac{k-2100}{15 \\times 6.48} \\geq 1.65$, 得 $k \\approx 2260$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/9c8659696b0f4fc589d8d178282c5f3e",
+                    "updated_at": {
+                        "seconds": 1775068253
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51465,
+                            "question_id": 12867,
+                            "is_answer": true,
+                            "choice": "$2260$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51468,
+                            "question_id": 12867,
+                            "is_answer": false,
+                            "choice": "$3786$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51467,
+                            "question_id": 12867,
+                            "is_answer": false,
+                            "choice": "$151$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51466,
+                            "question_id": 12867,
+                            "is_answer": false,
+                            "choice": "$225$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.64,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 107828,
+                    "ai_tags": "中心极限定理,二项分布,概率应用题"
+                },
+                {
+                    "id": 12874,
+                    "subject_id": 3,
+                    "chapter_id": 371,
+                    "question_id": "a394b96a-3c82-4657-b9db-44a6c107ba21",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某保险公司每月收到保险费是随机变量 $\\xi, E(\\xi)=10$ (万元), $D(\\xi)=1$. 试用中心极限定理确定 100 个月收到保险费超过 1010 万元的概率 $P\\left\\{\\sum_{i=1}^{100} \\xi_i>1010\\right\\}=() .(\\Phi(1)=0.8413, \\Phi(1.5)=0.9332, \\Phi(2)=0.9772)$",
+                    "analysis": "设 $\\eta$ 表示个 100 个月保险公司收到的保险费, 则 $\\eta=\\sum_{i=1}^{100} \\xi_i, \\xi_i$ 为第 $i$ 个月收到的保险费. 则\n$$\nE\\left(\\xi_i\\right)=10, D\\left(\\xi_i\\right)=1 .\n$$\n\n根据中心极限定理, 有\n$$\n\\begin{aligned}\n& P\\left\\{\\sum_{i=1}^{100} \\xi_i>1010\\right\\}=1-P\\left\\{\\sum_{i=1}^{100} \\xi_i \\leq 1010\\right\\} \\\\\n& =1-P\\left\\{\\frac{\\sum_{i=1}^{100} \\xi_i-100 \\times 10}{\\sqrt{100}} \\leq \\frac{1010-1000}{10}\\right\\} \\\\\n& \\approx 1-\\Phi(1)=1-0.8413=0.1587\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/3f6b621fb7804129ae0d777f1b4e010d",
+                    "updated_at": {
+                        "seconds": 1767810659
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 51493,
+                            "question_id": 12874,
+                            "is_answer": true,
+                            "choice": "$0.1587$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51496,
+                            "question_id": 12874,
+                            "is_answer": false,
+                            "choice": "$0.1336$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51495,
+                            "question_id": 12874,
+                            "is_answer": false,
+                            "choice": "$0.0668$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 51494,
+                            "question_id": 12874,
+                            "is_answer": false,
+                            "choice": "$0.0556$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.82,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 64329,
+                    "ai_tags": "中心极限定理,概率计算"
+                },
+                {
+                    "id": 18614,
+                    "subject_id": 3,
+                    "chapter_id": 371,
+                    "question_id": "40d97123-fd53-4787-ad1b-7920e3de331b",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一部件包括 10 部分, 每部分的长度是一个随机变量, 它们相互独立, 服从同一分布, 其数学期望为 $2 \\mathrm{~mm}$, 均方差为 $0.05 \\mathrm{~mm}$, 规定总长度为 $(20 \\pm 0.1) \\mathrm{mm}$ 时产品合格, 则产品合格的概率为 $(\\quad)$. $(\\Phi(0.63)=0.7357)$",
+                    "analysis": "设各部分长度为 $X_i(i=1,2, \\cdots, 10)$, 则总长度 $Z=\\sum_{i=1}^{10} X_i$. 已知 $E\\left(X_i\\right)=2, D\\left(X_i\\right)=0.05^2$, 依题意, 根据林德伯格-勒维中心极限定理, 产品合格的概率为\n$$\n\\begin{aligned}\n& P\\{20-0.1 \\leq Z \\leq 20+0.1\\} \\\\\n= & P\\left\\{\\frac{-0.1}{0.05 \\sqrt{10}} \\leq \\frac{Z-2 \\times 10}{0.05 \\sqrt{10}} \\leq \\frac{0.1}{0.05 \\sqrt{10}}\\right\\} \\\\\n\\approx & \\Phi(0.63)-\\Phi(-0.63)=2 \\Phi(0.63)-1=2 \\times 0.7357-1=0.4714 .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338602
+                    },
+                    "question_json": "neu-mathe/a5062a6a8958495c885b3ff6715ef4f0",
+                    "updated_at": {
+                        "seconds": 1767810657
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83462,
+                            "question_id": 18614,
+                            "is_answer": true,
+                            "choice": "$0.4714$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83463,
+                            "question_id": 18614,
+                            "is_answer": false,
+                            "choice": "$0.7357$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83464,
+                            "question_id": 18614,
+                            "is_answer": false,
+                            "choice": "$0.2643$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83465,
+                            "question_id": 18614,
+                            "is_answer": false,
+                            "choice": "$0.5286$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.75,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 41751,
+                    "ai_tags": "中心极限定理,正态分布,独立同分布"
+                },
+                {
+                    "id": 18616,
+                    "subject_id": 3,
+                    "chapter_id": 371,
+                    "question_id": "d7ea100a-77d5-419e-a5af-49e3a83f602c",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某车间有 200 台车床，在生产期间，由于需要检修、调换刀具、变换位置及调换工作等常需停车. 设开工率为 0.6，每台车床工作相互独立，且在开工时需电力 1 千瓦. 若要以 $99.9 \\%$ 的概率保证该车间不会因供电不足而影响生产，则最少需供应电力 ( ) 千瓦（取整数）. （ $\\Phi(3.1)=0.999, \\sqrt{48}=6.93$ ）",
+                    "analysis": "观察每台车床在某时刻是否工作视为一次试验，以 $X$ 表示在某时刻工作着的车床数，由每台车床工作的概率为 0.6，则有 $X \\sim B(200,0.6)$，于是某时刻所需电力 $X$ 千瓦. 又设供应的电力最少为 $N$ 千瓦，那么以 $99.9 \\%$ 的概率保证车间不会因供电不足而影响生产，即 $P\\{0 \\leq X \\leq N\\} \\geq 0.999$. 根据中心极限定理， $X \\dot{\\sim} N(120, 48)$. 于是，\n$$\n\\begin{aligned}\nP\\{0 \\leq X \\leq N\\} & =P\\left\\{\\frac{0-120}{\\sqrt{200 \\times 0.6 \\times 0.4}} \\leq \\frac{X-200 \\times 0.6}{\\sqrt{200 \\times 0.6 \\times 0.4}} \\leq \\frac{N-120}{\\sqrt{200 \\times 0.6 \\times 0.4}}\\right\\} \\\\\n& \\approx \\Phi\\left(\\frac{N-120}{\\sqrt{48}}\\right)-\\Phi\\left(\\frac{0-120}{\\sqrt{48}}\\right) \\approx \\Phi\\left(\\frac{N-120}{\\sqrt{48}}\\right)\n\\end{aligned}\n$$\n今 $\\Phi\\left(\\frac{N-120}{\\sqrt{48}}\\right) \\geq 0.999$，有 $\\frac{N-120}{\\sqrt{48}} \\geq 3.1$，即 $N \\geq 141.48$.\n因此，至少应供应 142 千瓦的电力才能以 $99.9 \\%$ 的概率保证车间不会因供电不足而影响生产.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338609
+                    },
+                    "question_json": "neu-mathe/c2f497eb05aa43ed8a125d4a3347a356",
+                    "updated_at": {
+                        "seconds": 1767810654
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83476,
+                            "question_id": 18616,
+                            "is_answer": true,
+                            "choice": "$142$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83477,
+                            "question_id": 18616,
+                            "is_answer": false,
+                            "choice": "$141$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83478,
+                            "question_id": 18616,
+                            "is_answer": false,
+                            "choice": "$156$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83479,
+                            "question_id": 18616,
+                            "is_answer": false,
+                            "choice": "$203$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.63,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 47880,
+                    "ai_tags": "中心极限定理,二项分布,概率计算"
+                },
+                {
+                    "id": 18618,
+                    "subject_id": 3,
+                    "chapter_id": 371,
+                    "question_id": "d4020256-4256-4ef7-bf49-38f903ee92b3",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设某种药物对某种病的治愈率为 0.8 , 现有 1000 个这种病人服用此药, 则至少有 780 人被治愈的概率 ( ).\n$$\n(\\Phi(1.56)=0.9406, \\Phi(1.57)=0.9418, \\Phi(1.58)=0.9430, \\Phi(1.59)=0.9441, \\sqrt{160}=12.65)\n$$",
+                    "analysis": "设 1000 个病人中有 $Y$ 个被治愈, 则 $Y \\sim b(1000,0.8), E(Y)=n p=800, D(Y)=n p q=160$. 于是, 根据中心极限定理有 $Y \\dot{\\sim} N(800,160)$, 从而所求事件的概率为\n$$\n\\begin{aligned}\nP\\{780 \\leq Y \\leq 1000\\} &\\approx \\Phi\\left(\\frac{1000-800}{\\sqrt{160}}\\right) -\\Phi\\left(\\frac{780-800}{\\sqrt{160}}\\right) \\\\\n&=\\Phi\\left(\\frac{200}{\\sqrt{160}}\\right)-\\Phi\\left(\\frac{-20}{\\sqrt{160}}\\right) \\\\\n& =\\Phi\\left(\\frac{20}{12.65}\\right) \\approx \\Phi(1.58)=0.9430\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338611
+                    },
+                    "question_json": "neu-mathe/3b7c247de31f412b8b30171567933dba",
+                    "updated_at": {
+                        "seconds": 1767637892
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83490,
+                            "question_id": 18618,
+                            "is_answer": true,
+                            "choice": "$0.9430$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83491,
+                            "question_id": 18618,
+                            "is_answer": false,
+                            "choice": "$0.9441$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83492,
+                            "question_id": 18618,
+                            "is_answer": false,
+                            "choice": "$0.9406$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83493,
+                            "question_id": 18618,
+                            "is_answer": false,
+                            "choice": "$0.9418$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 190393,
+                    "ai_tags": "中心极限定理,二项分布,正态分布"
+                },
+                {
+                    "id": 18619,
+                    "subject_id": 3,
+                    "chapter_id": 371,
+                    "question_id": "7abd26c0-68a2-47c2-b862-1c6b1029c72b",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一盒同型号螺丝钉共有 100 个, 已知该型号的螺丝钉的重量是一个随机变量, 期望值是 100 g , 标准差是 10 g , 则一盒螺丝钉的重量超过 10.2 kg 的概率为 $(\\quad)$. $(\\Phi(2)=0.97725)$",
+                    "analysis": "设 $X_i$ 为第 $i$ 个螺丝钉的重量, $i=1,2, \\cdots, 100$, 且它们之间独立同分布, 于是一盒螺丝钉的重量为 $X=\\sum_{i=1}^{100} X_i$.由 $\\mu=E\\left(X_i\\right)=100, \\sigma=\\sqrt{D\\left(X_i\\right)}=10, n=100$, 得 $E(X)=100 \\times E\\left(X_i\\right)=10000, \\sqrt{D(X)}=100$.\n\n由中心极限定理，有\n$$\n\\begin{aligned}\nP\\{X>10200\\} & =P\\left\\{\\frac{\\sum_{i=1}^n X_i-n \\mu}{\\sigma \\sqrt{n}}>\\frac{10200-n \\mu}{\\sigma \\sqrt{n}}\\right\\} \\\\\n& =P\\left\\{\\frac{X-10000}{100}>\\frac{10200-10000}{100}\\right\\}=P\\left\\{\\frac{X-10000}{100}>2\\right\\} \\\\\n& =1-P\\left\\{\\frac{X-10000}{100} \\leq 2\\right\\} \\approx 1-\\Phi(2)=1-0.97725=0.02275\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338620
+                    },
+                    "question_json": "neu-mathe/84025e6353e545cdb0d773e53ab755cd",
+                    "updated_at": {
+                        "seconds": 1767810655
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83497,
+                            "question_id": 18619,
+                            "is_answer": true,
+                            "choice": "$0.02275$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83498,
+                            "question_id": 18619,
+                            "is_answer": false,
+                            "choice": "$0.97725$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83499,
+                            "question_id": 18619,
+                            "is_answer": false,
+                            "choice": "$1.9545$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83500,
+                            "question_id": 18619,
+                            "is_answer": false,
+                            "choice": "$0.0455$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 61319,
+                    "ai_tags": "中心极限定理,期望与方差,正态分布"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 16,
+            "questions": [
+                {
+                    "id": 18621,
+                    "subject_id": 3,
+                    "chapter_id": 371,
+                    "question_id": "cb3cd8ec-a261-4d00-be3f-5b15cc8f2808",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某市保险公司开办一年人身保险业务, 被保险人每年需交付保险费 160 元, 若一年内发生重大人身事故,其本人或家属可获 2 万元赔金. 已知该市人员一年内发生重大人身事故的概率为 0.005 , 现有 5000 人参加此项保险, 则保险公司一年内从此项业务所得到的总收益在 20 万到 40 万元之间的概率为 ( ).",
+                    "analysis": "设 $X_i=\\left\\{\\begin{array}{ll}1, & \\text { 若第 } i \\text { 个被保险人发生重大事故 } \\\\ 0, & \\text { 若第 } i \\text { 个被保险人未发生重大事故 }\\end{array}, i=1,2, \\cdots, 5000\\right.$，则 $X_i$ 均服从参数为 $p=0.005$ 的两点分布. $\\sum_{i=1}^{5000} X_i$ 是 5000 个被保险人中一年内发生重大人身事故的人数， $\\sum_{i=1}^{5000} X_i \\sim b(5000,0.005)$.\n保险公司一年内从此项业务得到的总收益为 $0.016 \\times 5000-2 \\times \\sum_{i=1}^{5000} X_i$ 万元.\n根据中心极限定理, $\\sum_{i=1}^{5000} X_i \\sim N(25,25 \\times 0.995)$, 于是\n$$\n\\begin{aligned}\n& P\\left\\{20 \\leq 0.016 \\times 5000-2 \\sum_{i=1}^{5000} X_i \\leq 40\\right\\} \\\\\n= & P\\left\\{20 \\leq \\sum_{i=1}^{5000} X_i \\leq 30\\right\\} \\approx \\Phi\\left(\\frac{30-25}{\\sqrt{25 \\times 0.995}}\\right)-\\Phi\\left(\\frac{20-25}{\\sqrt{25 \\times 0.995}}\\right) \\\\\n\\approx & \\Phi(1)-\\Phi(-1)=2 \\Phi(1)-1=0.6826 .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338621
+                    },
+                    "question_json": "neu-mathe/09dc5d24cd9e499b802175d61de2c4d5",
+                    "updated_at": {
+                        "seconds": 1767465097
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83511,
+                            "question_id": 18621,
+                            "is_answer": true,
+                            "choice": "$\\Phi(1)-\\Phi(-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83512,
+                            "question_id": 18621,
+                            "is_answer": false,
+                            "choice": "$\\Phi(2)-\\Phi(-2)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83513,
+                            "question_id": 18621,
+                            "is_answer": false,
+                            "choice": "$\\Phi(3)-\\Phi(-3)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83514,
+                            "question_id": 18621,
+                            "is_answer": false,
+                            "choice": "$\\Phi(4)-\\Phi(-4)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.22,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 92742,
+                    "ai_tags": "中心极限定理,二项分布"
+                },
+                {
+                    "id": 18624,
+                    "subject_id": 3,
+                    "chapter_id": 371,
+                    "question_id": "1bbe683d-b589-4e3e-82bc-c0d63588fee9",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "有一批建筑房屋用的木柱, 其中 $80 \\%$ 的长度不小于 3 m .现从这批木柱中随机地取出 100 根, 问其中至少有 30 根短于 $3 m$ 的概率大约为 ( ). (注: $\\Phi(2.5)=0.9938$ )",
+                    "analysis": "把抽一根木柱测其长度看做一次试验. 设事件 $A$ 为“抽到的木柱长度短于 3 m”，则由已知条件知\n$$\nP(A)=\\frac{20}{100}=0.2=p\n$$\n\n由于木柱数量很大, 所以可把 100 次抽取看做是 100 重伯努利试验. 记抽出的 100 根木柱中短于 3 m 的木柱数为 $X$, 则 $X \\sim b(100,0.2)$. 于是, 由棣莫佛-拉普拉斯定理有 $X \\dot{\\sim} N(20,16)$, 而所求事件的概率为\n$$\nP\\{30 \\leq X \\leq 100\\} \\approx \\Phi\\left(\\frac{100-20}{4}\\right)-\\Phi\\left(\\frac{30-20}{4}\\right)=1-\\Phi(2.5)=0.0062 .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338626
+                    },
+                    "question_json": "neu-mathe/53d886ceb2ca46298c1ff3384889dd91",
+                    "updated_at": {
+                        "seconds": 1767637889
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83532,
+                            "question_id": 18624,
+                            "is_answer": true,
+                            "choice": "$0.0062$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83533,
+                            "question_id": 18624,
+                            "is_answer": false,
+                            "choice": "$0.0038$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83534,
+                            "question_id": 18624,
+                            "is_answer": false,
+                            "choice": "$0.0076$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83535,
+                            "question_id": 18624,
+                            "is_answer": false,
+                            "choice": "$0.0024$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.9,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 120407,
+                    "ai_tags": "概率论,伯努利试验,棣莫佛-拉普拉斯定理"
+                },
+                {
+                    "id": 18629,
+                    "subject_id": 3,
+                    "chapter_id": 371,
+                    "question_id": "0668a38a-cfd8-4155-a43b-9c2ad760e184",
+                    "difficulty": "Medium",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "在天平上重复称量一重为 $a$ 的物品，假设各次称量结果相互独立，且同服从正态分布 $N(a, 0.2^2)$，若以 $\\bar{X}_n$ 表示 $n$ 次称量结果的平均值，为使 $P\\{|\\bar{X}_n-a|<0.1\\}>0.95$，则 $n$ 的最小值不小于自然数 (    )。$(\\Phi(1.96)=0.975)$",
+                    "analysis": "设第 $i$ 次称量结果为随机变量 $X_i$，则 $X_i \\sim N(a, 0.2^2)$，$\\bar{X}_n=\\frac{1}{n} \\sum_{i=1}^n X_i$。依题意有\n$$\n\\begin{aligned}\nP\\{|\\bar{X}_n-a|<0.1\\} & =P\\left\\{\\left|\\sum_{i=1}^n X_i-n a\\right|<0.1 n\\right\\} \\\\\n& =P\\left\\{-\\frac{0.1 n}{0.2 \\sqrt{n}}<\\frac{\\sum_{i=1}^n X_i-n a}{0.2 \\sqrt{n}}<\\frac{0.1 n}{0.2 \\sqrt{n}}\\right\\} \\\\\n& = \\Phi\\left(\\frac{\\sqrt{n}}{2}\\right)-\\Phi\\left(-\\frac{\\sqrt{n}}{2}\\right)=2 \\Phi\\left(\\frac{\\sqrt{n}}{2}\\right)-1 \\geq 0.95\n\\end{aligned}\n$$\n因而 $\\Phi\\left(\\frac{\\sqrt{n}}{2}\\right) \\geq 0.975$，故 $\\frac{\\sqrt{n}}{2} \\geq 1.96$，即 $n \\geq 15.36$。所以 $n$ 的最小值应不下于自然数 $16$。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338644
+                    },
+                    "question_json": "neu-mathe/9b1134ed5f744997a8c9141af37660ec",
+                    "updated_at": {
+                        "seconds": 1767292340
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83567,
+                            "question_id": 18629,
+                            "is_answer": false,
+                            "choice": "$10$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83568,
+                            "question_id": 18629,
+                            "is_answer": false,
+                            "choice": "$9$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83569,
+                            "question_id": 18629,
+                            "is_answer": true,
+                            "choice": "$16$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83570,
+                            "question_id": 18629,
+                            "is_answer": false,
+                            "choice": "$25$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.57,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 86334,
+                    "ai_tags": "正态分布,样本均值,概率不等式"
+                },
+                {
+                    "id": 18630,
+                    "subject_id": 3,
+                    "chapter_id": 371,
+                    "question_id": "483c6cd4-377e-489b-b1c6-d1268691e55f",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一保险公司有 10000 人投保, 每人每年付 12 元保险费, 已知一年内投保人死亡率为 0.006 , 如死亡, 公司付给死者家属 1000 元, 则保险公司年利润为少于 0 和年利润不少于 60000 元的概率分别为 $(\\quad)$.",
+                    "analysis": "令 $X=$ “一年内死亡的人数”, 则 $X \\sim b(10000,0.006)$, 公司的利润为 $L=10000 \\times 12-1000 X$.\n根据中心极限定理, 有 $X \\dot{\\sim} N(60,60 \\times 0.994)$. 于是,\n(1)\n$$\nP\\{L<0\\}=P\\{10000 \\times 12-1000 X<0\\}=P\\{X>120\\} \\approx 1-\\Phi\\left(\\frac{120-60}{\\sqrt{59.64}}\\right) \\approx 0\n$$\n(2)\n$$\n\\begin{aligned}\nP\\{60000 \\leq L \\leq 120000\\} &= P\\{60000 \\leq 10000 \\times 12-1000 X \\leq 120000\\} \\\\\n&= P\\{0 \\leq X \\leq 60\\} \\\\\n&\\approx \\Phi\\left(\\frac{60-60}{\\sqrt{60 \\times 0.994}}\\right)-\\Phi\\left(\\frac{0-60}{\\sqrt{60 \\times 0.994}}\\right) \\\\\n&\\approx \\Phi(0)=0.5 .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338646
+                    },
+                    "question_json": "neu-mathe/21560fa0ea1040208efbeab9a4b671d5",
+                    "updated_at": {
+                        "seconds": 1767292334
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83574,
+                            "question_id": 18630,
+                            "is_answer": true,
+                            "choice": "$0, 0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83575,
+                            "question_id": 18630,
+                            "is_answer": false,
+                            "choice": "$0.5, 0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83576,
+                            "question_id": 18630,
+                            "is_answer": false,
+                            "choice": "$0.5, 0$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83577,
+                            "question_id": 18630,
+                            "is_answer": false,
+                            "choice": "$0, 0$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.6,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 44504,
+                    "ai_tags": "中心极限定理,二项分布,正态分布"
+                },
+                {
+                    "id": 18632,
+                    "subject_id": 3,
+                    "chapter_id": 371,
+                    "question_id": "82b5abc0-bc65-4409-a804-ab59633a4e2e",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一复杂的系统由 100 个相互独立起作用的部件所组成, 系统运行期间, 每个部件损坏的概率为 0.10 , 且为使整个系统起作用, 至少要有 85 个部件正常工作, 则整个系统起作用的概率为 ( ). (注: $\\Phi(3.3)=0.9995$, $\\Phi(3.33)=0.9996, \\Phi(3.4)=0.9997, \\Phi(1.67)=0.9525)$.",
+                    "analysis": "设 $X_i=\\begin{cases} 1, & \\text{第 } i \\text{ 个部件在整个运行期间正常工作} \\\\ 0, & \\text{第 } i \\text{ 个部件在运行期间损坏} \\end{cases}, \\quad i=1,2, \\cdots, 100$, 已知条件表明 $X_1, \\cdots, X_{100}$ 相互独立同分布, 且\n$$\nP\\{X_i=1\\}=0.9, P\\{X_i=0\\}=0.1\n$$\n\n记 $X=\\sum_{i=1}^{100} X_i$, 它表示在整个运行期间工作着的部件数, $X \\sim b(100, 0.9)$. 于是, 根据中心极限定理, 所求概率为\n$$\nP\\{85 \\leq X \\leq 100\\} \\approx \\Phi\\left(\\frac{100-90}{3}\\right)-\\Phi\\left(\\frac{85-90}{3}\\right) \\approx \\Phi(3.33)+\\Phi(1.67)-1=0.9521,\n$$\n\n即整个系统起作用的概率为 0.9521。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338654
+                    },
+                    "question_json": "neu-mathe/31d4684ffee840eca79b86f22e1d92d4",
+                    "updated_at": {
+                        "seconds": 1767465098
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 83588,
+                            "question_id": 18632,
+                            "is_answer": true,
+                            "choice": "$0.9521$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83589,
+                            "question_id": 18632,
+                            "is_answer": false,
+                            "choice": "$0.9525$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83590,
+                            "question_id": 18632,
+                            "is_answer": false,
+                            "choice": "$0.0475$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 83591,
+                            "question_id": 18632,
+                            "is_answer": false,
+                            "choice": "$0.0479$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.43,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 112853,
+                    "ai_tags": "中心极限定理,二项分布,概率计算"
+                },
+                {
+                    "id": 20430,
+                    "subject_id": 3,
+                    "chapter_id": 371,
+                    "question_id": "6b8d688b-3fd6-4e41-807f-8a8551f08092",
+                    "difficulty": "Medium",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设每次射击击中目标的概率为 0.001 , 如果射击 5000 次, 那么击中次数不大于 5 的概率等于（）. $(\\Phi(2.24)=0.9874, \\sqrt{4.995}=2.235)$",
+                    "analysis": "设 $Y$ 表示 5000 次射击中击中目标的次数, 则 $Y \\sim b(5000,0.001)$. 根据中心极限定理, $Y \\dot{\\sim} N(5,4.995)$, 于是\n$$\n\\begin{aligned}\n& P\\{0 \\leq Y \\leq 5\\}=P\\left\\{\\frac{0-5}{\\sqrt{5000 \\times 0.001 \\times 0.999}} \\leq \\frac{Y-5000 \\times 0.001}{\\sqrt{5000 \\times 0.001 \\times 0.999}} \\leq \\frac{5-5}{\\sqrt{5000 \\times 0.001 \\times 0.999}}\\right\\} \\\\\n\\approx & \\Phi\\left(\\frac{5-5}{\\sqrt{4.995}}\\right)-\\Phi\\left(\\frac{0-5}{\\sqrt{4.995}}\\right) \\approx \\Phi(0)+\\Phi(2.24)-1=0.5+0.9874-1=0.4874 .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764382165
+                    },
+                    "question_json": "neu-mathe/f05ab0dbab5f436093d0db70e1ca3ed1",
+                    "updated_at": {
+                        "seconds": 1775671213
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 96174,
+                            "question_id": 20430,
+                            "is_answer": false,
+                            "choice": "$0.4587$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 96175,
+                            "question_id": 20430,
+                            "is_answer": true,
+                            "choice": "$0.4874$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 96176,
+                            "question_id": 20430,
+                            "is_answer": false,
+                            "choice": "$0.4413$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        },
+                        {
+                            "id": 96177,
+                            "question_id": 20430,
+                            "is_answer": false,
+                            "choice": "$0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080681
+                            },
+                            "updated_at": {
+                                "seconds": 1735080681
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.33,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 15496,
+                    "tags": "",
+                    "ai_tags": "中心极限定理,二项分布,正态近似"
+                }
+            ]
+        }
+    }
+]

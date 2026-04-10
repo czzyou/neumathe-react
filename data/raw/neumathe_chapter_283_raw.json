@@ -1,0 +1,1624 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 19,
+            "questions": [
+                {
+                    "id": 13727,
+                    "subject_id": 3,
+                    "chapter_id": 283,
+                    "question_id": "42328539-bf5d-4802-b07f-a70d9de8be5a",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $P(A B)=0$, 则 ().",
+                    "analysis": "由概率的性质知, 若 $P(A B)=0$, 则\n$$\nP(A-B)=P(A)-P(A B)=P(A)-0=P(A) .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/16f2a9ee21f249ce96a76155616961c7",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54905,
+                            "question_id": 13727,
+                            "is_answer": true,
+                            "choice": "$P(A-B)=P(A)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54907,
+                            "question_id": 13727,
+                            "is_answer": false,
+                            "choice": "$A$ 和 $B$ 不相容",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54906,
+                            "question_id": 13727,
+                            "is_answer": false,
+                            "choice": "$A$ 和 $B$ 独立",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54908,
+                            "question_id": 13727,
+                            "is_answer": false,
+                            "choice": "$P(A)=0$ 或 $P(B)=0$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.57,
+                    "difficulty_score": 0.3,
+                    "avg_time_spent": 269544,
+                    "tags": "近期易错,近期232人做错",
+                    "ai_tags": "概率的基本性质,随机事件"
+                },
+                {
+                    "id": 13728,
+                    "subject_id": 3,
+                    "chapter_id": 283,
+                    "question_id": "bf46dd00-5062-4a92-9e05-fc471e20d0f5",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "$A, B$ 相互独立, $P(A)=0.75, P(A-B)=0.45$, 则 $P(B)=()$.",
+                    "analysis": "由于 $A, B$ 相互独立, 所以 $P(A B)=P(A) P(B)$,\n又由概率的性质得 $P(A-B)=P(A)-P(A B)=P(A)-P(A) P(B)$,即 $0.45=0.75-0.75 \\cdot P(B)$, 所以 $P(B)=0.4$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/bafdd40df346434abe6c9a1d257a3201",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54909,
+                            "question_id": 13728,
+                            "is_answer": true,
+                            "choice": "$0.4$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54910,
+                            "question_id": 13728,
+                            "is_answer": false,
+                            "choice": "$0.3$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54912,
+                            "question_id": 13728,
+                            "is_answer": false,
+                            "choice": "$0.3375$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54911,
+                            "question_id": 13728,
+                            "is_answer": false,
+                            "choice": "$0.85$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.81,
+                    "difficulty_score": 0.29,
+                    "avg_time_spent": 61917,
+                    "tags": "近期易错,近期66人做错",
+                    "ai_tags": "概率论,事件独立性,概率性质"
+                },
+                {
+                    "id": 13729,
+                    "subject_id": 3,
+                    "chapter_id": 283,
+                    "question_id": "6df0cf2f-0513-4d48-9067-c9f94e8b879e",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "对事件 $A, B$, 下列命题中正确的是 ().",
+                    "analysis": "如果 $A, B$ 互为对立, 则 $\\bar{A}=B$, 所以 $\\bar{A}, \\bar{B}$ 也互为对立. 其他选项均不能推出.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/30c4acbed22e41f48e48a54786ebc0bf",
+                    "updated_at": {
+                        "seconds": 1775673114
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54913,
+                            "question_id": 13729,
+                            "is_answer": true,
+                            "choice": "如果 $A, B$ 互为对立, 则 $\\bar{A}, \\bar{B}$ 也互为对立",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54914,
+                            "question_id": 13729,
+                            "is_answer": false,
+                            "choice": "如果 $A, B$ 互不相容, 则 $\\bar{A}, \\bar{B}$ 也互不相容",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54916,
+                            "question_id": 13729,
+                            "is_answer": false,
+                            "choice": "如果 $A, B$ 互不相容, 则 $A, B$ 相互独立",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54915,
+                            "question_id": 13729,
+                            "is_answer": false,
+                            "choice": "如果 $A, B$ 相容, 则 $A, B$ 不独立",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.83,
+                    "difficulty_score": 0.27,
+                    "avg_time_spent": 56854,
+                    "ai_tags": "概率论,随机事件,事件的相互关系"
+                },
+                {
+                    "id": 13733,
+                    "subject_id": 3,
+                    "chapter_id": 283,
+                    "question_id": "a9065ed8-63c2-4c66-b50b-5921501a8b45",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $A, B$ 是两个互相独立的随机事件, 且知 $P(A)=\\frac{1}{2}, P(B)=\\frac{1}{3}$. 则 $P(A \\cup B)=()$.",
+                    "analysis": "由于 $A, B$ 互相独立, 所以 $P(A B)=P(A) P(B)$,再根据概率的性质 $P(A \\cup B)=P(A)+P(B)-P(A B)=\\frac{1}{2}+\\frac{1}{3}-\\frac{1}{2} \\cdot \\frac{1}{3}=\\frac{2}{3}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/7ed1fc826cf94f5785ed496b201bc8b5",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54932,
+                            "question_id": 13733,
+                            "is_answer": true,
+                            "choice": "$\\frac{2}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54931,
+                            "question_id": 13733,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54929,
+                            "question_id": 13733,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54930,
+                            "question_id": 13733,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.22,
+                    "avg_time_spent": 39001,
+                    "ai_tags": "独立事件,概率加法公式"
+                },
+                {
+                    "id": 13734,
+                    "subject_id": 3,
+                    "chapter_id": 283,
+                    "question_id": "98ebd2d9-11e0-46d2-b1b9-fad8087c6ee7",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $A$ 和 $B$ 是两个独立事件, 已知 $P(A \\cup B)=a, P(A)=b \\neq 1$, 求 $P(B)=()$.",
+                    "analysis": "由于 $A$ 和 $B$ 是两个独立事件, 所以 $P(A B)=P(A) P(B)$,再由概率的性质有 $P(A \\cup B)=P(A)+P(B)-P(A B)=b+P(B)-b P(B)=a$,所以 $P(B)=\\frac{a-b}{1-b}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/61a22de2273d4442b06e97b52bc6d94d",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54934,
+                            "question_id": 13734,
+                            "is_answer": true,
+                            "choice": "$\\frac{a-b}{1-b}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54933,
+                            "question_id": 13734,
+                            "is_answer": false,
+                            "choice": "$\\frac{a}{1-b}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54936,
+                            "question_id": 13734,
+                            "is_answer": false,
+                            "choice": "$\\frac{b}{1-b}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54935,
+                            "question_id": 13734,
+                            "is_answer": false,
+                            "choice": "$\\frac{a-b}{1-a}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.91,
+                    "difficulty_score": 0.24,
+                    "avg_time_spent": 62526,
+                    "ai_tags": "独立事件,概率加法公式"
+                },
+                {
+                    "id": 13738,
+                    "subject_id": 3,
+                    "chapter_id": 283,
+                    "question_id": "daba4acb-6d86-4a64-8a86-f8c3a0755852",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "对事件 $A, B$, 下列命题中正确的是 ().",
+                    "analysis": "如果 $A, B$ 互为对立, 则 $\\bar{A}=B$, 所以 $\\bar{A}, \\bar{B}$ 也互为对立. 其他选项均不能推出.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/78727af31832411c80c2d589e5bedb31",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54951,
+                            "question_id": 13738,
+                            "is_answer": true,
+                            "choice": "如果 $A, B$ 互为对立, 则 $\\bar{A}, \\bar{B}$ 也互为对立",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54949,
+                            "question_id": 13738,
+                            "is_answer": false,
+                            "choice": "如果 $A, B$ 互不相容, 则 $\\bar{A}, \\bar{B}$ 也互不相容",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54952,
+                            "question_id": 13738,
+                            "is_answer": false,
+                            "choice": "如果 $A, B$ 互不相容, 则 $A, B$ 相互独立",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54950,
+                            "question_id": 13738,
+                            "is_answer": false,
+                            "choice": "如果 $A, B$ 相容, 则 $A, B$ 不独立",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.2,
+                    "avg_time_spent": 33289,
+                    "ai_tags": "概率论,事件的关系,对立事件"
+                },
+                {
+                    "id": 13741,
+                    "subject_id": 3,
+                    "chapter_id": 283,
+                    "question_id": "3d746a62-0bbf-4151-b3da-2881bc6b6a9c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "事件 $A, B$ 相互独立, 且 $P(A)=p, P(B)=q,(0<p<1,0<q<1)$, 则 $P(A \\cup B)=()$.",
+                    "analysis": "由于 $A, B$ 相互独立, 所以 $P(A B)=P(A) P(B)=p q$, 根据概率的性质有 $P(A \\cup B)=P(A)+P(B)-P(A B)=p+q-p q$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/ac9eaf7638a84e498a1979f3f3897fc9",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54963,
+                            "question_id": 13741,
+                            "is_answer": true,
+                            "choice": "$p+q-p q$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54961,
+                            "question_id": 13741,
+                            "is_answer": false,
+                            "choice": "$p+q$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54962,
+                            "question_id": 13741,
+                            "is_answer": false,
+                            "choice": "$(1-p)(1-q)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54964,
+                            "question_id": 13741,
+                            "is_answer": false,
+                            "choice": "$p(1-q)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.99,
+                    "difficulty_score": 0.23,
+                    "avg_time_spent": 19252,
+                    "tags": "",
+                    "ai_tags": "概率论,事件独立性,概率加法公式"
+                },
+                {
+                    "id": 13742,
+                    "subject_id": 3,
+                    "chapter_id": 283,
+                    "question_id": "7c41bdd7-838a-4f71-a64f-115e0e9b2711",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $A, B$ 是两个互相独立的随机事件, 且知 $P(A)=\\frac{1}{4}, P(B)=\\frac{1}{3}$. 则 $P(A-B)=()$.",
+                    "analysis": "由于 $A, B$ 互相独立, 所以 $P(A B)=P(A) P(B)$, 从而\n$$\nP(A-B)=P(A)-P(A B)=\\frac{1}{4}-\\frac{1}{4} \\cdot \\frac{1}{3}=\\frac{1}{6} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/85c56845021e455793396aa081f82dc2",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54965,
+                            "question_id": 13742,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54968,
+                            "question_id": 13742,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{12}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54967,
+                            "question_id": 13742,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54966,
+                            "question_id": 13742,
+                            "is_answer": false,
+                            "choice": "$\\frac{7}{12}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.84,
+                    "difficulty_score": 0.25,
+                    "avg_time_spent": 36649,
+                    "ai_tags": "概率论,独立事件,差事件"
+                },
+                {
+                    "id": 13743,
+                    "subject_id": 3,
+                    "chapter_id": 283,
+                    "question_id": "82c52b49-cd50-4b6f-bbc8-29a44e9b8a58",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "假设 $P(A)=0.4, \\quad P(A \\cup B)=0.7$, 那么 (1) 若 $A$ 与 $B$ 互不相容, 则 $P(B)=(),(2)$ 若 $A$ 与 $B$ 相互独立, 则 $P(B)=$ ( ).",
+                    "analysis": "(1) 由于 $A$ 与 $B$ 互不相容, 所以 $A B=\\varnothing$, 则 $P(B)=P(A \\cup B)-P(A)=0.7-0.4=0.3$;\n(2) 由 $P(A \\cup B)=P(A)+P(B)-P(A B)=P(A)+P(B)-P(A) P(B)$, 得 $P(B)=\\frac{P(A \\cup B)-P(A)}{1-P(A)}=\\frac{0.7-0.4}{1-0.4}=0.5$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/839ee8d8daeb47a08fff0b0e6a756d8c",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54970,
+                            "question_id": 13743,
+                            "is_answer": true,
+                            "choice": "$0.3,0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54972,
+                            "question_id": 13743,
+                            "is_answer": false,
+                            "choice": "$0.5,0.4$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54969,
+                            "question_id": 13743,
+                            "is_answer": false,
+                            "choice": "$0.5,0.3$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54971,
+                            "question_id": 13743,
+                            "is_answer": false,
+                            "choice": "$0.4,0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.96,
+                    "difficulty_score": 0.24,
+                    "avg_time_spent": 53555,
+                    "tags": "",
+                    "ai_tags": "概率论,互不相容事件,相互独立事件"
+                },
+                {
+                    "id": 13744,
+                    "subject_id": 3,
+                    "chapter_id": 283,
+                    "question_id": "28dcc52c-7c61-4624-9115-d3aba78a7f06",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $A, B$ 是两个对立事件, $P(A)>0, P(B)>0$, 则下列式子不正确的是 ( ).",
+                    "analysis": "由于 $A, B$ 是两个对立事件, 所以 $B=\\bar{A}$.\n所以 $P(A)=1-P(B), P(A \\mid B)=P(A \\mid \\bar{A})=0, P(A \\mid \\bar{B})=P(A \\mid A)=1, P(\\bar{A} \\bar{B})=P(A \\bar{A})=0$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/6791742087ad43a8bc3e4b371bf7d01f",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54976,
+                            "question_id": 13744,
+                            "is_answer": true,
+                            "choice": "$P(\\bar{A} \\bar{B})=1$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54975,
+                            "question_id": 13744,
+                            "is_answer": false,
+                            "choice": "$P(A)=1-P(B)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54973,
+                            "question_id": 13744,
+                            "is_answer": false,
+                            "choice": "$P(A \\mid B)=0$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54974,
+                            "question_id": 13744,
+                            "is_answer": false,
+                            "choice": "$P(A \\mid \\bar{B})=1$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.83,
+                    "difficulty_score": 0.3,
+                    "avg_time_spent": 38004,
+                    "ai_tags": "概率论,对立事件,条件概率"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 19,
+            "questions": [
+                {
+                    "id": 13745,
+                    "subject_id": 3,
+                    "chapter_id": 283,
+                    "question_id": "ad71643a-bfae-4081-975d-09aa98ddd3c8",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $A, B$ 相互独立, $P(A)=0.75, P(B)=0.8$, 则 $P(A \\cup B)=()$.",
+                    "analysis": "由于 $A, B$ 相互独立, 所以 $P(A B)=P(A) P(B)=0.75 \\times 0.8=0.6$, 又根据概率的性质, $P(A \\cup B)=P(A)+P(B)-P(A B)=0.75+0.8-0.6=0.95$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/411c800d5e8c4909b0459ed42746cdcd",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54978,
+                            "question_id": 13745,
+                            "is_answer": true,
+                            "choice": "$0.95$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54977,
+                            "question_id": 13745,
+                            "is_answer": false,
+                            "choice": "$0.45$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54980,
+                            "question_id": 13745,
+                            "is_answer": false,
+                            "choice": "$0.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 54979,
+                            "question_id": 13745,
+                            "is_answer": false,
+                            "choice": "$0.55$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.95,
+                    "difficulty_score": 0.23,
+                    "avg_time_spent": 39231,
+                    "ai_tags": "事件独立性,概率加法公式"
+                },
+                {
+                    "id": 19152,
+                    "subject_id": 3,
+                    "chapter_id": 283,
+                    "question_id": "2e075088-078a-4c1a-9353-6a1618bced77",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $0<P(A)<1, 0<P(B)<1, P(A \\mid B)+P(\\bar{A} \\mid \\bar{B})=1$, 则 ( ).",
+                    "analysis": "因为 $P(A \\mid B)+P(\\bar{A} \\mid \\bar{B})=P(A \\mid B)+1-P(A \\mid \\bar{B})=1$, 故 $P(A \\mid B)-P(A \\mid \\bar{B})=0$.又 $P(A \\mid B)=\\frac{P(A B)}{P(B)}, P(A \\mid \\bar{B})=\\frac{P(A \\bar{B})}{P(\\bar{B})}$, 故有 $\\frac{P(A B)}{P(B)}=\\frac{P(A \\bar{B})}{P(\\bar{B})}$, 从而 $P(A B)[1-P(B)]=P(B) P(A \\bar{B})$,则 $P(A B)=P(B)[P(A B)+P(A \\bar{B})]=P(B) P[A(B+\\bar{B})]=P(B) P(A)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339911
+                    },
+                    "question_json": "neu-mathe/02b96f5e93b24b4dabba8b60d6771241",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87228,
+                            "question_id": 19152,
+                            "is_answer": true,
+                            "choice": "事件 $A$ 与 $B$ 相互独立",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87229,
+                            "question_id": 19152,
+                            "is_answer": false,
+                            "choice": "事件 $A$ 与 $B$ 互不相同",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87230,
+                            "question_id": 19152,
+                            "is_answer": false,
+                            "choice": "事件 $A$ 与 $B$ 互相对立",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87231,
+                            "question_id": 19152,
+                            "is_answer": false,
+                            "choice": "事件 $A$ 与 $B$ 互不对立",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.75,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 91133,
+                    "tags": "近期易错,近期100人做错",
+                    "ai_tags": "事件的独立性,条件概率"
+                },
+                {
+                    "id": 19153,
+                    "subject_id": 3,
+                    "chapter_id": 283,
+                    "question_id": "2db7e4bc-7f35-4b1f-ad8f-1c4b6d985dad",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $A$ 与 $B$ 是相互独立的随机事件, $P(A)=0.3, P(A \\cup B)=0.7$, 则 $P(B)=()$.",
+                    "analysis": "由题意知 $P(A \\cup B)=P(A)+P(B)-P(AB)=P(A)+P(B)-P(A)P(B)$，($A$ 与 $B$ 是相互独立的随机事件)。将 $P(A)=0.3, P(A \\cup B)=0.7$ 代入，得 $0.7=0.3+P(B)-0.3 P(B)$，解方程得 $P(B)=\\frac{0.4}{0.7}=\\frac{4}{7}$。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339913
+                    },
+                    "question_json": "neu-mathe/b44817a834044b5590b200bc730480cd",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87235,
+                            "question_id": 19153,
+                            "is_answer": true,
+                            "choice": "$\\frac{4}{7}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87236,
+                            "question_id": 19153,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{7}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87237,
+                            "question_id": 19153,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{7}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87238,
+                            "question_id": 19153,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{7}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.26,
+                    "avg_time_spent": 68307,
+                    "tags": "",
+                    "ai_tags": "独立事件,概率加法公式"
+                },
+                {
+                    "id": 19155,
+                    "subject_id": 3,
+                    "chapter_id": 283,
+                    "question_id": "360397b7-78f3-4e8a-bce6-420642d24554",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $P(A)>0, P(B)>0$, 则下列公式正确的是 ( ).",
+                    "analysis": "当 $A$ 与 $B$ 相互独立时, $P(A B)=P(A) \\cdot P(B), P(A-B)=P(A \\bar{B})=P(A) P(\\bar{B})=P(A)[1-P(B)]$, 这里没有独立的条件，所以这两个选项都不正确.\n由条件概率公式, $P(A B \\mid A)=\\frac{P(A B A)}{P(A)}=\\frac{P(A B)}{P(A)}=P(B \\mid A)$.\n当 $P(A)=P(B)$ 时, 才有 $P(B \\mid A)=P(A \\mid B)$, 所以也不正确.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339921
+                    },
+                    "question_json": "neu-mathe/6ad37d7c77544eedb15eb9a6775c99c5",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87249,
+                            "question_id": 19155,
+                            "is_answer": true,
+                            "choice": "$P(A B \\mid A)=P(B \\mid A)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87250,
+                            "question_id": 19155,
+                            "is_answer": false,
+                            "choice": "$P(A-B)=P(A)[1-P(B)]$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87251,
+                            "question_id": 19155,
+                            "is_answer": false,
+                            "choice": "$P(A B)=P(A) \\cdot P(B)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87252,
+                            "question_id": 19155,
+                            "is_answer": false,
+                            "choice": "$P(A \\mid B)=P(B \\mid A)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.79,
+                    "difficulty_score": 0.27,
+                    "avg_time_spent": 57430,
+                    "tags": "近期易错,近期77人做错",
+                    "ai_tags": "条件概率,概率的基本性质"
+                },
+                {
+                    "id": 19160,
+                    "subject_id": 3,
+                    "chapter_id": 283,
+                    "question_id": "d9ae487a-fbb9-4878-a755-b72143797131",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "如果 $A, B$ 为任意事件, 下列命题正确的是 ( ).",
+                    "analysis": "$A, B$ 互不相容或相容，都不能推出 $\\bar{A}, \\bar{B}$ 互不相容或相容，这个根据 $A, B$ 是否是对立事件表现为不同情况。由独立性的定理可以得到：如果 $A, B$ 相互独立，则 $\\bar{A}, \\bar{B}$ 也相互独立。实际上还可以由 $A, B$ 相互独立推出 $A$ 与 $\\bar{B}$、$\\bar{A}$ 与 $B$ 也相互独立。\n$\\overline{A B}=\\bar{A} \\cup \\bar{B}$，没有 $\\bar{A} \\cdot \\bar{B}$ 这种写法，千万不要把事件的关系跟概率的性质搞混了。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339930
+                    },
+                    "question_json": "neu-mathe/6949ac43dd9c4b768b3744d1e8084da2",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87284,
+                            "question_id": 19160,
+                            "is_answer": true,
+                            "choice": "如果 $A, B$ 相互独立，则 $\\bar{A}, \\bar{B}$ 也相互独立",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87285,
+                            "question_id": 19160,
+                            "is_answer": false,
+                            "choice": "如果 $A, B$ 互不相容，则 $\\bar{A}, \\bar{B}$ 也互不相容",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87286,
+                            "question_id": 19160,
+                            "is_answer": false,
+                            "choice": "如果 $A, B$ 相容，则 $\\bar{A}, \\bar{B}$ 也相容",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87287,
+                            "question_id": 19160,
+                            "is_answer": false,
+                            "choice": "$\\overline{A B}=\\bar{A} \\cdot \\bar{B}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.81,
+                    "difficulty_score": 0.28,
+                    "avg_time_spent": 53654,
+                    "ai_tags": "概率论,事件独立性,事件运算"
+                },
+                {
+                    "id": 19163,
+                    "subject_id": 3,
+                    "chapter_id": 283,
+                    "question_id": "e8ffa40f-72a1-479b-9690-78ee71a1f402",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $P(A)=0.8, P(B)=0.7, P(A \\mid B)=0.8$, 则下列结论正确的是 ( \\quad ).",
+                    "analysis": "由条件概率公式得 $P(A \\mid B)=\\frac{P(A B)}{P(B)}=\\frac{P(A B)}{0.7}=0.8$, 所以 $P(A B)=0.56$.\n而 $P(A) \\cdot P(B)=0.7 \\times 0.8=0.56$,\n所以, $P(A B)=P(A) P(B)$, 即 $A$ 与 $B$ 独立.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339937
+                    },
+                    "question_json": "neu-mathe/8ac84ef21d654dfbb6dea2ad9942925b",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87305,
+                            "question_id": 19163,
+                            "is_answer": true,
+                            "choice": "$A$ 与 $B$ 独立",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87306,
+                            "question_id": 19163,
+                            "is_answer": false,
+                            "choice": "$A$ 与 $B$ 互斥",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87307,
+                            "question_id": 19163,
+                            "is_answer": false,
+                            "choice": "$B \\supset A$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87308,
+                            "question_id": 19163,
+                            "is_answer": false,
+                            "choice": "$P(A+B)=P(A)+P(B)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.95,
+                    "difficulty_score": 0.24,
+                    "avg_time_spent": 40118,
+                    "ai_tags": "概率论,条件概率,事件的独立性"
+                },
+                {
+                    "id": 19165,
+                    "subject_id": 3,
+                    "chapter_id": 283,
+                    "question_id": "cf2a522b-ec2d-460f-a1b7-08b02b4363d5",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设两个相互独立的事件 $A$ 和 $B$ 都不发生的概率为 $\\frac{1}{9}$，$A$ 发生 $B$ 不发生的概率与 $B$ 发生 $A$ 不发生的概率相等，则 $P(A)=(\\quad)$。",
+                    "analysis": "根据题设有\n$$\n\\begin{aligned}\n& P(\\overline{A \\cup B})=1-P(A \\cup B)=\\frac{1}{9}, \\cdots \\cdots (1) \\\\\n& P(A \\bar{B})=P(\\bar{A} B), \\cdots \\cdots(2)\n\\end{aligned}\n$$\n并且 $A=A \\bar{B}+A B$，$B=B A+B \\bar{A}$，\n$P(A)=P(A \\bar{B})+P(A B)$，$P(B)=P(B A)+P(B \\bar{A})$。\n由式 (2) 有\n$$\nP(A)-P(A B)=P(B)-P(A B) \\text {，即 } P(A)=P(B) \\cdots \\cdots(3)\n$$\n又 $A, B$ 事件相互独立，根据 (1) 及 (3) 有\n$$\n1-P(A)-P(B)+P(A) P(B)=P^2(A)-2 P(A)+1=[P(A)-1]^2=\\frac{1}{9}\n$$\n即 $P(A)=1 \\pm \\frac{1}{3}$，从而 $P(A)=\\frac{2}{3}$ 或 $P(A)=\\frac{4}{3}$（舍去），故 $P(A)=\\frac{2}{3}$。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339944
+                    },
+                    "question_json": "neu-mathe/6d2865b2de1e4a30a506f6ab61a5314d",
+                    "updated_at": {
+                        "seconds": 1775673110
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87319,
+                            "question_id": 19165,
+                            "is_answer": true,
+                            "choice": "$\\frac{2}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87320,
+                            "question_id": 19165,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87321,
+                            "question_id": 19165,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87322,
+                            "question_id": 19165,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.75,
+                    "difficulty_score": 0.3,
+                    "avg_time_spent": 92088,
+                    "tags": "近期易错,近期86人做错",
+                    "ai_tags": "概率论,事件的独立性,概率计算"
+                },
+                {
+                    "id": 19166,
+                    "subject_id": 3,
+                    "chapter_id": 283,
+                    "question_id": "01e84ae5-f22c-4895-b254-c0ae9d443bcd",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设事件 $A, B$ 独立, $P(\\bar{A} \\bar{B})=\\frac{1}{9}, P(A \\bar{B})=P(\\bar{A} B)$, 则 $P(A)=()$.",
+                    "analysis": "由事件 $A, B$ 独立 $\\Rightarrow \\bar{A}, \\bar{B}$ 独立， $A, \\bar{B}$ 独立， $\\bar{A}, B$ 独立；而又\n$$\n\\left.\\begin{array}{c}\nP(\\bar{A} \\bar{B})=P(\\bar{A}) \\cdot P(\\bar{B})=\\frac{1}{9}, \\\\\nP(A \\bar{B})=P(\\bar{A} B) \\\\\n\\Rightarrow P(A) \\cdot P(\\bar{B})=P(\\bar{A}) \\cdot P(B) \\\\\n\\Rightarrow P(\\bar{A})=P(\\bar{B}) .\n\\end{array}\\right\\} \\Rightarrow P(\\bar{A})=\\frac{1}{3} \\Rightarrow P(A)=\\frac{2}{3}.\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339946
+                    },
+                    "question_json": "neu-mathe/b809126c946b41628f32a96479f2ded4",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87326,
+                            "question_id": 19166,
+                            "is_answer": true,
+                            "choice": "$\\frac{2}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87327,
+                            "question_id": 19166,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87328,
+                            "question_id": 19166,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87329,
+                            "question_id": 19166,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.93,
+                    "difficulty_score": 0.14,
+                    "avg_time_spent": 50657,
+                    "ai_tags": "独立事件,概率计算"
+                },
+                {
+                    "id": 19167,
+                    "subject_id": 3,
+                    "chapter_id": 283,
+                    "question_id": "606c5f77-0a70-4dc2-8634-d8dfe0285584",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设事件 $A$ 与 $B$ 相互独立, 已知 $P(A)=0.5, P(A \\cup B)=0.8$, 则 $P(A \\bar{B})=()$.",
+                    "analysis": "由于两事件相互独立, 则 $P(A \\cup B)=P(A)+P(\\bar{A} B)=P(A)+P(\\bar{A}) P(B)$, 所以 $0.8=0.5+(1-0.5) P(B)$, 则 $P(B)=0.6$, 所以 $P(A \\bar{B})=P(A) P(\\bar{B})=0.5(1-0.6)=0.2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339957
+                    },
+                    "question_json": "neu-mathe/e9bee89537cd41f69ba5f6f3594019b4",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87333,
+                            "question_id": 19167,
+                            "is_answer": true,
+                            "choice": "$0.2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87334,
+                            "question_id": 19167,
+                            "is_answer": false,
+                            "choice": "$0.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87335,
+                            "question_id": 19167,
+                            "is_answer": false,
+                            "choice": "$0.8$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        },
+                        {
+                            "id": 87336,
+                            "question_id": 19167,
+                            "is_answer": false,
+                            "choice": "$0.4$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080692
+                            },
+                            "updated_at": {
+                                "seconds": 1735080692
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.91,
+                    "difficulty_score": 0.28,
+                    "avg_time_spent": 62146,
+                    "ai_tags": "概率论,事件独立性,概率加法公式"
+                }
+            ]
+        }
+    }
+]

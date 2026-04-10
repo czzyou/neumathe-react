@@ -1,0 +1,1794 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 21,
+            "questions": [
+                {
+                    "id": 13492,
+                    "subject_id": 3,
+                    "chapter_id": 303,
+                    "question_id": "65fc8b85-1e12-49bb-ac59-b838dcb59824",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "设 $X \\sim N(3,4)$, 且 $c$ 满足 $P\\{X>c\\}=P\\{X \\leq c\\}$, 则 $c=()$.",
+                    "analysis": "由于 $P\\{X>c\\}=1-P\\{X \\leq c\\}$, 故 $1-P\\{X \\leq c\\}=P\\{X \\leq c\\}$, 得 $P\\{X \\leq c\\}=\\frac{1}{2}$.又 $P\\{X \\leq c\\}=\\Phi\\left(\\frac{c-3}{2}\\right)$, 故 $\\Phi\\left(\\frac{c-3}{2}\\right)=\\frac{1}{2}$, 得 $\\frac{c-3}{2}=0$, 即 $c=3$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/bf792ce5984f4744ae677409536711d5",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53965,
+                            "question_id": 13492,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53968,
+                            "question_id": 13492,
+                            "is_answer": false,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53967,
+                            "question_id": 13492,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53966,
+                            "question_id": 13492,
+                            "is_answer": true,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.97,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 24404,
+                    "ai_tags": "正态分布,概率性质"
+                },
+                {
+                    "id": 13493,
+                    "subject_id": 3,
+                    "chapter_id": 303,
+                    "question_id": "67fdcc1e-55b7-404f-8b0c-a4ccfe9acd51",
+                    "difficulty": "Easy",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "设 $\\xi \\sim N(2,18), \\eta=f(\\xi)=a \\xi+b \\sim N(0,1)$, 则 $f(\\xi)=()$.",
+                    "analysis": "由于 $\\xi \\sim N(2,18)$, 则 $\\frac{\\xi-2}{3 \\sqrt{2}} \\sim N(0,1)$,又 $\\eta=a \\xi+b \\sim N(0,1)$, 故 $a=\\frac{1}{3 \\sqrt{2}}, b=-\\frac{2}{3 \\sqrt{2}}$.即 $f(\\xi)=\\frac{\\xi-2}{3 \\sqrt{2}}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/4447009989334bb5898c457b25978e88",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53970,
+                            "question_id": 13493,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\xi-2}{18}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53972,
+                            "question_id": 13493,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\xi+2}{18}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53969,
+                            "question_id": 13493,
+                            "is_answer": true,
+                            "choice": "$\\frac{\\xi-2}{3 \\sqrt{2}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53971,
+                            "question_id": 13493,
+                            "is_answer": false,
+                            "choice": "$3 \\sqrt{2} \\xi+2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.89,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 52921,
+                    "ai_tags": "正态分布,标准化"
+                },
+                {
+                    "id": 13494,
+                    "subject_id": 3,
+                    "chapter_id": 303,
+                    "question_id": "89c4f99f-aa32-4ec9-a1f0-fc1059e0e190",
+                    "difficulty": "Easy",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "设随机变量 $X \\sim N\\left(\\mu, 4^2\\right), Y \\sim N\\left(\\mu, 5^2\\right)$. 记 $p_1=P\\{X \\leq \\mu-4\\}, p_2=P\\{Y \\geq \\mu+5\\}$, 则正确的是 ( ).",
+                    "analysis": "$\\begin{gathered}\\text { 由 } X \\sim N\\left(\\mu, 4^2\\right), Y \\sim N\\left(\\mu, 5^2\\right), \\text { 有 } \\frac{X-\\mu}{4} \\sim N(0,1), \\frac{Y-\\mu}{5} \\sim N(0,1), \\text { 从而 } \\\\ p_1=P\\{X \\leq \\mu-4\\}=P\\left\\{\\frac{X-\\mu}{4} \\leq-1\\right\\}=\\Phi(-1)=1-\\Phi(1), \\\\ p_2=P\\{Y \\geq \\mu+5\\}=P\\left\\{\\frac{Y-\\mu}{5} \\geq 1\\right\\}=1-\\Phi(1) .\\end{gathered}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/b8257837e89f4b35b072b08de58591c8",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53973,
+                            "question_id": 13494,
+                            "is_answer": false,
+                            "choice": "$p_1=P\\{X \\leq \\mu-4\\}=1-\\Phi(0)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53975,
+                            "question_id": 13494,
+                            "is_answer": false,
+                            "choice": "$p_1=P\\{X \\leq \\mu-4\\}=1+\\Phi(0)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53976,
+                            "question_id": 13494,
+                            "is_answer": true,
+                            "choice": "$p_2=P\\{Y \\geq \\mu+5\\}=1-\\Phi(1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53974,
+                            "question_id": 13494,
+                            "is_answer": false,
+                            "choice": "$p_2=P\\{Y \\geq \\mu+5\\}=1-\\Phi(0)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.75,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 96360,
+                    "ai_tags": "正态分布,概率计算"
+                },
+                {
+                    "id": 13495,
+                    "subject_id": 3,
+                    "chapter_id": 303,
+                    "question_id": "6266a558-249c-4b77-b94b-6f638dd5e4bb",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X \\sim N\\left(\\mu, \\sigma^2\\right)$, 且已知 $P\\{\\mu<X<2 \\mu\\}=0.3$, 则 $P\\{X<0\\}=()$.",
+                    "analysis": "若 $\\xi \\sim N\\left(\\mu, \\sigma^2\\right)$, 则 $\\frac{\\xi-\\mu}{\\sigma} \\sim N(0,1)$. 故\n$$\n\\begin{aligned}\nP\\{\\mu<X<2 \\mu\\} & =P\\left\\{\\frac{\\mu-\\mu}{\\sigma}<\\frac{X-\\mu}{\\sigma}<\\frac{2 \\mu-\\mu}{\\sigma}\\right\\} \\\\\n& =P\\left\\{0<\\frac{X-\\mu}{\\sigma}<\\frac{\\mu}{\\sigma}\\right\\}=\\Phi\\left(\\frac{\\mu}{\\sigma}\\right)-\\Phi(0)=\\Phi\\left(\\frac{\\mu}{\\sigma}\\right)-0.5 .\n\\end{aligned}\n$$\n\n又 $0.3=P\\{\\mu<X<2 \\mu\\}=\\Phi\\left(\\frac{\\mu}{\\sigma}\\right)-0.5$, 于是 $\\Phi\\left(\\frac{\\mu}{\\sigma}\\right)=0.8$. 所以\n$$\n\\begin{aligned}\nP\\{X<0\\} & =P\\left\\{\\frac{X-\\mu}{\\sigma}<\\frac{0-\\mu}{\\sigma}\\right\\}=P\\left\\{\\frac{X-\\mu}{\\sigma}<-\\frac{\\mu}{\\sigma}\\right\\} \\\\\n& =\\Phi\\left(-\\frac{\\mu}{\\sigma}\\right)=1-\\Phi\\left(\\frac{\\mu}{\\sigma}\\right)=1-0.8=0.2\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/13528cbf79ea4a29b2d6902014f9d847",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53978,
+                            "question_id": 13495,
+                            "is_answer": true,
+                            "choice": "$0.2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53977,
+                            "question_id": 13495,
+                            "is_answer": false,
+                            "choice": "$0.4$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53980,
+                            "question_id": 13495,
+                            "is_answer": false,
+                            "choice": "$0.8$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53979,
+                            "question_id": 13495,
+                            "is_answer": false,
+                            "choice": "$0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.87,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 55482,
+                    "tags": "",
+                    "ai_tags": "正态分布,概率计算"
+                },
+                {
+                    "id": 13497,
+                    "subject_id": 3,
+                    "chapter_id": 303,
+                    "question_id": "cd9b6532-edb9-40dc-9c3a-cb4906b96d01",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X \\sim N\\left(2, \\sigma^2\\right)$, 且 $P\\{2<X<4\\}=0.3$, 则 $P\\{X<0\\}=()$.",
+                    "analysis": "若 $\\xi \\sim N\\left(\\mu, \\sigma^2\\right)$, 则 $\\frac{\\xi-\\mu}{\\sigma} \\sim N(0,1)$. 由于 $X \\sim N\\left(2, \\sigma^2\\right)$, 故\n$$\n\\begin{aligned}\nP\\{2<X<4\\} & =\\Phi\\left(\\frac{4-2}{\\sigma}\\right)-\\Phi\\left(\\frac{2-2}{\\sigma}\\right) \\\\\n& =\\Phi\\left(\\frac{2}{\\sigma}\\right)-\\Phi(0)=\\Phi\\left(\\frac{2}{\\sigma}\\right)-0.5 .\n\\end{aligned}\n$$\n\n由假设 $P\\{2<X<4\\}=0.3$, 得\n$$\n\\Phi\\left(\\frac{2}{\\sigma}\\right)-0.5=0.3, \\Phi\\left(\\frac{2}{\\sigma}\\right)=0.8\n$$\n\n又 $P\\{X<0\\}=\\Phi\\left(\\frac{0-2}{\\sigma}\\right)=\\Phi\\left(-\\frac{2}{\\sigma}\\right)=1-\\Phi\\left(\\frac{2}{\\sigma}\\right)$,\n故 $\\quad P\\{X<0\\}=1-0.8=0.2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/7444d8049cfb474c914bbd89c18129e9",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53987,
+                            "question_id": 13497,
+                            "is_answer": true,
+                            "choice": "$0.2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53988,
+                            "question_id": 13497,
+                            "is_answer": false,
+                            "choice": "$0.8$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53986,
+                            "question_id": 13497,
+                            "is_answer": false,
+                            "choice": "$0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53985,
+                            "question_id": 13497,
+                            "is_answer": false,
+                            "choice": "$0.4$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.97,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 70433,
+                    "ai_tags": "正态分布,概率计算"
+                },
+                {
+                    "id": 13499,
+                    "subject_id": 3,
+                    "chapter_id": 303,
+                    "question_id": "0c966c4a-fc0a-4df0-915f-ab5651942491",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "设随机变量 $X \\sim N\\left(\\mu, 4^2\\right), Y \\sim N\\left(\\mu, 5^2\\right)$. 记 $p_1=P\\{X \\leq \\mu-4\\}, p_2=P\\{Y \\geq \\mu+5\\}$, 则正确的是 ( ).",
+                    "analysis": "$\\begin{aligned} & \\text { 若 } \\begin{aligned} & X \\sim N\\left(\\mu, \\sigma^2\\right), \\text { 则 } \\eta=\\frac{X-\\mu}{\\sigma} \\sim N(0,1) . \\\\ & p_1=P\\left\\{\\frac{X-\\mu}{4} \\leq \\frac{(\\mu-4)-\\mu}{4}\\right\\} \\\\ &=P\\left(\\eta \\leq \\frac{\\mu-4-\\mu}{4}\\right)=\\Phi(-1)=1-\\Phi(1), \\\\ & p_2=P\\left\\{\\frac{Y-\\mu}{5} \\geq \\frac{(\\mu+5)-\\mu}{5}\\right\\} \\\\ &=P\\{\\eta \\geq 1\\}=1-P\\{\\eta<1\\}=1-\\Phi(1) .\\end{aligned}\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/fc9d9502cf9c407386977f9fcac762f7",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53995,
+                            "question_id": 13499,
+                            "is_answer": false,
+                            "choice": "对任何实数 $\\mu$, 都有 $p_1 \\neq p_2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53994,
+                            "question_id": 13499,
+                            "is_answer": false,
+                            "choice": "对 $\\mu$ 的部分数值, 才有 $p_1=p_2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53996,
+                            "question_id": 13499,
+                            "is_answer": false,
+                            "choice": "$p_1, p_2$ 的关系不能确定",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 53993,
+                            "question_id": 13499,
+                            "is_answer": true,
+                            "choice": "对任何实数 $\\mu$, 都有 $p_1=p_2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.76,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 41712,
+                    "ai_tags": "正态分布,标准化,概率性质"
+                },
+                {
+                    "id": 13501,
+                    "subject_id": 3,
+                    "chapter_id": 303,
+                    "question_id": "2b3b8155-3042-4ab4-9ff8-83119122536b",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $\\xi \\sim N\\left(2, \\sigma^2\\right)$, 已知 $P\\{\\xi \\in[0,4]\\}=0.3$, 则 $P(\\xi<0)=()$.",
+                    "analysis": "由 $\\xi \\sim N\\left(2, \\sigma^2\\right)$, 有 $\\frac{\\xi-2}{\\sigma} \\sim N(0,1)$. 再由\n$$\n\\begin{aligned}\nP\\{\\xi \\in[0,4]\\} & =P\\{0 \\leq \\xi \\leq 4\\}=P\\left\\{\\frac{0-2}{\\sigma} \\leq \\frac{\\xi-2}{\\sigma} \\leq \\frac{4-2}{\\sigma}\\right\\} \\\\\n& =\\Phi\\left(\\frac{2}{\\sigma}\\right)-\\Phi\\left(\\frac{-2}{\\sigma}\\right)=2 \\Phi\\left(\\frac{2}{\\sigma}\\right)-1=0.3\n\\end{aligned}\n$$\n\n有 $\\Phi\\left(\\frac{2}{\\sigma}\\right)=0.65$. 于是,\n$$\nP(\\xi<0)=P\\left(\\frac{\\xi-2}{\\sigma}<\\frac{0-2}{\\sigma}\\right)=\\Phi\\left(\\frac{-2}{\\sigma}\\right)=1-\\Phi\\left(\\frac{2}{\\sigma}\\right)=0.35 .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/2b68282728294520b7c777c0774dae74",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54001,
+                            "question_id": 13501,
+                            "is_answer": true,
+                            "choice": "$0.35$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54003,
+                            "question_id": 13501,
+                            "is_answer": false,
+                            "choice": "$0.30$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54004,
+                            "question_id": 13501,
+                            "is_answer": false,
+                            "choice": "$0.65$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54002,
+                            "question_id": 13501,
+                            "is_answer": false,
+                            "choice": "$0.50$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.88,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 81090,
+                    "ai_tags": "正态分布,概率计算"
+                },
+                {
+                    "id": 13504,
+                    "subject_id": 3,
+                    "chapter_id": 303,
+                    "question_id": "7c919f8e-e8cf-4894-958d-af3fb56ea09f",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "随机变量 $\\xi \\sim N\\left(a, \\sigma^2\\right)$, 记 $g(\\sigma)=P\\{|\\xi-a|<\\sigma\\}$, 则随着 $\\sigma$ 的增大, $g(\\sigma)$ 之值 () .",
+                    "analysis": "若 $X \\sim N\\left(\\mu, \\sigma^2\\right)$, 则 $\\eta=\\frac{X-\\mu}{\\sigma} \\sim N(0,1)$. 从而\n$$\nP\\{|X-a|<\\sigma\\}=P\\left\\{\\left|\\frac{X-a}{\\sigma}\\right|<1\\right\\}=P\\{|\\eta|<1\\},\n$$\n\n所以不管 $\\sigma$ 变大还是变小, $P\\{|X-a|<\\sigma\\}$ 的大小都不变.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/35503830188d4faf98a687f322e57270",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54016,
+                            "question_id": 13504,
+                            "is_answer": true,
+                            "choice": "保持不变",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54013,
+                            "question_id": 13504,
+                            "is_answer": false,
+                            "choice": "单调增大",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54014,
+                            "question_id": 13504,
+                            "is_answer": false,
+                            "choice": "单调减少",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54015,
+                            "question_id": 13504,
+                            "is_answer": false,
+                            "choice": "增减性确定",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.76,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 42736,
+                    "ai_tags": "正态分布,标准化"
+                },
+                {
+                    "id": 13506,
+                    "subject_id": 3,
+                    "chapter_id": 303,
+                    "question_id": "91d7cffc-4282-41cc-8b7a-ef4d357f1657",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设 $\\xi \\sim N\\left(2,3^2\\right)$, 且有 $\\Phi(4)=1, \\Phi(3)=0.99865, \\Phi(2)=0.9772, \\Phi(1)=0.8413$, 则 $P\\{-4<\\xi<-1\\}=()$.",
+                    "analysis": "若 $X \\sim N\\left(\\mu, \\sigma^2\\right)$, 则 $\\frac{X-\\mu}{\\sigma} \\sim N(0,1)$, 所以 $U=\\frac{\\xi-2}{3} \\sim N(0,1)$, 从而\n$$\n\\begin{aligned}\nP\\{-4<\\xi<-1\\} & =P\\left\\{\\frac{-4-2}{3}<\\frac{\\xi-2}{3}<\\frac{-1-2}{3}\\right\\}=P\\{-2<U<-1\\}, \\\\\n& =\\Phi(-1)-\\Phi(-2)=[1-\\Phi(1)]-[1-\\Phi(2)]=\\Phi(2)-\\Phi(1) \\\\\n& =0.9772-0.8413=0.1359 .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/f7a6b9468e0142758d0dd6208692d31f",
+                    "updated_at": {
+                        "seconds": 1775586666
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54024,
+                            "question_id": 13506,
+                            "is_answer": false,
+                            "choice": "$0.8413$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54023,
+                            "question_id": 13506,
+                            "is_answer": true,
+                            "choice": "$0.1359$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54022,
+                            "question_id": 13506,
+                            "is_answer": false,
+                            "choice": "$0.9772$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54021,
+                            "question_id": 13506,
+                            "is_answer": false,
+                            "choice": "$0.2618$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.88,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 116115,
+                    "ai_tags": "正态分布,概率计算"
+                },
+                {
+                    "id": 18999,
+                    "subject_id": 3,
+                    "chapter_id": 303,
+                    "question_id": "92c4850f-2bde-4fbe-8314-2f5c43769503",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某人去火车站乘车, 有两条路可以走. 第一条路程较短, 但交通拥挤, 所需时间 (单位: 分钟) 服从正态分布 $N\\left(40,10^2\\right)$; 第二条路程较长, 但意外阻塞较少, 所需时间服从正态分布 $N\\left(50,4^2\\right)$, 那么若动身时离开车时间只有 60 分钟, 应走路线 (); 若动身时离开车时间只有 45 分钟, 应走路线 ( ).",
+                    "analysis": "设 $X, Y$ 分别为该人走第一、二条路到达火车站所用时间, 则 $X \\sim N\\left(40,10^2\\right), Y \\sim N\\left(50,4^2\\right)$.哪一条路线在开车之前到达火车站的可能性大就走哪一条路线。\n(1)\n$$\n\\begin{aligned}\n& P\\{X<60\\}=\\Phi\\left(\\frac{60-40}{10}\\right)=\\Phi(2)=0.97725 \\\\\n& P\\{Y<60\\}=\\Phi\\left(\\frac{60-50}{4}\\right)=\\Phi(2.5)=0.99379\n\\end{aligned}\n$$\n\n所以有 60 分钟时应走第二条路.\n(2) 因为\n$$\n\\begin{aligned}\n& P\\{X<45\\}=\\Phi\\left(\\frac{45-40}{10}\\right)=\\Phi(0.5)=0.6915, \\\\\n& P\\{Y<45\\}=\\Phi\\left(\\frac{45-50}{4}\\right)=\\Phi(-1.25)=1-\\Phi(1.25)=1-0.8925=0.1075,\n\\end{aligned}\n$$\n\n所以只有 45 分钟应走第一条路.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339537
+                    },
+                    "question_json": "neu-mathe/e32262416b2e4817a8c29548d4fd1042",
+                    "updated_at": {
+                        "seconds": 1775673110
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86157,
+                            "question_id": 18999,
+                            "is_answer": true,
+                            "choice": "二; 一",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86158,
+                            "question_id": 18999,
+                            "is_answer": false,
+                            "choice": "一; 一",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86159,
+                            "question_id": 18999,
+                            "is_answer": false,
+                            "choice": "一; 二",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86160,
+                            "question_id": 18999,
+                            "is_answer": false,
+                            "choice": "二; 二",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.7,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 50220,
+                    "ai_tags": "正态分布,概率计算"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 21,
+            "questions": [
+                {
+                    "id": 19002,
+                    "subject_id": 3,
+                    "chapter_id": 303,
+                    "question_id": "7afd9e54-0583-4598-bdac-7a6fc192f16c",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设测量误差 $X \\sim N\\left(0,10^2\\right)$, 若进行 100 次独立测量, 则误差的绝对值超过 19.6 的次数不小于 3 的概率为 ( ).",
+                    "analysis": "先求任意误差的绝对值超过 19.6 的概率 $p$,\n$$\n\\begin{aligned}\np= & P\\{|X|>19.6\\}=1-P\\{|X| \\leq 19.6\\} \\\\\n& =1-P\\left\\{\\left|\\frac{X}{10}\\right| \\leq 1.96\\right\\}=1-[\\Phi(1.96)-\\Phi(-1.96)] \\\\\n& =1-[2 \\Phi(1.96)-1]=1-[2 \\times 0.975-1]=1-0.95=0.05\n\\end{aligned}\n$$\n\n设 $Y$ 为 100 次测量中误差绝对值超过 19.6 的次数，则 $Y \\sim b(100,0.05)$. 因为 $n$ 很大， $p$ 很小，可用泊松分布近似， $np=5=\\lambda$ ，所以\n$$\nP\\{Y \\geq 3\\} \\approx 1-\\frac{5^0 e^{-5}}{0!}-\\frac{5^1 e^{-5}}{1!}-\\frac{5^2 e^{-5}}{2!}=1-\\frac{37}{2} e^{-5} \\approx 0.87\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339553
+                    },
+                    "question_json": "neu-mathe/fff44291c12742e1a2bf72f22665a766",
+                    "updated_at": {
+                        "seconds": 1775586667
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86178,
+                            "question_id": 19002,
+                            "is_answer": true,
+                            "choice": "$0.87$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86179,
+                            "question_id": 19002,
+                            "is_answer": false,
+                            "choice": "$0.66$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86180,
+                            "question_id": 19002,
+                            "is_answer": false,
+                            "choice": "$0.92$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86181,
+                            "question_id": 19002,
+                            "is_answer": false,
+                            "choice": "$0.59$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.44,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 81024,
+                    "ai_tags": "正态分布,二项分布,泊松定理"
+                },
+                {
+                    "id": 19003,
+                    "subject_id": 3,
+                    "chapter_id": 303,
+                    "question_id": "15677b58-f401-407b-a689-6547549326df",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $\\xi \\sim N(0.5,0.25)$，且有 $\\Phi(2)=0.9772, \\Phi(4)=1, \\Phi(1)=0.8413$，则 $P\\{\\xi<0 \\text{ 或 } \\xi>1\\}=(\\quad)$.",
+                    "analysis": "$\\begin{aligned} & U=\\frac{\\xi-0.5}{0.5} \\sim N(0,1) . \\\\ & \\begin{aligned} P\\{\\xi<0 \\text { 或 } \\xi>1\\} & =1-P\\{0 \\leq \\xi \\leq 1\\}=1-P\\left\\{\\frac{0-0.5}{0.5} \\leq \\frac{\\xi-0.5}{0.5} \\leq \\frac{1-0.5}{0.5}\\right\\} \\\\ & =1-P\\{-1 \\leq U \\leq 1\\}=2(1-\\Phi(1))=0.3174 .\\end{aligned}\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339561
+                    },
+                    "question_json": "neu-mathe/c8d81e9727744cc1b9452fcffc927528",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86185,
+                            "question_id": 19003,
+                            "is_answer": true,
+                            "choice": "$0.3174$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86186,
+                            "question_id": 19003,
+                            "is_answer": false,
+                            "choice": "$0.0228$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86187,
+                            "question_id": 19003,
+                            "is_answer": false,
+                            "choice": "$0.0456$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86188,
+                            "question_id": 19003,
+                            "is_answer": false,
+                            "choice": "$0.1587$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.68,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 72329,
+                    "ai_tags": "正态分布,概率计算"
+                },
+                {
+                    "id": 19004,
+                    "subject_id": 3,
+                    "chapter_id": 303,
+                    "question_id": "29279d65-348a-4b27-bfdf-24caaebf28ca",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知某台机器生产的螺栓长度 $X$ (单位: 厘米) 服从参数 $\\mu=10.05, \\sigma=0.06$ 的正态分布. 规定螺栓长度在 $10.05 \\pm 0.12$ 内为合格品, 则螺栓为合格品的概率为 ().",
+                    "analysis": "根据假设 $X \\sim N\\left(10.05,0.06^2\\right)$, 记 $a=10.05-0.12, b=10.05+0.12$, 则 $\\{a \\leq X \\leq b\\}$ 表示螺栓为合格品. 于是,\n$$\n\\begin{aligned}\nP\\{a \\leq X \\leq b\\} & =P\\{a<X \\leq b\\}=\\Phi\\left(\\frac{b-\\mu}{\\sigma}\\right)-\\Phi\\left(\\frac{a-\\mu}{\\sigma}\\right) \\\\\n& =\\Phi(2)-\\Phi(-2)=\\Phi(2)-[1-\\Phi(2)]=2 \\Phi(2)-1=2 \\times 0.9772-1=0.9544,\n\\end{aligned}\n$$\n\n即螺栓为合格品的概率等于 0.9544 .",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339564
+                    },
+                    "question_json": "neu-mathe/fee7bfac008c45839cef8836670db0a5",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86192,
+                            "question_id": 19004,
+                            "is_answer": true,
+                            "choice": "$0.9544$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86193,
+                            "question_id": 19004,
+                            "is_answer": false,
+                            "choice": "$0.6331$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86194,
+                            "question_id": 19004,
+                            "is_answer": false,
+                            "choice": "$0.5587$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86195,
+                            "question_id": 19004,
+                            "is_answer": false,
+                            "choice": "$0.3662$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.96,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 20189,
+                    "ai_tags": "正态分布,概率计算"
+                },
+                {
+                    "id": 19011,
+                    "subject_id": 3,
+                    "chapter_id": 303,
+                    "question_id": "84fc1402-ff7b-4f81-907e-bd242756bdcc",
+                    "difficulty": "Medium",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设随机变量 $\\xi$ 服从 $N\\left(1,0.2^2\\right)$, 且已知 $\\Phi(2.5)=0.9938, \\Phi(0.5)=0.6915, \\Phi(1.5)=0.9332$,当 $x>4$ 时, $\\Phi(x)=1$, 则 $P\\{|\\xi|>1.5\\}=()$.",
+                    "analysis": "若 $X \\sim N\\left(\\mu, \\sigma^2\\right)$, 则 $\\frac{X-\\mu}{\\sigma} \\sim N(0,1)$, 所以 $U=\\frac{\\xi-1}{0.2} \\sim N(0,1)$.\n$$\nP\\{|\\xi|>1.5\\}=1-P\\{|\\xi| \\leq 1.5\\}=1-P\\{-1.5 \\leq \\xi \\leq 1.5\\}\n$$\n而 $P\\{-1.5 \\leq \\xi \\leq 1.5\\}=P\\left\\{\\frac{-1.5-1}{0.2} \\leq \\frac{\\xi-1}{0.2} \\leq \\frac{1.5-1}{0.2}\\right\\}$\n$$\n\\begin{aligned}\n& =P\\{-12.5 \\leq U \\leq 2.5\\}=\\Phi(2.5)-\\Phi(-12.5) \\\\\n& =\\Phi(2.5)+\\Phi(12.5)-1 \\approx \\Phi(2.5)=0.9938\n\\end{aligned}\n$$\n所以 $P\\{|\\xi|>1.5\\}=1-0.9938=0.0062$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339573
+                    },
+                    "question_json": "neu-mathe/52e862afe1724340bd8200c38606dbcf",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86241,
+                            "question_id": 19011,
+                            "is_answer": false,
+                            "choice": "$0.9938$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86242,
+                            "question_id": 19011,
+                            "is_answer": true,
+                            "choice": "$0.0062$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86243,
+                            "question_id": 19011,
+                            "is_answer": false,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86244,
+                            "question_id": 19011,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.52,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 385000,
+                    "ai_tags": "正态分布,概率计算"
+                },
+                {
+                    "id": 19013,
+                    "subject_id": 3,
+                    "chapter_id": 303,
+                    "question_id": "640dc097-33a9-4b07-910c-34dbc9ef2190",
+                    "difficulty": "Medium",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "某地区18岁女青年的血压(收缩压, 以 $\\mathrm{mmHg}$ 计) 服从 $N(110,12^2)$. 在该地区任选一18岁女青年,测量她的血压 $X$, 则使 $P\\{X<x\\} \\leq 0.05$ 成立的最大的整数 $x$, 结论正确的是 ( ).\n(注: $\\Phi(0.42)=0.6628, \\Phi(0.833)=0.7975, \\Phi(1.645)=0.95$ )",
+                    "analysis": "由 $P\\{X<x\\} \\leq 0.05$, 即 $P\\{X \\geq x\\} \\geq 0.95$, 得 $\\Phi\\left(\\frac{110-x}{12}\\right) \\geq 0.95$.查表即 $\\frac{110-x}{12} \\geq 1.645$, 从而 $x \\leq 90.26$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339577
+                    },
+                    "question_json": "neu-mathe/4c4a9d4a13024cf2a529ad0f557065ea",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86255,
+                            "question_id": 19013,
+                            "is_answer": false,
+                            "choice": "$89$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86256,
+                            "question_id": 19013,
+                            "is_answer": false,
+                            "choice": "$91$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86257,
+                            "question_id": 19013,
+                            "is_answer": false,
+                            "choice": "$88$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86258,
+                            "question_id": 19013,
+                            "is_answer": true,
+                            "choice": "$90$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.78,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 85080,
+                    "ai_tags": "正态分布,概率计算"
+                },
+                {
+                    "id": 19014,
+                    "subject_id": 3,
+                    "chapter_id": 303,
+                    "question_id": "558aab05-bd0d-410a-bc85-a4fd001cd048",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $\\xi$ 服从正态分布 $N(1,4)$，$\\eta = f(\\xi)$ 服从标准正态分布，则 $f(\\xi) = ( \\quad )$。",
+                    "analysis": "若 $X \\sim N(\\mu, \\sigma^2)$，则 $\\eta=\\frac{X-\\mu}{\\sigma} \\sim N(0,1)$。故由 $\\xi \\sim N(1,4)$，得 $\\frac{\\xi-1}{2} \\sim N(0,1)$，所以 $f(\\xi)=\\frac{\\xi-1}{2}$。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339577
+                    },
+                    "question_json": "neu-mathe/b6f95484177f4754bd294f3d05d3843e",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86262,
+                            "question_id": 19014,
+                            "is_answer": true,
+                            "choice": "$\\frac{\\xi-1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86263,
+                            "question_id": 19014,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\xi-1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86264,
+                            "question_id": 19014,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\xi-1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86265,
+                            "question_id": 19014,
+                            "is_answer": false,
+                            "choice": "$3 \\xi+1$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.81,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 52762,
+                    "ai_tags": "正态分布,标准化"
+                },
+                {
+                    "id": 19015,
+                    "subject_id": 3,
+                    "chapter_id": 303,
+                    "question_id": "ca9a9f54-e4c5-437a-af75-800730ac765d",
+                    "difficulty": "Medium",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "某地区18岁女青年的血压（收缩压，以 $\\mathrm{mmHg}$ 计）服从 $N(110, 12^2)$。在该地区任选一 18 岁女青年，测量她的血压 $X$，则使 $P\\{X>x\\} \\leq 0.05$ 成立的最小的整数 $x$，结论正确的是（    ）。\n（注：$\\Phi(0.42)=0.6628, \\Phi(0.833)=0.7975, \\Phi(1.645)=0.95$）",
+                    "analysis": "血压 $X \\sim N(110, 12^2)$。\n由 $P\\{X>x\\} \\leq 0.05$，即 $P\\{X \\leq x\\} \\geq 0.95$，得 $\\Phi\\left(\\frac{x-110}{12}\\right) \\geq 0.95$。查表即 $\\frac{x-110}{12} \\geq 1.645$，从而 $x \\geq 129.74$。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339581
+                    },
+                    "question_json": "neu-mathe/c8df892f24174bc48c30489a7bf45953",
+                    "updated_at": {
+                        "seconds": 1775586666
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86269,
+                            "question_id": 19015,
+                            "is_answer": false,
+                            "choice": "$126$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86270,
+                            "question_id": 19015,
+                            "is_answer": false,
+                            "choice": "$128$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86271,
+                            "question_id": 19015,
+                            "is_answer": true,
+                            "choice": "$130$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86272,
+                            "question_id": 19015,
+                            "is_answer": false,
+                            "choice": "$132$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.9,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 46854,
+                    "ai_tags": "正态分布,概率计算"
+                },
+                {
+                    "id": 19019,
+                    "subject_id": 3,
+                    "chapter_id": 303,
+                    "question_id": "c76b6398-9178-4a4c-96bb-07e768896a8b",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "若灯泡寿命服从参数 $\\mu=1000$ (小时)的正态分布, 则随机抽取的 100 只灯泡中至少有 90 只灯泡的寿命超过 1000 小时的概率 (列式子即可) $p=(\\quad)$.",
+                    "analysis": "设灯泡寿命为 $X$, 则依题意有 $p=P\\{X>1000\\}=\\frac{1}{2}$.\n又设 100 只灯泡中有 $Y$ 只灯泡的寿命超过 1000 小时, 则 $Y \\sim B(100, p)$, 即\n$$\nP\\{Y=k\\}=C_{100}^k p^k(1-p)^{100-k}=C_{100}^k\\left(\\frac{1}{2}\\right)^{100}, k=0,1, \\ldots, 100\n$$\n\n所以 100 只灯泡中至少有 90 只灯泡的寿命超过 1000 小时的概率为\n$$\nP\\{Y \\geq 90\\}=\\sum_{k=90}^{100} P\\{Y=k\\}=\\sum_{k=90}^{100} C_{100}^k\\left(\\frac{1}{2}\\right)^{100} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339588
+                    },
+                    "question_json": "neu-mathe/f8bd993c51fb4eda89f70ccd03c0d86d",
+                    "updated_at": {
+                        "seconds": 1775673110
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86297,
+                            "question_id": 19019,
+                            "is_answer": false,
+                            "choice": "$\\sum_{k=90}^{100} C_{100}^k\\left(\\frac{2}{3}\\right)^k\\left(\\frac{1}{3}\\right)^{100-k}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86298,
+                            "question_id": 19019,
+                            "is_answer": false,
+                            "choice": "$\\sum_{k=91}^{100} C_{100}^k\\left(\\frac{2}{3}\\right)^k\\left(\\frac{1}{3}\\right)^{100-k}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86299,
+                            "question_id": 19019,
+                            "is_answer": false,
+                            "choice": "$\\sum_{k=91}^{100} C_{100}^k\\left(\\frac{1}{2}\\right)^{100}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86300,
+                            "question_id": 19019,
+                            "is_answer": true,
+                            "choice": "$\\sum_{k=90}^{100} C_{100}^k\\left(\\frac{1}{2}\\right)^{100}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.73,
+                    "difficulty_score": 0.47,
+                    "avg_time_spent": 40701,
+                    "ai_tags": "正态分布,二项分布,概率计算"
+                },
+                {
+                    "id": 19025,
+                    "subject_id": 3,
+                    "chapter_id": 303,
+                    "question_id": "d91141ab-37a9-4119-ab70-db2311f1ffb2",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "某地区 18 岁女青年的血压 (收缩压, 以 $mm-HG$ 计) 服从 $N\\left(110,12^2\\right)$. 在该地区任选一 18 岁女青年,测量她的血压 $X$, 则关于 $P\\{X \\leq 105\\}, P\\{100<X \\leq 120\\}$, 下列说法正确的是 ( ).\n(注: $\\Phi(0.42)=0.6628, \\Phi(0.833)=0.7975, \\Phi(1.645)=0.95$ )",
+                    "analysis": "$$\n\\begin{aligned}\n& \\text { 血压 } X \\sim N\\left(110,12^2\\right) \\text {. } \\\\\n& P\\{X \\leq 105\\}=P\\left\\{\\frac{X-110}{12} \\leq \\frac{-5}{12}\\right\\} \\approx 1-\\Phi(0.42)=0.3372 \\text {, } \\\\\n& P\\{100<X \\leq 120\\}=\\Phi\\left(\\frac{120-110}{12}\\right)-\\Phi\\left(\\frac{100-110}{12}\\right) \\\\\n& \\approx \\Phi(0.833)-\\Phi(-0.833)=2 \\Phi(0.833)-1=0.595 \\text {. }\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339600
+                    },
+                    "question_json": "neu-mathe/b56e4bbc5f2b495ea3d5d87ef222a4c8",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86339,
+                            "question_id": 19025,
+                            "is_answer": false,
+                            "choice": "$P\\{X \\leq 105\\}=0.3272$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86340,
+                            "question_id": 19025,
+                            "is_answer": false,
+                            "choice": "$P\\{X \\leq 105\\}=0.3472$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86341,
+                            "question_id": 19025,
+                            "is_answer": false,
+                            "choice": "$P\\{100<X \\leq 120\\}=0.495$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86342,
+                            "question_id": 19025,
+                            "is_answer": true,
+                            "choice": "$P\\{100<X \\leq 120\\}=0.595$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.57,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 107671,
+                    "ai_tags": "正态分布,概率计算"
+                },
+                {
+                    "id": 19028,
+                    "subject_id": 3,
+                    "chapter_id": 303,
+                    "question_id": "bd3ae24d-078d-445c-9280-2a29bf4cd248",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 与 $Y$ 均服从正态分布，$X \\sim N(\\mu, 4^2)$，$Y \\sim N(\\mu, 5^2)$。记 $p_1=P\\{X \\leq \\mu-4 a\\}$，$p_2=P\\{Y \\geq \\mu+5 a\\}$，$a \\in R$，则 (    ) .",
+                    "analysis": "若 $X \\sim N(\\mu, \\sigma^2)$，则 $\\eta=\\frac{X-\\mu}{\\sigma} \\sim N(0,1)$。\\n$$p_1=P\\left\\{\\frac{X-\\mu}{4} \\leq \\frac{(\\mu-4 a)-\\mu}{4}\\right\\}=P\\{\\eta \\leq -a\\}=\\Phi(-a)=1-\\Phi(a)$$ \\n$$p_2=P\\left\\{\\frac{Y-\\mu}{5} \\geq \\frac{(\\mu+5 a)-\\mu}{5}\\right\\}=P\\{\\eta \\geq a\\}=1-P\\{\\eta<a\\}=1-\\Phi(a)$$ \\n故对任何实数 $\\mu$，都有 $p_1=p_2$。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339607
+                    },
+                    "question_json": "neu-mathe/be31708cf8604dc8b433f5f3827b123f",
+                    "updated_at": {
+                        "seconds": 1775673114
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86360,
+                            "question_id": 19028,
+                            "is_answer": false,
+                            "choice": "对任何实数 $\\mu$, 都有 $p_1<p_2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86361,
+                            "question_id": 19028,
+                            "is_answer": true,
+                            "choice": "对任何实数 $\\mu$, 都有 $p_1=p_2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86362,
+                            "question_id": 19028,
+                            "is_answer": false,
+                            "choice": "只对 $\\mu$ 的个别值, 才有 $p_1=p_2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86363,
+                            "question_id": 19028,
+                            "is_answer": false,
+                            "choice": "对任何实数 $\\mu$, 都有 $p_1>p_2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.77,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 74517,
+                    "ai_tags": "正态分布,概率计算"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 21,
+            "questions": [
+                {
+                    "id": 19029,
+                    "subject_id": 3,
+                    "chapter_id": 303,
+                    "question_id": "eb8492cf-f3fd-4190-8880-64042644991e",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X \\sim N(1,4)$, 关于 $F(5), P\\{0<X \\leq 1.6\\}, P\\{|X-1| \\leq 2\\}$, 下列说法正确的是 ( ). $(\\Phi(0.3)=0.6179, \\Phi(1)=0.8413, \\Phi(2)=0.9772)$",
+                    "analysis": "这里 $\\mu=1, \\sigma=2$, 故\n$$\n\\begin{aligned}\n& F(5)=P\\{X \\leq 5\\}=P\\left\\{\\frac{X-1}{2} \\leq \\frac{5-1}{2}\\right\\}=\\Phi\\left(\\frac{5-1}{2}\\right)=\\Phi(2) \\stackrel{\\text{查表得}}{=} 0.9772 ; \\\\\n& P\\{0<X \\leq 1.6\\}=\\Phi\\left(\\frac{1.6-1}{2}\\right)-\\Phi\\left(\\frac{0-1}{2}\\right)=\\Phi(0.3)-\\Phi(-0.5) \\\\\n& =0.6179-[1-\\Phi(0.5)]=0.6179-(1-0.6915)=0.3094 ; \\\\\n& P\\{|X-1| \\leq 2\\}=P\\{-1 \\leq X \\leq 3\\}=P\\left\\{-1 \\leq \\frac{X-1}{2} \\leq 1\\right\\} \\\\\n& =\\Phi(1)-\\Phi(-1)=2 \\Phi(1)-1=2 \\times 0.8413-1=0.6826 .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339609
+                    },
+                    "question_json": "neu-mathe/e2ef122611c84db39edf5b3fa5be0c59",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86367,
+                            "question_id": 19029,
+                            "is_answer": true,
+                            "choice": "$P\\{0<X \\leq 1.6\\}=0.3094$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86368,
+                            "question_id": 19029,
+                            "is_answer": false,
+                            "choice": "$F(5)=0.323$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86369,
+                            "question_id": 19029,
+                            "is_answer": false,
+                            "choice": "$P\\{|X-1| \\leq 2\\}=0.525$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86370,
+                            "question_id": 19029,
+                            "is_answer": false,
+                            "choice": "$P\\{|X-1| \\leq 2\\}=0.992$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.74,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 177675,
+                    "ai_tags": "正态分布,概率计算"
+                }
+            ]
+        }
+    }
+]

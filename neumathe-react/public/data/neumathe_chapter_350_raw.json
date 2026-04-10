@@ -1,0 +1,1532 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 18,
+            "questions": [
+                {
+                    "id": 13651,
+                    "subject_id": 3,
+                    "chapter_id": 350,
+                    "question_id": "b18c6343-ac0f-40b3-aca2-fde13ca78fcf",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X$ 为一随机变量, $E(X)=\\mu, D(X)=\\sigma^2(\\sigma>0)$, 则对于任意常数 $c$, 必有 ( ) 成立。",
+                    "analysis": "$$\nE^2(X-c)=(\\mu-c)^2, \\quad E(X-\\mu)=E(X)-\\mu=0,\n$$\n\n显然有 $E^2(X-c) \\geq E(X-\\mu)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/e22c6d6ca56d4db6ad9b7f2c6be5f1db",
+                    "updated_at": {
+                        "seconds": 1774895444
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54604,
+                            "question_id": 13651,
+                            "is_answer": true,
+                            "choice": "$E^2(X-c) \\geq E(X-\\mu)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54603,
+                            "question_id": 13651,
+                            "is_answer": false,
+                            "choice": "$E^2(X-c)=E\\left(X^2\\right)-c^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54602,
+                            "question_id": 13651,
+                            "is_answer": false,
+                            "choice": "$E^2(X-c)=E\\left(X-\\mu^2\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54601,
+                            "question_id": 13651,
+                            "is_answer": false,
+                            "choice": "$E^2(X-c)<E(X-\\mu)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.89,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 21866,
+                    "ai_tags": "随机变量,数学期望"
+                },
+                {
+                    "id": 13652,
+                    "subject_id": 3,
+                    "chapter_id": 350,
+                    "question_id": "c6a38eca-b5b5-4167-b62e-6d7ef5b9a31b",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知 $\\xi$ 的分布函数为 $F(x)=\\left\\{\\begin{array}{cc}0, & x<0 \\\\ x^3, & 0 \\leq x \\leq 1 \\\\ 1, & x>1\\end{array}\\right.$, 则 $D(\\xi)=()$.",
+                    "analysis": "由题意知， $\\xi$ 概率密度为 $f(x)=F^{\\prime}(x)=\\left\\{\\begin{array}{cc}3 x^2, & 0<x<1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$,则 $E(\\xi)=\\int_0^1 x \\cdot 3 x^2 d x=\\frac{3}{4}, E\\left(\\xi^2\\right)=\\int_0^1 x^2 \\cdot 3 x^2 d x=\\frac{3}{5}$.从而, $D(\\xi)=E\\left(\\xi^2\\right)-[E(\\xi)]^2=\\frac{3}{80}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/dcc16774d1a8447f86e8fbcb491ecde2",
+                    "updated_at": {
+                        "seconds": 1774895442
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54606,
+                            "question_id": 13652,
+                            "is_answer": true,
+                            "choice": "$\\frac{3}{80}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54605,
+                            "question_id": 13652,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{80}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54607,
+                            "question_id": 13652,
+                            "is_answer": false,
+                            "choice": "$\\frac{7}{80}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54608,
+                            "question_id": 13652,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{80}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.75,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 36685,
+                    "ai_tags": "概率论,随机变量,方差"
+                },
+                {
+                    "id": 13653,
+                    "subject_id": 3,
+                    "chapter_id": 350,
+                    "question_id": "8921cc20-0fc9-4cc7-baec-3f9f2c67787a",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $\\xi$ 与 $\\eta$ 独立, 且 $E(\\xi)=E(\\eta)=0, D(\\xi)=D(\\eta)=1$, 则 $E\\left[(\\xi+\\eta)^2\\right]=()$.",
+                    "analysis": "$\\begin{aligned} E\\left[(\\xi+\\eta)^2\\right] & =E\\left(\\xi^2+\\eta^2+2 \\xi \\eta\\right)=E\\left(\\xi^2\\right)+E\\left(\\eta^2\\right) \\\\ & =D(\\xi)+[E(\\xi)]^2+D(\\eta)+[E(\\eta)]^2=2 .\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/9a1dcfedb35f4264aebee39a46d3a1e3",
+                    "updated_at": {
+                        "seconds": 1767465093
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54612,
+                            "question_id": 13653,
+                            "is_answer": true,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54609,
+                            "question_id": 13653,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54610,
+                            "question_id": 13653,
+                            "is_answer": false,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54611,
+                            "question_id": 13653,
+                            "is_answer": false,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 19622,
+                    "ai_tags": "数学期望,方差,随机变量的独立性"
+                },
+                {
+                    "id": 13654,
+                    "subject_id": 3,
+                    "chapter_id": 350,
+                    "question_id": "46caafda-f3fa-4090-b3ef-49def2fe3dd8",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设一次试验 $P(A)=p$, 进行 100 次重复独立试验, $\\xi$ 表示 $A$ 发生次数. 当 $p$ 取何值时, $D(\\xi)$ 取得最大值, 此时 $p$, $D(\\xi)$ 的值分别为 () .",
+                    "analysis": "由题意知, 这是一个伯努利试验. 其分布律为\n$$\nP\\{\\xi=k\\}=C_{100}^k p^k(1-p)^{100-k}, k=0,1,2, \\cdots, 100 .\n$$\n\n即 $\\xi \\sim B(100, p)$, 于是,\n$$\nD(\\xi)=n p(1-p)=100 p(1-p),\n$$\n\n要使 $D(\\xi)$ 最大, 则令 $f^{\\prime}(p)=[100 p(1-p)]^{\\prime}=0$ ，解得 $p=0.5$, 此时最大值 $D(\\xi)=25$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/e14cf533c19a404782ee743c8ae34c5a",
+                    "updated_at": {
+                        "seconds": 1767465095
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54613,
+                            "question_id": 13654,
+                            "is_answer": true,
+                            "choice": "$0.5,25$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54615,
+                            "question_id": 13654,
+                            "is_answer": false,
+                            "choice": "$0.25,15$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54614,
+                            "question_id": 13654,
+                            "is_answer": false,
+                            "choice": "$0.75,50$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54616,
+                            "question_id": 13654,
+                            "is_answer": false,
+                            "choice": "$0.8,15$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 31173,
+                    "ai_tags": "二项分布,方差,伯努利试验"
+                },
+                {
+                    "id": 13655,
+                    "subject_id": 3,
+                    "chapter_id": 350,
+                    "question_id": "b6588a3c-db77-451e-8364-0e7e1bc8df58",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设正态分布随机变量 $\\xi$ 的概率密度为 $\\varphi(x)=\\frac{1}{\\sqrt{2 \\pi} \\sqrt{3}} e^{-\\frac{(x+2)^2}{6}}$, 则 $\\xi$ 的方差是 ( ).",
+                    "analysis": "由概率密度可以知道, 随机变量 $\\xi \\sim N(-2,3)$, 又由正态分布的性质知 $D(\\xi)=3$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/d2e7debdbf1f4e1798035d38abcbb64e",
+                    "updated_at": {
+                        "seconds": 1774895445
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54618,
+                            "question_id": 13655,
+                            "is_answer": true,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54619,
+                            "question_id": 13655,
+                            "is_answer": false,
+                            "choice": "$\\sqrt{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54617,
+                            "question_id": 13655,
+                            "is_answer": false,
+                            "choice": "$\\sqrt{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54620,
+                            "question_id": 13655,
+                            "is_answer": false,
+                            "choice": "$6$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.75,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 13127,
+                    "ai_tags": "正态分布,方差,概率密度"
+                },
+                {
+                    "id": 13657,
+                    "subject_id": 3,
+                    "chapter_id": 350,
+                    "question_id": "181af398-47d6-48c5-96b8-2e544d3d2ac0",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "把红、黄、白 3 个小球随机地放入两个杯子中, 若设 $X$ 为有小球的杯子数, 则 $D(X)=()$.",
+                    "analysis": "由题意得 $X$ 的分布律\n\\begin{tabular}{c|cc}\n\\hline$X$ & 1 & 2 \\\\\n\\hline$p$ & $1 / 4$ & $3 / 4$ \\\\\n\\hline\n\\end{tabular}\n\n于是,\n$$\nE(X)=1 \\times \\frac{1}{4}+2 \\times \\frac{3}{4}=\\frac{7}{4}, E\\left(X^2\\right)=1^2 \\times \\frac{1}{4}+2^2 \\times \\frac{3}{4}=\\frac{13}{4},\n$$\n\n因此, $D(X)=E\\left(X^2\\right)-[E(X)]^2=\\frac{13}{4}-\\left(\\frac{7}{4}\\right)^2=\\frac{3}{16}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/6ebd5f840135478999429daf2c88943e",
+                    "updated_at": {
+                        "seconds": 1774895441
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54626,
+                            "question_id": 13657,
+                            "is_answer": true,
+                            "choice": "$\\frac{3}{16}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54627,
+                            "question_id": 13657,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54625,
+                            "question_id": 13657,
+                            "is_answer": false,
+                            "choice": "$\\frac{13}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54628,
+                            "question_id": 13657,
+                            "is_answer": false,
+                            "choice": "$\\frac{6}{13}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.5,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 121822,
+                    "ai_tags": "随机变量,方差,离散型分布"
+                },
+                {
+                    "id": 13659,
+                    "subject_id": 3,
+                    "chapter_id": 350,
+                    "question_id": "ab36f3a5-3a21-4ccf-8e17-9072ddf3de09",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X$ 与 $Y$ 相互独立, 且 $E(X)=E(Y)=0, D(X)=D(Y)=1$, 则 $E\\left[(X+2 Y)^2\\right]=()$.",
+                    "analysis": "因为 $E\\left[(X+2 Y)^2\\right]=E\\left(X^2\\right)+4 E(X Y)+4 E\\left(Y^2\\right)$,\n又因 $X, Y$ 独立, 有 $E(X Y)=E(X) E(Y)=0$,\n因为 $E\\left(X^2\\right)=D(X)+E^2(X)=1, E\\left(Y^2\\right)=D(Y)+E^2(Y)=1$,\n故 $E\\left[(X+2 Y)^2\\right]=5$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/cb4c5ddf22f74f2bb66c21bb5d1d495e",
+                    "updated_at": {
+                        "seconds": 1766860304
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54634,
+                            "question_id": 13659,
+                            "is_answer": true,
+                            "choice": "$5$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54635,
+                            "question_id": 13659,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54633,
+                            "question_id": 13659,
+                            "is_answer": false,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54636,
+                            "question_id": 13659,
+                            "is_answer": false,
+                            "choice": "$7$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 60040,
+                    "ai_tags": "数学期望,方差,随机变量的独立性"
+                },
+                {
+                    "id": 13660,
+                    "subject_id": 3,
+                    "chapter_id": 350,
+                    "question_id": "69c94678-a9c8-4dd4-a01d-21d1695c20a9",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "$(\\xi, \\eta)$ 的联合概率密度为 $\\varphi(x, y)=\\left\\{\\begin{array}{c}x+y, 0 \\leq x \\leq 1,0 \\leq y \\leq 1 \\\\ 0, \\quad \\text { 其它 }\\end{array}\\right.$, 则 $D(\\xi), D(\\eta)$ 的值分别为 ().",
+                    "analysis": "$$\nE(\\xi)=\\int_0^1 d x \\int_0^1 x(x+y) d y=\\frac{7}{12}, \\quad E\\left(\\xi^2\\right)=\\int_0^1 d x \\int_0^1 x^2(x+y) d y=\\frac{5}{12},\n$$\n\n故 $D(\\xi)=E\\left(\\xi^2\\right)-[E(\\xi)]^2=\\frac{11}{144}$. 再由对称性, $D(\\eta)=\\frac{11}{144}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/510b71814c204b48be81e09960eda3a1",
+                    "updated_at": {
+                        "seconds": 1774895441
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54638,
+                            "question_id": 13660,
+                            "is_answer": true,
+                            "choice": "$\\frac{11}{144}, \\frac{11}{144}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54637,
+                            "question_id": 13660,
+                            "is_answer": false,
+                            "choice": "$\\frac{7}{12}, \\frac{7}{12}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54640,
+                            "question_id": 13660,
+                            "is_answer": false,
+                            "choice": "$\\frac{7}{12}, \\frac{5}{12}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54639,
+                            "question_id": 13660,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{12}, \\frac{5}{12}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 129822,
+                    "ai_tags": "二维随机变量,方差,概率密度"
+                },
+                {
+                    "id": 13661,
+                    "subject_id": 3,
+                    "chapter_id": 350,
+                    "question_id": "877fb17f-c49d-4e89-b14f-1253da1bbf7a",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某商店经销商品的利润率 $X$ 的概率密度为 $f(x)=\\left\\{\\begin{array}{cc}2(1-x), & 0<x<1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$, 则 $D(X)=()$.",
+                    "analysis": "$$\nE(X)=\\int_0^1 2 x(1-x) d x=\\frac{1}{3}, \\quad E\\left(X^2\\right)=\\int_0^1 2 x^2(1-x) d x=\\frac{1}{6} .\n$$\n\n则 $D(X)=E\\left(X^2\\right)-[E(X)]^2=\\frac{1}{18}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/02555c7be56b41239bc9c04dbe278f07",
+                    "updated_at": {
+                        "seconds": 1766687557
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54644,
+                            "question_id": 13661,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{18}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54643,
+                            "question_id": 13661,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{12}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54641,
+                            "question_id": 13661,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{16}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54642,
+                            "question_id": 13661,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{14}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 74412,
+                    "ai_tags": "概率密度,方差,数学期望"
+                },
+                {
+                    "id": 13664,
+                    "subject_id": 3,
+                    "chapter_id": 350,
+                    "question_id": "51a7f3a1-696f-4598-a02d-049e18286e1c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $\\xi$ 服从在区间 $[-1,5]$ 上的均匀分布, 则 $D(\\xi)=()$",
+                    "analysis": "已知若 $\\xi \\sim U[a, b]$, 则 $D(\\xi)=\\frac{(b-a)^2}{12}$.由于 $\\xi \\sim U[-1,5]$, 故 $D(\\xi)=\\frac{(b-a)^2}{12}=3$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/15b6db39ad03464194bc207dc61f6ea5",
+                    "updated_at": {
+                        "seconds": 1766773900
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54655,
+                            "question_id": 13664,
+                            "is_answer": true,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54656,
+                            "question_id": 13664,
+                            "is_answer": false,
+                            "choice": "$6$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54654,
+                            "question_id": 13664,
+                            "is_answer": false,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54653,
+                            "question_id": 13664,
+                            "is_answer": false,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 15126,
+                    "ai_tags": "均匀分布,方差"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 18,
+            "questions": [
+                {
+                    "id": 19106,
+                    "subject_id": 3,
+                    "chapter_id": 350,
+                    "question_id": "a80caf98-5147-4d87-8e00-8759a8f2e7dc",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $\\xi$ 的概率密度为 $\\varphi(x)=\\left\\{\\begin{array}{cc}1-|x|, & |x|<1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$，则 $D(\\xi)=(\\quad)$。",
+                    "analysis": "$\\begin{aligned} & \\qquad E(\\xi)=\\int_{-1}^1 x(1-|x|) d x=0, E\\left(\\xi^2\\right)=\\int_{-1}^1 x^2(1-|x|) d x=\\frac{1}{6} . \\\\ & \\text { 故 } D(\\xi)=E\\left(\\xi^2\\right)-[E(\\xi)]^2=\\frac{1}{6} .\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339798
+                    },
+                    "question_json": "neu-mathe/532df453acde4130893cff59f59804bc",
+                    "updated_at": {
+                        "seconds": 1774895441
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86906,
+                            "question_id": 19106,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86907,
+                            "question_id": 19106,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86908,
+                            "question_id": 19106,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86909,
+                            "question_id": 19106,
+                            "is_answer": false,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.67,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 123290,
+                    "ai_tags": "概率论,随机变量,方差"
+                },
+                {
+                    "id": 19107,
+                    "subject_id": 3,
+                    "chapter_id": 350,
+                    "question_id": "e3d194ee-f563-4da7-a6a0-638bb01e2f1d",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 服从区间 $(-1,2)$ 上的均匀分布, 则 $D(X)=()$.",
+                    "analysis": "如果随机变量 $X$ 服从区间 $(a, b)$ 上的均匀分布, 则 $D(X)=\\frac{(b-a)^2}{12}$. 由此可知, 若随机变量 $X$ 服从区间 $(-1,2)$ 上的均匀分布, 则 $D(X)=\\frac{(2+1)^2}{12}=\\frac{3^2}{12}=\\frac{3}{4}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339799
+                    },
+                    "question_json": "neu-mathe/9d46b6bd7a1f456bad6997835ec67282",
+                    "updated_at": {
+                        "seconds": 1767637883
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86913,
+                            "question_id": 19107,
+                            "is_answer": true,
+                            "choice": "$\\frac{3}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86914,
+                            "question_id": 19107,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86915,
+                            "question_id": 19107,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86916,
+                            "question_id": 19107,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 10780,
+                    "ai_tags": "均匀分布,方差"
+                },
+                {
+                    "id": 19115,
+                    "subject_id": 3,
+                    "chapter_id": 350,
+                    "question_id": "218740a6-3450-416e-bac5-a768bbc04a14",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 服从指数分布, 其概率密度为\n$$ f(x)=\\left\\{\\begin{array}{cc} \\frac{1}{\\theta} e^{-x / \\theta}, & x>0 \\\\ 0, & x \\leq 0 \\end{array}\\right. $$\n其中 $\\theta>0$, 则 $D(X)=( \\quad )$.",
+                    "analysis": "$$\n\\begin{gathered}\nE(X)=\\int_{-\\infty}^{+\\infty} x f(x) d x=\\int_0^{+\\infty} x \\frac{1}{\\theta} e^{-x / \\theta} d x=-\\left.x e^{-x / \\theta}\\right|_0 ^{+\\infty}+\\int_0^{+\\infty} e^{-x / \\theta} d x=\\theta, \\\\\nE\\left(X^2\\right)=\\int_{-\\infty}^{+\\infty} x^2 f(x) d x=\\int_0^{+\\infty} x^2 \\frac{1}{\\theta} e^{-x / \\theta} d x=-\\left.x^2 e^{-x / \\theta}\\right|_0 ^{+\\infty}+\\int_0^{+\\infty} 2 x e^{-x / \\theta} d x=2 \\theta^2,\n\\end{gathered}\n$$\n\n于是 $D(X)=E\\left(X^2\\right)-[E(X)]^2=2 \\theta^2-\\theta^2=\\theta^2$, 即有 $D(X)=\\theta^2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339813
+                    },
+                    "question_json": "neu-mathe/7e0ec371bb6b4c99b52ceb42f5d4cf04",
+                    "updated_at": {
+                        "seconds": 1767465093
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86969,
+                            "question_id": 19115,
+                            "is_answer": true,
+                            "choice": "$\\theta^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86970,
+                            "question_id": 19115,
+                            "is_answer": false,
+                            "choice": "$\\theta$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86971,
+                            "question_id": 19115,
+                            "is_answer": false,
+                            "choice": "$2 \\theta^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86972,
+                            "question_id": 19115,
+                            "is_answer": false,
+                            "choice": "$2 \\theta$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.75,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 16013,
+                    "ai_tags": "指数分布,方差,概率密度"
+                },
+                {
+                    "id": 19116,
+                    "subject_id": 3,
+                    "chapter_id": 350,
+                    "question_id": "65086bfb-357e-44fb-a72b-c294ce095342",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X \\sim U(a, b)$, 则 $D(X)=()$.",
+                    "analysis": "$X$ 的概率密度为\n$$\nf(x)=\\left\\{\\begin{array}{cc}\n\\frac{1}{b-a}, & a<x<b \\\\\n0, & \\text{其它}\n\\end{array}\\right.\n$$\n\n而 $E(X)=\\int_{-\\infty}^{+\\infty} x f(x) d x=\\int_a^b \\frac{x}{b-a} d x=\\frac{a+b}{2}$, 故所求方差为\n$$\nD(X)=E\\left(X^2\\right)-[E(X)]^2=\\int_a^b x^2 \\frac{1}{b-a} d x-\\left(\\frac{a+b}{2}\\right)^2=\\frac{(b-a)^2}{12} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339816
+                    },
+                    "question_json": "neu-mathe/55ccd2e2c83a4484ae7e2ee5d95d9e04",
+                    "updated_at": {
+                        "seconds": 1774895444
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86976,
+                            "question_id": 19116,
+                            "is_answer": true,
+                            "choice": "$\\frac{(b-a)^2}{12}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86977,
+                            "question_id": 19116,
+                            "is_answer": false,
+                            "choice": "$\\frac{(b-a)^2}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86978,
+                            "question_id": 19116,
+                            "is_answer": false,
+                            "choice": "$\\frac{(b+a)^2}{12}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86979,
+                            "question_id": 19116,
+                            "is_answer": false,
+                            "choice": "$\\frac{(b+a)^2}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 2388,
+                    "ai_tags": "均匀分布,方差,概率密度"
+                },
+                {
+                    "id": 19117,
+                    "subject_id": 3,
+                    "chapter_id": 350,
+                    "question_id": "c912c3a8-738a-4177-89f4-dc9a21b2bbc4",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "具有下面概率密度的随机变量中, 方差不存在的是 ().",
+                    "analysis": "由于 $\\int_{-\\infty}^{+\\infty} |x| \\cdot \\frac{1}{\\pi(1+x^2)} dx = 2 \\int_0^{+\\infty} \\frac{x}{\\pi(1+x^2)} dx = \\frac{1}{\\pi} \\ln(1+x^2) \\Big|_0^{+\\infty} = +\\infty$，\n故若密度函数为 $\\varphi_4(x)=\\frac{1}{\\pi(1+x^2)}$，则数学期望不存在，从而其方差也不存在。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339817
+                    },
+                    "question_json": "neu-mathe/62e84767638d4e7b87911704d0b5c0bc",
+                    "updated_at": {
+                        "seconds": 1774895442
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86983,
+                            "question_id": 19117,
+                            "is_answer": true,
+                            "choice": "$\\varphi_4(x)=\\frac{1}{\\pi\\left(1+x^2\\right)}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86984,
+                            "question_id": 19117,
+                            "is_answer": false,
+                            "choice": "$\\varphi_1(x)=\\left\\{\\begin{array}{c}0, \\quad x \\leq 0 \\\\ 5 e^{-5 x}, \\quad x>0\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86985,
+                            "question_id": 19117,
+                            "is_answer": false,
+                            "choice": "$\\varphi_2(x)=\\frac{1}{\\sqrt{6 \\pi}} e^{-\\frac{x^2}{6}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86986,
+                            "question_id": 19117,
+                            "is_answer": false,
+                            "choice": "$\\varphi_3(x)=\\frac{1}{2} e^{-|x|}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 6451,
+                    "ai_tags": "概率密度,方差,柯西分布"
+                },
+                {
+                    "id": 19120,
+                    "subject_id": 3,
+                    "chapter_id": 350,
+                    "question_id": "2c5e530f-cb4d-43cd-a74b-cb0c6035ef26",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设离散型随机变量 $X$ 的分布列为\n\\begin{tabular}{c|ccccc}\n\\hline$X$ & -1 & 0 & $1 / 2$ & 1 & 2 \\\\\n\\hline$p$ & $1 / 3$ & $1 / 6$ & $1 / 6$ & $1 / 12$ & $1 / 4$ \\\\\n\\hline\n\\end{tabular},\n\n则 $D(X)=()$.",
+                    "analysis": "$$\n\\begin{aligned}\n& E(X)=(-1) \\times \\frac{1}{3}+\\frac{1}{2} \\times \\frac{1}{6}+1 \\times \\frac{1}{12}+2 \\times \\frac{1}{4}=\\frac{1}{3} \\\\\n& E\\left(X^2\\right)=(-1)^2 \\times \\frac{1}{3}+\\left(\\frac{1}{2}\\right)^2 \\times \\frac{1}{6}+1^2 \\times \\frac{1}{12}+2^2 \\times \\frac{1}{4}=\\frac{35}{24}\n\\end{aligned}\n$$\n\n则 $D(X)=E\\left(X^2\\right)-(E(X))^2=\\frac{35}{24}-\\left(\\frac{1}{3}\\right)^2=\\frac{97}{72}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339826
+                    },
+                    "question_json": "neu-mathe/0c13b0d32be345ccb9b0e362228faf4e",
+                    "updated_at": {
+                        "seconds": 1767637886
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87004,
+                            "question_id": 19120,
+                            "is_answer": true,
+                            "choice": "$\\frac{97}{72}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87005,
+                            "question_id": 19120,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87006,
+                            "question_id": 19120,
+                            "is_answer": false,
+                            "choice": "$\\frac{35}{24}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87007,
+                            "question_id": 19120,
+                            "is_answer": false,
+                            "choice": "$\\frac{67}{76}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 107104,
+                    "ai_tags": "离散型随机变量,数学期望,方差"
+                },
+                {
+                    "id": 19128,
+                    "subject_id": 3,
+                    "chapter_id": 350,
+                    "question_id": "107db4aa-55f3-4250-afa4-db3bcd70f988",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某店有 7 台电视机, 其中 2 台为次品, 今从中随机取 3 台, 设 $X$ 为其中的次品数, 则 $D(X)=()$.",
+                    "analysis": "由题意知, $X=0,1,2$, 且 $P\\{X=0\\}=\\frac{C_5^3}{C_7^3}=\\frac{2}{7}$,\n$$\nP\\{X=1\\}=\\frac{C_5^2 \\cdot C_2^1}{C_7^3}=\\frac{4}{7}, \\quad P\\{X=2\\}=\\frac{C_5^1 \\cdot C_2^2}{C_7^3}=\\frac{1}{7},\n$$\n\n故 $E(X)=0 \\times \\frac{2}{7}+1 \\times \\frac{4}{7}+2 \\times \\frac{1}{7}=\\frac{6}{7}$,\n$$\nE\\left(X^2\\right)=0^2 \\times \\frac{2}{7}+1^2 \\times \\frac{4}{7}+2^2 \\times \\frac{1}{7}=\\frac{8}{7},\n$$\n\n故 $D(X)=E\\left(X^2\\right)-[E(X)]^2=\\frac{20}{49}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339849
+                    },
+                    "question_json": "neu-mathe/17a3c51d07e94231803bb31e6e0e7c66",
+                    "updated_at": {
+                        "seconds": 1767637893
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87060,
+                            "question_id": 19128,
+                            "is_answer": true,
+                            "choice": "$\\frac{20}{49}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87061,
+                            "question_id": 19128,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{49}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87062,
+                            "question_id": 19128,
+                            "is_answer": false,
+                            "choice": "$\\frac{4}{49}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87063,
+                            "question_id": 19128,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{49}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 208553,
+                    "ai_tags": "概率论,随机变量,方差"
+                },
+                {
+                    "id": 19133,
+                    "subject_id": 3,
+                    "chapter_id": 350,
+                    "question_id": "b3335817-b4e3-4bd4-91f8-2103d1d11075",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "具有下面概率密度的随机变量中, 方差不存在的是 ( ).",
+                    "analysis": "$$\n\\text { 由于 } \\int_{-\\infty}^{+\\infty}\\left|x \\cdot \\frac{1}{\\pi \\sqrt{3}}\\left(1+\\frac{x^2}{3}\\right)^{-1}\\right| d x=2 \\int_0^{+\\infty} \\frac{\\sqrt{3} x}{\\pi\\left(3+x^2\\right)} d x=\\left.\\frac{\\sqrt{3}}{\\pi} \\ln\\left(3+x^2\\right)\\right|_0 ^{+\\infty}=+\\infty \\text {, }\n$$\n\n故若密度函数为 $\\varphi_3(x)=\\frac{1}{\\pi \\sqrt{3}}\\left(1+\\frac{x^2}{3}\\right)^{-1}$, 则数学期望是不存在的. 从而方差也不存在.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339859
+                    },
+                    "question_json": "neu-mathe/9d4ba1e0e95743838c368603657fd179",
+                    "updated_at": {
+                        "seconds": 1774895443
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87095,
+                            "question_id": 19133,
+                            "is_answer": true,
+                            "choice": "$\\varphi_3(x)=\\frac{1}{\\pi \\sqrt{3}}\\left(1+\\frac{x^2}{3}\\right)^{-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87096,
+                            "question_id": 19133,
+                            "is_answer": false,
+                            "choice": "$\\varphi_1(x)= \\begin{cases}0, & x \\notin[0,2] \\\\ \\frac{1}{2}, & x \\in[0,2]\\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87097,
+                            "question_id": 19133,
+                            "is_answer": false,
+                            "choice": "$\\varphi_2(x)=\\frac{1}{\\sqrt{10 \\pi}} e^{-\\frac{x^2}{10}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87098,
+                            "question_id": 19133,
+                            "is_answer": false,
+                            "choice": "$\\varphi_4(x)=e^{-2|x|}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.44,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 40202,
+                    "ai_tags": "概率密度,方差,柯西分布"
+                }
+            ]
+        }
+    }
+]

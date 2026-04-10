@@ -1,0 +1,1961 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 23,
+            "questions": [
+                {
+                    "id": 12720,
+                    "subject_id": 3,
+                    "chapter_id": 356,
+                    "question_id": "946c6304-5ee1-467e-aaab-ba3fc2a35a0b",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 与 $Y$ 的相关系数为 0.2 , 且 $D(X)=25, D(Y)=9$, 则 $D(X-2 Y)=()$.",
+                    "analysis": "$D(X-2 Y)=D(X)+4 D(Y)-4 \\operatorname{cov}(X, Y)=25+36-4 \\times 0.2 \\times 5 \\times 3=49$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/427fdcedf53845768b1693927f188f05",
+                    "updated_at": {
+                        "seconds": 1766601154
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 50878,
+                            "question_id": 12720,
+                            "is_answer": true,
+                            "choice": "$49$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50879,
+                            "question_id": 12720,
+                            "is_answer": false,
+                            "choice": "$25$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50880,
+                            "question_id": 12720,
+                            "is_answer": false,
+                            "choice": "$29$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50877,
+                            "question_id": 12720,
+                            "is_answer": false,
+                            "choice": "$45$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 87294,
+                    "ai_tags": "方差,相关系数,协方差"
+                },
+                {
+                    "id": 12723,
+                    "subject_id": 3,
+                    "chapter_id": 356,
+                    "question_id": "053b7ddc-7cc1-49c3-9a4a-501f5ddb6667",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X$ 和 $Y$ 为两个随机变量, 已知相关系数 $\\rho_{X Y}=\\frac{1}{3}, D(X)=25, D(Y)=36$, 则 $D(X-Y)=()$.",
+                    "analysis": "$D(X-Y)=D(X)+D(Y)-2 \\operatorname{cov}(X, Y)=25+36-2 \\times \\frac{1}{3} \\times 5 \\times 6=41$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/d3e72027522c482bbb4ed6f74a7ba0b7",
+                    "updated_at": {
+                        "seconds": 1765996368
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 50892,
+                            "question_id": 12723,
+                            "is_answer": true,
+                            "choice": "$41$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50890,
+                            "question_id": 12723,
+                            "is_answer": false,
+                            "choice": "$36$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50891,
+                            "question_id": 12723,
+                            "is_answer": false,
+                            "choice": "$25$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50889,
+                            "question_id": 12723,
+                            "is_answer": false,
+                            "choice": "$61$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 0,
+                    "ai_tags": "方差,相关系数,协方差"
+                },
+                {
+                    "id": 12724,
+                    "subject_id": 3,
+                    "chapter_id": 356,
+                    "question_id": "ac38901e-253e-41cb-bfb1-68e1e6228c7d",
+                    "difficulty": "Easy",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "设 $D(X)=4, D(Y)=1, \\rho_{X Y}=0.6$, 则 $D(3 X+2 Y)=()$.",
+                    "analysis": "$D(3 X+2 Y)=9 D(X)+4 D(Y)+12 \\operatorname{cov}(X, Y)=9 D(X)+4 D(Y)+12 \\sqrt{D(X)} \\sqrt{D(Y)} \\rho_{X Y}=54.4$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/eb6fae78b984426eb891a27af1c6e982",
+                    "updated_at": {
+                        "seconds": 1774895441
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 50893,
+                            "question_id": 12724,
+                            "is_answer": false,
+                            "choice": "$25.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50895,
+                            "question_id": 12724,
+                            "is_answer": false,
+                            "choice": "$17.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50896,
+                            "question_id": 12724,
+                            "is_answer": true,
+                            "choice": "$54.4$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50894,
+                            "question_id": 12724,
+                            "is_answer": false,
+                            "choice": "$40$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 62598,
+                    "ai_tags": "方差,相关系数,协方差"
+                },
+                {
+                    "id": 12729,
+                    "subject_id": 3,
+                    "chapter_id": 356,
+                    "question_id": "cd39a275-7cde-4736-b6b6-c356c5ebd2d6",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X$ 服从参数为 2 的泊松分布, $Y=3 X-2$, 则下列选项不正确的是 ( ).",
+                    "analysis": "$\\begin{aligned} & E(Y)=E(3 X-2)=3 E(X)-2=3 \\times 2-2=4, \\\\ & D(Y)=D(3 X-2)=9 D(X)=9 \\times 2=18, \\\\ & \\operatorname{cov}(X, Y)=\\operatorname{cov}(X, 3 X-2)=3 D(X)=6, \\\\ & \\rho_{X Y}=\\frac{\\operatorname{cov}(X, Y)}{\\sqrt{D(X)} \\sqrt{D(Y)}}=\\frac{6}{\\sqrt{2} \\cdot \\sqrt{18}}=1 .\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/1d39e3569f704b3bb55c0f9e8bcf9e8d",
+                    "updated_at": {
+                        "seconds": 1774981848
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 50913,
+                            "question_id": 12729,
+                            "is_answer": true,
+                            "choice": "$\\operatorname{cov}(X, Y)=3$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50914,
+                            "question_id": 12729,
+                            "is_answer": false,
+                            "choice": "$E(Y)=4$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50915,
+                            "question_id": 12729,
+                            "is_answer": false,
+                            "choice": "$D(Y)=18$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50916,
+                            "question_id": 12729,
+                            "is_answer": false,
+                            "choice": "$\\rho_{X Y}=1$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.67,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 34804,
+                    "ai_tags": "泊松分布,期望与方差,协方差"
+                },
+                {
+                    "id": 12732,
+                    "subject_id": 3,
+                    "chapter_id": 356,
+                    "question_id": "cf0f3a82-cb87-4183-ad7f-dab979edcbd2",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $E(X)=D(X)=1, E(Y)=2, D(Y)=4, \\rho_{X Y}=0.6$, 则 $E(2 X+Y-1)^2=()$.",
+                    "analysis": "$$\n\\begin{gathered}\nE(2 X+Y-1)=2 E(X)+E(Y)-1=3, \\\\\n\\operatorname{cov}(X, Y)=\\sqrt{D(X)} \\sqrt{D(Y)} \\rho_{X Y}=1.2,\n\\end{gathered}\n$$\n\n得\n$$\nD(2 X+Y-1)=4 D(X)+D(Y)+4 \\operatorname{cov}(X, Y)=12.8,\n$$\n\n于是\n$$\nE(2 X+Y-1)^2=D(2 X+Y-1)+[E(2 X+Y-1)]^2=21.8\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/9c32a95bd4734446888d4f25ed41c803",
+                    "updated_at": {
+                        "seconds": 1766860320
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 50925,
+                            "question_id": 12732,
+                            "is_answer": true,
+                            "choice": "$21.8$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50928,
+                            "question_id": 12732,
+                            "is_answer": false,
+                            "choice": "$22.8$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50927,
+                            "question_id": 12732,
+                            "is_answer": false,
+                            "choice": "$27.8$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50926,
+                            "question_id": 12732,
+                            "is_answer": false,
+                            "choice": "$23.2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.67,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 74168,
+                    "ai_tags": "数学期望,方差,协方差"
+                },
+                {
+                    "id": 12733,
+                    "subject_id": 3,
+                    "chapter_id": 356,
+                    "question_id": "39509059-b711-4ea4-b60d-29855b1e1af8",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $D(X)=4, D(Y)=1, D(X-Y)=4$, 则 $\\rho_{X Y}=()$.",
+                    "analysis": "由 $D(X-Y)=D(X)+D(Y)-2 \\operatorname{cov}(X, Y)=4$, 得 $\\operatorname{cov}(X, Y)=\\frac{1}{2}$, 于是\n$$\n\\rho_{X Y}=\\frac{\\operatorname{cov}(X, Y)}{\\sqrt{D(X) D(Y)}}=\\frac{1}{4}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/7833365244b349288ae4bac2082de144",
+                    "updated_at": {
+                        "seconds": 1766946709
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 50929,
+                            "question_id": 12733,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50930,
+                            "question_id": 12733,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50932,
+                            "question_id": 12733,
+                            "is_answer": false,
+                            "choice": "$-\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50931,
+                            "question_id": 12733,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 26927,
+                    "ai_tags": "方差,相关系数,协方差"
+                },
+                {
+                    "id": 12734,
+                    "subject_id": 3,
+                    "chapter_id": 356,
+                    "question_id": "cc3ce939-b1f1-48fe-8d79-8d4c9c2481af",
+                    "difficulty": "Medium",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "设随机变量 $(X, Y)$ 具有概率密度\n$$\nf(x, y)=\\left\\{\\begin{array}{c}\n\\frac{1}{8}(x+y), 0 \\leq x \\leq 2,0 \\leq y \\leq 2 \\\\\n0, \\quad \\text { 其它 }\n\\end{array},\\right.\n$$\n\n则不正确的是 ( ).",
+                    "analysis": "由对称性知，\n$$\n\\begin{aligned}\n& E(Y)=E(X)=\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} x f(x, y) d y d x=\\int_0^2 \\int_0^2 x \\cdot \\frac{1}{8}(x+y) d y d x=\\frac{7}{6} \\\\\n& E\\left(Y^2\\right)=E\\left(X^2\\right)=\\int_0^2 \\int_0^2 x^2 \\cdot \\frac{1}{8}(x+y) d y d x=\\frac{1}{4} \\int_0^2\\left(x^3+x^2\\right) d x=\\frac{5}{3} \\\\\n& D(Y)=D(X)=E\\left(X^2\\right)-[E(X)]^2=\\frac{5}{3}-\\left(\\frac{7}{6}\\right)^2=\\frac{11}{36}\n\\end{aligned}\n$$\n\n而\n$$\n\\begin{aligned}\n& E(X Y)=\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} x y f(x, y) d x d y=\\int_0^2 \\int_0^2 x y \\cdot \\frac{1}{8}(x+y) d x d y=\\int_0^2 \\frac{1}{8}\\left(\\frac{8}{3} y+2 y^2\\right) d y=\\frac{4}{3} \\\\\n& \\operatorname{cov}(X, Y)=E(X Y)-E(X) E(Y)=\\frac{4}{3}-\\frac{7}{6} \\times \\frac{7}{6}=-\\frac{1}{36} \\\\\n& \\rho_{X Y}=\\frac{\\operatorname{cov}(X, Y)}{\\sqrt{D(X) D(Y)}}=\\frac{-\\frac{1}{36}}{\\frac{11}{36}}=-\\frac{1}{11} \\\\\n& D(X+Y)=D(X)+D(Y)+2 \\operatorname{cov}(X, Y)=\\frac{11}{36}+\\frac{11}{36}-2 \\times \\frac{1}{36}=\\frac{5}{9}\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/138e09166c7841d9bc251f1229c60406",
+                    "updated_at": {
+                        "seconds": 1774981850
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 50935,
+                            "question_id": 12734,
+                            "is_answer": false,
+                            "choice": "$E(X Y)=\\frac{4}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50936,
+                            "question_id": 12734,
+                            "is_answer": false,
+                            "choice": "$\\rho_{X Y}=-\\frac{1}{11}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50934,
+                            "question_id": 12734,
+                            "is_answer": false,
+                            "choice": "$D(X+Y)=\\frac{5}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50933,
+                            "question_id": 12734,
+                            "is_answer": true,
+                            "choice": "$\\operatorname{cov}(X, Y)=\\frac{1}{36}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.43,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 148260,
+                    "ai_tags": "二维随机变量,协方差,相关系数"
+                },
+                {
+                    "id": 12735,
+                    "subject_id": 3,
+                    "chapter_id": 356,
+                    "question_id": "07455ac8-7f25-44c9-b7e0-7be4bcde4401",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "若随机变量 $\\xi$ 和 $\\eta$ 的 $D(\\xi)=4, D(\\eta)=1, \\rho(\\xi, \\eta)=\\frac{1}{2}$, 则 $D(-\\xi+\\eta)=()$.",
+                    "analysis": "$D(-\\xi+\\eta)=D(\\xi)+D(\\eta)-2 \\operatorname{cov}(\\xi, \\eta)=4+1-2 \\times \\frac{1}{2} \\times 2 \\times 1=3$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/23de1648787d403aade0e3a9856734dc",
+                    "updated_at": {
+                        "seconds": 1766601152
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 50939,
+                            "question_id": 12735,
+                            "is_answer": true,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50940,
+                            "question_id": 12735,
+                            "is_answer": false,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50938,
+                            "question_id": 12735,
+                            "is_answer": false,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50937,
+                            "question_id": 12735,
+                            "is_answer": false,
+                            "choice": "$5$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 101559,
+                    "ai_tags": "方差,协方差,相关系数"
+                },
+                {
+                    "id": 18505,
+                    "subject_id": 3,
+                    "chapter_id": 356,
+                    "question_id": "97929632-830d-4e3e-865a-6b8f55a7bdd4",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知随机变量 $\\xi$ 与 $\\eta$ 的方差 $D(\\xi)=9, D(\\eta)=16$, 相关系数 $\\rho(\\xi, \\eta)=0.5$, 则 $D(\\xi-\\eta)$ 等于 ( ).",
+                    "analysis": "由随机变量和的方差与协方差的关系、相关系数的定义知，\n$$\nD(\\xi-\\eta)=D(\\xi)+D(\\eta)-2 \\operatorname{cov}(\\xi, \\eta)=D(\\xi)+D(\\eta)-2 \\rho(\\xi, \\eta) \\cdot \\sqrt{D(\\xi) D(\\eta)}=13 .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338353
+                    },
+                    "question_json": "neu-mathe/bea41b47ad074ea29bc20b1174a4be88",
+                    "updated_at": {
+                        "seconds": 1766946710
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 82699,
+                            "question_id": 18505,
+                            "is_answer": true,
+                            "choice": "$13$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82700,
+                            "question_id": 18505,
+                            "is_answer": false,
+                            "choice": "$19$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82701,
+                            "question_id": 18505,
+                            "is_answer": false,
+                            "choice": "$37$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82702,
+                            "question_id": 18505,
+                            "is_answer": false,
+                            "choice": "$25$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 69889,
+                    "ai_tags": "方差,相关系数,协方差"
+                },
+                {
+                    "id": 18511,
+                    "subject_id": 3,
+                    "chapter_id": 356,
+                    "question_id": "7ca2fe45-aed7-43a4-a7bd-b4c0ef834b4e",
+                    "difficulty": "Easy",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "已知随机变量 $\\xi, \\eta$ 的 $D(\\xi)=4, D(\\eta)=1, \\rho_{\\xi\\eta}=0.6$, 则 $D(3 \\xi-2 \\eta)=(\\quad)$.",
+                    "analysis": "$D(3 \\xi-2 \\eta)=9 D(\\xi)+4 D(\\eta)-12 \\operatorname{cov}(\\xi, \\eta)=40-12 \\rho_{\\xi \\eta} \\sqrt{D(\\xi) D(\\eta)}=25.6$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338367
+                    },
+                    "question_json": "neu-mathe/fd114c1a2bac4deebe9ba0ae41f13192",
+                    "updated_at": {
+                        "seconds": 1766514714
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 82741,
+                            "question_id": 18511,
+                            "is_answer": false,
+                            "choice": "$34$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82742,
+                            "question_id": 18511,
+                            "is_answer": false,
+                            "choice": "$40$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82743,
+                            "question_id": 18511,
+                            "is_answer": true,
+                            "choice": "$25.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82744,
+                            "question_id": 18511,
+                            "is_answer": false,
+                            "choice": "$17.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 22757,
+                    "ai_tags": "方差性质,相关系数"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 23,
+            "questions": [
+                {
+                    "id": 18512,
+                    "subject_id": 3,
+                    "chapter_id": 356,
+                    "question_id": "9a437e1d-03e8-4d44-8bc4-ed975b9e1629",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X, Y$ 是随机变量, 且 $D(X)=9, D(Y)=16, \\rho_{XY}=\\frac{1}{2}$, 则 $D(X+Y)=()$.",
+                    "analysis": "$D(X+Y)=D(X)+D(Y)+2 \\operatorname{cov}(X, Y)=D(X)+D(Y)+2 \\rho_{XY} \\sqrt{D(X) D(Y)}=25+12=37$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338373
+                    },
+                    "question_json": "neu-mathe/76264776192b4f15b38388fe0ca7d7e2",
+                    "updated_at": {
+                        "seconds": 1767724278
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 82748,
+                            "question_id": 18512,
+                            "is_answer": true,
+                            "choice": "$37$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82749,
+                            "question_id": 18512,
+                            "is_answer": false,
+                            "choice": "$36$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82750,
+                            "question_id": 18512,
+                            "is_answer": false,
+                            "choice": "$38$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82751,
+                            "question_id": 18512,
+                            "is_answer": false,
+                            "choice": "$35$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 71305,
+                    "ai_tags": "随机变量,方差,相关系数"
+                },
+                {
+                    "id": 18515,
+                    "subject_id": 3,
+                    "chapter_id": 356,
+                    "question_id": "218f83d3-d902-4cab-905a-b9d10630ece9",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $D(X)=25, D(Y)=1, \\rho_{X Y}=0.4$, 则 $D(X-Y)=()$.",
+                    "analysis": "$D(X-Y)=D(X)+D(Y)-2 \\operatorname{cov}(X, Y)=26-2 \\rho_{X Y} \\sqrt{D(X) D(Y)}=26-4=22$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338375
+                    },
+                    "question_json": "neu-mathe/3130fc3b4f484be0bb2ccaa2df19345a",
+                    "updated_at": {
+                        "seconds": 1767637889
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 82769,
+                            "question_id": 18515,
+                            "is_answer": true,
+                            "choice": "$22$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82770,
+                            "question_id": 18515,
+                            "is_answer": false,
+                            "choice": "$6$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82771,
+                            "question_id": 18515,
+                            "is_answer": false,
+                            "choice": "$30$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82772,
+                            "question_id": 18515,
+                            "is_answer": false,
+                            "choice": "$46$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 84836,
+                    "ai_tags": "概率论,方差,相关系数"
+                },
+                {
+                    "id": 18517,
+                    "subject_id": 3,
+                    "chapter_id": 356,
+                    "question_id": "2c34ada1-d9ed-46e5-af4b-07925f9704ec",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 的方差 $D(X)=16$, 随机变量 $Y$ 的方差 $D(Y)=25$, 又 $X$ 与 $Y$ 的相关系数 $\\rho_{XY}=0.5$, 则 $D(X+Y)$ 与 $D(X-Y)$ 分别为 ( ).",
+                    "analysis": "$\\begin{aligned} D(X+Y) &= D(X)+D(Y)+2 \\operatorname{Cov}(X, Y) \\\\ &= D(X)+D(Y)+2 \\sqrt{D(X)} \\sqrt{D(Y)} \\rho_{XY} \\\\ &= 16+25+2 \\times 4 \\times 5 \\times 0.5=61 \\\\ D(X-Y) &= D(X)+D(Y)-2 \\operatorname{Cov}(X, Y) \\\\ &= D(X)+D(Y)-2 \\sqrt{D(X)} \\sqrt{D(Y)} \\rho_{XY} \\\\ &= 16+25-2 \\times 4 \\times 5 \\times 0.5=21 \\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338380
+                    },
+                    "question_json": "neu-mathe/21429ef2475a4a05b6d6357c71238477",
+                    "updated_at": {
+                        "seconds": 1774981848
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 82783,
+                            "question_id": 18517,
+                            "is_answer": true,
+                            "choice": "61,21",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82784,
+                            "question_id": 18517,
+                            "is_answer": false,
+                            "choice": "61,31",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82785,
+                            "question_id": 18517,
+                            "is_answer": false,
+                            "choice": "21,61",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82786,
+                            "question_id": 18517,
+                            "is_answer": false,
+                            "choice": "21,31",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 33971,
+                    "ai_tags": "随机变量,方差,相关系数"
+                },
+                {
+                    "id": 18520,
+                    "subject_id": 3,
+                    "chapter_id": 356,
+                    "question_id": "07eebb3a-114e-4499-97c6-5a6983bfa774",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $E(X)=D(X)=1, E(Y)=2, D(Y)=4, \\rho_{XY}=0.6$, 则 $E[(2X-Y+1)^2]=(\\quad)$.",
+                    "analysis": "由题意知\n$$\n\\begin{aligned}\nE(2X-Y+1) &= 2E(X)-E(Y)+1 = 2\\times 1 - 2 + 1 = 1, \\\\\nD(2X-Y+1) &= 4D(X)+D(Y)-4\\operatorname{cov}(X, Y) \\\\\n&= 4D(X)+D(Y)-4\\rho_{XY}\\sqrt{D(X)D(Y)} \\\\\n&= 8-4\\times 0.6 \\times 2 = 3.2.\n\\end{aligned}\n$$\n所以\n$$\nE[(2X-Y+1)^2] = D(2X-Y+1) + [E(2X-Y+1)]^2 = 3.2 + 1^2 = 4.2.\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338390
+                    },
+                    "question_json": "neu-mathe/8ff6ac4ce9624d208594ebc70af2c2d4",
+                    "updated_at": {
+                        "seconds": 1767465094
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 82804,
+                            "question_id": 18520,
+                            "is_answer": true,
+                            "choice": "$4.2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82805,
+                            "question_id": 18520,
+                            "is_answer": false,
+                            "choice": "$2.1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82806,
+                            "question_id": 18520,
+                            "is_answer": false,
+                            "choice": "$3.2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82807,
+                            "question_id": 18520,
+                            "is_answer": false,
+                            "choice": "$4.8$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 199855,
+                    "ai_tags": "随机变量的数字特征,数学期望,方差"
+                },
+                {
+                    "id": 18525,
+                    "subject_id": 3,
+                    "chapter_id": 356,
+                    "question_id": "cd15cebf-5f8b-4ef3-b9d1-ec75b471317b",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X$ 服从区间 $(-1,1)$ 内的均匀分布, 则 $X$ 与 $Y=|X|$ 的相关系数 $\\rho_{XY}=()$",
+                    "analysis": "$X$ 的密度函数 $f(x)=\\begin{cases} \\frac{1}{2}, & -1<x<1 \\\\ 0, & \\text{其它} \\end{cases}$, 于是\n$$ \\begin{gathered} E(X)=\\int_{-1}^1 x f(x) d x=\\frac{1}{2} \\int_{-1}^1 x d x=0, \\\\ \\operatorname{cov}(X,|X|)=E(X|X|)-E(X) E(|X|)=E(X|X|)=\\frac{1}{2} \\int_{-1}^1 x|x| d x=0, \\quad \\rho_{XY}=0. \\end{gathered} $$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338393
+                    },
+                    "question_json": "neu-mathe/e79167de1d1a43ceaf4ad4679a200e4a",
+                    "updated_at": {
+                        "seconds": 1774981852
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 82839,
+                            "question_id": 18525,
+                            "is_answer": true,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82840,
+                            "question_id": 18525,
+                            "is_answer": false,
+                            "choice": "$-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82841,
+                            "question_id": 18525,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82842,
+                            "question_id": 18525,
+                            "is_answer": false,
+                            "choice": "$0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.17,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 17601,
+                    "ai_tags": "概率论,均匀分布,相关系数"
+                },
+                {
+                    "id": 18527,
+                    "subject_id": 3,
+                    "chapter_id": 356,
+                    "question_id": "a1db3485-b2ba-4f83-9bbe-3b175e56c2c1",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设两随机变量 $X$ 与 $Y$ 的方差分别为 25 和 16 , 相关系数为 0.4 , 则 $D(2 X+Y), D(X-2 Y)$ 分别为 () .",
+                    "analysis": "$\\begin{aligned} D(2 X+Y) & =4 D(X)+D(Y)+4 \\operatorname{cov}(X, Y)=4 D(X)+D(Y)+4 \\rho_{XY} \\sqrt{D(X)} \\sqrt{D(Y)} \\\\ & =4 \\times 25+16+4 \\times 0.4 \\times \\sqrt{25} \\times \\sqrt{16}=148, \\\\ D(X-2 Y) & =D(X)+4 D(Y)-4 \\operatorname{cov}(X, Y)=25+4 \\times 16-4 \\times 0.4 \\times \\sqrt{25} \\times \\sqrt{16}=57 .\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338393
+                    },
+                    "question_json": "neu-mathe/d45f72c60167421191670210b84c560a",
+                    "updated_at": {
+                        "seconds": 1767637891
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 82853,
+                            "question_id": 18527,
+                            "is_answer": true,
+                            "choice": "148,57",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82854,
+                            "question_id": 18527,
+                            "is_answer": false,
+                            "choice": "128,67",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82855,
+                            "question_id": 18527,
+                            "is_answer": false,
+                            "choice": "128,56",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82856,
+                            "question_id": 18527,
+                            "is_answer": false,
+                            "choice": "148,75",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 121226,
+                    "ai_tags": "方差,相关系数"
+                },
+                {
+                    "id": 18528,
+                    "subject_id": 3,
+                    "chapter_id": 356,
+                    "question_id": "9baff9f6-060e-4de5-83bd-16c0d386ce59",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 服从二项分布 $B(4,0.8), Y$ 服从泊松分布 $P(4)$, 已知 $D(X+Y)=3.6$, 则 $X$ 与 $Y$ 的相关系数 $\\rho_{XY}=(\\quad)$.",
+                    "analysis": "由 $X$ 服从二项分布 $B(4,0.8)$, 有 $E(X)=4 \\times 0.8=3.2, D(X)=4 \\times 0.8 \\times 0.2=0.64$. 由 $Y$ 服从泊松分布 $P(4)$,有 $E(Y)=4, D(Y)=4$, 从而\n$$\nD(X+Y)=D(X)+D(Y)+2 \\operatorname{cov}(X, Y)=D(X)+D(Y)+2 \\sqrt{D(X)} \\sqrt{D(Y)} \\rho_{X Y},\n$$\n\n即\n$$\n3.6=0.64+4+2 \\sqrt{0.64} \\sqrt{4} \\rho_{X Y}\n$$\n\n于是,\n$$\n\\rho_{X Y}=\\frac{3.6-4.64}{2 \\times 0.8 \\times 2}=\\frac{-1.04}{3.2}=-\\frac{13}{40}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338396
+                    },
+                    "question_json": "neu-mathe/254587cba65248fca8d50a9f1c6be462",
+                    "updated_at": {
+                        "seconds": 1767637888
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 82860,
+                            "question_id": 18528,
+                            "is_answer": true,
+                            "choice": "$-\\frac{13}{40}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82861,
+                            "question_id": 18528,
+                            "is_answer": false,
+                            "choice": "$\\frac{13}{40}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82862,
+                            "question_id": 18528,
+                            "is_answer": false,
+                            "choice": "$\\frac{13}{42}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82863,
+                            "question_id": 18528,
+                            "is_answer": false,
+                            "choice": "$\\frac{14}{32}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 91428,
+                    "ai_tags": "二项分布,泊松分布,相关系数"
+                },
+                {
+                    "id": 18529,
+                    "subject_id": 3,
+                    "chapter_id": 356,
+                    "question_id": "c7638dd7-ec7f-49f9-b200-b0bd7f7b519a",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X \\sim N(1,4)$, 随机变量 $Y$ 服从参数 $\\lambda=\\frac{1}{2}$ 的指数分布, 其密度函数为 $f_Y(y)=\\left\\{\\begin{array}{c}\\frac{1}{2} e^{-\\frac{1}{2} y}, y>0 \\\\ 0, y \\leq 0\\end{array}\\right.$, 而且 $\\rho_{X, Y}=\\frac{1}{2}$, 则 $\\operatorname{cov}(X, Y)=( )$.",
+                    "analysis": "由 $\\rho_{X, Y}=\\frac{\\operatorname{cov}(X, Y)}{\\sqrt{D(X)} \\sqrt{D(Y)}}$, 知 $\\operatorname{cov}(X, Y)=\\rho_{X, Y} \\sqrt{D(X)} \\sqrt{D(Y)}$.\n再由随机变量 $X \\sim N(1,4)$, 得 $D(X)=4$; 由随机变量 $Y$ 服从参数 $\\lambda=\\frac{1}{2}$ 的指数分布, 得 $D(Y)=\\frac{1}{\\lambda^2}=4$.\n所以 $\\operatorname{cov}(X, Y)=\\rho_{X, Y} \\sqrt{D(X)} \\sqrt{D(Y)}=\\frac{1}{2} \\times \\sqrt{4} \\times \\sqrt{4}=2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338400
+                    },
+                    "question_json": "neu-mathe/435f5221b5c24b46bfd21e4607f82952",
+                    "updated_at": {
+                        "seconds": 1767637892
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 82867,
+                            "question_id": 18529,
+                            "is_answer": true,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82868,
+                            "question_id": 18529,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82869,
+                            "question_id": 18529,
+                            "is_answer": false,
+                            "choice": "$\\sqrt{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82870,
+                            "question_id": 18529,
+                            "is_answer": false,
+                            "choice": "$2 \\sqrt{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.83,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 42313,
+                    "ai_tags": "协方差,正态分布,指数分布"
+                },
+                {
+                    "id": 18532,
+                    "subject_id": 3,
+                    "chapter_id": 356,
+                    "question_id": "8586d794-e09e-4838-8c06-fd7f0c707137",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $W=(a X+3 Y)^2, E(X)=E(Y)=0, D(X)=4, D(Y)=16, \\rho_{X Y}=-0.5$, 则 $E(W)$ 的最小值为 () .",
+                    "analysis": "$$\n\\begin{aligned}\nE(W)&= E(a X+3 Y)^2=E\\left(a^2 X^2+9 Y^2+6 a X Y\\right)=a^2 E\\left(X^2\\right)+9 E\\left(Y^2\\right)+6 a E(X Y) \\\\\n&= a^2\\left\\{D(X)+[E(X)]^2\\right\\}+9\\left\\{D(Y)+[E(Y)]^2\\right\\}+6 a[\\rho \\sqrt{D(X) D(Y)}+E(X) E(Y)] \\\\\n&= 4 a^2+144-24 a=4\\left[(a-3)^2+27\\right]\n\\end{aligned}\n$$\n\n易见，当 $a=3$ 时，$E(W)$ 达到最小，且 $E(W)_{\\text {min }}=4 \\times 27=108$。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338408
+                    },
+                    "question_json": "neu-mathe/6b29566756314749b7e66d93acd24721",
+                    "updated_at": {
+                        "seconds": 1766514713
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 82888,
+                            "question_id": 18532,
+                            "is_answer": true,
+                            "choice": "$108$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82889,
+                            "question_id": 18532,
+                            "is_answer": false,
+                            "choice": "$27$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82890,
+                            "question_id": 18532,
+                            "is_answer": false,
+                            "choice": "$54$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82891,
+                            "question_id": 18532,
+                            "is_answer": false,
+                            "choice": "$81$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 247672,
+                    "ai_tags": "数学期望,方差,协方差"
+                },
+                {
+                    "id": 18534,
+                    "subject_id": 3,
+                    "chapter_id": 356,
+                    "question_id": "bbcbebad-1c9c-4c3f-a4fe-53cd56f84d76",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X, Y$ 是随机变量, 且 $D(X)=25, D(Y)=36, \\rho_{XY}=0.4$, 则 $D(2 X-Y)=(\\quad)$.",
+                    "analysis": "$\\begin{aligned} D(2 X-Y) & =4 D(X)+D(Y)-4 \\operatorname{cov}(X, Y)=100+36-4 \\rho_{XY} \\sqrt{D(X) D(Y)} \\\\ & =136-4 \\times 0.4 \\times 5 \\times 6=88\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338409
+                    },
+                    "question_json": "neu-mathe/e68bf1611de848d09c36be063cdb9581",
+                    "updated_at": {
+                        "seconds": 1767551638
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 82902,
+                            "question_id": 18534,
+                            "is_answer": true,
+                            "choice": "$88$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82903,
+                            "question_id": 18534,
+                            "is_answer": false,
+                            "choice": "$48$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82904,
+                            "question_id": 18534,
+                            "is_answer": false,
+                            "choice": "$68$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82905,
+                            "question_id": 18534,
+                            "is_answer": false,
+                            "choice": "$136$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 562,
+                    "ai_tags": "概率论,方差,协方差"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 23,
+            "questions": [
+                {
+                    "id": 18535,
+                    "subject_id": 3,
+                    "chapter_id": 356,
+                    "question_id": "4ccc00f1-bed7-4bd6-8941-480906ce8f30",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 100 件产品中的一、二、三等品率分别为 $0.8, 0.1$ 和 $0.1$. 现从中随机地取 1 件, 并记\n$$\nX_i=\\begin{cases} 1, & \\text{取得 } i \\text{ 等品} \\\\ 0, & \\text{其它} \\end{cases} \\quad (i=1,2,3),\n$$\n则 $\\rho_{X_1 X_2}=(\\quad)$.",
+                    "analysis": "$\\left(X_1, X_2\\right)$ 的联合分布为\n$$\n\\begin{gathered}\nP\\left\\{X_1=0, X_2=0\\right\\}=P\\left\\{X_3=1\\right\\}=0.1, \\quad P\\left\\{X_1=0, X_2=1\\right\\}=P\\left\\{X_2=1\\right\\}=0.1, \\\\\nP\\left\\{X_1=1, X_2=0\\right\\}=P\\left\\{X_1=1\\right\\}=0.8, \\quad P\\left\\{X_1=1, X_2=1\\right\\}=P(\\varnothing)=0 .\n\\end{gathered}\n$$\n\n关于 $X_1$ 和 $X_2$ 的边缘分布律分别为\n$$\nP\\left\\{X_1=1\\right\\}=0.8, \\quad P\\left\\{X_1=0\\right\\}=0.2 ; P\\left\\{X_2=1\\right\\}=0.1, \\quad P\\left\\{X_2=0\\right\\}=0.9 .\n$$\n\n于是 $E\\left(X_1\\right)=0.8, D\\left(X_1\\right)=0.16 ; E\\left(X_2\\right)=0.1, D\\left(X_2\\right)=0.09$, 从而\n$$\n\\rho_{X_1 X_2}=\\frac{\\operatorname{cov}\\left(X_1, X_2\\right)}{\\sqrt{D\\left(X_1\\right)} \\sqrt{D\\left(X_2\\right)}}=\\frac{E\\left(X_1 X_2\\right)-E\\left(X_1\\right) E\\left(X_2\\right)}{\\sqrt{D\\left(X_1\\right)} \\sqrt{D\\left(X_2\\right)}}=\\frac{1 \\times 0+0 \\times 0.8+0 \\times 0.1+0 \\times 0.1-0.08}{0.4 \\times 0.3}=-\\frac{2}{3} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338409
+                    },
+                    "question_json": "neu-mathe/f09da3fcc4264439a04930332bd227f7",
+                    "updated_at": {
+                        "seconds": 1767637885
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 82909,
+                            "question_id": 18535,
+                            "is_answer": true,
+                            "choice": "$-\\frac{2}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82910,
+                            "question_id": 18535,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82911,
+                            "question_id": 18535,
+                            "is_answer": false,
+                            "choice": "$-\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82912,
+                            "question_id": 18535,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 146975,
+                    "ai_tags": "相关系数,二维随机变量,协方差"
+                },
+                {
+                    "id": 18536,
+                    "subject_id": 3,
+                    "chapter_id": 356,
+                    "question_id": "897404af-6f04-4505-bec6-9a3c0e814a7f",
+                    "difficulty": "Easy",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "随机变量 $X, Y$ 满足 $D(X)=3, D(Y)=5, \\rho_{X Y}=-\\frac{1}{2}$, 且 $Z=X-2 Y-2$, 则 $D(Z)=()$.",
+                    "analysis": "由题意知 $\\operatorname{cov}(X, Y)=\\rho_{X Y} \\sqrt{D(X) D(Y)}=-\\frac{\\sqrt{15}}{2}$, 所以\n$$\nD(Z)=D(X-2 Y-2)=D(X)+4 D(Y)-4 \\operatorname{cov}(X, Y)=23+2 \\sqrt{15} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338411
+                    },
+                    "question_json": "neu-mathe/098483ef2ce84422960419664d8d6b69",
+                    "updated_at": {
+                        "seconds": 1766860317
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 82916,
+                            "question_id": 18536,
+                            "is_answer": false,
+                            "choice": "$8+2 \\sqrt{15}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82917,
+                            "question_id": 18536,
+                            "is_answer": false,
+                            "choice": "$13-\\sqrt{15}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82918,
+                            "question_id": 18536,
+                            "is_answer": true,
+                            "choice": "$23+2 \\sqrt{15}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82919,
+                            "question_id": 18536,
+                            "is_answer": false,
+                            "choice": "$8-\\sqrt{15}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 53529,
+                    "ai_tags": "方差,协方差,相关系数"
+                },
+                {
+                    "id": 18538,
+                    "subject_id": 3,
+                    "chapter_id": 356,
+                    "question_id": "6846019b-d28e-4329-9141-ed909c1cc1f9",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知 $X \\sim N\\left(1,3^2\\right), Y \\sim N\\left(0,4^2\\right), \\rho_{X Y}=-\\frac{1}{2}$, 设 $Z=\\frac{X}{3}+\\frac{Y}{2}$, 则 $X$ 与 $Z$ 的相关系数为 ( ).",
+                    "analysis": "$\\begin{aligned} & \\text { 由 } E(X)=1, D(X)=3^2, E(Y)=0, D(Y)=4^2 \\text {, 有 } \\\\ & E(Z) =E\\left(\\frac{X}{3}+\\frac{Y}{2}\\right)=\\frac{1}{3} E(X)+\\frac{1}{2} E(Y)=\\frac{1}{3}, \\\\ & D(Z) =D\\left(\\frac{X}{3}+\\frac{Y}{2}\\right)=\\frac{1}{3^2} D(X)+\\frac{1}{4} D(Y)+2 \\times \\frac{1}{3} \\times \\frac{1}{2} \\operatorname{Cov}(X, Y) \\\\ & \\phantom{D(Z)} =1+4+\\frac{1}{3} \\times \\rho_{XY} \\times \\sqrt{D(X)} \\sqrt{D(Y)}=5+\\frac{1}{3} \\times\\left(-\\frac{1}{2}\\right) \\times 3 \\times 4=3, \\\\ & \\rho_{XZ} =\\frac{\\operatorname{Cov}(X, Z)}{\\sqrt{D(X)} \\sqrt{D(Z)}}=\\frac{\\operatorname{Cov}\\left(X, \\frac{1}{3} X+\\frac{1}{2} Y\\right)}{\\sqrt{D(X)} \\sqrt{D(Z)}}=\\frac{\\frac{1}{3} D(X)+\\frac{1}{2} \\operatorname{Cov}(X, Y)}{\\sqrt{D(X)} \\sqrt{D(Z)}} \\\\ & \\phantom{\\rho_{XZ}} =\\frac{\\sqrt{D(X)}}{3 \\sqrt{D(Z)}}+\\frac{\\rho_{XY} \\sqrt{D(Y)}}{2 \\sqrt{D(Z)}} =\\frac{3}{3 \\sqrt{3}}-\\frac{4}{4 \\sqrt{3}}=0 .\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338425
+                    },
+                    "question_json": "neu-mathe/c8632010b3fa4bedb4fc34bc734bd14c",
+                    "updated_at": {
+                        "seconds": 1764700345
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 82930,
+                            "question_id": 18538,
+                            "is_answer": true,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82931,
+                            "question_id": 18538,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82932,
+                            "question_id": 18538,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82933,
+                            "question_id": 18538,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 0,
+                    "ai_tags": "概率论,正态分布,相关系数"
+                }
+            ]
+        }
+    }
+]

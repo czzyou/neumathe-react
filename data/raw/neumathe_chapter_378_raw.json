@@ -1,0 +1,431 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 5,
+            "questions": [
+                {
+                    "id": 14296,
+                    "subject_id": 3,
+                    "chapter_id": 378,
+                    "question_id": "2ecf34e7-1f47-418f-b608-0a5f5138149a",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "已知样本值的频数分布表为\n\\begin{tabular}{|c|cccc|}\n\\hline$X$ & $x_1$ & $x_2$ & $\\cdots$ & $x_m$ \\\\\n\\hline 频数 & $n_1$ & $n_2$ & $\\cdots$ & $n_m$ \\\\\n\\hline\n\\end{tabular}\n$n=\\sum_{i=1}^m n_i$, 则样本均值 $\\bar{x}=()$.",
+                    "analysis": "$\\bar{x}=\\frac{1}{n} \\sum_{i=1}^m n_i x_i$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/eb0c7331f35f4f518e738d53f9e09ac5",
+                    "updated_at": {
+                        "seconds": 1767637883
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 57184,
+                            "question_id": 14296,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{m} \\sum_{i=1}^m x_i$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57183,
+                            "question_id": 14296,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{m-1} \\sum_{i=1}^m\\left(x_i-\\bar{x}\\right)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57182,
+                            "question_id": 14296,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n-1} \\sum_{i=1}^m n_i\\left(x_i-\\bar{x}\\right)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57181,
+                            "question_id": 14296,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{n} \\sum_{i=1}^m n_i x_i$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.61,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 31165,
+                    "ai_tags": "样本均值,频数分布表,描述统计"
+                },
+                {
+                    "id": 14297,
+                    "subject_id": 3,
+                    "chapter_id": 378,
+                    "question_id": "719046c1-c05f-48cf-b535-5d98a9833007",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "对 100 名学生, 测得身长频数分布如下表:\n\\begin{tabular}{|c|c|r|r|r|r|r|r|r|r|r|c|}\n\\hline$x$ & 154 & 157 & 160 & 163 & 166 & 169 & 172 & 175 & 178 & 181 & 计 \\\\\n\\hline$f$ & 1 & 5 & 11 & 23 & 20 & 18 & 14 & 5 & 1 & 2 & $N=100=\\sum f$ \\\\\n\\hline\n\\end{tabular}\n\n求均值 $\\bar{x}=()$.",
+                    "analysis": "$\\bar{x}=\\sum_{i=1}^{10} x_i \\frac{f_i}{100}=166.33$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/0f7245dcede742c9afac080b82e37630",
+                    "updated_at": {
+                        "seconds": 1767033120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 57187,
+                            "question_id": 14297,
+                            "is_answer": false,
+                            "choice": "$157.67$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57185,
+                            "question_id": 14297,
+                            "is_answer": true,
+                            "choice": "$166.33$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57188,
+                            "question_id": 14297,
+                            "is_answer": false,
+                            "choice": "$156.67$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57186,
+                            "question_id": 14297,
+                            "is_answer": false,
+                            "choice": "$167.33$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.91,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 12910,
+                    "ai_tags": "统计学,频数分布,均值"
+                },
+                {
+                    "id": 14299,
+                    "subject_id": 3,
+                    "chapter_id": 378,
+                    "question_id": "79a91d1a-5ee5-4542-a5e6-23fee08903ec",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, \\cdots, X_5$ 为母体 $X$ 的样本, 今得观察值 $x_1=0.5, x_2=0.4, x_3=0.7, x_4=0.6, x_5=0.3$, 则极差的观察值为 ( ).",
+                    "analysis": "观测值排序: $x_1^*=0.3<x_2^*=0.4<x_3^*=0.5<x_4^*=0.6<x_5^*=0.7$.极差的观测值: $D=x_5^*-x_1^*=0.7-0.3=0.4$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/4b507035a85946df99e97f91e5cfbff8",
+                    "updated_at": {
+                        "seconds": 1767637889
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 57196,
+                            "question_id": 14299,
+                            "is_answer": false,
+                            "choice": "$0.2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57195,
+                            "question_id": 14299,
+                            "is_answer": true,
+                            "choice": "$0.4$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57193,
+                            "question_id": 14299,
+                            "is_answer": false,
+                            "choice": "$0.7$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57194,
+                            "question_id": 14299,
+                            "is_answer": false,
+                            "choice": "$0.3$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 20435,
+                    "ai_tags": "极差,样本观察值,顺序统计量"
+                },
+                {
+                    "id": 14300,
+                    "subject_id": 3,
+                    "chapter_id": 378,
+                    "question_id": "03a39736-1d17-49ac-a632-eb48a6d5df6c",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "某地区抽样调查 200 个居民户的月收入, 得如下统计资料:\n\\begin{tabular}{|c|c|c|c|c|c|c|c|c|}\n\\hline 月人均收入（百元） & $5-6$ & $6-7$ & $7-8$ & $8-9$ & $9-10$ & $10-11$ & $11-12$ & 合计 \\\\\n\\hline 户数 & 18 & 35 & 76 & 24 & 19 & 14 & 14 & 200 \\\\\n\\hline\n\\end{tabular}\n\n则月收入的平均数 $\\bar{x}=()$.",
+                    "analysis": "首先计算各组的 \"组中值\"，然后计算 $\\bar{X}$ 的近似值：\n\\begin{tabular}{|c|c|c|c|c|c|c|c|c|}\n\\hline 月人均收入 (百元) & $5-6$ & $6-7$ & $7-8$ & $8-9$ & $9-10$ & $10-11$ & $11-12$ & 合计 \\\\\n\\hline 组中值 $a_k$ & 5.5 & 6.5 & 7.5 & 8.5 & 9.5 & 10.5 & 11.5 & \\\\\n\\hline 户数 $f_k$ & 18 & 35 & 76 & 24 & 19 & 14 & 14 & 200 \\\\\n\\hline\n\\end{tabular}\n\n月收入的平均数 $\\bar{x}=\\frac{1}{n} \\sum_k a_k f_k=\\frac{1}{200}(5.5 \\times 18+\\cdots+11.5 \\times 14)=7.945$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/a25cb89803a841aabf310e4f4ed39a7d",
+                    "updated_at": {
+                        "seconds": 1766601142
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 57197,
+                            "question_id": 14300,
+                            "is_answer": false,
+                            "choice": "$7.786$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57200,
+                            "question_id": 14300,
+                            "is_answer": true,
+                            "choice": "$7.945$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57199,
+                            "question_id": 14300,
+                            "is_answer": false,
+                            "choice": "$8.361$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57198,
+                            "question_id": 14300,
+                            "is_answer": false,
+                            "choice": "$8.025$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.75,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 33097,
+                    "ai_tags": "统计学,平均数,组中值"
+                },
+                {
+                    "id": 19509,
+                    "subject_id": 3,
+                    "chapter_id": 378,
+                    "question_id": "d68dfe78-2ddf-4e06-93d9-c51b43a7f63a",
+                    "difficulty": "Easy",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "从总体 $X$ 抽样出容量为 10 的一组样本, 得样本观察值: $1,2,4,3,3,4,5,6,4,8$, 则平均数为 ().",
+                    "analysis": "$\\bar{x}=\\frac{1}{10} \\sum_{i=1}^{10} x_i=\\frac{1}{10} \\times 40=4$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340749
+                    },
+                    "question_json": "neu-mathe/4d24d44f5b9346fe9d178d986a46300d",
+                    "updated_at": {
+                        "seconds": 1767465098
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89727,
+                            "question_id": 19509,
+                            "is_answer": false,
+                            "choice": "$4.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89728,
+                            "question_id": 19509,
+                            "is_answer": false,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89729,
+                            "question_id": 19509,
+                            "is_answer": true,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89730,
+                            "question_id": 19509,
+                            "is_answer": false,
+                            "choice": "$3.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 13710,
+                    "ai_tags": "样本均值,描述统计"
+                }
+            ]
+        }
+    }
+]

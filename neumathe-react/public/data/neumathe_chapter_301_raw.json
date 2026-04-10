@@ -1,0 +1,2298 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 27,
+            "questions": [
+                {
+                    "id": 13910,
+                    "subject_id": 3,
+                    "chapter_id": 301,
+                    "question_id": "fc789091-10fd-4379-98ca-a3c46428e04c",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "设随机变量 $\\xi$ 的概率密度为 $\\varphi(x)=\\left\\{\\begin{array}{cc}12 x(1-x)^2, & x \\in(0,1) \\\\ 0, & x \\notin(0,1)\\end{array}\\right.$, 则 $P\\{0<\\xi<0.5\\}=()$.",
+                    "analysis": "$P\\{0<\\xi<0.5\\}=P\\{0<\\xi \\leq 0.5\\}=\\int_0^{0.5} \\varphi(x) d x=\\left.12\\left(\\frac{1}{2} x^2-\\frac{2}{3} x^3+\\frac{1}{4} x^4\\right)\\right|_0 ^{0.5}=\\frac{11}{16}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/06e3c5b4aa484905bc74e7024bf43149",
+                    "updated_at": {
+                        "seconds": 1775673111
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55640,
+                            "question_id": 13910,
+                            "is_answer": false,
+                            "choice": "$\\frac{7}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55638,
+                            "question_id": 13910,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55637,
+                            "question_id": 13910,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{16}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55639,
+                            "question_id": 13910,
+                            "is_answer": true,
+                            "choice": "$\\frac{11}{16}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 103115,
+                    "ai_tags": "概率密度函数,概率计算"
+                },
+                {
+                    "id": 13911,
+                    "subject_id": 3,
+                    "chapter_id": 301,
+                    "question_id": "5a317f54-e0c0-486f-aacb-9e6a077e5b80",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设连续随机变量 $X$ 的分布函数 $F(x)=\\left\\{\\begin{array}{cc}0, & x<0 \\\\ A x^2, & 0 \\leq x \\leq 2 \\\\ 1, & x>2\\end{array}\\right.$, 其中 $A$ 为待定常数, 则 $P\\{1<x<3\\}=()$.",
+                    "analysis": "先确定常数 $A$, 由分布函数 $F(x)$ 的右连续性, 有\n$$\n\\lim _{x \\rightarrow 2^{-}} F(x)=F(2) \\Rightarrow 4 A=1 \\Rightarrow A=\\frac{1}{4} .\n$$\n\n又点 $x=1, x=3$ 都是 $F(x)$ 的连续点, 故\n$$\nP\\{1<x<3\\}=F(3)-F(1)=1-\\frac{1}{4}=\\frac{3}{4} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/14b18422f1b74e6795a51c21d43a08b2",
+                    "updated_at": {
+                        "seconds": 1775673111
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55641,
+                            "question_id": 13911,
+                            "is_answer": true,
+                            "choice": "$\\frac{3}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55643,
+                            "question_id": 13911,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55644,
+                            "question_id": 13911,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55642,
+                            "question_id": 13911,
+                            "is_answer": false,
+                            "choice": "$\\frac{4}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.79,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 114567,
+                    "ai_tags": "连续型随机变量,分布函数"
+                },
+                {
+                    "id": 13917,
+                    "subject_id": 3,
+                    "chapter_id": 301,
+                    "question_id": "0cb10a00-bec6-4ad1-9b20-536ec2cd642e",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $\\xi$ 是一个连续型变量, 其概率密度为 $\\varphi(x)$, 分布函数为 $F(x)$, 则对于任意 $x$ 值有 $($ ),",
+                    "analysis": "连续型随机变量 $X$ 取任一指定值 $a(a \\in R)$ 的概率为 $0, P\\{X=a\\}=0$.注意: 当 $\\varphi(x)$ 在点 $x$ 处连续时, 才有 $F^{\\prime}(x)=\\varphi(x)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/8dbec7ef74e8471e8217ccf5d4d75bd9",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55667,
+                            "question_id": 13917,
+                            "is_answer": true,
+                            "choice": "$P(\\xi=x)=0$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55665,
+                            "question_id": 13917,
+                            "is_answer": false,
+                            "choice": "$F^{\\prime}(x)=\\varphi(x)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55666,
+                            "question_id": 13917,
+                            "is_answer": false,
+                            "choice": "$P(\\xi=x)=\\varphi(x)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55668,
+                            "question_id": 13917,
+                            "is_answer": false,
+                            "choice": "$P(\\xi=x)=F(x)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.41,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 82716,
+                    "ai_tags": "连续型随机变量,概率密度,分布函数"
+                },
+                {
+                    "id": 13920,
+                    "subject_id": 3,
+                    "chapter_id": 301,
+                    "question_id": "f2d9fb9c-5e4a-4a05-a431-d89f3c74f69f",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $\\xi$ 的概率密度为 $f(x)=\\left\\{\\begin{array}{cc}k x^b, & 0<x<1(b>0, k>0) \\\\ 0, & \\text { 其它 }\\end{array}\\right.$, 且 $P\\{\\xi>1 / 2\\}=0.75$, 则 $k=()$.",
+                    "analysis": "由概率密度的性质 $\\int_{-\\infty}^{+\\infty} f(x) d x=1$, 有 $\\int_{-\\infty}^{+\\infty} f(x) d x=\\int_0^1 k x^b d x=1$, 即 $\\frac{k}{b+1}=1$.\n又 $P\\{\\xi>1 / 2\\}=1-P\\{\\xi \\leq 1 / 2\\}=0.75$,\n推出 $P\\{\\xi \\leq 1 / 2\\}=F(1 / 2)=\\int_0^{1 / 2} k x^b d x=0.25$, 得 $\\left(\\frac{1}{2}\\right)^{b+1}=\\frac{1}{4}$,即 $b=1, k=2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/4ce67bcc62ae419bbad7bbe880957790",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55680,
+                            "question_id": 13920,
+                            "is_answer": true,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55679,
+                            "question_id": 13920,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55677,
+                            "question_id": 13920,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55678,
+                            "question_id": 13920,
+                            "is_answer": false,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.87,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 110927,
+                    "ai_tags": "概率密度函数,随机变量,定积分"
+                },
+                {
+                    "id": 13922,
+                    "subject_id": 3,
+                    "chapter_id": 301,
+                    "question_id": "f1aed02c-ecb9-465c-abea-82d6c36073f1",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 的概率密度为 $f(x)=\\left\\{\\begin{array}{cc}c x, & \\text { 当 } 0 \\leq x \\leq 1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$, 则 $P\\{0.3<X<0.7\\}$ 的值为 ( ).",
+                    "analysis": "由密度函数的性质 $\\int_{-\\infty}^{+\\infty} f(x) d x=1$ 有\n$$\n\\begin{aligned}\n& \\int_{-\\infty}^{+\\infty} f(x) d x=\\int_0^1 c x d x=1 \\Rightarrow c=2 . \\\\\n& P\\{0.3<X<0.7\\}=\\int_{0.3}^{0.7} 2 x d x=0.4 .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/fb68902e5f9f4dfb94fbf1ae4acc4f45",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55687,
+                            "question_id": 13922,
+                            "is_answer": true,
+                            "choice": "$0.4$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55688,
+                            "question_id": 13922,
+                            "is_answer": false,
+                            "choice": "$0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55686,
+                            "question_id": 13922,
+                            "is_answer": false,
+                            "choice": "$0.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55685,
+                            "question_id": 13922,
+                            "is_answer": false,
+                            "choice": "$0.8$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.89,
+                    "difficulty_score": 0.3,
+                    "avg_time_spent": 39948,
+                    "ai_tags": "概率密度,定积分"
+                },
+                {
+                    "id": 13923,
+                    "subject_id": 3,
+                    "chapter_id": 301,
+                    "question_id": "8fc17aeb-db57-44a9-86fa-5d681e3b2082",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $\\xi$ 的密度函数为 $\\varphi(x)=\\left\\{\\begin{array}{cc}x, & 0<x \\leq 1 \\\\ 2-x, & 1<x \\leq 2 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$, 则 $P\\{\\xi<1.5\\}=($ ).",
+                    "analysis": "$\\begin{aligned} P\\{\\xi<1.5\\} & =P\\{\\xi \\leq 1.5\\}=\\int_{-\\infty}^{1.5} \\varphi(x) d x \\\\ & =\\int_{-\\infty}^0 0 d x+\\int_0^1 x d x+\\int_1^{1.5}(2-x) d x=\\frac{7}{8}=0.875 .\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/29e8dee647f94bd5a1344d1a623033e2",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55692,
+                            "question_id": 13923,
+                            "is_answer": true,
+                            "choice": "$0.875$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55691,
+                            "question_id": 13923,
+                            "is_answer": false,
+                            "choice": "$\\int_1^{1.5}(2-x) d x$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55690,
+                            "question_id": 13923,
+                            "is_answer": false,
+                            "choice": "$\\int_0^{1.5}(2-x) d x$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55689,
+                            "question_id": 13923,
+                            "is_answer": false,
+                            "choice": "$0.75$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 61496,
+                    "ai_tags": "概率密度函数,概率计算,定积分"
+                },
+                {
+                    "id": 13927,
+                    "subject_id": 3,
+                    "chapter_id": 301,
+                    "question_id": "3c671b1d-1c0a-4cad-a877-70111b44eda9",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "连续随机变量 $X$ 的概率密度为 $f(x)=\\left\\{\\begin{array}{cc}x, & 0 \\leq x \\leq 1 \\\\ 2-x, & 1<x \\leq 2 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$ 则随机变量 $X$ 的取值落在区间 $(0.4,1.2)$ 内的概率为 () .",
+                    "analysis": "$\\begin{aligned} P\\{0.4<X<1.2\\} & =P\\{0.4<X \\leq 1.2\\}=\\int_{0.4}^1 x d x+\\int_1^{1.2}(2-x) d x \\\\ & =\\left.\\frac{x^2}{2}\\right|_{0.4} ^1+\\left.\\left(2 x-\\frac{x^2}{2}\\right)\\right|_1 ^{1.2}=0.42+0.18=0.6 .\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/e5798b4be3394b21803c740bba5af5eb",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55707,
+                            "question_id": 13927,
+                            "is_answer": true,
+                            "choice": "$0.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55706,
+                            "question_id": 13927,
+                            "is_answer": false,
+                            "choice": "$0.64$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55705,
+                            "question_id": 13927,
+                            "is_answer": false,
+                            "choice": "$0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55708,
+                            "question_id": 13927,
+                            "is_answer": false,
+                            "choice": "$0.42$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.84,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 146257,
+                    "ai_tags": "连续随机变量,概率密度函数,定积分"
+                },
+                {
+                    "id": 13928,
+                    "subject_id": 3,
+                    "chapter_id": 301,
+                    "question_id": "3faa5270-56ce-4b0e-8392-6c335b5f1002",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "连续随机变量 $X$ 的概率密度 $f(x)=\\left\\{\\begin{array}{cc}A \\cos x, & |x|<\\frac{\\pi}{2} \\\\ 0, & |x| \\geq \\frac{\\pi}{2}\\end{array}\\right.$, 则 $A, P\\left\\{0<X<\\frac{\\pi}{4}\\right\\}$ 的值分别为 ( ).",
+                    "analysis": "(1) $\\int_{-\\infty}^{+\\infty} f(x) d x=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} A \\cos x d x=2 A \\int_0^{\\frac{\\pi}{2}} \\cos x d x=2 A=1$, 故 $A=\\frac{1}{2}$.\n(2) $P\\left\\{0<X<\\frac{\\pi}{4}\\right\\}=P\\left\\{0<X \\leq \\frac{\\pi}{4}\\right\\}=\\int_0^{\\frac{\\pi}{4}} \\frac{1}{2} \\cos x d x=\\frac{\\sqrt{2}}{4} \\approx 0.3536$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/ccfd1a493a1f4a83a42a04ad2fb1121c",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55710,
+                            "question_id": 13928,
+                            "is_answer": true,
+                            "choice": "$\\left(\\frac{1}{2}, \\frac{\\sqrt{2}}{4}\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55711,
+                            "question_id": 13928,
+                            "is_answer": false,
+                            "choice": "$\\left(\\frac{1}{2}, \\frac{1}{2}\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55712,
+                            "question_id": 13928,
+                            "is_answer": false,
+                            "choice": "$\\left(\\frac{1}{2}, \\frac{\\sqrt{2}}{2}\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55709,
+                            "question_id": 13928,
+                            "is_answer": false,
+                            "choice": "$\\left(\\frac{\\sqrt{2}}{2}, \\frac{1}{2}\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.7,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 132972,
+                    "ai_tags": "概率密度函数,连续随机变量,定积分"
+                },
+                {
+                    "id": 13931,
+                    "subject_id": 3,
+                    "chapter_id": 301,
+                    "question_id": "b7ae8161-b866-4ae3-93fb-6bcefd3184eb",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "某型号电子管, 其寿命 (以小时计) 为一随机变量 $X$, 概率密度 $f(x)=\\left\\{\\begin{array}{cc}\\frac{100}{x^2}, & x \\geq 100 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$,则三个电子管使用 150 小时都不需要更换的概率为 () .",
+                    "analysis": "设电子管的使用寿命为 $X$, 则电子管使用 150 小时以上的概率为\n$$\nP\\{X>150\\}=\\int_{150}^{+\\infty} f(x) d x=\\int_{150}^{+\\infty} \\frac{100}{x^2} d x=-\\left.\\frac{100}{x}\\right|_{150} ^{+\\infty}=\\frac{100}{150}=\\frac{2}{3},\n$$\n\n从而三个电子管在使用 150 小时以上不需要更换的概率为: $p=(2 / 3)^3=8 / 27$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/0d3d5adc7a0d457090cf08df5aafc3b5",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55721,
+                            "question_id": 13931,
+                            "is_answer": false,
+                            "choice": "$\\frac{10}{27}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55723,
+                            "question_id": 13931,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{27}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55722,
+                            "question_id": 13931,
+                            "is_answer": false,
+                            "choice": "$\\frac{16}{27}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55724,
+                            "question_id": 13931,
+                            "is_answer": true,
+                            "choice": "$\\frac{8}{27}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.65,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 95983,
+                    "ai_tags": "概率密度,相互独立事件"
+                },
+                {
+                    "id": 13932,
+                    "subject_id": 3,
+                    "chapter_id": 301,
+                    "question_id": "e19b3036-7427-4576-b9ee-fe0216502e02",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 的概率密度为 $f(x)=\\left\\{\\begin{array}{cc}2 x, & 0<x<1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$, 以 $Y$ 表示对 $X$ 的三次独立重复观察中事件 $\\left\\{X \\leq \\frac{1}{2}\\right\\}$ 出现的次数, 则 $P\\{Y=2\\}=()$.",
+                    "analysis": "由于 $Y \\sim B(3, p)$, 其中 $p=P\\left\\{X \\leq \\frac{1}{2}\\right\\}=\\int_0^{\\frac{1}{2}} 2 x d x=\\frac{1}{4}$, 故 $P\\{Y=2\\}=C_3^2\\left(\\frac{1}{4}\\right)^2\\left(\\frac{3}{4}\\right)=\\frac{9}{64}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/85e3f068458f4d39aafd2887d5f96f00",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55726,
+                            "question_id": 13932,
+                            "is_answer": true,
+                            "choice": "$\\frac{9}{64}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55725,
+                            "question_id": 13932,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{16}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55727,
+                            "question_id": 13932,
+                            "is_answer": false,
+                            "choice": "$\\frac{9}{16}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 55728,
+                            "question_id": 13932,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{64}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.9,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 92530,
+                    "ai_tags": "概率密度,二项分布,独立重复试验"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 27,
+            "questions": [
+                {
+                    "id": 19265,
+                    "subject_id": 3,
+                    "chapter_id": 301,
+                    "question_id": "55ca16d9-964b-48ce-9761-105a5eb3594d",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $\\xi$ 的密度函数为 $\\varphi(x)=\\frac{1}{\\pi\\left(1+x^2\\right)},(-\\infty<x<+\\infty)$, 则 $P\\{0<\\xi<1\\}=()$.",
+                    "analysis": "$P\\{0<\\xi<1\\}=P\\{0<\\xi \\leq 1\\}=\\int_0^1 \\frac{1}{\\pi\\left(1+x^2\\right)} d x=\\left. \\frac{1}{\\pi} \\arctan x\\right|_0 ^1=\\frac{1}{4}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340176
+                    },
+                    "question_json": "neu-mathe/6ccd67c69cef4658bc78fed407ee33a6",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88019,
+                            "question_id": 19265,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88020,
+                            "question_id": 19265,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88021,
+                            "question_id": 19265,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88022,
+                            "question_id": 19265,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 257079,
+                    "ai_tags": "连续型随机变量,概率密度函数,定积分"
+                },
+                {
+                    "id": 19271,
+                    "subject_id": 3,
+                    "chapter_id": 301,
+                    "question_id": "4adbb252-41a2-4719-9172-7702c879cfa0",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 的概率密度函数为 $f(x)=\\left\\{\\begin{array}{cc}3 x^2, & 0<x<1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$, 若随机变量 $Y$ 表示对 $X$ 的三次独立观察中事件 $\\left\\{X \\leq \\frac{2}{3}\\right\\}$ 出现的次数, $P(Y=0)=()$.",
+                    "analysis": "对于随机变量 $X$ 有 $p=P\\left(X \\leq \\frac{2}{3}\\right)=\\int_0^{2 / 3} 3 x^2 d x=\\frac{8}{27}$,对于随机变量 $Y$, 依题意有 $Y \\sim B(3, p)$, 故 $P(Y=0)=C_3^0 p^0(1-p)^3=\\left(1-\\frac{8}{27}\\right)^3=\\left(\\frac{19}{27}\\right)^3$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340184
+                    },
+                    "question_json": "neu-mathe/f6fcf2a7982c42b6a58b42cce03b63c6",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88061,
+                            "question_id": 19271,
+                            "is_answer": true,
+                            "choice": "$\\left(\\frac{19}{27}\\right)^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88062,
+                            "question_id": 19271,
+                            "is_answer": false,
+                            "choice": "$1-\\left(\\frac{8}{27}\\right)^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88063,
+                            "question_id": 19271,
+                            "is_answer": false,
+                            "choice": "$1-\\left(\\frac{19}{27}\\right)^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88064,
+                            "question_id": 19271,
+                            "is_answer": false,
+                            "choice": "$\\left(\\frac{8}{27}\\right)^3$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.78,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 74459,
+                    "ai_tags": "概率密度函数,二项分布,独立试验"
+                },
+                {
+                    "id": 19277,
+                    "subject_id": 3,
+                    "chapter_id": 301,
+                    "question_id": "79bfc7c6-1467-41c1-a23d-51ca2f793a5e",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 的概率密度 $f(x)=\\left\\{\\begin{array}{cc}2 x, & 0<x<1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$. 今 $Y$ 表示对 $X$ 的 3 次独立重复观测中事件 $\\left\\{X \\leq \\frac{1}{2}\\right\\}$ 发生的次数, 则 $P\\{Y=2\\}=()$.",
+                    "analysis": "由随机变量 $X$ 求得 $P\\left\\{X \\leq \\frac{1}{2}\\right\\}=\\int_0^{1/2} 2 x d x=\\frac{1}{4}$. 又 $Y$ 服从二项分布 $B\\left(3, \\frac{1}{4}\\right)$, 故 $P\\{Y=2\\}=C_3^2 \\times\\left(\\frac{1}{4}\\right)^2 \\times\\left(\\frac{3}{4}\\right)=\\frac{9}{64}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340194
+                    },
+                    "question_json": "neu-mathe/2f3fc216fee0469b9a551a1720046b10",
+                    "updated_at": {
+                        "seconds": 1775673114
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88103,
+                            "question_id": 19277,
+                            "is_answer": true,
+                            "choice": "$\\frac{9}{64}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88104,
+                            "question_id": 19277,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{64}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88105,
+                            "question_id": 19277,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{64}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88106,
+                            "question_id": 19277,
+                            "is_answer": false,
+                            "choice": "$\\frac{55}{64}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.95,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 72770,
+                    "ai_tags": "概率密度,二项分布,独立重复试验"
+                },
+                {
+                    "id": 19278,
+                    "subject_id": 3,
+                    "chapter_id": 301,
+                    "question_id": "8c58ffa5-71d6-481a-9b47-3d7bd23751f6",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 的概率密度函数为 $f(x)=\\left\\{\\begin{array}{cc}2 x, & 0<x<1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$, 以 $Y$ 表示对 $X$ 的三次独立重复观察中事件 $\\left\\{X \\leq \\frac{1}{3}\\right\\}$ 出现的次数, 则 $P(Y=2)=()$.",
+                    "analysis": "随机变量 $Y$ 服从二项分布 $B(3, p)$, 其中 $p=P\\left(X \\leq \\frac{1}{3}\\right)=\\int_0^{\\frac{1}{3}} 2 x d x=\\frac{1}{9}$, 所以\n$$\nP(Y=2)=C_3^2\\left(\\frac{1}{9}\\right)^2\\left(\\frac{8}{9}\\right)=3 \\times \\frac{8}{9^3}=\\frac{24}{729}=\\frac{8}{243} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340195
+                    },
+                    "question_json": "neu-mathe/aeb2e674dfae46d58ec2ab3a06c13fed",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88110,
+                            "question_id": 19278,
+                            "is_answer": true,
+                            "choice": "$\\frac{8}{243}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88111,
+                            "question_id": 19278,
+                            "is_answer": false,
+                            "choice": "$\\frac{8}{729}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88112,
+                            "question_id": 19278,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{81}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88113,
+                            "question_id": 19278,
+                            "is_answer": false,
+                            "choice": "$\\frac{8}{81}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.84,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 80450,
+                    "ai_tags": "概率密度函数,二项分布,独立重复试验"
+                },
+                {
+                    "id": 19279,
+                    "subject_id": 3,
+                    "chapter_id": 301,
+                    "question_id": "5f4c320a-d7fe-4536-ad7b-b9078163c15f",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 的概率密度为 $f(x)=\\begin{cases} x, & 0 \\leq x \\leq 1 \\\\ 2-x, & 1 < x \\leq 2 \\\\ 0, & \\text{其它} \\end{cases}$，则 $P(X \\leq 1.5)=(\\quad)$。",
+                    "analysis": "$P\\{X \\leq 1.5\\}=\\int_{-\\infty}^{1.5} f(x) d x=\\int_{-\\infty}^0 0 d x+\\int_0^1 x d x+\\int_1^{1.5}(2-x) d x=0+\\left.\\frac{1}{2} x^2\\right|_0^1+\\left.\\left(2 x-\\frac{1}{2} x^2\\right)\\right|_1 ^{1.5}=0.875$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340196
+                    },
+                    "question_json": "neu-mathe/2793c50aad0d4870a20f91f1ed5ec71d",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88117,
+                            "question_id": 19279,
+                            "is_answer": true,
+                            "choice": "$0.875$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88118,
+                            "question_id": 19279,
+                            "is_answer": false,
+                            "choice": "$0.25$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88119,
+                            "question_id": 19279,
+                            "is_answer": false,
+                            "choice": "$0.750$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88120,
+                            "question_id": 19279,
+                            "is_answer": false,
+                            "choice": "$0.950$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 26188,
+                    "ai_tags": "概率密度,随机变量,定积分"
+                },
+                {
+                    "id": 19281,
+                    "subject_id": 3,
+                    "chapter_id": 301,
+                    "question_id": "a15a7e60-ae47-4aa9-a8a2-a722f36f2f5c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设连续型随机变量 $\\xi$ 的分布函数 $F(x)=\\left\\{\\begin{array}{cc}\\frac{1}{2} e^x, & x \\leq 0 \\\\ 1-\\frac{1}{2} e^{-x}, & x>0\\end{array}\\right.$, 则 $P\\{|\\xi|<1\\}=()$.",
+                    "analysis": "连续随机变量在某区间内的概率计算\n$$\n\\begin{aligned}\n& P\\{a<X \\leq b\\}=P\\{a \\leq X \\leq b\\}=P\\{a \\leq X<b\\}=P\\{a<X<b\\}=F(b)-F(a) \\text {, } \\\\\n& \\text { 故 } P\\{|\\xi|<1\\}=P\\{-1<\\xi<1\\}=F(1)-F(-1)=1-e^{-1} .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340202
+                    },
+                    "question_json": "neu-mathe/a35601d26c98497db306a4b26b17c65b",
+                    "updated_at": {
+                        "seconds": 1775586666
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88131,
+                            "question_id": 19281,
+                            "is_answer": true,
+                            "choice": "$1-e^{-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88132,
+                            "question_id": 19281,
+                            "is_answer": false,
+                            "choice": "$1-e^{-1 / 2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88133,
+                            "question_id": 19281,
+                            "is_answer": false,
+                            "choice": "$e^{-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88134,
+                            "question_id": 19281,
+                            "is_answer": false,
+                            "choice": "$e^1-2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.6,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 129426,
+                    "ai_tags": "连续型随机变量,分布函数,概率计算"
+                },
+                {
+                    "id": 19282,
+                    "subject_id": 3,
+                    "chapter_id": 301,
+                    "question_id": "2a74b556-705a-4594-b87e-80d036c657f5",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 的密度函数为 $f(x)=\\left\\{\\begin{array}{ll}x, & 0 \\leq x<1 \\\\ 2-x, & 1 \\leq x<2 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$，则 $P\\left\\{\\frac{1}{2}<X<\\frac{3}{2}\\right\\}= ( \\quad )$。",
+                    "analysis": "$P\\left\\{\\frac{1}{2}<X<\\frac{3}{2}\\right\\}=\\int_{\\frac{1}{2}}^1 x d x+\\int_1^{\\frac{3}{2}}(2-x) d x=\\frac{3}{4}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340205
+                    },
+                    "question_json": "neu-mathe/f3004138b0984cf18d3da87cf48541a1",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88138,
+                            "question_id": 19282,
+                            "is_answer": true,
+                            "choice": "$\\frac{3}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88139,
+                            "question_id": 19282,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88140,
+                            "question_id": 19282,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88141,
+                            "question_id": 19282,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 40931,
+                    "ai_tags": "概率密度,定积分"
+                },
+                {
+                    "id": 19283,
+                    "subject_id": 3,
+                    "chapter_id": 301,
+                    "question_id": "353d3fab-3638-4761-b41a-ba65fb9573ac",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设连续随机变量 $\\xi$ 的分布函数 $F(x)=\\frac{1}{\\pi} \\operatorname{arctg} x+\\frac{1}{2}(-\\infty<x<+\\infty)$, 则 $P\\{\\xi=-\\sqrt{3}\\}=()$.",
+                    "analysis": "连续随机变量 $X$ 任取一指定值 $a(a \\in R)$ 的概率为 0 , 即 $P\\{X=a\\}=0$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340206
+                    },
+                    "question_json": "neu-mathe/ef574c37d2dc4ce8961a46003768c6c4",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88145,
+                            "question_id": 19283,
+                            "is_answer": true,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88146,
+                            "question_id": 19283,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88147,
+                            "question_id": 19283,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88148,
+                            "question_id": 19283,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.77,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 28487,
+                    "ai_tags": "连续随机变量,分布函数,概率"
+                },
+                {
+                    "id": 19284,
+                    "subject_id": 3,
+                    "chapter_id": 301,
+                    "question_id": "96142c8d-3d5f-4396-9b9a-602854e66f8e",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 的概率密度为 $f(x)=\\begin{cases}\\frac{1}{3}, & x \\in[0,1] \\\\ \\frac{2}{9}, & x \\in[3,6] \\\\ 0, & \\text{其它}\\end{cases}$, 若 $k$ 使得 $P\\{X \\geq k\\}=\\frac{2}{3}$, 则 $k$ 的取值范围是 ().",
+                    "analysis": "若 $k<0$, 则根据密度函数的定义有\n$$\nP\\{X \\geq k\\}=\\int_k^{+\\infty} f(x) d x=\\int_0^1 f(x) d x=\\int_3^6 f(x) d x=\\frac{1}{3}+\\frac{2}{3}=1 \\neq \\frac{2}{3} .\n$$\n\n故 $k \\geq 0$, 当 $0 \\leq k \\leq 1$ 时, 由\n$$\nP\\{X \\geq k\\}=\\int_k^{+\\infty} f(x) d x=\\int_k^1 f(x) d x+\\int_3^6 f(x) d x=\\frac{1}{3}(1-k)+\\frac{2}{3}=\\frac{2}{3} .\n$$\n\n即 $k=1$.\n当 $1 \\leq k \\leq 3$ 时, 由题设 $P\\{X \\geq k\\}=\\int_k^{+\\infty} f(x) d x=\\int_3^6 f(x) d x=\\frac{2}{3}$.\n即当 $1 \\leq k \\leq 3$ 时, 结论成立.\n当 $3<k \\leq 6$ 时, 有 $P\\{X \\geq k\\}=\\int_k^{+\\infty} f(x) d x=\\int_k^6 f(x) d x=\\frac{2}{9}(6-k)<\\frac{2}{3}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340210
+                    },
+                    "question_json": "neu-mathe/1b196bc80cd34e59a10be66e266a47b0",
+                    "updated_at": {
+                        "seconds": 1775673111
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88152,
+                            "question_id": 19284,
+                            "is_answer": true,
+                            "choice": "$1 \\leq k \\leq 3$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88153,
+                            "question_id": 19284,
+                            "is_answer": false,
+                            "choice": "$0<k<2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88154,
+                            "question_id": 19284,
+                            "is_answer": false,
+                            "choice": "$0 \\leq k \\leq 2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88155,
+                            "question_id": 19284,
+                            "is_answer": false,
+                            "choice": "$1<k<3$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.95,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 63314,
+                    "ai_tags": "概率密度,随机变量,连续型随机变量"
+                },
+                {
+                    "id": 19285,
+                    "subject_id": 3,
+                    "chapter_id": 301,
+                    "question_id": "db49a26c-0798-48ed-845e-14d0389b1132",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设电子管使用寿命的密度函数 $\\varphi(x)=\\left\\{\\begin{array}{cc}100 / x^2, & x>100 \\\\ 0, & x \\leq 100\\end{array}\\right.$ (单位: 小时), 则在 150 小时内独立使用三只管子全部损坏的概率是 ( ).",
+                    "analysis": "设电子管使用寿命随机变量分别记为 $X$, 则 $p=P\\{X \\leq 150\\}=\\int_{100}^{150} \\frac{100}{x^2} d x=\\frac{1}{3}$. 设在 150 小时内独立使用的 3 只管子中有 $Y$ 个损坏, 则 $Y \\sim B(3, p)$.\n所以在 150 小时内独立使用的三只管子中全部损坏的概率为 $P\\{Y=3\\}=C_3^3 p^3=\\frac{1}{27}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340211
+                    },
+                    "question_json": "neu-mathe/4c5cd481ec9844dba08de9d5e0c0823e",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88159,
+                            "question_id": 19285,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{27}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88160,
+                            "question_id": 19285,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88161,
+                            "question_id": 19285,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88162,
+                            "question_id": 19285,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.89,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 37869,
+                    "ai_tags": "概率密度函数,二项分布,独立事件"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 27,
+            "questions": [
+                {
+                    "id": 19286,
+                    "subject_id": 3,
+                    "chapter_id": 301,
+                    "question_id": "979a3680-cddf-43fe-806d-f2222751ac2f",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某城市饮用水的日消费量 $X$ (单位: 百万升)是随机变量, 其密度函数为 $f(x)=\\begin{cases} \\frac{1}{9}xe^{-\\frac{x}{3}}, & x>0 \\\\ 0, & \\text{其它} \\end{cases}$ 则下列说法正确的是 ( ).",
+                    "analysis": "先求 $X$ 的分布函数 $F(x)$. 显然, 当 $x<0$ 时, $F(x)=0$; 当 $x \\geq 0$ 时有\n$$F(x)=\\int_0^x \\frac{1}{9} t e^{-\\frac{t}{3}} d t=1-\\left(1+\\frac{x}{3}\\right) e^{-\\frac{x}{3}}$$\n故\n$$F(x)=\\begin{cases} 1-\\left(1+\\frac{x}{3}\\right) e^{-\\frac{x}{3}}, & x \\geq 0 \\\\ 0, & x<0 \\end{cases}$$\n所以\n$$\\begin{aligned}\n& P\\{X \\geq 6\\}=1-P\\{X<6\\}=1-P\\{X \\leq 6\\}=1-F(6)=1-\\left[1-\\left(1+\\frac{x}{3}\\right) e^{-\\frac{x}{3}}\\right]_{x=6}=3 e^{-2}, \\\\\n& P\\{6<X \\leq 9\\}=F(9)-F(6)=\\left(1-4 e^{-3}\\right)-\\left(1-3 e^{-2}\\right)=3 e^{-2}-4 e^{-3}, \\\\\n& P\\{X \\geq 3\\}=1-P\\{X<3\\}=2 e^{-1}.\n\\end{aligned}$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340212
+                    },
+                    "question_json": "neu-mathe/6a3d9e796fe04624aca2e4ec6dd9d14d",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88166,
+                            "question_id": 19286,
+                            "is_answer": true,
+                            "choice": "$P\\{6<X \\leq 9\\}=3 e^{-2}-4 e^{-3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88167,
+                            "question_id": 19286,
+                            "is_answer": false,
+                            "choice": "$P\\{X \\geq 3\\}=3 e^{-2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88168,
+                            "question_id": 19286,
+                            "is_answer": false,
+                            "choice": "$P\\{6<X \\leq 9\\}=2 e^{-1}-3 e^{-2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88169,
+                            "question_id": 19286,
+                            "is_answer": false,
+                            "choice": "$P\\{X \\geq 6\\}=4 e^{-3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.63,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 106184,
+                    "ai_tags": "概率密度函数,分布函数,概率计算"
+                },
+                {
+                    "id": 19287,
+                    "subject_id": 3,
+                    "chapter_id": 301,
+                    "question_id": "20761887-8ce6-483b-8698-670b61be9156",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X$ 的概率密度为 $f(x)=\\frac{1}{\\pi\\left(1+x^2\\right)}$, 则 $P(|X| \\leq 1)=()$.",
+                    "analysis": "由连续随机变量的概率计算 $P\\{a<X \\leq b\\}=\\int_a^b f(x) d x$ 得\n$$\nP\\{|X| \\leq 1\\}=\\int_{-1}^1 \\frac{1}{\\pi\\left(1+x^2\\right)} d x=\\left.\\frac{1}{\\pi} \\arctan x\\right|_{-1} ^1=\\frac{1}{2}=0.5 .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340222
+                    },
+                    "question_json": "neu-mathe/d66da27480b041849ae6f195e79eeed0",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88173,
+                            "question_id": 19287,
+                            "is_answer": true,
+                            "choice": "$0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88174,
+                            "question_id": 19287,
+                            "is_answer": false,
+                            "choice": "$0.45$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88175,
+                            "question_id": 19287,
+                            "is_answer": false,
+                            "choice": "$0.75$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88176,
+                            "question_id": 19287,
+                            "is_answer": false,
+                            "choice": "$0.80$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.85,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 65308,
+                    "ai_tags": "连续型随机变量,概率密度,定积分"
+                },
+                {
+                    "id": 19288,
+                    "subject_id": 3,
+                    "chapter_id": 301,
+                    "question_id": "1dd521f8-8706-44ec-93a2-a96f2e24772c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设电子管使用寿命的密度函数 $\\varphi(x)=\\left\\{\\begin{array}{cc}100 / x^2, & x>100 \\\\ 0, & x \\leq 100\\end{array}\\right.$ ，(单位: 小时)则在 150 小时内独立使用的三只管子中恰有一个损坏的概率为 ( ).",
+                    "analysis": "设电子管使用寿命随机变量分别记为 $X$, 则\n$$ p=P\\{X \\leq 150\\}=\\int_{100}^{150} \\frac{100}{x^2} d x=\\frac{1}{3} . $$\n\n设在 150 小时内独立使用的 3 只管子中有 $Y$ 个损坏, 则 $Y \\sim B(3, p)$. 所以在 150 小时内独立使用的 3 只管子中恰有一个损坏的概率为\n$$ P\\{Y=1\\}=C_3^1 p^1(1-p)^2=\\frac{4}{9} . $$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340225
+                    },
+                    "question_json": "neu-mathe/223b83adce934da8b6cea62b976a71a2",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88180,
+                            "question_id": 19288,
+                            "is_answer": true,
+                            "choice": "$\\frac{4}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88181,
+                            "question_id": 19288,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88182,
+                            "question_id": 19288,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88183,
+                            "question_id": 19288,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 28757,
+                    "ai_tags": "概率密度函数,伯努利概型,定积分"
+                },
+                {
+                    "id": 19289,
+                    "subject_id": 3,
+                    "chapter_id": 301,
+                    "question_id": "6a855160-ebe5-4a25-a241-b3efa1af7d81",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "连续型随机变量 $X$ 的概率密度为 $f(x)=\\left\\{\\begin{array}{cc}A \\cos x, & |x|<\\frac{\\pi}{2} \\\\ 0, & |x| \\geq \\frac{\\pi}{2}\\end{array}\\right.$, 则 $P\\left\\{0<X<\\frac{\\pi}{4}\\right\\}=()$.",
+                    "analysis": "概率密度的性质 $\\int_{-\\infty}^{+\\infty} f(x) d x=1$ 得\n$$\n\\begin{gathered}\n\\int_{-\\pi / 2}^{\\pi / 2} A \\cos x d x = 1 \\Rightarrow \\left. A \\sin x \\right|_{-\\pi / 2}^{\\pi / 2} = 1 \\Rightarrow A=\\frac{1}{2} . \\\\\nP\\left\\{0<X<\\frac{\\pi}{4}\\right\\} = P\\left\\{0<X \\leq \\frac{\\pi}{4}\\right\\} = \\int_0^{\\pi / 4} \\frac{1}{2} \\cos x d x = \\frac{\\sqrt{2}}{4} .\n\\end{gathered}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340225
+                    },
+                    "question_json": "neu-mathe/72c161edcad5499ba56483c5b9bbf40a",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88187,
+                            "question_id": 19289,
+                            "is_answer": true,
+                            "choice": "$\\frac{\\sqrt{2}}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88188,
+                            "question_id": 19289,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88189,
+                            "question_id": 19289,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\sqrt{2}}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88190,
+                            "question_id": 19289,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.78,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 27679,
+                    "ai_tags": "连续型随机变量,概率密度"
+                },
+                {
+                    "id": 19290,
+                    "subject_id": 3,
+                    "chapter_id": 301,
+                    "question_id": "7b84ad01-33ba-49c2-890d-9a23d089361e",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $\\xi$ 是连续型随机变量, 则 $P\\{\\xi=3\\}=($ ).",
+                    "analysis": "连续随机变量 $X$ 在定点值 $a$ 的概率为 $P\\{X=a\\}=0$. \n因为随机变量 $X$ 是连续的，所以其分布函数 $F(x)$ 也连续，\n即 $P\\{X=a\\}=\\lim _{\\Delta x \\rightarrow 0^{+}} P\\{a-\\Delta x<X \\leq a\\}=\\lim _{\\Delta x \\rightarrow 0^{+}}[F(a)-F(a-\\Delta x)]=F(a)-F(a)=0$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340228
+                    },
+                    "question_json": "neu-mathe/f78a0f79f79f493f87aa1b8e0f77c833",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88194,
+                            "question_id": 19290,
+                            "is_answer": true,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88195,
+                            "question_id": 19290,
+                            "is_answer": false,
+                            "choice": "$F(a)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88196,
+                            "question_id": 19290,
+                            "is_answer": false,
+                            "choice": "$1-F(a)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88197,
+                            "question_id": 19290,
+                            "is_answer": false,
+                            "choice": "$2 F(a)-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.96,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 6861,
+                    "ai_tags": "连续型随机变量,概率,分布函数"
+                },
+                {
+                    "id": 19297,
+                    "subject_id": 3,
+                    "chapter_id": 301,
+                    "question_id": "d9b3b6e1-b9a1-477c-b098-134ac96d2434",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知 $X \\sim f(x)=\\begin{cases} 12 x^2-12 x+3, & 0<x<1 \\\\ 0, & \\text{其它} \\end{cases}$, 计算 $P\\{X \\leq 0.2 \\mid 0.1<X \\leq 0.5\\} \\approx (\\quad)$.",
+                    "analysis": "根据条件概率，有\n$$\n\\begin{aligned}\nP\\{X \\leq 0.2 \\mid 0.1<X \\leq 0.5\\} & =\\frac{P\\{X \\leq 0.2,0.1<X \\leq 0.5\\}}{P\\{0.1<X \\leq 0.5\\}} \\\\\n& =\\frac{P\\{0.1<X \\leq 0.2\\}}{P\\{0.1<X \\leq 0.5\\}}=\\frac{\\int_{0.1}^{0.2}\\left(12 x^2-12 x+3\\right) d x}{\\int_{0.1}^{0.5}\\left(12 x^2-12 x+3\\right) d x} \\\\\n& =\\frac{\\left.\\left(4 x^3-6 x^2+3 x\\right)\\right|_{0.1} ^{0.2}}{\\left.\\left(4 x^3-6 x^2+3 x\\right)\\right|_{0.1} ^{0.5}}=\\frac{0.148}{0.256}=0.578125 \\approx 0.578 .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340247
+                    },
+                    "question_json": "neu-mathe/3988558e31d74c529e317e061e6dbd19",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88243,
+                            "question_id": 19297,
+                            "is_answer": true,
+                            "choice": "$0.578$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88244,
+                            "question_id": 19297,
+                            "is_answer": false,
+                            "choice": "$0.323$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88245,
+                            "question_id": 19297,
+                            "is_answer": false,
+                            "choice": "$0.732$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88246,
+                            "question_id": 19297,
+                            "is_answer": false,
+                            "choice": "$0.359$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.77,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 210418,
+                    "tags": "",
+                    "ai_tags": "条件概率,概率密度函数,定积分"
+                },
+                {
+                    "id": 19305,
+                    "subject_id": 3,
+                    "chapter_id": 301,
+                    "question_id": "318ed3b4-3df8-464e-be6b-edb6931fdd62",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "连续随机变量 $X$ 的概率密度为 $f(x)=\\left\\{\\begin{array}{cc}\\frac{2(1+x)}{27}, & 2 \\leq x \\leq 7 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$, 则 $P\\{X<4\\}, P\\{3<X<4\\}$ 的值为 ( ).",
+                    "analysis": "由连续随机变量的概率求解式子 $P\\{a<X \\leq b\\}=\\int_a^b f(x) d x$ 得\n$$\n\\begin{aligned}\n& P\\{X<4\\}=P\\{X \\leq 4\\}=\\int_{-\\infty}^4 f(x) d x=\\int_{-\\infty}^2 0 d x+\\int_2^4 \\frac{2}{27}(1+x) d x=\\left.\\frac{2}{27}\\left(x+\\frac{1}{2} x^2\\right)\\right|_2 ^4=\\frac{16}{27}, \\\\\n& P\\{3<X<4\\}=P\\{3<X \\leq 4\\}=\\int_3^4 f(x) d x=\\left.\\frac{2}{27}\\left(x+\\frac{1}{2} x^2\\right)\\right|_3 ^4=\\frac{1}{3} .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340260
+                    },
+                    "question_json": "neu-mathe/fba25476aad54506a53f524cb1fd8f29",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88299,
+                            "question_id": 19305,
+                            "is_answer": true,
+                            "choice": "$\\frac{16}{27}, \\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88300,
+                            "question_id": 19305,
+                            "is_answer": false,
+                            "choice": "$\\frac{11}{27}, \\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88301,
+                            "question_id": 19305,
+                            "is_answer": false,
+                            "choice": "$\\frac{11}{27}, \\frac{2}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 88302,
+                            "question_id": 19305,
+                            "is_answer": false,
+                            "choice": "$\\frac{16}{27}, \\frac{2}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.76,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 101692,
+                    "ai_tags": "概率密度函数,连续型随机变量,定积分"
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,1113 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 13,
+            "questions": [
+                {
+                    "id": 14262,
+                    "subject_id": 3,
+                    "chapter_id": 308,
+                    "question_id": "088a6322-4650-4519-916b-f31319ef245b",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 的分布函数为 $F(x)=\\left\\{\\begin{array}{cc}0, & x \\leq 0 \\\\ x^2, & 0<x \\leq 1 \\\\ 1, & 1<x\\end{array}\\right.$, 则概率 $P\\{0.3<X<0.7\\}=($ ).",
+                    "analysis": "由连续型随机变量分布函数的性质, 有\n$$\nP\\{0.3<X<0.7\\}=F(0.7)-F(0.3)=0.7^2-0.3^2=0.4 .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/fe095dbb83f6437ab877bd9721ef3e3f",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 57047,
+                            "question_id": 14262,
+                            "is_answer": false,
+                            "choice": "$0.7$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57048,
+                            "question_id": 14262,
+                            "is_answer": false,
+                            "choice": "$0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57045,
+                            "question_id": 14262,
+                            "is_answer": false,
+                            "choice": "$0.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57046,
+                            "question_id": 14262,
+                            "is_answer": true,
+                            "choice": "$0.4$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 91692,
+                    "ai_tags": "概率论,分布函数,连续型随机变量"
+                },
+                {
+                    "id": 14263,
+                    "subject_id": 3,
+                    "chapter_id": 308,
+                    "question_id": "ba196175-b237-4018-b9d7-e2d9982a095d",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设随机变量 $\\xi$ 的分布函数为 $F(x)=\\frac{1}{2}+\\frac{1}{\\pi} \\operatorname{arctg} x(-\\infty<x<+\\infty)$, 则 $P\\{0<\\xi<1\\}=()$.",
+                    "analysis": "先求 $P\\{\\xi=1\\}=F(1)-\\lim _{x \\rightarrow 1^{-}} F(x)=\\left(\\frac{1}{2}+\\frac{1}{4}\\right)-\\left(\\frac{1}{2}+\\frac{1}{4}\\right)=0$,故 $P\\{0<\\xi<1\\}=P\\{0<\\xi \\leq 1\\}$.\n又分布函数的概率计算 $P\\{a<X \\leq b\\}=F(b)-F(a)$, 可得\n$$\nP\\{0<\\xi<1\\}=P\\{0<\\xi \\leq 1\\}=F(1)-F(0)=\\left(\\frac{1}{2}+\\frac{1}{4}\\right)-\\left(\\frac{1}{2}+0\\right)=\\frac{1}{4}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/7667fd91d88a46358f586214cfa2318a",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 57052,
+                            "question_id": 14263,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57051,
+                            "question_id": 14263,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57050,
+                            "question_id": 14263,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57049,
+                            "question_id": 14263,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 16169,
+                    "ai_tags": "概率论,分布函数,概率计算"
+                },
+                {
+                    "id": 14264,
+                    "subject_id": 3,
+                    "chapter_id": 308,
+                    "question_id": "78b3ed52-0dcb-4d6a-88f1-1c033acea22c",
+                    "difficulty": "Easy",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 的分布函数为 $F(x)=\\left\\{\\begin{array}{cc}0, & x<0 \\\\ \\frac{1}{2}, & 0 \\leq x<1 \\\\ 1-e^{-x}, & x \\geq 1\\end{array}\\right.$, 则 $P\\{X=1\\}=($ ).",
+                    "analysis": "根据随机变量分布函数的定义知道\n$$\nP\\{X=1\\}=P\\{X \\leq 1\\}-P\\{X<1\\}=F(1)-F(1-0)=1-e^{-1}-\\frac{1}{2}=\\frac{1}{2}-e^{-1} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/96cc17ea5db34ada949b9be12493f848",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 57053,
+                            "question_id": 14264,
+                            "is_answer": false,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57055,
+                            "question_id": 14264,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57054,
+                            "question_id": 14264,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{2}-e^{-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57056,
+                            "question_id": 14264,
+                            "is_answer": false,
+                            "choice": "$1-e^{-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.21,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 23910,
+                    "ai_tags": "概率论,随机变量,分布函数"
+                },
+                {
+                    "id": 14267,
+                    "subject_id": 3,
+                    "chapter_id": 308,
+                    "question_id": "414c6034-d578-41f3-8083-e64b4bbec67f",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "若 $P\\{c<\\xi \\leq b\\}=0.1, P\\{c<\\xi \\leq d\\}=0.3, P\\{a<\\xi \\leq b\\}=0.4$, 则 $P\\{a<\\xi \\leq d\\}=()$.",
+                    "analysis": "由分布函数的概率计算式 $P\\{\\alpha<X \\leq \\beta\\}=F(\\beta)-F(\\alpha)$ 有\n$$\n\\begin{aligned}\n& P\\{c<\\xi \\leq b\\}=F(b)-F(c)=0.1, \\\\\n& P\\{c<\\xi \\leq d\\}=F(d)-F(c)=0.3, \\\\\n& P\\{a<\\xi \\leq b\\}=F(b)-F(a)=0.4,\n\\end{aligned}\n$$\n\n则\n$$\n\\begin{aligned}\n& P\\{a<\\xi \\leq d\\}=F(d)-F(a) \\\\\n& =[F(d)-F(c)]+[F(c)-F(b)]+[F(b)-F(a)] \\\\\n& =0.3-0.1+0.4=0.6\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/458cabcb02b3445eb4f38fbad9b5b857",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 57068,
+                            "question_id": 14267,
+                            "is_answer": true,
+                            "choice": "$0.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57067,
+                            "question_id": 14267,
+                            "is_answer": false,
+                            "choice": "$0.4$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57066,
+                            "question_id": 14267,
+                            "is_answer": false,
+                            "choice": "$0.8$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57065,
+                            "question_id": 14267,
+                            "is_answer": false,
+                            "choice": "$0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.93,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 55884,
+                    "ai_tags": "概率论,分布函数,随机变量"
+                },
+                {
+                    "id": 14269,
+                    "subject_id": 3,
+                    "chapter_id": 308,
+                    "question_id": "e4392ad4-0d1f-4478-b470-d465f7fac3c1",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $\\xi$ 的分布函数为 $F(x)=\\left\\{\\begin{array}{ll}1-\\frac{k^2 x^2+2 k x+2}{2} e^{-k x}, & x \\geq 0 \\\\ 0, & x<0\\end{array}\\right.$, 则 $P\\left\\{-\\frac{1}{k} \\leq \\xi \\leq \\frac{1}{k}\\right\\}=()$.",
+                    "analysis": "由分布函数的性质 $F(+\\infty)=1$ 得\n$$\n\\begin{gathered}\n\\lim _{x \\rightarrow+\\infty}\\left(1-\\frac{k^2 x^2+2 k x+2}{2} e^{-k x}\\right)=1 \\Rightarrow k>0 . \\\\\n\\text { 故 } P\\left\\{-\\frac{1}{k} \\leq \\xi \\leq \\frac{1}{k}\\right\\}=F\\left(\\frac{1}{k}\\right)-F\\left(-\\frac{1}{k}\\right)=F\\left(\\frac{1}{k}\\right)-0=F\\left(\\frac{1}{k}\\right)=1-\\frac{5}{2} e^{-1} .\n\\end{gathered}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/b0bd1a2f535540c9bc0cebf3f2fcc112",
+                    "updated_at": {
+                        "seconds": 1775673111
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 57075,
+                            "question_id": 14269,
+                            "is_answer": true,
+                            "choice": "$1-\\frac{5}{2 e}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57074,
+                            "question_id": 14269,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{5 e}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57076,
+                            "question_id": 14269,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{2 e}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57073,
+                            "question_id": 14269,
+                            "is_answer": false,
+                            "choice": "$1-\\frac{2}{5 e}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.79,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 104521,
+                    "tags": "",
+                    "ai_tags": "随机变量,分布函数,概率计算"
+                },
+                {
+                    "id": 14271,
+                    "subject_id": 3,
+                    "chapter_id": 308,
+                    "question_id": "b4c08800-5c9f-4020-ba9a-28f257caae3d",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 的分布函数为 $F(x)=\\left\\{\\begin{array}{ll}1-e^{-2 x}, & x \\geq 0 \\\\ 0, & x<0\\end{array}\\right.$, 则 $P\\{-3<X \\leq 4\\}=()$.",
+                    "analysis": "由于 $P(-3<X \\leq 4)=P(X \\leq 4)-P(X \\leq-3)$, 所以 $P(-3<X \\leq 4)=F(4)-F(-3)=\\left(1-e^{-8}\\right)-0=1-e^{-8}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/56d0f0a1b18441db9cf73ca72ede545c",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 57082,
+                            "question_id": 14271,
+                            "is_answer": true,
+                            "choice": "$1-e^{-8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57083,
+                            "question_id": 14271,
+                            "is_answer": false,
+                            "choice": "$1-e^{-6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57084,
+                            "question_id": 14271,
+                            "is_answer": false,
+                            "choice": "$e^{-8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57081,
+                            "question_id": 14271,
+                            "is_answer": false,
+                            "choice": "$e^{-6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 66987,
+                    "ai_tags": "分布函数,指数分布"
+                },
+                {
+                    "id": 14272,
+                    "subject_id": 3,
+                    "chapter_id": 308,
+                    "question_id": "23b1cdf3-9ac9-4713-b1ce-f809080a7f7e",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设连续随机变量 $X$ 的分布函数 $F(x)=\\left\\{\\begin{array}{cc}0, & x<0 \\\\ A x^2, & 0 \\leq x \\leq 2 \\\\ 1, & x>2\\end{array}\\right.$, 其中 $A$ 为待定常数, 则有 $P\\{1<x<3\\}=()$.",
+                    "analysis": "先确定常数 $A$, 由分布函数 $F(x)$ 的右连续性, 有\n$$\n\\lim _{x \\rightarrow 2^{+}} F(x)=F(2) \\Rightarrow 4 A=1 \\Rightarrow A=\\frac{1}{4} .\n$$\n\n又点 $x=1, x=3$ 都是 $F(x)$ 的连续点, 故\n$$\nP\\{1<x<3\\}=F(3)-F(1)=1-\\frac{1}{4}=\\frac{3}{4} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/8f83d0557cf34e8db85df051072929c1",
+                    "updated_at": {
+                        "seconds": 1775586661
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 57087,
+                            "question_id": 14272,
+                            "is_answer": false,
+                            "choice": "$\\frac{4}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57086,
+                            "question_id": 14272,
+                            "is_answer": true,
+                            "choice": "$\\frac{3}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57088,
+                            "question_id": 14272,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57085,
+                            "question_id": 14272,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 128229,
+                    "ai_tags": "概率论,连续型随机变量,分布函数"
+                },
+                {
+                    "id": 19488,
+                    "subject_id": 3,
+                    "chapter_id": 308,
+                    "question_id": "45351168-c0f5-4389-b872-843ea34a0298",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设随机变量 $\\xi$ 的分布函数为 $F(x)=\\left\\{\\begin{array}{ll}0, & x<0 \\\\ \\frac{x^2}{2}, & 0 \\leq x<1 \\\\ -\\frac{x^2}{2}+2 x-1, & 1 \\leq x<2 \\\\ 1, & x \\geq 2\\end{array}\\right.$, 则 $P\\left\\{\\frac{1}{2}<\\xi<2\\right\\}$ 值为 ( ).",
+                    "analysis": "首先计算 $P\\{\\xi=2\\}=F(2)-\\lim _{x \\rightarrow 2^-} F(x)=1-1=0$, 所以\n$$\nP\\left\\{\\frac{1}{2}<\\xi<2\\right\\}=P\\left\\{\\frac{1}{2}<\\xi \\leq 2\\right\\} .\n$$\n由连续随机变量的概率计算 $P\\{a<X \\leq b\\}=F(b)-F(a)$ 得\n$$\nP\\left\\{\\frac{1}{2}<\\xi<2\\right\\}=P\\left\\{\\frac{1}{2}<\\xi \\leq 2\\right\\}=F(2)-F\\left(\\frac{1}{2}\\right)=\\frac{7}{8} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340700
+                    },
+                    "question_json": "neu-mathe/2f7d54ae2fa1458d92b3d9f3bce29499",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89580,
+                            "question_id": 19488,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89581,
+                            "question_id": 19488,
+                            "is_answer": true,
+                            "choice": "$\\frac{7}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89582,
+                            "question_id": 19488,
+                            "is_answer": false,
+                            "choice": "$\\frac{4}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89583,
+                            "question_id": 19488,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 41948,
+                    "ai_tags": "概率论,分布函数,连续型随机变量"
+                },
+                {
+                    "id": 19491,
+                    "subject_id": 3,
+                    "chapter_id": 308,
+                    "question_id": "814d61ec-dfdd-4038-904a-20f77828ac2b",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设连续型随机变量 $X$ 的分布函数为 $F(x)=\\left\\{\\begin{array}{c}A+B e^{-2 x}, x>0 \\\\ 0, \\quad x \\leq 0\\end{array}\\right.$, 则 $A, B$ 的值以及 $P\\{-1<X<1\\}$ 分别为 ( ).",
+                    "analysis": "(1) $\\because F(+\\infty)=\\lim _{x \\rightarrow+\\infty}\\left(A+B e^{-2 x}\\right)=1, \\quad \\therefore A=1$;\n\n又 $\\because \\lim _{x \\rightarrow 0^{+}}\\left(A+B e^{-2 x}\\right)=F(0)=0, \\quad \\therefore B=-1$.\n(2) $P\\{-1<X<1\\}=F(1)-F(-1)=1-e^{-2}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340707
+                    },
+                    "question_json": "neu-mathe/6b269352f34e4c33903f6fdc93fe672a",
+                    "updated_at": {
+                        "seconds": 1775586666
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89601,
+                            "question_id": 19491,
+                            "is_answer": true,
+                            "choice": "$A=1, B=-1,1-e^{-2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89602,
+                            "question_id": 19491,
+                            "is_answer": false,
+                            "choice": "$A=-1, B=-1,1-e^{-2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89603,
+                            "question_id": 19491,
+                            "is_answer": false,
+                            "choice": "$A=1, B=1,1-e^{-2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89604,
+                            "question_id": 19491,
+                            "is_answer": false,
+                            "choice": "$A=-1, B=1,1-e^{-2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 54553,
+                    "ai_tags": "概率论,随机变量,分布函数"
+                },
+                {
+                    "id": 19495,
+                    "subject_id": 3,
+                    "chapter_id": 308,
+                    "question_id": "d6963c4d-1e34-443e-92da-5c363c2d426b",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 的分布函数 $F(x)$ 为\n$$ F(x)=\\left\\{\\begin{array}{ll} 0, & x<0 \\\\ A \\sin x, & 0 \\leq x \\leq \\pi / 2 \\\\ 1, & x>\\pi / 2 \\end{array}\\right. $$\n则 $A=(\\quad)$, $P\\{|X|<\\pi / 6\\}=(\\quad)$.",
+                    "analysis": "由分布函数 $F(x)$ 的右连续性, 有\n$$\nF\\left(\\frac{\\pi}{2}+0\\right)=F\\left(\\frac{\\pi}{2}\\right) \\Rightarrow A=1\n$$\n\n因 $F(x)$ 在 $x=\\frac{\\pi}{6}$ 处连续, 故 $P\\left\\{X=\\frac{\\pi}{6}\\right\\}=0$, 于是有\n$$\n\\begin{aligned}\nP\\left\\{|X|<\\frac{\\pi}{6}\\right\\}= & P\\left\\{-\\frac{\\pi}{6}<X<\\frac{\\pi}{6}\\right\\} \\\\\n& =P\\left\\{-\\frac{\\pi}{6}<X \\leq \\frac{\\pi}{6}\\right\\}=F\\left(\\frac{\\pi}{6}\\right)-F\\left(-\\frac{\\pi}{6}\\right)=\\frac{1}{2}\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340720
+                    },
+                    "question_json": "neu-mathe/5e28ddd1cdf64a97bc76cf607538ac68",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89629,
+                            "question_id": 19495,
+                            "is_answer": true,
+                            "choice": "$1, \\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89630,
+                            "question_id": 19495,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}, 1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89631,
+                            "question_id": 19495,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}, \\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89632,
+                            "question_id": 19495,
+                            "is_answer": false,
+                            "choice": "$1, \\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 57917,
+                    "ai_tags": "分布函数,随机变量,概率计算"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 13,
+            "questions": [
+                {
+                    "id": 19497,
+                    "subject_id": 3,
+                    "chapter_id": 308,
+                    "question_id": "2bb6b1a7-6473-4af7-85aa-dafafc5d450e",
+                    "difficulty": "Easy",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "已知随机变量 $\\xi$ 的分布函数为 $F(x)=\\left\\{\\begin{array}{cc}0, & x<0 \\\\ x^2, & 0 \\leq x<1 \\\\ 1, & x \\geq 1\\end{array}\\right.$, 则 $P\\{0.2<\\xi<0.4\\}=()$.",
+                    "analysis": "分布函数 $F(x)$ 在 $(0,1)$ 内连续, 所以 $P\\{\\xi=0.4\\}=F(0.4)-F(0.4-0)=0$,故 $\\quad P\\{0.2<\\xi<0.4\\}=P\\{0.2<\\xi \\leq 0.4\\}=F(0.4)-F(0.2)=0.12$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340725
+                    },
+                    "question_json": "neu-mathe/e02fd738975f454f8246124bacd9a24c",
+                    "updated_at": {
+                        "seconds": 1775586662
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89643,
+                            "question_id": 19497,
+                            "is_answer": false,
+                            "choice": "$0.21$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89644,
+                            "question_id": 19497,
+                            "is_answer": false,
+                            "choice": "$0.20$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89645,
+                            "question_id": 19497,
+                            "is_answer": true,
+                            "choice": "$0.12$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89646,
+                            "question_id": 19497,
+                            "is_answer": false,
+                            "choice": "$0.14$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 42444,
+                    "ai_tags": "分布函数,概率计算"
+                },
+                {
+                    "id": 19500,
+                    "subject_id": 3,
+                    "chapter_id": 308,
+                    "question_id": "f7485750-f722-4e41-8362-2a72bedb332c",
+                    "difficulty": "Easy",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "设随机变量 $\\xi$ 的分布函数 $F(x)=\\left\\{\\begin{array}{cc}0, & x<0 \\\\ \\frac{x^2}{25}, & 0 \\leq x<5 \\\\ 1, & x \\geq 5\\end{array}\\right.$, 则 $P\\{3 \\leq \\xi<6\\}=()$.",
+                    "analysis": "首先计算 $P\\{\\xi=3\\}, P\\{\\xi=6\\}$, $P\\{\\xi=3\\}=F(3)-\\lim _{x \\rightarrow 3^{-}} F(x)=\\frac{9}{25}-\\frac{9}{25}=0$, 同理 $P\\{\\xi=6\\}=0$, 所以 $P\\{3 \\leq \\xi<6\\}=P\\{3<\\xi \\leq 6\\}=F(6)-F(3)=\\frac{16}{25}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340731
+                    },
+                    "question_json": "neu-mathe/5d0d2dd005214b77a48fb8999c784ec6",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89664,
+                            "question_id": 19500,
+                            "is_answer": false,
+                            "choice": "$\\frac{9}{25}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89665,
+                            "question_id": 19500,
+                            "is_answer": false,
+                            "choice": "$\\frac{9}{16}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89666,
+                            "question_id": 19500,
+                            "is_answer": true,
+                            "choice": "$\\frac{16}{25}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89667,
+                            "question_id": 19500,
+                            "is_answer": false,
+                            "choice": "$\\frac{6}{16}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 24303,
+                    "ai_tags": "概率论,随机变量,分布函数"
+                },
+                {
+                    "id": 19506,
+                    "subject_id": 3,
+                    "chapter_id": 308,
+                    "question_id": "67e72dfb-148f-420e-81b7-8be435b620a2",
+                    "difficulty": "Easy",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 的分布函数为 $F(x)=A+B \\arctan x(-\\infty<x<+\\infty)$, 则系数 $A$ 与 $B$ 以及 $X$ 落在 $(-1,1]$ 内的概率分别为 ( ).",
+                    "analysis": "(1) 由于 $F(-\\infty)=0, F(+\\infty)=1$，可知\n$$\n\\begin{cases}\nA+B\\left(-\\frac{\\pi}{2}\\right) = 0 \\\\\nA+B\\left(\\frac{\\pi}{2}\\right) = 1\n\\end{cases}\n\\Rightarrow A=\\frac{1}{2}, B=\\frac{1}{\\pi}\n$$\n于是\n$$\nF(x)=\\frac{1}{2}+\\frac{1}{\\pi} \\arctan x, \\quad -\\infty<x<+\\infty\n$$\n(2)\n$$\n\\begin{aligned}\nP\\{-1<X \\leq 1\\} & =F(1)-F(-1) \\\\\n& =\\left(\\frac{1}{2}+\\frac{1}{\\pi} \\arctan 1\\right)-\\left[\\frac{1}{2}+\\frac{1}{\\pi} \\arctan(-1)\\right] \\\\\n& =\\frac{1}{2}+\\frac{1}{\\pi} \\cdot \\frac{\\pi}{4}-\\frac{1}{2}-\\frac{1}{\\pi}\\left(-\\frac{\\pi}{4}\\right)=\\frac{1}{2}\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340740
+                    },
+                    "question_json": "neu-mathe/73b161349c784af9b0a3a8112d972392",
+                    "updated_at": {
+                        "seconds": 1775673111
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89706,
+                            "question_id": 19506,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}, \\frac{1}{\\pi} ; \\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89707,
+                            "question_id": 19506,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}, \\frac{1}{\\pi} ; \\frac{1}{\\pi}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89708,
+                            "question_id": 19506,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{2}, \\frac{1}{\\pi} ; \\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89709,
+                            "question_id": 19506,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}, \\frac{1}{\\pi} ; \\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 54613,
+                    "ai_tags": "分布函数,概率计算"
+                }
+            ]
+        }
+    }
+]

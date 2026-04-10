@@ -1,0 +1,2382 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 28,
+            "questions": [
+                {
+                    "id": 14215,
+                    "subject_id": 3,
+                    "chapter_id": 400,
+                    "question_id": "b34c5ef4-1cc4-4209-b64b-90829079e3ad",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "样本 $X_1, X_2, \\cdots, X_n(n>3)$ 取自总体 $X$, 则 ( ) 不是总体期望 $\\mu$ 的无偏估计量.",
+                    "analysis": "无偏估计要满足条件 $E(\\hat{\\theta})=\\theta$, 但 $E\\left(X_1+X_2+\\cdots+X_{n-1}-X_n\\right)=(n-2) \\mu \\neq \\mu$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/533ade28db8140528f1de694f4797c89",
+                    "updated_at": {
+                        "seconds": 1767637886
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56857,
+                            "question_id": 14215,
+                            "is_answer": false,
+                            "choice": "$0.1 *\\left(6 X_1+4 X_n\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56860,
+                            "question_id": 14215,
+                            "is_answer": true,
+                            "choice": "$X_1+X_2+\\cdots+X_{n-1}-X_n$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56859,
+                            "question_id": 14215,
+                            "is_answer": false,
+                            "choice": "$\\bar{X}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56858,
+                            "question_id": 14215,
+                            "is_answer": false,
+                            "choice": "$X_1+X_2-X_3$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.73,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 8030,
+                    "ai_tags": "无偏估计,数学期望,统计量"
+                },
+                {
+                    "id": 14216,
+                    "subject_id": 3,
+                    "chapter_id": 400,
+                    "question_id": "a2009650-5740-4004-a609-0dbba7762cad",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "样本 $X_1, X_2, \\cdots, X_n(n>2)$ 来自总体 $\\xi, E(\\xi)=\\mu, D(\\xi)=\\sigma^2$, 其中 $\\mu$ 已知且 $\\mu \\neq 0$, 则下列结论正确的是 ( ).",
+                    "analysis": "由无偏估计的定义, 无偏估计必须满足条件: $E(\\widehat{\\theta})=\\theta$.\n对于来自总体的样本 $X_1, X_2, \\cdots, X_n(n>2)$, 有\n$$\nE\\left(X_i^2\\right)=D(\\xi)+E^2(\\xi)=\\sigma^2+\\mu^2 \\neq \\sigma^2, \\quad i=1,2, \\cdots, n\n$$\n\n即 $X_i^2(1 \\leq i \\leq n)$ 都不是 $\\sigma^2$ 的无偏估计。\n$E\\left(\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\mu\\right)^2\\right)=\\frac{1}{n-1} \\times n \\sigma^2 \\neq \\sigma^2$, 故 $\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\mu\\right)^2$ 不是 $\\sigma^2$ 的无偏估计.\n$E\\left\\{\\frac{1}{2}\\left[\\left(X_1-\\mu\\right)^2+\\left(X_2-\\mu\\right)^2\\right]\\right\\}=\\frac{1}{2}[D(\\xi)+D(\\xi)]=\\sigma^2$, 故 $\\frac{1}{2}\\left[\\left(X_1-\\mu\\right)^2+\\left(X_2-\\mu\\right)^2\\right]$ 是 $\\sigma^2$ 的无偏估计.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/d8e9d58adb534336b1462b40ae123eaf",
+                    "updated_at": {
+                        "seconds": 1767637890
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56861,
+                            "question_id": 14216,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{2}\\left[\\left(X_1-\\mu\\right)^2+\\left(X_2-\\mu\\right)^2\\right]$ 是 $\\sigma^2$ 的无偏估计",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56864,
+                            "question_id": 14216,
+                            "is_answer": false,
+                            "choice": "$X_i^2(1 \\leq i \\leq n)$ 是 $\\sigma^2$ 的无偏估计",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56863,
+                            "question_id": 14216,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}\\left[\\left(X_1-\\mu\\right)^2+\\left(X_2-\\mu\\right)^2\\right]$ 不是 $\\sigma^2$ 的无偏估计",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56862,
+                            "question_id": 14216,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\mu\\right)^2$ 是 $\\sigma^2$ 的无偏估计",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.55,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 15702,
+                    "ai_tags": "无偏估计,数学期望,统计量"
+                },
+                {
+                    "id": 14218,
+                    "subject_id": 3,
+                    "chapter_id": 400,
+                    "question_id": "0bf4c0d9-30db-4a05-80ff-54dd76819355",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "样本 $X_1, X_2, \\cdots, X_n$ 取自总体 $\\xi, E(\\xi)=\\mu, D(\\xi)=\\sigma^2$, 则以下结论不成立的是 ().",
+                    "analysis": "无偏估计要满足一个条件: $E(\\hat{\\theta})=\\theta$, 而 $E\\left(\\frac{1}{n-1} \\sum_{i=1}^n X_i\\right)=\\frac{n}{n-1} \\mu \\neq \\mu$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/50f357c5d683401b95f7d9b64db98282",
+                    "updated_at": {
+                        "seconds": 1767637889
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56869,
+                            "question_id": 14218,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{n-1} \\sum_{i=1}^n X_i$ 是 $\\mu$ 的无偏估计",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56871,
+                            "question_id": 14218,
+                            "is_answer": false,
+                            "choice": "$X_i(1 \\leq i \\leq n)$ 均是 $\\mu$ 的无偏估计",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56872,
+                            "question_id": 14218,
+                            "is_answer": false,
+                            "choice": "$\\bar{X}=\\frac{1}{n} \\sum_{i=1}^n X_i$ 是 $\\mu$ 的无偏估计",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56870,
+                            "question_id": 14218,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}\\left(X_1+X_2\\right)$ 是 $\\mu$ 的无偏估计",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.91,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 8474,
+                    "ai_tags": "无偏估计,数学期望,统计量"
+                },
+                {
+                    "id": 14219,
+                    "subject_id": 3,
+                    "chapter_id": 400,
+                    "question_id": "b0650e5f-fe5e-4b76-b776-53e4e705fab7",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $\\hat{\\theta}$ 是参数 $\\theta$ 的无偏估计, 且 $D(\\widehat{\\theta})>0$, 下列说法正确的是 ( ).",
+                    "analysis": "因为 $E(\\hat{\\theta})=\\theta \\neq \\theta^2$, 所以 $\\hat{\\theta}$ 不是 $\\theta^2$ 的无偏估计.又 $D(\\hat{\\theta})=E\\left(\\hat{\\theta}^2\\right)-[E(\\hat{\\theta})]^2$, 且 $D(\\hat{\\theta})>0$, 所以 $E\\left(\\hat{\\theta}^2\\right)=D(\\hat{\\theta})+[E(\\hat{\\theta})]^2=\\theta^2+D(\\hat{\\theta})>\\theta^2$,故 $\\widehat{\\theta}^2$ 不是 $\\theta^2$ 的无偏估计.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/7091cdfa1f9b40fba79acdf026d28a38",
+                    "updated_at": {
+                        "seconds": 1767637891
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56875,
+                            "question_id": 14219,
+                            "is_answer": true,
+                            "choice": "$\\hat{\\theta}^2$ 不是 $\\theta^2$ 的无偏估计",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56874,
+                            "question_id": 14219,
+                            "is_answer": false,
+                            "choice": "$\\hat{\\theta}$ 是 $\\theta^2$ 的无偏估计",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56873,
+                            "question_id": 14219,
+                            "is_answer": false,
+                            "choice": "$\\hat{\\theta}^2$ 是 $\\theta^2$ 的无偏估计",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56876,
+                            "question_id": 14219,
+                            "is_answer": false,
+                            "choice": "$\\hat{\\theta}^2$ 是 $\\theta$ 的无偏估计",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.64,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 8680,
+                    "ai_tags": "参数估计,无偏估计"
+                },
+                {
+                    "id": 14221,
+                    "subject_id": 3,
+                    "chapter_id": 400,
+                    "question_id": "413ec3cd-fca6-418f-a5e0-91798f2b093e",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "设 $X_1, \\cdots, X_n$ 是取自总体 $X$ 的样本, $\\bar{X}, S^2$ 分别为样本均值与样本方差, 假定 $E(X)=\\mu, D(X)=\\sigma^2$ 均存在,则 $E(\\bar{X})=(), E\\left(S^2\\right)=()$.",
+                    "analysis": "$E(\\bar{X})=E(X)=\\mu, E\\left(S^2\\right)=D(X)=\\sigma^2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/6cbf3c44f3db425daef17ecb4d96fd78",
+                    "updated_at": {
+                        "seconds": 1767637885
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56882,
+                            "question_id": 14221,
+                            "is_answer": false,
+                            "choice": "$\\mu, n \\sigma^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56881,
+                            "question_id": 14221,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n} \\mu, \\sigma^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56883,
+                            "question_id": 14221,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n} \\mu, \\frac{1}{n} \\sigma^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56884,
+                            "question_id": 14221,
+                            "is_answer": true,
+                            "choice": "$\\mu, \\sigma^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.65,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 22272,
+                    "ai_tags": "样本均值,样本方差,数学期望"
+                },
+                {
+                    "id": 14226,
+                    "subject_id": 3,
+                    "chapter_id": 400,
+                    "question_id": "dd084f18-c205-4551-9be7-8a3af4b12883",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, \\cdots, X_n$ 为来自参数为 $n, p$ 的二项分布总体, 则 $p^2$ 的无偏估计量为 ().",
+                    "analysis": "因为总体 $X \\sim b(n, p)$, 所以 $E(X)=n p, E\\left(X^2\\right)=D(X)+[E(X)]^2=n p(1-p)+n^2 p^2=n p-n p^2+n^2 p^2$.而 $E\\left(\\sum_{i=1}^n X_i^2\\right)=n E\\left(X^2\\right)=n^2 p-n^2 p^2+n^3 p^2, E\\left(\\sum_{i=1}^n X_i\\right)=n E(X)=n^2 p$, 所以 $E\\left[\\sum_{i=1}^n\\left(X_i^2-X_i\\right)\\right]=(n-1) n^2 p^2$.故 $\\frac{1}{n^2(n-1)} \\sum_{i=1}^n\\left(X_i^2-X_i\\right)$ 是 $p^2$ 的无偏估计量.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/0840902f9bc64ad7b47b9aa4f100458c",
+                    "updated_at": {
+                        "seconds": 1767637893
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56902,
+                            "question_id": 14226,
+                            "is_answer": true,
+                            "choice": "$\\hat{p}^2=\\frac{1}{n^2(n-1)} \\sum_{i=1}^n\\left(X_i^2-X_i\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56904,
+                            "question_id": 14226,
+                            "is_answer": false,
+                            "choice": "$\\hat{p}^2=\\frac{1}{n^2(n+1)} \\sum_{i=1}^n\\left(X_i^2-X_i\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56901,
+                            "question_id": 14226,
+                            "is_answer": false,
+                            "choice": "$\\hat{p}^2=\\frac{1}{n^2} \\sum_{i=1}^n\\left(X_i^2-X_i\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56903,
+                            "question_id": 14226,
+                            "is_answer": false,
+                            "choice": "$\\hat{p}^2=\\frac{1}{(n-1)} \\sum_{i=1}^n\\left(X_i^2-X_i\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.58,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 25443,
+                    "ai_tags": "二项分布,无偏估计,点估计"
+                },
+                {
+                    "id": 14227,
+                    "subject_id": 3,
+                    "chapter_id": 400,
+                    "question_id": "59c95e1e-5be1-47d1-b263-f5b7e7d3b7da",
+                    "difficulty": "Medium",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, \\cdots, X_n$ 为来自总体 $B\\left(10, \\frac{3}{100}\\right)$ 的简单随机样本, $S_n^2=\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$ 是样本的二阶中心矩, 试求 $E\\left(S_n^2\\right)$ 为 ( ).",
+                    "analysis": "由 $X \\sim B\\left(10, \\frac{3}{100}\\right)$, 有\n$$\nE(X)=10 \\times \\frac{3}{100}=\\frac{3}{10}, D(X)=10 \\times \\frac{3}{100} \\times \\frac{97}{100}=\\frac{291}{1000}\n$$\n\n所以\n$$\nE\\left(S_n^2\\right)=\\frac{n-1}{n} D(X)=\\frac{291(n-1)}{1000 n}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/bd12bc260e4b436aa7a8220e410d5a56",
+                    "updated_at": {
+                        "seconds": 1767637892
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56908,
+                            "question_id": 14227,
+                            "is_answer": false,
+                            "choice": "$\\frac{29(n-1)}{1000 n}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56907,
+                            "question_id": 14227,
+                            "is_answer": false,
+                            "choice": "$\\frac{291}{1000 n}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56905,
+                            "question_id": 14227,
+                            "is_answer": false,
+                            "choice": "$\\frac{291(n+1)}{1000 n}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56906,
+                            "question_id": 14227,
+                            "is_answer": true,
+                            "choice": "$\\frac{291(n-1)}{1000 n}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.73,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 14598,
+                    "ai_tags": "二项分布,样本二阶中心矩,数学期望"
+                },
+                {
+                    "id": 14228,
+                    "subject_id": 3,
+                    "chapter_id": 400,
+                    "question_id": "0d2e6359-33f7-4880-b571-5f70e7486d19",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 服从二项分布 $B(n, p), X_1, X_2, \\cdots, X_n$ 为来自该总体的简单随机样本, $\\bar{X}=\\frac{1}{n} \\sum_{i=1}^n X_i, S_n^2=\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$, 则 $E\\left(S_n^2\\right)=()$.",
+                    "analysis": "$E\\left(S_n^2\\right)=E\\left(\\frac{n-1}{n(n-1)} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2\\right)=E\\left(\\frac{n-1}{n} S^2\\right)=\\frac{n-1}{n} D(X)=\\frac{n-1}{n} n p q=(n-1) p q$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/8f532c47353e4329afb5506505d68951",
+                    "updated_at": {
+                        "seconds": 1767637884
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56909,
+                            "question_id": 14228,
+                            "is_answer": true,
+                            "choice": "$(n-1) p q$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56911,
+                            "question_id": 14228,
+                            "is_answer": false,
+                            "choice": "$\\frac{p q}{n-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56912,
+                            "question_id": 14228,
+                            "is_answer": false,
+                            "choice": "$\\frac{n p q}{n-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56910,
+                            "question_id": 14228,
+                            "is_answer": false,
+                            "choice": "$n p q$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.57,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 12795,
+                    "ai_tags": "二项分布,样本方差,数学期望"
+                },
+                {
+                    "id": 14238,
+                    "subject_id": 3,
+                    "chapter_id": 400,
+                    "question_id": "16a4fd1f-c357-4c92-97f9-49d629523afc",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, \\cdots, X_n$ 是来自总体 $X$ 的样本, $\\bar{X}=\\frac{1}{n} \\sum_{i=1}^n X_i$, 则以下结论错误的是 ().",
+                    "analysis": "关于样本均值 $\\bar{X}$ 有结论: $E(\\bar{X})=E(X), D(\\bar{X})=\\frac{D(X)}{n}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/11d4754a5d1c4456a5fa23a52524cc14",
+                    "updated_at": {
+                        "seconds": 1767637888
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56950,
+                            "question_id": 14238,
+                            "is_answer": true,
+                            "choice": "$D(\\bar{X})=D(X)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56952,
+                            "question_id": 14238,
+                            "is_answer": false,
+                            "choice": "$E(\\bar{X})=E(X)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56949,
+                            "question_id": 14238,
+                            "is_answer": false,
+                            "choice": "$\\bar{X}$ 是 $E(X)$ 的无偏估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 56951,
+                            "question_id": 14238,
+                            "is_answer": false,
+                            "choice": "$D(\\bar{X})=\\frac{D(X)}{n}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.75,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 138994,
+                    "ai_tags": "样本均值,无偏估计,方差"
+                },
+                {
+                    "id": 19449,
+                    "subject_id": 3,
+                    "chapter_id": 400,
+                    "question_id": "f3d3b366-92a6-46cd-8b3c-06193aed6eab",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 的数学期望为 $\\mu, X_1, X_2, \\cdots, X_n$ 是来自 $X$ 的样本， $a_1, a_2, \\cdots, a_n$ 是任意常数，下列说法正确的是（）.",
+                    "analysis": "$E\\left(\\frac{\\sum_{i=1}^n a_i X_i}{\\sum_{i=1}^n a_i}\\right)=\\frac{1}{\\sum_{i=1}^n a_i} \\cdot \\sum_{i=1}^n a_i E\\left(X_i\\right)=\\frac{\\mu}{\\sum_{i=1}^n a_i} \\sum_{i=1}^n a_i=\\mu$, 故 $\\frac{\\sum_{i=1}^n a_i X_i}{\\sum_{i=1}^n a_i}$ 是 $\\mu$ 的无偏估计量.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340625
+                    },
+                    "question_json": "neu-mathe/0917dc35c6c94c1d933dacb9892083b6",
+                    "updated_at": {
+                        "seconds": 1767637888
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89307,
+                            "question_id": 19449,
+                            "is_answer": true,
+                            "choice": "$\\frac{\\sum_{i=1}^n a_i X_i}{\\sum_{i=1}^n a_i}$ 是 $\\mu$ 的无偏估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89308,
+                            "question_id": 19449,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\sum_{i=1}^n X_i}{\\sum_{i=1}^n a_i}$ 是 $\\mu$ 的无偏估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89309,
+                            "question_id": 19449,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\sum_{i=1}^n a_i X_i}{\\sum_{i=1}^n a_i X}$ 是 $\\mu$ 的无偏估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89310,
+                            "question_id": 19449,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\sum_{i=1}^n a_i X_{i-1}}{\\sum_{i=1}^n a_i}$ 是 $\\mu$ 的无偏估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.65,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 18437,
+                    "ai_tags": "数理统计,无偏估计,数学期望"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 28,
+            "questions": [
+                {
+                    "id": 19456,
+                    "subject_id": 3,
+                    "chapter_id": 400,
+                    "question_id": "16caf38a-b054-4c4a-9469-4573ade8010a",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 在 $[0, \\theta]$ 上均匀分布, 从中抽取容量为 1 的样本 $X_1$, 则下述 $\\hat{\\theta}$ 是 $\\theta$ 的无偏估计量的是 () .",
+                    "analysis": "未知参数 $\\theta$ 的无偏估计量 $\\hat{\\theta}$ 要满足条件: $E(\\hat{\\theta})=\\theta$.\n注意, 估计量是统计量中的一种, 故估计量不能包含总体分布的未知参数.\n由均匀分布的数字特征可知, $E(X)=\\frac{\\theta}{2}$, 故 $\\hat{\\theta}=2 X_1$ 是 $\\theta$ 的无偏估计量, $\\hat{\\theta}=X_1+\\frac{\\theta}{2}$ 不是估计量.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340634
+                    },
+                    "question_json": "neu-mathe/8535e367cb1649a3b24d7c70e793ec88",
+                    "updated_at": {
+                        "seconds": 1767637883
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89356,
+                            "question_id": 19456,
+                            "is_answer": true,
+                            "choice": "$\\widehat{\\theta}=2 X_1$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89357,
+                            "question_id": 19456,
+                            "is_answer": false,
+                            "choice": "$\\widehat{\\theta}=X_1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89358,
+                            "question_id": 19456,
+                            "is_answer": false,
+                            "choice": "$\\hat{\\theta}=\\frac{1}{2} X_1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89359,
+                            "question_id": 19456,
+                            "is_answer": false,
+                            "choice": "$\\hat{\\theta}=X_1+\\frac{\\theta}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.52,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 45977,
+                    "ai_tags": "无偏估计,均匀分布,统计量"
+                },
+                {
+                    "id": 19462,
+                    "subject_id": 3,
+                    "chapter_id": 400,
+                    "question_id": "7e451781-dd56-42f9-a300-5ad319ca4d29",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $\\theta_1$ 与 $\\theta_2$ 都是参数 $\\theta$ 的无偏估计量, 则当 () 时, $\\hat{\\theta}=a \\theta_1-b \\theta_2$ 也是参数 $\\theta$ 的无偏估计量.",
+                    "analysis": "$\\hat{\\theta}$ 是参数 $\\theta$ 的无偏估计量, 即 $E(\\hat{\\theta})=\\theta$.\n而 $E(\\hat{\\theta})=(a-b) \\theta$, 所以 $(a-b) \\theta=\\theta$, 故 $a-b=1$.\n考察选项, $a=\\frac{1}{2}, b=-\\frac{1}{2}$ 满足.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340642
+                    },
+                    "question_json": "neu-mathe/0077ae7c328245a09733aa426aa5df96",
+                    "updated_at": {
+                        "seconds": 1767637889
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89398,
+                            "question_id": 19462,
+                            "is_answer": true,
+                            "choice": "$a=\\frac{1}{2}, b=-\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89399,
+                            "question_id": 19462,
+                            "is_answer": false,
+                            "choice": "$a=\\frac{2}{3}, b=\\frac{1}{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89400,
+                            "question_id": 19462,
+                            "is_answer": false,
+                            "choice": "$a=\\frac{3}{2}, b=-\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89401,
+                            "question_id": 19462,
+                            "is_answer": false,
+                            "choice": "$a=\\frac{1}{3}, b=\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.7,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 16934,
+                    "ai_tags": "无偏估计,点估计"
+                },
+                {
+                    "id": 19465,
+                    "subject_id": 3,
+                    "chapter_id": 400,
+                    "question_id": "fe49c71c-f211-4031-81dc-7b98af6ca0b5",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "样本 $X_1, X_2, \\cdots, X_n$ 取自总体 $\\xi, E(\\xi)=\\mu, D(\\xi)=\\sigma^2$, 则可作为 $\\sigma^2$ 的无偏估计量的是 () .",
+                    "analysis": "无偏估计量是统计量的一种, 故无偏估计一定不能包含总体分布的未知参数, 所以排除 $\\mu$ 未知选项.方差的常用无偏估计量有两个:\n1. 若均值未知，则 $\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$ 是方差的无偏估计。\n2. 若均值已知, 则 $\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\mu\\right)^2$ 也是方差的无偏估计.\n\n注意: $\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\mu\\right)^2$ 与样本方差 $\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$ 很相似, 不要弄错.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340649
+                    },
+                    "question_json": "neu-mathe/556923a87de248ec99fbde23bffb6628",
+                    "updated_at": {
+                        "seconds": 1767637892
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89419,
+                            "question_id": 19465,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\mu\\right)^2$ （当 $\\mu$ 已知时）",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89420,
+                            "question_id": 19465,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\mu\\right)^2$ （当 $\\mu$ 已知时）",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89421,
+                            "question_id": 19465,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\mu\\right)^2$ (当 $\\mu$ 未知时)",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89422,
+                            "question_id": 19465,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\mu\\right)^2$ （当 $\\mu$ 未知时）",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.71,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 12071,
+                    "ai_tags": "无偏估计,统计量,样本方差"
+                },
+                {
+                    "id": 19467,
+                    "subject_id": 3,
+                    "chapter_id": 400,
+                    "question_id": "5814ed88-8d86-47f6-8c81-b9d12a044568",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "容量为 $n=1$ 的样本 $X_1$ 来自总体 $X \\sim B(1, p)$, 其中参数 $0<p<1$, 则下述结论正确的是 ( ).",
+                    "analysis": "由 $0-1$ 分布的数字特征知 $E(X)=p, D(X)=p(1-p)$, $E\\left(X^2\\right)=D(X)+[E(X)]^2=p$.\n\n所以统计量 $X_1, X_1^2$ 都是 $p$ 的无偏估计.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340654
+                    },
+                    "question_json": "neu-mathe/1077be3bed2a43308457587a9a298913",
+                    "updated_at": {
+                        "seconds": 1767637890
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89433,
+                            "question_id": 19467,
+                            "is_answer": true,
+                            "choice": "$X_1$ 是 $p$ 的无偏统计量",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89434,
+                            "question_id": 19467,
+                            "is_answer": false,
+                            "choice": "$X_1$ 是 $p$ 的有偏统计量",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89435,
+                            "question_id": 19467,
+                            "is_answer": false,
+                            "choice": "$X_1^2$ 是 $p^2$ 的无偏统计量",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89436,
+                            "question_id": 19467,
+                            "is_answer": false,
+                            "choice": "$X_1^2$ 是 $p$ 的有偏统计量",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.85,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 5386,
+                    "ai_tags": "参数估计,无偏性,0-1分布"
+                },
+                {
+                    "id": 19469,
+                    "subject_id": 3,
+                    "chapter_id": 400,
+                    "question_id": "b3961700-1dbb-4d79-b421-dcc78a1dea07",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设样本 $X_1, X_2$ 取自总体 $X$, 则 $S_2^2=\\frac{1}{2} \\sum_{i=1}^2\\left(X_i-\\bar{X}\\right)^2$ 的期望为 ().",
+                    "analysis": "$\\begin{gathered}\\text { 因为 } E \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2=(n-1) E\\left(\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2\\right)=(n-1)E\\left(S^2\\right)=(n-1) D(X) \\text {, 所以 } \\\\ E S_2^2=E\\left(\\frac{1}{2} \\sum_{i=1}^2\\left(X_i-\\bar{X}\\right)^2\\right)=E\\left(\\frac{1}{2} \\cdot \\frac{1}{1} \\sum_{i=1}^2\\left(X_i-\\bar{X}\\right)^2\\right)=\\frac{1}{2} D(X)=\\frac{1}{2} \\sigma^2 .\\end{gathered}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340654
+                    },
+                    "question_json": "neu-mathe/94b7a356c2044c369049142e4ed42bac",
+                    "updated_at": {
+                        "seconds": 1767637891
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89447,
+                            "question_id": 19469,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{4} \\sigma^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89448,
+                            "question_id": 19469,
+                            "is_answer": true,
+                            "choice": "$\\frac{\\sigma^2}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89449,
+                            "question_id": 19469,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\sigma^2}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89450,
+                            "question_id": 19469,
+                            "is_answer": false,
+                            "choice": "$\\sigma^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.57,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 12347,
+                    "ai_tags": "样本方差,数学期望"
+                },
+                {
+                    "id": 19470,
+                    "subject_id": 3,
+                    "chapter_id": 400,
+                    "question_id": "efba662e-2795-4449-9959-7a3effc8feca",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X \\sim N\\left(0, \\sigma^2\\right), X_1, X_2, \\cdots, X_n$ 是来自这一总体的样本, $\\hat{\\sigma}^2=\\frac{1}{n} \\sum_{i=1}^n X_i^2$, 则下列说法正确的是 ( ).",
+                    "analysis": "$E\\left(\\hat{\\sigma}^2\\right)=\\frac{1}{n} \\sum_{i=1}^n E\\left(X_i^2\\right)=\\frac{1}{n} \\sum_{i=1}^n D\\left(X_i\\right)=\\frac{1}{n} n \\sigma^2=\\sigma^2$, 故 $\\hat{\\sigma}^2$ 是 $\\sigma^2$ 的无偏估计.\n因为 $\\frac{\\sum_{i=1}^n X_i^2}{\\sigma^2}=\\sum_{i=1}^n\\left(\\frac{X_i}{\\sigma}\\right)^2 \\sim \\chi^2(n), E\\left(\\chi^2(n)\\right)=n$, 所以 $D\\left(\\sum_{i=1}^n X_i^2\\right)=2 n \\sigma^4$.\n因此 $D\\left(\\widehat{\\sigma^2}\\right)=D\\left(\\frac{1}{n} \\sum_{i=1}^n X_i^2\\right)=\\frac{1}{n^2} D\\left(\\sum_{i=1}^n X_i^2\\right)=\\frac{2 \\sigma^4}{n}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340667
+                    },
+                    "question_json": "neu-mathe/500f46591b51411c999e496780ac2cff",
+                    "updated_at": {
+                        "seconds": 1767637887
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89454,
+                            "question_id": 19470,
+                            "is_answer": true,
+                            "choice": "$\\hat{\\sigma}^2=\\frac{1}{n} \\sum_{i=1}^n X_i^2$ 是 $\\sigma^2$ 的无偏估计",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89455,
+                            "question_id": 19470,
+                            "is_answer": false,
+                            "choice": "$\\hat{\\sigma}^2=\\frac{1}{n} \\sum_{i=1}^n X_i^2$ 不是 $\\sigma^2$ 的无偏估计",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89456,
+                            "question_id": 19470,
+                            "is_answer": false,
+                            "choice": "$D\\left(\\widehat{\\sigma^2}\\right)=\\frac{2 \\sigma^2}{n}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89457,
+                            "question_id": 19470,
+                            "is_answer": false,
+                            "choice": "$D\\left(\\widehat{\\sigma^2}\\right)=\\frac{2 \\sigma^4}{n+1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.51,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 17398,
+                    "ai_tags": "参数估计,无偏估计,正态总体"
+                },
+                {
+                    "id": 19473,
+                    "subject_id": 3,
+                    "chapter_id": 400,
+                    "question_id": "e8c1c6e8-5396-4d00-a544-b26b1c249173",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "样本 $X_1, X_2, \\cdots, X_n$ 取自总体 $\\xi, E(\\xi)=\\mu, D(\\xi)=\\sigma^2$, 则 ( ) 是总体方差 $\\sigma^2$ 的无偏估计.",
+                    "analysis": "方差的常用无偏估计量有两个：\n1. 若均值未知，则 $\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$ 是方差的无偏估计。\n2. 若均值已知，则 $\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\mu\\right)^2$ 也是方差的无偏估计。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340674
+                    },
+                    "question_json": "neu-mathe/f9af9ba8ccd44b1799164f05efd6c896",
+                    "updated_at": {
+                        "seconds": 1767637888
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89475,
+                            "question_id": 19473,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89476,
+                            "question_id": 19473,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n} \\sum_{i=1}^{n-1}\\left(X_i-\\bar{X}\\right)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89477,
+                            "question_id": 19473,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n-1} \\sum_{i=1}^{n-1}\\left(X_i-\\bar{X}\\right)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89478,
+                            "question_id": 19473,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.65,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 39874,
+                    "ai_tags": "无偏估计,样本方差,点估计"
+                },
+                {
+                    "id": 19474,
+                    "subject_id": 3,
+                    "chapter_id": 400,
+                    "question_id": "b38c8fd3-c391-4187-9e20-2aafed791a3a",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 服从均值为 $\\theta$ 的指数分布, 其概率密度为 $f(x ; \\theta)=\\begin{cases} \\frac{1}{\\theta} e^{-\\frac{x}{\\theta}}, & x>0 \\\\ 0, & x \\leq 0 \\end{cases}$, 其中参数 $\\theta>0$ 未知. 又设 $X_1, X_2, \\cdots, X_n$ 是来自该总体的样本, $Z=\\min (X_1, X_2, \\cdots, X_n)$, 下列说法正确的是 ( ).",
+                    "analysis": "因为 $E(\\bar{X})=E(X)=\\theta$, 所以 $\\bar{X}$ 是 $\\theta$ 的无偏估计量.\n因为\n$$\nF_X(x)=\\begin{cases}\n0, & x \\leq 0 \\\\\n1-e^{-\\frac{x}{\\theta}}, & x>0\n\\end{cases}, \\quad F_Z(x)=1-\\left[1-F_X(x)\\right]^n=\\begin{cases}\n1-e^{-\\frac{n x}{\\theta}}, & x>0 \\\\\n0, & x \\leq 0\n\\end{cases}\n$$\n所以\n$$\nf_Z(x)= \\begin{cases}\\frac{n}{\\theta} e^{-\\frac{n x}{\\theta}}, & x>0 \\\\ 0, & x \\leq 0\\end{cases}\n$$\n即 $Z$ 服从参数为 $\\frac{n}{\\theta}$ 的指数分布.\n$$\nE(Z)=\\frac{\\theta}{n}, \\quad E(nZ)=n E(Z)=n \\cdot \\frac{\\theta}{n}=\\theta,\n$$\n所以 $nZ$ 也是 $\\theta$ 的无偏估计.\n又由于 $D(\\bar{X})=\\frac{1}{n} D(X)=\\frac{\\theta^2}{n}, D(Z)=\\left(\\frac{\\theta}{n}\\right)^2$, 所以\n$$\nD(nZ)=n^2 D(Z)=n^2 \\cdot \\frac{\\theta^2}{n^2}=\\theta^2\n$$\n故当 $n>1$ 时, $D(nZ)>D(\\bar{X})$, 故 $\\bar{X}$ 较 $nZ$ 有效.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340678
+                    },
+                    "question_json": "neu-mathe/2e6614a3de7c4d14a4a01dc0334e4215",
+                    "updated_at": {
+                        "seconds": 1767637891
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89482,
+                            "question_id": 19474,
+                            "is_answer": true,
+                            "choice": "$nZ$ 是 $\\theta$ 的无偏估计",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89483,
+                            "question_id": 19474,
+                            "is_answer": false,
+                            "choice": "当 $n>1$ 时, $D(nZ)<D(\\bar{X})$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89484,
+                            "question_id": 19474,
+                            "is_answer": false,
+                            "choice": "当 $n>1$ 时, $D(nZ)=D(\\bar{X})$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89485,
+                            "question_id": 19474,
+                            "is_answer": false,
+                            "choice": "当 $n=1$ 时, $D(nZ)>D(\\bar{X})$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.37,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 25706,
+                    "ai_tags": "指数分布,无偏估计,有效性"
+                },
+                {
+                    "id": 19475,
+                    "subject_id": 3,
+                    "chapter_id": 400,
+                    "question_id": "b297ff90-3356-4d51-995a-9fa450ef315f",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, \\cdots, X_n$ 是来自总体 $X$ 的一个样本, 已知 $E(X)=\\mu, D(X)=\\sigma^2$, 下列说法正确的是 ( ).",
+                    "analysis": "(1)\n$$\n\\begin{aligned}\n& E\\left(c \\sum_{i=1}^{n-1}\\left(X_{i+1}-X_i\\right)^2\\right)=c \\sum_{i=1}^{n-1} E\\left(X_{i+1}^2-2 X_i X_{i+1}+X_i^2\\right) \\\\\n& =c \\sum_{i=1}^{n-1}\\left\\{D\\left(X_{i+1}\\right)+\\left[E\\left(X_{i+1}\\right)\\right]^2-2 E\\left(X_i\\right) E\\left(X_{i+1}\\right)+D\\left(X_i\\right)+\\left[E\\left(X_i\\right)\\right]^2\\right\\} \\\\\n& \\quad=c(n-1)\\left(\\sigma^2+\\mu^2-2 \\mu^2+\\sigma^2+\\mu^2\\right)=2(n-1) c \\sigma^2\n\\end{aligned}\n$$\n\n令 $2(n-1) c \\sigma^2=\\sigma^2$, 所以 $c=\\frac{1}{2(n-1)}$.\n(2) $E\\left[(\\bar{X})^2-c S^2\\right]=E\\left(\\bar{X}^2\\right)-c E\\left(S^2\\right)=D(\\bar{X})+[E(\\bar{X})]^2-c \\sigma^2=\\frac{\\sigma^2}{n}+\\mu^2-c \\sigma^2$.\n\n令 $\\frac{\\sigma^2}{n}+\\mu^2-c \\sigma^2=\\mu^2$, 得 $c=\\frac{1}{n}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340679
+                    },
+                    "question_json": "neu-mathe/67141705966d4fc9b93f14d36f6c4070",
+                    "updated_at": {
+                        "seconds": 1775671213
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89489,
+                            "question_id": 19475,
+                            "is_answer": true,
+                            "choice": "当 $c=\\frac{1}{n}$ 时, $(\\bar{X})^2-c S^2$ 是 $\\mu^2$ 的无偏估计",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89490,
+                            "question_id": 19475,
+                            "is_answer": false,
+                            "choice": "当 $c=\\frac{1}{2n-1}$ 时, $c \\sum_{i=1}^{n-1}\\left(X_{i+1}-X_i\\right)^2$ 为 $\\sigma^2$ 的无偏估计",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89491,
+                            "question_id": 19475,
+                            "is_answer": false,
+                            "choice": "当 $c=\\frac{1}{2n}$ 时, $c \\sum_{i=1}^{n-1}\\left(X_{i+1}-X_i\\right)^2$ 为 $\\sigma^2$ 的无偏估计",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89492,
+                            "question_id": 19475,
+                            "is_answer": false,
+                            "choice": "当 $c=\\frac{1}{n-1}$ 时, $(\\bar{X})^2-c S^2$ 是 $\\mu^2$ 的无偏估计",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.36,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 73781,
+                    "tags": "",
+                    "ai_tags": "无偏估计,样本均值,样本方差"
+                },
+                {
+                    "id": 19476,
+                    "subject_id": 3,
+                    "chapter_id": 400,
+                    "question_id": "ef7af6aa-fd6f-4fb0-8cea-4d21af56b52e",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 服从二项分布 $P\\{X=k\\}=C_n^k p^k(1-p)^{n-k}, k=0,1,2, \\cdots, n, X_1, X_2, \\cdots, X_n(n>2)$ 为来自 $X$ 的一个样本, 则 ( ) 是关于 $p^2$ 的无偏估计量.",
+                    "analysis": "因为 $X \\sim b(n, p)$, 所以 $E(X)=n p, E\\left(X^2\\right)=n p(1-p)+n^2 p^2$.\n由于 $E\\left(X_1\\right)=E(X)=n p, E\\left[X_1\\left(X_1-1\\right)\\right]=E[X(X-1)]=E\\left(X^2\\right)-E(X)=n(n-1) p^2$, $E\\left[X_1\\left(X_1+1\\right)\\right]=E\\left(X^2\\right)+E(X)=n(n-1) p^2+2 n p$, 故 $p^2$ 的无偏估计量为 $\\hat{p}^2=\\frac{X_1\\left(X_1-1\\right)}{n(n-1)}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340681
+                    },
+                    "question_json": "neu-mathe/5c6468442ba34a21af02d26f36744cb2",
+                    "updated_at": {
+                        "seconds": 1767465100
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89496,
+                            "question_id": 19476,
+                            "is_answer": true,
+                            "choice": "$\\widehat{p^2}=\\frac{X_1\\left(X_1-1\\right)}{n(n-1)}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89497,
+                            "question_id": 19476,
+                            "is_answer": false,
+                            "choice": "$\\widehat{p^2}=\\frac{X_1\\left(X_1-1\\right)}{n-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89498,
+                            "question_id": 19476,
+                            "is_answer": false,
+                            "choice": "$\\widehat{p^2}=\\frac{X_1-1}{n-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89499,
+                            "question_id": 19476,
+                            "is_answer": false,
+                            "choice": "$\\widehat{p^2}=\\frac{X_1\\left(X_1+1\\right)}{n}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.79,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 6293,
+                    "ai_tags": "二项分布,无偏估计,参数估计"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 28,
+            "questions": [
+                {
+                    "id": 19477,
+                    "subject_id": 3,
+                    "chapter_id": 400,
+                    "question_id": "c03c15a8-a944-4703-b35e-266a80ae39f5",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 有有限的数学期望 $E(X)$ 和方差 $D(X), X_1, X_2, \\cdots, X_n$ 为总体 $X$ 的样本, 则下列结论正确的是 ( ).",
+                    "analysis": "若总体 $X$ 有 $E(X)=\\mu, D(X)=\\sigma^2$, 则 $E(\\bar{X})=\\mu, D(\\bar{X})=\\frac{\\sigma^2}{n}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340682
+                    },
+                    "question_json": "neu-mathe/323f1274e42d49a5b238bd32c5c9c31b",
+                    "updated_at": {
+                        "seconds": 1767551641
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89503,
+                            "question_id": 19477,
+                            "is_answer": true,
+                            "choice": "$\\bar{X}$ 是 $E(X)$ 的无偏估计",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89504,
+                            "question_id": 19477,
+                            "is_answer": false,
+                            "choice": "$\\bar{X}$ 与 $X$ 同分布",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89505,
+                            "question_id": 19477,
+                            "is_answer": false,
+                            "choice": "$D(\\bar{X})=D(X)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89506,
+                            "question_id": 19477,
+                            "is_answer": false,
+                            "choice": "$\\bar{X}$ 与 $X$ 的取值范围相同",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.84,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 19818,
+                    "ai_tags": "数理统计,样本均值,无偏估计"
+                },
+                {
+                    "id": 19478,
+                    "subject_id": 3,
+                    "chapter_id": 400,
+                    "question_id": "ae68804d-5d0e-47d3-9e64-35ba647aa064",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "总体 $N(\\mu, \\sigma^2)$, $X_1, X_2, \\cdots, X_n (n>1)$ 为来自 $X$ 的一个样本, 当 $c=(\\quad)$ 时, $\\hat{\\sigma}^2=c \\sum_{i=1}^{n-1}\\left(X_{i+1}-X_i\\right)^2$ 是 $\\sigma^2$ 的一个无偏估计量.",
+                    "analysis": "$$\nE\\left(c \\sum_{i=1}^{n-1}\\left(X_{i+1}-X_i\\right)^2\\right)=c \\sum_{i=1}^{n-1} E\\left(X_i^2-2 X_i X_{i+1}+X_{i+1}^2\\right)=2(n-1) c \\sigma^2,\n$$\n$c \\sum_{i=1}^{n-1}\\left(X_{i+1}-X_i\\right)^2$ 是 $\\sigma^2$ 的无偏估计, 只要 $2(n-1) c \\sigma^2=\\sigma^2$, 即 $c=\\frac{1}{2(n-1)}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340684
+                    },
+                    "question_json": "neu-mathe/fd131e996000437b95ea367c8a0094ef",
+                    "updated_at": {
+                        "seconds": 1767724277
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89510,
+                            "question_id": 19478,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{2(n-1)}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89511,
+                            "question_id": 19478,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89512,
+                            "question_id": 19478,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89513,
+                            "question_id": 19478,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2 n}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.63,
+                    "difficulty_score": 0.47,
+                    "avg_time_spent": 14492,
+                    "ai_tags": "无偏估计,正态总体,期望"
+                },
+                {
+                    "id": 19479,
+                    "subject_id": 3,
+                    "chapter_id": 400,
+                    "question_id": "f90d8b11-2e69-41f9-8e22-e2a6ac11ff6a",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 的概率分布为\n$$\n\\begin{array}{|c|c|c|c|}\n\\hline\nX & 1 & 2 & 3 \\\\\n\\hline\np & 1-\\theta & \\theta-\\theta^2 & \\theta^2 \\\\\n\\hline\n\\end{array}\n$$\n其中 $\\theta \\in(0,1)$ 未知. 以 $N_i$ 表示总体 $X$ 的样本 (样本容量为 $n$) 取值为 $i(i=1,2,3)$ 的个数, 为使 $T=\\sum_{i=1}^3 a_i N_i$ 为 $\\theta$ 的无偏估计量, 则常数 $a_1, a_2, a_3$ 分别为 ().",
+                    "analysis": "$T$ 是 $\\theta$ 的无偏估计, 即 $E(T)=\\theta$.\n由题意又可知, $E(N_i)=n P\\{X=i\\}(i=1,2,3)$, 所以\n$$\n\\begin{gathered}\nE(T)=a_1 E(N_1)+a_2 E(N_2)+a_3 E(N_3)=\\theta, \\\\\na_1 n(1-\\theta)+a_2 n(\\theta-\\theta^2)+a_3 n \\theta^2=\\theta, \\\\\nn[a_1+(a_2-a_1) \\theta+(a_3-a_2) \\theta^2]=\\theta .\n\\end{gathered}\n$$\n关于 $\\theta$ 对照左右各项的系数值, 得\n$$\na_1=0, a_2=a_3=\\frac{1}{n} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340684
+                    },
+                    "question_json": "neu-mathe/bd8bce3347714b97aa28cefa43273f42",
+                    "updated_at": {
+                        "seconds": 1767033129
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89517,
+                            "question_id": 19479,
+                            "is_answer": true,
+                            "choice": "$0, \\frac{1}{n}, \\frac{1}{n}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89518,
+                            "question_id": 19479,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n}, \\frac{1}{n}, \\frac{1}{n}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89519,
+                            "question_id": 19479,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n}, 0, \\frac{1}{n}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89520,
+                            "question_id": 19479,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n}, \\frac{1}{n}, 0$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.41,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 5523,
+                    "ai_tags": "无偏估计,数学期望,总体与样本"
+                },
+                {
+                    "id": 19480,
+                    "subject_id": 3,
+                    "chapter_id": 400,
+                    "question_id": "2d52265c-2bf4-4241-9f3a-a680e52d4002",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $\\widehat{\\theta}_1, \\widehat{\\theta}_2, \\widehat{\\theta}_3$ 是总体分布中参数 $\\theta$ 的无偏估计量， $\\widehat{\\theta}=a \\widehat{\\theta}_1-2 \\widehat{\\theta}_2+3 \\widehat{\\theta}_3$ ，当 $a=(\\quad)$ 时， $\\widehat{\\theta}$ 也是 $\\theta$ 的无偏估计量.",
+                    "analysis": "$E(\\hat{\\theta})=a E\\left(\\hat{\\theta}_1\\right)-2 E\\left(\\hat{\\theta}_2\\right)+3 E\\left(\\hat{\\theta}_3\\right)=a \\theta-2 \\theta+3 \\theta=(a+1) \\theta$, 所以当 $a=0$ 时, $E(\\widehat{\\theta})=\\theta$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340684
+                    },
+                    "question_json": "neu-mathe/3e1b9da0287c4124ad168f127863c08d",
+                    "updated_at": {
+                        "seconds": 1767551639
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89524,
+                            "question_id": 19480,
+                            "is_answer": true,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89525,
+                            "question_id": 19480,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89526,
+                            "question_id": 19480,
+                            "is_answer": false,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89527,
+                            "question_id": 19480,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.84,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 11978,
+                    "ai_tags": "参数估计,无偏估计量"
+                },
+                {
+                    "id": 19481,
+                    "subject_id": 3,
+                    "chapter_id": 400,
+                    "question_id": "1c69b830-48ed-4591-bdae-93a9905bf134",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, \\cdots, X_n$ 是取自正态总体 $N\\left(0, \\sigma^2\\right)$ 的简单随机样本, 则 ( ) 是 $\\sigma^2$ 的无偏估计量.",
+                    "analysis": "方差的常用无偏估计量有两个：\n1. 若均值未知, 则 $\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$ 是方差的无偏估计.\n2. 若均值已知, 则 $\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\mu\\right)^2$ 也是方差的无偏估计。此题均值为 0 , 故 $\\frac{1}{n} \\sum_{i=1}^n X_i^2$ 是 $\\sigma^2$ 的无偏估计量.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340687
+                    },
+                    "question_json": "neu-mathe/1f073d35ccb2457cb163a0e32b50a9b7",
+                    "updated_at": {
+                        "seconds": 1767551647
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89531,
+                            "question_id": 19481,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n-1} \\sum_{i=1}^n X_i^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89532,
+                            "question_id": 19481,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n^2} \\sum_{i=1}^n X_i^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89533,
+                            "question_id": 19481,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n+1} \\sum_{i=1}^n X_i^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89534,
+                            "question_id": 19481,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{n} \\sum_{i=1}^n X_i^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.7,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 17811,
+                    "ai_tags": "数理统计,无偏估计,正态总体"
+                },
+                {
+                    "id": 19485,
+                    "subject_id": 3,
+                    "chapter_id": 400,
+                    "question_id": "0d2b1ef4-2d0f-4acd-b123-23c3861d681f",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, \\cdots, X_n$ 是来自参数为 $\\lambda$ 的泊松分布的简单随机样本, 则 $\\lambda^2$ 的无偏估计量是 ( ).",
+                    "analysis": "因 $X$ 服从参数为 $\\lambda$ 的泊松分布，故\n$$\n\\begin{aligned}\n& D(X)=\\lambda, \\quad E(X^2)=D(X)+[E(X)]^2=\\lambda+\\lambda^2=E(X)+\\lambda^2, \\\\\n& \\text{于是 } E\\left(\\frac{1}{n} \\sum_{i=1}^n X_i^2\\right)=E(X^2)=\\lambda+\\lambda^2, \\quad E(\\bar{X})=E(X)=\\lambda\n\\end{aligned}\n$$\n所以 $\\hat{\\lambda}^2=\\frac{1}{n} \\sum_{i=1}^n X_i^2-\\bar{X}$ 是 $\\lambda^2$ 的无偏估计量。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340694
+                    },
+                    "question_json": "neu-mathe/96ea2d630fe84dc2b79847c01089f195",
+                    "updated_at": {
+                        "seconds": 1767465092
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89559,
+                            "question_id": 19485,
+                            "is_answer": true,
+                            "choice": "$\\hat{\\lambda}^2=\\frac{1}{n} \\sum_{i=1}^n X_i^2-\\bar{X}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89560,
+                            "question_id": 19485,
+                            "is_answer": false,
+                            "choice": "$\\hat{\\lambda}^2=\\frac{1}{n} \\sum_{i=1}^n X_i^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89561,
+                            "question_id": 19485,
+                            "is_answer": false,
+                            "choice": "$\\hat{\\lambda}^2=\\frac{1}{n} \\sum_{i=1}^n X_i-\\bar{X}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89562,
+                            "question_id": 19485,
+                            "is_answer": false,
+                            "choice": "$\\hat{\\lambda}^2=\\sum_{i=1}^n X_i^2-\\bar{X}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.52,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 14121,
+                    "ai_tags": "泊松分布,无偏估计量,参数估计"
+                },
+                {
+                    "id": 19490,
+                    "subject_id": 3,
+                    "chapter_id": 400,
+                    "question_id": "07406d0d-ba6b-4517-93f2-bda4886e30c2",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "样本 $X_1, \\cdots, X_n$ 来自总体 $N\\left(\\mu, \\sigma^2\\right)$, 则有可能是总体方差 $\\sigma^2$ 的无偏估计的是 ( ).",
+                    "analysis": "方差的常用无偏估计量有两个：\n1. 若均值未知, 则 $\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$ 是方差的无偏估计.\n2. 若均值已知, 则 $\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\mu\\right)^2$ 也是方差的无偏估计.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340702
+                    },
+                    "question_json": "neu-mathe/7c6dea6cc4404d94a08d8c5ea51ab357",
+                    "updated_at": {
+                        "seconds": 1767637890
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89594,
+                            "question_id": 19490,
+                            "is_answer": true,
+                            "choice": "$S_1^2=\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\mu\\right)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89595,
+                            "question_id": 19490,
+                            "is_answer": false,
+                            "choice": "$S_2^2=\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\mu\\right)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89596,
+                            "question_id": 19490,
+                            "is_answer": false,
+                            "choice": "$S_3^2=\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89597,
+                            "question_id": 19490,
+                            "is_answer": false,
+                            "choice": "$S_4^2=\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i+\\bar{X}\\right)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.87,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 8298,
+                    "ai_tags": "无偏估计,参数估计,数理统计"
+                },
+                {
+                    "id": 19494,
+                    "subject_id": 3,
+                    "chapter_id": 400,
+                    "question_id": "a7f8d85b-9bcb-4e04-96dc-a272a8252976",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 服从参数为 $\\lambda(\\lambda>0)$ 的指数分布, $X_1, X_2, \\cdots, X_n$ 为一随机样本, 令 $Y=\\min \\left\\{X_1, X_2, \\cdots, X_n\\right\\}$, 若使 $c Y$ 是 $\\lambda$ 的无偏估计量, 那么常数 $c$ 的值应该是 ().",
+                    "analysis": "关键是求出 $E(Y)$. 为此要求 $Y$ 的概率密度 $f_Y(y)$.\n因 $X_i$ 的密度函数为 $f_X(x)=\\left\\{\\begin{array}{cc}\\lambda e^{-\\lambda x}, & x>0 \\\\ 0, & x \\leq 0\\end{array}\\right.$, 分布函数为 $F_X(x)=\\left\\{\\begin{array}{cc}1-e^{-\\lambda x}, & x>0 \\\\ 0, & x \\leq 0\\end{array}\\right.$, $Y$ 的分布函数为\n$$\nF_Y(y)=1-\\left[1-F_X(y)\\right]^n=\\left\\{\\begin{array}{cc}\n1-e^{-n \\lambda y}, & y>0 \\\\\n0, & y \\leq 0\n\\end{array},\\right.\n$$\n$Y$ 的概率密度为\n$$\nf_Y(y)=\\frac{d}{d y} F_Y(y)=\\left\\{\\begin{array}{cc}\nn \\lambda e^{-n \\lambda y}, & y>0 \\\\\n0, & y \\leq 0\n\\end{array},\\right.\n$$\n即 $Y$ 服从参数为 $n \\lambda$ 的指数分布, 故 $E(Y)=n \\lambda$.\n为使 $c Y$ 成为 $\\lambda$ 的无偏估计量, 则必须 $E(c Y)=\\lambda$, 即要求 $c n \\lambda=\\lambda$, 故 $c=\\frac{1}{n}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340714
+                    },
+                    "question_json": "neu-mathe/d0e26dd1f10c46d7b3c6bda0231d4718",
+                    "updated_at": {
+                        "seconds": 1766860308
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89622,
+                            "question_id": 19494,
+                            "is_answer": true,
+                            "choice": "$c=\\frac{1}{n}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89623,
+                            "question_id": 19494,
+                            "is_answer": false,
+                            "choice": "$c=\\frac{1}{n^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89624,
+                            "question_id": 19494,
+                            "is_answer": false,
+                            "choice": "$c=\\frac{1}{n^3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        },
+                        {
+                            "id": 89625,
+                            "question_id": 19494,
+                            "is_answer": false,
+                            "choice": "$c=n^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080698
+                            },
+                            "updated_at": {
+                                "seconds": 1735080698
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.78,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 11110,
+                    "ai_tags": "指数分布,无偏估计,次序统计量"
+                }
+            ]
+        }
+    }
+]

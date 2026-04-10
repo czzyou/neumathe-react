@@ -1,0 +1,1534 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 18,
+            "questions": [
+                {
+                    "id": 13860,
+                    "subject_id": 3,
+                    "chapter_id": 394,
+                    "question_id": "273b7ed9-6ee2-4cc5-bdfd-21d51787ae0a",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 的分布律为 $P\\{X=k\\}=\\frac{\\lambda^k}{k!} e^{-\\lambda}, k=0,1,2, \\cdots, X_1, X_2, \\cdots, X_n$ 是来自总体 $X$ 的样本. 记 $\\bar{X}=\\frac{1}{n} \\sum_{i=1}^n X_i$, $S_n^2=\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$, 则下列结论中错误的是 ( ).",
+                    "analysis": "总体服从泊松分布 $P(\\lambda)$, 所以 $E(X)=\\lambda, D(X)=\\lambda$.\n$\\bar{X}$ 是 $\\lambda$ 的矩估计，所以 $\\bar{X}$ 是 $\\lambda$ 的无偏、一致估计量.\n又样本方差 $S^2$ 是总体方差的无偏估计，而 $S_n^2=\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2=\\frac{n-1}{n} S^2$ ，所以 $S_n^2$ 不是 $\\lambda$ 的无偏估计。\n泊松分布一、二阶总体原点矩均存在. 根据大数定律, 样本一、二阶原点矩依概率收敛于一、二阶总体原点矩.\n样本二阶中心矩 $S_n^2=\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$ 是样本一、二阶原点矩的函数, 所以 $S_n^2$ 依概率收敛, 且依概率收敛于总体二阶中心矩，即 $S_n^2$ 是 $\\lambda$ 的一致估计量.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/9b24a19ae02f4545891b9cca6389323b",
+                    "updated_at": {
+                        "seconds": 1772735426
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55437,
+                            "question_id": 13860,
+                            "is_answer": true,
+                            "choice": "$S_n^2$ 是 $\\lambda$ 的无偏估计",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55439,
+                            "question_id": 13860,
+                            "is_answer": false,
+                            "choice": "$\\bar{X}$ 是 $\\lambda$ 的无偏估计",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55440,
+                            "question_id": 13860,
+                            "is_answer": false,
+                            "choice": "$\\bar{X}$ 是 $\\lambda$ 的一致估计",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55438,
+                            "question_id": 13860,
+                            "is_answer": false,
+                            "choice": "$S_n^2$ 是 $\\lambda$ 的一致估计",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.5,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 29827,
+                    "ai_tags": "参数估计,无偏估计,一致估计"
+                },
+                {
+                    "id": 19220,
+                    "subject_id": 3,
+                    "chapter_id": 394,
+                    "question_id": "b7157dad-d5e3-4ea0-8e2a-864efdbbe0d5",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X \\sim N\\left(\\mu, \\sigma^2\\right), \\sigma^2$ 未知， $X_1, \\cdots, X_n$ 为来自 $X$ 的样本，则下列说法正确的是（）.",
+                    "analysis": "因为总体服从正态分布, 所以\n$$\n\\begin{gathered}\n\\frac{(n-1) S^2}{\\sigma^2} \\sim \\chi^2(n-1) . \\\\\nD\\left[\\frac{(n-1) S^2}{\\sigma^2}\\right]=2(n-1), \\quad D\\left(S^2\\right)=\\frac{2 \\sigma^4}{n-1} .\n\\end{gathered}\n$$\n\n由切比雪夫不等式及 $E\\left(S^2\\right)=\\sigma^2$, 有\n$$\n0 \\leq P\\left\\{\\left|S^2-E\\left(S^2\\right)\\right| \\geq \\varepsilon\\right\\}=P\\left\\{\\left|S^2-\\sigma^2\\right| \\geq \\varepsilon\\right\\} \\leq \\frac{1}{\\varepsilon^2} D\\left(S^2\\right)=\\frac{2 \\sigma^4}{\\varepsilon^2(n-1)}\n$$\n\n所以, 对任意给定的 $\\varepsilon>0$, 总有\n$$\n\\lim _{n \\rightarrow+\\infty} P\\left\\{\\left|S^2-\\sigma^2\\right| \\geq \\varepsilon\\right\\}=0\n$$\n\n故 $S^2$ 是 $\\sigma^2$ 的相合估计量.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340085
+                    },
+                    "question_json": "neu-mathe/45f7d0daaa2c4606bfc2a864f3831f34",
+                    "updated_at": {
+                        "seconds": 1772735427
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87704,
+                            "question_id": 19220,
+                            "is_answer": true,
+                            "choice": "样本方差 $S^2$ 是 $\\sigma^2$ 的相合估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87705,
+                            "question_id": 19220,
+                            "is_answer": false,
+                            "choice": "样本方差 $S^2$ 不是 $\\sigma^2$ 的相合估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87706,
+                            "question_id": 19220,
+                            "is_answer": false,
+                            "choice": "不能确定样本方差 $S^2$ 是不是 $\\sigma^2$ 的相合估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87707,
+                            "question_id": 19220,
+                            "is_answer": false,
+                            "choice": "其他结论均不正确",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.62,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 14566,
+                    "ai_tags": "数理统计,点估计,相合性"
+                },
+                {
+                    "id": 19221,
+                    "subject_id": 3,
+                    "chapter_id": 394,
+                    "question_id": "5dddc93b-394c-41af-a5ad-f4ea5e8602b2",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $\\sigma$ 是正态总体 $X$ 的标准差, $X_1, X_2, \\cdots, X_n$ 是 $X$ 的样本, 则样本标准差 $S$ 是总体标准差 $\\sigma$ 的 ( ).",
+                    "analysis": "正态总体标准差 $\\sigma$ 的矩估计量和最大似然估计量都是 $S_n=\\sqrt{\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2}$.\n样本方差 $S^2=\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$ 是总体方差 $\\sigma^2$ 的无偏估计, 但样本标准差 $S=\\sqrt{\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2}$ 不是总体标准差 $\\sigma$ 的无偏估计.\n矩估计量是相合估计量, 即 $S_n=\\sqrt{\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2} \\xrightarrow{P} \\sigma$.\n样本标准差 $S=\\sqrt{\\frac{n}{n-1}} S_n$, 所以 $S=\\sqrt{\\frac{n}{n-1}} S_n \\xrightarrow{P} \\sigma$, 即样本标准差是总体标准差 $\\sigma$ 的相合估计量.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340086
+                    },
+                    "question_json": "neu-mathe/9c281c8ccb034f8f9a03674011903215",
+                    "updated_at": {
+                        "seconds": 1775671213
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87711,
+                            "question_id": 19221,
+                            "is_answer": true,
+                            "choice": "相合估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87712,
+                            "question_id": 19221,
+                            "is_answer": false,
+                            "choice": "矩估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87713,
+                            "question_id": 19221,
+                            "is_answer": false,
+                            "choice": "最大似然估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87714,
+                            "question_id": 19221,
+                            "is_answer": false,
+                            "choice": "无偏估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.6,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 14053,
+                    "tags": "",
+                    "ai_tags": "数理统计,点估计,相合估计量,样本标准差"
+                },
+                {
+                    "id": 19222,
+                    "subject_id": 3,
+                    "chapter_id": 394,
+                    "question_id": "151a04fc-50eb-4cb9-a4dc-02368b203dff",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "下列不是评价估计量标准的是 ().",
+                    "analysis": "估计量的评价标准一般有三个, 即无偏性, 一致性, 有效性.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340093
+                    },
+                    "question_json": "neu-mathe/3b36a5b4a89a4620b229939cb60bb7cd",
+                    "updated_at": {
+                        "seconds": 1772735426
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87718,
+                            "question_id": 19222,
+                            "is_answer": true,
+                            "choice": "无误差性",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 87719,
+                            "question_id": 19222,
+                            "is_answer": false,
+                            "choice": "无偏性",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 87720,
+                            "question_id": 19222,
+                            "is_answer": false,
+                            "choice": "一致性",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 87721,
+                            "question_id": 19222,
+                            "is_answer": false,
+                            "choice": "有效性",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.76,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 109961,
+                    "ai_tags": "数理统计,参数估计"
+                },
+                {
+                    "id": 19230,
+                    "subject_id": 3,
+                    "chapter_id": 394,
+                    "question_id": "81a0fab7-e186-48e1-a5c6-3124b8e51a34",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, \\cdots, X_n$ 为来自总体 $X$ 的样本， $X$ 的数学期望为 $\\mu$, 但 $\\mu$ 未知, 则下列结论中正确的是 ( ).",
+                    "analysis": "对于来自样本的任何一个 $X_i(i=1,2, \\cdots, n)$ 都是均值 $\\mu$ 的估计量.\n$E(X_i)=E(X)=\\mu$, 所以 $X_1$ 是 $\\mu$ 的无偏估计量.\n由于题没有给出总体的具体分布形式，所以无法求极大似然估计量.\n$X_1$ 与 $n$ 无关, 所以当 $n \\rightarrow \\infty$ 时, 无法保证 $\\lim _{n \\rightarrow \\infty} P\\{|X_1-\\mu| \\geq \\varepsilon\\}=0$, 故 $X_1$ 不是 $\\mu$ 的相合（一致）估计量.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340100
+                    },
+                    "question_json": "neu-mathe/85cbace9dadc47e0b40c9f0b06683166",
+                    "updated_at": {
+                        "seconds": 1772735426
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87774,
+                            "question_id": 19230,
+                            "is_answer": true,
+                            "choice": "$X_1$ 是 $\\mu$ 的无偏估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 87775,
+                            "question_id": 19230,
+                            "is_answer": false,
+                            "choice": "$X_1$ 是 $\\mu$ 的极大似然估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 87776,
+                            "question_id": 19230,
+                            "is_answer": false,
+                            "choice": "$X_1$ 是 $\\mu$ 的相合（一致）估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 87777,
+                            "question_id": 19230,
+                            "is_answer": false,
+                            "choice": "$X_1$ 不是 $\\mu$ 的估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.3,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 12607,
+                    "ai_tags": "参数估计,无偏估计,相合估计"
+                },
+                {
+                    "id": 19231,
+                    "subject_id": 3,
+                    "chapter_id": 394,
+                    "question_id": "e2561b37-8436-466d-80df-de566f61541e",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $n$ 个随机变量 $X_1, X_2, \\cdots, X_n$ 独立同分布, $E\\left(X_i\\right)=\\mu, D\\left(X_i\\right)=\\sigma^2(i=1,2, \\cdots, n), \\mu, \\sigma^2$ 未知. 记 $\\bar{X}=\\frac{1}{n} \\sum_{i=1}^n X_i$, $S^2=\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$, 则 ( ).",
+                    "analysis": "因为 $X_1, X_2, \\cdots, X_n$ 独立同分布，所以可将其看作是来自某总体的样本，总体方差为 $\\sigma^2$，而 $\\bar{X}=\\frac{1}{n} \\sum_{i=1}^n X_i$ 是样本均值，$S^2=\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$ 是样本方差。\n样本方差 $S^2=\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$ 是总体方差 $\\sigma^2$ 的无偏估计，但 $S$ 不是总体标准差 $\\sigma$ 的无偏估计。总体分布未知，不能作似然估计。\n$S_n=\\sqrt{\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2}$ 是总体标准差 $\\sigma$ 的矩估计量，$S=\\sqrt{\\frac{n}{n-1}} S_n$，所以 $S$ 不是 $\\sigma$ 的矩估计量。\n$S_n=\\sqrt{\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2}$ 是总体标准差 $\\sigma$ 的矩估计量，所以 $S_n$ 是 $\\sigma$ 的一致估计量，而 $S=\\sqrt{\\frac{n}{n-1}} S_n$，所以 $S$ 也是 $\\sigma$ 的一致估计量。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340100
+                    },
+                    "question_json": "neu-mathe/5223aba5cb784bccbeded9aaf97efdad",
+                    "updated_at": {
+                        "seconds": 1772735428
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87781,
+                            "question_id": 19231,
+                            "is_answer": true,
+                            "choice": "$S$ 是 $\\sigma$ 的一致估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87782,
+                            "question_id": 19231,
+                            "is_answer": false,
+                            "choice": "$S$ 是 $\\sigma$ 的最大似然估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87783,
+                            "question_id": 19231,
+                            "is_answer": false,
+                            "choice": "$S$ 是 $\\sigma$ 的无偏估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87784,
+                            "question_id": 19231,
+                            "is_answer": false,
+                            "choice": "$S$ 是 $\\sigma$ 的矩估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.58,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 16880,
+                    "ai_tags": "参数估计,一致估计量,样本方差"
+                },
+                {
+                    "id": 19233,
+                    "subject_id": 3,
+                    "chapter_id": 394,
+                    "question_id": "661a397b-9e25-44a4-bdc8-b1ab5eb40e9c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X_1, \\cdots, X_n$ 是取自总体 $X$ 的样本, 且 $E(X^k)$ 存在, $k$ 为正整数, 则 $E(X^k)$ 的相合估计量为 ().",
+                    "analysis": "对指定的 $k$, 令\n$$\nY_i=X_i^k, \\bar{Y}=\\frac{1}{n} \\sum_{i=1}^n Y_i=\\frac{1}{n} \\sum_{i=1}^n X_i^k,\n$$\n由大数定理知 $\\bar{Y} \\xrightarrow{P} E(X^k)$, 即 $\\frac{1}{n} \\sum_{i=1}^n X_i^k$ 是 $E(X^k)$ 的相合估计量.\n作为特例, 样本均值 $\\bar{X}$ 是总体均值 $E(X)$ 的相合估计量.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340101
+                    },
+                    "question_json": "neu-mathe/fa614aafa0114e6193428aa49c04c03a",
+                    "updated_at": {
+                        "seconds": 1772735428
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87795,
+                            "question_id": 19233,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{n} \\sum_{i=1}^n X_i^k$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 87796,
+                            "question_id": 19233,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{n} \\sum_{i=1}^n X_i^k$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 87797,
+                            "question_id": 19233,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n} \\sum_{i=2}^n X_i^k$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 87798,
+                            "question_id": 19233,
+                            "is_answer": false,
+                            "choice": "没有",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.74,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 7788,
+                    "ai_tags": "相合估计量,大数定理,矩估计"
+                },
+                {
+                    "id": 19235,
+                    "subject_id": 3,
+                    "chapter_id": 394,
+                    "question_id": "916e948a-e48c-4916-8731-b81f38cd83de",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, \\cdots, X_n$ 是来自总体 $X$ 的样本, 则 $\\bar{X}^k=\\frac{1}{n} \\sum_{i=1}^n X_i^k$ 是 $E\\left(X^k\\right)$ 的 ( ).",
+                    "analysis": "样本 $k$ 阶原点矩是总体 $k$ 阶原点矩的一致无偏估计量. 因为\n$$\n\\begin{gathered}\nE\\left(\\bar{X}^k\\right)=\\frac{1}{n} \\sum_{i=1}^n E\\left(X_i^k\\right)=E\\left(X^k\\right), \\\\\nP\\left\\{\\left|\\bar{X}^k-E\\left(X^k\\right)\\right| \\geq \\varepsilon\\right\\} \\leq \\frac{1}{n \\varepsilon^2} D\\left(X^k\\right), \\\\\n\\lim _{n \\rightarrow \\infty} P\\left\\{\\left|\\bar{X}^k-E\\left(X^k\\right)\\right| \\geq \\varepsilon\\right\\}=0 .\n\\end{gathered}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340102
+                    },
+                    "question_json": "neu-mathe/828bbe4e501f4a2e94d9f53ae9c611d7",
+                    "updated_at": {
+                        "seconds": 1772735426
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87809,
+                            "question_id": 19235,
+                            "is_answer": true,
+                            "choice": "一致无偏估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 87810,
+                            "question_id": 19235,
+                            "is_answer": false,
+                            "choice": "一致估计量, 但未必是无偏估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 87811,
+                            "question_id": 19235,
+                            "is_answer": false,
+                            "choice": "无偏估计量, 但未必是一致估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 87812,
+                            "question_id": 19235,
+                            "is_answer": false,
+                            "choice": "未必是无偏估计量, 也未必是一致估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.4,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 18663,
+                    "ai_tags": "数理统计,点估计,估计量的性质"
+                },
+                {
+                    "id": 19236,
+                    "subject_id": 3,
+                    "chapter_id": 394,
+                    "question_id": "e7dbdfe8-1a81-4c54-9b96-db58edcd75d3",
+                    "difficulty": "Medium",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, \\cdots, X_n$ 是来自总体 $X$ 的样本, $\\bar{X}=\\frac{1}{n} \\sum_{i=1}^n X_i$, 则 $\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^k$ 是 $E(X-E X)^k$ 的 ( ).",
+                    "analysis": "样本 $k$ 阶原点矩 $A_k$ 依概率收敛于总体 $k$ 阶原点矩.\n样本 $k$ 阶中心矩 $B_k$ 是样本 $k$ 阶原点矩 $A_k$ 的函数, 所以根据依概率收敛性质可知, 当总体 $k$ 阶原点矩存在时, 样本 $k$ 阶中心矩 $B_k$ 依概率收敛于总体 $k$ 阶中心矩，即\n$$\n\\lim _{n \\rightarrow \\infty} P\\left\\{\\left|\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^k-E\\left[(X-E X)^k\\right]\\right|<\\varepsilon\\right\\}=0\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340103
+                    },
+                    "question_json": "neu-mathe/4d40225b430848e5b82ea040e14f64a3",
+                    "updated_at": {
+                        "seconds": 1772735426
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87816,
+                            "question_id": 19236,
+                            "is_answer": false,
+                            "choice": "未必是无偏估计量，也未必是一致估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 87817,
+                            "question_id": 19236,
+                            "is_answer": false,
+                            "choice": "无偏估计量，但未必是一致估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 87818,
+                            "question_id": 19236,
+                            "is_answer": false,
+                            "choice": "一致无偏估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 87819,
+                            "question_id": 19236,
+                            "is_answer": true,
+                            "choice": "一致估计量，但未必是无偏估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.24,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 17850,
+                    "ai_tags": "数理统计,点估计,估计量的性质"
+                },
+                {
+                    "id": 19237,
+                    "subject_id": 3,
+                    "chapter_id": 394,
+                    "question_id": "1dc67fc4-82a4-4897-9cad-d36e0ee1a5b8",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, \\cdots, X_n$ 是来自总体 $X$ 的样本, $X$ 的分布为 $P\\{X=k\\}=\\frac{\\lambda^k}{k!} e^{-\\lambda}, k=0,1,2, \\cdots(\\lambda>0)$, 记 $\\bar{X}=\\frac{1}{n} \\sum_{i=1}^n X_i$, $S_n^2=\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$, 则下列结论中错误的是 ( ).",
+                    "analysis": "总体 $X$ 服从的是泊松分布, $E(X)=\\lambda, D(X)=\\lambda$.\\n$\\bar{X}$ 和 $S_n^2$ 分别是总体均值 $\\lambda$ 与总体方差 $\\lambda$ 的矩估计量, 所以都是 $\\lambda$ 一致估计量.\\n样本方差 $S^2$ 是总体方差的无偏估计量, 而 $S_n^2=\\frac{n-1}{n} S^2$, 所以 $S_n^2$ 不是 $\\lambda$ 的无偏估计量, 但是渐近无偏估计量. $\\lambda$ 的极大似然估计量为样本均值 $\\bar{X}$, 所以 $S_n^2$ 不是 $\\lambda$ 的极大似然估计量.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340105
+                    },
+                    "question_json": "neu-mathe/1e514ab8bfb241e09c55d9c4c7ee43f1",
+                    "updated_at": {
+                        "seconds": 1772735427
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87823,
+                            "question_id": 19237,
+                            "is_answer": true,
+                            "choice": "$S_n^2$ 是 $\\lambda$ 的极大似然估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87824,
+                            "question_id": 19237,
+                            "is_answer": false,
+                            "choice": "$S_n^2$ 是 $\\lambda$ 的矩法估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87825,
+                            "question_id": 19237,
+                            "is_answer": false,
+                            "choice": "$S_n^2$ 是 $\\lambda$ 的渐近无偏估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87826,
+                            "question_id": 19237,
+                            "is_answer": false,
+                            "choice": "$S_n^2$ 是 $\\lambda$ 的一致估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.41,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 32419,
+                    "ai_tags": "参数估计,泊松分布,统计量"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 18,
+            "questions": [
+                {
+                    "id": 19238,
+                    "subject_id": 3,
+                    "chapter_id": 394,
+                    "question_id": "1cefc27f-037a-4fbf-8089-33b8705c380e",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 服从参数为 $p$ 的两点分布：$P\\{X=k\\}=p^k(1-p)^{1-k}\\,(k=0,1)$，$X_1, X_2, \\cdots, X_n$ 为来自 $X$ 的样本，$\\bar{X}$ 为样本均值，则以下结论中错误的是（ ）。",
+                    "analysis": "$\\bar{X}$ 是 $p$ 的矩估计量，所以是一致估计量；$E(\\bar{X})=p$，所以 $\\bar{X}$ 又是 $p$ 的无偏估计量。\n似然函数为\n$$\nL(p)=P\\{X=x_1, X=x_2, \\cdots, X=x_n\\}=p^{\\sum_{i=1}^n x_i}(1-p)^{n-\\sum_{i=1}^n x_i}.\n$$\n令 $\\frac{d \\ln L(p)}{d p}=0$，有\n$$\n\\frac{1}{p} \\sum_{i=1}^n X_i-\\frac{1}{1-p}\\left(n-\\sum_{i=1}^n X_i\\right)=0,\n$$\n解得\n$$\np=\\frac{1}{n} \\sum_{i=1}^n X_i.\n$$\n所以 $\\bar{X}$ 是 $p$ 的极大似然估计量。\n一个单独的估计量是无法比较其有效性的。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340110
+                    },
+                    "question_json": "neu-mathe/7acb94fbfc11432199a143e238a8ca55",
+                    "updated_at": {
+                        "seconds": 1772735426
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87830,
+                            "question_id": 19238,
+                            "is_answer": true,
+                            "choice": "$\\bar{X}$ 是 $p$ 的无偏估计量，但不是有效估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87831,
+                            "question_id": 19238,
+                            "is_answer": false,
+                            "choice": "$\\bar{X}$ 是 $p$ 的矩估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87832,
+                            "question_id": 19238,
+                            "is_answer": false,
+                            "choice": "$\\bar{X}$ 是 $p$ 的极大似然估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87833,
+                            "question_id": 19238,
+                            "is_answer": false,
+                            "choice": "$\\bar{X}$ 是 $p$ 的一致估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.6,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 35797,
+                    "ai_tags": "参数估计,极大似然估计,无偏估计"
+                },
+                {
+                    "id": 19239,
+                    "subject_id": 3,
+                    "chapter_id": 394,
+                    "question_id": "7d623dc9-36ee-42f8-a10a-440704025749",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, \\cdots, X_n$ 是来自正态总体 $N(\\mu, \\sigma^2)$ 的样本，$\\bar{X}$ 为样本均值。记 $Y_n=\\sum_{i=1}^n a_i X_i$ (常数 $a_i \\geq 0, i=1,2, \\cdots, n, \\sum_{i=1}^n a_i=1$)，则以下结论错误的是 (    )。",
+                    "analysis": "$$\n\\begin{aligned}\n& E(Y_n)=E(\\bar{X})=\\mu \\\\\n& D(\\bar{X})=\\frac{1}{n} D(X)=\\frac{1}{n} \\sigma^2, \\quad D(Y_n)=\\left(\\sum_{i=1}^n a_i^2\\right) D(X)=\\left(\\sum_{i=1}^n a_i^2\\right) \\sigma^2\n\\end{aligned}\n$$\n由柯西-施瓦茨不等式（Cauchy-Schwarz inequality）\n$$\n\\left(\\sum_{i=1}^n a_i b_i\\right)^2 \\leq \\left(\\sum_{i=1}^n a_i^2\\right) \\left(\\sum_{i=1}^n b_i^2\\right)\n$$\n取 $b_i=1$，有\n$$\n1^2 = \\left(\\sum_{i=1}^n a_i\\right)^2 = \\left(\\sum_{i=1}^n a_i \\cdot 1\\right)^2 \\leq \\left(\\sum_{i=1}^n a_i^2\\right) \\left(\\sum_{i=1}^n 1^2\\right) = n \\sum_{i=1}^n a_i^2\n$$\n即 $\\sum_{i=1}^n a_i^2 \\geq \\frac{1}{n}$。\n所以 $D(Y_n) \\geq D(\\bar{X})$，即 $\\bar{X}$ 在此类线性无偏估计量中方差最小（最有效）。因此 $Y_n$ 一般情况下（除非 $a_i=1/n$）不是有效估计量。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340119
+                    },
+                    "question_json": "neu-mathe/a30401d4d5004c11a5dccd8711816d8c",
+                    "updated_at": {
+                        "seconds": 1772735427
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87837,
+                            "question_id": 19239,
+                            "is_answer": true,
+                            "choice": "$Y_n$ 是 $\\mu$ 的有效估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 87838,
+                            "question_id": 19239,
+                            "is_answer": false,
+                            "choice": "$Y_n$ 是 $\\mu$ 的无偏估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 87839,
+                            "question_id": 19239,
+                            "is_answer": false,
+                            "choice": "$\\bar{X}$ 是 $Y_n$ 中最有效的估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 87840,
+                            "question_id": 19239,
+                            "is_answer": false,
+                            "choice": "$Y_n$ 未必是 $\\mu$ 的一致估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.37,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 33659,
+                    "ai_tags": "数理统计,参数估计,有效性"
+                },
+                {
+                    "id": 19241,
+                    "subject_id": 3,
+                    "chapter_id": 394,
+                    "question_id": "eb9f4340-0479-401a-9b60-41ee13936333",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, \\cdots, X_n$ 是来自总体 $X$ 的样本，记 $\\overline{X^k}=\\frac{1}{n} \\sum_{i=1}^n X_i^k$ （$k$ 为正整数），以下结论中错误的是（）.",
+                    "analysis": "样本矩是总体矩的无偏估计量和一致估计量，即 $\\overline{X^k}$ 是 $E\\left(X^k\\right)$ 的无偏、一致估计量。样本方差是总体方差的无偏估计，即 $S^2=\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$ 是 $D(X)$ 的无偏估计量。$D(X)$ 的矩法估计量为 $S_n^2=\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340121
+                    },
+                    "question_json": "neu-mathe/8319e99f2f2e4044b72e828dfff0392c",
+                    "updated_at": {
+                        "seconds": 1772735426
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87851,
+                            "question_id": 19241,
+                            "is_answer": true,
+                            "choice": "$S_n^2=\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$ 是 $D(X)$ 的矩法估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 87852,
+                            "question_id": 19241,
+                            "is_answer": false,
+                            "choice": "$\\overline{X^k}$ 是 $E\\left(X^k\\right)$ 的无偏估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 87853,
+                            "question_id": 19241,
+                            "is_answer": false,
+                            "choice": "$\\overline{X^k}$ 是 $E\\left(X^k\\right)$ 的一致估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 87854,
+                            "question_id": 19241,
+                            "is_answer": false,
+                            "choice": "$S_n^2=\\frac{1}{n-1} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$ 是 $D(X)$ 的无偏估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.52,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 40705,
+                    "ai_tags": "统计量,参数估计,矩估计"
+                },
+                {
+                    "id": 19242,
+                    "subject_id": 3,
+                    "chapter_id": 394,
+                    "question_id": "3341fef0-c2eb-430e-8f39-af09043f7395",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, \\cdots, X_n$ 是来自于总体 $X$ 的样本, $E(X)=\\mu, D(X)=\\sigma^2$, 其中 $\\mu, \\sigma^2$ 为未知参数, 又 $\\widehat{\\mu_1}=\\bar{X}, \\widehat{\\mu_2}=X_1$, 则下面结论（）是错误的.",
+                    "analysis": "由题可知 $E(\\widehat{\\mu_1})=E(\\widehat{\\mu_2})=\\mu$, 且 $D(\\widehat{\\mu_1})=\\frac{1}{n} \\sigma^2, D(\\widehat{\\mu_2})=\\sigma^2$. 估计量是不能含有总体的未知参数, 故 $\\frac{1}{n} \\sum_{i=1}^n(X_i-\\mu)^2$ 不是估计量.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340121
+                    },
+                    "question_json": "neu-mathe/788016dbda3644ef841fb081dae574e2",
+                    "updated_at": {
+                        "seconds": 1772735427
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87858,
+                            "question_id": 19242,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{n} \\sum_{i=1}^n(X_i-\\mu)^2$ 是 $\\sigma^2$ 的极大似然估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 87859,
+                            "question_id": 19242,
+                            "is_answer": false,
+                            "choice": "$\\widehat{\\mu_1}$ 是 $\\mu$ 的无偏估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 87860,
+                            "question_id": 19242,
+                            "is_answer": false,
+                            "choice": "$\\widehat{\\mu_2}$ 是 $\\mu$ 的无偏估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 87861,
+                            "question_id": 19242,
+                            "is_answer": false,
+                            "choice": "$\\widehat{\\mu_1}$ 比 $\\widehat{\\mu_2}$ 有效",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.69,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 11502,
+                    "ai_tags": "统计量,无偏估计,有效性"
+                },
+                {
+                    "id": 19243,
+                    "subject_id": 3,
+                    "chapter_id": 394,
+                    "question_id": "41ca2b70-81d5-47af-b379-7f8ffcf03095",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设有一批产品, 为估计其废品率 $p$, 随机取一样本 $X_1, X_2, \\cdots, X_n$, 其中 $X_i=\\begin{cases} 1, & \\text{取得废品} \\\\ 0, & \\text{取得合格品} \\end{cases} (i=1,2, \\cdots, n)$, 则有（）。",
+                    "analysis": "$$\nE(\\hat{p})=E(\\bar{X})=E\\left(\\frac{1}{n} \\sum_{i=1}^n X_i\\right)=\\frac{1}{n} \\sum_{i=1}^n E(X_i)=\\frac{1}{n} \\sum_{i=1}^n p=p,\n$$\n所以 $\\hat{p}$ 是 $p$ 的无偏估计量.\n$\\hat{p}$ 是算数平均, 所以根据大数定理可知, $\\hat{p}$ 是 $p$ 的一致无偏估计量.\n事实上，\n$$\nD(\\hat{p})=D(\\bar{X})=D\\left(\\frac{1}{n} \\sum_{i=1}^n X_i\\right)=\\frac{1}{n^2} \\sum_{i=1}^n D(X_i)=\\frac{1}{n^2} \\sum_{i=1}^n p(1-p)=\\frac{1}{n^2} n p(1-p)=\\frac{p q}{n}.\n$$\n对任意给定的 $\\varepsilon>0$, 由切比雪夫不等式有\n$$\nP\\{|\\hat{p}-p| \\geq \\varepsilon\\}=P\\{|\\bar{X}-p| \\geq \\varepsilon\\} \\leq \\frac{1}{\\varepsilon^2} D(\\bar{X})=\\frac{1}{\\varepsilon^2} \\frac{p(1-p)}{n},\n$$\n所以 $\\lim _{n \\rightarrow \\infty} P\\{|\\hat{p}-p| \\geq \\varepsilon\\}=0$, 故 $\\hat{p}=\\bar{X}$ 是废品率 $p$ 的一致无偏估计量.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340122
+                    },
+                    "question_json": "neu-mathe/85de2158269d44118630907b449b46c4",
+                    "updated_at": {
+                        "seconds": 1772735428
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87865,
+                            "question_id": 19243,
+                            "is_answer": true,
+                            "choice": "$\\hat{p}=\\bar{X}=\\frac{1}{n} \\sum_{i=1}^n X_i$ 是 $p$ 的一致无偏估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87866,
+                            "question_id": 19243,
+                            "is_answer": false,
+                            "choice": "$\\hat{p}=\\bar{X}=\\frac{1}{n} \\sum_{i=1}^n X_i$ 不是 $p$ 的一致无偏估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87867,
+                            "question_id": 19243,
+                            "is_answer": false,
+                            "choice": "不能确定 $\\hat{p}=\\bar{X}=\\frac{1}{n} \\sum_{i=1}^n X_i$ 是 $p$ 的一致无偏估计量.",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87868,
+                            "question_id": 19243,
+                            "is_answer": false,
+                            "choice": "其他结论均不正确",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 59366,
+                    "ai_tags": "参数估计,无偏估计,一致估计"
+                },
+                {
+                    "id": 19244,
+                    "subject_id": 3,
+                    "chapter_id": 394,
+                    "question_id": "c4646d2b-7277-423a-a786-ce1cb6f08468",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2$ 是来自正态总体 $N(\\mu, 1)$ 的样本，则对统计量\n$$\n\\widehat{\\mu_1}=\\frac{2}{3} X_1+\\frac{1}{3} X_2, \\widehat{\\mu_2}=\\frac{1}{4} X_1+\\frac{3}{4} X_2, \\widehat{\\mu_3}=\\frac{1}{2} X_1+\\frac{1}{2} X_2,\n$$\n则下列结论中错误的是（    ）.",
+                    "analysis": "依题可得，$E(\\widehat{\\mu_1})=E(\\widehat{\\mu_2})=E(\\widehat{\\mu_3})=\\mu$，\n$$\n\\begin{aligned}\n& D(\\widehat{\\mu_1})=\\frac{5}{9} D(X) \\approx 0.556 D(X), \\\\\n& D(\\widehat{\\mu_2})=\\frac{10}{16} D(X)=0.625 D(X), \\\\\n& D(\\widehat{\\mu_3})=\\frac{2}{4} D(X)=0.5 D(X), \\\\\n& D\\left[\\frac{\\widehat{\\mu_1}+\\widehat{\\mu_2}}{2}\\right]=\\frac{290}{576} D(X) \\approx 0.503 D(X),\n\\end{aligned}\n$$\n由于样本容量已经固定，$\\widehat{\\mu_1}, \\widehat{\\mu_2}, \\widehat{\\mu_3}$ 的估计与 $n$ 无关，故不存在相合性评价。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340127
+                    },
+                    "question_json": "neu-mathe/1a2ba2aee02348d5a9416d9cb8a20df7",
+                    "updated_at": {
+                        "seconds": 1772735426
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87872,
+                            "question_id": 19244,
+                            "is_answer": true,
+                            "choice": "$\\widehat{\\mu_1}, \\widehat{\\mu_2}, \\widehat{\\mu_3}$ 都是 $\\mu$ 的一致估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87873,
+                            "question_id": 19244,
+                            "is_answer": false,
+                            "choice": "$\\widehat{\\mu_1}, \\widehat{\\mu_2}, \\widehat{\\mu_3}$ 都是 $\\mu$ 的无偏估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87874,
+                            "question_id": 19244,
+                            "is_answer": false,
+                            "choice": "$\\widehat{\\mu_3}$ 比 $\\widehat{\\mu_1}, \\widehat{\\mu_2}$ 更有效",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87875,
+                            "question_id": 19244,
+                            "is_answer": false,
+                            "choice": "$\\widehat{\\mu_3}$ 比 $\\frac{\\widehat{\\mu_1}+\\widehat{\\mu_2}}{2}$ 更有效",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.39,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 8994,
+                    "ai_tags": "点估计,无偏估计,有效性"
+                },
+                {
+                    "id": 19246,
+                    "subject_id": 3,
+                    "chapter_id": 394,
+                    "question_id": "9e119072-c2a9-4b81-bb3c-59e432a422d4",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设有一批产品，为估计其废品率 $p$，随机取一样本 $X_1, X_2, \\cdots, X_n$，其中 $X_i = \\begin{cases} 1, & \\text{取得废品} \\\\ 0, & \\text{取得合格品} \\end{cases}, i=1, 2, \\cdots, n$，则下列说法正确的是（）。",
+                    "analysis": "因为 $E(\\bar{X})=\\frac{1}{n} \\sum_{i=1}^n E(X_i)=p$，所以 $\\hat{p}=\\bar{X}$ 是 $p$ 的无偏估计量。\n又\n$$\nD(\\bar{X})=\\frac{1}{n^2} \\sum_{i=1}^n D(X_i)=\\frac{1}{n^2} \\sum_{i=1}^n p(1-p)=\\frac{p(1-p)}{n}\n$$\n所以，由切比雪夫不等式，有\n$$\nP\\{|\\hat{p}-p| \\geq \\varepsilon\\}=P\\{|\\bar{X}-p| \\geq \\varepsilon\\} \\leq \\frac{1}{\\varepsilon^2} D(\\bar{X})=\\frac{p(1-p)}{n \\varepsilon^2}\n$$\n从而对任意给定的 $\\varepsilon>0$，总有\n$$\n\\lim _{n \\rightarrow \\infty} P\\{|\\hat{p}-p| \\geq \\varepsilon\\}=0\n$$\n故 $\\hat{p}=\\bar{X}$ 又是废品率 $p$ 的一致估计量。\n$\\hat{p}=\\bar{X}+p(1-p), \\hat{p}=p, \\hat{p}=\\bar{X}-p$ 均与未知参数 $p$ 有关，所以都不是估计量。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340135
+                    },
+                    "question_json": "neu-mathe/091990bb63694cc286a856a23662e9fa",
+                    "updated_at": {
+                        "seconds": 1772735426
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87886,
+                            "question_id": 19246,
+                            "is_answer": true,
+                            "choice": "$\\hat{p}=\\bar{X}$ 是废品率 $p$ 的一致无偏估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 87887,
+                            "question_id": 19246,
+                            "is_answer": false,
+                            "choice": "$\\hat{p}=\\bar{X}+p(1-p)$ 是废品率 $p$ 的一致无偏估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 87888,
+                            "question_id": 19246,
+                            "is_answer": false,
+                            "choice": "$\\hat{p}=p$ 是废品率 $p$ 的一致无偏估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        },
+                        {
+                            "id": 87889,
+                            "question_id": 19246,
+                            "is_answer": false,
+                            "choice": "$\\hat{p}=\\bar{X}-p$ 是废品率 $p$ 的一致无偏估计量",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080694
+                            },
+                            "updated_at": {
+                                "seconds": 1735080694
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.74,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 49563,
+                    "ai_tags": "参数估计,无偏估计,一致估计"
+                },
+                {
+                    "id": 19260,
+                    "subject_id": 3,
+                    "chapter_id": 394,
+                    "question_id": "04d54185-baf6-4f4a-82be-31f9f9a8fda5",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "总体 $X$ 在区间 $[0, \\theta]$ 上均匀分布, $X_1, X_2, \\cdots, X_n$ 是它的样本, 则下列估计量 $\\hat{\\theta}$ 是 $\\theta$ 的一致估计量的是（）.",
+                    "analysis": "$\\hat{\\theta}=2 \\bar{X}=\\frac{2}{n} \\sum_{i=1}^n X_i$ 是 $\\theta$ 的矩估计量，是 $\\theta$ 的一致估计量。\n$\\hat{\\theta}=X_n, \\hat{\\theta}=2 X_n$ 与 $\\bar{X}=\\frac{1}{n} \\sum_{i=1}^n X_i$ 无关，所以 $\\hat{\\theta}=X_n, \\hat{\\theta}=2 X_n$ 都不是 $\\theta$ 的一致估计量。\n因为\n$$\nF_X(x)=\\begin{cases}\n0, & x<0 \\\\\n\\frac{x}{\\theta}, & 0 \\leq x \\leq \\theta \\\\\n1, & x>\\theta\n\\end{cases}\n$$\n所以\n$$\nF_{\\max \\{X_1, X_2, \\cdots, X_n\\}}(x)=F_{X_1}(x) F_{X_2}(x) \\cdots F_{X_n}(x)=[F_X(x)]^n\n$$\n而\n$$\n\\begin{aligned}\nP\\left\\{|\\max \\{X_1, X_2, \\cdots, X_n\\}-\\theta|<\\varepsilon\\right\\} &= P\\left(-\\varepsilon+\\theta<\\max \\{X_1, X_2, \\cdots, X_n\\}<\\varepsilon+\\theta\\right) \\\\\n&= F(\\varepsilon+\\theta)-F(-\\varepsilon+\\theta) \\\\\n&= 1-\\left(1-\\frac{\\varepsilon}{\\theta}\\right)^n\n\\end{aligned}\n$$\n所以，对任意 $\\varepsilon>0$，总有\n$$\n\\lim _{n \\rightarrow+\\infty} P\\left\\{|\\max \\{X_1, X_2, \\cdots, X_n\\}-\\theta|<\\varepsilon\\right\\}=1\n$$\n故 $\\hat{\\theta}=\\max \\{X_1, X_2, \\cdots, X_n\\}$ 是 $\\theta$ 的一致估计量。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340169
+                    },
+                    "question_json": "neu-mathe/eb55778e6dcf4105bf2d86dc3898f516",
+                    "updated_at": {
+                        "seconds": 1775671213
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87984,
+                            "question_id": 19260,
+                            "is_answer": true,
+                            "choice": "$\\widehat{\\theta}=\\max \\left\\{X_1, X_2, \\cdots, X_n\\right\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87985,
+                            "question_id": 19260,
+                            "is_answer": false,
+                            "choice": "$\\widehat{\\theta}=X_n$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87986,
+                            "question_id": 19260,
+                            "is_answer": false,
+                            "choice": "$\\widehat{\\theta}=2 X_n$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87987,
+                            "question_id": 19260,
+                            "is_answer": false,
+                            "choice": "$\\hat{\\theta}=\\bar{X}=\\frac{1}{n} \\sum_{i=1}^n X_i$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.28,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 8415,
+                    "tags": "",
+                    "ai_tags": "一致估计量,均匀分布,次序统计量"
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,1450 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 17,
+            "questions": [
+                {
+                    "id": 13606,
+                    "subject_id": 3,
+                    "chapter_id": 299,
+                    "question_id": "cfc91d7f-4d49-44a6-aa48-b174da402b61",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "设随机变量 $\\xi$ 的密度函数为 $\\varphi(x)=\\left\\{\\begin{array}{cc}0.015 e^{-0.015 x}, & x>0 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$, 则 $P\\{\\xi>200\\}=()$.",
+                    "analysis": "由对立事件的概率计算有，\n$$\nP\\{\\xi>200\\}=1-P\\{\\xi \\leq 200\\},\n$$\n\n又根据概率密度的概率计算 $P\\{X \\leq a\\}=\\int_{-\\infty}^a f(x) d x$ 得\n$$\nP\\{\\xi>200\\}=1-P\\{\\xi \\leq 200\\}=1-\\int_{-\\infty}^{200} f(x) d x=1-\\int_0^{200} 0.015 e^{-0.015 x} d x=e^{-3} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/b803ae8ac6b349f6a30e726a18e8331e",
+                    "updated_at": {
+                        "seconds": 1775586658
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54423,
+                            "question_id": 13606,
+                            "is_answer": false,
+                            "choice": "$1-e^{-3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54422,
+                            "question_id": 13606,
+                            "is_answer": false,
+                            "choice": "$1-e^{-1 / 3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54421,
+                            "question_id": 13606,
+                            "is_answer": false,
+                            "choice": "$e^{-1 / 3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54424,
+                            "question_id": 13606,
+                            "is_answer": true,
+                            "choice": "$e^{-3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.61,
+                    "difficulty_score": 0.37,
+                    "avg_time_spent": 185835,
+                    "ai_tags": "指数分布,概率密度,随机变量"
+                },
+                {
+                    "id": 13607,
+                    "subject_id": 3,
+                    "chapter_id": 299,
+                    "question_id": "671461da-2a0a-4e7b-bdf0-36f052f560a3",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "连续型随机变量 $X$ 的概率密度为 $f(x)=\\left\\{\\begin{array}{cc}\\lambda e^{-3 x}, & x>0 \\\\ 0, & x \\leq 0\\end{array}\\right.$, 则 $P\\{X \\leq 0.1\\}=()$.",
+                    "analysis": "由概率密度的性质 $\\int_{-\\infty}^{+\\infty} f(x) d x=1$, 得\n$$\n\\int_{-\\infty}^{+\\infty} f(x) d x=\\int_0^{+\\infty} \\lambda e^{-3 x} d x=1 \\Rightarrow \\lambda=3,\n$$\n\n所以,\n$$\nP\\{X \\leq 0.1\\}=\\int_{-\\infty}^{0.1} f(x) d x=\\int_0^{0.1} 3 e^{-3 x} d x=1-e^{-0.3} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/05e439bfaa2b4f239f78fdec386a27ee",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54425,
+                            "question_id": 13607,
+                            "is_answer": true,
+                            "choice": "$1-e^{-0.3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54427,
+                            "question_id": 13607,
+                            "is_answer": false,
+                            "choice": "$e^{-0.3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54428,
+                            "question_id": 13607,
+                            "is_answer": false,
+                            "choice": "$1-e^{-3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54426,
+                            "question_id": 13607,
+                            "is_answer": false,
+                            "choice": "$e^{-3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.74,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 59693,
+                    "ai_tags": "概率密度函数,指数分布,定积分"
+                },
+                {
+                    "id": 13608,
+                    "subject_id": 3,
+                    "chapter_id": 299,
+                    "question_id": "d052871a-b1da-43b6-86f7-0cee1132f54b",
+                    "difficulty": "Medium",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "某元件的寿命 $X$ 服从指数分布, 已知其参数 $\\lambda=1 / 1000$, 求 3 个这样的元件使用 1000 小时, 至少已有一个损坏的概率为 ().",
+                    "analysis": "由题设知， $X$ 的分布函数为 $F(x)=\\left\\{\\begin{array}{cc}1-e^{-\\frac{x}{1000}}, & x \\geq 0 \\\\ 0, & x<0\\end{array}\\right.$.\n由此得到\n$$\nP\\{X>1000\\}=1-P\\{X \\leq 1000\\}=1-F(1000)=e^{-1}\n$$\n\n各元件的寿命是否超过 1000 小时是独立的，用 $Y$ 表示三个元件中使用 1000 小时损坏的元件数，则\n$$\nY \\sim b\\left(3,1-e^{-1}\\right)\n$$\n\n所求概率为\n$$\nP\\{Y \\geq 1\\}=1-P\\{Y=0\\}=1-C_3^0\\left(1-e^{-1}\\right)^0\\left(e^{-1}\\right)^3=1-e^{-3} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/ac28a625a9a044568764fecddfd76ace",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54432,
+                            "question_id": 13608,
+                            "is_answer": false,
+                            "choice": "$1-e^{-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54430,
+                            "question_id": 13608,
+                            "is_answer": true,
+                            "choice": "$1-e^{-3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54431,
+                            "question_id": 13608,
+                            "is_answer": false,
+                            "choice": "$1-e^{-2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54429,
+                            "question_id": 13608,
+                            "is_answer": false,
+                            "choice": "$1-e^{-4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.83,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 97284,
+                    "ai_tags": "指数分布,二项分布,独立事件"
+                },
+                {
+                    "id": 13622,
+                    "subject_id": 3,
+                    "chapter_id": 299,
+                    "question_id": "1a1a934f-ee31-4e68-8124-6f0bb3836a71",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某公共汽车站从上午7时起, 每15分钟来一班车, 即7:00, 7:15, 7:30, 7:45等时刻有汽车到达此站, 如果乘客到达此站时间 $X$ 是 $7: 00$ 到 $7: 30$ 之间的均匀随机变量, 则他候车时间少于 5 分钟的概率为 ().",
+                    "analysis": "以 $7: 00$ 为起点 0 , 以分为单位, 依题意 $X \\sim U(0,30), \\quad f(x)=\\left\\{\\begin{array}{cc}\\frac{1}{30}, & 0<x<30 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$.为使候车时间少于 5 分钟, 乘客必须在 $7: 10$ 到 $7: 15$ 之间, 或在 $7: 25$ 到 $7: 30$ 之间到达车站, 故所求概率为\n$$\nP\\{10<X<15\\}+P\\{25<X<30\\}=\\int_{10}^{15} \\frac{1}{30} d x+\\int_{25}^{30} \\frac{1}{30} d x=\\frac{1}{3},\n$$\n\n即乘客候车时间少于 5 分钟的概率是 $1 / 3$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/dd4c4170291f4c358bc56f36b7d196b9",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54485,
+                            "question_id": 13622,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54488,
+                            "question_id": 13622,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54486,
+                            "question_id": 13622,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54487,
+                            "question_id": 13622,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.76,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 97169,
+                    "ai_tags": "均匀分布,概率计算"
+                },
+                {
+                    "id": 19078,
+                    "subject_id": 3,
+                    "chapter_id": 299,
+                    "question_id": "77bed07f-63ab-426b-a288-48b155327790",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "若随机变量 $\\xi \\sim U[1,6]$, 则方程 $x^2+\\xi x+1=0$ 有实根的概率为 ( ).",
+                    "analysis": "要使 $x^2+\\xi x+1=0$ 有实根, 则必须满足 $b^2-4 a c=\\xi^2-4 \\geq 0$, 即有实根的概率为 $P\\left\\{\\xi^2-4 \\geq 0\\right\\}=P\\{\\xi \\geq 2\\}+P\\{\\xi \\leq-2\\}=\\frac{4}{5}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339728
+                    },
+                    "question_json": "neu-mathe/e2b42f8141bb48538b6df641b116b8bd",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86710,
+                            "question_id": 19078,
+                            "is_answer": true,
+                            "choice": "$\\frac{4}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86711,
+                            "question_id": 19078,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86712,
+                            "question_id": 19078,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86713,
+                            "question_id": 19078,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.84,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 81458,
+                    "ai_tags": "均匀分布,一元二次方程,概率"
+                },
+                {
+                    "id": 19079,
+                    "subject_id": 3,
+                    "chapter_id": 299,
+                    "question_id": "eff07bee-a6d0-43ee-866a-9da963669b7a",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $K$ 服从均匀分布 $U[0,10]$, 方程 $x^2+K x+1=0$ 无实根的概率是 ( ).",
+                    "analysis": "一元二次方程 $x^2+K x+1=0$ 有实根的充要条件是 $K^2-4 \\geq 0$, 所以方程无实根的概率为\n$$\nP\\left\\{K^2-4<0\\right\\}=P\\{-2 \\leq K \\leq 2\\}=\\int_0^2 \\frac{1}{10} d x=0.2 .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339734
+                    },
+                    "question_json": "neu-mathe/02496eb4648c45c7be1a2a9b971586db",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86717,
+                            "question_id": 19079,
+                            "is_answer": true,
+                            "choice": "$0.2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86718,
+                            "question_id": 19079,
+                            "is_answer": false,
+                            "choice": "$0.8$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86719,
+                            "question_id": 19079,
+                            "is_answer": false,
+                            "choice": "$0.9$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86720,
+                            "question_id": 19079,
+                            "is_answer": false,
+                            "choice": "$0.7$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.85,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 62345,
+                    "tags": "",
+                    "ai_tags": "均匀分布,一元二次方程,概率"
+                },
+                {
+                    "id": 19083,
+                    "subject_id": 3,
+                    "chapter_id": 299,
+                    "question_id": "a3204fa7-fef2-4339-9dcf-2fcc07e66f14",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $\\xi$ 在 $[-3,5]$ 上服从均匀分布, 事件 $B$ 为 \"方程 $x^2-\\xi x+1=0$ 有实根\", 则 $P(B)=()$.",
+                    "analysis": "一元二次方程 $x^2-\\xi x+1=0$ 有实根的充要条件是\n$$\n\\xi^2-4 \\geq 0,\n$$\n\n又 $\\xi$ 为随机变量, 所以方程有实根的概率 $P(B)$ 为\n$$\n\\begin{aligned}\nP(B) & =P\\left\\{\\xi^2-4 \\geq 0\\right\\}=P\\{\\xi \\leq-2 \\text { 或 } \\xi \\geq 2\\} \\\\\n& =P\\{\\xi \\leq-2\\}+P\\{\\xi \\geq 2\\} \\\\\n& =\\int_{-3}^{-2} \\frac{1}{8} d x+\\int_2^5 \\frac{1}{8} d x=\\frac{1}{2} .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339745
+                    },
+                    "question_json": "neu-mathe/b06fb4b0967a430abd4dde112b08e66b",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86745,
+                            "question_id": 19083,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86746,
+                            "question_id": 19083,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86747,
+                            "question_id": 19083,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{8}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86748,
+                            "question_id": 19083,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.83,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 34654,
+                    "tags": "",
+                    "ai_tags": "均匀分布,一元二次方程,概率"
+                },
+                {
+                    "id": 19084,
+                    "subject_id": 3,
+                    "chapter_id": 299,
+                    "question_id": "5b2c8bc0-b7f3-4c20-b42b-9d852c44aa2e",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $\\xi$ 服从参数 $\\lambda=2$ 的指数分布, 则 $P\\{\\xi \\geq 1\\}=()$.",
+                    "analysis": "由对立事件的概率计算公式有\n$$\nP\\{\\xi \\geq 1\\}=1-P\\{\\xi<1\\},\n$$\n而 $P\\{\\xi<1\\}=\\int_{-\\infty}^1 f(x) d x=\\int_0^1 2 e^{-2 x} d x=1-e^{-2}$,\n故 $P\\{\\xi \\geq 1\\}=1-P\\{\\xi<1\\} = 1-\\left(1-e^{-2}\\right)=e^{-2}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339745
+                    },
+                    "question_json": "neu-mathe/f007226e05414253bb8d9619560a61d8",
+                    "updated_at": {
+                        "seconds": 1775586663
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86752,
+                            "question_id": 19084,
+                            "is_answer": true,
+                            "choice": "$e^{-2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86753,
+                            "question_id": 19084,
+                            "is_answer": false,
+                            "choice": "$1-e^{-2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86754,
+                            "question_id": 19084,
+                            "is_answer": false,
+                            "choice": "$1-e^{-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86755,
+                            "question_id": 19084,
+                            "is_answer": false,
+                            "choice": "$e^{-1}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.69,
+                    "difficulty_score": 0.37,
+                    "avg_time_spent": 52577,
+                    "ai_tags": "指数分布,概率计算"
+                },
+                {
+                    "id": 19085,
+                    "subject_id": 3,
+                    "chapter_id": 299,
+                    "question_id": "941950aa-5d62-45fa-bc50-fdb1beecb2d1",
+                    "difficulty": "Medium",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "设一个汽车站上, 某路公共汽车每5分钟有一辆车到达, 设乘客在5分钟内任一时间到达是等可能的, 试计算在车站候车的 5 位乘客中只有 1 位等待时间超过 4 分钟的概率是 ().",
+                    "analysis": "设 $X$ 为每位乘客的候车时间, 则 $X$ 服从 $[0,5]$ 上的均匀分布. 设 $Y$ 表示车站上 5 位乘客中等待时间超过 4 分钟的人数. 由于每人到达时间是相互独立的, 所以这是 5 重伯努利概型. $Y$ 服从参数为 $n=5, p=P\\{X \\geq 4\\}=0.2$ 的二项分布, 所以\n$$\nP\\{Y=1\\}=C_5^1 \\times 0.2 \\times 0.8^4=0.4096\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339747
+                    },
+                    "question_json": "neu-mathe/869cd779f079469aa94bf6daa3c3f390",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86759,
+                            "question_id": 19085,
+                            "is_answer": false,
+                            "choice": "$0.5904$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86760,
+                            "question_id": 19085,
+                            "is_answer": false,
+                            "choice": "$0.336$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86761,
+                            "question_id": 19085,
+                            "is_answer": true,
+                            "choice": "$0.4096$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86762,
+                            "question_id": 19085,
+                            "is_answer": false,
+                            "choice": "$0.752$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.88,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 118062,
+                    "ai_tags": "均匀分布,二项分布,伯努利概型"
+                },
+                {
+                    "id": 19088,
+                    "subject_id": 3,
+                    "chapter_id": 299,
+                    "question_id": "a343a7a1-fe13-47bf-a4d1-7d8c5e8fcff7",
+                    "difficulty": "Medium",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "已知 $X \\sim f(x)=\\begin{cases} c \\lambda e^{-\\lambda x}, & x>a \\\\ 0, & \\text{其它} \\end{cases} (\\lambda>0)$, 关于常数 $c$ 及 $P\\{a-1<X \\leq a+1\\}$, 下列说法正确的是 ( ).",
+                    "analysis": "由概率密度函数的性质知 $\\int_{-\\infty}^{+\\infty} f(x) d x=1$, 而\n$$\n\\begin{aligned}\n\\int_{-\\infty}^{+\\infty} f(x) d x &= \\int_{-\\infty}^a 0 d x+\\int_a^{+\\infty} c \\lambda e^{-\\lambda x} d x \\\\\n&= c \\int_a^{+\\infty} e^{-\\lambda x} d(\\lambda x) = -c e^{-\\lambda x}\\Big|_a ^{+\\infty} = c e^{-\\lambda a}\n\\end{aligned}\n$$\n所以 $c e^{-\\lambda a}=1$, 从而 $c=e^{\\lambda a}$. 于是\n$$\n\\begin{aligned}\nP\\{a-1<X \\leq a+1\\} &= \\int_{a-1}^{a+1} f(x) d x = \\int_{a-1}^a 0 d x+\\int_a^{a+1} \\lambda e^{\\lambda a} e^{-\\lambda x} d x \\\\\n&= -e^{\\lambda a} e^{-\\lambda x}\\Big|_a ^{a+1} = -e^{\\lambda a}\\left(e^{-\\lambda(a+1)}-e^{-\\lambda a}\\right) = 1-e^{-\\lambda} .\n\\end{aligned}\n$$\n注意, $a-1<a$, 而当 $x<a$ 时, $f(x)=0$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339753
+                    },
+                    "question_json": "neu-mathe/e06720a76ea2417685f1d3b4b2e6dfa3",
+                    "updated_at": {
+                        "seconds": 1775586662
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86780,
+                            "question_id": 19088,
+                            "is_answer": false,
+                            "choice": "$P\\{a-1<X \\leq a+1\\}=e^{-\\lambda}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86781,
+                            "question_id": 19088,
+                            "is_answer": false,
+                            "choice": "$c=e^{\\lambda a}-2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86782,
+                            "question_id": 19088,
+                            "is_answer": true,
+                            "choice": "$P\\{a-1<X \\leq a+1\\}=1-e^{-\\lambda}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86783,
+                            "question_id": 19088,
+                            "is_answer": false,
+                            "choice": "$c=e^{\\lambda a}+1$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.65,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 324552,
+                    "ai_tags": "概率密度函数,连续型随机变量,概率计算"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 17,
+            "questions": [
+                {
+                    "id": 19089,
+                    "subject_id": 3,
+                    "chapter_id": 299,
+                    "question_id": "ecf46de3-ef4b-4d8a-ad7e-84844f68c6a8",
+                    "difficulty": "Medium",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "设顾客排队等待服务的时间 $X$ (以分钟计)服从 $\\lambda=1/5$ 的指数分布，某顾客等待服务，若超过 10 分钟，他就离开。他一个月要去等待服务 5 次，以 $Y$ 表示一个月内他未等到服务而离开的次数，关于 $Y$ 的概率分布和 $P\\{Y \\geq 1\\}$，下列说法正确的是 ( ).",
+                    "analysis": "$\\begin{aligned} & P\\{X \\geq 10\\}=1-P\\{X<10\\}=1-\\left(1-e^{-1/5 \\times 10}\\right)=e^{-2}, \\\\ & \\therefore P\\{Y=k\\}=C_5^k\\left(e^{-2}\\right)^k\\left(1-e^{-2}\\right)^{5-k}, k=0,1,2,3,4,5, \\\\ & \\quad P\\{Y \\geq 1\\}=1-\\left(1-e^{-2}\\right)^5 \\approx 0.5167 .\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339757
+                    },
+                    "question_json": "neu-mathe/97ab4f5dc6944e1db809e2be3cc3254f",
+                    "updated_at": {
+                        "seconds": 1775586659
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86787,
+                            "question_id": 19089,
+                            "is_answer": false,
+                            "choice": "$P\\{Y=k\\}=\\left(e^{-2}\\right)^k\\left(1-e^{-2}\\right)^{5-k}, k=0,1,2,3,4,5$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86788,
+                            "question_id": 19089,
+                            "is_answer": false,
+                            "choice": "$P\\{Y \\geq 1\\}=0.46$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86789,
+                            "question_id": 19089,
+                            "is_answer": true,
+                            "choice": "$P\\{Y=k\\}=C_5^k\\left(e^{-2}\\right)^k\\left(1-e^{-2}\\right)^{5-k}, k=0,1,2,3,4,5$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86790,
+                            "question_id": 19089,
+                            "is_answer": false,
+                            "choice": "$P\\{Y \\geq 1\\}=0.33$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.9,
+                    "difficulty_score": 0.37,
+                    "avg_time_spent": 102068,
+                    "ai_tags": "指数分布,二项分布"
+                },
+                {
+                    "id": 19090,
+                    "subject_id": 3,
+                    "chapter_id": 299,
+                    "question_id": "a342761e-b7a7-404a-b2d4-c8374aaa8b11",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某仪器装有三只独立工作的同型号电子元件, 其寿命 (单位: 小时) 都服从同一指数分布, 密度函数为\n$$\nf(x)=\\left\\{\\begin{array}{cc}\n\\frac{1}{600} e^{-\\frac{x}{600}}, & x>0 \\\\\n0, & x \\leq 0\n\\end{array},\\right.\n$$\n\n试求在仪器使用的最初 200 小时内, 至少有一只电子元件损坏的概率 $a=()$.",
+                    "analysis": "设 $A_i$ 表示事件 \"在仪器使用最初 200 小时内, 第 $i$ 个元件损坏\" $(i=1,2,3)$ 以 $X_i(i=1,2,3)$ 表示第 $i$ 个元件使用寿命. 由条件知 $X_i$ 都服从密度为 $f(x)$ 的指数分布.\n$$\n\\begin{aligned}\n& P\\left(A_i\\right)=P\\left\\{X_i \\leq 200\\right\\}=\\int_0^{200} \\frac{1}{600} e^{-\\frac{x}{600}} d x=1-e^{-1 / 3} \\\\\n& P\\left(\\overline{A_i}\\right)=e^{-1 / 3},\n\\end{aligned}\n$$\n\n因此 $a=P\\left(A_1 \\cup A_2 \\cup A_3\\right)=1-P\\left(\\overline{A_1} \\bar{A}_2 \\bar{A}_3\\right)=1-\\left(e^{-1 / 3}\\right)^3=1-1 / e$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339758
+                    },
+                    "question_json": "neu-mathe/2ea5e16883664c389a5df24ac8e7b78c",
+                    "updated_at": {
+                        "seconds": 1775586667
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86794,
+                            "question_id": 19090,
+                            "is_answer": true,
+                            "choice": "$1-1/e$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86795,
+                            "question_id": 19090,
+                            "is_answer": false,
+                            "choice": "$2/e$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86796,
+                            "question_id": 19090,
+                            "is_answer": false,
+                            "choice": "$1/2-1/e$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86797,
+                            "question_id": 19090,
+                            "is_answer": false,
+                            "choice": "$1/e$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.92,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 117555,
+                    "ai_tags": "指数分布,独立性,概率计算"
+                },
+                {
+                    "id": 19091,
+                    "subject_id": 3,
+                    "chapter_id": 299,
+                    "question_id": "acb91b97-eab7-41be-8b9b-104ec278bd19",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X_1$ 服从区间 $[0,5]$ 上的均匀分布, $X_2$ 服从区间 $[-2,2]$ 上的均匀分布, 且 $A=\\left\\{X_1 \\leq 3\\right\\}, B=\\left\\{X_2>0\\right\\}$, $P(A B)=0.3$, 则 $P(\\bar{A} \\cup \\bar{B})=()$.",
+                    "analysis": "解法一：\n$$\nP(\\bar{A} \\cup \\bar{B}) = 1 - P(\\overline{\\bar{A} \\cup \\bar{B}}) = 1 - P(AB) = 0.7.\n$$\n\n解法二：\n$$\nP(\\bar{A} \\cup \\bar{B}) = P(\\bar{A}) + P(\\bar{B}) - P(\\bar{A} \\bar{B}) = 2 - P(A) - P(B) - (1 - P(A \\cup B)) = 1 - P(AB) = 1 - 0.3 = 0.7.\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339760
+                    },
+                    "question_json": "neu-mathe/d1c441c8b93f4d60aa939835f6a6f915",
+                    "updated_at": {
+                        "seconds": 1775673109
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86801,
+                            "question_id": 19091,
+                            "is_answer": true,
+                            "choice": "$0.7$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86802,
+                            "question_id": 19091,
+                            "is_answer": false,
+                            "choice": "$0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86803,
+                            "question_id": 19091,
+                            "is_answer": false,
+                            "choice": "$0.4$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86804,
+                            "question_id": 19091,
+                            "is_answer": false,
+                            "choice": "$0.8$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.91,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 86927,
+                    "ai_tags": "概率的基本性质,均匀分布"
+                },
+                {
+                    "id": 19098,
+                    "subject_id": 3,
+                    "chapter_id": 299,
+                    "question_id": "d4bc3bfb-3ee8-4666-a866-08eccb1bc77a",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X_1, X_2$ 都服从区间 $[0,3]$ 上的均匀分布, 且 $A=\\left\\{X_1 \\leq 3\\right\\}, B=\\left\\{X_2 \\leq 3\\right\\}, P(AB)=1$, 则 $P(\\bar{A} \\bar{B})=(\\quad)$.",
+                    "analysis": "$P(\\bar{A} \\bar{B})=P(\\overline{A \\cup B})=1-P(A \\cup B)=1-(P(A)+P(B)-P(A B))=1-[1+1-1]=0$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339786
+                    },
+                    "question_json": "neu-mathe/7348a9237cff482a91731910fc416b4e",
+                    "updated_at": {
+                        "seconds": 1775673114
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86850,
+                            "question_id": 19098,
+                            "is_answer": true,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86851,
+                            "question_id": 19098,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86852,
+                            "question_id": 19098,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86853,
+                            "question_id": 19098,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{16}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 52207,
+                    "ai_tags": "概率论,随机事件,均匀分布"
+                },
+                {
+                    "id": 19109,
+                    "subject_id": 3,
+                    "chapter_id": 299,
+                    "question_id": "81b08ed7-aa65-4273-830e-4b50e1dab0cf",
+                    "difficulty": "Medium",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "设 $K$ 在 $(0,5)$ 上服从均匀分布, 求 $x$ 的方程 $4 x^2+4 K x+K+2=0$ 有实根的概率为 $(\\quad)$.",
+                    "analysis": "因为 $K \\sim U(0,5)$, 所以 $f_K(k)=\\begin{cases} \\frac{1}{5}, & 0<k<5 \\\\ 0, & \\text{其它} \\end{cases}$,\n方程 $4 x^2+4 K x+K+2=0$ 有实根的充要条件为 $(4 K)^2-4 \\cdot 4(K+2) \\geq 0$, 即\n$$\nK^2-K-2 \\geq 0,\n$$\n亦即 $(K-2)(K+1) \\geq 0$, 解得 $K \\geq 2$ ($K \\leq -1$ 舍去), 所以 $P\\{ \\text{方程有实根} \\}=P\\{ K \\geq 2 \\}=\\int_2^5 \\frac{1}{5} dx=\\frac{3}{5}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339801
+                    },
+                    "question_json": "neu-mathe/6b4cbfb8ba494d388139cc5e187b6e42",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86927,
+                            "question_id": 19109,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86928,
+                            "question_id": 19109,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86929,
+                            "question_id": 19109,
+                            "is_answer": true,
+                            "choice": "$\\frac{3}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86930,
+                            "question_id": 19109,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 62400,
+                    "ai_tags": "均匀分布,一元二次方程"
+                },
+                {
+                    "id": 19112,
+                    "subject_id": 3,
+                    "chapter_id": 299,
+                    "question_id": "d4c846b8-c675-4e75-813d-4f936f9ac0f6",
+                    "difficulty": "Medium",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "使用了 $x$ 小时的电子管, 在以后的 $\\Delta x$ 小时内损坏的概率等于 $\\lambda \\Delta x+o(\\Delta x)$, 其中 $\\lambda>0$ 是常数, 设电子管在损坏前已使用时数 $X$ 的分布函数为 $F(x)$, 则电子管在 $T$ 小时内损坏的概率为 ( ).",
+                    "analysis": "因 $X$ 的可能取值充满区间 $(0,+\\infty)$, 故应分段求 $F(x)=P\\{X \\leq x\\}$.\n当 $x \\leq 0$ 时, $F(x)=P\\{X \\leq x\\}=P(\\varnothing)=0$;\n当 $x>0$ 时, 由题设知 $P\\{x<X \\leq x+\\Delta x \\mid X>x\\}=\\lambda \\Delta x+o(\\Delta x)$, 而\n$$\nP\\{x<X \\leq x+\\Delta x \\mid X>x\\}=\\frac{P\\{x<X \\leq x+\\Delta x, X>x\\}}{P\\{X>x\\}}=\\frac{P\\{x<X \\leq x+\\Delta x\\}}{1-P\\{X \\leq x\\}}=\\frac{F(x+\\Delta x)-F(x)}{1-F(x)},\n$$\n\n故 $\\frac{F(x+\\Delta x)-F(x)}{1-F(x)}=\\lambda \\Delta x+o(\\Delta x)$, 即\n$$\n\\frac{F(x+\\Delta x)-F(x)}{\\Delta x}=[1-F(x)]\\left[\\lambda+\\frac{o(\\Delta x)}{\\Delta x}\\right],\n$$\n\n令 $\\Delta x \\rightarrow 0$, 得 $F^{\\prime}(x)=\\lambda[1-F(x)]$.\n这是关于 $F(x)$ 的变量可分离微分方程, 分离变量 $\\frac{d F(x)}{1-F(x)}=\\lambda d x$, 积分之得通解为\n$$\nC[1-F(x)]=e^{-\\lambda x}(C \\text { 为任意常数 }) .\n$$\n\n注意到初始条件 $F(0)=0$, 故 $C=1$.\n于是 $F(x)=1-e^{-\\lambda x}, x>0, \\lambda>0$, 故 $X$ 的分布函数为\n$$\nF(x)=\\left\\{\\begin{array}{ll}\n0, & x \\leq 0 \\\\\n1-e^{-\\lambda x}, & x>0\n\\end{array}(\\lambda>0),\\right.\n$$\n\n从而电子管在 $T$ 小时内损坏的概率为\n$$\nP\\{X \\leq T\\}=F(T)=1-e^{-\\lambda T} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339806
+                    },
+                    "question_json": "neu-mathe/2498b8944f85486d95dd9099b7e29110",
+                    "updated_at": {
+                        "seconds": 1775586659
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86948,
+                            "question_id": 19112,
+                            "is_answer": false,
+                            "choice": "$P\\{X \\leq T\\}=1+e^{-\\lambda T}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86949,
+                            "question_id": 19112,
+                            "is_answer": false,
+                            "choice": "$P\\{X \\leq T\\}=e^{-\\lambda T}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86950,
+                            "question_id": 19112,
+                            "is_answer": false,
+                            "choice": "$P\\{X \\leq T\\}=-e^{-\\lambda T}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86951,
+                            "question_id": 19112,
+                            "is_answer": true,
+                            "choice": "$P\\{X \\leq T\\}=1-e^{-\\lambda T}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.75,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 60676,
+                    "ai_tags": "概率论,指数分布,微分方程"
+                },
+                {
+                    "id": 19123,
+                    "subject_id": 3,
+                    "chapter_id": 299,
+                    "question_id": "d642cccb-8cee-4b8c-bfbb-c021ae567c2c",
+                    "difficulty": "Medium",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "100 件产品中， 90 个一等品， 10 个二等品，随机取 2 个安装在一台设备上，若一台设备中有 $i$ 个 $(i=0,1,2)$ 二等品，则此设备的使用寿命服从参数为 $\\lambda=i+1$ 的指数分布。（1）有关设备寿命超过 1 的概率（）；（2）已知设备寿命超过 1，求安装在设备上的两个零件都是一等品的概率（）。",
+                    "analysis": "（1）设 $X$ 表示设备寿命，$A$ 表示“设备寿命超过 1”，$B_i$ 表示“取出 $i$ 个二等品” $(i=0,1,2)$，则 $X$ 的密度函数为\n$$\n\\begin{aligned}\n& f_X(x)=\\begin{cases} \\lambda e^{-\\lambda x}, & x>0 \\\\ 0, & x \\le 0 \\end{cases} \\quad (\\lambda=i+1, i=0,1,2) \\\\\n& P(B_0)=\\frac{C_{90}^2}{C_{100}^2}, \\quad P(B_1)=\\frac{C_{90}^1 C_{10}^1}{C_{100}^2}, \\quad P(B_2)=\\frac{C_{10}^2}{C_{100}^2} \\\\\n& P(A \\mid B_0)=\\int_1^{+\\infty} e^{-x} dx=e^{-1} \\\\\n& P(A \\mid B_1)=\\int_1^{+\\infty} 2 e^{-2 x} dx=e^{-2} \\\\\n& P(A \\mid B_2)=\\int_1^{+\\infty} 3 e^{-3 x} dx=e^{-3}\n\\end{aligned}\n$$\n由全概率公式：$P(A)=\\sum_{i=0}^2 P(B_i) P(A \\mid B_i) \\approx 0.32$。\n（2）由贝叶斯公式：$P(B_0 \\mid A)=\\frac{P(B_0) P(A \\mid B_0)}{P(A)} \\approx 0.93$。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339835
+                    },
+                    "question_json": "neu-mathe/20408e877d02419f9590bab0affc0932",
+                    "updated_at": {
+                        "seconds": 1775586662
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87025,
+                            "question_id": 19123,
+                            "is_answer": false,
+                            "choice": "$0.66 ; 0.93$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87026,
+                            "question_id": 19123,
+                            "is_answer": true,
+                            "choice": "$0.32 ; 0.93$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87027,
+                            "question_id": 19123,
+                            "is_answer": false,
+                            "choice": "$0.33 ; 0.78$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87028,
+                            "question_id": 19123,
+                            "is_answer": false,
+                            "choice": "$0.32 ; 0.78$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.47,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 256513,
+                    "ai_tags": "全概率公式,贝叶斯公式,指数分布"
+                }
+            ]
+        }
+    }
+]

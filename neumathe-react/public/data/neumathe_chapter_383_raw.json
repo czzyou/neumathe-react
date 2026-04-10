@@ -1,0 +1,347 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 4,
+            "questions": [
+                {
+                    "id": 13186,
+                    "subject_id": 3,
+                    "chapter_id": 383,
+                    "question_id": "1bb58d49-09d5-4709-8f96-b4f0fbf91cbc",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 服从二项分布 $B(n, p)$, 其中 $p$ 是未知参数, $X_1, X_2, \\cdots, X_n$ 是来自总体 $X$ 的一个样本, 则下面不是统计量的为 ().",
+                    "analysis": "统计量不能含未知参数, 故 $\\frac{\\sum_{i=1}^n X_i-n p}{\\sqrt{n p(1-p)}}$ 不是统计量.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/d03aad6abca74ac78804ecaf2dcda0fa",
+                    "updated_at": {
+                        "seconds": 1771871409
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52741,
+                            "question_id": 13186,
+                            "is_answer": true,
+                            "choice": "$\\frac{\\sum_{i=1}^n X_i-n p}{\\sqrt{n p(1-p)}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52742,
+                            "question_id": 13186,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52744,
+                            "question_id": 13186,
+                            "is_answer": false,
+                            "choice": "$X_1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 52743,
+                            "question_id": 13186,
+                            "is_answer": false,
+                            "choice": "$X_1+5$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.71,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 11487,
+                    "ai_tags": "统计量,二项分布"
+                },
+                {
+                    "id": 18816,
+                    "subject_id": 3,
+                    "chapter_id": 383,
+                    "question_id": "6132abde-417f-4882-b607-03e43fabc037",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X_1, \\cdots, X_n$ 为总体 $X$ 的一个样本, $x_1, \\cdots, x_n$ 为样本的一组观察值. 将此观察值按由小至大顺序排列: $x_1^* \\leq x_2^* \\leq \\cdots \\leq x_n^*$, 若 $\\left(X_1^*, X_2^*, \\cdots, X_n^*\\right)$ 的取值为 $\\left(x_1^*, x_2^*, \\cdots, x_n^*\\right)$, 则称 ( ) 为顺序统计量.",
+                    "analysis": "根据定义，$X_i^*(i=1,2, \\cdots, n)$ 称为顺序统计量；\n$\\operatorname{Min}\\left(X_1, \\cdots, X_n\\right)=X_1^*$ 称为极小统计量；\n$\\operatorname{Max}\\left(X_1, \\cdots, X_n\\right)=X_n^*$ 称为极大统计量；\n$\\widetilde{X}=\\left\\{\\begin{array}{c}X_{i+1}^*, 2 i+1=n \\\\ \\left(X_i^*+X_{i+1}^*\\right) / 2,2 i=n\\end{array}\\right.$ 称为中位数 (统计量)，且是总体均值的无偏估计.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339074
+                    },
+                    "question_json": "neu-mathe/e804eb510a364bde884f6e074e80aa44",
+                    "updated_at": {
+                        "seconds": 1773081033
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84876,
+                            "question_id": 18816,
+                            "is_answer": true,
+                            "choice": "$X_i^*(i=1,2, \\cdots, n)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84877,
+                            "question_id": 18816,
+                            "is_answer": false,
+                            "choice": "$\\operatorname{Min}\\left(X_1, \\cdots, X_n\\right)=X_1^*$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84878,
+                            "question_id": 18816,
+                            "is_answer": false,
+                            "choice": "$\\operatorname{Max}\\left(X_1, \\cdots X_n\\right)=X_n^*$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84879,
+                            "question_id": 18816,
+                            "is_answer": false,
+                            "choice": "$\\widetilde{X}=\\left\\{\\begin{array}{c}X_{i+1}^*, 2 i+1=n \\\\ \\left(X_i^*+X_{i+1}^*\\right) / 2,2 i=n\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.68,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 24978,
+                    "ai_tags": "数理统计,顺序统计量,样本"
+                },
+                {
+                    "id": 18820,
+                    "subject_id": 3,
+                    "chapter_id": 383,
+                    "question_id": "df2ff30e-fca2-4ac9-b915-281785655d4c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知总体 $X$ 服从 $[0, \\lambda]$ 上的均匀分布 ( $\\lambda$ 未知), $X_1, X_2, \\cdots, X_n$ 为 $X$ 的样本, 则 ( ).",
+                    "analysis": "统计量是不能包含总体的未知参数 $\\lambda$ 的, 又均匀总体中均值 $E(X)$ 与方差 $D(X)$ 都是含有总体的未知参数 $\\lambda$, 故统计量要排除这些项.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339088
+                    },
+                    "question_json": "neu-mathe/5e99de4ae26a4de1a23c44b1f8e747c7",
+                    "updated_at": {
+                        "seconds": 1767724276
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84904,
+                            "question_id": 18820,
+                            "is_answer": true,
+                            "choice": "$X_1+X_2$ 是一个统计量",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84905,
+                            "question_id": 18820,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n} \\sum_{i=1}^n X_i-\\frac{\\lambda}{2}$ 是一个统计量",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84906,
+                            "question_id": 18820,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n} \\sum_{i=1}^n X_i-E(X)$ 是一个统计量",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84907,
+                            "question_id": 18820,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n} \\sum_{i=1}^n X_i^2-D(X)$ 是一个统计量",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.84,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 13880,
+                    "ai_tags": "统计量,均匀分布,总体与样本"
+                },
+                {
+                    "id": 18824,
+                    "subject_id": 3,
+                    "chapter_id": 383,
+                    "question_id": "7ac758b9-3844-42ff-9c92-cab0d16f7dc6",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 服从 $0-1$ 分布: $P\\{X=1\\}=p, P\\{X=0\\}=1-p$, 其中参数 $p$ 未知, $X_1, X_2, \\cdots, X_n$ 是来自 $X$ 的简单随机样本, 则下列选项中不是统计量的是 ( ).",
+                    "analysis": "$X_n+2 p$ 不是统计量. 因为其中含有总体分布的未知参数 $p$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339094
+                    },
+                    "question_json": "neu-mathe/e1680373eccd48d6be560a4c841e70d7",
+                    "updated_at": {
+                        "seconds": 1767724277
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84932,
+                            "question_id": 18824,
+                            "is_answer": true,
+                            "choice": "$X_n+2 p$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84933,
+                            "question_id": 18824,
+                            "is_answer": false,
+                            "choice": "$\\left(X_1+X_2\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84934,
+                            "question_id": 18824,
+                            "is_answer": false,
+                            "choice": "$\\max _{1 \\leq i \\leq n} X_i$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        },
+                        {
+                            "id": 84935,
+                            "question_id": 18824,
+                            "is_answer": false,
+                            "choice": "$\\left(X_n-X_1\\right)^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080685
+                            },
+                            "updated_at": {
+                                "seconds": 1735080685
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.89,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 20762,
+                    "ai_tags": "统计量,简单随机样本,0-1分布"
+                }
+            ]
+        }
+    }
+]

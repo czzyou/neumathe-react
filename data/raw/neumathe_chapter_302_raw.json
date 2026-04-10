@@ -1,0 +1,852 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 10,
+            "questions": [
+                {
+                    "id": 13666,
+                    "subject_id": 3,
+                    "chapter_id": 302,
+                    "question_id": "e6ac4a8d-b5f6-4cea-b584-82380bb83fe6",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X \\sim N(0,1)$, 其概率密度为 $f(x)$, 分布函数为 $F(x)$, 则不正确的是 () .",
+                    "analysis": "由标准正态变量的概率密度和分布函数的性质可知， $f(x)=f(-x)$, $P\\{X \\leq 0\\}=P\\{X \\geq 0\\}=0.5, F(x)=1-F(-x)$, 故 $P\\{X \\leq 1\\}=P\\{X \\geq 1\\}=0.5$ 不正确.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/6a3cf36c25274020ac96b571b2e9c099",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54662,
+                            "question_id": 13666,
+                            "is_answer": true,
+                            "choice": "$P\\{X \\leq 1\\}=P\\{X \\geq 1\\}=0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54664,
+                            "question_id": 13666,
+                            "is_answer": false,
+                            "choice": "$P\\{X \\leq 0\\}=P\\{X \\geq 0\\}=0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54661,
+                            "question_id": 13666,
+                            "is_answer": false,
+                            "choice": "$f(x)=f(-x), \\quad x \\in(-\\infty,+\\infty)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54663,
+                            "question_id": 13666,
+                            "is_answer": false,
+                            "choice": "$F(x)=1-F(-x), \\quad x \\in(-\\infty,+\\infty)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 53384,
+                    "ai_tags": "正态分布,概率密度,分布函数"
+                },
+                {
+                    "id": 13667,
+                    "subject_id": 3,
+                    "chapter_id": 302,
+                    "question_id": "44f8426a-f407-4aad-8c6b-37d4cf21b8dd",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $\\xi \\sim N(1,4)$, 且 $P\\{\\xi \\geq a\\}=\\frac{1}{2}$, 则 $a=()$.",
+                    "analysis": "若 $X \\sim N\\left(\\mu, \\sigma^2\\right)$, 则 $\\frac{X-\\mu}{\\sigma} \\sim N(0,1)$, 所以 $U=\\frac{\\xi-1}{2} \\sim N(0,1)$.故 $P\\{\\xi \\geq a\\}=P\\left\\{\\frac{\\xi-1}{2} \\geq \\frac{a-1}{2}\\right\\}=P\\left\\{U \\geq \\frac{a-1}{2}\\right\\}=\\frac{1}{2}$,又 $P\\{U \\geq 0\\}=\\frac{1}{2}$, 即 $\\frac{a-1}{2}=0 \\Rightarrow a=1$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/e53a91c2bb8844d1821ac01766455bff",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54668,
+                            "question_id": 13667,
+                            "is_answer": true,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54666,
+                            "question_id": 13667,
+                            "is_answer": false,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54665,
+                            "question_id": 13667,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54667,
+                            "question_id": 13667,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.95,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 13452,
+                    "tags": "",
+                    "ai_tags": "正态分布,概率计算"
+                },
+                {
+                    "id": 13668,
+                    "subject_id": 3,
+                    "chapter_id": 302,
+                    "question_id": "ca5933d5-8ee7-4f1a-a8bf-4a66ab527f1a",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 的概率密度为 $f(x)=\\frac{1}{2 \\sqrt{\\pi}} e^{-\\frac{(x+2)^2}{4}},-\\infty<x<+\\infty$, 且 $Y=a X+b \\sim N(0,1)$, 则在下列正确的是 ( ).",
+                    "analysis": "由于随机变量 $X$ 的概率密度为 $f(x)=\\frac{1}{2 \\sqrt{\\pi}} e^{-\\frac{(x+2)^2}{4}},-\\infty<x<+\\infty$,故 $X \\sim N(-2,2)$, 从而 $\\frac{X+2}{\\sqrt{2}} \\sim N(0,1)$.\n又 $Y=a X+b \\sim N(0,1)$, 故 $a=\\frac{1}{\\sqrt{2}}=\\frac{\\sqrt{2}}{2}, b=\\frac{2}{\\sqrt{2}}=\\sqrt{2}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/1cd8a31d98604001a71e4c76b56d0c43",
+                    "updated_at": {
+                        "seconds": 1775586662
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54669,
+                            "question_id": 13668,
+                            "is_answer": true,
+                            "choice": "$a=\\frac{\\sqrt{2}}{2}, b=\\sqrt{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54670,
+                            "question_id": 13668,
+                            "is_answer": false,
+                            "choice": "$a=\\frac{1}{2}, b=1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54671,
+                            "question_id": 13668,
+                            "is_answer": false,
+                            "choice": "$a=\\frac{1}{2}, b=-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54672,
+                            "question_id": 13668,
+                            "is_answer": false,
+                            "choice": "$a=\\frac{\\sqrt{2}}{2}, b=-\\sqrt{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.54,
+                    "difficulty_score": 0.47,
+                    "avg_time_spent": 93687,
+                    "ai_tags": "正态分布,概率密度,随机变量的线性变换"
+                },
+                {
+                    "id": 13669,
+                    "subject_id": 3,
+                    "chapter_id": 302,
+                    "question_id": "0c731ac7-990e-452b-be40-45a4e03b8384",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 的概率密度为 $f(x)=\\frac{1}{2 \\sqrt{2 \\pi}} e^{-\\frac{(x+6)^2}{8}}(-\\infty<x<+\\infty)$, 则 $Y=() \\sim N(0,1)$.",
+                    "analysis": "由正态分布的概率密度知 $\\mu=-6, \\sigma=2$, 由 $Y=\\frac{X-\\mu}{\\sigma} \\sim N(0,1)$, 所以 $Y=\\frac{6+X}{2} \\sim N(0,1)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/d639213d594442d0a668e44c06f4a74e",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54675,
+                            "question_id": 13669,
+                            "is_answer": true,
+                            "choice": "$\\frac{6+X}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54673,
+                            "question_id": 13669,
+                            "is_answer": false,
+                            "choice": "$\\frac{3+X}{\\sqrt{2}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54674,
+                            "question_id": 13669,
+                            "is_answer": false,
+                            "choice": "$\\frac{2-X}{\\sqrt{3}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54676,
+                            "question_id": 13669,
+                            "is_answer": false,
+                            "choice": "$\\frac{6-X}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 91415,
+                    "ai_tags": "正态分布,概率密度,随机变量标准化"
+                },
+                {
+                    "id": 13671,
+                    "subject_id": 3,
+                    "chapter_id": 302,
+                    "question_id": "6bde8504-db12-49c8-9852-c50bd8200e88",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "若 $\\xi$ 的概率密度函数为 $\\varphi(x)=\\frac{1}{\\sqrt{\\pi}} e^{-x^2+4 x-4}$, 则有 () .",
+                    "analysis": "正态分布 $N\\left(\\mu, \\sigma^2\\right)$ 的密度函数为 $f(x)=\\frac{1}{\\sqrt{2 \\pi} \\sigma} e^{-\\frac{(x-\\mu)^2}{2 \\sigma^2}}, \\varphi(x)$ 可化为 $\\frac{1}{\\sqrt{2 \\pi} \\frac{1}{\\sqrt{2}}} e^{-\\frac{(x-2)^2}{2\\left(\\frac{1}{\\sqrt{2}}\\right)^2}}$, 于是 $\\xi \\sim N\\left(2,\\left(\\frac{1}{\\sqrt{2}}\\right)^2\\right)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/8351abaf841f43108ccf22f798fe7256",
+                    "updated_at": {
+                        "seconds": 1775586662
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54683,
+                            "question_id": 13671,
+                            "is_answer": true,
+                            "choice": "$\\xi \\sim N\\left(2,\\left(\\frac{1}{\\sqrt{2}}\\right)^2\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54684,
+                            "question_id": 13671,
+                            "is_answer": false,
+                            "choice": "$\\xi \\sim N(0,1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54681,
+                            "question_id": 13671,
+                            "is_answer": false,
+                            "choice": "$\\xi \\sim N\\left(4,\\left(\\frac{1}{2}\\right)^2\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54682,
+                            "question_id": 13671,
+                            "is_answer": false,
+                            "choice": "$\\xi \\sim N\\left(2,1^2\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.97,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 49436,
+                    "ai_tags": "正态分布,概率密度函数"
+                },
+                {
+                    "id": 13672,
+                    "subject_id": 3,
+                    "chapter_id": 302,
+                    "question_id": "ffa8e515-0564-4a3a-b5f0-521e83ad57e1",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知 $\\xi \\sim N(1,1)$, 记 $\\xi$ 的概率密度为 $\\varphi(x)$, 分布函数为 $F(x)$, 则有 () .",
+                    "analysis": "由正态分布的图形特征知, 密度曲线关于 $x=1$ 对称, 故 $P\\{\\xi<1\\}=P\\{\\xi>1\\}=0.5$.若 $\\xi \\sim N(0,1)$, 则其他三个选项均正确.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/ae7ee625fe3c4cf1a655f23bde6fb09f",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54686,
+                            "question_id": 13672,
+                            "is_answer": true,
+                            "choice": "$P\\{\\xi<1\\}=P\\{\\xi>1\\}=0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54688,
+                            "question_id": 13672,
+                            "is_answer": false,
+                            "choice": "$P\\{\\xi \\leq 0\\}=P\\{\\xi \\geq 0\\}=0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54687,
+                            "question_id": 13672,
+                            "is_answer": false,
+                            "choice": "$\\varphi(x)=\\varphi(-x), x \\in(-\\infty,+\\infty)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54685,
+                            "question_id": 13672,
+                            "is_answer": false,
+                            "choice": "$F(x)=1-F(-x), x \\in(-\\infty,+\\infty)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.71,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 49711,
+                    "ai_tags": "正态分布,概率密度函数,分布函数"
+                },
+                {
+                    "id": 13675,
+                    "subject_id": 3,
+                    "chapter_id": 302,
+                    "question_id": "f14f501b-b1c3-4881-9bc5-fa0c71bc48ac",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 服从正态分布 $N(5,4)$. 实数 $c$ 使得 $P\\{X>c\\}=P\\{X<c\\}$, 则 $c=()$.",
+                    "analysis": "若 $\\xi \\sim N\\left(\\mu, \\sigma^2\\right)$, 则 $\\eta=\\frac{\\xi-\\mu}{\\sigma} \\sim N(0,1)$, 从而可得\n$$\n\\eta=\\frac{X-5}{2} \\sim N(0,1) .\n$$\n\n于是\n$$\n\\begin{aligned}\n& P\\{X>c\\}=P\\{X<c\\} \\\\\n\\Leftrightarrow & P\\left\\{\\eta>\\frac{c-5}{2}\\right\\}=P\\left\\{\\eta<\\frac{c-5}{2}\\right\\}=1-P\\left\\{\\eta \\leq \\frac{c-5}{2}\\right\\} \\\\\n\\Leftrightarrow & \\Phi\\left(\\frac{c-5}{2}\\right)=1-\\Phi\\left(\\frac{c-5}{2}\\right) \\Leftrightarrow \\Phi\\left(\\frac{c-5}{2}\\right)=\\frac{1}{2} .\n\\end{aligned}\n$$\n\n又标准正态分布中 $\\Phi(0)=\\frac{1}{2}$, 所以 $\\frac{c-5}{2}=0$, 即 $c=5$.\n速记: 若 $\\xi \\sim N\\left(\\mu, \\sigma^2\\right)$, 则 $P\\{\\xi<\\mu\\}=P\\{\\xi>\\mu\\}=\\frac{1}{2}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/f0da738b4c8849288c9d042400b87969",
+                    "updated_at": {
+                        "seconds": 1775673110
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54699,
+                            "question_id": 13675,
+                            "is_answer": true,
+                            "choice": "$5$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54697,
+                            "question_id": 13675,
+                            "is_answer": false,
+                            "choice": "$6$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54698,
+                            "question_id": 13675,
+                            "is_answer": false,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54700,
+                            "question_id": 13675,
+                            "is_answer": false,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.97,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 13185,
+                    "ai_tags": "正态分布"
+                },
+                {
+                    "id": 19119,
+                    "subject_id": 3,
+                    "chapter_id": 302,
+                    "question_id": "9fdb95cd-212e-4aab-9ff7-4b18623f4a2e",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知随机变量 $\\xi$ 的分布函数 $F(x)=\\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^x e^{-\\frac{t^2}{2}} dt$, 则 $F(-x)=( )$.",
+                    "analysis": "由被积函数可知, $F(x)$ 是标准正态变量的分布函数, 所以由正态分布的性质 $\\Phi(-x)=1-\\Phi(x)$ 可知答案.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339825
+                    },
+                    "question_json": "neu-mathe/49492f8b9e1242b2a1f80a8dfcc00053",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86997,
+                            "question_id": 19119,
+                            "is_answer": true,
+                            "choice": "$1-F(x)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86998,
+                            "question_id": 19119,
+                            "is_answer": false,
+                            "choice": "$F(x)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86999,
+                            "question_id": 19119,
+                            "is_answer": false,
+                            "choice": "$-F(x)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87000,
+                            "question_id": 19119,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}+F(x)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.88,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 40090,
+                    "ai_tags": "正态分布,分布函数,概率论"
+                },
+                {
+                    "id": 19127,
+                    "subject_id": 3,
+                    "chapter_id": 302,
+                    "question_id": "a1e16693-200c-465a-a690-7e22628951f5",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X \\sim N(1,4)$, 其分布函数与概率密度分别为 $F(x)$ 与 $f(x)$, 则对任意实数 $x$, 有 ( ).",
+                    "analysis": "若 $\\xi \\sim N(\\mu, \\sigma^2)$，则 $\\eta=\\xi-\\mu$ 的密度函数为偶函数，故 $Y=X-1$ 的概率密度为偶函数，且\n$$\nF_Y(-a)=1-F_Y(a), \\quad f_Y(-a)=f_Y(a), \\quad a \\in R .\n$$\n又 $Y$ 是 $X$ 的线性函数，故\n$$\n\\begin{aligned}\n& F_Y(x)=P\\{Y \\leq x\\}=P\\{X-1 \\leq x\\}=P\\{X \\leq x+1\\}=F(x+1), \\\\\n& f_Y(y)=f(y+1) .\n\\end{aligned}\n$$\n从而由 $F_Y(-x)=1-F_Y(x), f_Y(-x)=f_Y(x)$ 得到\n$$\nF(-x+1)=1-F(x+1), \\quad f(-x+1)=f(x+1) .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339848
+                    },
+                    "question_json": "neu-mathe/68fdeccc55e045fdabe91af30a8965ef",
+                    "updated_at": {
+                        "seconds": 1775673111
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87053,
+                            "question_id": 19127,
+                            "is_answer": true,
+                            "choice": "$F(1-x)=1-F(1+x)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87054,
+                            "question_id": 19127,
+                            "is_answer": false,
+                            "choice": "$F(x)=1-F(-x)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87055,
+                            "question_id": 19127,
+                            "is_answer": false,
+                            "choice": "$f(x)=f(-x)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87056,
+                            "question_id": 19127,
+                            "is_answer": false,
+                            "choice": "$F\\left(\\frac{1-x}{2}\\right)=1-F\\left(\\frac{1+x}{2}\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.56,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 79120,
+                    "ai_tags": "正态分布,分布函数,概率密度,对称性"
+                },
+                {
+                    "id": 19130,
+                    "subject_id": 3,
+                    "chapter_id": 302,
+                    "question_id": "0ddd5180-831f-4398-9867-fb5c8ec3f38e",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $\\xi$ 服从 $N(\\mu, \\sigma^2)$ (其中 $\\mu, \\sigma^2$ 已知, 且 $\\sigma>0$), 如果 $P\\{\\xi<k\\}=\\frac{1}{2}$, 则 $k=(\\quad)$.",
+                    "analysis": "若 $X \\sim N\\left(\\mu, \\sigma^2\\right)$, 则 $U=\\frac{X-\\mu}{\\sigma} \\sim N(0,1)$,\n所以 $P\\{\\xi<k\\}=P\\left\\{\\frac{\\xi-\\mu}{\\sigma}<\\frac{k-\\mu}{\\sigma}\\right\\}=P\\left\\{U<\\frac{k-\\mu}{\\sigma}\\right\\}=\\frac{1}{2}$,\n又 $P\\{U<0\\}=\\frac{1}{2}$,\n即 $\\frac{k-\\mu}{\\sigma}=0 \\Rightarrow k=\\mu$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339854
+                    },
+                    "question_json": "neu-mathe/025b042a422640df9b20ea2dd8f4746a",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87074,
+                            "question_id": 19130,
+                            "is_answer": true,
+                            "choice": "$\\mu$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87075,
+                            "question_id": 19130,
+                            "is_answer": false,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87076,
+                            "question_id": 19130,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\mu}{\\sigma}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87077,
+                            "question_id": 19130,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\mu}{\\sigma^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.9,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 66308,
+                    "ai_tags": "正态分布,随机变量"
+                }
+            ]
+        }
+    }
+]

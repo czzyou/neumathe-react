@@ -1,0 +1,1961 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 23,
+            "questions": [
+                {
+                    "id": 13415,
+                    "subject_id": 3,
+                    "chapter_id": 381,
+                    "question_id": "fe4be4cb-0d58-4151-94b0-7e91ed672953",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X_1, \\cdots, X_6$ 是来自总体 $N(0,1)$ 的样本, $Y=\\left(X_1+X_2+X_3\\right)^2+\\left(X_4+X_5+X_6\\right)^2$, 则使 $C Y$ 服从 $\\chi^2$ 分布的常数 $C$ 为 () .",
+                    "analysis": "因为 $X_1+X_2+X_3 \\sim N(0,3), X_4+X_5+X_6 \\sim N(0,3)$, 且相互独立,所以 $\\frac{X_1+X_2+X_3}{\\sqrt{3}} \\sim N(0,1), \\frac{X_4+X_5+X_6}{\\sqrt{3}} \\sim N(0,1)$, 于是 $\\left(\\frac{X_1+X_2+X_3}{\\sqrt{3}}\\right)^2+\\left(\\frac{X_4+X_5+X_6}{\\sqrt{3}}\\right)^2 \\sim \\chi^2(2)$.\n故应取 $C=\\frac{1}{3}$, 即 $\\frac{1}{3} Y \\sim \\chi^2(2)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/a7af3cc091c44117aecd5fe7d5f3eef4",
+                    "updated_at": {
+                        "seconds": 1767810654
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53657,
+                            "question_id": 13415,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53659,
+                            "question_id": 13415,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53658,
+                            "question_id": 13415,
+                            "is_answer": false,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53660,
+                            "question_id": 13415,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.64,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 763464,
+                    "ai_tags": "抽样分布,卡方分布,正态总体"
+                },
+                {
+                    "id": 13416,
+                    "subject_id": 3,
+                    "chapter_id": 381,
+                    "question_id": "287317d7-518a-4979-83ad-652546f1afd1",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "若 $X_1, X_2, \\cdots, X_9$ 是来自总体 $X \\sim N\\left(0,2^2\\right)$ 的简单随机样本, 则使 $Q=a\\left(X_1+X_2\\right)^2+b\\left(X_3+X_4+X_5\\right)^2+c\\left(X_6+X_7+X_8+X_9\\right)^2$服从 $\\chi^2$ 分布的系数 $a, b, c$ 分别为 ().",
+                    "analysis": "由于 $X_1, X_2, \\cdots, X_9$ 相互独立且取自总体 $X \\sim N\\left(0,2^2\\right)$, 由正态分布的线性运算性质有\n$$\nX_1+X_2 \\sim N(0,8), \\quad X_3+X_4+X_5 \\sim N(0,12), \\quad X_6+X_7+X_8+X_9 \\sim N(0,16),\n$$\n\n于是, 由 $\\chi^2=\\chi_1^2+\\cdots+\\chi_k^2$, 有\n$$\nQ=\\frac{\\left(X_1+X_2\\right)^2}{8}+\\frac{\\left(X_3+X_4+X_5\\right)^2}{12}+\\frac{\\left(X_6+X_7+X_8+X_9\\right)^2}{16} \\sim \\chi^2(3),\n$$\n\n故 $a=1 / 8, b=1 / 12, c=1 / 16$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/d58445797ed74e0e87cd05e31c7faa9b",
+                    "updated_at": {
+                        "seconds": 1767810652
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53662,
+                            "question_id": 13416,
+                            "is_answer": true,
+                            "choice": "$a=1 / 8, b=1 / 12, c=1 / 16$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53664,
+                            "question_id": 13416,
+                            "is_answer": false,
+                            "choice": "$a=1 / 5, b=1 / 12, c=1 / 16$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53663,
+                            "question_id": 13416,
+                            "is_answer": false,
+                            "choice": "$a=1 / 8, b=5 / 12, c=1 / 16$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53661,
+                            "question_id": 13416,
+                            "is_answer": false,
+                            "choice": "$a=1, b=1 / 12, c=1 / 16$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.96,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 15204,
+                    "ai_tags": "抽样分布,正态分布,卡方分布"
+                },
+                {
+                    "id": 13417,
+                    "subject_id": 3,
+                    "chapter_id": 381,
+                    "question_id": "39c1e16d-6c77-4d79-9aff-0a79caf7ded2",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X \\sim N(0,1), X_1, X_2, \\cdots, X_n$ 为样本, 则下列结论错误的是 ( ).",
+                    "analysis": "若 $X \\sim N(0,1), Y \\sim \\chi^2(n)$, 且 $X$ 与 $Y$ 相互独立, 则 $T=\\frac{X}{\\sqrt{Y / n}} \\sim t(n)$;\n若 $X \\sim \\chi^2(m), Y \\sim \\chi^2(n)$, 且 $X$ 与 $Y$ 相互独立, 则 $F=\\frac{X / m}{Y / n} \\sim F(m, n)$.\n$X_1-X_2 \\sim N(0,2), X_3^2+X_4^2 \\sim \\chi^2(2)$, 且相互独立, 所以 $\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2}}=\\frac{\\left(X_1-X_2\\right) / \\sqrt{2}}{\\sqrt{\\left(X_3^2+X_4^2\\right) / 2}} \\sim t(2)$.\n$X_1+X_2 \\sim N(0,2), X_1^2+X_2^2 \\sim \\chi^2(2)$, 但不相互独立, 所以不能说明 $\\frac{X_1+X_2}{\\sqrt{X_1^2+X_2^2}}=\\frac{\\left(X_1+X_2\\right) / \\sqrt{2}}{\\sqrt{\\left(X_1^2+X_2^2\\right) / 2}}$ 服从 $t(2)$.\n$X_1 \\sim N(0,1), \\sum_{i=2}^n X_i^2 \\sim \\chi^2(n-1)$, 且相互独立, 所以 $\\frac{\\sqrt{n-1} X_1}{\\sqrt{\\sum_{i=2}^n X_i^2}}=\\frac{X_1 / 1}{\\sqrt{\\sum_{i=2}^n X_i^2 /(n-1)}} \\sim t(n-1)$.\n$\\sum_{i=1}^3 X_i^2 \\sim \\chi^2(3), \\sum_{i=4}^n X_i^2 \\sim \\chi^2(n-3)$, 且相互独立, 所以 $\\frac{(n-3) \\sum_{i=1}^3 X_i^2}{3 \\sum_{i=4}^n X_i^2}=\\frac{\\sum_{i=1}^3 X_i^2 / 3}{\\sum_{i=4}^n X_i^2 /(n-3)} \\sim F(3, n-3)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/8f34219d08e84c528c2f500a12753f95",
+                    "updated_at": {
+                        "seconds": 1767810651
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53667,
+                            "question_id": 13417,
+                            "is_answer": true,
+                            "choice": "$\\frac{X_1+X_2}{\\sqrt{X_1^2+X_2^2}} \\sim t(2)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53668,
+                            "question_id": 13417,
+                            "is_answer": false,
+                            "choice": "$\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2}} \\sim t(2)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53666,
+                            "question_id": 13417,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\sqrt{n-1} X_1}{\\sqrt{\\sum_{i=2}^n X_i^2}} \\sim t(n-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53665,
+                            "question_id": 13417,
+                            "is_answer": false,
+                            "choice": "$\\frac{(n-3) \\sum_{i=1}^3 X_i^2}{3 \\sum_{i=4}^n X_i^2} \\sim F(3, n-3)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.37,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 31056,
+                    "ai_tags": "抽样分布,正态总体,统计量"
+                },
+                {
+                    "id": 13418,
+                    "subject_id": 3,
+                    "chapter_id": 381,
+                    "question_id": "a89c7f87-701f-4550-95a6-c5352063c21f",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, \\cdots, X_7$ 取自正态总体 $N\\left(0,0.4^2\\right)$, 则 $P\\left\\{\\sum_{i=1}^7 X_i^2>1.92\\right\\}=() .\\left(\\chi_{0.1}^2(7)=12, \\chi_{0.025}^2(7)=16\\right)$",
+                    "analysis": "$\\begin{aligned} & \\text { 由 } \\frac{\\sum_{i=1}^n\\left(X_i-\\mu\\right)^2}{\\sigma^2} \\sim \\chi^2(n), \\mu=0, \\sigma^2=0.4^2 \\text {, 得 } \\\\ & \\quad P\\left\\{\\sum_{i=1}^7 X_i^2>1.92\\right\\}=P\\left\\{\\frac{\\sum_{i=1}^7 X_i^2}{(0.4)^2}>\\frac{1.92}{(0.4)^2}\\right\\}=P\\left\\{\\chi^2(7)>12\\right\\}=0.1 .\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/d5f0b180511c48dfad29f25522120711",
+                    "updated_at": {
+                        "seconds": 1767637887
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53671,
+                            "question_id": 13418,
+                            "is_answer": true,
+                            "choice": "$0.1$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53670,
+                            "question_id": 13418,
+                            "is_answer": false,
+                            "choice": "$0.25$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53672,
+                            "question_id": 13418,
+                            "is_answer": false,
+                            "choice": "$0.05$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53669,
+                            "question_id": 13418,
+                            "is_answer": false,
+                            "choice": "$0.01$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.58,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 48976,
+                    "ai_tags": "卡方分布,正态总体,抽样分布"
+                },
+                {
+                    "id": 13426,
+                    "subject_id": 3,
+                    "chapter_id": 381,
+                    "question_id": "ea3f21b8-4288-4ca9-9252-1949b0867d2d",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X \\sim N(2,1)$, 随机变量 $Y_1, Y_2, Y_3, Y_4$ 均服从 $N(0,4)$, 且 $X, Y_i(i=1,2,3,4)$ 都相互独立, 令 $T=\\frac{4(X-2)}{\\sqrt{\\sum_{i=1}^4 Y_i^2}}$, 则 $T$ 所服从的分布为（）。",
+                    "analysis": "由于 $X-2 \\sim N(0,1), Y_i / 2 \\sim N(0,1), i=1,2,3,4$, 故由 $t$ 分布的定义知\n$$\nT=\\frac{4(X-2)}{\\sqrt{\\sum_{i=1}^4 Y_i^2}}=\\frac{X-2}{\\sqrt{\\sum_{i=1}^4\\left(\\frac{Y_i}{4}\\right)^2}}=\\frac{X-2}{\\sqrt{\\sum_{i=1}^4\\left(\\frac{Y_i}{2}\\right)^2 / 4}} \\sim t(4) .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/7e8fcccf9a224272b0c271311f29749e",
+                    "updated_at": {
+                        "seconds": 1767810658
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53702,
+                            "question_id": 13426,
+                            "is_answer": true,
+                            "choice": "$T \\sim t(4)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53701,
+                            "question_id": 13426,
+                            "is_answer": false,
+                            "choice": "$T \\sim t(2)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53703,
+                            "question_id": 13426,
+                            "is_answer": false,
+                            "choice": "$T \\sim t(3)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53704,
+                            "question_id": 13426,
+                            "is_answer": false,
+                            "choice": "$T \\sim t(5)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 46867,
+                    "ai_tags": "t分布,正态分布,抽样分布"
+                },
+                {
+                    "id": 13427,
+                    "subject_id": 3,
+                    "chapter_id": 381,
+                    "question_id": "82632b02-586e-4fb5-97b7-c4ea7ca42dd8",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知 $X \\sim t(n)$, 则有 () .",
+                    "analysis": "设 $X=U / \\sqrt{\\frac{Y}{n}}$, 其中 $U \\sim N(0,1), Y \\sim \\chi^2(n)$. 且 $U$ 与 $Y$ 相互独立, 于是,\n$$\nU^2 \\sim \\chi^2(1),\n$$\n\n且 $U^2$ 与 $Y$ 也相互独立, 所以\n$$\nX^2=U^2 /\\left(\\frac{Y}{n}\\right) \\sim F(1, n), \\frac{1}{X^2} \\sim F(n, 1) .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/677d74537b2d4fa2a5f1fe165802af67",
+                    "updated_at": {
+                        "seconds": 1767810654
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53708,
+                            "question_id": 13427,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{X^2} \\sim F(n, 1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53706,
+                            "question_id": 13427,
+                            "is_answer": false,
+                            "choice": "$X^2 \\sim F(1, n-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53707,
+                            "question_id": 13427,
+                            "is_answer": false,
+                            "choice": "$X^2 \\sim F(n, 1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53705,
+                            "question_id": 13427,
+                            "is_answer": false,
+                            "choice": "其它选项均不正确",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.74,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 30865,
+                    "ai_tags": "t分布,F分布,抽样分布"
+                },
+                {
+                    "id": 13431,
+                    "subject_id": 3,
+                    "chapter_id": 381,
+                    "question_id": "c3c1dca3-7c36-4be3-8d58-e7b31ae44996",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $T \\sim t(n)$, 则 $T^2 \\sim()$.",
+                    "analysis": "1. 若 $X \\sim N(0,1), Y \\sim \\chi^2(n)$, 且 $X$ 与 $Y$ 相互独立, 则 $t \\sim t(n)$, 其中 $t=\\frac{X}{\\sqrt{Y / n}}$; 2. 若 $X \\sim \\chi^2(m), Y \\sim \\chi^2(n)$, 且 $X$ 与 $Y$ 相互独立, 则 $F \\sim F(m, n)$, 其中 $F=\\frac{X / m}{Y / n}=\\frac{n X}{m Y}$;当 $m=1$ 时, 有 $F(1, n)=t^2(n)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/bd8edc5eba28427fbea382abaf36837f",
+                    "updated_at": {
+                        "seconds": 1767810656
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53724,
+                            "question_id": 13431,
+                            "is_answer": true,
+                            "choice": "$F(1, n)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53721,
+                            "question_id": 13431,
+                            "is_answer": false,
+                            "choice": "$t(2 n)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53722,
+                            "question_id": 13431,
+                            "is_answer": false,
+                            "choice": "$\\chi^2(n)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53723,
+                            "question_id": 13431,
+                            "is_answer": false,
+                            "choice": "$F(n, 1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.74,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 7957,
+                    "ai_tags": "t分布,F分布,抽样分布"
+                },
+                {
+                    "id": 13432,
+                    "subject_id": 3,
+                    "chapter_id": 381,
+                    "question_id": "29e20407-e000-47d0-9bbb-4692fe0dc181",
+                    "difficulty": "Medium",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, X_3, X_4$ 是取自正态总体 $X \\sim N\\left(0,2^2\\right)$ 的简单随机样本, $Y=a\\left(2 X_1-X_2\\right)^2+b\\left(4 X_3-3 X_4\\right)^2$, 则使 $Y$ 服从 $\\chi^2$ 分布的 $a, b$ 与分布的自由度为 ( ).",
+                    "analysis": "因为 $X_i \\sim N\\left(0,2^2\\right)(i=1,2,3,4)$ 相互独立, 所以 $2 X_1-X_2 \\sim N(0,20), 4 X_3-3 X_4 \\sim N(0,100)$,\n$$\n\\left(\\frac{2 X_1-X_2}{\\sqrt{20}}\\right)^2+\\left(\\frac{4 X_3-3 X_4}{\\sqrt{100}}\\right)^2 \\sim \\chi^2(2)\n$$\n\n因此当 $a=\\frac{1}{20}, b=\\frac{1}{100}$ 时, $Y \\sim \\chi^2(2)$, 自由度为 2 .",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/1c483666541c4722ba167fa3c167c804",
+                    "updated_at": {
+                        "seconds": 1767810656
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53728,
+                            "question_id": 13432,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{12}, \\frac{1}{28} ; 2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53726,
+                            "question_id": 13432,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}, \\frac{1}{4} ; 2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53727,
+                            "question_id": 13432,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{20}, \\frac{1}{100} ; 2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53725,
+                            "question_id": 13432,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{\\sqrt{20}}, \\frac{1}{\\sqrt{100}} ; 2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.23,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 56609,
+                    "ai_tags": "正态总体,卡方分布,抽样分布"
+                },
+                {
+                    "id": 13436,
+                    "subject_id": 3,
+                    "chapter_id": 381,
+                    "question_id": "8141116c-b867-4c33-894e-3d1de3a88d8a",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, X_3, X_4$ 是来自正态总体 $\\mathrm{N}\\left(0, \\sigma^2\\right)$ 的样本, 记 $V=\\frac{\\sqrt{3} X_1}{\\sqrt{X_2^2+X_3^2+X_4^2}}$, 则 $V \\sim()$.",
+                    "analysis": "因为 $\\frac{X_1}{\\sigma} \\sim N(0,1), \\frac{X_2^2+X_3^2+X_4^2}{\\sigma^2} \\sim \\chi^2(3)$, 且它们互相独立, 那么由 $t$ 分布定义可知,\n$$\nV=\\frac{\\frac{X_1}{\\sigma}}{\\sqrt{\\frac{X_2^2+X_3^2+X_4^2}{3 \\sigma^2}}}=\\frac{\\sqrt{3} X_1}{\\sqrt{X_2^2+X_3^2+X_4^2}} \\sim t(3) .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/84bbcbe1801f4fe6a569eb4d3c60f612",
+                    "updated_at": {
+                        "seconds": 1767637883
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53742,
+                            "question_id": 13436,
+                            "is_answer": true,
+                            "choice": "$t(3)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53741,
+                            "question_id": 13436,
+                            "is_answer": false,
+                            "choice": "$t(2)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53744,
+                            "question_id": 13436,
+                            "is_answer": false,
+                            "choice": "$\\chi^2(3)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53743,
+                            "question_id": 13436,
+                            "is_answer": false,
+                            "choice": "$F(1,3)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.73,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 26229,
+                    "ai_tags": "数理统计,抽样分布,t分布"
+                },
+                {
+                    "id": 18947,
+                    "subject_id": 3,
+                    "chapter_id": 381,
+                    "question_id": "329acc96-add9-425f-89bc-5b9263bc5b37",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $\\xi \\sim N(0,1), \\eta \\sim \\chi^2(n)$, 且 $\\xi$ 与 $\\eta$ 相互独立, 则 $T=\\xi / \\sqrt{\\eta / n}$ 服从 ( ).",
+                    "analysis": "若 $X \\sim N(0,1), Y \\sim \\chi^2(n)$, 且 $X$ 与 $Y$ 相互独立, 则 $t \\sim t(n)$, 其中 $t=\\frac{X}{\\sqrt{Y / n}}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339407
+                    },
+                    "question_json": "neu-mathe/1b4cf65133384f2dbaefea46291d979e",
+                    "updated_at": {
+                        "seconds": 1767637891
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85793,
+                            "question_id": 18947,
+                            "is_answer": true,
+                            "choice": "自由度为 $n$ 的 $t$ 分布",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85794,
+                            "question_id": 18947,
+                            "is_answer": false,
+                            "choice": "正态分布",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85795,
+                            "question_id": 18947,
+                            "is_answer": false,
+                            "choice": "$\\chi^2$ 分布",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85796,
+                            "question_id": 18947,
+                            "is_answer": false,
+                            "choice": "$F$ 分布",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.92,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 10648,
+                    "ai_tags": "t分布,抽样分布,统计量"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 23,
+            "questions": [
+                {
+                    "id": 18955,
+                    "subject_id": 3,
+                    "chapter_id": 381,
+                    "question_id": "92aee0ca-df0e-40a3-9713-fc82de1b7d2b",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X \\sim N(0,4)$, 而 $X_1, X_2, \\cdots, X_{15}$ 为取自该总体的样本, 问随机变量 $Y=\\frac{X_1^2+X_2^2+\\cdots+X_{10}^2}{2\\left(X_{11}^2+X_{12}^2+\\cdots+X_{15}^2\\right)}$ 服从的分布是 () .",
+                    "analysis": "因为 $\\frac{X_i}{2} \\sim N(0,1)$, 故 $\\frac{X_i^2}{4} \\sim \\chi^2(1), i=1,2, \\cdots, 15$. 而 $X_1, X_2, \\cdots, X_{15}$ 独立, 故\n$$\n\\frac{X_1^2+X_2^2+\\cdots+X_{10}^2}{4} \\sim \\chi^2(10), \\frac{X_{11}^2+X_{12}^2+\\cdots+X_{15}^2}{4} \\sim \\chi^2(5),\n$$\n\n所以\n$$\n\\frac{\\frac{X_1^2+X_2^2+\\cdots+X_{10}^2}{4} / 10}{\\frac{X_{11}^2+X_{12}^2+\\cdots+X_{15}^2}{4} / 5}=\\frac{X_1^2+X_2^2+\\cdots+X_{10}^2}{2\\left(X_{11}^2+X_{12}^2+\\cdots+X_{15}^2\\right)}=Y \\sim F(10,5)\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339427
+                    },
+                    "question_json": "neu-mathe/7fd1d347e6fe431a9403c41bc977d278",
+                    "updated_at": {
+                        "seconds": 1767637888
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85849,
+                            "question_id": 18955,
+                            "is_answer": true,
+                            "choice": "$F(10,5)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85850,
+                            "question_id": 18955,
+                            "is_answer": false,
+                            "choice": "$\\chi^2(10)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85851,
+                            "question_id": 18955,
+                            "is_answer": false,
+                            "choice": "$\\chi^2(5)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85852,
+                            "question_id": 18955,
+                            "is_answer": false,
+                            "choice": "$F(5,10)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.73,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 10779,
+                    "ai_tags": "抽样分布,F分布,正态总体"
+                },
+                {
+                    "id": 18957,
+                    "subject_id": 3,
+                    "chapter_id": 381,
+                    "question_id": "00a8986c-fc0a-430f-8f44-f845b35bf82f",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "若随机变量 $X$ 服从 $F\\left(n_1, n_2\\right)$ 的分布, 则有 ( ).",
+                    "analysis": "(1) 因随机变量 $X$ 服从 $F\\left(n_1, n_2\\right)$, 故可设 $X=\\frac{U / n_1}{V / n_2}$, 其中 $U$ 服从 $\\chi^2\\left(n_1\\right), V$ 服从 $\\chi^2\\left(n_2\\right)$, 且 $U$ 与 $V$ 相互独立, 故\n$$\nY=\\frac{1}{X}=\\frac{V / n_2}{U / n_1} \\sim F\\left(n_2, n_1\\right) .\n$$\n(2) $F$ 分布的分位数具有的性质: $F_{1-\\alpha}\\left(n_1, n_2\\right)=\\frac{1}{F_\\alpha\\left(n_2, n_1\\right)}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339430
+                    },
+                    "question_json": "neu-mathe/6183149109764380af7ce2f044847300",
+                    "updated_at": {
+                        "seconds": 1767637888
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85863,
+                            "question_id": 18957,
+                            "is_answer": true,
+                            "choice": "$Y=\\frac{1}{X}$ 服从 $F\\left(n_2, n_1\\right)$ 分布",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85864,
+                            "question_id": 18957,
+                            "is_answer": false,
+                            "choice": "$F_{1-\\alpha}\\left(n_1, n_2\\right)=\\frac{1}{F_\\alpha\\left(n_1, n_2\\right)}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85865,
+                            "question_id": 18957,
+                            "is_answer": false,
+                            "choice": "$F_{1-\\alpha}\\left(n_1, n_2\\right)=-\\frac{1}{F_\\alpha\\left(n_2, n_1\\right)}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85866,
+                            "question_id": 18957,
+                            "is_answer": false,
+                            "choice": "$F_{1-\\alpha}\\left(n_1, n_2\\right)=F_\\alpha\\left(n_2, n_1\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.74,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 13875,
+                    "ai_tags": "F分布,分位数,概率论"
+                },
+                {
+                    "id": 18959,
+                    "subject_id": 3,
+                    "chapter_id": 381,
+                    "question_id": "f19c9880-f5f1-4561-a12a-bc9d01237dfe",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 和 $Y$ 相互独立且都服从正态分布 $N\\left(0,3^2\\right)$. $X_1, X_2, \\cdots, X_9$ 和 $Y_1, Y_2, \\cdots, Y_9$ 是分别取自总体 $X$ 和 $Y$ 的简单随机样本, 则统计量 $T=\\frac{X_1+X_2+\\cdots+X_9}{\\sqrt{Y_1^2+Y_2^2+\\cdots+Y_9^2}}$ 服从自由度为 ( ) 的 $t$ 分布.",
+                    "analysis": "首先将 $X_i, Y_i$ 分别除以 3, 使之化为标准正态分布.\n令 $X_i^{\\prime}=\\frac{X_i}{3}, Y_i^{\\prime}=\\frac{Y_i}{3} (i=1,2, \\cdots, 9)$, 则\n$$\nX_i^{\\prime} \\sim N(0,1), \\quad Y_i^{\\prime} \\sim N(0,1)\n$$\n再令 $X^{\\prime}=X_1^{\\prime}+X_2^{\\prime}+\\cdots+X_9^{\\prime}$, 则 $X^{\\prime} \\sim N(0,9)$, 从而 $\\frac{X^{\\prime}}{3} \\sim N(0,1)$.\n又令 $Y^{\\prime 2}=Y_1^{\\prime 2}+Y_2^{\\prime 2}+\\cdots+Y_{9}^{\\prime 2}$, 则 $Y^{\\prime 2} \\sim \\chi^2(9)$.\n因此\n$$\nT=\\frac{X_1+X_2+\\cdots+X_9}{\\sqrt{Y_1^2+Y_2^2+\\cdots+Y_9^2}}=\\frac{3(X_1^{\\prime}+X_2^{\\prime}+\\cdots+X_9^{\\prime})}{\\sqrt{3^2(Y_1^{\\prime 2}+Y_2^{\\prime 2}+\\cdots+Y_9^{\\prime 2})}}=\\frac{X^{\\prime}}{\\sqrt{Y^{\\prime 2}}}=\\frac{X^{\\prime} / 3}{\\sqrt{Y^{\\prime 2} / 9}} \\sim t(9)\n$$\n这里利用了 $X^{\\prime}$ 与 $Y^{\\prime 2}$ 相互独立.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339436
+                    },
+                    "question_json": "neu-mathe/d5a4f1425b834be7a38c8aab513f9de5",
+                    "updated_at": {
+                        "seconds": 1767637891
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85877,
+                            "question_id": 18959,
+                            "is_answer": true,
+                            "choice": "$9$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85878,
+                            "question_id": 18959,
+                            "is_answer": false,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85879,
+                            "question_id": 18959,
+                            "is_answer": false,
+                            "choice": "$6$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85880,
+                            "question_id": 18959,
+                            "is_answer": false,
+                            "choice": "$5$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 37570,
+                    "ai_tags": "数理统计,抽样分布,t分布"
+                },
+                {
+                    "id": 18960,
+                    "subject_id": 3,
+                    "chapter_id": 381,
+                    "question_id": "4b41e8af-195c-4307-8b28-9a863d33a3be",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X \\sim N(2,1)$, 随机变量 $Y_1, Y_2, Y_3, Y_4$ 均服从 $N(0,4)$, 且 $X, Y_i(i=1,2,3,4)$ 相互独立, 今 $T=4(X-2) / \\sqrt{\\sum_{i=1}^4 Y_i^2}$,则满足 $P\\left\\{|T|>t_0\\right\\}=0.01$ 的 $t_0$ 的值为 ()$. \\quad\\left(t_{0.01}(4)=3.7469, t_{0.01}(3)=4.5407, t_{0.005}(4)=4.6041, t_{0.005}(3)=5.8409\\right)$",
+                    "analysis": "由于 $X-2 \\sim N(0,1), \\quad Y_i / 2 \\sim N(0,1), i=1, 2, 3, 4$, 故由 $t$ 分布的定义知\n$$\nT=\\frac{X-2}{\\sqrt{\\sum_{i=1}^4\\left(\\frac{Y_i}{2}\\right)^2} / 4}=\\frac{4(X-2)}{\\sqrt{\\sum_{i=1}^4 Y_i^2}} \\sim t(4),\n$$\n\n由 $P\\left\\{|T|>t_0\\right\\}=0.01$, 对于 $n=4, \\alpha=0.01, t_0=t_{\\alpha / 2}=t_{0.005}(4)=4.6041$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339440
+                    },
+                    "question_json": "neu-mathe/c23551265ea24094b84de78a5158ff35",
+                    "updated_at": {
+                        "seconds": 1767637891
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85884,
+                            "question_id": 18960,
+                            "is_answer": true,
+                            "choice": "$4.6041$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85885,
+                            "question_id": 18960,
+                            "is_answer": false,
+                            "choice": "$4.5407$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85886,
+                            "question_id": 18960,
+                            "is_answer": false,
+                            "choice": "$3.7469$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85887,
+                            "question_id": 18960,
+                            "is_answer": false,
+                            "choice": "$5.8409$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.39,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 44061,
+                    "ai_tags": "t分布,正态分布,抽样分布"
+                },
+                {
+                    "id": 18962,
+                    "subject_id": 3,
+                    "chapter_id": 381,
+                    "question_id": "11b9a6a1-bb06-4fc5-873d-8017f7bc8bf8",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "选项不正确的是 ( ).",
+                    "analysis": "若 $X_1, X_2, \\cdots, X_n$ 相互独立且都服从标准正态分布, 则 $Y=X_1^2+X_2^2+\\cdots+X_n^2 \\sim \\chi^2(n), E(Y)=n, D(Y)=2 n$.选项\" 若 $X \\sim \\chi^2\\left(n_1\\right), \\quad Y \\sim \\chi^2\\left(n_2\\right)$, 则 $X+Y \\sim \\chi^2\\left(n_1+n_2\\right)$ \"是错误的, 因为缺乏 $X$ 与 $Y$ 相互独立这个条件.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339445
+                    },
+                    "question_json": "neu-mathe/a392d95a7b0b43cfb55bff5381f28cfe",
+                    "updated_at": {
+                        "seconds": 1767637891
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85898,
+                            "question_id": 18962,
+                            "is_answer": true,
+                            "choice": "若 $X \\sim \\chi^2(n_1), Y \\sim \\chi^2(n_2)$, 则 $X+Y \\sim \\chi^2(n_1+n_2)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85899,
+                            "question_id": 18962,
+                            "is_answer": false,
+                            "choice": "若 $X \\sim N(0,1), Y \\sim N(0,1)$, 且 $X$ 与 $Y$ 相互独立, 则 $X^2+Y^2 \\sim \\chi^2(2)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85900,
+                            "question_id": 18962,
+                            "is_answer": false,
+                            "choice": "若 $X \\sim \\chi^2(10)$, 则 $D(X)=20$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85901,
+                            "question_id": 18962,
+                            "is_answer": false,
+                            "choice": "若 $X \\sim \\chi^2(10)$, 则 $E(X)=10$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.62,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 15701,
+                    "ai_tags": "卡方分布,正态分布,数字特征"
+                },
+                {
+                    "id": 18963,
+                    "subject_id": 3,
+                    "chapter_id": 381,
+                    "question_id": "eb6cd347-2f46-447d-88c8-63cda69e6a88",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "$X_1, X_2, \\cdots, X_n$ 为总体 $X \\sim N(0,1)$ 的一个样本, $\\bar{X}$ 为样本均值, $S^2$ 为样本方差, 则有 ( ).",
+                    "analysis": "对于正态总体 $X \\sim N(0,1)$ 及其样本 $X_1, X_2, \\cdots, X_n$, 根据相关结论有\n$$\n\\frac{\\bar{X}-0}{1 / \\sqrt{n}} \\sim N(0,1), \\frac{\\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2}{1^2} \\sim \\chi^2(n-1), \\frac{\\bar{X}-0}{S / \\sqrt{n}} \\sim t(n-1) .\n$$\n\n又根据 $\\chi^2$ 分布的定义, 有 $X_i^2 \\sim \\chi^2(1), \\sum_{i=2}^n X_i^2 \\sim \\chi^2(n-1)$, 且相互独立, 于是由 $F$ 分布的定义, 有\n$$\n\\frac{(n-1) X_1^2}{\\sum_{i=2}^n X_i^2} \\sim F(1, n-1)\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339451
+                    },
+                    "question_json": "neu-mathe/97117171ce1a4a63b592446077fc96bb",
+                    "updated_at": {
+                        "seconds": 1767724276
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85905,
+                            "question_id": 18963,
+                            "is_answer": true,
+                            "choice": "$\\frac{(n-1) X_1^2}{\\sum_{i=2}^n X_i^2} \\sim F(1, n-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85906,
+                            "question_id": 18963,
+                            "is_answer": false,
+                            "choice": "$\\bar{X} \\sim N(0,1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85907,
+                            "question_id": 18963,
+                            "is_answer": false,
+                            "choice": "$n \\bar{X} \\sim N(0,1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85908,
+                            "question_id": 18963,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\bar{X}}{S} \\sim t(n-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.47,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 21781,
+                    "ai_tags": "抽样分布,F分布,统计量"
+                },
+                {
+                    "id": 18966,
+                    "subject_id": 3,
+                    "chapter_id": 381,
+                    "question_id": "402b14c5-ace4-44ab-9475-1c973cb7b8ff",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X \\sim N(\\mu, 1), Y \\sim \\chi^2(n)$, 且 $X, Y$ 相互独立. 令 $T=\\frac{X-\\mu}{\\sqrt{Y}} \\sqrt{n}$, 则下列结论正确的是 ( ).",
+                    "analysis": "因为 $X \\sim N(\\mu, 1), Y \\sim \\chi^2(n)$, 且 $X$ 与 $Y$ 相互独立, 所以 $\\frac{X-\\mu}{\\sqrt{Y / n}} \\sim t(n)$, 即 $T=\\frac{X-\\mu}{\\sqrt{Y}} \\sqrt{n} \\sim t(n)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339457
+                    },
+                    "question_json": "neu-mathe/9b82583d527244158f61d36de61b8080",
+                    "updated_at": {
+                        "seconds": 1767551639
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85926,
+                            "question_id": 18966,
+                            "is_answer": true,
+                            "choice": "$T \\sim t(n)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85927,
+                            "question_id": 18966,
+                            "is_answer": false,
+                            "choice": "$T \\sim t(n-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85928,
+                            "question_id": 18966,
+                            "is_answer": false,
+                            "choice": "$T \\sim N(0,1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85929,
+                            "question_id": 18966,
+                            "is_answer": false,
+                            "choice": "$T \\sim F(1, n)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.89,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 12177,
+                    "ai_tags": "t分布,抽样分布"
+                },
+                {
+                    "id": 18973,
+                    "subject_id": 3,
+                    "chapter_id": 381,
+                    "question_id": "d9273414-1d09-4b08-aaf0-056b0f48848f",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, \\cdots, X_{28}$ 取自正态总体 $N\\left(0,0.3^2\\right)$, 则 $P\\left\\{\\frac{\\sum_{i=1}^{14} X_i}{\\sqrt{\\sum_{j=15}^{28} X_j^2}}>2.1448\\right\\}=() .\\left(t_{0.01}(14)=2.6245, t_{0.025}(14)=2.1448\\right)$.",
+                    "analysis": "因为总体为 $N\\left(0, \\sigma^2\\right)$, 所以 $\\sum_{i=1}^{14} X_i \\sim N\\left(0,0.3^2 n\\right), \\sum_{j=15}^{28} \\frac{X_j^2}{0.3^2} \\sim \\chi^2(14)$ 及 $\\frac{\\sum_{i=1}^{14} X_i}{\\sqrt{\\sum_{j=15}^{28} X_j^2}} \\sim t(14)$, 于是\n$$\nP\\left\\{\\frac{\\sum_{i=1}^{14} X_i}{\\sqrt{\\sum_{j=15}^{28} X_j^2}}>2.1448\\right\\}=0.025\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339473
+                    },
+                    "question_json": "neu-mathe/6eb4475211d341f9bae6a3f44e9fc901",
+                    "updated_at": {
+                        "seconds": 1767551644
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85975,
+                            "question_id": 18973,
+                            "is_answer": true,
+                            "choice": "$0.025$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85976,
+                            "question_id": 18973,
+                            "is_answer": false,
+                            "choice": "$0.05$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85977,
+                            "question_id": 18973,
+                            "is_answer": false,
+                            "choice": "$0.01$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85978,
+                            "question_id": 18973,
+                            "is_answer": false,
+                            "choice": "$0.005$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 20085,
+                    "ai_tags": "正态总体,t分布,抽样分布"
+                },
+                {
+                    "id": 18978,
+                    "subject_id": 3,
+                    "chapter_id": 381,
+                    "question_id": "d7a78317-12b4-4db3-80b8-23c6672a3c0f",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "在下列结果中不正确的是 ( ).",
+                    "analysis": "选项 1：$\\chi^2$ 分布的可加性需要满足**相互独立**的条件。若 $X \\sim \\chi^2(n_1), Y \\sim \\chi^2(n_2)$ 且相互独立，则 $X+Y \\sim \\chi^2(n_1+n_2)$。原选项未提及相互独立，故结论不一定成立，是错误的。\n选项 2：根据 $\\chi^2$ 分布的定义，若 $X, Y \\sim N(0,1)$ 且相互独立，则 $X^2+Y^2 \\sim \\chi^2(2)$，正确。\n选项 3：若 $X \\sim \\chi^2(n)$，则 $D(X)=2n$。这里 $n=10$，故 $D(X)=20$，正确。\n选项 4：样本方差 $S^2 = \\frac{1}{n-1}\\sum_{i=1}^n (X_i-\\bar{X})^2$，统计量 $\\frac{(n-1)S^2}{\\sigma^2} = \\frac{1}{\\sigma^2}\\sum_{i=1}^n (X_i-\\bar{X})^2 \\sim \\chi^2(n-1)$。其期望为 $n-1$，方差为 $2(n-1)=2n-2$，正确。\n综上，不正确的是选项 1。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339482
+                    },
+                    "question_json": "neu-mathe/ed9565ac7bc94f90b61f5f07e9eb6b7e",
+                    "updated_at": {
+                        "seconds": 1767551644
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86010,
+                            "question_id": 18978,
+                            "is_answer": true,
+                            "choice": "若 $X \\sim \\chi^2\\left(n_1\\right), Y \\sim \\chi^2\\left(n_2\\right)$, 则 $X+Y \\sim \\chi^2\\left(n_1+n_2\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 86011,
+                            "question_id": 18978,
+                            "is_answer": false,
+                            "choice": "若 $X \\sim N(0,1), Y \\sim N(0,1)$, 且 $X$ 与 $Y$ 相互独立, 则 $X^2+Y^2 \\sim \\chi^2(2)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 86012,
+                            "question_id": 18978,
+                            "is_answer": false,
+                            "choice": "若 $X \\sim \\chi^2(10)$, 则 $D(X)=20$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 86013,
+                            "question_id": 18978,
+                            "is_answer": false,
+                            "choice": "若 $X_1, X_2, \\cdots, X_n$ 是来自 $X \\sim N\\left(\\mu, \\sigma^2\\right)$ 的样本, 则 $E\\left(\\frac{1}{\\sigma^2} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2\\right)=n-1, D\\left(\\frac{1}{\\sigma^2} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2\\right)=2 n-2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.81,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 35973,
+                    "ai_tags": "数理统计,卡方分布,抽样分布"
+                },
+                {
+                    "id": 18985,
+                    "subject_id": 3,
+                    "chapter_id": 381,
+                    "question_id": "3161eeb0-3e69-4c7f-a671-e78d3edf52eb",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, \\cdots, X_9$ 是取自正态总体 $X \\sim N\\left(\\mu, \\sigma^2\\right)$ 的样本, 且 $Y_1=\\frac{1}{6}\\left(X_1+X_2+\\cdots+X_6\\right), Y_2=\\frac{1}{3}\\left(X_7+X_8+X_9\\right)$, $S^2=\\frac{1}{2} \\sum_{i=7}^9\\left(X_i-Y_2\\right)^2$, 则 $Z=\\frac{\\sqrt{2}\\left(Y_1-Y_2\\right)}{S} \\sim t(\\quad)$.",
+                    "analysis": "易知\n$$\nY_1=\\frac{1}{6}(X_1+\\cdots+X_6) \\sim N\\left(\\mu, \\frac{\\sigma^2}{6}\\right), \\quad Y_2=\\frac{1}{3}(X_7+\\cdots+X_9) \\sim N\\left(\\mu, \\frac{\\sigma^2}{3}\\right)\n$$\n且 $Y_1$ 与 $Y_2$ 独立，故 $Y_1-Y_2 \\sim N\\left(0, \\frac{\\sigma^2}{2}\\right)$。又\n$$\n\\frac{2S^2}{\\sigma^2}=\\frac{1}{\\sigma^2}\\sum_{i=7}^9(X_i-Y_2)^2 \\sim \\chi^2(2)\n$$\n因为 $Y_1-Y_2$ 与 $\\frac{2S^2}{\\sigma^2}$ 独立，从而\n$$\nZ = \\frac{\\sqrt{2}(Y_1-Y_2)}{S} = \\frac{(Y_1-Y_2) / (\\sigma/\\sqrt{2})}{\\sqrt{\\frac{2S^2}{\\sigma^2} / 2}} \\sim t(2)\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339498
+                    },
+                    "question_json": "neu-mathe/b55f1ac2821b46459aa4c3a497acaeb3",
+                    "updated_at": {
+                        "seconds": 1767637881
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86059,
+                            "question_id": 18985,
+                            "is_answer": true,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 86060,
+                            "question_id": 18985,
+                            "is_answer": false,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 86061,
+                            "question_id": 18985,
+                            "is_answer": false,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 86062,
+                            "question_id": 18985,
+                            "is_answer": false,
+                            "choice": "$0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.56,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 102612,
+                    "ai_tags": "抽样分布,t分布,正态总体"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 23,
+            "questions": [
+                {
+                    "id": 20435,
+                    "subject_id": 3,
+                    "chapter_id": 381,
+                    "question_id": "53ba5e80-60f0-4c29-b1d9-2e28eb6ab5cb",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, \\cdots, X_{20}$ 是正态总体 $N\\left(0, \\sigma^2\\right)$ 的样本, 则下列结论正确的是 ( ).",
+                    "analysis": "因为总体为 $N\\left(0, \\sigma^2\\right)$, 所以 $\\sum_{i=1}^9 X_i \\sim N\\left(0,9 \\sigma^2\\right), \\frac{1}{\\sigma} \\sum_{i=1}^{20} X_i \\sim N(0,20), \\frac{X_i^2}{\\sigma^2} \\sim \\chi^2(1)(i=1,2, \\cdots, n)$ 相互独立及 $\\frac{1}{\\sigma^2} \\sum_{i=1}^n X_i^2 \\sim \\chi^2(n)$, 于是\n$$\n\\frac{11}{9} \\frac{\\sum_{i=1}^9 X_i^2}{\\sum_{j=10}^{20} X_j^2} \\sim F(9,11), \\frac{\\frac{1}{3 \\sigma} \\sum_{i=1}^9 X_i}{\\frac{1}{\\sqrt{11} \\sigma} \\sqrt{\\sum_{j=10}^{20} X_j^2}} \\sim t(11)\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764382176
+                    },
+                    "question_json": "neu-mathe/54c59e2a5390465ea0e792266eba321e",
+                    "updated_at": {
+                        "seconds": 1767724275
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 96209,
+                            "question_id": 20435,
+                            "is_answer": true,
+                            "choice": "$\\frac{11}{9} \\frac{\\sum_{i=1}^9 X_i^2}{\\sum_{j=10}^{20} X_j^2} \\sim F(9,11)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 96210,
+                            "question_id": 20435,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{\\sigma} \\sum_{i=1}^{20} X_i \\sim N(0,1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 96211,
+                            "question_id": 20435,
+                            "is_answer": false,
+                            "choice": "$\\sum_{i=1}^{20} X_i^2 \\sim \\chi^2(20)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 96212,
+                            "question_id": 20435,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\sum_{i=1}^9 X_i}{\\sum_{j=10}^{20} X_j^2} \\sim t(11)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.63,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 33417,
+                    "ai_tags": "抽样分布,正态总体,F分布"
+                },
+                {
+                    "id": 20438,
+                    "subject_id": 3,
+                    "chapter_id": 381,
+                    "question_id": "0e15d496-743b-4d44-98e7-c401b1637746",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设有 $k$ 个相互独立的正态总体 $X_i \\sim N(\\mu_i, \\sigma^2)(i=1,2, \\cdots, k)$，从第 $i$ 个总体抽取容量为 $n_i$ 的样本 $X_{i 1}, X_{i 2}, \\cdots, X_{i n_i}$，记 $\\overline{X}_i=\\frac{1}{n_i} \\sum_{j=1}^{n_i} X_{i j}(i=1,2, \\cdots, k)$，$n=n_1+n_2+\\cdots+n_k$，则 $W=\\frac{1}{\\sigma^2} \\sum_{i=1}^k \\sum_{j=1}^{n_i}(X_{i j}-\\overline{X}_i)^2$ 的分布为 (    )。",
+                    "analysis": "$\\begin{aligned} & \\text { 因为 } \\frac{\\sum_{j=1}^{n_i}\\left(X_{i j}-\\overline{X_i}\\right)^2}{\\sigma^2}=\\frac{\\left(n_i-1\\right) S_i^2}{\\sigma^2} \\sim \\chi^2\\left(n_i-1\\right) \\text {, 且 } \\frac{\\left(n_i-1\\right) S_i^2}{\\sigma^2}(i=1,2, \\cdots, k) \\text { 相互独立, 所以 } \\\\ & W=\\frac{1}{\\sigma^2} \\sum_{i=1}^k \\sum_{j=1}^{n_i}\\left(X_{i j}-\\overline{X_i}\\right)^2=\\sum_{i=1}^k \\frac{\\left(n_i-1\\right) S_i^2}{\\sigma^2} \\sim \\chi^2\\left(\\sum_{i=1}^k\\left(n_i-1\\right)\\right) . \\\\ & \\text { 而 } \\sum_{i=1}^k\\left(n_i-1\\right)=\\sum_{i=1}^k n_i-k=n-k \\text {, 故 } \\\\ & W=\\frac{1}{\\sigma^2} \\sum_{i=1}^k \\sum_{j=1}^{n_i}\\left(X_{i j}-\\overline{X_i}\\right)^2 \\sim \\chi^2(n-k) .\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764382181
+                    },
+                    "question_json": "neu-mathe/b2da482922214d2fb5072a8ed1a78047",
+                    "updated_at": {
+                        "seconds": 1767637881
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 96230,
+                            "question_id": 20438,
+                            "is_answer": true,
+                            "choice": "$\\chi^2(n-k)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 96231,
+                            "question_id": 20438,
+                            "is_answer": false,
+                            "choice": "$\\chi^2(n-k+1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 96232,
+                            "question_id": 20438,
+                            "is_answer": false,
+                            "choice": "$\\chi^2(n-k-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 96233,
+                            "question_id": 20438,
+                            "is_answer": false,
+                            "choice": "$\\chi^2(n-k+2)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.47,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 51290,
+                    "ai_tags": "正态总体,卡方分布,抽样分布"
+                },
+                {
+                    "id": 20443,
+                    "subject_id": 3,
+                    "chapter_id": 381,
+                    "question_id": "679c839c-ed05-4136-b5b5-a6892781f898",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "对于给定的正数 $a, 0<a<1$, 设 $z_a, \\chi_a^2(n), t_a(n), F_a(n_1, n_2)$ 分别是标准正态分布 $\\Phi(x), \\chi^2(n), t(n), F(n_1, n_2)$ 分布的上 $a$ 分位点, 则下面的结论中不正确的是 ( ).",
+                    "analysis": "因为标准正态分布和 $t$ 分布的密度函数图形都是关于 $y$ 轴对称的，所以 $z_{1-a}(n)=-z_a(n), t_{1-a}(n)=-t_a(n)$；$\\chi^2$ 变量不取小于零的值，所以 $\\chi_{1-a}^2(n)=-\\chi_a^2(n)$ 是错的。对于 $F$ 分布， $F$ 分布的分位数具有的性质：\n$$F_{1-a}(n_1, n_2)=\\frac{1}{F_a(n_2, n_1)}$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764382196
+                    },
+                    "question_json": "neu-mathe/e3fda2f5dfe04eeea77e9a54f9c50b40",
+                    "updated_at": {
+                        "seconds": 1767637881
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 96265,
+                            "question_id": 20443,
+                            "is_answer": true,
+                            "choice": "$\\chi_{1-a}^2(n)=-\\chi_a^2(n)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 96266,
+                            "question_id": 20443,
+                            "is_answer": false,
+                            "choice": "$z_{1-a}(n)=-z_a(n)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 96267,
+                            "question_id": 20443,
+                            "is_answer": false,
+                            "choice": "$t_{1-a}(n)=-t_a(n)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 96268,
+                            "question_id": 20443,
+                            "is_answer": false,
+                            "choice": "$F_{1-a}(n_1, n_2)=\\frac{1}{F_a(n_2, n_1)}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.46,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 37329,
+                    "ai_tags": "数理统计,抽样分布,分位数"
+                }
+            ]
+        }
+    }
+]

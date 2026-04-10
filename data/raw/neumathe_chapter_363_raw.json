@@ -1,0 +1,512 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 6,
+            "questions": [
+                {
+                    "id": 13396,
+                    "subject_id": 3,
+                    "chapter_id": 363,
+                    "question_id": "c6da6504-0c0d-46d2-94d7-be545a0651b1",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一台设备由三大部件构成, 在设备运转中部件需调整概率分别为 $0.1,0.2,0.3$, 假设各部件的状态相互独立,若以 $X$ 表示同时需要调整的部件数, 则 $X$ 的期望与方差分别为 ( ).",
+                    "analysis": "设 $X$ 是同时需要调整的部件数, 可能值为 $0,1,2,3$,记 $p_i=P\\{X=i\\}, i=0,1,2,3$, 有 $p_0=0.9 \\times 0.8 \\times 0.7=0.504$,\n$$\n\\begin{aligned}\n& p_1=0.1 \\times 0.8 \\times 0.7+0.9 \\times 0.2 \\times 0.7+0.9 \\times 0.8 \\times 0.3=0.398, \\\\\n& p_2=0.1 \\times 0.2 \\times 0.7+0.1 \\times 0.8 \\times 0.3+0.9 \\times 0.2 \\times 0.3=0.092, \\\\\n& p_3=0.1 \\times 0.2 \\times 0.3=0.006,\n\\end{aligned}\n$$\n\n故 $X$ 的分布列为\n\\begin{tabular}{|c|cccc|}\n\\hline$X$ & 0 & 1 & 2 & 3 \\\\\n\\hline$p_k$ & 0.504 & 0.398 & 0.092 & 0.006 \\\\\n\\hline\n\\end{tabular}\n$$\n\\begin{aligned}\n& E(X)=0 \\times 0.504+1 \\times 0.398+2 \\times 0.092+3 \\times 0.006=0.6 \\\\\n& E\\left(X^2\\right)=0^2 \\times 0.504+1^2 \\times 0.398+2^2 \\times 0.092+3^2 \\times 0.006=0.82 \\\\\n& D(X)=0.82-0.6^2=0.46\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/efee8888a0164fbba441f4a9f86d647c",
+                    "updated_at": {
+                        "seconds": 1774981852
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53581,
+                            "question_id": 13396,
+                            "is_answer": true,
+                            "choice": "$0.6,0.46$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53584,
+                            "question_id": 13396,
+                            "is_answer": false,
+                            "choice": "$0.6,0.82$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53583,
+                            "question_id": 13396,
+                            "is_answer": false,
+                            "choice": "$0.4,0.46$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53582,
+                            "question_id": 13396,
+                            "is_answer": false,
+                            "choice": "$0.4,0.82$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 189828,
+                    "ai_tags": "数学期望,方差,离散型随机变量"
+                },
+                {
+                    "id": 13398,
+                    "subject_id": 3,
+                    "chapter_id": 363,
+                    "question_id": "c68be41e-8836-47ef-a030-0ed385f34bd3",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设离散随机变量 $X$ 的分布律为\n\\begin{tabular}{c|ccc}\n\\hline$X$ & -2 & 0 & 2 \\\\\n\\hline$p$ & 0.4 & 0.3 & 0.3 \\\\\n\\hline\n\\end{tabular}\n\n则 $E(X), D(X)$ 分别为 () .",
+                    "analysis": "$\\begin{aligned} & E(X)=(-2) \\times 0.4+0 \\times 0.3+2 \\times 0.3=-0.2 \\\\ & E\\left(X^2\\right)=(-2)^2 \\times 0.4+0^2 \\times 0.3+2^2 \\times 0.3=2.8 \\\\ & D(X)=E\\left(X^2\\right)-(E(X))^2=2.76\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/aea551b58f144e639c263b8ec1216619",
+                    "updated_at": {
+                        "seconds": 1774981854
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 53589,
+                            "question_id": 13398,
+                            "is_answer": true,
+                            "choice": "$-0.2, \\quad 2.76$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53591,
+                            "question_id": 13398,
+                            "is_answer": false,
+                            "choice": "$0.3,2.8$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53590,
+                            "question_id": 13398,
+                            "is_answer": false,
+                            "choice": "$0.4,2.76$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 53592,
+                            "question_id": 13398,
+                            "is_answer": false,
+                            "choice": "$-0.4,2.8$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.67,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 34879,
+                    "ai_tags": "离散型随机变量,数学期望,方差"
+                },
+                {
+                    "id": 18946,
+                    "subject_id": 3,
+                    "chapter_id": 363,
+                    "question_id": "3e01cb37-f287-4555-ac22-824f490cd7e1",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一袋中有 5 只乒乓球, 编号为 $1,2,3,4,5$. 在其中同时任取 3 只, 记 $X$ 为取出的 3 只球的最大编号,则 $E(X), D(X)$ 分别为 ( ).",
+                    "analysis": "先求出 $X$ 的分布律 (用古典概率)\n$$\n\\begin{aligned}\n& P\\{X=3\\}=\\frac{C_2^2}{C_5^3}=\\frac{1}{10}, P\\{X=4\\}=\\frac{C_3^2}{C_5^3}=\\frac{3}{10}, P\\{X=5\\}=\\frac{C_4^2}{C_5^3}=\\frac{6}{10} . \\\\\n& \\text { 从而 } E(X)=\\frac{9}{2}, D(X)=\\frac{9}{20} .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339406
+                    },
+                    "question_json": "neu-mathe/6ed05758f9724a39b0ff418d3556be71",
+                    "updated_at": {
+                        "seconds": 1766428294
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85786,
+                            "question_id": 18946,
+                            "is_answer": true,
+                            "choice": "$\\frac{9}{2}, \\frac{9}{20}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85787,
+                            "question_id": 18946,
+                            "is_answer": false,
+                            "choice": "$\\frac{9}{2}, \\frac{9}{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85788,
+                            "question_id": 18946,
+                            "is_answer": false,
+                            "choice": "$\\frac{9}{4}, \\frac{9}{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85789,
+                            "question_id": 18946,
+                            "is_answer": false,
+                            "choice": "$\\frac{9}{4}, \\frac{9}{20}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 7470,
+                    "ai_tags": "离散型随机变量,数学期望,方差"
+                },
+                {
+                    "id": 18950,
+                    "subject_id": 3,
+                    "chapter_id": 363,
+                    "question_id": "923ea69a-8a18-4efc-a3c1-2a16d0dcfc86",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设有 $N$ 个人，每个人将自己的帽子扔到屋子中央，把帽子充分混合后，每个人再随机地从中选取一顶，设选中自己帽子的人数为 $X$, 则 $E(X), D(X)$ 分别为 ( ).",
+                    "analysis": "设 $X$ 表示配对的人数，引入指示变量\n$$X_i=\\begin{cases}1, & \\text{第 } i \\text{ 个人选中自己的帽子} \\\\ 0, & \\text{第 } i \\text{ 个人没选中自己的帽子}\\end{cases} \\quad (i=1,2, \\cdots, N)$$\n则 $X=\\sum_{i=1}^N X_i$。显然 $P\\{X_i=1\\}=\\frac{1}{N}, P\\{X_i=0\\}=1-\\frac{1}{N}$，所以\n$$\nE(X)=\\sum_{i=1}^N E(X_i)=\\sum_{i=1}^N P\\{X_i=1\\}=N \\cdot \\frac{1}{N}=1\n$$\n即平均来说，仅有一人选中自己的帽子。\n又 $D(X)=\\sum_{i=1}^N D(X_i)+2 \\sum_{1 \\le i<j \\le N} \\operatorname{cov}(X_i, X_j)$，其中\n$$\nD(X_i)=E(X_i^2)-E^2(X_i)=1^2 \\times P\\{X_i=1\\}-\\left(\\frac{1}{N}\\right)^2=\\frac{1}{N}-\\frac{1}{N^2}=\\frac{1}{N}\\left(1-\\frac{1}{N}\\right)\n$$\n由于 $X_i, X_j$ 取值 $0,1$，且\n$$\nP\\{X_i X_j=1\\}=P\\{X_i=1, X_j=1\\}=P\\{X_i=1\\} P\\{X_j=1 \\mid X_i=1\\}=\\frac{1}{N} \\cdot \\frac{1}{N-1}\n$$\n因此，\n$$\n\\begin{aligned}\n\\operatorname{cov}(X_i, X_j) &=E(X_i X_j)-E(X_i) E(X_j)=\\frac{1}{N(N-1)}-\\frac{1}{N^2}=\\frac{1}{N^2(N-1)} \\\\\nD(X) &=\\frac{N-1}{N}+2 C_N^2 \\frac{1}{N^2(N-1)}=\\frac{N-1}{N}+\\frac{1}{N}=1\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339410
+                    },
+                    "question_json": "neu-mathe/d79a1e340293404089c66058c045cd5a",
+                    "updated_at": {
+                        "seconds": 1767724273
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85814,
+                            "question_id": 18950,
+                            "is_answer": true,
+                            "choice": "1,1",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85815,
+                            "question_id": 18950,
+                            "is_answer": false,
+                            "choice": "0,0",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85816,
+                            "question_id": 18950,
+                            "is_answer": false,
+                            "choice": "0,1",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85817,
+                            "question_id": 18950,
+                            "is_answer": false,
+                            "choice": "1,0",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 62085,
+                    "ai_tags": "数学期望,方差,概率论"
+                },
+                {
+                    "id": 18953,
+                    "subject_id": 3,
+                    "chapter_id": 363,
+                    "question_id": "181d3c5d-884c-443a-8b6d-eec527558254",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 的分布率为\n\\[\n\\begin{array}{c|ccccc}\n\\hline X & -1 & 0 & 1/2 & 1 & 2 \\\\\n\\hline p_i & 1/3 & 1/6 & 1/6 & 1/12 & 1/4 \\\\\n\\hline\n\\end{array}\n\\]\n$Y=-X+1, Z=X^2$, 则 $D(Y), D(Z)$ 分别为 ( ).",
+                    "analysis": "依题意可得\n\\[\n\\begin{array}{c|ccccc}\n\\hline X & -1 & 0 & 1/2 & 1 & 2 \\\\\n\\hline p_i & 1/3 & 1/6 & 1/6 & 1/12 & 1/4 \\\\\n\\hline Y & 1 & 0 & 1/4 & 1 & 4 \\\\\n\\hline Z & 1 & 0 & 1/16 & 1 & 16 \\\\\n\\hline\n\\end{array}\n\\]\n则 $E(X)=\\frac{1}{3}, E\\left(X^2\\right)=\\frac{35}{24}, E\\left(X^4\\right)=\\frac{425}{96}$. 于是\n$$\n\\begin{aligned}\n& E(Y)=E(-X+1)=1-E(X)=1-\\frac{1}{3}=\\frac{2}{3}, \\\\\n& D(Y)=D(-X+1)=D(X)=E\\left(X^2\\right)-E^2(X)=\\frac{35}{24}-\\frac{1}{9}=\\frac{97}{72}, \\\\\n& E(Z)=E\\left(X^2\\right)=\\frac{35}{24}, \\\\\n& D(Z)=D\\left(X^2\\right)=E\\left(X^4\\right)-E^2\\left(X^2\\right)=\\frac{1325}{576} .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339417
+                    },
+                    "question_json": "neu-mathe/b0e2096cf79d4c44b80352ef625cea84",
+                    "updated_at": {
+                        "seconds": 1764339417
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85835,
+                            "question_id": 18953,
+                            "is_answer": true,
+                            "choice": "$\\frac{97}{72}, \\frac{1325}{576}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85836,
+                            "question_id": 18953,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{3}, \\frac{97}{72}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85837,
+                            "question_id": 18953,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{3}, \\frac{35}{24}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85838,
+                            "question_id": 18953,
+                            "is_answer": false,
+                            "choice": "$\\frac{35}{24}, \\frac{1325}{576}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "ai_tags": "随机变量,期望,方差"
+                },
+                {
+                    "id": 18956,
+                    "subject_id": 3,
+                    "chapter_id": 363,
+                    "question_id": "f7935e79-420b-4005-bb2f-6dd3565eac20",
+                    "difficulty": "Medium",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "某班有学生 $n$ 名, 开新年联欢会, 每人带一份礼物互赠, 礼物集中放在一起, 并将礼物编了号, 当交换礼物时, 每人随机地拿到一个号码, 并以此去领取礼物, 则恰好拿到自己准备的礼物的人数 $X$ 的方差为 ( ).",
+                    "analysis": "设随机变量 $X_i=\\begin{cases} 1, & \\text{若第 } i \\text{ 人拿到自己准备的礼物} \\\\ 0, & \\text{若第 } i \\text{ 个人未拿到自己准备的礼物} \\end{cases} (i=1,2, \\cdots, n)$, 则 $X=\\sum_{i=1}^n X_i$.\n\n易知, $P\\{X_i=1\\}=\\frac{1}{n}, P\\{X_i=0\\}=1-\\frac{1}{n} (i=1,2, \\cdots, n)$, $E(X)=1$.\n\n由于 $X_1, X_2, \\cdots, X_n$ 不相互独立, 因此\n$$\nD(X)=\\sum_{i=1}^n D(X_i)+2 \\sum_{1 \\leq i<j \\leq n} \\operatorname{cov}(X_i, X_j),\n$$\n其中,\n$$\n\\begin{aligned}\nD(X_i) &= E(X_i^2)-[E(X_i)]^2=P\\{X_i^2=1\\}-\\left(\\frac{1}{n}\\right)^2=\\frac{1}{n}-\\frac{1}{n^2}=\\frac{1}{n}\\left(1-\\frac{1}{n}\\right), \\\\\n\\operatorname{cov}(X_i, X_j) &= E(X_i X_j)-E(X_i) E(X_j)\n\\end{aligned}\n$$\n由于 $X_i X_j$ 取值 0, 1, 且\n$$\nP\\{X_i X_j=1\\}=P\\{X_i=1, X_j=1\\}=P\\{X_i=1\\} P\\{X_j=1 \\mid X_i=1\\}=\\frac{1}{n} \\cdot \\frac{1}{n-1},\n$$\n所以 $E(X_i X_j)=1 \\cdot P\\{X_i X_j=1\\}=\\frac{1}{n(n-1)}$, 因此\n$$\n\\operatorname{cov}(X_i, X_j)=\\frac{1}{n(n-1)}-\\frac{1}{n^2}=\\frac{1}{n^2(n-1)}\n$$\n所以 $D(X)=n \\cdot \\frac{1}{n}\\left(1-\\frac{1}{n}\\right)+2 C_n^2 \\cdot \\frac{1}{n^2(n-1)}=\\frac{n-1}{n}+\\frac{1}{n}=1$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339428
+                    },
+                    "question_json": "neu-mathe/412fc54986a64c10bdaeabdeb8fd1130",
+                    "updated_at": {
+                        "seconds": 1766860315
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 85856,
+                            "question_id": 18956,
+                            "is_answer": false,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85857,
+                            "question_id": 18956,
+                            "is_answer": true,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85858,
+                            "question_id": 18956,
+                            "is_answer": false,
+                            "choice": "$1-\\frac{1}{n}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        },
+                        {
+                            "id": 85859,
+                            "question_id": 18956,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{n}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080688
+                            },
+                            "updated_at": {
+                                "seconds": 1735080688
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 4448,
+                    "ai_tags": "随机变量的数字特征,方差,协方差"
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,2810 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 33,
+            "questions": [
+                {
+                    "id": 13128,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "89706cf7-feea-43c8-bdc7-404547175ff3",
+                    "difficulty": "Medium",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "连续随机变量 $X$ 的概率密度为 $f(x)=\\left\\{\\begin{array}{cc}\\frac{32}{(x+4)^3}, & x>0 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$, 设 $Y=X+4$, 则 $E(Y)=()$.",
+                    "analysis": "$$\nE(X)=\\int_0^{+\\infty} \\frac{32 x}{(x+4)^3} d x=32 \\int_0^{+\\infty} \\frac{(x+4)}{(x+4)^3} d x-128 \\int_0^{+\\infty} \\frac{1}{(x+4)^3} d x=4\n$$\n\n则 $E(Y)=E(X+4)=8$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/04bb61d5a5e24cafbb2bb5950143e440",
+                    "updated_at": {
+                        "seconds": 1774809055
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52512,
+                            "question_id": 13128,
+                            "is_answer": false,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52511,
+                            "question_id": 13128,
+                            "is_answer": false,
+                            "choice": "$10$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52509,
+                            "question_id": 13128,
+                            "is_answer": false,
+                            "choice": "$6$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52510,
+                            "question_id": 13128,
+                            "is_answer": true,
+                            "choice": "$8$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.75,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 1192150,
+                    "ai_tags": "连续型随机变量,概率密度函数,数学期望"
+                },
+                {
+                    "id": 13129,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "6e153420-bfa8-4c7b-8635-22b66c572b41",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 表示 10 次独立重复射击命中目标的次数, 每次射击命中目标概率为 0.4 , 则 $E(2 X)=()$.",
+                    "analysis": "随机变量 $X$ 服从二项分布 $B(10,0.4), E(X)=10 \\times 0.4=4$, 由此得 $E(2 X)=2 E(X)=2 \\times 4=8$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/71d880e13d0e463ba263bb3f5e2f1b3c",
+                    "updated_at": {
+                        "seconds": 1767810655
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52515,
+                            "question_id": 13129,
+                            "is_answer": true,
+                            "choice": "$8$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52516,
+                            "question_id": 13129,
+                            "is_answer": false,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52513,
+                            "question_id": 13129,
+                            "is_answer": false,
+                            "choice": "$6$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52514,
+                            "question_id": 13129,
+                            "is_answer": false,
+                            "choice": "$12$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 5207,
+                    "ai_tags": "二项分布,数学期望"
+                },
+                {
+                    "id": 13130,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "8568ca8e-e1f6-47e2-8892-67a604baef7f",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, \\cdots, X_n$ 为 $n$ 个随机变量, 且具有相同的分布列: $X_i \\sim\\left(\\begin{array}{ccc}-1 & 1 & 2 \\\\ \\frac{1}{6} & \\frac{1}{2} & \\frac{1}{3}\\end{array}\\right), i=1,2, \\cdots, n$. 则 $E\\left(\\sum_{i=1}^n X_i^2\\right)=()$.",
+                    "analysis": "由于 $X_i(i=1,2, \\cdots, n)$ 服从相同的分布, 所有 $E\\left(X_i^2\\right)=(-1)^2 \\times \\frac{1}{6}+1 \\times \\frac{1}{2}+2^2 \\times \\frac{1}{3}=2$. 于是,\n$$\nE\\left(\\sum_{i=1}^n X_i^2\\right)=\\sum_{i=1}^n E\\left(X_i^2\\right)=2 n\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/15facdb358fe40c6958757df996ae437",
+                    "updated_at": {
+                        "seconds": 1774809054
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52519,
+                            "question_id": 13130,
+                            "is_answer": true,
+                            "choice": "$2 n$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52518,
+                            "question_id": 13130,
+                            "is_answer": false,
+                            "choice": "$n$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52520,
+                            "question_id": 13130,
+                            "is_answer": false,
+                            "choice": "$3 n$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52517,
+                            "question_id": 13130,
+                            "is_answer": false,
+                            "choice": "$\\frac{n}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.92,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 180727,
+                    "ai_tags": "数学期望,离散型随机变量,分布列"
+                },
+                {
+                    "id": 13131,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "cfb659a5-23b7-4653-841a-cf7a621c77f8",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "已知 $P\\{\\xi=k\\}=\\frac{1}{k!e}(k=0,1,2, \\cdots), \\eta=4 \\xi-1$, 则 $E(\\eta)=()$.",
+                    "analysis": "由题意知，\n$$\nE(\\xi)=\\sum_{k=1}^{+\\infty} k \\cdot \\frac{1}{k!e}=\\frac{e}{e}=1 \\text {, 从而 } E(\\eta)=4 E(\\xi)-1=3 \\text {. }\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/6728f253e2e04d9a8fac0a19bb134e35",
+                    "updated_at": {
+                        "seconds": 1767292337
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52524,
+                            "question_id": 13131,
+                            "is_answer": false,
+                            "choice": "$48$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52521,
+                            "question_id": 13131,
+                            "is_answer": false,
+                            "choice": "$9$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52522,
+                            "question_id": 13131,
+                            "is_answer": false,
+                            "choice": "$28$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52523,
+                            "question_id": 13131,
+                            "is_answer": true,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 49605,
+                    "ai_tags": "数学期望,泊松分布"
+                },
+                {
+                    "id": 13132,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "7486d69f-b251-4d79-898a-02cd95b142bb",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $(\\xi, \\eta)$ 的分布律为\n\\begin{tabular}{c|lcc}\n\\hline$\\xi \\backslash$ & -1 & 1 & 2 \\\\\n\\hline-1 & $1 / 4$ & $1 / 10$ & $3 / 10$ \\\\\n2 & $3 / 20$ & $3 / 20$ & $1 / 20$ \\\\\n\\hline\n\\end{tabular}\n\n则 $E(\\xi-\\eta)=()$.",
+                    "analysis": "由题意知, $E(\\xi)=(-1) \\times\\left(\\frac{5}{20}+\\frac{2}{20}+\\frac{6}{20}\\right)+2 \\times\\left(\\frac{3}{20}+\\frac{3}{20}+\\frac{1}{20}\\right)=\\frac{1}{20}$,\n$$\nE(\\eta)=(-1) \\times\\left(\\frac{5}{20}+\\frac{3}{20}\\right)+1 \\times\\left(\\frac{2}{20}+\\frac{3}{20}\\right)+2 \\times\\left(\\frac{6}{20}+\\frac{1}{20}\\right)=\\frac{11}{20}\n$$\n\n故 $E(\\xi-\\eta)=E(\\xi)-E(\\eta)=-\\frac{1}{2}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/37ff660e0c804530a9e3a446be741cc0",
+                    "updated_at": {
+                        "seconds": 1767810659
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52525,
+                            "question_id": 13132,
+                            "is_answer": true,
+                            "choice": "$-\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52528,
+                            "question_id": 13132,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52527,
+                            "question_id": 13132,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52526,
+                            "question_id": 13132,
+                            "is_answer": false,
+                            "choice": "$-\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.83,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 68937,
+                    "ai_tags": "二维随机变量,数学期望,边缘分布"
+                },
+                {
+                    "id": 13133,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "7e52e81a-3954-41cc-b176-402fd42156f8",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 服从参数为 $p$ 的 $0-1$ 分布, 则 $E(X)=()$.",
+                    "analysis": "依题意, $X$ 的分布律为\n\\begin{tabular}{|c||c||c|}\n\\hline$X$ & 0 & 1 \\\\\n\\hline \\hline$P$ & $1-p$ & $p$ \\\\\n\\hline\n\\end{tabular}\n\n由 $E(X)=\\sum_{i=1}^{\\infty} x_i p_i$, 有 $E(X)=0 \\cdot(1-p)+1 \\cdot p=p$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/910dbf87cc304cf4be857bc2144d215b",
+                    "updated_at": {
+                        "seconds": 1774809053
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52531,
+                            "question_id": 13133,
+                            "is_answer": true,
+                            "choice": "$p$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52529,
+                            "question_id": 13133,
+                            "is_answer": false,
+                            "choice": "$1-p$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52530,
+                            "question_id": 13133,
+                            "is_answer": false,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52532,
+                            "question_id": 13133,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 49601,
+                    "ai_tags": "随机变量,数学期望,0-1分布"
+                },
+                {
+                    "id": 13134,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "df1270e7-7639-4087-8ebf-5b4a36bc397b",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X, Y$ 同分布, 概率密度为 $f(x)=\\left\\{\\begin{array}{cc}2 x \\theta^2, & 0<x<\\frac{1}{\\theta} \\\\ 0, & \\text { 其它 }\\end{array}\\right.$ 使 $E(C(X+2 Y))=\\frac{1}{\\theta}$ 的 $C=()$.",
+                    "analysis": "因 $X, Y$ 同分布, 故\n$$\n\\begin{aligned}\n& E(C(X+2 Y))=E(C X)+2 E(C Y)=3 C E(X), \\\\\n& \\text { 又 } E(X)=\\int_0^{1 / \\theta} x \\cdot 2 x \\theta^2 d x=\\frac{2}{3 \\theta},\n\\end{aligned}\n$$\n\n故 $3 C \\cdot \\frac{2}{3 \\theta}=\\frac{1}{\\theta}$, 得 $C=\\frac{1}{2}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/49582f7586234defb05cc27aa9c0263a",
+                    "updated_at": {
+                        "seconds": 1767810658
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52535,
+                            "question_id": 13134,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52536,
+                            "question_id": 13134,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52533,
+                            "question_id": 13134,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2 \\theta^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52534,
+                            "question_id": 13134,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{3 \\theta}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.85,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 84263,
+                    "ai_tags": "数学期望,概率密度函数,同分布"
+                },
+                {
+                    "id": 13135,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "01a402b2-9c01-4928-80e8-be24f925179c",
+                    "difficulty": "Medium",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设 $P\\{X=n\\}=a^n(a>0, n \\geq 1)$, 且 $E(X)=1$, 则 $a$ 的值为 ().",
+                    "analysis": "由于 $P\\{X=n\\}=a^n \\leq 1$, 且 $\\sum_{n=1}^{\\infty} a^n=1$, 故 $|a|<1$,\n又 $E(X)=\\sum_{n=1}^{\\infty} n a^n=1$, 且\n$$\nf(x)=\\sum_{n=1}^{\\infty} n x^n=x \\sum_{n=1}^{\\infty} n x^{n-1}=x\\left(\\frac{1}{1-x}\\right)^{\\prime}=\\frac{x}{(1-x)^2},\n$$\n\n故 $\\frac{a}{(1-a)^2}=1$, 即 $a^2-3 a+1=0$, 解得满足 $|a|<1$ 的根为 $a=\\frac{3-\\sqrt{5}}{2}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/786937e735f44ccbbb37f2af718df912",
+                    "updated_at": {
+                        "seconds": 1774809054
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52540,
+                            "question_id": 13135,
+                            "is_answer": false,
+                            "choice": "$\\frac{3+\\sqrt{5}}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52539,
+                            "question_id": 13135,
+                            "is_answer": true,
+                            "choice": "$\\frac{3-\\sqrt{5}}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52537,
+                            "question_id": 13135,
+                            "is_answer": false,
+                            "choice": "$\\frac{3+\\sqrt{6}}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52538,
+                            "question_id": 13135,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 95147,
+                    "ai_tags": "概率分布,数学期望,幂级数"
+                },
+                {
+                    "id": 13137,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "171f96de-60dd-4ab0-8023-1e71c51bc2af",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 的分布列为 $P\\{X=k\\}=\\frac{a^k}{(1+a)^{k+1}}, k=0,1,2, \\cdots$, 其中 $a>0$. 则 $E(X)=()$.",
+                    "analysis": "$\\begin{aligned} E(X) & =\\sum_{k=0}^{\\infty} k \\frac{a^k}{(1+a)^{k+1}}=\\sum_{k=1}^{\\infty} k \\frac{a^{k-1}}{(1+a)^{k-1}} \\frac{a}{(1+a)^2} \\\\ & =\\sum_{k=1}^{\\infty} k\\left(\\frac{a}{1+a}\\right)^{k-1} \\frac{a}{(1+a)^2}=\\frac{1}{\\left(1-\\frac{a}{1+a}\\right)^2} \\cdot \\frac{a}{(1+a)^2} \\\\ & =(1+a)^2 \\frac{a}{(1+a)^2}=a .\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/0868434e711c41d89943ce5bd015b7d3",
+                    "updated_at": {
+                        "seconds": 1766860303
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52547,
+                            "question_id": 13137,
+                            "is_answer": true,
+                            "choice": "$a$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52546,
+                            "question_id": 13137,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{a^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52545,
+                            "question_id": 13137,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{a}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52548,
+                            "question_id": 13137,
+                            "is_answer": false,
+                            "choice": "$a^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 6964,
+                    "ai_tags": "概率论,随机变量,数学期望"
+                },
+                {
+                    "id": 13139,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "8cf5c892-b480-4f71-a738-7b6c705d2a70",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 的所有可能取值为 1 和 $a$, 且 $P(X=1)=0.4, E(X)=0.2$, 则 $a=()$.",
+                    "analysis": "$$\nE(X)=1 \\times 0.4+a \\times(1-0.4)=0.2,\n$$\n\n得 $a=-\\frac{1}{3}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/2c08c684d42345c6a1094fea77adf53c",
+                    "updated_at": {
+                        "seconds": 1767810658
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52556,
+                            "question_id": 13139,
+                            "is_answer": true,
+                            "choice": "$-\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52553,
+                            "question_id": 13139,
+                            "is_answer": false,
+                            "choice": "$-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52555,
+                            "question_id": 13139,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52554,
+                            "question_id": 13139,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 33704,
+                    "ai_tags": "数学期望,离散型随机变量"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 33,
+            "questions": [
+                {
+                    "id": 13141,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "07b46245-c56a-4d6a-b99a-1c655b5410da",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "连续随机变量 $X$ 的概率密度为 $f(x)=\\left\\{\\begin{array}{cc}\\frac{32}{(x+4)^3}, & x>0 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$, 设 $Y=X+4$, 则 $E(Y)=()$.",
+                    "analysis": "$$\nE(X)=\\int_0^{+\\infty} \\frac{32 x}{(x+4)^3} d x=32 \\int_0^{+\\infty} \\frac{(x+4)}{(x+4)^3} d x-128 \\int_0^{+\\infty} \\frac{1}{(x+4)^3} d x=4\n$$\n\n则 $E(Y)=E(X+4)=8$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/b129d4b42e344622a9af289b13276eec",
+                    "updated_at": {
+                        "seconds": 1767724273
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52561,
+                            "question_id": 13141,
+                            "is_answer": true,
+                            "choice": "$8$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52564,
+                            "question_id": 13141,
+                            "is_answer": false,
+                            "choice": "$6$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52562,
+                            "question_id": 13141,
+                            "is_answer": false,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52563,
+                            "question_id": 13141,
+                            "is_answer": false,
+                            "choice": "$10$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.88,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 43922,
+                    "ai_tags": "连续型随机变量,数学期望,概率密度"
+                },
+                {
+                    "id": 13143,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "f447e76b-101b-4fc6-ac3f-195357f90dd8",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X_{i j}$ 独立同分布, $E\\left(X_{i j}\\right)=3,(i, j=1,2)$, 则行列式 $Y=\\left|\\begin{array}{ll}X_{11} & X_{12} \\\\ X_{21} & X_{22}\\end{array}\\right|$ 的数学期望为 ( ).",
+                    "analysis": "$\\begin{aligned} E(Y) & =E\\left(X_{11} X_{22}\\right)-E\\left(X_{12} X_{21}\\right) \\\\ & =E\\left(X_{11}\\right) E\\left(X_{22}\\right)-E\\left(X_{12}\\right) E\\left(X_{21}\\right)=9-9=0 .\\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/299ebb5d131849d7be19502436101a23",
+                    "updated_at": {
+                        "seconds": 1767810657
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52570,
+                            "question_id": 13143,
+                            "is_answer": true,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52569,
+                            "question_id": 13143,
+                            "is_answer": false,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52572,
+                            "question_id": 13143,
+                            "is_answer": false,
+                            "choice": "$9$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52571,
+                            "question_id": 13143,
+                            "is_answer": false,
+                            "choice": "$81$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 57304,
+                    "ai_tags": "数学期望,独立同分布,行列式"
+                },
+                {
+                    "id": 13144,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "3e306416-bb70-4639-8570-04c9dc28b8f6",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, \\cdots, X_n$ 为 $n$ 个随机变量, 且具有相同的分布列: $X_i \\sim\\left(\\begin{array}{ccc}-1 & 1 & 2 \\\\ \\frac{1}{6} & \\frac{1}{2} & \\frac{1}{3}\\end{array}\\right), i=1,2, \\cdots, n$. 则 $E\\left(\\sum_{i=1}^n X_i^2\\right)=()$.",
+                    "analysis": "由于 $X_i(i=1,2, \\cdots, n)$ 服从相同的分布, 所有 $E\\left(X_i^2\\right)=(-1)^2 \\times \\frac{1}{6}+1 \\times \\frac{1}{2}+2^2 \\times \\frac{1}{3}=2$. 于是,\n$$\nE\\left(\\sum_{i=1}^n X_i^2\\right)=\\sum_{i=1}^n E\\left(X_i^2\\right)=2 n\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/f4d2f78a66c44593b3252fcdfd0b675a",
+                    "updated_at": {
+                        "seconds": 1767292334
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52574,
+                            "question_id": 13144,
+                            "is_answer": true,
+                            "choice": "$2 n$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52575,
+                            "question_id": 13144,
+                            "is_answer": false,
+                            "choice": "$n$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52573,
+                            "question_id": 13144,
+                            "is_answer": false,
+                            "choice": "$3 n$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52576,
+                            "question_id": 13144,
+                            "is_answer": false,
+                            "choice": "$\\frac{n}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 22547,
+                    "ai_tags": "随机变量,数学期望,离散型分布"
+                },
+                {
+                    "id": 13146,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "0757d19c-dcd9-4c45-930d-0c9611a519cc",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $\\xi_1, \\xi_2$ 都服从区间 $[0,2]$ 上的均匀分布, 则 $E\\left(\\xi_1+\\xi_2\\right)=()$.",
+                    "analysis": "由于 $\\xi_1, \\xi_2$ 都服从区间 $[0,2]$ 上的均匀分布, 则 $E\\left(\\xi_1\\right)=E\\left(\\xi_2\\right)=\\frac{0+2}{2}=1$.再由数学期望的性质知, $E\\left(\\xi_1+\\xi_2\\right)=E\\left(\\xi_1\\right)+E\\left(\\xi_2\\right)=2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/1db8c62049f147ea9874f59f60154a12",
+                    "updated_at": {
+                        "seconds": 1767810655
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52581,
+                            "question_id": 13146,
+                            "is_answer": true,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52584,
+                            "question_id": 13146,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52583,
+                            "question_id": 13146,
+                            "is_answer": false,
+                            "choice": "$0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52582,
+                            "question_id": 13146,
+                            "is_answer": false,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.89,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 9012,
+                    "ai_tags": "均匀分布,数学期望"
+                },
+                {
+                    "id": 13150,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "145b2a30-4508-4ada-9d8e-82777dfb31a6",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设离散型随机变量 $X$ 的分布律为 \\begin{tabular}{c|ccc}\n\\hline$X$ & -2 & 0 & 2 \\\\\n\\hline$p_i$ & 0.4 & 0.3 & 0.3 \\\\\n\\hline\n\\end{tabular} , 则 $E(X)=($ ).",
+                    "analysis": "由题意知, $E(X)=(-2) \\times 0.4+0 \\times 0.3+2 \\times 0.3=-0.2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/68948828a3af4db9b59fe7859ffbe971",
+                    "updated_at": {
+                        "seconds": 1774809054
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52599,
+                            "question_id": 13150,
+                            "is_answer": true,
+                            "choice": "$-0.2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52598,
+                            "question_id": 13150,
+                            "is_answer": false,
+                            "choice": "$0.1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52600,
+                            "question_id": 13150,
+                            "is_answer": false,
+                            "choice": "$-0.1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52597,
+                            "question_id": 13150,
+                            "is_answer": false,
+                            "choice": "$0.2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.57,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 6433,
+                    "ai_tags": "离散型随机变量,数学期望,分布律"
+                },
+                {
+                    "id": 13151,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "9a1c4bb0-e156-4f44-8f1a-1790835ac2aa",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X \\sim P(5), Y \\sim b(16,0.5)$, 则 $E(2 X-Y-2)=()$.",
+                    "analysis": "$\\begin{gathered}\\text { 由 } X \\sim P(5) \\text {, 有 } E(X)=5, D(X)=5 \\text {; 由 } Y \\sim b(16,0.5) \\text {, 有 } E(Y)=8, D(Y)=4 . \\text { 于是, } \\\\ E(2 X-Y-2)=2 E(X)-E(Y)-2=0 .\\end{gathered}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/d8ab9c0dacd14b95a78348829935b804",
+                    "updated_at": {
+                        "seconds": 1774809055
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52601,
+                            "question_id": 13151,
+                            "is_answer": true,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52604,
+                            "question_id": 13151,
+                            "is_answer": false,
+                            "choice": "$-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52602,
+                            "question_id": 13151,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52603,
+                            "question_id": 13151,
+                            "is_answer": false,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.88,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 82671,
+                    "ai_tags": "数学期望,泊松分布,二项分布"
+                },
+                {
+                    "id": 13152,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "7d4ec271-357f-44d6-aaa9-ecf6c7809720",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $\\xi$ 的分布律为 $P\\{\\xi=n\\}=P\\{\\xi=-n\\}=\\frac{1}{2 n(n+1)}$ ( $n$ 是正整数), 则 $E(\\xi)=()$.",
+                    "analysis": "由数学期望的定义, 先判断 $\\sum_{i=1}^{\\infty} x_i p_i$ 是否绝对收敛. 根据题意, $\\sum_{i=1}^{\\infty}\\left|x_i p_i\\right|=\\sum_{n=1}^{\\infty} \\frac{1}{n+1}$ 是发散的. 故 $E(\\xi)$ 不存在.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/075b267b5952452a89286c7e1fd15726",
+                    "updated_at": {
+                        "seconds": 1774809053
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52607,
+                            "question_id": 13152,
+                            "is_answer": true,
+                            "choice": "不存在",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52606,
+                            "question_id": 13152,
+                            "is_answer": false,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52608,
+                            "question_id": 13152,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52605,
+                            "question_id": 13152,
+                            "is_answer": false,
+                            "choice": "$0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.3,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 54874,
+                    "ai_tags": "数学期望,离散型随机变量,级数敛散性"
+                },
+                {
+                    "id": 13154,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "ed0bde20-a159-4be1-b1fb-57fc164d5e59",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设 $X$ 为一随机变量, $E(X)=\\mu, D(X)=\\sigma^2(\\sigma>0)$, 则对于任意常数 $c$, 必有 ( ) 成立。",
+                    "analysis": "$$\nE^2(X-c)=(\\mu-c)^2, \\quad E(X-\\mu)=E(X)-\\mu=0,\n$$\n\n显然有 $E^2(X-c) \\geq E(X-\\mu)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/83c395ead665432681fa4f4ceb0cd9f7",
+                    "updated_at": {
+                        "seconds": 1767810651
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 52614,
+                            "question_id": 13154,
+                            "is_answer": false,
+                            "choice": "$E^2(X-c)=E\\left(X^2\\right)-c^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52616,
+                            "question_id": 13154,
+                            "is_answer": true,
+                            "choice": "$E^2(X-c) \\geq E(X-\\mu)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52615,
+                            "question_id": 13154,
+                            "is_answer": false,
+                            "choice": "$E^2(X-c)<E(X-\\mu)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 52613,
+                            "question_id": 13154,
+                            "is_answer": false,
+                            "choice": "$E^2(X-c)=E\\left(X-\\mu^2\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.88,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 24400,
+                    "ai_tags": "随机变量,数学期望"
+                },
+                {
+                    "id": 18785,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "28d79665-4b05-4743-9286-4680f6754b11",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知 $(\\xi, \\eta)$ 的联合分布为\n\\begin{tabular}{c|ccc}\n\\hline $\\xi \\backslash \\eta$ & 0 & 1 & 2 \\\\\n\\hline 0 & 0.1 & 0.05 & 0.25 \\\\\n1 & 0.0 & 0.1 & 0.2 \\\\\n2 & 0.2 & 0.1 & 0.0 \\\\\n\\hline\n\\end{tabular}\n\n则 $E(\\xi), E(\\eta)$ 的值分别为 ( ).",
+                    "analysis": "由题意知，\n$$\n\\begin{aligned}\n& E(\\xi)=0 \\times(0.1+0.05+0.25)+1 \\times(0+0.1+0.2)+2 \\times(0.2+0.1+0)=0.9 \\\\\n& E(\\eta)=0 \\times(0.1+0+0.2)+1 \\times(0.05+0.1+0.1)+2 \\times(0.25+0.2+0)=1.15\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338998
+                    },
+                    "question_json": "neu-mathe/e05cd27d44f64f6b84f1c249e0ef425a",
+                    "updated_at": {
+                        "seconds": 1767810657
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84659,
+                            "question_id": 18785,
+                            "is_answer": true,
+                            "choice": "$0.9,1.15$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84660,
+                            "question_id": 18785,
+                            "is_answer": false,
+                            "choice": "$0.8,1.05$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84661,
+                            "question_id": 18785,
+                            "is_answer": false,
+                            "choice": "$0.9,1.05$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84662,
+                            "question_id": 18785,
+                            "is_answer": false,
+                            "choice": "$0.8,1.15$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.75,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 33496,
+                    "ai_tags": "二维随机变量,联合分布,数学期望"
+                },
+                {
+                    "id": 18788,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "c727cfff-af13-4eef-91c3-fa6d9d832e6a",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X_1, X_2, \\cdots, X_n$ 相互独立, 并且服从同一分布; 数学期望为 $a$, 方差为 $\\sigma^2$, 今 $\\overline{X_n}=\\frac{1}{n} \\sum_{i=1}^n X_i$, 则 $E\\left(\\overline{X_n}\\right)=()$.",
+                    "analysis": "$E\\left(\\overline{X_n}\\right)=E\\left(\\frac{1}{n} \\sum_{i=1}^n X_i\\right)=\\frac{1}{n} E\\left(\\sum_{i=1}^n X_i\\right)=\\frac{1}{n} \\sum_{i=1}^n E\\left(X_i\\right)=\\frac{1}{n} n a=a$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339012
+                    },
+                    "question_json": "neu-mathe/0f7c15c99dd644e88dced4927128bc85",
+                    "updated_at": {
+                        "seconds": 1767810651
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84680,
+                            "question_id": 18788,
+                            "is_answer": true,
+                            "choice": "$a$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84681,
+                            "question_id": 18788,
+                            "is_answer": false,
+                            "choice": "$n a$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84682,
+                            "question_id": 18788,
+                            "is_answer": false,
+                            "choice": "$\\sigma^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84683,
+                            "question_id": 18788,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\sigma^2}{n}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 8920,
+                    "ai_tags": "数学期望,独立同分布,样本均值"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 33,
+            "questions": [
+                {
+                    "id": 18789,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "a5df6aa5-f131-4e75-8dd0-4c92281e712e",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X, Y$ 相互独立，$X$ 的概率密度为 $f_X(x)=\\begin{cases} \\frac{8}{x^3}, & x>2 \\\\ 0, & \\text{其它} \\end{cases}$，$Y$ 的概率密度为 $f_Y(y)=\\begin{cases} 2y, & 0<y<1 \\\\ 0, & \\text{其它} \\end{cases}$，则 $E(XY)=(\\quad)$。",
+                    "analysis": "$$ E(X)=\\int_2^{+\\infty} x \\cdot \\frac{8}{x^3} dx=\\int_2^{+\\infty} \\frac{8}{x^2} dx=4, \\quad E(Y)=\\int_0^1 y \\cdot 2 y dy=\\int_0^1 2 y^2 dy=\\frac{2}{3}. $$ 由于 $X, Y$ 相互独立，故 $E(XY)=E(X) E(Y)=\\frac{8}{3}$。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339012
+                    },
+                    "question_json": "neu-mathe/9ec1157f8d35406ab64899cdffe46cb7",
+                    "updated_at": {
+                        "seconds": 1766860319
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84687,
+                            "question_id": 18789,
+                            "is_answer": true,
+                            "choice": "$\\frac{8}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84688,
+                            "question_id": 18789,
+                            "is_answer": false,
+                            "choice": "$\\frac{4}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84689,
+                            "question_id": 18789,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84690,
+                            "question_id": 18789,
+                            "is_answer": false,
+                            "choice": "$\\frac{7}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 64513,
+                    "ai_tags": "随机变量,数学期望,独立性"
+                },
+                {
+                    "id": 18791,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "67cbba13-1028-444c-ae93-abc27eb8d39c",
+                    "difficulty": "Easy",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "设 $(\\xi, \\eta)$ 的分布律为\n\\[\n\\begin{array}{c|ccc}\n\\hline\n\\xi \\setminus \\eta & -1 & 1 & 2 \\\\\n\\hline\n-1 & 1/4 & 1/10 & 3/10 \\\\\n2 & 3/20 & 3/20 & 1/20 \\\\\n\\hline\n\\end{array}\n\\]\n则 $E(\\xi-\\eta)=(\\quad)$.",
+                    "analysis": "由题意知, $E(\\xi)=(-1) \\times\\left(\\frac{5}{20}+\\frac{2}{20}+\\frac{6}{20}\\right)+2 \\times\\left(\\frac{3}{20}+\\frac{3}{20}+\\frac{1}{20}\\right)=\\frac{1}{20}$, $E(\\eta)=(-1) \\times\\left(\\frac{5}{20}+\\frac{3}{20}\\right)+1 \\times\\left(\\frac{2}{20}+\\frac{3}{20}\\right)+2 \\times\\left(\\frac{6}{20}+\\frac{1}{20}\\right)=\\frac{11}{20}$.故 $E(\\xi-\\eta)=E(\\xi)-E(\\eta)=-\\frac{1}{2}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339015
+                    },
+                    "question_json": "neu-mathe/cc6258b56e76400ca0de8b26270dffbd",
+                    "updated_at": {
+                        "seconds": 1767724275
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84701,
+                            "question_id": 18791,
+                            "is_answer": false,
+                            "choice": "$-\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84702,
+                            "question_id": 18791,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84703,
+                            "question_id": 18791,
+                            "is_answer": true,
+                            "choice": "$-\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84704,
+                            "question_id": 18791,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 39424,
+                    "ai_tags": "二维随机变量,联合分布律,数学期望"
+                },
+                {
+                    "id": 18792,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "0ee70428-6f83-4aad-a988-5a48972f22df",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设二维离散型随机向量 $(X, Y)$ 的分布列为\n\\[\n\\begin{array}{c|ccc}\n\\hline\nX \\setminus Y & -1 & 0 & 1 \\\\\n\\hline\n1 & 0.2 & 0.1 & 0.1 \\\\\n2 & 0.1 & 0 & 0.1 \\\\\n3 & 0 & 0.3 & 0.1 \\\\\n\\hline\n\\end{array}\n\\]\n则 $E(X), E(Y)$ 分别为 ( ).",
+                    "analysis": "$E(X)=1 \\times 0.4+2 \\times 0.2+3 \\times 0.4=2, \\quad E(Y)=(-1) \\times 0.3+0 \\times 0.4+1 \\times 0.3=0$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339018
+                    },
+                    "question_json": "neu-mathe/0e4adbf50c134c9599aac4c03623266a",
+                    "updated_at": {
+                        "seconds": 1766860318
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84708,
+                            "question_id": 18792,
+                            "is_answer": true,
+                            "choice": "2, 0",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84709,
+                            "question_id": 18792,
+                            "is_answer": false,
+                            "choice": "0, 2",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84710,
+                            "question_id": 18792,
+                            "is_answer": false,
+                            "choice": "1, 2",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84711,
+                            "question_id": 18792,
+                            "is_answer": false,
+                            "choice": "1, 0",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 2293198,
+                    "ai_tags": "二维随机变量,边缘分布,数学期望"
+                },
+                {
+                    "id": 18795,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "db528b37-4716-469a-9e78-cb29aa3ced55",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "具有下面分布律的随机变量中, 数学期望不存在的是 ( ) .",
+                    "analysis": "对离散型随机变量, 求一随机变量的数学期望, 首先判断级数 $\\sum x_i p_i$ 是否绝对收敛. \n由于 $\\sum_{k=1}^{+\\infty} \\left| \\frac{3^k}{k} \\right| \\cdot \\frac{2}{3^k} = +\\infty$, \n故若分布律为 $P\\left\\{\\xi=\\frac{3^k}{k}\\right\\}=\\frac{2}{3^k}, k=1,2, \\ldots$, 则该随机变量的数学期望不存在.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339022
+                    },
+                    "question_json": "neu-mathe/ec911fe572cb42b9b42ad73dba0b7150",
+                    "updated_at": {
+                        "seconds": 1767810658
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84729,
+                            "question_id": 18795,
+                            "is_answer": true,
+                            "choice": "$P\\left\\{\\xi=\\frac{3^k}{k}\\right\\}=\\frac{2}{3^k}, k=1,2, \\ldots$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84730,
+                            "question_id": 18795,
+                            "is_answer": false,
+                            "choice": "$P\\{\\xi=k\\}=\\frac{\\lambda^k}{k!} e^{-\\lambda}, \\lambda>0, k=0,1,2, \\ldots$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84731,
+                            "question_id": 18795,
+                            "is_answer": false,
+                            "choice": "$P\\{\\xi=k\\}=\\left(\\frac{1}{2}\\right)^k, k=1,2, \\ldots$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84732,
+                            "question_id": 18795,
+                            "is_answer": false,
+                            "choice": "$P\\{\\xi=k\\}=p^k(1-p)^{1-k}, 0<p<1, k=0,1$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.88,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 10365,
+                    "ai_tags": "数学期望,离散型随机变量,级数收敛"
+                },
+                {
+                    "id": 18796,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "a4d6d090-62c6-460a-a661-2751b125f0ae",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X$ 和 $Y$ 相互独立，概率密度分别为\n$$\n\\varphi_1(x)=\\begin{cases} 2x, & 0 \\leq x \\leq 1 \\\\ 0, & \\text{其它} \\end{cases}, \\quad \\varphi_2(y)=\\begin{cases} e^{-(y-5)}, & y>5 \\\\ 0, & \\text{其它} \\end{cases}\n$$\n则 $E(XY)=( \\quad )$.",
+                    "analysis": "解法一 由独立性，\n$$\nE(XY)=E(X) \\cdot E(Y)=\\int_0^1 x \\cdot 2x \\, dx \\int_5^{+\\infty} y e^{-(y-5)} \\, dy = \\frac{2}{3} \\times 6 = 4\n$$\n解法二 令 $Z=Y-5$，则\n$$\nE(XY)=E(X) \\cdot E(Y)=\\int_0^1 x \\cdot 2x \\, dx \\cdot E(Z+5) = \\frac{2}{3} \\times (1+5) = 4\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339023
+                    },
+                    "question_json": "neu-mathe/e434a1c4eef54cb5a3bb8fb8646fb833",
+                    "updated_at": {
+                        "seconds": 1774809052
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84736,
+                            "question_id": 18796,
+                            "is_answer": true,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84737,
+                            "question_id": 18796,
+                            "is_answer": false,
+                            "choice": "$5$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84738,
+                            "question_id": 18796,
+                            "is_answer": false,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84739,
+                            "question_id": 18796,
+                            "is_answer": false,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.67,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 25937,
+                    "ai_tags": "数学期望,随机变量的独立性"
+                },
+                {
+                    "id": 18797,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "0f540cb9-e524-427c-bcc0-7518aad2a21d",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "随机变量 $\\xi$ 的分布列为 $P\\{\\xi=k\\}=p(1-p)^{k-1}(k=1,2, \\ldots)$，则 $E(\\xi)=(\\quad)$。",
+                    "analysis": "$$\nE(\\xi)=\\sum_{k=1}^{\\infty} k \\cdot p(1-p)^{k-1}=p\\left[\\sum_{k=0}^{\\infty}(1-p)^k\\right]^{\\prime}=p\\left[\\frac{1}{1-(1-p)}\\right]^{\\prime}=p \\cdot \\frac{1}{p^2}=\\frac{1}{p}.\n$$\n\n或依分布列可知，$\\xi$ 服从参数为 $p$ 的几何分布，所以 $E(\\xi)=\\frac{1}{p}$。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339027
+                    },
+                    "question_json": "neu-mathe/425f87bc05fd451b8c264ef203b42317",
+                    "updated_at": {
+                        "seconds": 1774809054
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84743,
+                            "question_id": 18797,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{p}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84744,
+                            "question_id": 18797,
+                            "is_answer": false,
+                            "choice": "$p(1-p)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84745,
+                            "question_id": 18797,
+                            "is_answer": false,
+                            "choice": "$p$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84746,
+                            "question_id": 18797,
+                            "is_answer": false,
+                            "choice": "$k p$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.5,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 138622,
+                    "ai_tags": "几何分布,数学期望,离散型随机变量"
+                },
+                {
+                    "id": 18799,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "35e11887-ece1-4a15-b043-499c8ae96bd0",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "对任意随机变量 $X$, 若 $E(X)$ 存在, 则 $E\\{E[E(X)]\\}$ 等于 ( ).",
+                    "analysis": "由数学期望的性质 1及 $E(X)$ 为一常数知\n$$\nE\\{E[E(X)]\\}=E[E(X)]=E(X) .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339028
+                    },
+                    "question_json": "neu-mathe/f7c4db867e8549989e070d7d0950a5bd",
+                    "updated_at": {
+                        "seconds": 1767810653
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84757,
+                            "question_id": 18799,
+                            "is_answer": true,
+                            "choice": "$E(X)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84758,
+                            "question_id": 18799,
+                            "is_answer": false,
+                            "choice": "$X$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84759,
+                            "question_id": 18799,
+                            "is_answer": false,
+                            "choice": "$E^2(X)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84760,
+                            "question_id": 18799,
+                            "is_answer": false,
+                            "choice": "$E\\left(X^2\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 11327,
+                    "ai_tags": "概率论,数学期望"
+                },
+                {
+                    "id": 18800,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "70c95a08-c8c8-4eba-92be-8ef87e5fdb39",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $\\xi$ 的概率密度为 $\\varphi(x)=\\begin{cases} e^{-x}, & x \\ge 0 \\\\ 0, & x < 0 \\end{cases}$, 则 $E(2 \\xi+1)=(\\quad)$.",
+                    "analysis": "由题意知，\n$$\nE(2 \\xi+1)=\\int_0^{+\\infty}(2 x+1) e^{-x} d x=3\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339028
+                    },
+                    "question_json": "neu-mathe/70dbfb305f6a4a97a7f62c4411995ea5",
+                    "updated_at": {
+                        "seconds": 1767637890
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84764,
+                            "question_id": 18800,
+                            "is_answer": true,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84765,
+                            "question_id": 18800,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84766,
+                            "question_id": 18800,
+                            "is_answer": false,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84767,
+                            "question_id": 18800,
+                            "is_answer": false,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 38921,
+                    "ai_tags": "概率密度,数学期望,指数分布"
+                },
+                {
+                    "id": 18801,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "c9990f83-5ba5-459b-8787-13f6afa82877",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 与 $Y$ 互相独立, 且 $X$ 服从区间 $[0,2]$ 上的均匀分布, $Y$ 服从参数为 3 的指数分布, 则 $E(X Y)=()$.",
+                    "analysis": "方法一, 用期望的性质和重要分布的数字特征公式来计算. 因为\n$$\nE(X Y)=E(X) E(Y) \\text {, 又 } E(X)=1, E(Y)=\\frac{1}{3} \\text {, }\n$$\n所以 $E(X Y)=\\frac{1}{3}$.\n方法二, 用随机变量函数的期望公式来计算.\n因为 $X$ 与 $Y$ 相互独立, 且\n$$\nf_X(x)=\\begin{cases}\n\\frac{1}{2}, & 0 \\leq x \\leq 2 \\\\\n0, & \\text {其他}\n\\end{cases}, \\quad f_Y(y)=\\begin{cases}\n3 e^{-3y}, & y>0 \\\\\n0, & y \\leq 0\n\\end{cases}\n$$\n所以 $(X, Y)$ 的联合分布密度函数为\n$$\nf(x, y)=\\begin{cases}\n\\frac{3}{2} e^{-3 y}, & 0 \\leq x \\leq 2, y>0 \\\\\n0, & \\text{其他}\n\\end{cases}\n$$\n所以\n$$\nE(X Y)=\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} x y f(x, y) d x d y=\\frac{3}{2} \\int_0^2 d x \\int_0^{+\\infty} x y e^{-3 y} d y=\\frac{1}{3} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339036
+                    },
+                    "question_json": "neu-mathe/41c3b58eefaf4c91ad0321e92721faca",
+                    "updated_at": {
+                        "seconds": 1774809053
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84771,
+                            "question_id": 18801,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84772,
+                            "question_id": 18801,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84773,
+                            "question_id": 18801,
+                            "is_answer": false,
+                            "choice": "$\\frac{4}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84774,
+                            "question_id": 18801,
+                            "is_answer": false,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.5,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 88872,
+                    "ai_tags": "概率论,数学期望,独立性"
+                },
+                {
+                    "id": 18803,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "ea739bd1-2b0d-445e-86c2-8be6cc4ac739",
+                    "difficulty": "Easy",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "掷 2 颗骰子，设 $X$ 为第 1 颗掷出的点数，$Y$ 为第 2 颗骰子掷出的点数。则 $E(X+Y), E(XY)$ 分别为 ( )。",
+                    "analysis": "$E(X)=\\frac{1+2+3+4+5+6}{6}=\\frac{7}{2}, E(Y)=\\frac{7}{2}$。由于 $X, Y$ 相互独立，故\n$E(X+Y)=E(X)+E(Y)=7$，\n$E(XY)=E(X)E(Y)=\\frac{7}{2} \\times \\frac{7}{2} = \\frac{49}{4}$。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339038
+                    },
+                    "question_json": "neu-mathe/b9084d97c8f54c56937677902cfb7706",
+                    "updated_at": {
+                        "seconds": 1767810654
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84785,
+                            "question_id": 18803,
+                            "is_answer": false,
+                            "choice": "$\\frac{7}{3}, \\frac{49}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84786,
+                            "question_id": 18803,
+                            "is_answer": false,
+                            "choice": "$\\frac{7}{3}, \\frac{49}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84787,
+                            "question_id": 18803,
+                            "is_answer": true,
+                            "choice": "$7, \\frac{49}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84788,
+                            "question_id": 18803,
+                            "is_answer": false,
+                            "choice": "$7, \\frac{49}{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 23154,
+                    "ai_tags": "数学期望,随机变量的独立性"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 33,
+            "questions": [
+                {
+                    "id": 18804,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "01d9099d-c62c-4b73-9de8-43677ddd090a",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "甲, 乙两人进行打靶, 所得分数分别记为 $X_1, X_2$, 它们的分布律分别为\n\\begin{tabular}{|c|ccc|}\n\\hline$X_1$ & 0 & 1 & 2 \\\\\n\\hline$p_k$ & 0 & 0.2 & 0.8 \\\\\n\\hline$X_2$ & 0 & 1 & 2 \\\\\n\\hline$p_k$ & 0.6 & 0.3 & 0.1 \\\\\n\\hline\n\\end{tabular}\n\n则它们的成绩的好坏为 ( ).",
+                    "analysis": "我们来计算 $X_1$ 的数学期望, 得\n$$\nE\\left(X_1\\right)=0 \\times 0+1 \\times 0.2+2 \\times 0.8=1.8 \\text { (分) } .\n$$\n\n这意味着, 如果甲进行很多次的射击, 那么, 所得分数的算术平均就接近 1.8 , 而乙所得分数的数学期望为\n$$\nE\\left(X_2\\right)=0 \\times 0.6+1 \\times 0.3+2 \\times 0.1=0.5 \\text { (分) } .\n$$\n\n很明显, 乙的成绩远不如甲的成绩.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339040
+                    },
+                    "question_json": "neu-mathe/b510c26e2da94b06ac0b485af15933ab",
+                    "updated_at": {
+                        "seconds": 1767637888
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84792,
+                            "question_id": 18804,
+                            "is_answer": true,
+                            "choice": "乙的成绩远不如甲的成绩",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84793,
+                            "question_id": 18804,
+                            "is_answer": false,
+                            "choice": "甲的成绩远不如乙的成绩",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84794,
+                            "question_id": 18804,
+                            "is_answer": false,
+                            "choice": "甲乙成绩的好坏程度一样",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84795,
+                            "question_id": 18804,
+                            "is_answer": false,
+                            "choice": "无法评价甲乙成绩的好坏",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 29303,
+                    "ai_tags": "数学期望,离散型随机变量,分布律"
+                },
+                {
+                    "id": 18806,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "d1f8d958-0d11-44d2-a38b-325b72b8b8f3",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "$\\xi$ 的分布律为\n\\begin{tabular}{c|ccc}\n\\hline$x_k$ & 1 & 2 & 3 \\\\\n\\hline$P\\left(\\xi=x_k\\right)$ & 0.15 & 0.3 & 0.55 \\\\\n\\hline\n\\end{tabular}\n\n则 $E(\\xi)=(\\quad)$.",
+                    "analysis": "由题意知，\n$$\nE(\\xi)=1 \\times 0.15+2 \\times 0.3+3 \\times 0.55=2.4\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339046
+                    },
+                    "question_json": "neu-mathe/2ea6f495307f4a1295d9a750f97d07b9",
+                    "updated_at": {
+                        "seconds": 1767724277
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84806,
+                            "question_id": 18806,
+                            "is_answer": true,
+                            "choice": "$2.4$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84807,
+                            "question_id": 18806,
+                            "is_answer": false,
+                            "choice": "$1.4$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84808,
+                            "question_id": 18806,
+                            "is_answer": false,
+                            "choice": "$2.0$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84809,
+                            "question_id": 18806,
+                            "is_answer": false,
+                            "choice": "$3.2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 18649,
+                    "ai_tags": "数学期望,离散型随机变量"
+                },
+                {
+                    "id": 18814,
+                    "subject_id": 3,
+                    "chapter_id": 340,
+                    "question_id": "f16d2bbe-9030-4a95-bfd8-4653f1d1d130",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $\\xi_1, \\xi_2, \\cdots, \\xi_n$ 是 $n$ 个相互独立同分布的随机变量, 且都服从 $B(1, p)$ 分布, 则 $E\\left(\\xi_k \\sum_{i=1}^n \\xi_i\\right)=()$.",
+                    "analysis": "依题意, 有 $E(\\xi_i)=p, D(\\xi_i)=p(1-p)$, 则 $E(\\xi_i^2)=[E(\\xi_i)]^2+D(\\xi_i)=p$. 于是,\n$$\n\\begin{aligned}\nE\\left(\\xi_k \\sum_{i=1}^n \\xi_i\\right) & =E\\left(\\xi_k^2 + \\sum_{i=1, i \\neq k}^n \\xi_k \\xi_i\\right) \\\\\n& =E(\\xi_k^2) + \\sum_{i=1, i \\neq k}^n E(\\xi_k \\xi_i) \\\\\n& =E(\\xi_k^2) + \\sum_{i=1, i \\neq k}^n E(\\xi_k) E(\\xi_i) \\\\\n& =p+(n-1) p^2 \\\\\n& =p[1+(n-1) p]\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339070
+                    },
+                    "question_json": "neu-mathe/19e1212b27fe44ae9b2b19830ae6d20a",
+                    "updated_at": {
+                        "seconds": 1767724277
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 84862,
+                            "question_id": 18814,
+                            "is_answer": true,
+                            "choice": "$p[1+(n-1) p]$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84863,
+                            "question_id": 18814,
+                            "is_answer": false,
+                            "choice": "$(n-1) p^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84864,
+                            "question_id": 18814,
+                            "is_answer": false,
+                            "choice": "$n p^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        },
+                        {
+                            "id": 84865,
+                            "question_id": 18814,
+                            "is_answer": false,
+                            "choice": "$p+n p^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080684
+                            },
+                            "updated_at": {
+                                "seconds": 1735080684
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 108234,
+                    "ai_tags": "数学期望,伯努利分布,独立同分布"
+                }
+            ]
+        }
+    }
+]

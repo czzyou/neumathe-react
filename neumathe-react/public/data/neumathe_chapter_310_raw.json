@@ -1,0 +1,599 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 7,
+            "questions": [
+                {
+                    "id": 19057,
+                    "subject_id": 3,
+                    "chapter_id": 310,
+                    "question_id": "d478eb94-3662-43f1-ab19-c88bd8b9bca5",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 具有如下分布律, 则关于 $Y=(X-1)^2$ 说法正确的是 ( ).\n\\begin{tabular}{c||cccc}\n\\hline$X$ & -1 & 0 & 1 & 2 \\\\\n\\hline \\hline$p_i$ & 0.2 & 0.3 & 0.1 & 0.4 \\\\\n\\hline\n\\end{tabular}",
+                    "analysis": "$Y$ 所有可能的取值为 $0,1,4$, 且\n$$\n\\begin{aligned}\n& P\\{Y=0\\}=P\\left\\{(X-1)^2=0\\right\\}=P\\{X=1\\}=0.1, \\\\\n& P\\{Y=1\\}=P\\{X=0\\}+P\\{X=2\\}=0.7, \\\\\n& P\\{Y=4\\}=P\\{X=-1\\}=0.2,\n\\end{aligned}\n$$\n\n即 $Y$ 的分布律为\n\\begin{tabular}{c||ccc}\n\\hline$Y$ & 0 & 1 & 4 \\\\\n\\hline \\hline$p_i$ & 0.1 & 0.7 & 0.2 \\\\\n\\hline\n\\end{tabular}",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339682
+                    },
+                    "question_json": "neu-mathe/f45f65c00d3e4ddf850837b43213f863",
+                    "updated_at": {
+                        "seconds": 1775586662
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86563,
+                            "question_id": 19057,
+                            "is_answer": true,
+                            "choice": "$P\\{Y=1\\}=0.7$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86564,
+                            "question_id": 19057,
+                            "is_answer": false,
+                            "choice": "$P\\{Y=0\\}=0.3$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86565,
+                            "question_id": 19057,
+                            "is_answer": false,
+                            "choice": "$P\\{Y=1\\}=0.9$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86566,
+                            "question_id": 19057,
+                            "is_answer": false,
+                            "choice": "$P\\{Y=4\\}=0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.9,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 156999,
+                    "ai_tags": "离散型随机变量,随机变量函数的分布"
+                },
+                {
+                    "id": 19060,
+                    "subject_id": 3,
+                    "chapter_id": 310,
+                    "question_id": "6924854f-2c8f-4f9a-8e99-7ce8950888f0",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $\\xi$ 的分布律为 \\begin{tabular}{c|ccc}\n$\\xi$ & -2 & 0 & 2 \\\\\n\\hline$p$ & 0.5 & 0.3 & 0.2\n\\end{tabular} , 则（）为 $\\frac{1}{2} \\xi$ 的分布律.",
+                    "analysis": "离散随机变量函数的分布律的求法为\n$$\nP\\left\\{Y=y_i\\right\\}=P\\left\\{X \\in C_i\\right\\}=\\sum_{x_j \\in C_i} P\\left\\{X=x_j\\right\\} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339692
+                    },
+                    "question_json": "neu-mathe/03b2028180da4f12982e280045be1212",
+                    "updated_at": {
+                        "seconds": 1775586661
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86584,
+                            "question_id": 19060,
+                            "is_answer": true,
+                            "choice": "\\begin{tabular}{c|c|c|c}\n$\\frac{1}{2} \\xi$ & -1 & 0 & 1 \\\\\n\\hline$p$ & 0.5 & 0.3 & 0.2\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86585,
+                            "question_id": 19060,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|c|c|c}\n$\\frac{1}{2} \\xi$ & -1 & 0 & 1 \\\\\n\\hline$p$ & 0.1 & 0.15 & 0.25\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86586,
+                            "question_id": 19060,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|c|c|c}\n$\\frac{1}{2} \\xi$ & -2 & 0 & 2 \\\\\n\\hline$p$ & 0.2 & 0.3 & 0.5\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86587,
+                            "question_id": 19060,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|c|c|l}\n$\\frac{1}{2} \\xi$ & -2 & 0 & 2 \\\\\n\\hline$p$ & 0.1 & 0.15 & 0.25\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 11052,
+                    "ai_tags": "概率论,离散型随机变量,随机变量函数的分布"
+                },
+                {
+                    "id": 19070,
+                    "subject_id": 3,
+                    "chapter_id": 310,
+                    "question_id": "d8a77d11-60d5-48fc-9127-d7c9c40a506c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知随机变量 $X$ 的分布律为\n\\begin{tabular}{c||ccccc}\n\\hline$X$ & -2 & -1 & 0 & 1 & 2 \\\\\n\\hline \\hline$p_1$ & $1 / 5$ & $1 / 5$ & $1 / 5$ & $1 / 10$ & $3 / 10$ \\\\\n\\hline\n\\end{tabular}\n\n则 $Y=X^2+1$ 的概率分布为 ().",
+                    "analysis": "因为 $Y=X^2+1$, 所以当 $X$ 取值为 $(-2,-1,0,1,2)$ 时, $Y$ 取值为 $(1,2,5), Y$ 的分布律为\n$$\n\\begin{aligned}\n& P\\{Y=1\\}=P\\left\\{X^2+1=1\\right\\}=P\\left\\{X^2=0\\right\\}=P\\{X=0\\}=\\frac{1}{5} \\\\\n& P\\{Y=2\\}=P\\left\\{X^2+1=2\\right\\}=P\\left\\{X^2=1\\right\\}=P\\{X=-1\\}+P\\{X=1\\}=\\frac{1}{5}+\\frac{1}{10}=\\frac{3}{10}, \\\\\n& P\\{Y=5\\}=P\\left\\{X^2+1=5\\right\\}=P\\left\\{X^2=4\\right\\}=P\\{X=-2\\}+P\\{X=2\\}=\\frac{1}{5}+\\frac{3}{10}=\\frac{1}{2} .\n\\end{aligned}\n$$\n即分布律为 \\begin{tabular}{c||ccc}\n\\hline$y$ & 1 & 2 & 5 \\\\\n\\hline \\hline$p_i$ & $1 / 5$ & $3 / 10$ & $1 / 2$ \\\\\n\\hline\n\\end{tabular} .",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339709
+                    },
+                    "question_json": "neu-mathe/67699274d8354241aba81cc2f0785d01",
+                    "updated_at": {
+                        "seconds": 1775586659
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86654,
+                            "question_id": 19070,
+                            "is_answer": true,
+                            "choice": "\\begin{tabular}{c|ccc}\n\\hline Y & 1 & 2 & 5 \\\\\n\\hline$p_i$ & $1 / 5$ & $3 / 10$ & $1 / 2$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86655,
+                            "question_id": 19070,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|ccc}\n\\hline Y & 1 & 2 & 5 \\\\\n\\hline$p_j$ & $1 / 2$ & $3 / 10$ & $1 / 5$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86656,
+                            "question_id": 19070,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|ccc}\n\\hline Y & 1 & 2 & 5 \\\\\n\\hline$p_i$ & $2 / 5$ & $3 / 10$ & $3 / 10$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86657,
+                            "question_id": 19070,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|ccc}\n\\hline Y & 1 & $\\mathbf{2}$ & $\\mathbf{5}$ \\\\\n\\hline$p_i$ & $3 / 10$ & $3 / 10$ & $2 / 5$ \\\\\n\\hline\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.89,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 36701,
+                    "ai_tags": "离散型随机变量,随机变量函数的分布"
+                },
+                {
+                    "id": 19074,
+                    "subject_id": 3,
+                    "chapter_id": 310,
+                    "question_id": "6eef1723-c32d-49c1-860c-a2e70756b019",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 的分布律为\n\\begin{tabular}{c||ccccc}\n\\hline$X$ & -2 & -1 & 0 & 1 & 3 \\\\\n\\hline \\hline$p_i$ & $1 / 5$ & $1 / 6$ & $1 / 5$ & $1 / 15$ & $11 / 30$ \\\\\n\\hline\n\\end{tabular}\n\n则关于 $Y=X^2$ 说法正确的是 ( ).",
+                    "analysis": "构建对照表:\n\\begin{tabular}{r||rrrrc}\n\\hline$p_i$ & $1 / 5$ & $1 / 6$ & $1 / 5$ & $1 / 15$ & $11 / 30$ \\\\\n\\hline \\hline$X$ & -2 & -1 & 0 & 1 & 3 \\\\\n\\hline \\hline$X^2$ & 4 & 1 & 0 & 1 & 9 \\\\\n\\hline\n\\end{tabular}\n\n所以 $Y=X^2$ 的分布律为\n\\begin{tabular}{c||cccc}\n\\hline$X^2$ & 0 & 1 & 4 & 9 \\\\\n\\hline \\hline$p_i$ & $1 / 5$ & $7 / 30$ & $1 / 5$ & $11 / 30$ \\\\\n\\hline\n\\end{tabular}",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339721
+                    },
+                    "question_json": "neu-mathe/f8a4134ff91a44488f91dccec7932c75",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86682,
+                            "question_id": 19074,
+                            "is_answer": true,
+                            "choice": "$P\\left(X^2=0\\right)=1 / 5$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86683,
+                            "question_id": 19074,
+                            "is_answer": false,
+                            "choice": "$P\\left(X^2=1\\right)=1 / 5$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86684,
+                            "question_id": 19074,
+                            "is_answer": false,
+                            "choice": "$P\\left(X^2=9\\right)=11 / 5$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86685,
+                            "question_id": 19074,
+                            "is_answer": false,
+                            "choice": "$P\\left(X^2=4\\right)=11 / 30$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 61206,
+                    "ai_tags": "离散型随机变量,分布律"
+                },
+                {
+                    "id": 19077,
+                    "subject_id": 3,
+                    "chapter_id": 310,
+                    "question_id": "5e39b164-659c-4023-b1e7-76dffd2e0b58",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设离散型随机变量 $X$ 的分布律为 \\begin{tabular}{c|ccccc} \\hline $X$ & $-\\frac{\\pi}{2}$ & $-\\frac{\\pi}{4}$ & 0 & $\\frac{\\pi}{4}$ & $\\frac{\\pi}{2}$ \\\\ \\hline $P$ & $\\frac{1}{2}$ & $\\frac{1}{4}$ & $\\frac{1}{8}$ & $\\frac{1}{16}$ & $\\frac{1}{16}$ \\\\ \\hline \\end{tabular} , 则 $Y=\\cos X$ 的分布律为 ( ).",
+                    "analysis": "因为 $Y=\\cos X$, 故\n$$\n\\begin{aligned}\n& P\\{Y=0\\}=P\\{\\cos X=0\\}=P\\left\\{X= \\pm \\frac{\\pi}{2}\\right\\}=P\\left\\{X=-\\frac{\\pi}{2}\\right\\}+P\\left\\{X=\\frac{\\pi}{2}\\right\\}=\\frac{9}{16}, \\\\\n& P\\{Y=\\sqrt{2} / 2\\}=P\\{\\cos X=\\sqrt{2} / 2\\}=P\\left\\{X= \\pm \\frac{\\pi}{4}\\right\\}=P\\left\\{X=\\frac{\\pi}{4}\\right\\}+P\\left\\{X=-\\frac{\\pi}{4}\\right\\}=\\frac{5}{16}, \\\\\n& P\\{Y=1\\}=P\\{\\cos X=1\\}=P\\{X=0\\}=\\frac{1}{8} .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339726
+                    },
+                    "question_json": "neu-mathe/428da31df0f84291a5b793220fdbb115",
+                    "updated_at": {
+                        "seconds": 1775586666
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86703,
+                            "question_id": 19077,
+                            "is_answer": true,
+                            "choice": "\\begin{tabular}{c|ccc} \\hline $Y$ & 0 & $\\frac{\\sqrt{2}}{2}$ & 1 \\\\ \\hline $P$ & $\\frac{9}{16}$ & $\\frac{5}{16}$ & $\\frac{1}{8}$ \\\\ \\hline \\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86704,
+                            "question_id": 19077,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|ccc} \\hline $Y$ & 0 & $\\frac{\\sqrt{2}}{2}$ & 1 \\\\ \\hline $P$ & $\\frac{5}{16}$ & $\\frac{9}{16}$ & $\\frac{1}{8}$ \\\\ \\hline \\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86705,
+                            "question_id": 19077,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|ccc} \\hline $Y$ & 0 & $\\frac{\\sqrt{2}}{2}$ & 1 \\\\ \\hline $P$ & $\\frac{9}{16}$ & $\\frac{1}{8}$ & $\\frac{5}{16}$ \\\\ \\hline \\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86706,
+                            "question_id": 19077,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|ccc} \\hline $Y$ & 0 & $\\frac{\\sqrt{2}}{2}$ & 1 \\\\ \\hline $P$ & $\\frac{5}{16}$ & $\\frac{1}{8}$ & $\\frac{9}{16}$ \\\\ \\hline \\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.95,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 28298,
+                    "ai_tags": "离散型随机变量,随机变量函数的分布,分布律"
+                },
+                {
+                    "id": 19080,
+                    "subject_id": 3,
+                    "chapter_id": 310,
+                    "question_id": "30ffeb27-f15a-4f22-bf0e-a833b0dfc717",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $\\xi$ 的分布律为\n\\begin{tabular}{c|ccc}\n\\hline$\\xi$ & -1 & 0 & 1 \\\\\n\\hline$p$ & 0.2 & 0.5 & 0.3 \\\\\n\\hline\n\\end{tabular}\n\n则 ( ) 是 $\\xi^2$ 的分布律.",
+                    "analysis": "离散随机变量函数的分布律的求法为\n$$\nP\\left\\{Y=y_i\\right\\}=P\\left\\{X \\in C_i\\right\\}=\\sum_{x_j \\in C_i} P\\left\\{X=x_j\\right\\} .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339734
+                    },
+                    "question_json": "neu-mathe/b82ad396824b42a5a36d3b26e800d12d",
+                    "updated_at": {
+                        "seconds": 1775586661
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86724,
+                            "question_id": 19080,
+                            "is_answer": true,
+                            "choice": "\\begin{tabular}{c|c|c}\n$\\xi^2$ & 0 & 1 \\\\\n\\hline$p$ & 0.5 & 0.5\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86725,
+                            "question_id": 19080,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|c|c}\n$\\xi^2$ & 0 & 1 \\\\\n\\hline$p$ & 0.5 & 0.3\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86726,
+                            "question_id": 19080,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|c|c}\n$\\xi^2$ & 0 & 1 \\\\\n\\hline$p$ & 0.7 & 0.3\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86727,
+                            "question_id": 19080,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|c|c}\n$\\xi^2$ & -1 & 0 \\\\\n\\hline$p$ & 0.04 & 0.25\n\\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.94,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 12116,
+                    "ai_tags": "离散型随机变量,随机变量函数的分布,分布律"
+                },
+                {
+                    "id": 19081,
+                    "subject_id": 3,
+                    "chapter_id": 310,
+                    "question_id": "4fadcf23-403d-4ed7-ac94-a4448eb2b36d",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "已知离散型随机变量的分布律为 $$\\begin{array}{c|ccc} \\xi & -1 & 0 & 1 \\\\ \\hline p & 0.25 & 0.5 & 0.25 \\end{array}$$ 则正确的分布律是( ).",
+                    "analysis": "离散随机变量函数的分布律求法：\\n由题设知 $P(\\xi=-1)=0.25, P(\\xi=0)=0.5, P(\\xi=1)=0.25$。\\n对于选项 1 和 4，考虑 $\\xi^2$ 的分布：\\n$\\xi^2$ 的可能取值为 $0, 1$。\\n$P(\\xi^2=0) = P(\\xi=0) = 0.5$；\\n$P(\\xi^2=1) = P(\\xi=-1) + P(\\xi=1) = 0.25 + 0.25 = 0.5$。\\n故 $\\xi^2$ 的分布律为\\n$$\\begin{array}{c|cc} \\xi^2 & 0 & 1 \\\\ \\hline p & 0.5 & 0.5 \\end{array}$$\\n选项 1 正确，选项 4 错误。\\n\\n对于选项 2，概率和 $0.5+1+0.5=2 \\neq 1$，不是分布律。\\n对于选项 3，$2\\xi+1$ 的取值为 $-1, 1, 3$，对应的概率应为 $0.25, 0.5, 0.25$，选项中概率值不符，错误。\\n\\n综上，正确的分布律是选项 1。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339741
+                    },
+                    "question_json": "neu-mathe/32f924fd7f5946589c8ba207237ccc6e",
+                    "updated_at": {
+                        "seconds": 1775586667
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86731,
+                            "question_id": 19081,
+                            "is_answer": true,
+                            "choice": "$$\\begin{array}{c|cc} \\xi^2 & 0 & 1 \\\\ \\hline p & 0.5 & 0.5 \\end{array}$$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86732,
+                            "question_id": 19081,
+                            "is_answer": false,
+                            "choice": "$$\\begin{array}{c|ccc} 2\\xi & -2 & 0 & 2 \\\\ \\hline p & 0.5 & 1 & 0.5 \\end{array}$$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86733,
+                            "question_id": 19081,
+                            "is_answer": false,
+                            "choice": "$$\\begin{array}{c|ccc} 2\\xi+1 & -1 & 1 & 3 \\\\ \\hline p & 0.25 & 0.25 & 0.5 \\end{array}$$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86734,
+                            "question_id": 19081,
+                            "is_answer": false,
+                            "choice": "$$\\begin{array}{c|cc} \\xi^2 & 0 & 1 \\\\ \\hline p & 0.5 & 0.25 \\end{array}$$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.84,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 17249,
+                    "ai_tags": "离散型随机变量,随机变量函数的分布"
+                }
+            ]
+        }
+    }
+]

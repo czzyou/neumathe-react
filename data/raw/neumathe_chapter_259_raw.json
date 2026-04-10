@@ -1,0 +1,860 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 10,
+            "questions": [
+                {
+                    "id": 14276,
+                    "subject_id": 3,
+                    "chapter_id": 259,
+                    "question_id": "43268502-f2d2-4399-b8c6-a1aa5f77108c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $A, B, C$ 为 3 个事件, 则这 3 个事件中恰有 2 个事件发生的事件可表示为 ().",
+                    "analysis": "3 个事件中恰有 2 个事件发生的意思是 2 个事件发生而另一个事件不发生, 可以表示为 $\\bar{A} B C+A \\bar{B} C+A B \\bar{C}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/5aff427b169a402abb0c3376de362664",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 57101,
+                            "question_id": 14276,
+                            "is_answer": true,
+                            "choice": "$A B \\bar{C}+A \\bar{B} C+\\bar{A} B C$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57103,
+                            "question_id": 14276,
+                            "is_answer": false,
+                            "choice": "$A B+A C+B C$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57104,
+                            "question_id": 14276,
+                            "is_answer": false,
+                            "choice": "$\\bar{A}+\\bar{B}+\\bar{C}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57102,
+                            "question_id": 14276,
+                            "is_answer": false,
+                            "choice": "$\\overline{A+B+C}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.95,
+                    "difficulty_score": 0.2,
+                    "avg_time_spent": 113279,
+                    "tags": "近期37人做错",
+                    "ai_tags": "随机事件,事件运算"
+                },
+                {
+                    "id": 14278,
+                    "subject_id": 3,
+                    "chapter_id": 259,
+                    "question_id": "fd4f7ef2-5fb4-4d69-9996-4156842b955d",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "甲, 乙, 丙三个各自向同一目标射击一次, 令: $A_1=\\{$ 甲击中目标 $\\}, A_2=\\{$ 乙击中目标 $\\}, A_3=\\{$ 丙击中目标 $\\}$, 又若目标至少被击中两次, 则该目标被摧毁, 设 $B=\\{$ 目标被摧毁 $\\}$, 若用 $A_1, A_2, A_3$ 表示 $B$, 则有 $B=$ ().",
+                    "analysis": "由题意, 可知随机事件 $B$ 发生等价于随机事件 $A_1, A_2, A_3$ 至少有两个发生. 因此 $B=A_1 A_2 \\cup A_2 A_3 \\cup A_3 A_1$, 或者 $\\overline{A_1} A_2 A_3 \\cup A_1 \\bar{A}_2 A_3 \\cup A_1 A_2 \\overline{A_3} \\cup A_1 A_2 A_3$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/be16ad822937424996c4cb686cfc99f8",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 57111,
+                            "question_id": 14278,
+                            "is_answer": true,
+                            "choice": "$\\overline{A_1} A_2 A_3 \\cup A_1 \\overline{A_2} A_3 \\cup A_1 A_2 \\overline{A_3} \\cup A_1 A_2 A_3$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57112,
+                            "question_id": 14278,
+                            "is_answer": false,
+                            "choice": "$\\overline{A_1} \\cap \\overline{A_2} \\cap \\overline{A_3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57110,
+                            "question_id": 14278,
+                            "is_answer": false,
+                            "choice": "$\\overline{A_1} \\cup \\overline{A_2} \\cup \\overline{A_3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57109,
+                            "question_id": 14278,
+                            "is_answer": false,
+                            "choice": "$\\overline{A_1} A_2 A_3 \\cup A_1 \\overline{A_2} A_3 \\cup A_1 A_2 \\overline{A_3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.9,
+                    "difficulty_score": 0.27,
+                    "avg_time_spent": 69646,
+                    "tags": "近期易错,近期69人做错",
+                    "ai_tags": "随机事件,事件的运算"
+                },
+                {
+                    "id": 14280,
+                    "subject_id": 3,
+                    "chapter_id": 259,
+                    "question_id": "89a10f9e-9611-4e25-ae96-4828765c21d7",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "对目标进行射击四次, 设 $A_i$ 表示恰好射中 $i$ 次的事件, $(i=0,1,2,3,4)$. 那么 $A=\\{$ 射中次数不大于 2$\\}$ 可以表示为 ( ).",
+                    "analysis": "射中次数不大于两次可以表示为 $A=A_0+A_1+A_2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/3418d43bb666428b82ef5a0d0b4ef3ee",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 57119,
+                            "question_id": 14280,
+                            "is_answer": true,
+                            "choice": "$A_0+A_1+A_2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57120,
+                            "question_id": 14280,
+                            "is_answer": false,
+                            "choice": "$A_2$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57118,
+                            "question_id": 14280,
+                            "is_answer": false,
+                            "choice": "$A_1+A_2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 57117,
+                            "question_id": 14280,
+                            "is_answer": false,
+                            "choice": "$A_0+A_1$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.9,
+                    "difficulty_score": 0.29,
+                    "avg_time_spent": 225220,
+                    "tags": "近期61人做错",
+                    "ai_tags": "随机事件,事件的运算"
+                },
+                {
+                    "id": 19499,
+                    "subject_id": 3,
+                    "chapter_id": 259,
+                    "question_id": "b96adc89-eca4-48ba-b509-484b87c03ad5",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "若 $A, B, C$ 为随机试验中三个事件, 则 $A, B, C$ 中三者都未出现表示为 ().",
+                    "analysis": "三者都未出现的逆事件是三者至少出现一个, 即 $A \\cup B \\cup C$, 所以三者都未出现就表示为 $\\overline{A \\cup B \\cup C}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340731
+                    },
+                    "question_json": "neu-mathe/55173e4bbaa14e36974bd4f9974a7731",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89657,
+                            "question_id": 19499,
+                            "is_answer": true,
+                            "choice": "$\\overline{A \\cup B \\cup C}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89658,
+                            "question_id": 19499,
+                            "is_answer": false,
+                            "choice": "$A \\cup(B \\cap C)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89659,
+                            "question_id": 19499,
+                            "is_answer": false,
+                            "choice": "$A(B \\cup C)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89660,
+                            "question_id": 19499,
+                            "is_answer": false,
+                            "choice": "$A \\cup B \\cup C$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.98,
+                    "difficulty_score": 0.2,
+                    "avg_time_spent": 27814,
+                    "tags": "",
+                    "ai_tags": "随机事件,事件的关系与运算"
+                },
+                {
+                    "id": 19507,
+                    "subject_id": 3,
+                    "chapter_id": 259,
+                    "question_id": "933d823a-5083-41e6-8d69-1ae2d6359ec9",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "甲、乙、丙三人各射一次靶，记 $A$ 为“甲中靶”，$B$ 为“乙中靶”，$C$ 为“丙中靶”，则下列说法中不正确的是（    ）.",
+                    "analysis": "“三人中至多一人中靶”包含“三人均未中靶”（$\\bar{A}\\bar{B}\\bar{C}$）和“恰有一人中靶”（$A\\bar{B}\\bar{C} \\cup \\bar{A}B\\bar{C} \\cup \\bar{A}\\bar{B}C$）两种情况，故选项 4 正确；\n$A \\cup B \\cup C$ 表示“三人中至少一人中靶”，故选项 1 不正确；\n“三人中至多两人中靶”即“排除三人均中靶的情况”，表示为 $\\overline{ABC} = \\bar{A} \\cup \\bar{B} \\cup \\bar{C}$，故选项 2、3 正确。\n本题选择不正确的说法，故选选项 1。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340746
+                    },
+                    "question_json": "neu-mathe/8ba09403f72f4f5a8cba9476343f56e6",
+                    "updated_at": {
+                        "seconds": 1775673115
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89713,
+                            "question_id": 19507,
+                            "is_answer": true,
+                            "choice": "“三人中至多一人中靶”表示为 $A \\cup B \\cup C$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89714,
+                            "question_id": 19507,
+                            "is_answer": false,
+                            "choice": "“三人中至多两人中靶”表示为 $\\overline{ABC}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89715,
+                            "question_id": 19507,
+                            "is_answer": false,
+                            "choice": "“三人中至多两人中靶”表示为 $\\bar{A} \\cup \\bar{B} \\cup \\bar{C}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89716,
+                            "question_id": 19507,
+                            "is_answer": false,
+                            "choice": "“三人中至多一人中靶”表示为 $A\\bar{B}\\bar{C} \\cup \\bar{A}B\\bar{C} \\cup \\bar{A}\\bar{B}C \\cup \\bar{A}\\bar{B}\\bar{C}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.65,
+                    "difficulty_score": 0.37,
+                    "avg_time_spent": 52804,
+                    "tags": "近期易错,近期250人做错",
+                    "ai_tags": "随机事件,事件的运算"
+                },
+                {
+                    "id": 19508,
+                    "subject_id": 3,
+                    "chapter_id": 259,
+                    "question_id": "88fcf7c5-43bc-43f3-8abc-9e3f0205e420",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "甲，乙，丙三人各射一次靶，记 $A-$ “甲中靶”，$B-$ “乙中靶”，$C-$ “丙中靶”，则下列说法中不正确的是（    ）．",
+                    "analysis": "\"三人中恰好有一人中靶\" 表示为 $A \\bar{B} \\bar{C} \\cup \\bar{A} B \\bar{C} \\cup \\bar{A} \\bar{B} C$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340748
+                    },
+                    "question_json": "neu-mathe/b3f54c34d7524146b4b00e3ff0dabb49",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89720,
+                            "question_id": 19508,
+                            "is_answer": true,
+                            "choice": "\"三人中恰好有一人中靶\" 表示为 $A \\cup B \\cup C$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89721,
+                            "question_id": 19508,
+                            "is_answer": false,
+                            "choice": "\"甲未中靶\" 表示为 $\\bar{A}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89722,
+                            "question_id": 19508,
+                            "is_answer": false,
+                            "choice": "\"甲中靶而乙未中靶\" 表示为 $A \\bar{B}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89723,
+                            "question_id": 19508,
+                            "is_answer": false,
+                            "choice": "\"三人中只有丙未中靶\" 表示为 $A B \\bar{C}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.96,
+                    "difficulty_score": 0.23,
+                    "avg_time_spent": 72523,
+                    "tags": "",
+                    "ai_tags": "随机事件,事件的运算"
+                },
+                {
+                    "id": 19533,
+                    "subject_id": 3,
+                    "chapter_id": 259,
+                    "question_id": "8b7b1665-b244-4b53-a0e3-af0b9c91d986",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $A, B, C$ 表示 3 个随机事件, 事件 $\\{A, B, C$ 不多于 1 个发生 $\\}$ 为 ().",
+                    "analysis": "所述事件可以分解为 $\\{A$ 发生而 $B, C$ 不发生 $\\}、\\{B$ 发生而 $A, C$ 不发生 $\\}、\\{C$ 发生而 $A, B$ 不发生 $\\}、\\{A, B, C$ 都不发生 $\\}$, 分别为 $A\\bar{B}\\bar{C}, \\bar{A}B\\bar{C}, \\bar{A}\\bar{B}C$ 与 $\\bar{A}\\bar{B}\\bar{C}$, 它们的和事件 $A\\bar{B}\\bar{C} \\cup \\bar{A}B\\bar{C} \\cup \\bar{A}\\bar{B}C \\cup \\bar{A}\\bar{B}\\bar{C} = \\bar{A}\\bar{B} \\cup \\bar{A}\\bar{C} \\cup \\bar{B}\\bar{C}$ 即为所求.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340818
+                    },
+                    "question_json": "neu-mathe/37d7a27a57da45598af87486aa9df039",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 89895,
+                            "question_id": 19533,
+                            "is_answer": true,
+                            "choice": "$\\bar{A} \\bar{B} \\cup \\bar{A} \\bar{C} \\cup \\bar{B} \\bar{C}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89896,
+                            "question_id": 19533,
+                            "is_answer": false,
+                            "choice": "$\\bar{A} \\bar{B} C \\cup \\bar{A} B \\bar{C} \\cup A \\bar{B} \\bar{C}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89897,
+                            "question_id": 19533,
+                            "is_answer": false,
+                            "choice": "$\\bar{A} \\cap \\bar{B} \\cap \\bar{C}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 89898,
+                            "question_id": 19533,
+                            "is_answer": false,
+                            "choice": "$\\bar{A} \\cup \\bar{B} \\cup \\bar{C}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.68,
+                    "difficulty_score": 0.31,
+                    "avg_time_spent": 55000,
+                    "tags": "近期易错,近期225人做错",
+                    "ai_tags": "随机事件,事件运算"
+                },
+                {
+                    "id": 20447,
+                    "subject_id": 3,
+                    "chapter_id": 259,
+                    "question_id": "be97ae4e-23be-40ca-8959-2020babc8169",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "甲，乙，丙三人各射一次靶，记 $A$ - “甲中靶”，$B$ - “乙中靶”，$C$ - “丙中靶”，则下列说法中不正确的是 ( ).",
+                    "analysis": "“三人中恰有两人中靶” 应表示为 $AB\\bar{C} \\cup A\\bar{B}C \\cup \\bar{A}BC$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764382204
+                    },
+                    "question_json": "neu-mathe/50e85eeccaa046b2b157347b454a15ed",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 96293,
+                            "question_id": 20447,
+                            "is_answer": true,
+                            "choice": "“三人中恰有两人中靶” 表示为 $AB \\cup AC \\cup BC$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 96294,
+                            "question_id": 20447,
+                            "is_answer": false,
+                            "choice": "“三人中至少有一个中靶” 表示为 $A \\cup B \\cup C$ 或 $\\overline{\\bar{A}\\bar{B}\\bar{C}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 96295,
+                            "question_id": 20447,
+                            "is_answer": false,
+                            "choice": "“三人中至少有一人未中靶” 表示为 $\\bar{A} \\cup \\bar{B} \\cup \\bar{C}$ 或 $\\overline{ABC}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 96296,
+                            "question_id": 20447,
+                            "is_answer": false,
+                            "choice": "“三人中至少两人中靶” 表示为 $AB \\cup AC \\cup BC$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.74,
+                    "difficulty_score": 0.34,
+                    "avg_time_spent": 87391,
+                    "tags": "近期易错,近期174人做错",
+                    "ai_tags": "随机事件,事件的运算"
+                },
+                {
+                    "id": 20449,
+                    "subject_id": 3,
+                    "chapter_id": 259,
+                    "question_id": "fb4a6f82-1c85-4197-a803-38a951a8959e",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $A, B, C$ 为 3 个随机事件, 则事件 $D=\\{A, B, C$ 中不多于一个事件发生 $\\}$ 的表示错误的是 ( ).",
+                    "analysis": "$A, B, C$ 中不多于一个事件发生的意思是 3 个随机事件中三个都不发生或仅发生一个，可表示为 $\\bar{A}\\bar{B}\\bar{C} \\cup A\\bar{B}\\bar{C} \\cup \\bar{A}B\\bar{C} \\cup \\bar{A}\\bar{B}C$，\n或者 $\\overline{AB} \\cap \\overline{AC} \\cap \\overline{BC}$，\n或者 $\\bar{A}\\bar{B} \\cup \\bar{A}\\bar{C} \\cup \\bar{B}\\bar{C}$。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764382209
+                    },
+                    "question_json": "neu-mathe/dc81ffbb3b2c474a9f2cbee8f763f994",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 96307,
+                            "question_id": 20449,
+                            "is_answer": true,
+                            "choice": "$\\overline{AB} \\cup \\overline{AC} \\cup \\overline{BC}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 96308,
+                            "question_id": 20449,
+                            "is_answer": false,
+                            "choice": "$\\bar{A}\\bar{B}\\bar{C} \\cup A\\bar{B}\\bar{C} \\cup \\bar{A}B\\bar{C} \\cup \\bar{A}\\bar{B}C$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 96309,
+                            "question_id": 20449,
+                            "is_answer": false,
+                            "choice": "$\\overline{AB} \\cap \\overline{AC} \\cap \\overline{BC}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 96310,
+                            "question_id": 20449,
+                            "is_answer": false,
+                            "choice": "$\\bar{A}\\bar{B} \\cup \\bar{A}\\bar{C} \\cup \\bar{B}\\bar{C}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.42,
+                    "difficulty_score": 0.42,
+                    "avg_time_spent": 276456,
+                    "tags": "近期易错,近期431人做错",
+                    "ai_tags": "概率论,随机事件,事件运算"
+                },
+                {
+                    "id": 20513,
+                    "subject_id": 3,
+                    "chapter_id": 259,
+                    "question_id": "f28ba1bf-0b87-43db-a846-1ff109b24f20",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $A_i$ 表示“掷一个骰子恰好出现 $i$ 点”的事件，$A$ 表示“掷三个骰子的点数和大于 15”的事件，若用 $A_i$ 表示 $A$，则 $A=(\\quad)$.",
+                    "analysis": "依题意，$\\{\\text{掷三个骰子的点数和大于 } 15\\}=\\{\\text{掷三个骰子的点数和等于 } 16\\} \\cup\\{\\text{掷三个骰子的点数和等于 } 17\\} \\cup \\{\\text{掷三个骰子的点数和等于 } 18\\}$，所以\n$$\nA=A_4 A_6 A_6+A_6 A_4 A_6+A_6 A_6 A_4+A_5 A_6 A_6+A_6 A_5 A_6+A_6 A_6 A_5+A_5 A_5 A_6+A_5 A_6 A_5+A_6 A_5 A_5+A_6 A_6 A_6.\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764384487
+                    },
+                    "question_json": "neu-mathe/73a3af5a7b2d4eafb9ece839b0060358",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 96755,
+                            "question_id": 20513,
+                            "is_answer": true,
+                            "choice": "$A_4 A_6 A_6+A_6 A_4 A_6+A_6 A_6 A_4+A_5 A_6 A_6+A_6 A_5 A_6+A_6 A_6 A_5+A_5 A_5 A_6+A_5 A_6 A_5+A_6 A_5 A_5+A_6 A_6 A_6$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 96756,
+                            "question_id": 20513,
+                            "is_answer": false,
+                            "choice": "$3 A_4 A_6 A_6+3 A_5 A_6 A_6+3 A_5 A_5 A_6+A_6 A_6 A_6$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 96757,
+                            "question_id": 20513,
+                            "is_answer": false,
+                            "choice": "$A_4 A_6 A_6+A_5 A_6 A_6+A_5 A_5 A_6+A_6 A_6 A_6$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        },
+                        {
+                            "id": 96758,
+                            "question_id": 20513,
+                            "is_answer": false,
+                            "choice": "$A_4 A_6 A_6+A_6 A_4 A_6+A_6 A_6 A_4+A_5 A_5 A_6+A_5 A_6 A_5+A_6 A_5 A_5$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080699
+                            },
+                            "updated_at": {
+                                "seconds": 1735080699
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.5,
+                    "difficulty_score": 0.41,
+                    "avg_time_spent": 111031,
+                    "ai_tags": "随机事件,事件的运算,概率论"
+                }
+            ]
+        }
+    }
+]

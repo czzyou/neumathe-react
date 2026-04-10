@@ -1,0 +1,684 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 8,
+            "questions": [
+                {
+                    "id": 14027,
+                    "subject_id": 3,
+                    "chapter_id": 329,
+                    "question_id": "b147a80f-bfc8-47fd-ae29-7f63088ce217",
+                    "difficulty": "Easy",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设 $X$ 和 $Y$ 是 2 个独立的随机变量, 其分布密度分别为\n$$\nf_X(x)=\\left\\{\\begin{array}{c}\n1,0 \\leq x \\leq 1 \\\\\n0, \\text { 其它 }\n\\end{array}, \\quad f_Y(y)=\\left\\{\\begin{array}{c}\ne^{-y}, y>0 \\\\\n0, \\quad y \\leq 0\n\\end{array}\\right. \\text {, }\\right.\n$$\n\n则 $(X, Y)$ 的联合分布密度是 ( ).",
+                    "analysis": "$f(x, y)=f_X(x) f_Y(y)=\\left\\{\\begin{array}{c}e^{-y}, \\\\ 0 \\leq x \\leq 1, y>0 \\\\ 0,\\end{array}\\right.$ 其它.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/b8a608a1567a4e46889c1f4fabbae056",
+                    "updated_at": {
+                        "seconds": 1775586660
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 56107,
+                            "question_id": 14027,
+                            "is_answer": false,
+                            "choice": "$f(x, y)=\\left\\{\\begin{array}{c}e^{-(x+y)}, \\\\ 0 \\leq x \\leq 1, y>0 \\\\ 0,\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 56108,
+                            "question_id": 14027,
+                            "is_answer": true,
+                            "choice": "$f(x, y)=\\left\\{\\begin{array}{c}e^{-y}, \\\\ 0 \\leq x \\leq 1, y>0 \\\\ 0, \\quad \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 56105,
+                            "question_id": 14027,
+                            "is_answer": false,
+                            "choice": "$f(x, y)=\\left\\{\\begin{array}{cc}e^{-y}, & y>0 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 56106,
+                            "question_id": 14027,
+                            "is_answer": false,
+                            "choice": "$f(x, y)=\\left\\{\\begin{array}{c}e^{-y}, \\\\ 0 \\leq x \\leq 1 \\\\ 0, \\\\ \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.7,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 36989,
+                    "ai_tags": "概率论,随机变量独立性,联合概率密度"
+                },
+                {
+                    "id": 19342,
+                    "subject_id": 3,
+                    "chapter_id": 329,
+                    "question_id": "40f020d8-bbcf-479a-8b7e-07b74307a8a1",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $(\\xi, \\eta)$ 的联合密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{l}\n\\frac{1}{\\pi}, x^2+y^2 \\leq 1 \\\\\n0, \\text { 其它 }\n\\end{array},\\right.\n$$\n\n则 $\\xi$ 与 $\\eta$ 为 ( ) 的随机变量.",
+                    "analysis": "根据边缘概率密度定义, 有\n$$\n\\begin{aligned}\n& f_{\\xi}(x)=\\int_{-\\infty}^{+\\infty} f(x, y) d y=\\int_{-\\sqrt{1-x^2}}^{\\sqrt{1-x^2}} \\frac{1}{\\pi} d y=\\frac{2}{\\pi} \\sqrt{1-x^2},-1 \\leq x \\leq 1, \\\\\n& f_{\\eta}(y)=\\int_{-\\infty}^{+\\infty} f(x, y) d x=\\int_{-\\sqrt{1-y^2}}^{\\sqrt{1-y^2}} \\frac{1}{\\pi} d x=\\frac{2}{\\pi} \\sqrt{1-y^2},-1 \\leq y \\leq 1,\n\\end{aligned}\n$$\n\n于是 $f(x, y) \\neq f_{\\xi}(x) f_{\\eta}(y)$, 故 $\\xi, \\eta$ 不独立但同分布.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340344
+                    },
+                    "question_json": "neu-mathe/50477149004841ecadcf953cedc3f4d9",
+                    "updated_at": {
+                        "seconds": 1775586668
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88558,
+                            "question_id": 19342,
+                            "is_answer": true,
+                            "choice": "不独立同分布",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88559,
+                            "question_id": 19342,
+                            "is_answer": false,
+                            "choice": "独立同分布",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88560,
+                            "question_id": 19342,
+                            "is_answer": false,
+                            "choice": "独立不同分布",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88561,
+                            "question_id": 19342,
+                            "is_answer": false,
+                            "choice": "不独立也不同分布",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.67,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 77906,
+                    "ai_tags": "二维随机变量,边缘概率密度,独立性"
+                },
+                {
+                    "id": 19355,
+                    "subject_id": 3,
+                    "chapter_id": 329,
+                    "question_id": "f92ee6eb-4fb8-4deb-919c-968bd3d02a43",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设连续型随机变量 $(X, Y)$ 的两个分量 $X$ 和 $Y$ 相互独立, 且服从同一分布, 则 $P\\{X \\leq Y\\}=()$.",
+                    "analysis": "方法一：因为 $X, Y$ 独立，所以 $f(x, y)=f_X(x) f_Y(y)$。\n$$\n\\begin{aligned}\nP\\{X \\leq Y\\} & =\\iint_{x \\leq y} f(x, y) d x d y=\\iint_{x \\leq y} f_X(x) f_Y(y) d x d y \\\\\n& =\\int_{-\\infty}^{+\\infty}\\left[f_Y(y) \\int_{-\\infty}^y f_X(x) d x\\right] d y=\\int_{-\\infty}^{+\\infty} f_Y(y) F_X(y) d y \\\\\n& =\\int_{-\\infty}^{+\\infty} F_Y(y) d F_Y(y)=\\left.\\frac{F_Y^2(y)}{2}\\right|_{-\\infty} ^{+\\infty}=\\frac{1}{2}\n\\end{aligned}\n$$\n方法二：利用对称性，因为 $X, Y$ 独立同分布，所以有\n$$\nP\\{X \\leq Y\\}=P\\{Y \\leq X\\}\n$$\n而 $P\\{X \\leq Y\\}+P\\{X \\geq Y\\}=1$，故\n$$\nP\\{X \\leq Y\\}=1 / 2\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340364
+                    },
+                    "question_json": "neu-mathe/21f7c30bf3c244b183d38803101a3ac9",
+                    "updated_at": {
+                        "seconds": 1775586668
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88649,
+                            "question_id": 19355,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88650,
+                            "question_id": 19355,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88651,
+                            "question_id": 19355,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88652,
+                            "question_id": 19355,
+                            "is_answer": false,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.78,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 11114,
+                    "ai_tags": "连续型随机变量,独立同分布,概率计算"
+                },
+                {
+                    "id": 19357,
+                    "subject_id": 3,
+                    "chapter_id": 329,
+                    "question_id": "df09c809-1a0a-4f12-8e8b-350c4e97cf4d",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $(\\xi, \\eta)$ 的联合密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{l}\n\\frac{2}{\\pi}, x^2+y^2 \\leq 1, x>0 \\\\\n0, \\text { 其它 }\n\\end{array},\\right.\n$$\n\n则 $\\xi$ 与 $\\eta$ 为 ( ) 的随机变量.",
+                    "analysis": "根据边缘概率密度定义, 有\n$$\n\\begin{aligned}\nf_{\\xi}(x) &= \\int_{-\\infty}^{+\\infty} f(x, y) d y = \\int_{-\\sqrt{1-x^2}}^{\\sqrt{1-x^2}} \\frac{2}{\\pi} d y = \\frac{4}{\\pi} \\sqrt{1-x^2}, \\quad 0 \\leq x \\leq 1, \\\\\nf_{\\eta}(y) &= \\int_{-\\infty}^{+\\infty} f(x, y) d x = \\int_0^{\\sqrt{1-y^2}} \\frac{2}{\\pi} d x = \\frac{2}{\\pi} \\sqrt{1-y^2}, \\quad -1 \\leq y \\leq 1,\n\\end{aligned}\n$$\n于是 $f(x, y) \\neq f_{\\xi}(x) f_{\\eta}(y)$, 故 $\\xi, \\eta$ 既不独立也不同分布.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340368
+                    },
+                    "question_json": "neu-mathe/c3c3cd8a15f641f2b5fbc5e006f3b8fc",
+                    "updated_at": {
+                        "seconds": 1775671214
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88663,
+                            "question_id": 19357,
+                            "is_answer": true,
+                            "choice": "不独立也不同分布",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88664,
+                            "question_id": 19357,
+                            "is_answer": false,
+                            "choice": "独立同分布",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88665,
+                            "question_id": 19357,
+                            "is_answer": false,
+                            "choice": "不独立同分布",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88666,
+                            "question_id": 19357,
+                            "is_answer": false,
+                            "choice": "独立不同分布",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.43,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 5973,
+                    "tags": "",
+                    "ai_tags": "概率密度,边缘分布,独立性"
+                },
+                {
+                    "id": 19359,
+                    "subject_id": 3,
+                    "chapter_id": 329,
+                    "question_id": "3aa31875-6425-441c-a9ae-4227b15d4ddb",
+                    "difficulty": "Easy",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "设 $\\xi, \\eta$ 相互独立, 分布函数分别为\n$$F_\\xi(x)=\\begin{cases} 1-e^{-x^2}, & x \\geq 0 \\\\ 0, & x<0 \\end{cases}, \\quad F_\\eta(y)=\\begin{cases} 1-e^{-2 y^2}, & y \\geq 0 \\\\ 0, & y<0 \\end{cases}$$\n则 $(\\xi, \\eta)$ 的联合分布函数为 ( ).",
+                    "analysis": "因为 $\\xi, \\eta$ 相互独立, 所以 $F(x, y)=F_\\xi(x) F_\\eta(y)$. 即\n$$F(x, y)=\\begin{cases} (1-e^{-x^2})(1-e^{-2 y^2}), & x \\geq 0, y \\geq 0 \\\\ 0, & \\text{其它} \\end{cases} = \\begin{cases} 1-e^{-x^2}-e^{-2 y^2}+e^{-x^2-2 y^2}, & x \\geq 0, y \\geq 0 \\\\ 0, & \\text{其它} \\end{cases}$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340371
+                    },
+                    "question_json": "neu-mathe/867f7e48351e4d309d72927d7ae494d0",
+                    "updated_at": {
+                        "seconds": 1775586668
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88677,
+                            "question_id": 19359,
+                            "is_answer": false,
+                            "choice": "$F(x, y)=\\begin{cases} 1-e^{-x^2}-e^{-2 y^2}, & x \\geq 0, y \\geq 0 \\\\ 0, & \\text{其它} \\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88678,
+                            "question_id": 19359,
+                            "is_answer": false,
+                            "choice": "$F(x, y)=1-e^{-x^2}-e^{-2 y^2}+e^{-x^2-2 y^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88679,
+                            "question_id": 19359,
+                            "is_answer": true,
+                            "choice": "$F(x, y)=\\begin{cases} 1-e^{-x^2}-e^{-2 y^2}+e^{-x^2-2 y^2}, & x \\geq 0, y \\geq 0 \\\\ 0, & \\text{其它} \\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88680,
+                            "question_id": 19359,
+                            "is_answer": false,
+                            "choice": "$F(x, y)=\\begin{cases} 1-e^{-x^2}+e^{-2 y^2}-e^{-x^2-2 y^2}, & x \\geq 0, y \\geq 0 \\\\ 0, & \\text{其它} \\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 28935,
+                    "ai_tags": "概率论,联合分布函数,独立性"
+                },
+                {
+                    "id": 19361,
+                    "subject_id": 3,
+                    "chapter_id": 329,
+                    "question_id": "e36f81f6-0fc7-41dd-b0c8-d173ca67dfd1",
+                    "difficulty": "Easy",
+                    "answer": "4",
+                    "question_type": 1,
+                    "question": "设 $(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\begin{cases}\n2, & 0<x<y, 0<y<1 \\\\\n0, & \\text{其他}\n\\end{cases}\n$$\n关于 $X$ 和 $Y$ 的独立性正确的是 ( )。",
+                    "analysis": "$$\nf_X(x)=\\begin{cases}\n2(1-x), & 0<x<1 \\\\\n0, & \\text{其他}\n\\end{cases}, \\quad f_Y(y)=\\begin{cases}\n2 y, & 0<y<1 \\\\\n0, & \\text{其他}\n\\end{cases}\n$$\n故 $f(x, y) \\neq f_X(x) f_Y(y)$，$X$ 和 $Y$ 不独立。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340379
+                    },
+                    "question_json": "neu-mathe/1ebd2246f6354ecfa7e58501cf931cc3",
+                    "updated_at": {
+                        "seconds": 1775586668
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88691,
+                            "question_id": 19361,
+                            "is_answer": false,
+                            "choice": "$X$ 和 $Y$ 有一部分独立, 另一部分不独立",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88692,
+                            "question_id": 19361,
+                            "is_answer": false,
+                            "choice": "$X$ 和 $Y$ 独立",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88693,
+                            "question_id": 19361,
+                            "is_answer": false,
+                            "choice": "不能确定",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88694,
+                            "question_id": 19361,
+                            "is_answer": true,
+                            "choice": "$X$ 和 $Y$ 不独立",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.67,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 59243,
+                    "ai_tags": "概率论,二维随机变量,独立性"
+                },
+                {
+                    "id": 19371,
+                    "subject_id": 3,
+                    "chapter_id": 329,
+                    "question_id": "a3c4ca8e-f276-4399-8869-3af70b034851",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 与 $Y$ 相互独立且同分布, $X$ 的概率密度为\n$$\nf(x)=\\left\\{\\begin{array}{l}\n\\frac{3}{8} x^2, 0<x<2 \\\\\n0, \\text { 其它 }\n\\end{array},\\right.\n$$\n\n记 $A=\\{X>a\\}, B=\\{Y>a\\}$, 有 $P\\{A \\cup B\\}=\\frac{3}{4}$, 则常数 $a=()$.",
+                    "analysis": "$$\n\\begin{aligned}\n& \\bar{A}=\\{X \\leq a\\}, \\quad \\bar{B}=\\{Y \\leq a\\}, \\\\\n& P(\\overline{A \\cup B})=P(\\bar{A} \\bar{B})=P(\\bar{A}) P(\\bar{B})=[P(\\bar{A})]^2=\\frac{1}{4},\n\\end{aligned}\n$$\n\n从而 $P(\\bar{A})=\\frac{1}{2}$, 又 $P(\\bar{A})=\\int_0^a \\frac{3 x^2}{8} d x=\\frac{a^3}{8}$, 故 $\\frac{a^3}{8}=\\frac{1}{2}$, 得 $a=\\sqrt[3]{4}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340403
+                    },
+                    "question_json": "neu-mathe/9d29d6993f034a93ae18669154f116fe",
+                    "updated_at": {
+                        "seconds": 1775586666
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88761,
+                            "question_id": 19371,
+                            "is_answer": true,
+                            "choice": "$\\sqrt[3]{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88762,
+                            "question_id": 19371,
+                            "is_answer": false,
+                            "choice": "$\\sqrt[4]{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88763,
+                            "question_id": 19371,
+                            "is_answer": false,
+                            "choice": "$\\sqrt[3]{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88764,
+                            "question_id": 19371,
+                            "is_answer": false,
+                            "choice": "$\\sqrt[3]{6}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.4,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 172896,
+                    "ai_tags": "概率密度,相互独立,事件概率"
+                },
+                {
+                    "id": 19372,
+                    "subject_id": 3,
+                    "chapter_id": 329,
+                    "question_id": "7393f5d7-f61d-4868-9264-c0f7209f1909",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设给出如下二维随机变量 $(X, Y)$，则 $X$ 与 $Y$ 不相互独立的是（    ）.",
+                    "analysis": "对离散型随机变量 $(X, Y)$，若对于所有 $(i, j)$ 均有 $P(X=x_i, Y=y_j) = P(X=x_i)P(Y=y_j)$，则 $X$ 与 $Y$ 相互独立。\\n对于给出联合分布律的两个选项，分别计算边缘分布律：\\n选项中 $X$ 取 $1/2, 1, 2$ 的表格：\\n$P(X=1/2)=5/20=1/4, P(X=1)=5/20=1/4, P(X=2)=10/20=1/2$；\\n$P(Y=-1)=8/20=2/5, P(Y=0)=4/20=1/5, P(Y=1)=8/20=2/5$。\\n验证可知所有 $p_{ij} = p_{i\\cdot} p_{\\cdot j}$ 成立，故该选项中 $X$ 与 $Y$ 相互独立。\\n同理验证 $X$ 取 $1, 2, 3$ 的表格，亦满足独立性条件。\\n\\n对于连续型随机变量 $(X, Y)$，若 $f(x, y) = f_X(x) f_Y(y)$ 几乎处处成立，则 $X$ 与 $Y$ 相互独立。\\n对于概率密度为 $f(x, y)=x+y$ 的选项：\\n$$f_X(x)=\\int_{-\\infty}^{+\\infty} f(x, y) d y=\\int_0^1(x+y) d y=x+\\frac{1}{2}, \\quad (0 \\leq x \\leq 1)$$ \\n$$f_Y(y)=\\int_{-\\infty}^{+\\infty} f(x, y) d x=\\int_0^1(x+y) d x=y+\\frac{1}{2}, \\quad (0 \\leq y \\leq 1)$$ \\n显然 $f_X(x) f_Y(y)=\\left(x+\\frac{1}{2}\\right)\\left(y+\\frac{1}{2}\\right) \\neq x+y = f(x, y)$，所以 $X$ 与 $Y$ 不相互独立。\\n对于概率密度为 $f(x, y)=\\frac{1}{5}$ 的选项，为矩形区域上的均匀分布，满足独立性条件。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340408
+                    },
+                    "question_json": "neu-mathe/23dd0932802a45dd87f94f3cd4eed73f",
+                    "updated_at": {
+                        "seconds": 1775586668
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 88768,
+                            "question_id": 19372,
+                            "is_answer": true,
+                            "choice": "$(X, Y)$ 的联合概率密度 $f(x, y)=\\left\\{\\begin{array}{ll} x+y, & 0 \\leq x \\leq 1,0 \\leq y \\leq 1 \\\\ 0, & \\text{其他} \\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88769,
+                            "question_id": 19372,
+                            "is_answer": false,
+                            "choice": "$(X, Y)$ 的联合概率密度 $f(x, y)=\\left\\{\\begin{array}{ll} \\frac{1}{5}, & 1 \\leq x \\leq 2,0 \\leq y \\leq 5 \\\\ 0, & \\text{其他} \\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88770,
+                            "question_id": 19372,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|ccc} \\hline $X \\setminus Y$ & -1 & 0 & 1 \\\\ \\hline $1 / 2$ & $2 / 20$ & $1 / 20$ & $2 / 20$ \\\\ 1 & $2 / 20$ & $1 / 20$ & $2 / 20$ \\\\ 2 & $4 / 20$ & $2 / 20$ & $4 / 20$ \\\\ \\hline \\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        },
+                        {
+                            "id": 88771,
+                            "question_id": 19372,
+                            "is_answer": false,
+                            "choice": "\\begin{tabular}{c|ccc} \\hline $X \\setminus Y$ & 1 & 2 & 3 \\\\ \\hline 1 & 0.01 & 0.03 & 0.06 \\\\ 2 & 0.02 & 0.06 & 0.12 \\\\ 3 & 0.07 & 0.21 & 0.42 \\\\ \\hline \\end{tabular}",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080695
+                            },
+                            "updated_at": {
+                                "seconds": 1735080695
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.67,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 74259,
+                    "ai_tags": "概率论,独立性,二维随机变量"
+                }
+            ]
+        }
+    }
+]

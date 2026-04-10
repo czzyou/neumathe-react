@@ -1,0 +1,599 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 7,
+            "questions": [
+                {
+                    "id": 12741,
+                    "subject_id": 3,
+                    "chapter_id": 374,
+                    "question_id": "d8292835-e87b-4edd-a286-6dfdfd057436",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, \\cdots, X_n$ 是来自均匀分布总体 $U(0, c)$ 的样本, 则其联合概率密度为 $f\\left(x_1, x_2, \\cdots, x_n\\right)=()$.",
+                    "analysis": "总体 $X$ 的概率密度为 $f(x)=\\left\\{\\begin{array}{cc}\\frac{1}{c}, & 0<x<c \\\\ 0, & \\text { 其他 }\\end{array}\\right.$, 样本 $X_1, X_2, \\cdots, X_n$ 的联合概率密度则为\n$$\nf\\left(x_1, x_2, \\cdots, x_n\\right)=\\prod_{i=1}^n f\\left(x_i\\right)=\\left\\{\\begin{array}{cc}\n\\frac{1}{c^n}, & 0<x_1, x_2, \\cdots, x_n<c, \\\\\n0, & \\text { 其他. }\n\\end{array}\\right.\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/16da314a66e147169b5a78cc5f70ac29",
+                    "updated_at": {
+                        "seconds": 1773945057
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 50962,
+                            "question_id": 12741,
+                            "is_answer": true,
+                            "choice": "$\\left\\{\\begin{array}{cc}\\frac{1}{c^n}, & 0<x_1, x_2, \\cdots, x_n<c \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50964,
+                            "question_id": 12741,
+                            "is_answer": false,
+                            "choice": "$\\left\\{\\begin{array}{cc}\\frac{x_1+x_2+\\cdots+x_n}{c^n}, & 0<x_1, x_2, \\cdots, x_n<c \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50961,
+                            "question_id": 12741,
+                            "is_answer": false,
+                            "choice": "$\\left\\{\\begin{array}{cc}\\frac{1}{c}, & 0<x_1, x_2, \\cdots, x_n<c \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50963,
+                            "question_id": 12741,
+                            "is_answer": false,
+                            "choice": "$\\left\\{\\begin{array}{lc}\\frac{x_1 x_2 \\cdots x_n}{c^n}, & 0<x_1, x_2, \\cdots, x_n<c \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.59,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 2491,
+                    "ai_tags": "均匀分布,联合概率密度,总体与样本"
+                },
+                {
+                    "id": 12743,
+                    "subject_id": 3,
+                    "chapter_id": 374,
+                    "question_id": "fe869ef1-bfd8-45a4-a6ea-8bf8dc813514",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 服从 $N\\left(\\mu, \\sigma^2\\right)$, 则其样本 $X_1, X_2, \\cdots, X_n$ 的联合概率分布为 ( ).",
+                    "analysis": "$f\\left(x_1, x_2, \\cdots, x_n\\right)=\\prod_{i=1}^n \\frac{1}{\\sqrt{2 \\pi} \\sigma} \\exp \\left\\{-\\frac{1}{2}\\left(\\frac{x_i-\\mu}{\\sigma}\\right)^2\\right\\}=\\left(\\frac{1}{\\sqrt{2 \\pi} \\sigma}\\right)^n \\exp \\left\\{-\\frac{1}{2 \\sigma^2} \\sum_{i=1}^n\\left(x_i-\\mu\\right)^2\\right\\}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/9ab0f2b415644a40b52e36c54573751b",
+                    "updated_at": {
+                        "seconds": 1773945057
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 50969,
+                            "question_id": 12743,
+                            "is_answer": true,
+                            "choice": "$\\left(\\frac{1}{\\sqrt{2 \\pi} \\sigma}\\right)^n \\exp \\left\\{-\\frac{1}{2 \\sigma^2} \\sum_{i=1}^n\\left(x_i-\\mu\\right)^2\\right\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50972,
+                            "question_id": 12743,
+                            "is_answer": false,
+                            "choice": "$\\left(\\frac{1}{\\sqrt{2 \\pi} \\sigma}\\right)^n$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50970,
+                            "question_id": 12743,
+                            "is_answer": false,
+                            "choice": "$\\exp \\left\\{-\\frac{1}{2 \\sigma^2} \\sum_{i=1}^n\\left(x_i-\\mu\\right)^2\\right\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 50971,
+                            "question_id": 12743,
+                            "is_answer": false,
+                            "choice": "$\\left(\\frac{1}{\\sqrt{2 \\pi} \\sigma}\\right)^n \\exp \\left\\{-\\frac{1}{2 \\sigma^2} \\sum_{i=1}^n\\left(x_i+\\mu\\right)^2\\right\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.76,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 35329,
+                    "ai_tags": "正态总体,联合概率分布,数理统计"
+                },
+                {
+                    "id": 18530,
+                    "subject_id": 3,
+                    "chapter_id": 374,
+                    "question_id": "df4e9332-b57b-49e5-a2ec-02a253d4064e",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, \\cdots X_n$ 为来自总体 $X$ 的样本, 则不成立的是 ().",
+                    "analysis": "样本具有两个性质：\n1.代表性: $X_1, X_2, \\cdots, X_n$ 与所考察的总体具有相同的分布;\n2.独立性: $X_1, X_2, \\cdots, X_n$ 是相互独立的随机变量.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338402
+                    },
+                    "question_json": "neu-mathe/20e61414b3384d5fbf92106e3b2a7453",
+                    "updated_at": {
+                        "seconds": 1773945060
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 82874,
+                            "question_id": 18530,
+                            "is_answer": true,
+                            "choice": "$X_i(i=1,2, \\cdots, n)$ 是确定的数",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82875,
+                            "question_id": 18530,
+                            "is_answer": false,
+                            "choice": "$X_i(i=1,2, \\cdots, n)$ 与 $X$ 有相同的分布",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82876,
+                            "question_id": 18530,
+                            "is_answer": false,
+                            "choice": "$(X_1, X_2, \\cdots, X_n)$ 是 $n$ 维随机变量",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82877,
+                            "question_id": 18530,
+                            "is_answer": false,
+                            "choice": "$(X_1, X_2, \\cdots, X_n)$ 各分量是相互独立且同分布的随机变量",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.53,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 9017,
+                    "ai_tags": "总体与样本,简单随机样本"
+                },
+                {
+                    "id": 18531,
+                    "subject_id": 3,
+                    "chapter_id": 374,
+                    "question_id": "df15154f-3d80-4c2e-867f-918673bf8685",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 在区间 $[a, b]$ 上服从均匀分布, 来自 $X$ 的简单随机样本 $X_1, X_2, \\cdots, X_n$ 的联合概率密度 $f(x_1, x_2, \\cdots, x_n)=()$.",
+                    "analysis": "$X$ 的概率密度为 $f(x)=\\left\\{\\begin{array}{ll}\\frac{1}{b-a}, & x \\in[a, b] \\\\ 0, & \\text { 其他 }\\end{array}\\right.$, 由于 $X_1, X_2, \\cdots, X_n$ 独立且与 $X$ 同分布, 所以 $X_1, X_2, \\cdots, X_n$ 的联合概率密度为\n$$\nf(x_1, x_2, \\cdots, x_n)=\\prod_{i=1}^n f(x_i)=\\left\\{\\begin{array}{ll}\n\\frac{1}{(b-a)^n}, & a \\leq x_1, \\cdots, x_n \\leq b, \\\\\n0, & \\text { 其他. }\n\\end{array}\\right.\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338406
+                    },
+                    "question_json": "neu-mathe/15e1b53b25ea4eab9a57d82596b058a7",
+                    "updated_at": {
+                        "seconds": 1774549868
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 82881,
+                            "question_id": 18531,
+                            "is_answer": true,
+                            "choice": "$\\left\\{\\begin{array}{ll}\\frac{1}{(b-a)^n}, & a \\leq x_1, \\cdots, x_n \\leq b \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82882,
+                            "question_id": 18531,
+                            "is_answer": false,
+                            "choice": "$\\left\\{\\begin{array}{ll}\\frac{1}{(b-a)^n}, & a \\leq x_1, \\cdots, x_n \\leq b \\\\ 1, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82883,
+                            "question_id": 18531,
+                            "is_answer": false,
+                            "choice": "$\\left\\{\\begin{array}{ll}\\frac{1}{(b+a)^n}, & a \\leq x_1, \\cdots, x_n \\leq b \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82884,
+                            "question_id": 18531,
+                            "is_answer": false,
+                            "choice": "$\\left\\{\\begin{array}{ll}\\frac{2}{(b-a)^n}, & a \\leq x_1, \\cdots, x_n \\leq b \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.58,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 11037,
+                    "ai_tags": "均匀分布,联合概率密度,简单随机样本"
+                },
+                {
+                    "id": 18533,
+                    "subject_id": 3,
+                    "chapter_id": 374,
+                    "question_id": "247fb863-7535-49e1-ace8-c85ab4c002fa",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $x_i(i=1,2, \\cdots n)$ 是总体 $X$ 的一组样本观测值, 则 ( ).",
+                    "analysis": "样本值是个具体的数值, 它是确定的, 不存在分布及其数字特征之说.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338409
+                    },
+                    "question_json": "neu-mathe/c946b1bdaa714dcebd6906bdcedc494f",
+                    "updated_at": {
+                        "seconds": 1774549870
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 82895,
+                            "question_id": 18533,
+                            "is_answer": true,
+                            "choice": "$x_i(i=1,2, \\cdots n)$ 为 $X$ 的 $n$ 个取值",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82896,
+                            "question_id": 18533,
+                            "is_answer": false,
+                            "choice": "$x_i(i=1,2, \\cdots n)$ 的取值是不确定的",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82897,
+                            "question_id": 18533,
+                            "is_answer": false,
+                            "choice": "$x_i(i=1,2, \\cdots n)$ 与 $X$ 有相同的分布",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82898,
+                            "question_id": 18533,
+                            "is_answer": false,
+                            "choice": "$x_i(i=1,2, \\cdots n)$ 与 $X$ 有相同的数字特征",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.45,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 16271,
+                    "ai_tags": "数理统计,样本观测值"
+                },
+                {
+                    "id": 18540,
+                    "subject_id": 3,
+                    "chapter_id": 374,
+                    "question_id": "0d85db6b-34c3-4268-aaab-7f0c9f6ed1c7",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 服从参数为 $p(0<p<1)$ 的 $0-1$ 分布, 即 $P\\{X=1\\}=p, P\\{X=0\\}=1-p$, 其样本 $X_1, X_2, \\cdots, X_n$ 的联合概率分布为（）。",
+                    "analysis": "样本 $X_1, X_2, \\cdots, X_n$ 的联合概率分布为\n$$P\\{X_1=i_1, X_2=i_2, \\cdots, X_n=i_n\\}=p^{s_n}(1-p)^{n-s_n}$$\n其中 $i_k(1 \\leq k \\leq n)$ 取 $1$ 或 $0$, $s_n=i_1+i_2+\\cdots+i_n$ 是样本观察值中取值为 $1$ 的总数。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338431
+                    },
+                    "question_json": "neu-mathe/e42376211eb743a89554bdd61f949de6",
+                    "updated_at": {
+                        "seconds": 1774549861
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 82944,
+                            "question_id": 18540,
+                            "is_answer": true,
+                            "choice": "$p^{s_n}(1-p)^{n-s_n}$, 其中 $s_n=i_1+i_2+\\cdots+i_n$, $i_k(1 \\leq k \\leq n)$ 取 $1$ 或 $0$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82945,
+                            "question_id": 18540,
+                            "is_answer": false,
+                            "choice": "$p^{s_n}(1-p)$, 其中 $s_n=i_1+i_2+\\cdots+i_n$, $i_k(1 \\leq k \\leq n)$ 取 $1$ 或 $0$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82946,
+                            "question_id": 18540,
+                            "is_answer": false,
+                            "choice": "$p^{s_n}(1+p)^{s_n}$, 其中 $s_n=i_1+i_2+\\cdots+i_n$, $i_k(1 \\leq k \\leq n)$ 取 $1$ 或 $0$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82947,
+                            "question_id": 18540,
+                            "is_answer": false,
+                            "choice": "$p(1-p)^{s_n}$, 其中 $s_n=i_1+i_2+\\cdots+i_n$, $i_k(1 \\leq k \\leq n)$ 取 $1$ 或 $0$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.96,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 426410,
+                    "ai_tags": "0-1分布,联合概率分布,总体与样本"
+                },
+                {
+                    "id": 18547,
+                    "subject_id": 3,
+                    "chapter_id": 374,
+                    "question_id": "ffbfeb37-cd29-48ea-b941-340a463a737e",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "$A$ 厂生产的某种电器的使用寿命服从指数分布, 参数 $\\lambda$ 未知. 为此抽查了 $n$ 件电器, 则样本的联合密度函数为 $f\\left(x_1, x_2, \\cdots, x_n\\right)=()$.",
+                    "analysis": "总体 $X$ 是电器的使用寿命，其概率密度为 $f(x)=\\begin{cases}\\lambda e^{-\\lambda x}, & x>0 \\\\ 0, & x \\leq 0\\end{cases}$ ($\\lambda$ 未知)。样本 $X_1, X_2, \\cdots, X_n$ 是 $n$ 件电器的使用寿命，其联合概率密度为\n$$f(x_1, x_2, \\cdots, x_n)=\\prod_{i=1}^n f(x_i)=\\begin{cases}\\lambda^n e^{-\\lambda(x_1+\\cdots+x_n)}, & x_1>0, x_2>0, \\cdots, x_n>0 \\\\ 0, & \\text{其他}\\end{cases}$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764338445
+                    },
+                    "question_json": "neu-mathe/74b7891ac93a415984d01ebd2449a7d6",
+                    "updated_at": {
+                        "seconds": 1774549865
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 82993,
+                            "question_id": 18547,
+                            "is_answer": true,
+                            "choice": "$\\begin{cases} \\lambda^n e^{-\\lambda(x_1+\\cdots+x_n)}, & x_1>0, x_2>0, \\cdots, x_n>0 \\\\ 0, & \\text{其他} \\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82994,
+                            "question_id": 18547,
+                            "is_answer": false,
+                            "choice": "$\\begin{cases} n \\lambda e^{-\\lambda(x_1+\\cdots+x_n)}, & x_1>0, x_2>0, \\cdots, x_n>0 \\\\ 0, & \\text{其他} \\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82995,
+                            "question_id": 18547,
+                            "is_answer": false,
+                            "choice": "$\\begin{cases} \\lambda^n e^{-\\lambda}(x_1+\\cdots+x_n), & x_1>0, x_2>0, \\cdots, x_n>0 \\\\ 0, & \\text{其他} \\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        },
+                        {
+                            "id": 82996,
+                            "question_id": 18547,
+                            "is_answer": false,
+                            "choice": "$\\begin{cases} n \\lambda e^{-\\lambda}(x_1+\\cdots+x_n), & x_1>0, x_2>0, \\cdots, x_n>0 \\\\ 0, & \\text{其他} \\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080680
+                            },
+                            "updated_at": {
+                                "seconds": 1735080680
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.68,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 11810,
+                    "ai_tags": "数理统计,指数分布,联合概率密度"
+                }
+            ]
+        }
+    }
+]

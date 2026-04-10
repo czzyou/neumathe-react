@@ -1,0 +1,1533 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 18,
+            "questions": [
+                {
+                    "id": 13523,
+                    "subject_id": 3,
+                    "chapter_id": 334,
+                    "question_id": "e61cd456-6d31-4d8f-afae-5883cc2c393d",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X \\sim N(0,1), Y \\sim N(0,1)$, 且 $X$ 与 $Y$ 相互独立, 则下列随机变量或者随机向量不服从正态分布的是 ( ).",
+                    "analysis": "相互独立的正态分布的线性组合服从正态分布, 且联合分布也服从多维正态分布.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/2365bf26e043428e946b49dfe397a912",
+                    "updated_at": {
+                        "seconds": 1775154664
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54091,
+                            "question_id": 13523,
+                            "is_answer": true,
+                            "choice": "$X Y$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54092,
+                            "question_id": 13523,
+                            "is_answer": false,
+                            "choice": "$(X, Y)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54090,
+                            "question_id": 13523,
+                            "is_answer": false,
+                            "choice": "$X+Y$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54089,
+                            "question_id": 13523,
+                            "is_answer": false,
+                            "choice": "$X-Y$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.82,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 47129,
+                    "ai_tags": "正态分布,独立性,随机变量的分布"
+                },
+                {
+                    "id": 13525,
+                    "subject_id": 3,
+                    "chapter_id": 334,
+                    "question_id": "0f8a7209-b353-415c-9fe2-2468fd138220",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X$ 和 $Y$ 相互独立, 均服从标准正态分布, 则 $Z=X+Y$ 的概率密度函数为 ( ).",
+                    "analysis": "$Z=X+Y \\sim N(0,2)$, 故 $f_Z(z)=\\frac{1}{2 \\sqrt{\\pi}} e^{-\\frac{z^2}{4}}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/13d23ef1d5164fec9066b480f399859f",
+                    "updated_at": {
+                        "seconds": 1773945054
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54100,
+                            "question_id": 13525,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{2 \\sqrt{\\pi}} e^{-\\frac{z^2}{4}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54098,
+                            "question_id": 13525,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2 \\sqrt{\\pi}} e^{-\\frac{z^2}{2}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54097,
+                            "question_id": 13525,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{\\sqrt{2 \\pi}} e^{-\\frac{z^2}{4}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54099,
+                            "question_id": 13525,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{\\sqrt{2 \\pi}} e^{-\\frac{z^2}{2}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.78,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 59408,
+                    "ai_tags": "正态分布,随机变量的和,概率密度函数"
+                },
+                {
+                    "id": 13527,
+                    "subject_id": 3,
+                    "chapter_id": 334,
+                    "question_id": "1ffb1ba1-01b3-4ff2-8daa-cf19f650199b",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X \\sim N(-3,1), Y \\sim N(2,1)$, 且 $X$ 与 $Y$ 相互独立. 令 $Z=X+2 Y+1$, 则 $Z \\sim()$.",
+                    "analysis": "$Z=X+2 Y+1 \\sim N\\left(-3+2 \\times 2+1,1^2 \\times 1+2^2 \\times 1\\right)$, 即 $Z=X+2 Y+1 \\sim N(2,5)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/cfd99aac76b941819d3249d86ac7672f",
+                    "updated_at": {
+                        "seconds": 1775154663
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54108,
+                            "question_id": 13527,
+                            "is_answer": true,
+                            "choice": "$N(2,5)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54106,
+                            "question_id": 13527,
+                            "is_answer": false,
+                            "choice": "$N(0,3)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54107,
+                            "question_id": 13527,
+                            "is_answer": false,
+                            "choice": "$N(0,5)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54105,
+                            "question_id": 13527,
+                            "is_answer": false,
+                            "choice": "$N(1,5)$.",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.62,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 91269,
+                    "ai_tags": "正态分布,随机变量的独立性,数学期望与方差"
+                },
+                {
+                    "id": 13528,
+                    "subject_id": 3,
+                    "chapter_id": 334,
+                    "question_id": "b6123d58-b506-4f33-85f3-f03eb938cf12",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X \\sim N(-3,1), Y \\sim N(2,1)$, 且 $X$ 与 $Y$ 相互独立, 令 $Z=X-2 Y+7$, 则 $Z \\sim()$.",
+                    "analysis": "$Z=X-2 Y+7 \\sim N((E(X)-2 E(Y)+7, D(X)+4 D(Y)))=N(0,5)$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/b18f7dd8b370487991e42a55e2eec6c9",
+                    "updated_at": {
+                        "seconds": 1767465101
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54111,
+                            "question_id": 13528,
+                            "is_answer": true,
+                            "choice": "$N(0,5)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54112,
+                            "question_id": 13528,
+                            "is_answer": false,
+                            "choice": "$N(0,3)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54110,
+                            "question_id": 13528,
+                            "is_answer": false,
+                            "choice": "$N(0,46)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54109,
+                            "question_id": 13528,
+                            "is_answer": false,
+                            "choice": "$N(0,54)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 21151,
+                    "ai_tags": "正态分布,期望与方差,随机变量的独立性"
+                },
+                {
+                    "id": 13530,
+                    "subject_id": 3,
+                    "chapter_id": 334,
+                    "question_id": "e75a3094-4467-4d79-b189-e76268b205fa",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 与 $Y$ 相互独立, 且 $X \\sim N\\left(\\mu_1, \\sigma_1^2\\right), Y \\sim N\\left(\\mu_2, \\sigma_2^2\\right)$, 则 $Z=X+Y$ 服从 ( ).",
+                    "analysis": "由正态分布的性质可知 $Z \\sim N\\left(\\mu_1+\\mu_2, \\sigma_1^2+\\sigma_2^2\\right)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/d87dff8851b44cd6bdd2180507b2bd3d",
+                    "updated_at": {
+                        "seconds": 1775154659
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54120,
+                            "question_id": 13530,
+                            "is_answer": true,
+                            "choice": "$Z \\sim N\\left(\\mu_1+\\mu_2, \\sigma_1^2+\\sigma_2^2\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54119,
+                            "question_id": 13530,
+                            "is_answer": false,
+                            "choice": "$Z \\sim N\\left(\\mu_1 \\mu_2, \\sigma_1^2+\\sigma_2^2\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54118,
+                            "question_id": 13530,
+                            "is_answer": false,
+                            "choice": "$Z \\sim N\\left(\\mu_1+\\mu_2, \\sigma_1 \\sigma_2\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54117,
+                            "question_id": 13530,
+                            "is_answer": false,
+                            "choice": "$Z \\sim N\\left(\\mu_1+\\mu_2, \\sigma_1^2 \\sigma_2^2\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 7367,
+                    "ai_tags": "正态分布,随机变量的独立性,正态分布的可加性"
+                },
+                {
+                    "id": 13531,
+                    "subject_id": 3,
+                    "chapter_id": 334,
+                    "question_id": "79e751c1-b7aa-4ec7-b53c-e73f7bbef2cd",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "下列命题中错误的是 ( ).",
+                    "analysis": "$n$ 随机变量的联合分布是正态分布，则这些随机变量的线性组合也是正态分布.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/733c0efe967f43bba1ab61cdc0638026",
+                    "updated_at": {
+                        "seconds": 1773945060
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54122,
+                            "question_id": 13531,
+                            "is_answer": true,
+                            "choice": "$(X, Y)$ 服从二维正态分布, 则 $X+Y$ 不一定服从正态分布",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54124,
+                            "question_id": 13531,
+                            "is_answer": false,
+                            "choice": "$(X, Y)$ 服从二维正态分布, 则 $X, Y$ 均服从正态分布",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54121,
+                            "question_id": 13531,
+                            "is_answer": false,
+                            "choice": "$X, Y$ 分别服从正态分布, 且 $X$ 与 $Y$ 独立, 则 $X+Y$ 均服从正态分布",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54123,
+                            "question_id": 13531,
+                            "is_answer": false,
+                            "choice": "$X, Y$ 分别服从正态分布, 则 $X+Y$ 不一定服从正态分布",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.21,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 24626,
+                    "ai_tags": "二维正态分布,正态分布,独立性"
+                },
+                {
+                    "id": 19012,
+                    "subject_id": 3,
+                    "chapter_id": 334,
+                    "question_id": "20309298-ff4d-4306-a092-8805e9e836e3",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X \\sim U(0,1), Y \\sim U(0,1)$, 且 $X 、 Y$ 相互独立, 则服从一维或二维均匀分布的是 () .",
+                    "analysis": "因为 $X, Y$ 相互独立, 所以 $(X, Y)$ 的联合概率密度为\n$$\nf(x, y)=\\begin{cases} 1, & 0 \\leq x \\leq 1, 0 \\leq y \\leq 1, \\\\ 0, & \\text { 其他. } \\end{cases}\n$$\n故 $(X, Y)$ 服从二维均匀分布. 而 $Z=X^2, U=X+Y$ 和 $V=X-Y$ 的概率密度分别为\n$$\nf_Z(z)=\\begin{cases} \\frac{1}{2 \\sqrt{z}}, & 0<z<1, \\\\ 0, & \\text { 其他. } \\end{cases}\n$$\n$$\nf_U(u)=\\begin{cases} u, & 0<u \\leq 1, \\\\ 2-u, & 1<u<2, \\\\ 0, & \\text { 其他. } \\end{cases}, \\quad f_V(v)= \\begin{cases} 1+v, & -1<v \\leq 0, \\\\ 1-v, & 0<v<1, \\\\ 0, & \\text { 其他. } \\end{cases}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339574
+                    },
+                    "question_json": "neu-mathe/58df476643684fd6b7ec15681e984a01",
+                    "updated_at": {
+                        "seconds": 1773945059
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86248,
+                            "question_id": 19012,
+                            "is_answer": true,
+                            "choice": "$(X, Y)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86249,
+                            "question_id": 19012,
+                            "is_answer": false,
+                            "choice": "$X+Y$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86250,
+                            "question_id": 19012,
+                            "is_answer": false,
+                            "choice": "$X^2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86251,
+                            "question_id": 19012,
+                            "is_answer": false,
+                            "choice": "$X-Y$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.7,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 3750,
+                    "ai_tags": "均匀分布,随机变量函数的分布,独立性"
+                },
+                {
+                    "id": 19020,
+                    "subject_id": 3,
+                    "chapter_id": 334,
+                    "question_id": "ac61c6cf-9b49-4851-8a1e-50d1e303829c",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X \\sim N(3,2), Y \\sim N(-2,2)$, 且 $X$ 与 $Y$ 相互独立, 令 $Z=-X+3 Y-1$, 则 $Z \\sim()$.",
+                    "analysis": "$Z=-X+3 Y-1 \\sim N\\left(-3+3 \\times(-2)-1,(-1)^2 \\times 2+3^2 \\times 2\\right)$, 即 $Z=-X+3 Y-1 \\sim N(-10,20)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339591
+                    },
+                    "question_json": "neu-mathe/5042a904b2ac46e2908c806121d9e6b8",
+                    "updated_at": {
+                        "seconds": 1767551648
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86304,
+                            "question_id": 19020,
+                            "is_answer": true,
+                            "choice": "$N(-10,20)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86305,
+                            "question_id": 19020,
+                            "is_answer": false,
+                            "choice": "$N(10,15)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86306,
+                            "question_id": 19020,
+                            "is_answer": false,
+                            "choice": "$N(-9,20)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86307,
+                            "question_id": 19020,
+                            "is_answer": false,
+                            "choice": "$N(-10,16)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 13508,
+                    "ai_tags": "正态分布,随机变量的独立性,数字特征"
+                },
+                {
+                    "id": 19021,
+                    "subject_id": 3,
+                    "chapter_id": 334,
+                    "question_id": "0bb74473-3533-4fc3-80f1-c6dcdb4b6d4b",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X \\sim U(0,1), Y \\sim U(0,1)$，且 $X, Y$ 相互独立。令 $Z=X+Y$，$f_Z(z)$ 为 $Z$ 的概率密度，则 $f_Z\\left(\\frac{3}{2}\\right)=(\\quad)$。",
+                    "analysis": "因为 $X, Y$ 独立且都服从均匀分布，故 $(X, Y)$ 服从 $(0,1) \\times (0,1)$ 上的均匀分布，即\n$$\nf(x, y)=\\begin{cases}\n1, & 0<x<1, 0<y<1 \\\\\n0, & \\text{其它}\n\\end{cases}\n$$\n于是，\n$$\nf_Z\\left(\\frac{3}{2}\\right)=\\int_{-\\infty}^{+\\infty} f\\left(x, \\frac{3}{2}-x\\right) dx = \\int_{\\frac{1}{2}}^1 1 dx = \\frac{1}{2}\n$$\n或\n$$\nf_Z(z)=\\int_{-\\infty}^{+\\infty} f(x, z-x) dx = \\begin{cases}\n\\int_0^z 1 dx = z, & 0<z<1 \\\\\n\\int_{z-1}^1 1 dx = 2-z, & 1 \\le z<2 \\\\\n0, & \\text{其它}\n\\end{cases}\n$$\n从而 $f_Z\\left(\\frac{3}{2}\\right)=2-\\frac{3}{2}=\\frac{1}{2}$。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339595
+                    },
+                    "question_json": "neu-mathe/43daab2ef65848b59a4b62b1c2ca0bb0",
+                    "updated_at": {
+                        "seconds": 1766946711
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86311,
+                            "question_id": 19021,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86312,
+                            "question_id": 19021,
+                            "is_answer": false,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86313,
+                            "question_id": 19021,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86314,
+                            "question_id": 19021,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.83,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 69556,
+                    "ai_tags": "概率论,均匀分布,卷积公式"
+                },
+                {
+                    "id": 19024,
+                    "subject_id": 3,
+                    "chapter_id": 334,
+                    "question_id": "67a810bd-596e-4e23-bb71-beb32b573f20",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设二维随机变量 $(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{cc}\n2 e^{-(x+2 y)}, & x>0, y>0 \\\\\n0, & \\text { 其它 }\n\\end{array},\\right.\n$$\n\n则随机变量 $Z=X+Y$ 的概率密度函数为 ( ).",
+                    "analysis": "$f_Z(z)=\\int_{-\\infty}^{+\\infty} f(z-y, y) d y=\\left\\{\\begin{array}{cc}\\int_0^z 2 e^{-(z+y)} d y, & z>0 \\\\ 0, & z \\leq 0\\end{array}\\right.=\\left\\{\\begin{array}{cc}2 e^{-z}\\left(1-e^{-z}\\right), & z>0 \\\\ 0, & z \\leq 0\\end{array}\\right.$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339599
+                    },
+                    "question_json": "neu-mathe/ae1a630484f0401cb89264d93fcce284",
+                    "updated_at": {
+                        "seconds": 1767465093
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86332,
+                            "question_id": 19024,
+                            "is_answer": true,
+                            "choice": "$f_Z(z)=\\left\\{\\begin{array}{cc}2 e^{-z}\\left(1-e^{-z}\\right), & z>0 \\\\ 0, & z \\leq 0\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86333,
+                            "question_id": 19024,
+                            "is_answer": false,
+                            "choice": "$f_Z(z)=\\left\\{\\begin{array}{cc}2 z\\left(1-e^{-z}\\right), & z>0 \\\\ 0, & z \\leq 0\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86334,
+                            "question_id": 19024,
+                            "is_answer": false,
+                            "choice": "$f_Z(z)=\\left\\{\\begin{array}{cc}e^{-z}\\left(1-e^{-z}\\right), & z>0 \\\\ 0, & z \\leq 0\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86335,
+                            "question_id": 19024,
+                            "is_answer": false,
+                            "choice": "$f_Z(z)=\\left\\{\\begin{array}{cc}2\\left(1-e^{-z}\\right), & z>0 \\\\ 0, & z \\leq 0\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 155990,
+                    "ai_tags": "二维随机变量,函数的分布,概率密度"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 18,
+            "questions": [
+                {
+                    "id": 19027,
+                    "subject_id": 3,
+                    "chapter_id": 334,
+                    "question_id": "12558e65-d7fa-454d-98a6-9f3861f085a9",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 与 $Y$ 相互独立, 且 $X \\sim N\\left(a_1, \\sigma_1^2\\right), Y \\sim N\\left(a_2, \\sigma_2^2\\right)$, 则 $Z=X-Y$ 服从 ( ).",
+                    "analysis": "根据正态分布的性质， $X-Y \\sim N\\left(a_1-a_2, \\sigma_1^2+\\sigma_2^2\\right)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339607
+                    },
+                    "question_json": "neu-mathe/bddbf6ea05a14b8cb71003dffbb8899b",
+                    "updated_at": {
+                        "seconds": 1774290657
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86353,
+                            "question_id": 19027,
+                            "is_answer": true,
+                            "choice": "$Z \\sim N\\left(a_1-a_2, \\sigma_1^2+\\sigma_2^2\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86354,
+                            "question_id": 19027,
+                            "is_answer": false,
+                            "choice": "$Z \\sim N\\left(a_1, \\sigma_1^2+\\sigma_2^2\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86355,
+                            "question_id": 19027,
+                            "is_answer": false,
+                            "choice": "$Z \\sim N\\left(a_1-a_2, \\sigma_1 \\sigma_2\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86356,
+                            "question_id": 19027,
+                            "is_answer": false,
+                            "choice": "$Z \\sim N\\left(a_1-a_2, \\sigma_1^2 \\sigma_2^2\\right)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.83,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 103038,
+                    "ai_tags": "正态分布,随机变量的独立性"
+                },
+                {
+                    "id": 19030,
+                    "subject_id": 3,
+                    "chapter_id": 334,
+                    "question_id": "fee37e4c-b33a-403b-848e-7f1919aa11ad",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设某种商品一周的需求量是一个随机变量, 其概率密度函数为\n$$\nf(x)=\\left\\{\\begin{array}{cc}\nx e^{-x}, & x>0 \\\\\n0, & \\text { 其它 }\n\\end{array}\\right.,\n$$\n如果各周的需求量相互独立, 则两周需求量的概率密度函数为 (  ).",
+                    "analysis": "分别用 $X$ 和 $Y$ 表示第一、二周的需求量, 则\n$$\nf_X(x)=\\left\\{\\begin{array}{cc}\nx e^{-x}, & x>0 \\\\\n0, & \\text { 其它 }\n\\end{array}\\right., \\quad f_Y(y)=\\left\\{\\begin{array}{cc}\ny e^{-y}, & y>0 \\\\\n0, & \\text { 其它 }\n\\end{array}\\right.\n$$\n从而两周需求量 $Z=X+Y$, 利用卷积公式计算.\n当 $z \\leq 0$ 时, 若 $x>0$, 则 $z-x<0, f_Y(z-x)=0$;\n若 $x \\leq 0$, 则 $f_X(x)=0$, 从而 $f_Z(z)=0$;\n当 $z>0$ 时, 若 $x \\leq 0$, 则 $f_X(x)=0$;\n若 $z-x \\leq 0$, 即 $z \\leq x$, 则 $f_Y(z-x)=0$,\n故 $\\int_{-\\infty}^{+\\infty} f_X(x) f_Y(z-x) d x=\\int_0^z x e^{-x}(z-x) e^{-(z-x)} d x=\\frac{z^3}{6} e^{-z}$,\n从而\n$$\nf_Z(z)=\\left\\{\\begin{array}{cc}\n\\frac{z^3}{6} e^{-z}, & z>0 \\\\\n0, & \\text { 其它 }\n\\end{array} .\\right.\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339610
+                    },
+                    "question_json": "neu-mathe/9daadfc34da8416e93147308ec890efc",
+                    "updated_at": {
+                        "seconds": 1767637890
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86374,
+                            "question_id": 19030,
+                            "is_answer": true,
+                            "choice": "$f_Z(z)=\\left\\{\\begin{array}{cc}\\frac{z^3}{6} e^{-z}, & z>0 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86375,
+                            "question_id": 19030,
+                            "is_answer": false,
+                            "choice": "$f_Z(z)=\\left\\{\\begin{array}{cc}\\frac{z}{6} e^{-z}, & z>0 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86376,
+                            "question_id": 19030,
+                            "is_answer": false,
+                            "choice": "$f_Z(z)=\\left\\{\\begin{array}{cc}\\frac{z^3}{3} e^{-z}, & z>0 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86377,
+                            "question_id": 19030,
+                            "is_answer": false,
+                            "choice": "$f_Z(z)=\\left\\{\\begin{array}{cc}\\frac{z}{3} e^{-z}, & z>0 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 241521,
+                    "ai_tags": "概率密度函数,随机变量的和,卷积公式"
+                },
+                {
+                    "id": 19031,
+                    "subject_id": 3,
+                    "chapter_id": 334,
+                    "question_id": "faab536d-e5a1-4f3e-a26e-c0464b68fb80",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设二维随机变量 $(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\begin{cases}\n2 e^{-(x+2 y)}, & x>0, y>0 \\\\\n0, & \\text{其他}\n\\end{cases}\n$$\n则随机变量 $Z=X+2 Y$ 的分布函数为 ( ).",
+                    "analysis": "按定义\n$$\nF_Z(z)=P\\{X+2 Y \\leq z\\},\n$$\n当 $z \\leq 0$ 时，\n$$\nF_Z(z)=\\iint_{x+2 y \\leq z} f(x, y) d x d y=0.\n$$\n当 $z>0$ 时，\n$$\n\\begin{aligned}\nF_Z(z) & =\\iint_{x+2 y \\leq z} f(x, y) d x d y=\\int_0^z d x \\int_0^{(z-x) / 2} 2 e^{-(x+2 y)} d y \\\\\n& =\\int_0^z e^{-x}\\left(1-e^{x-z}\\right) d x=\\int_0^z\\left(e^{-x}-e^{-z}\\right) d x \\\\\n& =\\left[-e^{-x}\\right]_0^z-z e^{-z}=1-e^{-z}-z e^{-z},\n\\end{aligned}\n$$\n故分布函数为\n$$\nF_Z(z)=\\begin{cases}\n0, & z \\leq 0 \\\\\n1-e^{-z}-z e^{-z}, & z>0\n\\end{cases}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339617
+                    },
+                    "question_json": "neu-mathe/d5f7cb19567e4393b0240aae3fd92b7f",
+                    "updated_at": {
+                        "seconds": 1767465098
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86381,
+                            "question_id": 19031,
+                            "is_answer": true,
+                            "choice": "$F_Z(z)=\\begin{cases}0, & z \\leq 0 \\\\ 1-e^{-z}-z e^{-z}, & z>0\\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86382,
+                            "question_id": 19031,
+                            "is_answer": false,
+                            "choice": "$F_Z(z)=\\begin{cases}0, & z \\leq 0 \\\\ 1+e^{-z}-z e^{-z}, & z>0\\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86383,
+                            "question_id": 19031,
+                            "is_answer": false,
+                            "choice": "$F_Z(z)=\\begin{cases}0, & z \\leq 0 \\\\ 1+e^{-z}+z e^{-z}, & z>0\\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86384,
+                            "question_id": 19031,
+                            "is_answer": false,
+                            "choice": "$F_Z(z)=\\begin{cases}0, & z \\leq 0 \\\\ 1-e^{-z}+z e^{-z}, & z>0\\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 0,
+                    "ai_tags": "二维随机变量,随机变量函数的分布,分布函数"
+                },
+                {
+                    "id": 19032,
+                    "subject_id": 3,
+                    "chapter_id": 334,
+                    "question_id": "fee78444-a7a3-4fa9-994b-8ee4af74744c",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 与 $Y$ 相互独立，其概率密度函数分别为\n$$ f_X(x)=\\begin{cases} 1, & 0 \\leq x \\leq 1 \\\\ 0, & \\text{其他} \\end{cases}, \\quad f_Y(y)=\\begin{cases} e^{-y}, & y>0 \\\\ 0, & y \\leq 0 \\end{cases} $$\n则随机变量 $Z=X+Y$ 的概率密度函数为 ( ).",
+                    "analysis": "因 $X$ 与 $Y$ 相互独立，故 $(X, Y)$ 的联合概率密度为\n$$ f(x, y)=\\begin{cases} e^{-y}, & 0 \\leq x \\leq 1, y>0 \\\\ 0, & \\text{其他} \\end{cases} $$\n$Z=X+Y$ 的概率密度函数为\n$$ f_Z(z)=\\int_{-\\infty}^{+\\infty} f(z-y, y) dy = \\begin{cases} \\int_{z-1}^z e^{-y} dy, & z \\geq 1 \\\\ \\int_0^z e^{-y} dy, & 0 \\leq z<1 \\\\ 0, & z<0 \\end{cases} = \\begin{cases} (e-1) e^{-z}, & z \\geq 1 \\\\ 1-e^{-z}, & 0 \\leq z<1 \\\\ 0, & z<0 \\end{cases} $$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339618
+                    },
+                    "question_json": "neu-mathe/ca45723699014dd3a05221c1bff43ec9",
+                    "updated_at": {
+                        "seconds": 1773945061
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86388,
+                            "question_id": 19032,
+                            "is_answer": true,
+                            "choice": "$f_Z(z)=\\begin{cases} (e-1) e^{-z}, & z \\geq 1 \\\\ 1-e^{-z}, & 0 \\leq z<1 \\\\ 0, & z<0 \\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86389,
+                            "question_id": 19032,
+                            "is_answer": false,
+                            "choice": "$f_Z(z)=\\begin{cases} (e+1) e^{-z}, & z \\geq 1 \\\\ 1+e^{-z}, & 0 \\leq z<1 \\\\ 0, & z<0 \\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86390,
+                            "question_id": 19032,
+                            "is_answer": false,
+                            "choice": "$f_Z(z)=\\begin{cases} e^{-z}, & z \\geq 1 \\\\ 1-e^{-z}, & 0 \\leq z<1 \\\\ 0, & z<0 \\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86391,
+                            "question_id": 19032,
+                            "is_answer": false,
+                            "choice": "$f_Z(z)=\\begin{cases} e^{1-z}, & z \\geq 1 \\\\ 1-e^{-z}, & 0 \\leq z<1 \\\\ 0, & z<0 \\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.57,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 51781,
+                    "ai_tags": "连续型随机变量,随机变量函数的分布,卷积公式"
+                },
+                {
+                    "id": 19034,
+                    "subject_id": 3,
+                    "chapter_id": 334,
+                    "question_id": "59ab68a8-0ad3-4ba7-b286-1e8bf441fec1",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 与 $Y$ 相互独立, $X \\sim U[-\\pi, \\pi], Y \\sim N\\left(\\mu, \\sigma^2\\right)$, 则 $Z=X+Y$ 的概率密度为 ( ).",
+                    "analysis": "因为 $X, Y$ 是相互独立的, 故\n$$\n\\begin{gathered}\nf(x, y)=f_X(x) f_Y(y)=\\left\\{\\begin{array}{c}\n\\frac{1}{2 \\pi} \\frac{1}{\\sqrt{2 \\pi} \\sigma} e^{-\\frac{(y-\\mu)^2}{2 \\sigma^2}},-\\pi \\leq x \\leq \\pi,-\\infty<y<+\\infty, \\\\\n0, \\quad \\text { 其它 }\n\\end{array}\\right. \\\\\n\\text { 而 } f(z)=\\int_{-\\infty}^{+\\infty} f(z-y, y) d y=\\frac{1}{2 \\pi} \\int_{z-\\pi}^{z+\\pi} \\frac{1}{\\sqrt{2 \\pi} \\sigma} e^{-\\frac{(y-\\mu)^2}{2 \\sigma^2}} d y=\\frac{1}{2 \\pi}\\left[\\Phi\\left(\\frac{z+\\pi-\\mu}{\\sigma}\\right)-\\Phi\\left(\\frac{z-\\pi-\\mu}{\\sigma}\\right)\\right] .\n\\end{gathered}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339637
+                    },
+                    "question_json": "neu-mathe/418eac39811341abae0932a5f23ce443",
+                    "updated_at": {
+                        "seconds": 1773945058
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86402,
+                            "question_id": 19034,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{2 \\pi}\\left[\\Phi\\left(\\frac{z+\\pi-\\mu}{\\sigma}\\right)-\\Phi\\left(\\frac{z-\\pi-\\mu}{\\sigma}\\right)\\right]$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86403,
+                            "question_id": 19034,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{\\pi}\\left[\\Phi\\left(\\frac{z+\\pi-\\mu}{\\sigma}\\right)-\\Phi\\left(\\frac{z-\\pi-\\mu}{\\sigma}\\right)\\right]$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86404,
+                            "question_id": 19034,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2 \\pi}\\left[\\Phi\\left(\\frac{z+\\mu}{\\sigma}\\right)-\\Phi\\left(\\frac{z-\\mu}{\\sigma}\\right)\\right]$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86405,
+                            "question_id": 19034,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{\\pi}\\left[\\Phi\\left(\\frac{z+\\mu}{\\sigma}\\right)-\\Phi\\left(\\frac{z-\\mu}{\\sigma}\\right)\\right]$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 171591,
+                    "ai_tags": "概率论,随机变量,概率密度,卷积公式"
+                },
+                {
+                    "id": 19036,
+                    "subject_id": 3,
+                    "chapter_id": 334,
+                    "question_id": "c54a7049-f035-4eb7-9ff9-3734802e752f",
+                    "difficulty": "Medium",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 与 $Y$ 相互独立, 其概率密度函数分别为\n$$\nf_X(x)=\\begin{cases} 1, & 0 \\leq x \\leq 1 \\\\ 0, & \\text{其它} \\end{cases}, \\quad f_Y(y)=\\begin{cases} A e^{-y}, & y>0 \\\\ 0, & y \\leq 0 \\end{cases}\n$$\n则随机变量 $Z=2 X+Y$ 的概率密度函数为 ( ).",
+                    "analysis": "$$\n1=\\int_{-\\infty}^{+\\infty} f_Y(y) d y=\\int_0^{+\\infty} A \\cdot e^{-y} d y=A\n$$\n因 $X$ 与 $Y$ 相互独立, 故 $(X, Y)$ 的联合概率密度为\n$$\nf(x, y)=\\begin{cases} e^{-y}, & 0 \\leq x \\leq 1, y>0 \\\\ 0, & \\text{其它} \\end{cases}\n$$\n于是当 $z<0$ 时, 有\n$$\nF(z)=P\\{Z \\leq z\\}=P\\{2 X+Y \\leq z\\}=0\n$$\n当 $0 \\leq z \\leq 2$ 时, 有\n$$\nF(z)=P\\{2 X+Y \\leq z\\}=\\int_0^{z / 2} d x \\int_0^{z-2 x} e^{-y} d y=\\int_0^{z / 2}\\left(1-e^{2 x-z}\\right) d x\n$$\n当 $z>2$ 时, 有\n$$\nF(z)=P\\{2 X+Y \\leq z\\}=\\int_0^1 d x \\int_0^{z-2 x} e^{-y} d y=\\int_0^1\\left(1-e^{2 x-z}\\right) d x\n$$\n利用分布函数法求得 $Z=2 X+Y$ 的概率密度函数为\n$$\nf_Z(z)=\\begin{cases} 0, & z<0 \\\\ \\frac{1-e^{-z}}{2}, & 0 \\leq z<2 \\\\ \\frac{e^2-1}{2} e^{-z}, & z \\geq 2 \\end{cases}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339638
+                    },
+                    "question_json": "neu-mathe/ba8a323b38bc453888c5973e051103e8",
+                    "updated_at": {
+                        "seconds": 1773945059
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86416,
+                            "question_id": 19036,
+                            "is_answer": false,
+                            "choice": "$f_Z(z)=\\left\\{\\begin{array}{cc}0, & z<0 \\\\ \\left(1-e^{-z}\\right) / 2, & 0 \\leq z<2 \\\\ \\left(e^2+1\\right) e^{-z} / 2, & z \\geq 2\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86417,
+                            "question_id": 19036,
+                            "is_answer": true,
+                            "choice": "$f_Z(z)=\\left\\{\\begin{array}{cc}0, & z<0 \\\\ \\left(1-e^{-z}\\right) / 2, & 0 \\leq z<2 \\\\ \\left(e^2-1\\right) e^{-z} / 2, & z \\geq 2\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86418,
+                            "question_id": 19036,
+                            "is_answer": false,
+                            "choice": "$f_Z(z)=\\left\\{\\begin{array}{cc}0, & z<0 \\\\ \\left(1+e^{-z}\\right) / 2, & 0 \\leq z<2 \\\\ \\left(e^2+1\\right) e^{-z} / 2, & z \\geq 2\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86419,
+                            "question_id": 19036,
+                            "is_answer": false,
+                            "choice": "$f_Z(z)=\\left\\{\\begin{array}{cc}0, & z<0 \\\\ \\left(1+e^{-z}\\right) / 2, & 0 \\leq z<2 \\\\ \\left(e^2-1\\right) e^{-z} / 2, & z \\geq 2\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.63,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 219545,
+                    "ai_tags": "概率密度函数,随机变量的独立性,分布函数法"
+                },
+                {
+                    "id": 19047,
+                    "subject_id": 3,
+                    "chapter_id": 334,
+                    "question_id": "45a0e500-f846-45a7-a824-2d2df594d669",
+                    "difficulty": "Medium",
+                    "answer": "2",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 与 $Y$ 相互独立, 且同服从 $[0,1]$ 上的均匀分布, 则 $Z=|X-Y|$ 的密度函数为 ( ).",
+                    "analysis_image": "/XDSys/TK/GL/106/Hard/106_Hard_45a0e500-f846-45a7-a824-2d2df594d669/106_Hard_45a0e500-f846-45a7-a824-2d2df594d669_5.webp",
+                    "analysis_image_hash": "a6cb1de78e89830e",
+                    "question_render_type": 1,
+                    "analysis_render_type": 2,
+                    "created_at": {
+                        "seconds": 1764339659
+                    },
+                    "question_json": "neu-mathe/574dbc5884ac40eea6eed54900ad17e8",
+                    "updated_at": {
+                        "seconds": 1773945061
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86493,
+                            "question_id": 19047,
+                            "is_answer": false,
+                            "choice": "$f_Z(z)=\\left\\{\\begin{array}{cc}1+2 z, & 0<z<1 \\\\ 0, & \\text { 其他 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86494,
+                            "question_id": 19047,
+                            "is_answer": true,
+                            "choice": "$f_Z(z)=\\left\\{\\begin{array}{cc}2(1-z), & 0<z<1 \\\\ 0, & \\text { 其他 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86495,
+                            "question_id": 19047,
+                            "is_answer": false,
+                            "choice": "$f_Z(z)=\\left\\{\\begin{array}{cc}2(1+z), & 0<z<1 \\\\ 0, & \\text { 其他 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 86496,
+                            "question_id": 19047,
+                            "is_answer": false,
+                            "choice": "$f_Z(z)=\\left\\{\\begin{array}{cc}1-2 z, & 0<z<1 \\\\ 0, & \\text { 其他 }\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 159822,
+                    "ai_tags": "均匀分布,随机变量函数的分布,几何概型"
+                },
+                {
+                    "id": 20442,
+                    "subject_id": 3,
+                    "chapter_id": 334,
+                    "question_id": "a93e2a4e-eb94-48e6-9014-7f795a4072f2",
+                    "difficulty": "Medium",
+                    "answer": "3",
+                    "question_type": 1,
+                    "question": "设 $(X, Y)$ 的联合分布密度为\n$$\nf(x, y)=\\frac{1}{2 \\pi} e^{-\\frac{x^2+y^2}{2}}, Z=\\sqrt{X^2+Y^2},\n$$\n\n则 $Z$ 的分布密度为 ( ).",
+                    "analysis": "$$\nF_Z(z)=P\\{Z \\leq z\\}=P\\left\\{\\sqrt{X^2+Y^2} \\leq z\\right\\} .\n$$\n\n当 $z<0$ 时, $F_Z(z)=P(\\varnothing)=0$;\n当 $z \\geq 0$ 时,\n$$\n\\begin{aligned}\nF_Z(z) & =P\\left\\{X^2+Y^2 \\leq z^2\\right\\}=\\iint_{x^2+y^2 \\leq z^2} f(x, y) d x d y \\\\\n& =\\frac{1}{2 \\pi} \\iint_{x^2+y^2 \\leq z^2} e^{-\\frac{x^2+y^2}{2}} d x d y=\\frac{1}{2 \\pi} \\int_0^{2 \\pi} d \\theta \\int_0^z e^{-\\frac{\\rho^2}{2}} \\rho d \\rho \\\\\n& =\\int_0^z e^{-\\frac{\\rho^2}{2}} \\rho d \\rho=1-e^{-\\frac{z^2}{2}}\n\\end{aligned}\n$$\n\n故 $Z$ 的分布函数为\n$$\nF_Z(z)=\\left\\{\\begin{array}{cc}\n1-e^{-\\frac{z^2}{2}}, & z \\geq 0 \\\\\n0, & z<0\n\\end{array}\\right.\n$$\n\n$Z$ 的分布密度为\n$$\nf_Z(z)=\\left\\{\\begin{array}{cc}\nz e^{-\\frac{z^2}{2}}, & z>0 \\\\\n0, & z \\leq 0\n\\end{array}\\right.\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764382195
+                    },
+                    "question_json": "neu-mathe/95a27819567a43a5a220aef12d8cf917",
+                    "updated_at": {
+                        "seconds": 1773945061
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 96258,
+                            "question_id": 20442,
+                            "is_answer": false,
+                            "choice": "$f_{\\mathrm{Z}}(z)=\\left\\{\\begin{array}{cc}z^2 e^{-\\frac{z^2}{2}}, & z>0 \\\\ 0, & z \\leq 0\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 96259,
+                            "question_id": 20442,
+                            "is_answer": false,
+                            "choice": "$f_Z(z)=\\left\\{\\begin{array}{c}1-e^{-\\frac{z^2}{2}}, \\quad z>0 \\\\ 0, \\quad z \\leq 0\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 96260,
+                            "question_id": 20442,
+                            "is_answer": true,
+                            "choice": "$f_Z(z)=\\left\\{\\begin{array}{cc}z e^{-\\frac{z^2}{2}}, & z>0 \\\\ 0, & z \\leq 0\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 96261,
+                            "question_id": 20442,
+                            "is_answer": false,
+                            "choice": "$f_Z(z)= \\begin{cases}e^{-\\frac{z^2}{2}}, & z>0 \\\\ 0, & z \\leq 0\\end{cases}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.6,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 31994,
+                    "ai_tags": "概率论,随机变量函数的分布,二维随机变量"
+                }
+            ]
+        }
+    }
+]

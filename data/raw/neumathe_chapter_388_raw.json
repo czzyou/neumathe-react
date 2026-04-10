@@ -1,0 +1,1028 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 12,
+            "questions": [
+                {
+                    "id": 13536,
+                    "subject_id": 3,
+                    "chapter_id": 388,
+                    "question_id": "a055d542-7035-462b-a8ec-54b7057382f8",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设样本 $X_1, X_2, \\cdots, X_n$ 和 $Y_1, Y_2, \\cdots, Y_n$ 分别取自正态总体 $X \\sim N\\left(\\mu_1, \\sigma^2\\right)$ 和 $Y \\sim N\\left(\\mu_2, \\sigma^2\\right)$, 且相互独立,则统计量 $\\frac{(n-1)\\left(S_1^2+S_2^2\\right)}{\\sigma^2}$ 服从 ( ).",
+                    "analysis": "由 $\\frac{(n-1) S_1^2}{\\sigma^2} \\sim \\chi^2(n-1), \\frac{(n-1) S_2^2}{\\sigma^2} \\sim \\chi^2(n-1)$, 及 $\\chi^2$ 分布的可加性, 有 $\\frac{(n-1)\\left(S_1^2+S_2^2\\right)}{\\sigma^2} \\sim \\chi^2(2(n-1))$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/1e82a9c694e340ad8797317d232d0067",
+                    "updated_at": {
+                        "seconds": 1767724273
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54141,
+                            "question_id": 13536,
+                            "is_answer": true,
+                            "choice": "$\\chi^2(2(n-1))$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54142,
+                            "question_id": 13536,
+                            "is_answer": false,
+                            "choice": "$\\chi^2(2 n-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54143,
+                            "question_id": 13536,
+                            "is_answer": false,
+                            "choice": "$\\chi^2(2 n)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080689
+                            },
+                            "updated_at": {
+                                "seconds": 1735080689
+                            }
+                        },
+                        {
+                            "id": 54144,
+                            "question_id": 13536,
+                            "is_answer": false,
+                            "choice": "$\\chi(2(n-1))$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.89,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 16050,
+                    "ai_tags": "数理统计,抽样分布,卡方分布"
+                },
+                {
+                    "id": 13537,
+                    "subject_id": 3,
+                    "chapter_id": 388,
+                    "question_id": "3b8dd43b-25d7-4e77-9d03-451cd809b3e6",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, \\cdots, X_{16}$ 及 $Y_1, Y_2, \\cdots, Y_{25}$ 分别是两个独立总体 $N(0,16)$ 和 $N(1,9)$ 的样本, 以 $\\bar{X}$ 和 $\\bar{Y}$ 分别表示两个样本均值, 则 $P\\{|\\bar{X}-\\bar{Y}|>1\\}$ 为 ()$.(\\sqrt{34} \\approx 5.830, \\Phi(1.715)=0.9569)$",
+                    "analysis": "$\\begin{gathered}\\bar{X} \\sim N\\left(0, \\frac{16}{16}\\right), \\bar{Y} \\sim N\\left(1, \\frac{9}{25}\\right), \\bar{X}-\\bar{Y} \\sim N\\left(-1,1+\\frac{9}{25}\\right), \\text { 即 } \\bar{X}-\\bar{Y} \\sim N\\left(-1, \\frac{34}{25}\\right) . \\text { 所以 } \\\\ P\\{|\\bar{X}-\\bar{Y}|>1\\}=1-P\\{|\\bar{X}-\\bar{Y}| \\leq 1\\}=1-P\\left\\{0 \\leq \\frac{\\bar{X}-\\bar{Y}+1}{\\sqrt{34} / 5} \\leq \\frac{2}{\\sqrt{34} / 5}\\right\\} \\\\ \\approx 1-\\Phi(1.715)+\\Phi(0)=1-0.9569+0.5=0.5431 .\\end{gathered}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/3eb3596e2f7b42699f247282d2302bec",
+                    "updated_at": {
+                        "seconds": 1767465100
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54145,
+                            "question_id": 13537,
+                            "is_answer": true,
+                            "choice": "$0.5431$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54148,
+                            "question_id": 13537,
+                            "is_answer": false,
+                            "choice": "$0.5527$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54147,
+                            "question_id": 13537,
+                            "is_answer": false,
+                            "choice": "$0.7234$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54146,
+                            "question_id": 13537,
+                            "is_answer": false,
+                            "choice": "$0.4353$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.67,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 130174,
+                    "ai_tags": "正态总体,样本均值,抽样分布"
+                },
+                {
+                    "id": 13538,
+                    "subject_id": 3,
+                    "chapter_id": 388,
+                    "question_id": "8891a4d3-f32d-44d1-8a0b-85a9c49f7f18",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, \\cdots, X_8$ 和 $Y_1, Y_2, \\cdots, Y_{10}$ 分别来自两个正态总体 $N(-1,4)$ 和 $N(2,25)$ 的样本且相互独立, $S_1^2$ 和 $S_2^2$ 分别为两个样本的样本方差, 则服从 $F(7,9)$ 的统计量是 () .",
+                    "analysis": "由 $F$ 分布的定义 $F=\\frac{S_1^2 / \\sigma_1^2}{S_2^2 / \\sigma_2^2}=\\frac{\\sigma_2^2 S_1^2}{\\sigma_1^2 S_2^2}=\\frac{25 S_1^2}{4 S_2^2} \\sim F(7,9)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/ab4c5a7199c742d8aeb1976a79c2ad26",
+                    "updated_at": {
+                        "seconds": 1767724273
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54152,
+                            "question_id": 13538,
+                            "is_answer": true,
+                            "choice": "$\\frac{25 S_1^2}{4 S_2^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54151,
+                            "question_id": 13538,
+                            "is_answer": false,
+                            "choice": "$\\frac{2 S_1^2}{5 S_2^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54149,
+                            "question_id": 13538,
+                            "is_answer": false,
+                            "choice": "$\\frac{5 S_1^2}{2 S_2^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54150,
+                            "question_id": 13538,
+                            "is_answer": false,
+                            "choice": "$\\frac{4 S_1^2}{25 S_2^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.86,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 50880,
+                    "ai_tags": "抽样分布,F分布,正态总体"
+                },
+                {
+                    "id": 13542,
+                    "subject_id": 3,
+                    "chapter_id": 388,
+                    "question_id": "dce8d182-618b-48ae-8788-d15e9f235d64",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, \\cdots, X_n$ 和 $Y_1, Y_2, \\cdots, Y_n$ 分别取自正态总体 $X \\sim N\\left(\\mu_1, \\sigma^2\\right)$ 和 $Y \\sim N\\left(\\mu_2, \\sigma^2\\right)$ 且相互独立, 则统计量 $\\frac{n\\left[(\\bar{X}-\\bar{Y})-\\left(\\mu_1-\\mu_2\\right)\\right]^2}{S_1^2+S_2^2}$ 服从（）。",
+                    "analysis": "$\\bar{X}-\\bar{Y} \\sim N\\left(\\mu_1-\\mu_2, \\frac{2 \\sigma^2}{n}\\right)$, 标准化后 $\\frac{(\\bar{X}-\\bar{Y})-\\left(\\mu_1-\\mu_2\\right)}{\\sigma \\sqrt{\\frac{2}{n}}} \\sim N(0,1)$, 故 $\\frac{\\left[(\\bar{X}-\\bar{Y})-\\left(\\mu_1-\\mu_2\\right)\\right]^2}{\\frac{2 \\sigma^2}{n}} \\sim \\chi^2(1)$.\n又由 $\\frac{(n-1)\\left(S_1^2+S_2^2\\right)}{\\sigma^2} \\sim \\chi^2(2 n-2), \\bar{X}-\\bar{Y}$ 与 $S_1^2+S_2^2$ 相互独立, 及 $F$ 分布的定义可知,\n$$\n\\frac{\\frac{\\left[(\\bar{X}-\\bar{Y})-\\left(\\mu_1-\\mu_2\\right)\\right]^2}{\\frac{2 \\sigma^2}{n}} / 1}{\\frac{(n-1)\\left(S_1^2+S_2^2\\right)}{\\sigma^2} / 2(n-1)}=\\frac{n\\left[(\\bar{X}-\\bar{Y})-\\left(\\mu_1-\\mu_2\\right)\\right]^2}{S_1^2+S_2^2} \\sim F(1,2 n-2)\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/bf4b46b292784cafa1080bfba8ec3395",
+                    "updated_at": {
+                        "seconds": 1767637879
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54165,
+                            "question_id": 13542,
+                            "is_answer": true,
+                            "choice": "$F(1,2 n-2)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54167,
+                            "question_id": 13542,
+                            "is_answer": false,
+                            "choice": "$F(2,2 n-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54166,
+                            "question_id": 13542,
+                            "is_answer": false,
+                            "choice": "$F(1,2 n)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54168,
+                            "question_id": 13542,
+                            "is_answer": false,
+                            "choice": "$F(1,2 n-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.78,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 50887,
+                    "ai_tags": "抽样分布,F分布,正态总体"
+                },
+                {
+                    "id": 13547,
+                    "subject_id": 3,
+                    "chapter_id": 388,
+                    "question_id": "afa3d500-2e28-481e-bb73-b68d80738e07",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, \\cdots, X_8$ 和 $Y_1, Y_2, \\cdots, Y_{10}$ 分别来自两个正态总体 $N(-1,4)$ 和 $N(2,25)$ 的样本且相互独立， $S_1^2$ 和 $S_2^2$ 分别为两个样本的样本方差, 则服从 $F(7,9)$ 的统计量是 ( ).",
+                    "analysis": "由 $F$ 分布的定义 $F=\\frac{S_1^2 / \\sigma_1^2}{S_2^2 / \\sigma_2^2}=\\frac{\\sigma_2^2 S_1^2}{\\sigma_1^2 S_2^2}=\\frac{25 S_1^2}{4 S_2^2} \\sim F(7,9)$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/595f727189884dfda0788a03d8255b15",
+                    "updated_at": {
+                        "seconds": 1767551638
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54185,
+                            "question_id": 13547,
+                            "is_answer": true,
+                            "choice": "$\\frac{25 S_1^2}{4 S_2^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54186,
+                            "question_id": 13547,
+                            "is_answer": false,
+                            "choice": "$\\frac{2 S_1^2}{5 S_2^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54188,
+                            "question_id": 13547,
+                            "is_answer": false,
+                            "choice": "$\\frac{5 S_1^2}{2 S_2^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 54187,
+                            "question_id": 13547,
+                            "is_answer": false,
+                            "choice": "$\\frac{4 S_1^2}{25 S_2^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.75,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 19254,
+                    "ai_tags": "F分布,正态总体,抽样分布"
+                },
+                {
+                    "id": 19033,
+                    "subject_id": 3,
+                    "chapter_id": 388,
+                    "question_id": "5a1dec84-6c0f-41d5-b254-0a4368b42331",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "从方差分别为 20 和 35 的两个独立的正态总体中抽取容量为 8 和 10 的两个样本, 则第一个样本方差不小于第二个样本方差两倍的概率满足 ( ). ($F_{0.05}(7,9)=3.29, F_{0.025}(7,9)=4.20$)",
+                    "analysis": "用 $S_1^2$ 和 $S_2^2$ 分别表示两个样本方差, 由定理知\n$$\nF=\\frac{S_1^2 / \\sigma_1^2}{S_2^2 / \\sigma_2^2}=\\frac{S_1^2 / 20}{S_2^2 / 35}=1.75 \\frac{S_1^2}{S_2^2} \\sim F(8-1,10-1)=F(7,9)\n$$\n\n于是,\n$$\nP\\left\\{S_1^2 \\geq 2 S_2^2\\right\\}=P\\left\\{\\frac{S_1^2}{S_2^2} \\geq 2\\right\\}=P\\left\\{\\frac{S_1^2 / 20}{S_2^2 / 35} \\geq 2 \\times \\frac{35}{20}\\right\\}=P\\{F \\geq 3.5\\}\n$$\n\n因 $F_{0.05}(7,9)=3.29<3.5<F_{0.025}(7,9)=4.20$, 故 $0.025 \\leq P\\left\\{S_1^2 \\geq 2 S_2^2\\right\\} \\leq 0.05$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339634
+                    },
+                    "question_json": "neu-mathe/8ac2afc3401e420d97f9d829349b3b05",
+                    "updated_at": {
+                        "seconds": 1767551641
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86395,
+                            "question_id": 19033,
+                            "is_answer": true,
+                            "choice": "$0.025 \\leq P\\left\\{S_1^2 \\geq 2 S_2^2\\right\\} \\leq 0.05$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86396,
+                            "question_id": 19033,
+                            "is_answer": false,
+                            "choice": "$0.025 \\leq P\\left\\{S_1^2 \\geq 2 S_2^2\\right\\} \\leq 0.06$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86397,
+                            "question_id": 19033,
+                            "is_answer": false,
+                            "choice": "$0.015 \\leq P\\left\\{S_1^2 \\geq 2 S_2^2\\right\\} \\leq 0.05$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86398,
+                            "question_id": 19033,
+                            "is_answer": false,
+                            "choice": "$0.025 \\leq P\\left\\{S_1^2 \\geq 2 S_2^2\\right\\} \\leq 0.04$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 48639,
+                    "ai_tags": "正态总体,F分布,抽样分布"
+                },
+                {
+                    "id": 19035,
+                    "subject_id": 3,
+                    "chapter_id": 388,
+                    "question_id": "baede4c8-7e55-4e36-afc3-6a6ee6ff9e95",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X \\sim N(20,3)$, 从 $X$ 中抽取两个相互独立的样本 $X_1, X_2, \\cdots, X_{10}$ 和 $Y_1, Y_2, \\cdots, Y_{15}$, 则概率 $P\\{|\\bar{X}-\\bar{Y}|>0.3\\}$ 为 ( ). $(\\sqrt{0.5} \\approx 0.7, \\Phi(0.4286) \\approx 0.6660)$",
+                    "analysis": "因为 $X_1, X_2, \\cdots, X_{10}$ 和 $Y_1, Y_2, \\cdots, Y_{15}$ 独立同分布, 所以 $\\bar{X} \\sim N(20,0.3), \\bar{Y} \\sim N(20,0.2), \\bar{X}-\\bar{Y} \\sim N(0,0.5)$.\n$$\nP\\{|\\bar{X}-\\bar{Y}|>0.3\\}=P\\{|\\bar{X}-\\bar{Y}| / \\sqrt{0.5}>0.3 / \\sqrt{0.5}\\}=2[1-\\Phi(0.3 / 0.7)]=2[1-0.6660]=0.6680 .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339638
+                    },
+                    "question_json": "neu-mathe/28f3505cea9a4870b32429fa2d8a1eb4",
+                    "updated_at": {
+                        "seconds": 1767637893
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86409,
+                            "question_id": 19035,
+                            "is_answer": true,
+                            "choice": "$0.6680$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86410,
+                            "question_id": 19035,
+                            "is_answer": false,
+                            "choice": "$0.6533$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86411,
+                            "question_id": 19035,
+                            "is_answer": false,
+                            "choice": "$0.6727$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86412,
+                            "question_id": 19035,
+                            "is_answer": false,
+                            "choice": "$0.7832$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 182063,
+                    "ai_tags": "正态总体,抽样分布,概率计算"
+                },
+                {
+                    "id": 19040,
+                    "subject_id": 3,
+                    "chapter_id": 388,
+                    "question_id": "0f110842-1d29-4ed7-b397-495635bbad36",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $X_1, X_2, \\cdots, X_{25}$ 是来自正态总体 $N(0,16)$ 的样本, $Y_1, Y_2, \\cdots, Y_{25}$ 是来自正态总体 $N(1,9)$ 的样本,且 2 组样本独立, 2 组样本的均值分别记为 $\\bar{X}, \\bar{Y}$, 则 $P\\{\\bar{X}>\\bar{Y}\\}=(\\quad) . \\Phi(1)=0.8413$.",
+                    "analysis": "依题意有\n$$\n\\frac{(\\bar{X}-\\bar{Y})-(0-1)}{\\sqrt{16 / 25+9 / 25}}=(\\bar{X}-\\bar{Y})+1 \\sim N(0,1),\n$$\n\n于是\n$$\nP\\{\\bar{X}>\\bar{Y}\\}=P\\{\\bar{X}-\\bar{Y}>0\\}=1-\\Phi\\left(\\frac{0-(-1)}{1}\\right)=1-\\Phi(1)=1-0.8413=0.1587 .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339649
+                    },
+                    "question_json": "neu-mathe/d196249d5bcf41b0abed70c9b5b423c7",
+                    "updated_at": {
+                        "seconds": 1767551640
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86444,
+                            "question_id": 19040,
+                            "is_answer": true,
+                            "choice": "$0.1587$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86445,
+                            "question_id": 19040,
+                            "is_answer": false,
+                            "choice": "$0.8413$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86446,
+                            "question_id": 19040,
+                            "is_answer": false,
+                            "choice": "$0.9772$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86447,
+                            "question_id": 19040,
+                            "is_answer": false,
+                            "choice": "$0.9332$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 40001,
+                    "ai_tags": "正态总体,样本均值,正态分布"
+                },
+                {
+                    "id": 19041,
+                    "subject_id": 3,
+                    "chapter_id": 388,
+                    "question_id": "7d4b8c01-08f2-43f6-b31e-2cf6a174bdfb",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $\\left(X_1, \\cdots, X_n\\right)$ 及 $\\left(Y_1, \\cdots, Y_m\\right)$ 分别取自两个相互独立的正态总体 $N\\left(\\mu_1, \\sigma^2\\right)$ 及 $N\\left(\\mu_2, \\sigma^2\\right)$ 的两个样本, 其样本 (无偏)方差分别为 $S_1^2$ 及 $S_2^2$, 则统计量 $F=\\frac{S_1^2}{S_2^2}$ 所服从分布的自由度为 ().",
+                    "analysis": "双正态总体的抽样分布有\n1. $U=\\frac{(\\bar{X}-\\bar{Y})-\\left(\\mu_1-\\mu_2\\right)}{\\sqrt{\\sigma_1^2 / n_1+\\sigma_2^2 / n_2}} \\sim N(0,1)$;\n2. $F=\\left(\\frac{\\sigma_2}{\\sigma_1}\\right)^2 \\frac{S_1^2}{S_2^2} \\sim F\\left(n_1-1, n_2-1\\right)$;\n3. 当 $\\sigma_1^2=\\sigma_2^2=\\sigma^2$ 时, $T=\\frac{(\\bar{X}-\\bar{Y})-\\left(\\mu_1-\\mu_2\\right)}{S_w \\sqrt{1 / n_1+1 / n_2}} \\sim t\\left(n_1+n_2-2\\right)$, 其中 $S_w^2=\\frac{n_1-1}{n_1+n_2-2} S_1^2+\\frac{n_2-1}{n_1+n_2-2} S_2^2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339650
+                    },
+                    "question_json": "neu-mathe/7eddcaf4709647fe9340a94a78568aa8",
+                    "updated_at": {
+                        "seconds": 1767637893
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86451,
+                            "question_id": 19041,
+                            "is_answer": true,
+                            "choice": "$(n-1, m-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86452,
+                            "question_id": 19041,
+                            "is_answer": false,
+                            "choice": "$(n, m)$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86453,
+                            "question_id": 19041,
+                            "is_answer": false,
+                            "choice": "$(n+1, m+1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86454,
+                            "question_id": 19041,
+                            "is_answer": false,
+                            "choice": "$(m-1, n-1)$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.63,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 12065,
+                    "ai_tags": "F分布,正态总体,抽样分布"
+                },
+                {
+                    "id": 19044,
+                    "subject_id": 3,
+                    "chapter_id": 388,
+                    "question_id": "9e157e90-84de-4172-aada-9ed0776ceba8",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $(X_1, \\cdots, X_m)$ 和 $(Y_1, \\cdots, Y_n)$ 分别取自两个相互独立的正态总体 $N(\\mu_1, \\sigma_1^2)$ 及 $N(\\mu_2, \\sigma_2^2)$, 则服从 $F(m-1, n-1)$ 的统计量是 (    ).\n$$\n\\begin{aligned}\n& \\bar{X}=\\frac{1}{m} \\sum_{i=1}^m X_i, \\quad \\bar{Y}=\\frac{1}{n} \\sum_{i=1}^n Y_i, \\quad S_1^2=\\frac{1}{m-1} \\sum_{i=1}^m(X_i-\\bar{X})^2, \\quad S_2^2=\\frac{1}{n-1} \\sum_{i=1}^n(Y_i-\\bar{Y})^2, \\\\\n& S_3^2=\\frac{1}{m} \\sum_{i=1}^m(X_i-\\mu_1)^2, \\quad S_4^2=\\frac{1}{n} \\sum_{i=1}^n(Y_i-\\mu_2)^2, \\quad S_w=\\sqrt{\\frac{(m-1) S_1^2+(n-1) S_2^2}{m+n-2}}\n\\end{aligned}\n$$",
+                    "analysis": "双正态总体的抽样分布如下：\n1. $U=\\frac{(\\bar{X}-\\bar{Y})-(\\mu_1-\\mu_2)}{\\sqrt{\\sigma_1^2 / n_1+\\sigma_2^2 / n_2}} \\sim N(0,1)$;\n2. $F=\\left(\\frac{\\sigma_2}{\\sigma_1}\\right)^2 \\frac{S_1^2}{S_2^2} \\sim F(n_1-1, n_2-1)$;\n3. 当 $\\sigma_1^2=\\sigma_2^2=\\sigma^2$ 时, $T=\\frac{(\\bar{X}-\\bar{Y})-(\\mu_1-\\mu_2)}{S_w \\sqrt{1 / n_1+1 / n_2}} \\sim t(n_1+n_2-2)$,\n\n其中 $S_w^2=\\frac{n_1-1}{n_1+n_2-2} S_1^2+\\frac{n_2-1}{n_1+n_2-2} S_2^2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339658
+                    },
+                    "question_json": "neu-mathe/a86f906fe7f84eaabb7e9ee64cd3711c",
+                    "updated_at": {
+                        "seconds": 1767637890
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86472,
+                            "question_id": 19044,
+                            "is_answer": true,
+                            "choice": "$\\mu_1$ 及 $\\mu_2$ 未知, $F=\\frac{S_1^2 \\sigma_2^2}{S_2^2 \\sigma_1^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86473,
+                            "question_id": 19044,
+                            "is_answer": false,
+                            "choice": "$\\mu_1$ 及 $\\mu_2$ 已知, $F=\\frac{S_3^2}{S_4^2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86474,
+                            "question_id": 19044,
+                            "is_answer": false,
+                            "choice": "$\\sigma_1^2$ 及 $\\sigma_2^2$ 已知, $U=\\frac{\\bar{X}-\\bar{Y}}{\\sqrt{\\sigma_1^2 / m+\\sigma_2^2 / n}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86475,
+                            "question_id": 19044,
+                            "is_answer": false,
+                            "choice": "$\\sigma_1^2$ 及 $\\sigma_2^2$ 未知, $T=\\frac{\\bar{X}-\\bar{Y}}{S_w \\sqrt{\\frac{1}{m}+\\frac{1}{n}}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.71,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 30960,
+                    "ai_tags": "数理统计,抽样分布,F分布"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 12,
+            "questions": [
+                {
+                    "id": 19050,
+                    "subject_id": 3,
+                    "chapter_id": 388,
+                    "question_id": "89814e80-e579-43a6-bffc-193ee6e173f3",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 具有方差 $\\sigma_1^2=400$, 总体 $Y$ 具有方差 $\\sigma_2^2=900$, 两总体的均值相等. 分别自这两个总体取容量为 400 的样本,设两样本独立, 样本均值分别记为 $\\bar{X}, \\bar{Y}$, 试利用切比雪夫不等式估计 $k=()$, 使得 $P\\{|\\bar{X}-\\bar{Y}|<k\\} \\geq 0.99$.",
+                    "analysis": "由题设\n$$\n\\begin{aligned}\n& E(\\bar{X}-\\bar{Y})=E(\\bar{X})-E(\\bar{Y})=0, \\\\\n& D(\\bar{X}-\\bar{Y})=D(\\bar{X})+D(\\bar{Y})=\\frac{400}{400}+\\frac{900}{400}=\\frac{13}{4} \\quad (\\text{由两样本的独立性}).\n\\end{aligned}\n$$\n由切比雪夫不等式有\n$$\nP\\{|\\bar{X}-\\bar{Y}|<k\\} \\geq 1-\\frac{1}{k^2} \\times \\frac{13}{4},\n$$\n按题意应有 $1-\\frac{1}{k^2} \\times \\frac{13}{4}=0.99$, 解得 $k=18.028$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339669
+                    },
+                    "question_json": "neu-mathe/6ce5cbeb448a4400aeace5a456f62dc4",
+                    "updated_at": {
+                        "seconds": 1767724270
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86514,
+                            "question_id": 19050,
+                            "is_answer": true,
+                            "choice": "$18.028$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86515,
+                            "question_id": 19050,
+                            "is_answer": false,
+                            "choice": "$15.432$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86516,
+                            "question_id": 19050,
+                            "is_answer": false,
+                            "choice": "$11.532$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 86517,
+                            "question_id": 19050,
+                            "is_answer": false,
+                            "choice": "$19.345$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 116714,
+                    "ai_tags": "切比雪夫不等式,样本均值,方差"
+                },
+                {
+                    "id": 20439,
+                    "subject_id": 3,
+                    "chapter_id": 388,
+                    "question_id": "192f3c2f-c129-404c-a2d5-54d1f0475a04",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设总体 $X$ 和 $Y$ 相互独立且都服从正态分布 $N(30,3^2)$; $X_1, \\cdots, X_{19}$ 和 $Y_1, \\cdots, Y_{25}$ 是分别来自总体 $X$ 和 $Y$ 的样本, $\\bar{X}, \\bar{Y}, S_1^2$ 和 $S_2^2$ 分别是这两个样本的样本均值和样本方差, 则 $P\\{S_1^2 / S_2^2 \\leq 0.4\\}$ 等于 ( ). ($F_{0.025}(24,18)=2.50$)",
+                    "analysis": "因 $\\sigma_1=\\sigma_2=3$, 由定理 6.4 知, $S_1^2 / S_2^2 \\sim F(19-1,25-1)$, 即 $S_1^2 / S_2^2 \\sim F(18,24)$. 由 $F$ 分布的性质知 $S_2^2 / S_1^2 \\sim F(24,18)$, 于是\n$$\nP\\left\\{S_1^2 / S_2^2 \\leq 0.4\\right\\}=P\\left\\{S_2^2 / S_1^2 \\geq 2.5\\right\\}=P\\{F(24,18)>2.5\\}=0.025 .\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764382191
+                    },
+                    "question_json": "neu-mathe/73e4a51a60ad470c89aeae87e53889cf",
+                    "updated_at": {
+                        "seconds": 1767637881
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 96237,
+                            "question_id": 20439,
+                            "is_answer": true,
+                            "choice": "$0.025$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 96238,
+                            "question_id": 20439,
+                            "is_answer": false,
+                            "choice": "$0.011$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 96239,
+                            "question_id": 20439,
+                            "is_answer": false,
+                            "choice": "$0.075$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        },
+                        {
+                            "id": 96240,
+                            "question_id": 20439,
+                            "is_answer": false,
+                            "choice": "$0.05$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080690
+                            },
+                            "updated_at": {
+                                "seconds": 1735080690
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 45791,
+                    "ai_tags": "正态总体,抽样分布,F分布"
+                }
+            ]
+        }
+    }
+]

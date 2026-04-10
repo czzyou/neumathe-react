@@ -1,0 +1,6 @@
+﻿howQuestionProgress})})),Qle=()=>`${window.location.protocol}//api.neumathe.cn`,WD=Qle(),Zle={USE_TIME_EXCEEDED:"USE_TIME_EXCEEDED"};function HD(e){var n;if(!zn
+e(n),i=ok(e[n]);t[n]=i,r!==n&&(t[r]=i)}),t}return e}const uc=zn.create({baseURL:WD,timeout:6e4});uc.interceptors.request.use(async e=>{const t=localStorage.getI
+1;const a=new AbortController;return(async()=>{var s;try{const o=await fetch(`${WD}/ai/messages:sendStream`,{method:"POST",headers:{"Content-Type":"application/
+|unicode|units|v|vector|vert|word|writing|x(?!C))[A-Z]/,VDe=typeof document<"u",WDe=function(e){return(typeof Symbol<"u"&&typeof Symbol()=="symbol"?/fil|che|rad
+ondoubleclick/i.test(a)?a="ondblclick":/^onchange(textarea|input)/i.test(a+t)&&!WDe(n.type)?a="oninput":/^onfocus$/i.test(a)?a="onfocusin":/^onblur$/i.test(a)?a
+---TOTAL WD occurrences: 5

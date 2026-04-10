@@ -1,0 +1,2139 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 25,
+            "questions": [
+                {
+                    "id": 13623,
+                    "subject_id": 3,
+                    "chapter_id": 278,
+                    "question_id": "15871d3e-622c-4276-ac4d-a25b974c913b",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "甲乙两人独立地向目标射击一次，他们的命中率分别是 0.75 及 0.6 ，现已知目标被命中，则它是甲和乙共同射中的概率是 ( ).",
+                    "analysis": "设事件 $A=\\{$ 甲击中目标 $\\}$, 事件 $B=\\{$ 乙击中目标 $\\}$, 则题目中要求的概率可以表示为 $P(A B \\mid A \\cup B)$.\n由于 $A B \\subset A \\cup B$, 所以 $(A B) \\cap(A \\cup B)=A B$,\n则由独立性及概率的性质可知\n$$\n\\begin{gathered}\nP(A B \\mid A \\cup B)=\\frac{P(A B)}{P(A \\cup B)}=\\frac{P(A) P(B)}{P(A)+P(B)-P(A) P(B)} \\\\\n=\\frac{0.75 \\cdot 0.6}{0.75+0.6-0.75 \\cdot 0.6}=0.5 .\n\\end{gathered}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/e4eb83f4c89f42a7905ec494a32808ce",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54492,
+                            "question_id": 13623,
+                            "is_answer": true,
+                            "choice": "$0.5$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54490,
+                            "question_id": 13623,
+                            "is_answer": false,
+                            "choice": "$0.4$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54489,
+                            "question_id": 13623,
+                            "is_answer": false,
+                            "choice": "$0.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54491,
+                            "question_id": 13623,
+                            "is_answer": false,
+                            "choice": "$0.7$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.9,
+                    "difficulty_score": 0.23,
+                    "avg_time_spent": 271313,
+                    "tags": "",
+                    "ai_tags": "条件概率,相互独立事件"
+                },
+                {
+                    "id": 13625,
+                    "subject_id": 3,
+                    "chapter_id": 278,
+                    "question_id": "43495533-2ef5-4bda-886e-d22444c3d982",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设某光学仪器厂制造的透镜, 第一次落下时打破的概率为 $1 / 2$, 若第一次落下未打破, 第二次落下打破的概率为 $7 / 10$ ，若前两次落下未打破，第三次落下打破的概率为 $9 / 10$ ，则透镜落下三次而未打破的概率为（）。",
+                    "analysis": "以 $A_i(i=1,2,3)$ 表示事件 \"透镜第 $i$ 次落下打破\"，以 $B$ 表示事件 \"透镜落下三次而未打破\" . 因为 $B=\\overline{A_1} \\overline{A_2} \\overline{A_3}$, 故有\n$$\n\\begin{aligned}\nP(B) & =P\\left(\\overline{A_1} \\overline{A_2} \\overline{A_3}\\right)=P\\left(\\overline{A_1}\\right) P\\left(\\overline{A_2} \\mid \\overline{A_1}\\right) P\\left(\\overline{A_3} \\mid \\overline{A_1} \\overline{A_2}\\right) \\\\\n& =\\left(1-\\frac{1}{2}\\right)\\left(1-\\frac{7}{10}\\right)\\left(1-\\frac{9}{10}\\right)=\\frac{3}{200}\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/f71ed6add1e1462abb392676684ee6ca",
+                    "updated_at": {
+                        "seconds": 1775673114
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54500,
+                            "question_id": 13625,
+                            "is_answer": true,
+                            "choice": "$\\frac{3}{200}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54499,
+                            "question_id": 13625,
+                            "is_answer": false,
+                            "choice": "$\\frac{9}{200}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54497,
+                            "question_id": 13625,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{100}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54498,
+                            "question_id": 13625,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{200}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.92,
+                    "difficulty_score": 0.21,
+                    "avg_time_spent": 96313,
+                    "ai_tags": "概率乘法公式,条件概率"
+                },
+                {
+                    "id": 13627,
+                    "subject_id": 3,
+                    "chapter_id": 278,
+                    "question_id": "bf35d48a-bcf2-437b-b81d-9a2e99a39bb4",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "甲、乙 2 人独立地对同一目标各射击 1 次，其命中率分别为 0.6 与 0.5 . 现已知目标被命中，则它是甲射中的概率是 ( ).",
+                    "analysis": "今 $C=\\{$ 目标已射中 $\\}, A=\\{$ 甲射中 $\\}, B=\\{$ 乙射中 $\\}$.\n则 $P(A)=0.6, P(B)=0.5, P(A B)=P(A) P(B)=0.6 \\times 0.5=0.3$.\n所以 $P(C)=P(A \\cup B)=P(A)+P(B)-P(A B)=0.8$,\n则 $P(A \\mid C)=\\frac{P(A C)}{P(C)}=\\frac{P(A)}{P(C)}=\\frac{0.6}{0.8}=\\frac{3}{4}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/4a55346c48e64416ac7a2b2a46e06181",
+                    "updated_at": {
+                        "seconds": 1775673110
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54506,
+                            "question_id": 13627,
+                            "is_answer": true,
+                            "choice": "$\\frac{3}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54508,
+                            "question_id": 13627,
+                            "is_answer": false,
+                            "choice": "$0.6$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54507,
+                            "question_id": 13627,
+                            "is_answer": false,
+                            "choice": "$\\frac{5}{11}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54505,
+                            "question_id": 13627,
+                            "is_answer": false,
+                            "choice": "$\\frac{6}{11}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.8,
+                    "difficulty_score": 0.3,
+                    "avg_time_spent": 220684,
+                    "tags": "近期易错,近期67人做错",
+                    "ai_tags": "条件概率,独立性"
+                },
+                {
+                    "id": 13628,
+                    "subject_id": 3,
+                    "chapter_id": 278,
+                    "question_id": "0ef90462-5d77-4acb-8183-88e9fbaa5e98",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一袋中装 10 个球，其中 3 个黑球、 7 个白球，先后两次从中随意各取一球 (不放回)，则两次取到的均为黑球的概率为 ( ).",
+                    "analysis": "设 $A_i$ 表示事件 \"第 $i$ 次取到的是黑球\" $(i=1,2)$, 则 $A_1 \\cap A_2$ 表示事件 \"两次取到的均为黑球\". 由题设知\n$$\nP\\left(A_1\\right)=\\frac{3}{10}, \\quad P\\left(A_2 \\mid A_1\\right)=\\frac{2}{9}\n$$\n\n于是根据乘法公式, 有\n$$\nP\\left(A_1 \\cap A_2\\right)=P\\left(A_1\\right) P\\left(A_2 \\mid A_1\\right)=\\frac{3}{10} \\times \\frac{2}{9}=\\frac{1}{15}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/dd6105101ef648cab41096106e2dbe46",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54512,
+                            "question_id": 13628,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{15}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54509,
+                            "question_id": 13628,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54510,
+                            "question_id": 13628,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54511,
+                            "question_id": 13628,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.95,
+                    "difficulty_score": 0.22,
+                    "avg_time_spent": 369008,
+                    "ai_tags": "古典概型,乘法公式"
+                },
+                {
+                    "id": 13634,
+                    "subject_id": 3,
+                    "chapter_id": 278,
+                    "question_id": "448346e9-0464-4079-961f-6fe94fff0a42",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设在 10 个同一型号的元件中有 7 个一等品, 从这些元件中不放回地连续取 2 次, 每次取 1 个元件. 若第 1 次取得一等品时, 第 2 次取得一等品的概率是 ().",
+                    "analysis": "设 $A=\\{$ 第一次取到一等品 $\\}, B=\\{$ 第二次取到一等品 $\\}$,则 $P(B \\mid A)=\\frac{7-1}{10-1}=\\frac{6}{9}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/ac5206808cda451c827e5c5941e6447a",
+                    "updated_at": {
+                        "seconds": 1775673114
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54536,
+                            "question_id": 13634,
+                            "is_answer": true,
+                            "choice": "$\\frac{6}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54533,
+                            "question_id": 13634,
+                            "is_answer": false,
+                            "choice": "$\\frac{7}{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54534,
+                            "question_id": 13634,
+                            "is_answer": false,
+                            "choice": "$\\frac{6}{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54535,
+                            "question_id": 13634,
+                            "is_answer": false,
+                            "choice": "$\\frac{7}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.91,
+                    "difficulty_score": 0.22,
+                    "avg_time_spent": 340924,
+                    "ai_tags": "概率论,条件概率,不放回抽样"
+                },
+                {
+                    "id": 13637,
+                    "subject_id": 3,
+                    "chapter_id": 278,
+                    "question_id": "793bb605-7ced-4a9a-b0bb-684659fdfb13",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "从一副扑克牌中连抽两张，则（1）两张牌均为红色的概率是（）；（2）第1张牌为红色、第 2 张牌为黑色的概率是 ( ).",
+                    "analysis": "(1) 令 $A=\\{$ 第 1 张牌为红色 $\\}, B=\\{$ 第 2 张牌为红色 $\\}$, 所求的概率为\n$$\nP(A B)=P(A) P(B \\mid A)=\\frac{26}{52} \\times \\frac{25}{51}=\\frac{25}{102} .\n$$\n(2) 令 $A=\\{$ 第 1 张牌为红色 $\\}, B=\\{$ 第 2 张牌为黑色 $\\}$, 所求概率为 $P(A B)=P(A) P(B \\mid A)=\\frac{26}{52} \\times \\frac{26}{51}=\\frac{26}{102}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/7118127509be4e89bd3ba3aaa8f6d422",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 54545,
+                            "question_id": 13637,
+                            "is_answer": true,
+                            "choice": "$\\frac{25}{102}, \\frac{26}{102}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54546,
+                            "question_id": 13637,
+                            "is_answer": false,
+                            "choice": "$\\frac{26}{102}, \\frac{26}{102}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54548,
+                            "question_id": 13637,
+                            "is_answer": false,
+                            "choice": "$\\frac{25}{102}, \\frac{25}{102}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 54547,
+                            "question_id": 13637,
+                            "is_answer": false,
+                            "choice": "$\\frac{26}{102}, \\frac{25}{102}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.87,
+                    "difficulty_score": 0.31,
+                    "avg_time_spent": 494182,
+                    "tags": "近期易错,近期35人做错",
+                    "ai_tags": "概率论,条件概率,古典概型"
+                },
+                {
+                    "id": 19092,
+                    "subject_id": 3,
+                    "chapter_id": 278,
+                    "question_id": "01b06e50-3399-4479-997d-9a5d8dd2d5b3",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "掷 2 颗骰子，已知 2 颗骰子的点数之和为 7，则其中有一颗 1 点的概率为 ( ).",
+                    "analysis": "2 颗骰子点数之和为 7 的所有情况为 $(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)$. 而一个点数为 1 的可能情况是 $(1,6),(6,1)$, 所以其中有一颗 1 点的概率为 $p=\\frac{2}{6}=\\frac{1}{3}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339763
+                    },
+                    "question_json": "neu-mathe/a4f8342cd3e94474ad0df0a656e3a99c",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86808,
+                            "question_id": 19092,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86809,
+                            "question_id": 19092,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86810,
+                            "question_id": 19092,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86811,
+                            "question_id": 19092,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.97,
+                    "difficulty_score": 0.23,
+                    "avg_time_spent": 227117,
+                    "tags": "",
+                    "ai_tags": "概率论,条件概率"
+                },
+                {
+                    "id": 19095,
+                    "subject_id": 3,
+                    "chapter_id": 278,
+                    "question_id": "63c62ba2-fb59-47e4-81e4-ee119c07c4b3",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "假设一批产品中一、二、三等品各占 $60 \\%, 30 \\%, 10 \\%$, 从中任取 1 件, 结果不是三等品, 则取到的是一等品的概率为 ( ).",
+                    "analysis": "令 $A_i=$ “取到的是 $i$ 等品”，$i=1,2,3$，则\n$$ P(A_1 \\mid \\overline{A_3})=\\frac{P(A_1 \\overline{A_3})}{P(\\overline{A_3})}=\\frac{P(A_1)}{P(\\overline{A_3})}=\\frac{0.6}{0.9}=\\frac{2}{3} $$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339780
+                    },
+                    "question_json": "neu-mathe/4030847256b64833b81349b21eb3c8b9",
+                    "updated_at": {
+                        "seconds": 1775673113
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86829,
+                            "question_id": 19095,
+                            "is_answer": true,
+                            "choice": "$\\frac{2}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86830,
+                            "question_id": 19095,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86831,
+                            "question_id": 19095,
+                            "is_answer": false,
+                            "choice": "$\\frac{3}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86832,
+                            "question_id": 19095,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.96,
+                    "difficulty_score": 0.25,
+                    "avg_time_spent": 75281,
+                    "ai_tags": "概率论,条件概率"
+                },
+                {
+                    "id": 19096,
+                    "subject_id": 3,
+                    "chapter_id": 278,
+                    "question_id": "bcc1871e-9549-4c33-8af6-e5991fa7aa08",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "甲、乙二人从 $1,2, \\cdots, 15$ 的十五个数字中各取一数 (不重复), 已知甲取到的数是 5 的倍数, 则甲取到的数大于乙取到的数的概率为 ().",
+                    "analysis": "样本空间 $S=\\{(1,2),(1,3), \\cdots,(5,1),(5,2), \\cdots,(15,14)\\}$，含有 $15 \\times 14=210$ 个样本点。令事件 $A=\\{\\text{甲取到的数是 5 的倍数}\\}$，$AB=\\{\\text{甲取到的数是 5 的倍数，且甲取到的数大于乙取到的数}\\}$。故 $A$ 发生表明甲只能取得 $5,10,15$ 中的一个，所以含有 $3 \\times 14=42$ 个样本点，$AB$ 含有 $4+9+14=27$ 个样本点。于是 $P(B \\mid A)=\\frac{P(AB)}{P(A)}=\\frac{\\frac{27}{210}}{\\frac{42}{210}}=\\frac{27}{42}=\\frac{9}{14}$，或将 $A$ 作为样本空间，则得 $P(B \\mid A)=\\frac{27}{42}=\\frac{9}{14}$。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339783
+                    },
+                    "question_json": "neu-mathe/9624a40bffca462ab53b053ab669618c",
+                    "updated_at": {
+                        "seconds": 1775673112
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86836,
+                            "question_id": 19096,
+                            "is_answer": true,
+                            "choice": "$\\frac{9}{14}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86837,
+                            "question_id": 19096,
+                            "is_answer": false,
+                            "choice": "$\\frac{13}{42}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86838,
+                            "question_id": 19096,
+                            "is_answer": false,
+                            "choice": "$\\frac{15}{42}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86839,
+                            "question_id": 19096,
+                            "is_answer": false,
+                            "choice": "$\\frac{15}{21}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.83,
+                    "difficulty_score": 0.29,
+                    "avg_time_spent": 111424,
+                    "tags": "近期易错,近期47人做错",
+                    "ai_tags": "条件概率,古典概型"
+                },
+                {
+                    "id": 19097,
+                    "subject_id": 3,
+                    "chapter_id": 278,
+                    "question_id": "6c8bff7e-ce41-4461-9afb-71200b54d0ce",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "甲、乙二选手进行乒乓球单打比赛, 甲先发球, 甲发球成功后, 乙回球失误的概率为 0.3 ; 若乙回球成功, 甲回球失误的概率为 0.4 ; 若甲回球成功, 乙再次回球失误的概率为 0.5 , 那么这几个回合中乙输掉 1 分的概率为 ().",
+                    "analysis": "设事件 $A=\\{$ 甲选手回球失误 $\\}, B_i=\\{$ 乙选手第 $i$ 次回球失误 $\\}(i=1,2,3)$.\n依题意, 已知 $P(B_1)=0.3, P(A \\mid \\overline{B_1})=0.4, P(B_2 \\mid \\overline{A} \\overline{B_1})=0.5$, 所以\n$P\\{$ 乙输掉1分 $\\}=P(B_1 \\cup \\overline{B_1} \\overline{A} B_2)=P(B_1)+P(\\overline{B_1}) P(\\overline{A} \\mid \\overline{B_1}) P(B_2 \\mid \\overline{A} \\overline{B_1})=0.3+(1-0.3) \\times 0.6 \\times 0.5=0.51$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339784
+                    },
+                    "question_json": "neu-mathe/c19c4132cf444e818e82cbf19bbea389",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86843,
+                            "question_id": 19097,
+                            "is_answer": true,
+                            "choice": "$0.51$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86844,
+                            "question_id": 19097,
+                            "is_answer": false,
+                            "choice": "$0.61$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86845,
+                            "question_id": 19097,
+                            "is_answer": false,
+                            "choice": "$0.32$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86846,
+                            "question_id": 19097,
+                            "is_answer": false,
+                            "choice": "$0.14$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.92,
+                    "difficulty_score": 0.27,
+                    "avg_time_spent": 94330,
+                    "ai_tags": "条件概率,概率加法公式,概率乘法公式"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 25,
+            "questions": [
+                {
+                    "id": 19099,
+                    "subject_id": 3,
+                    "chapter_id": 278,
+                    "question_id": "927da5d3-d0da-4ed3-bfa5-6d7ee6edfecb",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "10 个考签中有 4 个难签, 3 人参加抽签考试, 不重复地抽取, 每人一次, 甲先, 乙次, 丙最后, 下列说法正确的是 ( ).",
+                    "analysis": "记事件 $A$、$B$、$C$ 分别表示甲、乙、丙抽到难签，于是 $P(A)=\\frac{4}{10}=\\frac{2}{5}$，\n而事件 $B=AB \\cup \\bar{A}B$，由于 $(AB)(\\bar{A}B)=\\varnothing$，所以\n$$\n\\begin{aligned}\nP(B) & =P(AB)+P(\\bar{A}B)=P(A)P(B \\mid A)+P(\\bar{A})P(B \\mid \\bar{A}) \\\\\n& =\\frac{4}{10} \\times \\frac{3}{9}+\\frac{6}{10} \\times \\frac{4}{9}=\\frac{2}{5},\n\\end{aligned}\n$$\n又因为 $C=ABC \\cup \\bar{A}BC \\cup A\\bar{B}C \\cup \\bar{A}\\bar{B}C$，且 $ABC$、$\\bar{A}BC$、$A\\bar{B}C$、$\\bar{A}\\bar{B}C$ 两两互斥，所以\n$$\n\\begin{aligned}\nP(C) & =P(ABC)+P(\\bar{A}BC)+P(A\\bar{B}C)+P(\\bar{A}\\bar{B}C) \\\\\n& =\\frac{4}{10} \\times \\frac{3}{9} \\times \\frac{2}{8}+\\frac{6}{10} \\times \\frac{4}{9} \\times \\frac{3}{8}+\\frac{4}{10} \\times \\frac{6}{9} \\times \\frac{3}{8}+\\frac{6}{10} \\times \\frac{5}{9} \\times \\frac{4}{8}=\\frac{2}{5},\n\\end{aligned}\n$$\n显然 $P(A)=P(B)=P(C)$，说明 3 人抽到难签的概率相等。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339790
+                    },
+                    "question_json": "neu-mathe/9dc87050230849b0aa6c007a1faa6050",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86857,
+                            "question_id": 19099,
+                            "is_answer": true,
+                            "choice": "3人抽到难签的概率相等",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86858,
+                            "question_id": 19099,
+                            "is_answer": false,
+                            "choice": "甲抽到难签的概率大",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86859,
+                            "question_id": 19099,
+                            "is_answer": false,
+                            "choice": "乙抽到难签的概率大",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86860,
+                            "question_id": 19099,
+                            "is_answer": false,
+                            "choice": "丙抽到难答的概率大",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.97,
+                    "difficulty_score": 0.23,
+                    "avg_time_spent": 81933,
+                    "ai_tags": "概率计算,抽签模型,全概率公式"
+                },
+                {
+                    "id": 19100,
+                    "subject_id": 3,
+                    "chapter_id": 278,
+                    "question_id": "1090596e-3675-4d5d-95a7-0c51c0f6ea14",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某人忘记了电话号码最后一个数字, 因而他随意地拨号, 若已知最后一个数字是奇数, 则他不超过三次而接通所需电话的概率为 ( ).",
+                    "analysis": "解法一 设 $A_i=\\{$第 $i$ 次接通$\\} (i=1,2,3)$，$A=\\{$不超过三次而接通电话$\\}$，则有\n$$A=A_1 \\cup \\overline{A_1} A_2 \\cup \\overline{A_1} \\overline{A_2} A_3$$\n易知，$A_1$ 与 $\\overline{A_1} A_2$ 与 $\\overline{A_1} \\overline{A_2} A_3$ 是互斥的，故有\n$$P(A)=P(A_1)+P(\\overline{A_1} A_2)+P(\\overline{A_1} \\overline{A_2} A_3)=\\frac{1}{10}+\\frac{9}{10} \\times \\frac{1}{9}+\\frac{9}{10} \\times \\frac{8}{9} \\times \\frac{1}{8}=\\frac{3}{10} \\text{，(由乘法公式而得)}$$\n当已知最后一位数字是奇数，所求概率为\n$$\n\\begin{aligned}\nP(A)&=P(A_1)+P(\\overline{A_1}) P(A_2 \\mid \\overline{A_1})+P(\\overline{A_1}) P(\\overline{A_2} \\mid \\overline{A_1}) P(A_3 \\mid \\overline{A_1} \\overline{A_2}) \\\\\n&=\\frac{1}{5}+\\frac{4}{5} \\times \\frac{1}{4}+\\frac{4}{5} \\times \\frac{3}{4} \\times \\frac{1}{3}=\\frac{3}{5}\n\\end{aligned}\n$$\n解法二 沿用解法一的记号，考虑对立事件 $\\overline{A}=\\{$拨号三次都接不通$\\}$，则\n$$1-P(\\overline{A_1}) P(\\overline{A_2} \\mid \\overline{A_1}) P(\\overline{A_3} \\mid \\overline{A_1} \\overline{A_2})=1-\\frac{9}{10} \\times \\frac{8}{9} \\times \\frac{7}{8}=\\frac{3}{10}$$\n当已知最后一位是奇数时，所求概率为\n$$\n\\begin{aligned}\nP(A)&=P(A_1)+P(\\overline{A_1})P(A_2 \\mid \\overline{A_1})+P(\\overline{A_1})P(\\overline{A_2} \\mid \\overline{A_1})P(A_3 \\mid \\overline{A_1} \\overline{A_2}) \\\\\n&=\\frac{1}{5}+\\frac{4}{5} \\times \\frac{1}{4}+\\frac{4}{5} \\times \\frac{3}{4} \\times \\frac{1}{3}=\\frac{3}{5}\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339791
+                    },
+                    "question_json": "neu-mathe/2a75e5d605d54e2db688382c7f7f1151",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86864,
+                            "question_id": 19100,
+                            "is_answer": true,
+                            "choice": "$\\frac{3}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86865,
+                            "question_id": 19100,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86866,
+                            "question_id": 19100,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86867,
+                            "question_id": 19100,
+                            "is_answer": false,
+                            "choice": "$\\frac{4}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.85,
+                    "difficulty_score": 0.28,
+                    "avg_time_spent": 78772,
+                    "ai_tags": "概率概型,加法公式,乘法公式"
+                },
+                {
+                    "id": 19101,
+                    "subject_id": 3,
+                    "chapter_id": 278,
+                    "question_id": "48093bf7-797b-48e4-93b0-0c7d96b37ca8",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "对 $200$ 位成人根据 **性别** 与 **受教育程度** 进行调查，其结果如下表：\n\n| 教育程度 | 男 | 女 |\n|---------|---|---|\n| 小学 | 38 | 45 |\n| 中学 | 28 | 50 |\n| 大专 | 22 | 17 |\n\n随机抽取 $1$ 人，已知此人为女性，则此人 **不具有大专学历** 的概率为\n\n$$\nP(\\text{非大专} \\mid \\text{女}) =\n\\frac{45 + 50}{45 + 50 + 17}\n$$",
+                    "analysis": "设 $F=\\{$ 抽到的人为女性 $\\}, C=\\{$ 抽到的人不具有大专学历 $\\}$,\n可先求 $P(\\bar{C} \\mid F)$, 即抽到的人具有大专学历的概率, 由表知 $P(\\bar{C} \\mid F)=\\frac{17}{45+50+17}=\\frac{17}{112}$,故 $P(C \\mid F)=1-P(\\bar{C} \\mid F)=1-\\frac{17}{112}=\\frac{95}{112}$.\n或者从表上直接可知 $P(C \\mid F)=\\frac{45+50}{45+50+17}=\\frac{95}{112}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339791
+                    },
+                    "question_json": "neu-mathe/0c3f9d42a68d4e55bd42f6596a7926ff",
+                    "updated_at": {
+                        "seconds": 1775673110
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86871,
+                            "question_id": 19101,
+                            "is_answer": true,
+                            "choice": "$\\frac{95}{112}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86872,
+                            "question_id": 19101,
+                            "is_answer": false,
+                            "choice": "$\\frac{17}{112}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86873,
+                            "question_id": 19101,
+                            "is_answer": false,
+                            "choice": "$\\frac{161}{200}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86874,
+                            "question_id": 19101,
+                            "is_answer": false,
+                            "choice": "$\\frac{39}{200}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.96,
+                    "difficulty_score": 0.24,
+                    "avg_time_spent": 253262,
+                    "tags": "",
+                    "ai_tags": "条件概率,古典概型"
+                },
+                {
+                    "id": 19102,
+                    "subject_id": 3,
+                    "chapter_id": 278,
+                    "question_id": "7d8be2db-0703-4440-8e72-36f7721b9291",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "袋中有 5 个球, 其中 3 个红球 2 个白球. 现从袋中不放回地连取两个，已知第一次取得红球时，则第二次取得白球的概率为 ().",
+                    "analysis": "解法一：设 $A$ 表示“第一次取得红球”，$B$ 表示“第二次取得白球”，依题意要求 $P(B \\mid A)$。\n缩减样本空间 $A$ 中的样本点数，即第一次取得红球的取法为 $P_3^1 P_4^1$，其中，第二次取得白球的取法有 $P_3^1 P_2^1$ 种，\n$$ P(B \\mid A)=\\frac{P_3^1 P_2^1}{P_3^1 P_4^1}=\\frac{1}{2} $$\n也可以直接计算，因为第一次取走了一个红球，袋中只剩下 4 个球，其中有两个白球，再从中任取一个，取得白球的概率为 $\\frac{2}{4}$，所以 $P(B \\mid A)=\\frac{1}{2}$。\n\n解法二：设 $A$ 表示“第一次取得红球”，$B$ 表示“第二次取得白球”，求 $P(B \\mid A)$。\n在 5 个球中不放回连取两球的取法有 $P_5^2$ 种，其中，第一次取得红球的取法有 $P_3^1 P_4^1$ 种，第一次取得红球第二次取得白球的取法有 $P_3^1 P_2^1$ 种，所以：\n$$ P(A)=\\frac{P_3^1 P_4^1}{P_5^2}=\\frac{3}{5}, \\quad P(AB)=\\frac{P_3^1 P_2^1}{P_5^2}=\\frac{3}{10} $$\n由定义得：\n$$ P(B \\mid A)=\\frac{P(AB)}{P(A)}=\\frac{3 / 10}{3 / 5}=\\frac{1}{2} $$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339792
+                    },
+                    "question_json": "neu-mathe/836baf0d10584e62839320656f929d98",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86878,
+                            "question_id": 19102,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86879,
+                            "question_id": 19102,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86880,
+                            "question_id": 19102,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86881,
+                            "question_id": 19102,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.96,
+                    "difficulty_score": 0.2,
+                    "avg_time_spent": 124148,
+                    "ai_tags": "条件概率,古典概型,概率计算"
+                },
+                {
+                    "id": 19103,
+                    "subject_id": 3,
+                    "chapter_id": 278,
+                    "question_id": "b9d4f947-d865-4045-9fb0-51b8b338ed25",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一盒子中有 4 只坏晶体管和 6 只好晶体管, 在其中取两次, 每次随机取一只 (取后不放回), 若已知第一只取到是好的, 则第二只取到也是好的概率是 ( ).",
+                    "analysis": "设事件 $A$ : \"第一只取到是好的\", 事件 $B$ : \"第二只取到是好的\",则 $P(A)=\\frac{6}{10}, P(A B)=\\frac{C_6^2}{C_{10}^2}=\\frac{1}{3}$,所以由条件概率公式得 $P(B \\mid A)=\\frac{P(A B)}{P(A)}=\\frac{5}{9}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339792
+                    },
+                    "question_json": "neu-mathe/a7a609ce0dea43aebd839719a7faa6a5",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86885,
+                            "question_id": 19103,
+                            "is_answer": true,
+                            "choice": "$\\frac{5}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86886,
+                            "question_id": 19103,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86887,
+                            "question_id": 19103,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86888,
+                            "question_id": 19103,
+                            "is_answer": false,
+                            "choice": "$\\frac{7}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.92,
+                    "difficulty_score": 0.2,
+                    "avg_time_spent": 69456,
+                    "ai_tags": "条件概率,古典概型"
+                },
+                {
+                    "id": 19104,
+                    "subject_id": 3,
+                    "chapter_id": 278,
+                    "question_id": "39095c18-da48-49ff-835f-18f050db337f",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "在参加某课程学习的学生中, 甲班有 30 名, 乙班有 35 名, 丙班有 36 名. 该课程考试后, 甲、乙、丙 3 个班各有 10、9、11名学生获优等. 若在甲、乙、丙3个班的所有学生中抽 1 名, 知该生成绩为优等, 则该生来自乙班的概率是 ( )。",
+                    "analysis": "令 $B=\\{$ 抽到学生来自乙班 $\\}, A=\\{$ 抽到学生成绩优等 $\\}$,则可知题目即是求条件概率 $P(B \\mid A)$,可依定义求 $P(B \\mid A)=\\frac{9}{10+9+11}=\\frac{9}{30}$.\n此题若用公式 $P(B \\mid A)=\\frac{P(A B)}{P(A)}$ 亦可求,\n有 $P(B \\mid A)=\\frac{9}{30+35+36} / \\frac{10+9+11}{30+35+36}=\\frac{9}{30}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339796
+                    },
+                    "question_json": "neu-mathe/22623d3dff0a4b438c4874cc0ecccfcb",
+                    "updated_at": {
+                        "seconds": 1775673119
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86892,
+                            "question_id": 19104,
+                            "is_answer": true,
+                            "choice": "$\\frac{9}{30}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86893,
+                            "question_id": 19104,
+                            "is_answer": false,
+                            "choice": "$\\frac{10}{30}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86894,
+                            "question_id": 19104,
+                            "is_answer": false,
+                            "choice": "$\\frac{11}{30}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86895,
+                            "question_id": 19104,
+                            "is_answer": false,
+                            "choice": "$\\frac{9}{101}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.84,
+                    "difficulty_score": 0.26,
+                    "avg_time_spent": 98335,
+                    "ai_tags": "概率论,条件概率"
+                },
+                {
+                    "id": 19105,
+                    "subject_id": 3,
+                    "chapter_id": 278,
+                    "question_id": "1614f7a2-c512-4295-a331-bf3114ea75c2",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一批零件共 100 个, 次品率为 $10 \\%$, 每次从中任取一个零件, 取后不放回, 如果取到一个合格品就不再取下去, 则在三次内取到合格品的概率为 ( ).",
+                    "analysis": "设 $A_i(i=1,2,3)$ 表示“第 $i$ 次取到合格品”的事件，$A$ 表示“在三次内取到合格品”的事件，则有\n$$\nA=A_1 \\cup \\overline{A_1} A_2 \\cup \\overline{A_1} \\overline{A_2} A_3\n$$\n等号右边三项两两互斥，因此\n$$\n\\begin{aligned}\nP(A)&=P(A_1)+P(\\overline{A_1} A_2)+P(\\overline{A_1} \\overline{A_2} A_3) \\\\\n&=P(A_1)+P(\\overline{A_1}) P(A_2 \\mid \\overline{A_1})+P(\\overline{A_1}) P(\\overline{A_2} \\mid \\overline{A_1}) P(A_3 \\mid \\overline{A_1} \\overline{A_2}) \\\\\n&=\\frac{90}{100}+\\frac{10}{100} \\times \\frac{90}{99}+\\frac{10}{100} \\times \\frac{9}{99} \\times \\frac{90}{98} \\approx 0.9993\n\\end{aligned}\n$$\n从对立事件的角度考虑，我们可以得到另一种更简单的解法。\n因为 $\\overline{A}$ 表示“三次都取到次品”的事件，即 $\\overline{A}=\\overline{A_1} \\overline{A_2} \\overline{A_3}$，\n因此\n$$\nP(\\overline{A})=P(\\overline{A_1} \\overline{A_2} \\overline{A_3})=P(\\overline{A_1}) P(\\overline{A_2} \\mid \\overline{A_1}) P(\\overline{A_3} \\mid \\overline{A_1} \\overline{A_2})=\\frac{10}{100} \\times \\frac{9}{99} \\times \\frac{8}{98} \\approx 0.0007\n$$\n所以 $P(A)=1-P(\\overline{A})=0.9993$。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339797
+                    },
+                    "question_json": "neu-mathe/d78d279633244bfa8a51cb70abb8c93e",
+                    "updated_at": {
+                        "seconds": 1775673109
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86899,
+                            "question_id": 19105,
+                            "is_answer": true,
+                            "choice": "$0.9993$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86900,
+                            "question_id": 19105,
+                            "is_answer": false,
+                            "choice": "$0.2514$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86901,
+                            "question_id": 19105,
+                            "is_answer": false,
+                            "choice": "$0.8866$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86902,
+                            "question_id": 19105,
+                            "is_answer": false,
+                            "choice": "$0.5657$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.92,
+                    "difficulty_score": 0.23,
+                    "avg_time_spent": 598771,
+                    "tags": "",
+                    "ai_tags": "概率计算,乘法公式,对立事件"
+                },
+                {
+                    "id": 19108,
+                    "subject_id": 3,
+                    "chapter_id": 278,
+                    "question_id": "bbe4b020-bb0f-4384-81c7-ce6ba1dceaff",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "有两箱同种类零件, 第一箱装了 50 只, 其中 10 只一等品; 第二箱装 30 只, 其中 18 只一等品, 今从两箱中任挑出一箱，然后从该箱中取零件两次，每次任取一只，做不放回抽样，则第一次取到的是一等品的概率为（）；在第一次取到的零件是一等品的条件下, 第二次取到的也是一等品的概率为 ( ).",
+                    "analysis": "设事件 $A_i=\\{$ 第 $i$ 次取到的零件是一等品 $\\}(i=1,2), B_i=\\{$ 零件取自第 $i$ 箱 $\\}(i=1,2)$,\n且知\n$$\nP\\left(B_1\\right)=P\\left(B_2\\right)=\\frac{1}{2} .\n$$\n(1) 求 $P\\left(A_1\\right)$.\n$$\nA_1=A_1\\left(B_1 \\cup B_2\\right)=A_1 B_1 \\cup A_1 B_2,\\left(A_1 B_1\\right)\\left(A_1 B_2\\right)=\\varnothing,\n$$\n\n所以 $\\quad P\\left(A_1\\right)=P\\left(A_1 B_1\\right)+P\\left(A_1 B_2\\right)=P\\left(B_1\\right) P\\left(A_1 \\mid B_1\\right)+P\\left(B_2\\right) P\\left(A_1 \\mid B_2\\right)=\\frac{1}{2} \\times\\left(\\frac{10}{50}+\\frac{18}{30}\\right)=\\frac{2}{5}=0.4$.\n(2) 求 $P\\left(A_2 \\mid A_1\\right)$.\n$$\n\\begin{aligned}\n& P\\left(A_2 \\mid A_1\\right)=\\frac{P\\left(A_1 A_2\\right)}{P\\left(A_1\\right)} \\\\\n& P\\left(A_1 A_2\\right)=P\\left(A_1 A_2\\left(B_1 \\cup B_2\\right)\\right)=P\\left(A_1 A_2 B_1 \\cup A_1 A_2 B_2\\right)=P\\left(B_1\\right) P\\left(A_1 A_2 \\mid B_1\\right)+P\\left(B_2\\right) P\\left(A_1 A_2 \\mid B_2\\right) \\\\\n& \\quad=\\frac{1}{2} \\times\\left(\\frac{10 \\times 9}{50 \\times 49}+\\frac{18 \\times 17}{30 \\times 29}\\right) \\approx 0.194\n\\end{aligned}\n$$\n\n所以 $P\\left(A_2 \\mid A_1\\right)=\\frac{0.194}{0.4}=0.485$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339800
+                    },
+                    "question_json": "neu-mathe/eebeafa4d2b94392b3f9e1abf29f119b",
+                    "updated_at": {
+                        "seconds": 1775673121
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86920,
+                            "question_id": 19108,
+                            "is_answer": true,
+                            "choice": "$0.4,0.485$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86921,
+                            "question_id": 19108,
+                            "is_answer": false,
+                            "choice": "$0.4,0.4$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86922,
+                            "question_id": 19108,
+                            "is_answer": false,
+                            "choice": "$0.485,0.485$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86923,
+                            "question_id": 19108,
+                            "is_answer": false,
+                            "choice": "$0.485,0.4$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.87,
+                    "difficulty_score": 0.29,
+                    "avg_time_spent": 116766,
+                    "tags": "近期易错,近期37人做错",
+                    "ai_tags": "全概率公式,条件概率"
+                },
+                {
+                    "id": 19110,
+                    "subject_id": 3,
+                    "chapter_id": 278,
+                    "question_id": "aab9b532-0926-46e8-a10f-f3cdf599006e",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某厂产品中有 $4 \\%$ 是废品, 而在 100 件合格品中只有 75 件是一等品, 则从产品中任取一件产品, 取得一等品的概率是 ( ).",
+                    "analysis": "设 $A=\\{$ 取得的产品是合格品 $\\}, B=\\{$ 取得产品是一等品 $\\}$,显然 $B \\subset A$, 且 $P(A)=1-4 \\%=0.96, P(B \\mid A)=\\frac{75}{100}=\\frac{3}{4}$,根据乘法公式有 $P(B)=P(A B)=P(A) P(B \\mid A)=0.96 \\times \\frac{3}{4}=0.72$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339801
+                    },
+                    "question_json": "neu-mathe/f1cee3ea2b354f53823974b2d94de6da",
+                    "updated_at": {
+                        "seconds": 1775673120
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86934,
+                            "question_id": 19110,
+                            "is_answer": true,
+                            "choice": "$0.72$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86935,
+                            "question_id": 19110,
+                            "is_answer": false,
+                            "choice": "$0.75$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86936,
+                            "question_id": 19110,
+                            "is_answer": false,
+                            "choice": "$0.80$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86937,
+                            "question_id": 19110,
+                            "is_answer": false,
+                            "choice": "$0.96$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.77,
+                    "difficulty_score": 0.26,
+                    "avg_time_spent": 85165,
+                    "ai_tags": "概率,条件概率,乘法公式"
+                },
+                {
+                    "id": 19111,
+                    "subject_id": 3,
+                    "chapter_id": 278,
+                    "question_id": "b3bb2982-aef5-47f9-a865-e1d806acc66e",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设口袋中装有 $2 n-1$ 只白球, $2 n$ 只黑球, 一次取出 $n$ 只球, 如果已知取出的球都是同一种颜色, 则计算该颜色是黑色的概率为 ( ).",
+                    "analysis": "设 $A$ “取出的 $n$ 只球均为白球”，$B$ “取出的 $n$ 只球均为黑色”，$C$ “取出的 $n$ 只球均为同一种颜色”. 显然，$A, B$ 互不相容，且有 $C=A \\cup B$. $\\therefore P(C)=P(A)+P(B)$.\n又因 $B \\subset C$，则 $B \\cap C=B, P(BC)=P(B)$\n$$\n\\begin{aligned}\n& P(A)=\\frac{C_{2 n-1}^n}{C_{4 n-1}^n}, \\quad P(B)=\\frac{C_{2 n}^n}{C_{4 n-1}^n} . \\\\\n& \\therefore P(B \\mid C)=\\frac{P(BC)}{P(C)}=\\frac{P(B)}{P(C)}=\\frac{P(B)}{P(A)+P(B)}=\\frac{C_{2 n}^n}{C_{2 n-1}^n+C_{2 n}^n}=\\frac{2}{3} .\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339803
+                    },
+                    "question_json": "neu-mathe/17de6dda3e954a9e8e778dd6f8917bc2",
+                    "updated_at": {
+                        "seconds": 1775673109
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86941,
+                            "question_id": 19111,
+                            "is_answer": true,
+                            "choice": "$\\frac{2}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86942,
+                            "question_id": 19111,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86943,
+                            "question_id": 19111,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86944,
+                            "question_id": 19111,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.67,
+                    "difficulty_score": 0.4,
+                    "avg_time_spent": 97503,
+                    "tags": "近期易错,近期103人做错",
+                    "ai_tags": "概率论,条件概率"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 25,
+            "questions": [
+                {
+                    "id": 19113,
+                    "subject_id": 3,
+                    "chapter_id": 278,
+                    "question_id": "cd83f00b-7a07-49e3-82e9-26c409807a3c",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设袋中装有 $a$ 只红球, $b$ 只白球, 每次自袋中任取一只球, 观察颜色后放回, 并同时再放入 $m$ 只与所取出的那只同色的球，连续在袋中取球四次，试求第一，二次取到红球且第三次取白球，第四次取红球的概率为（）。",
+                    "analysis": "设 $A_i$ 为“第 $i$ 次取到红球”，$\\overline{A_i}$ 为“第 $i$ 次取到白球”，$i=1,2,3,4$。所求概率为：\n$$\n\\begin{aligned}\nP(A_1 A_2 \\overline{A_3} A_4) &= P(A_4 \\mid A_1 A_2 \\overline{A_3}) P(\\overline{A_3} \\mid A_1 A_2) P(A_2 \\mid A_1) P(A_1) \\\\\n&= \\frac{a+2 m}{a+b+3 m} \\cdot \\frac{b}{a+b+2 m} \\cdot \\frac{a+m}{a+b+m} \\cdot \\frac{a}{a+b}\n\\end{aligned}\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339811
+                    },
+                    "question_json": "neu-mathe/7774bbdc0e71448ba65f7c9a42b92978",
+                    "updated_at": {
+                        "seconds": 1775673117
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86955,
+                            "question_id": 19113,
+                            "is_answer": true,
+                            "choice": "$\\frac{a+2 m}{a+b+3 m} \\cdot \\frac{b}{a+b+2 m} \\cdot \\frac{a+m}{a+b+m} \\cdot \\frac{a}{a+b}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86956,
+                            "question_id": 19113,
+                            "is_answer": false,
+                            "choice": "$\\frac{a+2 m}{a+b+3 m} \\cdot \\frac{a+m}{a+b+m} \\cdot \\frac{a}{a+b}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86957,
+                            "question_id": 19113,
+                            "is_answer": false,
+                            "choice": "$\\frac{a+2 m}{a+b+3 m} \\cdot \\frac{b}{a+b+2 m} \\cdot \\frac{a}{a+b}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86958,
+                            "question_id": 19113,
+                            "is_answer": false,
+                            "choice": "$\\frac{b}{a+b+2 m} \\cdot \\frac{a+m}{a+b+m} \\cdot \\frac{a}{a+b}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.92,
+                    "difficulty_score": 0.25,
+                    "avg_time_spent": 110291,
+                    "ai_tags": "概率论,乘法公式,波利亚罐模型"
+                },
+                {
+                    "id": 19114,
+                    "subject_id": 3,
+                    "chapter_id": 278,
+                    "question_id": "f08f60f1-8211-47ba-a61d-3f233bee1078",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "轰炸机要完成它的使命，驾驶员必须要找到目标，同时投弹员必须要投中目标. 设驾驶员甲、乙找到目标的概率分别为 $0.9 、 0.8$; 投弹员丙、丁在找到目标的条件下投中的概率分别为 $0.7 、 0.6$, 现在要配备两组轰炸人员, 轰炸同一目标，下列说法正确的是（）。",
+                    "analysis": "设 $A_1$ 为甲找到目标, $B_1$ 为丙投中目标, $A_2$ 为乙找到目标, $B_2$ 为丁投中目标, $W$ 为完成任务.\n(1)甲丙搭配，乙丁搭配\n$$\n\\begin{aligned}\nP(W) & =P(\\text { 甲丙机命中 })+P(\\text { 乙丁机命中 })-P(\\text { 两机均命中 }) \\\\\n& =P\\left(A_1\\right) \\cdot P\\left(B_1 \\mid A_1\\right)+P\\left(A_2\\right) \\cdot P\\left(B_2 \\mid A_2\\right)-P\\left(A_1\\right) \\cdot P\\left(B_1 \\mid A_1\\right) \\cdot P\\left(A_2\\right) \\cdot P\\left(B_2 \\mid A_2\\right) \\\\\n& =0.9 \\times 0.7+0.8 \\times 0.6-0.9 \\times 0.7 \\times 0.8 \\times 0.6=0.8076 .\n\\end{aligned}\n$$\n\n注意：\"两机均命中\"指甲找到目标，丙投中目标而且乙找到目标，丁投中目标.\n(2)甲丁搭配，乙丙搭配\n$$\n\\begin{aligned}\nP(W) & =P(\\text { 甲丁机命中 })+P(\\text { 乙丙机命中 })-P(\\text { 两机均命中 }) \\\\\n& =0.9 \\times 0.6+0.8 \\times 0.7-0.9 \\times 0.6 \\times 0.8 \\times 0.7=0.7976,\n\\end{aligned}\n$$\n\n所以甲丙搭配, 乙丁搭配好, 此时命中率为 0.8076 .",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339812
+                    },
+                    "question_json": "neu-mathe/9bcc9fe42a984b53823a3d80911d5fbc",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86962,
+                            "question_id": 19114,
+                            "is_answer": true,
+                            "choice": "甲与丙一组，乙与丁一组能炸毁目标的概率为 0.8076",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86963,
+                            "question_id": 19114,
+                            "is_answer": false,
+                            "choice": "甲与丙一组, 乙与丁一组能炸毁目标的概率为 0.7976.",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86964,
+                            "question_id": 19114,
+                            "is_answer": false,
+                            "choice": "甲与丙一组, 乙与丁一组能炸毁目标的概率为 0.5388.",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86965,
+                            "question_id": 19114,
+                            "is_answer": false,
+                            "choice": "甲与丙一组，乙与丁一组能炸毁目标的概率为 0.8376",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.75,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 112062,
+                    "ai_tags": "概率论,事件的独立性,条件概率"
+                },
+                {
+                    "id": 19118,
+                    "subject_id": 3,
+                    "chapter_id": 278,
+                    "question_id": "02bd90c0-6bf3-469b-943c-05a2f6e95ebc",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "某人有两盒火柴, 吸烟时从任一盒中取一根火柴, 经过若干时间后, 发现一盒火柴已用完. 如果最初两盒中各有 $n$根火柴，则这时另一盒中还有 $r$ 根火柴的概率为 ().",
+                    "analysis": "不妨设甲盒已空而乙盒还有 $r$ 根火柴，因为是随机抽取，可知这时必已取过 $2n-r$ 次，每次取甲、乙盒的概率均为 $\\frac{1}{2}$，而在 $2n-r$ 次中必是 $n$ 次取了甲盒的，$n-r$ 次取了乙盒的，最后第 $2n-r+1$ 次必定是取甲盒的，否则不知其为空盒，故概率为\n$$\nP_1=\\frac{1}{2} C_{2 n-r}^n\\left(\\frac{1}{2}\\right)^n\\left(\\frac{1}{2}\\right)^{n-r}=\\frac{1}{2} C_{2 n-r}^n\\left(\\frac{1}{2}\\right)^{2 n-r},\n$$\n同理，最后乙盒空而甲盒剩 $r$ 的概率为：$P_2=\\frac{1}{2} C_{2 n-r}^n\\left(\\frac{1}{2}\\right)^n\\left(\\frac{1}{2}\\right)^{n-r}=\\frac{1}{2} C_{2 n-r}^n\\left(\\frac{1}{2}\\right)^{2 n-r}$，\n故所求概率为：$P=P_1+P_2=C_{2 n-r}^n\\left(\\frac{1}{2}\\right)^{2 n-r}=\\frac{C_{2 n-r}^n}{2^{2 n-r}}$。",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339821
+                    },
+                    "question_json": "neu-mathe/94036e938d1b4bf9986d6007efa83b97",
+                    "updated_at": {
+                        "seconds": 1775673118
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 86990,
+                            "question_id": 19118,
+                            "is_answer": true,
+                            "choice": "$\\frac{C_{2 n-r}^n}{2^{2 n-r}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86991,
+                            "question_id": 19118,
+                            "is_answer": false,
+                            "choice": "$\\frac{C_{2 n}^n}{2^{2 n-r}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86992,
+                            "question_id": 19118,
+                            "is_answer": false,
+                            "choice": "$\\frac{C_{2 n-r}^r}{2^{2 n-r}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 86993,
+                            "question_id": 19118,
+                            "is_answer": false,
+                            "choice": "$\\frac{C_{2 n-r}^n}{2^{2 n}}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.69,
+                    "difficulty_score": 0.29,
+                    "avg_time_spent": 97979,
+                    "ai_tags": "概率论,独立重复试验,组合数学"
+                },
+                {
+                    "id": 19121,
+                    "subject_id": 3,
+                    "chapter_id": 278,
+                    "question_id": "55f02d81-b4be-497c-b875-2d9d5b3d942d",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "一袋中装有 10 个球，其中 3 个黑球， 7 个白球，先后两次从袋中各取一球（不放回）。已知第一次取出的是黑球，则第二次取出的仍是黑球的概率为 ( ) ; 已知第二次取出的是黑球, 则第一次取出的也是黑球的概率为 ( ).",
+                    "analysis": "记 $A_i$ 为事件“第 $i$ 次取到的是黑球” $(i=1,2)$。\n(1) 在已知 $A_1$ 发生，即第一次取到的是黑球的条件下，第二次取球就在剩下的 2 个黑球、 7 个白球共 9 个球中任取一个，根据古典概率计算，取到黑球的概率为 $\\frac{2}{9}$，即有：$P(A_2 \\mid A_1)=\\frac{2}{9}$。\n(2) 在已知 $A_2$ 发生，即第二次取到的黑球的条件下，求第一次取到黑球的概率。但第一次取球发生在第二次取球之前，故问题的结构不像 (1) 那么直观。我们可按定义计算更方便一些。由\n$$\nP(A_1 A_2)=\\frac{P_3^2}{P_{10}^2}=\\frac{1}{15}, P(A_2)=\\frac{3}{10} \\Rightarrow P(A_1 \\mid A_2)=\\frac{P(A_1 A_2)}{P(A_2)}=\\frac{2}{9}.\n$$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339829
+                    },
+                    "question_json": "neu-mathe/a8ec111e5c5f4b7ea4571b54b78f596c",
+                    "updated_at": {
+                        "seconds": 1775673116
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87011,
+                            "question_id": 19121,
+                            "is_answer": true,
+                            "choice": "$\\frac{2}{9}, \\frac{2}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87012,
+                            "question_id": 19121,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{9}, \\frac{1}{15}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87013,
+                            "question_id": 19121,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{9}, \\frac{3}{10}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87014,
+                            "question_id": 19121,
+                            "is_answer": false,
+                            "choice": "$\\frac{2}{9}, \\frac{1}{9}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.77,
+                    "difficulty_score": 0.29,
+                    "avg_time_spent": 177103,
+                    "ai_tags": "条件概率,古典概型"
+                },
+                {
+                    "id": 19122,
+                    "subject_id": 3,
+                    "chapter_id": 278,
+                    "question_id": "8431af39-9077-4484-a9b2-5018cd1dfc02",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "甲盒中有 2 个白球和 3 个黑球, 乙盒中有 3 个白球和 2 个黑球, 今从每个盒中各取 2 个球, 发现它们是同一颜色的, 则这颜色是黑色的概率为 ( ).",
+                    "analysis": "设 $A_1=\\{$ 取到的两个球同是白球 $\\}, A_2=\\{$ 取到的两个球同是黑球 $\\}, B=\\{$ 取到两个球是同一颜色 $\\}$, 显然 $B=A_1 \\cup A_2, P\\left(A_1\\right)=\\frac{C_2^2}{C_5^2} \\cdot \\frac{C_3^2}{C_5^2}, P\\left(A_2\\right)=\\frac{C_3^2}{C_5^2} \\cdot \\frac{C_2^2}{C_5^2}$, 所以 $P\\left(A_1\\right)=P\\left(A_2\\right)$.根据条件概率公式得 $P\\left(A_2 \\mid B\\right)=\\frac{P\\left(A_2 B\\right)}{P(B)}=\\frac{P\\left(A_2\\right)}{P\\left(A_1\\right)+P\\left(A_2\\right)}=\\frac{1}{2}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764339829
+                    },
+                    "question_json": "neu-mathe/bd09af1c6f64474ab6a7d2a7bfe49f64",
+                    "updated_at": {
+                        "seconds": 1775673110
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87018,
+                            "question_id": 19122,
+                            "is_answer": true,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87019,
+                            "question_id": 19122,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{3}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87020,
+                            "question_id": 19122,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        },
+                        {
+                            "id": 87021,
+                            "question_id": 19122,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{5}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080691
+                            },
+                            "updated_at": {
+                                "seconds": 1735080691
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.96,
+                    "difficulty_score": 0.26,
+                    "avg_time_spent": 81274,
+                    "tags": "",
+                    "ai_tags": "条件概率,古典概型"
+                }
+            ]
+        }
+    }
+]

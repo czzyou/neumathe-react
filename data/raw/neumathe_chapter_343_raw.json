@@ -1,0 +1,1112 @@
+[
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 13,
+            "questions": [
+                {
+                    "id": 13814,
+                    "subject_id": 3,
+                    "chapter_id": 343,
+                    "question_id": "ef14cd71-bbe5-4f81-a034-3ac96cb4c6f9",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设南方人的身高为随机变量 $\\xi$, 北方人的身高为随机变量 $\\eta$, 通常说 \"北方人比南方人高\", 这句话的含义是 ( ).",
+                    "analysis": "平均值是日常生活中最常见的一个数字特征，它对评判事物、做出决策等具有重要作用. 通常说的 \"北方人比南方人高\" 是指平均身高, 平均值通常用数学期望来表示.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/1d9f0b4260ef4261bb111da697fc39b2",
+                    "updated_at": {
+                        "seconds": 1774809052
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55253,
+                            "question_id": 13814,
+                            "is_answer": true,
+                            "choice": "$E(\\eta)>E(\\xi)$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55255,
+                            "question_id": 13814,
+                            "is_answer": false,
+                            "choice": "$\\eta>\\xi$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55256,
+                            "question_id": 13814,
+                            "is_answer": false,
+                            "choice": "$D(\\eta)>D(\\xi)$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55254,
+                            "question_id": 13814,
+                            "is_answer": false,
+                            "choice": "$\\operatorname{cov}(\\xi, \\eta)>0$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.91,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 11689,
+                    "ai_tags": "数学期望,随机变量"
+                },
+                {
+                    "id": 13818,
+                    "subject_id": 3,
+                    "chapter_id": 343,
+                    "question_id": "956eb7d2-9693-4939-8c93-9be575a2c0e0",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 的概率密度为 $f(x)=\\left\\{\\begin{array}{cc}a x+b, & 0<x<1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$, 且 $E(X)=\\frac{1}{3}$, 则 $a, b$ 的值各为 () .",
+                    "analysis": "由概率密度的性质知, $\\int_0^1(a x+b) d x=1$,又由数学期望的定义知， $\\int_0^1 x(a x+b) d x=\\frac{1}{3}$.\n$\\left\\{\\begin{array}{l}\\frac{a}{2}+b=1 \\\\ \\frac{a}{3}+\\frac{b}{2}=\\frac{1}{3}\\end{array}\\right.$,故 $a=-2, b=2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/56bf12ee662c4ee0a427189cc38bcfca",
+                    "updated_at": {
+                        "seconds": 1767810654
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55272,
+                            "question_id": 13818,
+                            "is_answer": true,
+                            "choice": "$a=-2, b=2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55269,
+                            "question_id": 13818,
+                            "is_answer": false,
+                            "choice": "$a=-1, b=1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55271,
+                            "question_id": 13818,
+                            "is_answer": false,
+                            "choice": "$a=1, b=-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55270,
+                            "question_id": 13818,
+                            "is_answer": false,
+                            "choice": "$a=2, b=-2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 53354,
+                    "ai_tags": "概率密度,数学期望"
+                },
+                {
+                    "id": 13820,
+                    "subject_id": 3,
+                    "chapter_id": 343,
+                    "question_id": "33212d4b-3543-4224-9a61-78de9b31f85b",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "具有下列概率密度的随机变量中, 数学期望不存在的是 ( ).",
+                    "analysis": "对连续型随机变量, 求一随机变量的数学期望, 首先是判断积分 $\\int_{-\\infty}^{+\\infty} x f(x) d x$ 是否绝对收敛.由于 $\\int_{-\\infty}^{+\\infty}\\left|x \\cdot \\frac{1}{\\pi\\left(1+x^2\\right)}\\right| d x=2 \\int_0^{+\\infty} \\frac{x}{\\pi\\left(1+x^2\\right)} d x=\\left.\\frac{1}{\\pi} \\ln \\left(1+x^2\\right)\\right|_0 ^{+\\infty}=+\\infty$,故若密度函数为 $\\varphi_4(x)=\\frac{1}{\\pi\\left(1+x^2\\right)}$, 则数学期望是不存在的.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/be79d96315ab4836ad878777d70f1b34",
+                    "updated_at": {
+                        "seconds": 1774809054
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55279,
+                            "question_id": 13820,
+                            "is_answer": true,
+                            "choice": "$\\varphi_4(x)=\\frac{1}{\\pi\\left(1+x^2\\right)}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55278,
+                            "question_id": 13820,
+                            "is_answer": false,
+                            "choice": "$\\varphi_1(x)=\\left\\{\\begin{array}{c}0, \\quad x \\leq 0 \\\\ \\frac{1}{2} e^{-\\frac{x}{2}}, \\quad x>0\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55277,
+                            "question_id": 13820,
+                            "is_answer": false,
+                            "choice": "$\\varphi_2(x)=\\frac{1}{3 \\sqrt{2 \\pi}} \\exp \\left\\{-\\frac{x^2}{18}\\right\\}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55280,
+                            "question_id": 13820,
+                            "is_answer": false,
+                            "choice": "$\\varphi_3(x)=\\left\\{\\begin{array}{c}0, \\quad x<0 \\\\ x \\exp \\left\\{-\\frac{x^2}{2}\\right\\}, x>0\\end{array}\\right.$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.88,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 57107,
+                    "ai_tags": "数学期望,概率密度,广义积分"
+                },
+                {
+                    "id": 13823,
+                    "subject_id": 3,
+                    "chapter_id": 343,
+                    "question_id": "e2368ad3-1557-4c06-9432-510974e1d3ef",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设连续型随机变量 $X$ 的分布函数为 $F(x)=\\left\\{\\begin{array}{cc}0, & x \\leq 0 \\\\ \\frac{x}{4}, & 0<x \\leq 4 \\\\ 1, & x>4\\end{array}\\right.$, 则 $E(X)=()$.",
+                    "analysis": "随机变量 $X$ 的概率密度为 $f(x)=\\left\\{\\begin{array}{c}\\frac{1}{4}, 0<x<4 \\\\ 0, \\text { 其它 }\\end{array}\\right.$, 故 $E(X)=\\int_0^4 \\frac{1}{4} x d x=2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764250432
+                    },
+                    "question_json": "neu-mathe/5ac05ec153f6495097de74a7f3eaf3d8",
+                    "updated_at": {
+                        "seconds": 1767810658
+                    },
+                    "version": 2,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 55291,
+                            "question_id": 13823,
+                            "is_answer": true,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55290,
+                            "question_id": 13823,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55289,
+                            "question_id": 13823,
+                            "is_answer": false,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 55292,
+                            "question_id": 13823,
+                            "is_answer": false,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 53316,
+                    "ai_tags": "连续型随机变量,数学期望,分布函数"
+                },
+                {
+                    "id": 19193,
+                    "subject_id": 3,
+                    "chapter_id": 343,
+                    "question_id": "1b53a9ae-2563-43c6-a6c2-21f21f5e011f",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设桃树的直径 $X$ 的概率密度为 $f(x)=\\left\\{\\begin{array}{cl}\\frac{4}{\\pi\\left(1+x^2\\right)}, & 0<x<1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$, 则 $E(X)=()$.",
+                    "analysis": "$E(X)=\\int_{-\\infty}^{+\\infty} x f(x) d x=\\int_0^1 \\frac{4 x}{\\pi\\left(1+x^2\\right)} d x=\\left.\\frac{2}{\\pi}\\left[\\ln \\left(1+x^2\\right)\\right]\\right|_0 ^1=\\frac{2}{\\pi} \\ln 2=\\frac{\\ln 4}{\\pi}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340009
+                    },
+                    "question_json": "neu-mathe/869d25ab7cc84df3bff0bdaa62eb1a95",
+                    "updated_at": {
+                        "seconds": 1767810657
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87515,
+                            "question_id": 19193,
+                            "is_answer": true,
+                            "choice": "$\\frac{\\ln 4}{\\pi}$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87516,
+                            "question_id": 19193,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\ln 2}{\\pi}$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87517,
+                            "question_id": 19193,
+                            "is_answer": false,
+                            "choice": "$\\ln 4$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87518,
+                            "question_id": 19193,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\ln 8}{2 \\pi}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 74871,
+                    "ai_tags": "概率论,数学期望,连续型随机变量"
+                },
+                {
+                    "id": 19201,
+                    "subject_id": 3,
+                    "chapter_id": 343,
+                    "question_id": "1753281f-0b31-4954-827d-6b5df49bfdc9",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "随机变量 $\\xi$ 服从区间 $[-3,3]$ 上的均匀分布, 则 $E(\\xi)=()$.",
+                    "analysis": "由于随机变量 $\\xi$ 服从区间 $[-3,3]$ 上的均匀分布, 则 $E(\\xi)=\\frac{3+(-3)}{2}=0$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340021
+                    },
+                    "question_json": "neu-mathe/9f30d483400b4aa084667339ec2afdd7",
+                    "updated_at": {
+                        "seconds": 1767810658
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87571,
+                            "question_id": 19201,
+                            "is_answer": true,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87572,
+                            "question_id": 19201,
+                            "is_answer": false,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87573,
+                            "question_id": 19201,
+                            "is_answer": false,
+                            "choice": "$4$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87574,
+                            "question_id": 19201,
+                            "is_answer": false,
+                            "choice": "$6$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 6855,
+                    "ai_tags": "均匀分布,数学期望"
+                },
+                {
+                    "id": 19204,
+                    "subject_id": 3,
+                    "chapter_id": 343,
+                    "question_id": "7c1835d8-fdf4-47ca-bc56-f35655653b26",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "若随机变量 $\\xi$ 的概率密度为 $\\varphi(x)=\\begin{cases} 1-|x|, & |x| \\leq 1 \\\\ 0, & |x|>1 \\end{cases}$, 则 $\\xi$ 的数学期望为 ().",
+                    "analysis": "由数学期望的定义知，\n$$\nE(\\xi)=\\int_{-\\infty}^{+\\infty} x f(x) d x=\\int_{-1}^1 x(1-|x|) d x=0 .\n$$\n\n提示: 上式最后一个积分函数为奇函数.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340025
+                    },
+                    "question_json": "neu-mathe/2522d45dcc5942319d1db107bb08d192",
+                    "updated_at": {
+                        "seconds": 1766946709
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87592,
+                            "question_id": 19204,
+                            "is_answer": true,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87593,
+                            "question_id": 19204,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87594,
+                            "question_id": 19204,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{2}$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87595,
+                            "question_id": 19204,
+                            "is_answer": false,
+                            "choice": "$\\frac{1}{4}$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 59795,
+                    "ai_tags": "数学期望,概率密度,奇偶性"
+                },
+                {
+                    "id": 19205,
+                    "subject_id": 3,
+                    "chapter_id": 343,
+                    "question_id": "1a1c7628-7742-4cf0-97f3-ed5493b180fe",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 的分布函数为 $$F(x)=\\begin{cases} 0, & x<0 \\\\ x^3, & 0\\leq x\\leq1 \\\\ 1, & x>1 \\end{cases}$$ 则 $E(X)=(\\quad)$.",
+                    "analysis": "由已知条件可知， $X$ 是连续型随机变量，其概率密度为 $f(x)=F^{\\prime}(x)=\\left\\{\\begin{array}{cc}3 x^2, & 0<x<1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$ ，所以 $E(X)=\\int_{-\\infty}^{+\\infty} x f(x) d x=\\int_0^1 3 x^3 d x=\\frac{3}{4}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340025
+                    },
+                    "question_json": "neu-mathe/38a3cdeaea5e423a8f9590101b3afbf3",
+                    "updated_at": {
+                        "seconds": 1767810659
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87599,
+                            "question_id": 19205,
+                            "is_answer": true,
+                            "choice": "$\\int_0^1 3 x^3 d x$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87600,
+                            "question_id": 19205,
+                            "is_answer": false,
+                            "choice": "$\\int_0^{+\\infty} x^4 d x$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87601,
+                            "question_id": 19205,
+                            "is_answer": false,
+                            "choice": "$\\int_0^1 x^4 d x$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87602,
+                            "question_id": 19205,
+                            "is_answer": false,
+                            "choice": "$\\int_0^{+\\infty} 3 x^3 d x$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 69972,
+                    "ai_tags": "数学期望,连续型随机变量,分布函数"
+                },
+                {
+                    "id": 19206,
+                    "subject_id": 3,
+                    "chapter_id": 343,
+                    "question_id": "0547c3a7-b466-4197-9226-f91424e4b3e9",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "若随机变量 $\\xi$ 的概率密度为 $\\varphi(x)=\\frac{1}{\\sqrt{\\pi}} e^{-x^2+4x-4}$, 则 $\\xi$ 的数学期望是 ( ).",
+                    "analysis": "由于 $\\varphi(x)=\\frac{1}{\\sqrt{\\pi}} e^{-x^2+4x-4}=\\frac{1}{\\sqrt{2 \\pi} \\times \\frac{1}{\\sqrt{2}}} e^{-\\frac{(x-2)^2}{2 \\times(1 / 2)}}$, 所以 $\\xi \\sim N\\left(2, \\frac{1}{2}\\right)$, 故 $E(\\xi)=2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340035
+                    },
+                    "question_json": "neu-mathe/db1073ca3abf42649c88dc96b7bd8aec",
+                    "updated_at": {
+                        "seconds": 1766860310
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87606,
+                            "question_id": 19206,
+                            "is_answer": true,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87607,
+                            "question_id": 19206,
+                            "is_answer": false,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87608,
+                            "question_id": 19206,
+                            "is_answer": false,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87609,
+                            "question_id": 19206,
+                            "is_answer": false,
+                            "choice": "$3$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.32,
+                    "avg_time_spent": 25222,
+                    "ai_tags": "正态分布,数学期望,概率密度"
+                },
+                {
+                    "id": 19208,
+                    "subject_id": 3,
+                    "chapter_id": 343,
+                    "question_id": "a1584f9b-1aca-47ce-9498-4d2a5f7ad34d",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 的概率密度为\n$$\nf(x)=\\begin{cases} 1-|1-x|, & 0<x<2 \\\\ 0, & \\text{其它} \\end{cases}\n$$\n则 $E(X)=( )$.",
+                    "analysis": "$E(X)=\\int_{-\\infty}^{+\\infty} x f(x) d x=\\int_0^1 x \\cdot x d x+\\int_1^2 x(2-x) d x=\\int_0^1 x^2 d x+\\int_1^2\\left(2 x-x^2\\right) d x=\\frac{1}{3}+\\frac{2}{3}=1$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340042
+                    },
+                    "question_json": "neu-mathe/716de4a8e1b44fcd843619aa4fdff88d",
+                    "updated_at": {
+                        "seconds": 1774809053
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87620,
+                            "question_id": 19208,
+                            "is_answer": true,
+                            "choice": "$1$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87621,
+                            "question_id": 19208,
+                            "is_answer": false,
+                            "choice": "$0$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87622,
+                            "question_id": 19208,
+                            "is_answer": false,
+                            "choice": "$2$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87623,
+                            "question_id": 19208,
+                            "is_answer": false,
+                            "choice": "$-1$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.83,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 34362,
+                    "ai_tags": "概率密度,数学期望"
+                }
+            ]
+        }
+    },
+    {
+        "code": 200,
+        "message": "OK",
+        "data": {
+            "total": 13,
+            "questions": [
+                {
+                    "id": 19209,
+                    "subject_id": 3,
+                    "chapter_id": 343,
+                    "question_id": "e727750d-9267-440f-aeb9-fdfa1f5aaed8",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设连续型随机变量 $X$ 的概率密度为\n$$\nf(x)=\\left\\{\\begin{array}{ll}\nk x^a, & 0<x<1 \\\\\n0, & \\text { 其它 }\n\\end{array}\\right.,\n$$\n其中 $k, a>0$, 又已知 $E(X)=0.75$, 则 $k, a$ 的值为 ( ).",
+                    "analysis": "由 $\\int_{-\\infty}^{+\\infty} f(x) d x=1, \\int_{-\\infty}^{+\\infty} x f(x) d x=0.75$, 有\n$$\n\\int_0^1 k x^a d x=1, \\int_0^1 x \\cdot k x^a d x=0.75,\n$$\n\n即\n$$\n\\begin{gathered}\n\\left.\\frac{k}{a+1} x^{a+1}\\right|_0 ^1=1,\\left.\\frac{k}{a+2} x^{a+2}\\right|_0 ^1=0.75 \\\\\n\\frac{k}{a+1}=1, \\quad \\frac{k}{a+2}=0.75\n\\end{gathered}\n$$\n\n得 $k=3, a=2$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340049
+                    },
+                    "question_json": "neu-mathe/ed2b8400aa1649259acbfd3930adc1ba",
+                    "updated_at": {
+                        "seconds": 1767724271
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87627,
+                            "question_id": 19209,
+                            "is_answer": true,
+                            "choice": "$k=3, a=2$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87628,
+                            "question_id": 19209,
+                            "is_answer": false,
+                            "choice": "$k=3, a=1$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87629,
+                            "question_id": 19209,
+                            "is_answer": false,
+                            "choice": "$k=2, a=3$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87630,
+                            "question_id": 19209,
+                            "is_answer": false,
+                            "choice": "$k=1, a=2$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 1,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 254852,
+                    "ai_tags": "连续型随机变量,概率密度,数学期望"
+                },
+                {
+                    "id": 19211,
+                    "subject_id": 3,
+                    "chapter_id": 343,
+                    "question_id": "95f9a356-2e4d-47b9-b030-b63b9313dc7a",
+                    "difficulty": "Easy",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设 $F(x)=P\\{\\xi \\leq x\\}=\\begin{cases} 0, & x<0 \\\\ x^2, & 0 \\leq x \\leq 1 \\\\ 1, & x>1 \\end{cases}$, 则 $E(\\xi)=()$.",
+                    "analysis": "概率密度函数为 $f(x)=F^{\\prime}(x)=\\begin{cases} 2 x, & 0<x<1 \\\\ 0, & \\text { 其它 } \\end{cases}$, $E(\\xi)=\\int_{-\\infty}^{+\\infty} x f(x) d x=\\int_0^1 2 x^2 d x=\\frac{2}{3}$.",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340060
+                    },
+                    "question_json": "neu-mathe/46aaa88d9cc448d6883a05b8e4018b05",
+                    "updated_at": {
+                        "seconds": 1774809054
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87641,
+                            "question_id": 19211,
+                            "is_answer": true,
+                            "choice": "$\\int_0^1 2 x^2 d x$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87642,
+                            "question_id": 19211,
+                            "is_answer": false,
+                            "choice": "$\\int_0^1 x^3 d x$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87643,
+                            "question_id": 19211,
+                            "is_answer": false,
+                            "choice": "$\\int_0^1 x^2 d x$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87644,
+                            "question_id": 19211,
+                            "is_answer": false,
+                            "choice": "$\\int_0^{+\\infty} 2 x^2 d x$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.71,
+                    "difficulty_score": 0.43,
+                    "avg_time_spent": 78981,
+                    "ai_tags": "连续型随机变量,数学期望,概率密度函数"
+                },
+                {
+                    "id": 19229,
+                    "subject_id": 3,
+                    "chapter_id": 343,
+                    "question_id": "f3108d73-6bdd-4d91-94d3-119b26bd1cd4",
+                    "difficulty": "Medium",
+                    "answer": "1",
+                    "question_type": 1,
+                    "question": "设随机变量 $X$ 的密度函数为 $f(x)=\\begin{cases} \\frac{x}{\\sigma^2} e^{-\\frac{x^2}{2 \\sigma^2}}, & x>0 \\\\ 0, & \\text{其它} \\end{cases}$, 其中 $\\sigma>0$, 则 $E(X)=()$.",
+                    "analysis": "$\\begin{aligned} E(X) & =\\int_0^{+\\infty} x \\cdot \\frac{x}{\\sigma^2} e^{-\\frac{x^2}{2 \\sigma^2}} d x=-\\int_0^{+\\infty} x d e^{-\\frac{x^2}{2 \\sigma^2}}=\\int_0^{+\\infty} e^{-\\frac{x^2}{2 \\sigma^2}} d x \\\\ & =\\sqrt{2 \\pi} \\sigma \\cdot \\int_0^{+\\infty} \\frac{1}{\\sqrt{2 \\pi} \\sigma} e^{-\\frac{x^2}{2 \\sigma^2}} d x=\\sqrt{2 \\pi} \\sigma \\times \\frac{1}{2}=\\sqrt{\\frac{\\pi}{2}} \\sigma . \\end{aligned}$\n\n或\n\n$\\begin{aligned} E(X) & =\\int_0^{+\\infty} x \\cdot \\frac{x}{\\sigma^2} e^{-\\frac{x^2}{2 \\sigma^2}} d x=\\frac{\\sqrt{2 \\pi}}{2 \\sigma} \\int_{-\\infty}^{+\\infty} \\frac{x^2}{\\sqrt{2 \\pi} \\sigma} e^{-\\frac{x^2}{2 \\sigma^2}} d x \\\\ & =\\frac{1}{\\sigma} \\sqrt{\\frac{\\pi}{2}} \\cdot\\left(\\sigma^2+0\\right)=\\sqrt{\\frac{\\pi}{2}} \\sigma . \\end{aligned}$",
+                    "question_render_type": 1,
+                    "analysis_render_type": 1,
+                    "created_at": {
+                        "seconds": 1764340098
+                    },
+                    "question_json": "neu-mathe/e86383e9cc1a4ef2a68f68b78ec66559",
+                    "updated_at": {
+                        "seconds": 1774809055
+                    },
+                    "version": 3,
+                    "is_active_version": true,
+                    "choices": [
+                        {
+                            "id": 87767,
+                            "question_id": 19229,
+                            "is_answer": true,
+                            "choice": "$\\sqrt{\\frac{\\pi}{2}} \\sigma$",
+                            "choice_render_type": 1,
+                            "choice_id": "1",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87768,
+                            "question_id": 19229,
+                            "is_answer": false,
+                            "choice": "$\\pi \\sigma$",
+                            "choice_render_type": 1,
+                            "choice_id": "2",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87769,
+                            "question_id": 19229,
+                            "is_answer": false,
+                            "choice": "$\\sqrt{\\pi} \\sigma$",
+                            "choice_render_type": 1,
+                            "choice_id": "3",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        },
+                        {
+                            "id": 87770,
+                            "question_id": 19229,
+                            "is_answer": false,
+                            "choice": "$\\frac{\\pi}{2} \\sigma$",
+                            "choice_render_type": 1,
+                            "choice_id": "4",
+                            "created_at": {
+                                "seconds": 1735080693
+                            },
+                            "updated_at": {
+                                "seconds": 1735080693
+                            }
+                        }
+                    ],
+                    "accuracy_rate": 0.67,
+                    "difficulty_score": 0.35,
+                    "avg_time_spent": 107196,
+                    "ai_tags": "概率论,数学期望,连续型随机变量"
+                }
+            ]
+        }
+    }
+]
