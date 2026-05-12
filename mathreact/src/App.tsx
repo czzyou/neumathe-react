@@ -127,10 +127,24 @@ function loadProgress(): { chapterId: number | null; pageIndex: number } {
   }
 }
 
-function MarkdownMath({ text }: { text: string }) {
+function normalizeMathText(text: string): string {
+  if (!text) return "";
   // 将短划线 \bar 替换为全宽的 \overline（包括 \bar{A} 和 \bar A，以及两层 \bar{\bar{A}}）
   // 这样渲染逻辑非、集合补集等「a的反」时会更好看。
-  const prettierText = text.replace(/\\bar(?![a-zA-Z])/g, "\\overline");
+  let result = text.replace(/\\bar(?![a-zA-Z])/g, "\\overline");
+  
+  // 修复 \begin{tabular} 在 KaTeX 中不支持且排版错乱的问题
+  // 替换为 KaTeX 支持的 \begin{array}，包裹在 $$ 中成为公式块，并去除内部 $ 避免语法破坏
+  result = result.replace(/\\begin\{tabular\}([\s\S]*?)\\end\{tabular\}/g, (match, inner) => {
+    const noMathInner = inner.replace(/\$/g, " ");
+    return `\n$$\n\\begin{array}${noMathInner}\\end{array}\n$$\n`;
+  });
+  
+  return result;
+}
+
+function MarkdownMath({ text }: { text: string }) {
+  const prettierText = normalizeMathText(text);
 
   return (
     <ReactMarkdown remarkPlugins={[remarkMath]} rehypePlugins={[rehypeKatex]}>
@@ -444,15 +458,12 @@ function generateObsidianMarkdown(
         .map((c, i) => `- **${getChoiceLabel(c.choice_id, i)}.** ${c.choice}`)
         .join("\n");
 
-      // 题干 & 解析同样替换 \bar→\overline，与 MarkdownMath 保持一致
-      const questionText = q.question.replace(
-        /\\bar(?![a-zA-Z])/g,
-        "\\overline",
-      );
+      // 题干 & 解析同样替换，与 MarkdownMath 保持一致
+      const questionText = normalizeMathText(q.question);
 
-      const analysisRaw = normalizeAnalysisText(
+      const analysisRaw = normalizeMathText(normalizeAnalysisText(
         q.analysis || "暂无解析",
-      ).replace(/\\bar(?![a-zA-Z])/g, "\\overline");
+      ));
       // Obsidian Callout 要求每行都以 "> " 开头（空行也需要 ">"）
       const analysisCallout = analysisRaw
         .split("\n")
