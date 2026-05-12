@@ -132,28 +132,33 @@ function normalizeMathText(text: string): string {
   // 将短划线 \bar 替换为全宽的 \overline（包括 \bar{A} 和 \bar A，以及两层 \bar{\bar{A}}）
   // 这样渲染逻辑非、集合补集等「a的反」时会更好看。
   let result = text.replace(/\\bar(?![a-zA-Z])/g, "\\overline");
-  
+
   // 修复 \begin{tabular} 在 KaTeX 中不支持且排版错乱的问题
   // 替换为 KaTeX 支持的 \begin{array}，包裹在 $$ 中成为公式块，并去除内部 $ 避免语法破坏
-  result = result.replace(/\\begin\{tabular\}([\s\S]*?)\\end\{tabular\}/g, (_match, inner) => {
-    const noMathInner = inner.replace(/\$/g, " ");
-    return `\n$$\n\\begin{array}${noMathInner}\\end{array}\n$$\n`;
-  });
+  result = result.replace(
+    /\\begin\{tabular\}([\s\S]*?)\\end\{tabular\}/g,
+    (_match, inner) => {
+      const noMathInner = inner.replace(/\$/g, " ");
+      return `\n$$\n\\begin{array}${noMathInner}\\end{array}\n$$\n`;
+    },
+  );
 
   // 修复极端错乱的题库数据：有些题目的公式裸露在外，而用 "$$ $$" 作为公式间的分隔符。
   // 例如：`P\{X=0\}=... $$ $$ P\{X=1\}=...`
-  // 对这类文本，我们在首尾强行补充 $$，使其重新正确配对。
-  if (result.includes("$$ $$") || result.includes("$$  $$")) {
+  // 这类文本应拆成多个独立 display math 块，而不是把整段再包一层 $$。
+  if (/\$\$\s+\$\$/.test(result)) {
     const trimmed = result.trim();
-    if (!trimmed.startsWith("$$")) {
-      result = "$$\n" + result;
-    }
-    if (!trimmed.endsWith("$$")) {
-      result = result + "\n$$";
+    if (!trimmed.startsWith("$$") && !trimmed.endsWith("$$")) {
+      result = trimmed
+        .split(/\s*\$\$\s+\$\$\s*/)
+        .map((part) => part.trim())
+        .filter(Boolean)
+        .map((part) => `$$\n${part}\n$$`)
+        .join("\n\n");
     }
   }
 
-  // 修复同行紧邻的 $$...$$  块（如 "$$ ... $$ $$ ... $$"）无法被 remark-math 识别的问题。
+  // 修复同行紧邻的 $$...$$ 块（如 "$$ ... $$ $$ ... $$"）无法被 remark-math 识别的问题。
   // remark-math 要求每个 display math 块前后都有空行（段落边界），
   // 因此将 $$ 结束符与下一个 $$ 开始符之间的空白替换为双换行。
   result = result.replace(/(\$\$)\s+(\$\$)/g, "$1\n\n$2");
@@ -252,9 +257,39 @@ function getHardTags(question: RawQuestion): HardTag[] {
 }
 
 function normalizeAnalysisText(text: string): string {
+  const splitTopLevelAlignedRows = (inner: string): string[] => {
+    const rows: string[] = [];
+    let rowStart = 0;
+    let nestedEnvironmentDepth = 0;
+
+    for (let i = 0; i < inner.length; i++) {
+      if (inner.startsWith("\\begin{", i)) {
+        nestedEnvironmentDepth += 1;
+        continue;
+      }
+
+      if (inner.startsWith("\\end{", i)) {
+        nestedEnvironmentDepth = Math.max(0, nestedEnvironmentDepth - 1);
+        continue;
+      }
+
+      if (
+        nestedEnvironmentDepth === 0 &&
+        inner[i] === "\\" &&
+        inner[i + 1] === "\\"
+      ) {
+        rows.push(inner.slice(rowStart, i));
+        i += 1;
+        rowStart = i + 1;
+      }
+    }
+
+    rows.push(inner.slice(rowStart));
+    return rows;
+  };
+
   const splitAligned = (_whole: string, inner: string): string => {
-    const lines = inner
-      .split(/\\\\\s*/)
+    const lines = splitTopLevelAlignedRows(inner)
       .map((line) =>
         line
           .replace(/^\s*&\s*/, "")
@@ -272,13 +307,20 @@ function normalizeAnalysisText(text: string): string {
   };
 
   // 优先匹配带 $$ 包裹的 aligned，避免产生双层 $$ 导致不渲染。
-  const replacedWithBlock = text.replace(
+  const replacedWithDisplayBlock = text.replace(
     /\$\$\s*\\begin\{aligned\}([\s\S]*?)\\end\{aligned\}\s*\$\$/g,
     splitAligned,
   );
 
-  // 兜底处理未被 $$ 包裹的 aligned。
-  return replacedWithBlock.replace(
+  // 很多题库解析把 display-only 的 aligned 写成了 `$\begin{aligned}...\end{aligned}$`。
+  // 如果只替换内部 begin/end，会残留首尾 `$`，最终变成 `$$$...$$$` 而无法渲染。
+  const replacedWithInlineBlock = replacedWithDisplayBlock.replace(
+    /\$(?!\$)\s*\\begin\{aligned\}([\s\S]*?)\\end\{aligned\}\s*\$(?!\$)/g,
+    splitAligned,
+  );
+
+  // 兜底处理完全未被 $ 包裹的 aligned。
+  return replacedWithInlineBlock.replace(
     /\\begin\{aligned\}([\s\S]*?)\\end\{aligned\}/g,
     splitAligned,
   );
@@ -479,9 +521,9 @@ function generateObsidianMarkdown(
       // 题干 & 解析同样替换，与 MarkdownMath 保持一致
       const questionText = normalizeMathText(q.question);
 
-      const analysisRaw = normalizeMathText(normalizeAnalysisText(
-        q.analysis || "暂无解析",
-      ));
+      const analysisRaw = normalizeMathText(
+        normalizeAnalysisText(q.analysis || "暂无解析"),
+      );
       // Obsidian Callout 要求每行都以 "> " 开头（空行也需要 ">"）
       const analysisCallout = analysisRaw
         .split("\n")
