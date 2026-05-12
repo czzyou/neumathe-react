@@ -1,0 +1,98 @@
+name: Deploy mathreact to VPS
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-neumathe
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    name: Build and deploy
+    runs-on: ubuntu-latest
+
+    env:
+      VPS_HOST: ${{ secrets.VPS_HOST }}
+      VPS_USER: ${{ secrets.VPS_USER }}
+      VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+
+    defaults:
+      run:
+        working-directory: mathreact
+
+    steps:
+      - name: Check deploy secrets
+        if: env.VPS_HOST == '' || env.VPS_USER == '' || env.VPS_SSH_KEY == ''
+        working-directory: .
+        run: |
+          echo "Missing GitHub Actions secrets: VPS_HOST, VPS_USER, VPS_SSH_KEY"
+          echo "Skipping deployment. Configure secrets, then run this workflow manually or push again."
+
+      - name: Checkout repository
+        if: env.VPS_HOST != '' && env.VPS_USER != '' && env.VPS_SSH_KEY != ''
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        if: env.VPS_HOST != '' && env.VPS_USER != '' && env.VPS_SSH_KEY != ''
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: mathreact/package-lock.json
+
+      - name: Install dependencies
+        if: env.VPS_HOST != '' && env.VPS_USER != '' && env.VPS_SSH_KEY != ''
+        run: npm ci
+
+      - name: Build
+        if: env.VPS_HOST != '' && env.VPS_USER != '' && env.VPS_SSH_KEY != ''
+        run: npm run build
+
+      - name: Prepare deploy package
+        if: env.VPS_HOST != '' && env.VPS_USER != '' && env.VPS_SSH_KEY != ''
+        working-directory: .
+        run: |
+          rm -rf deploy-package
+          mkdir deploy-package
+          cp -a mathreact/dist/. deploy-package/
+
+      - name: Clean remote web directory
+        if: env.VPS_HOST != '' && env.VPS_USER != '' && env.VPS_SSH_KEY != ''
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ env.VPS_HOST }}
+          username: ${{ env.VPS_USER }}
+          key: ${{ env.VPS_SSH_KEY }}
+          script: |
+            set -e
+            mkdir -p /var/www/neumathe
+            rm -rf /var/www/neumathe/*
+
+      - name: Upload build files
+        if: env.VPS_HOST != '' && env.VPS_USER != '' && env.VPS_SSH_KEY != ''
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ env.VPS_HOST }}
+          username: ${{ env.VPS_USER }}
+          key: ${{ env.VPS_SSH_KEY }}
+          source: deploy-package/*
+          target: /var/www/neumathe
+          strip_components: 1
+
+      - name: Verify deployment
+        if: env.VPS_HOST != '' && env.VPS_USER != '' && env.VPS_SSH_KEY != ''
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ env.VPS_HOST }}
+          username: ${{ env.VPS_USER }}
+          key: ${{ env.VPS_SSH_KEY }}
+          script: |
+            set -e
+            test -f /var/www/neumathe/index.html
+            nginx -t
+            systemctl reload nginx || systemctl restart nginx
+            echo DEPLOY_OK
