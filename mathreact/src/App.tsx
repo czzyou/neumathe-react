@@ -135,11 +135,16 @@ function normalizeMathText(text: string): string {
   
   // 修复 \begin{tabular} 在 KaTeX 中不支持且排版错乱的问题
   // 替换为 KaTeX 支持的 \begin{array}，包裹在 $$ 中成为公式块，并去除内部 $ 避免语法破坏
-  result = result.replace(/\\begin\{tabular\}([\s\S]*?)\\end\{tabular\}/g, (match, inner) => {
+  result = result.replace(/\\begin\{tabular\}([\s\S]*?)\\end\{tabular\}/g, (_match, inner) => {
     const noMathInner = inner.replace(/\$/g, " ");
     return `\n$$\n\\begin{array}${noMathInner}\\end{array}\n$$\n`;
   });
-  
+
+  // 修复同行紧邻的 $$...$$  块（如 "$$ ... $$ $$ ... $$"）无法被 remark-math 识别的问题。
+  // remark-math 要求每个 display math 块前后都有空行（段落边界），
+  // 因此将 $$ 结束符与下一个 $$ 开始符之间的空白替换为双换行。
+  result = result.replace(/(\$\$)\s+(\$\$)/g, "$1\n\n$2");
+
   return result;
 }
 
