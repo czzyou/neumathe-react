@@ -140,6 +140,19 @@ function normalizeMathText(text: string): string {
     return `\n$$\n\\begin{array}${noMathInner}\\end{array}\n$$\n`;
   });
 
+  // 修复极端错乱的题库数据：有些题目的公式裸露在外，而用 "$$ $$" 作为公式间的分隔符。
+  // 例如：`P\{X=0\}=... $$ $$ P\{X=1\}=...`
+  // 对这类文本，我们在首尾强行补充 $$，使其重新正确配对。
+  if (result.includes("$$ $$") || result.includes("$$  $$")) {
+    const trimmed = result.trim();
+    if (!trimmed.startsWith("$$")) {
+      result = "$$\n" + result;
+    }
+    if (!trimmed.endsWith("$$")) {
+      result = result + "\n$$";
+    }
+  }
+
   // 修复同行紧邻的 $$...$$  块（如 "$$ ... $$ $$ ... $$"）无法被 remark-math 识别的问题。
   // remark-math 要求每个 display math 块前后都有空行（段落边界），
   // 因此将 $$ 结束符与下一个 $$ 开始符之间的空白替换为双换行。
