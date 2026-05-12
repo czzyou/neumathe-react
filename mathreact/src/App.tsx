@@ -845,6 +845,17 @@ function App() {
     return sortedQuestions.slice(start, end);
   }, [sortedQuestions, pageIndex]);
 
+  const pageTitle = useMemo(() => {
+    if (viewMode === "favorites") {
+      return "收藏题夹";
+    }
+    if (chapterId == null) {
+      return "概率统计 256-400 章节练习";
+    }
+    const found = chapters.find((chapter) => chapter.id === chapterId);
+    return found?.name ?? "概率统计 256-400 章节练习";
+  }, [viewMode, chapterId, chapters]);
+
   const selectedChapterLabel = useMemo(() => {
     if (viewMode === "favorites") {
       return "收藏题夹（跨章节）";
@@ -983,7 +994,7 @@ function App() {
     <div className="app-shell">
       <header className="hero">
         <p className="kicker">mathreact 练习站</p>
-        <h1>概率统计 256-400 章节练习</h1>
+        <h1>{pageTitle}</h1>
         <p className="sub">
           章节覆盖以目录树叶子节点为准，数据来自本地题库文件。
         </p>
