@@ -129,23 +129,32 @@ function loadProgress(): { chapterId: number | null; pageIndex: number } {
 
 function normalizeMathText(text: string): string {
   if (!text) return "";
-  // 将短划线 \bar 替换为全宽的 \overline（包括 \bar{A} 和 \bar A，以及两层 \bar{\bar{A}}）
-  // 这样渲染逻辑非、集合补集等「a的反」时会更好看。
+
+  // 1. 基本替换：\bar -> \overline, tabular -> array
   let result = text.replace(/\\bar(?![a-zA-Z])/g, "\\overline");
-  
-  // 修复 \begin{tabular} 在 KaTeX 中不支持且排版错乱的问题
-  // 替换为 KaTeX 支持的 \begin{array}，包裹在 $$ 中成为公式块，并去除内部 $ 避免语法破坏
   result = result.replace(/\\begin\{tabular\}([\s\S]*?)\\end\{tabular\}/g, (_match, inner) => {
     const noMathInner = inner.replace(/\$/g, " ");
     return `\n$$\n\\begin{array}${noMathInner}\\end{array}\n$$\n`;
   });
 
-  // 修复同行紧邻的 $$...$$  块（如 "$$ ... $$ $$ ... $$"）无法被 remark-math 识别的问题。
-  // remark-math 要求每个 display math 块前后都有空行（段落边界），
-  // 因此将 $$ 结束符与下一个 $$ 开始符之间的空白替换为双换行。
-  result = result.replace(/(\$\$)\s+(\$\$)/g, "$1\n\n$2");
+  // 2. 核心修复：处理“分隔符式”或“缺失包裹”的 $$ 逻辑
+  // 按照 $$ 切分，识别其中包含数学特征的片段并强制包裹
+  const parts = result.split(/\$\$/);
+  const normalizedParts = parts.map((part) => {
+    const trimmed = part.trim();
+    if (!trimmed) return "";
 
-  return result;
+    // 如果片段包含 LaTeX 特征字符（反斜杠、大括号、幂次、下标），则认为它是数学公式
+    const hasMathFlags = /[\\{}^_]/.test(trimmed);
+    
+    if (hasMathFlags) {
+      // 强制转换为标准的 display math 块，确保前后有换行
+      return `\n\n$$\n${trimmed}\n$$\n\n`;
+    }
+    return part;
+  });
+
+  return normalizedParts.join("").replace(/\n{3,}/g, "\n\n").trim();
 }
 
 function MarkdownMath({ text }: { text: string }) {
