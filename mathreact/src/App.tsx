@@ -774,6 +774,7 @@ function App() {
   );
 
   useEffect(() => {
+    if (sortedQuestions.length === 0) return;
     const maxPage = Math.max(
       0,
       Math.ceil(sortedQuestions.length / QUESTIONS_PER_PAGE) - 1,
