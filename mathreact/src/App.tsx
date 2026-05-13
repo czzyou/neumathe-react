@@ -166,8 +166,11 @@ function normalizeMathText(text: string): string {
   return result;
 }
 
-function MarkdownMath({ text }: { text: string }) {
-  const prettierText = normalizeMathText(text);
+function MarkdownMath({ text, isAnalysis }: { text: string; isAnalysis?: boolean }) {
+  let prettierText = normalizeMathText(text);
+  if (isAnalysis) {
+    prettierText = normalizeAnalysisText(prettierText);
+  }
 
   return (
     <ReactMarkdown remarkPlugins={[remarkMath]} rehypePlugins={[rehypeKatex]}>
@@ -521,8 +524,8 @@ function generateObsidianMarkdown(
       // 题干 & 解析同样替换，与 MarkdownMath 保持一致
       const questionText = normalizeMathText(q.question);
 
-      const analysisRaw = normalizeMathText(
-        normalizeAnalysisText(q.analysis || "暂无解析"),
+      const analysisRaw = normalizeAnalysisText(
+        normalizeMathText(q.analysis || "暂无解析"),
       );
       // Obsidian Callout 要求每行都以 "> " 开头（空行也需要 ">"）
       const analysisCallout = analysisRaw
@@ -1375,9 +1378,8 @@ function App() {
                           <section className="analysis markdown-body">
                             <h3>题目解析</h3>
                             <MarkdownMath
-                              text={normalizeAnalysisText(
-                                question.analysis || "暂无解析",
-                              )}
+                              text={question.analysis || "暂无解析"}
+                              isAnalysis={true}
                             />
                             {question.analysis_image && (
                               <div className="analysis-image-container">
