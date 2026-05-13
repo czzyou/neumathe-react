@@ -60,6 +60,18 @@ jobs:
           mkdir deploy-package
           cp -a mathreact/dist/. deploy-package/
 
+      - name: Verify JSON content in dist
+        if: env.VPS_HOST != '' && env.VPS_USER != '' && env.VPS_SSH_KEY != ''
+        working-directory: .
+        run: |
+          echo "Verifying neumathe_chapter_296_raw.json locally..."
+          if grep -Fq '$$' deploy-package/data/chapters/neumathe_chapter_296_raw.json; then
+            echo "Successfully found \$\$ in local dist file."
+          else
+            echo "Error: \$\$ not found in local dist neumathe_chapter_296_raw.json! The build data might be stale."
+            exit 1
+          fi
+
       - name: Clean remote web directory
         if: env.VPS_HOST != '' && env.VPS_USER != '' && env.VPS_SSH_KEY != ''
         uses: appleboy/ssh-action@v1.0.3
@@ -95,4 +107,13 @@ jobs:
             test -f /var/www/neumathe/index.html
             nginx -t
             systemctl reload nginx || systemctl restart nginx
+            
+            echo "Verifying neumathe_chapter_296_raw.json on VPS..."
+            if grep -Fq '$$' /var/www/neumathe/data/chapters/neumathe_chapter_296_raw.json; then
+              echo "VPS data is updated and contains \$\$."
+            else
+              echo "Error: VPS data is still old (missing \$\$). Actions deployed but data is stale!"
+              exit 1
+            fi
+            
             echo DEPLOY_OK
