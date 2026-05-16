@@ -76,6 +76,10 @@ const PROGRESS_STORAGE_KEY = "mathreact:progress";
 const LOW_ACCURACY_THRESHOLD = 0.67;
 const LONG_TIME_THRESHOLD = 121711;
 const HIGH_DIFFICULTY_THRESHOLD = 0.43;
+const DATA_VERSION = import.meta.env.VITE_DATA_VERSION ?? "dev";
+const DATA_FETCH_OPTIONS: RequestInit = { cache: "no-store" };
+const dataUrl = (path: string) =>
+  `${path}?v=${encodeURIComponent(DATA_VERSION)}`;
 const HARD_TAG_META: Record<HardTag, { label: string; chipClass: string }> = {
   mistake: { label: "L1 易错题", chipClass: "hard-mistake" },
   slow: { label: "L2 耗时题", chipClass: "hard-slow" },
@@ -654,7 +658,10 @@ function App() {
     const run = async () => {
       try {
         setError("");
-        const res = await fetch("/data/meta/neumathe_chapter_tree.json");
+        const res = await fetch(
+          dataUrl("/data/meta/neumathe_chapter_tree.json"),
+          DATA_FETCH_OPTIONS,
+        );
         if (!res.ok) {
           throw new Error("目录树文件读取失败");
         }
@@ -691,7 +698,8 @@ function App() {
         setLoading(true);
         setError("");
         const res = await fetch(
-          `/data/chapters/neumathe_chapter_${chapterId}_raw.json`,
+          dataUrl(`/data/chapters/neumathe_chapter_${chapterId}_raw.json`),
+          DATA_FETCH_OPTIONS,
         );
         if (!res.ok) {
           throw new Error("章节题库读取失败");
@@ -738,7 +746,10 @@ function App() {
           chapters.map(async (chapter) => {
             try {
               const res = await fetch(
-                `/data/chapters/neumathe_chapter_${chapter.id}_raw.json`,
+                dataUrl(
+                  `/data/chapters/neumathe_chapter_${chapter.id}_raw.json`,
+                ),
+                DATA_FETCH_OPTIONS,
               );
               if (!res.ok) {
                 return [] as RawQuestion[];

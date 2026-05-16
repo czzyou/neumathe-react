@@ -50,7 +50,7 @@ jobs:
 
       - name: Build
         if: env.VPS_HOST != '' && env.VPS_USER != '' && env.VPS_SSH_KEY != ''
-        run: npm run build
+        run: VITE_DATA_VERSION="${GITHUB_SHA}-${GITHUB_RUN_NUMBER}" npm run build
 
       - name: Prepare deploy package
         if: env.VPS_HOST != '' && env.VPS_USER != '' && env.VPS_SSH_KEY != ''
@@ -95,6 +95,16 @@ jobs:
           target: /var/www/neumathe
           strip_components: 1
 
+      - name: Upload nginx config
+        if: env.VPS_HOST != '' && env.VPS_USER != '' && env.VPS_SSH_KEY != ''
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ env.VPS_HOST }}
+          username: ${{ env.VPS_USER }}
+          key: ${{ env.VPS_SSH_KEY }}
+          source: neumathe.conf
+          target: /tmp
+
       - name: Verify deployment
         if: env.VPS_HOST != '' && env.VPS_USER != '' && env.VPS_SSH_KEY != ''
         uses: appleboy/ssh-action@v1.0.3
@@ -104,6 +114,9 @@ jobs:
           key: ${{ env.VPS_SSH_KEY }}
           script: |
             set -e
+            mv /tmp/neumathe.conf /etc/nginx/sites-available/neumathe
+            ln -sf /etc/nginx/sites-available/neumathe /etc/nginx/sites-enabled/neumathe
+            rm -f /etc/nginx/sites-enabled/default
             test -f /var/www/neumathe/index.html
             nginx -t
             systemctl reload nginx || systemctl restart nginx
