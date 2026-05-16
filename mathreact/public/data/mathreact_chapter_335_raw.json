@@ -13,7 +13,7 @@
                     "difficulty": "Easy",
                     "answer": "4",
                     "question_type": 1,
-                    "question": "�?$X, Y$ 是两个随机变�? �?$P\\{X \\geq 0\\}=P\\{Y \\geq 0\\}=\\frac{4}{7}, P\\{X \\geq 0, Y \\geq 0\\}=\\frac{3}{7}$, �?$P\\{\\max \\{X, Y\\}<0\\}=($ ).",
+                    "question": "�?$X, Y$ 是两个随机变�? �?$P\\{X \\geq 0\\}=P\\{Y \\geq 0\\}=\\frac{4}{7}, P\\{X \\geq 0, Y \\geq 0\\}=\\frac{3}{7}$, �?$P\\{\\max \\{X, Y\\}<0\\}=($ ).",
                     "analysis": "$\\begin{aligned} P\\{\\max \\{X, Y\\}<0\\} & =1-P\\{\\max \\{X, Y\\} \\geq 0\\} \\\\ & =1-(P\\{X \\geq 0\\}+P\\{Y \\geq 0\\}-P\\{X \\geq 0, Y \\geq 0\\}) \\\\ & =1-\\left(\\frac{4}{7}+\\frac{4}{7}-\\frac{3}{7}\\right) \\\\ & =\\frac{2}{7} .\\end{aligned}$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
@@ -87,7 +87,7 @@
                     "accuracy_rate": 0.88,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 48707,
-                    "ai_tags": "概率�?随机变量,事件的概�?
+                    "ai_tags": "概率�?随机变量,事件的概"
                 },
                 {
                     "id": 13478,
@@ -97,7 +97,7 @@
                     "difficulty": "Easy",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "�?$X$ �?$Y$ 相互独立具有同一分布�? �?$X$ 的分布律为\n\\begin{tabular}{c|cc}\n\\hline$X$ & 0 & 1 \\\\\n\\hline$P$ & $\\frac{1}{3}$ & $\\frac{2}{3}$ \\\\\n\\hline\n\\end{tabular}\n\n�?$Z=\\max \\{X, Y\\}$ 的分布律�?$(\\mathrm{)}$.",
+                    "question": "�?$X$ �?$Y$ 相互独立具有同一分布�? �?$X$ 的分布律为\n\\begin{tabular}{c|cc}\n\\hline$X$ & 0 & 1 \\\\\n\\hline$P$ & $\\frac{1}{3}$ & $\\frac{2}{3}$ \\\\\n\\hline\n\\end{tabular}\n\n�?$Z=\\max \\{X, Y\\}$ 的分布律�?$(\\mathrm{)}$.",
                     "analysis": "依题意有\n\\begin{tabular}{c|cccc}\n\\hline$(X, Y)$ & $(0,0)$ & $(0,1)$ & $(1,0)$ & $(1,1)$ \\\\\n\\hline$P$ & $1 / 9$ & $2 / 9$ & $2 / 9$ & $4 / 9$ \\\\\n\\hline$Z$ & 0 & 1 & 1 & 1 \\\\\n\\hline\n\\end{tabular}\n\n于是 $Z$ 的分布律为\n\\begin{tabular}{c|cc}\n\\hline Z & 0 & 1 \\\\\n\\hline$P$ & $1 / 9$ & $8 / 9$ \\\\\n\\hline\n\\end{tabular}",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
@@ -171,7 +171,7 @@
                     "accuracy_rate": 1,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 18084,
-                    "ai_tags": "离散型随机变�?相互独立,随机变量的分�?
+                    "ai_tags": "离散型随机变�?相互独立,随机变量的分"
                 },
                 {
                     "id": 13480,
@@ -181,7 +181,7 @@
                     "difficulty": "Easy",
                     "answer": "4",
                     "question_type": 1,
-                    "question": "�?$X$ �?$Y$ 为两个随机变�? �?$P\\{X \\leq 1, Y \\leq 1\\}=\\frac{4}{9}, P\\{X \\leq 1\\}=\\frac{5}{9}, P\\{Y \\leq 1\\}=\\frac{5}{9}$, �?$P\\{\\min (X, Y) \\leq 1\\}=()$.",
+                    "question": "�?$X$ �?$Y$ 为两个随机变�? �?$P\\{X \\leq 1, Y \\leq 1\\}=\\frac{4}{9}, P\\{X \\leq 1\\}=\\frac{5}{9}, P\\{Y \\leq 1\\}=\\frac{5}{9}$, �?$P\\{\\min (X, Y) \\leq 1\\}=()$.",
                     "analysis": "$\\begin{aligned} P\\{\\min (X, Y) \\leq 1\\} & =P\\{X \\leq 1\\}+P\\{Y \\leq 1\\}-P\\{X \\leq 1, Y \\leq 1\\} \\\\ & =\\frac{5}{9}+\\frac{5}{9}-\\frac{4}{9}=\\frac{6}{9}=\\frac{2}{3} .\\end{aligned}$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
@@ -255,7 +255,7 @@
                     "accuracy_rate": 0.88,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 154698,
-                    "ai_tags": "概率�?随机变量,概率加法公式"
+                    "ai_tags": "概率�?随机变量,概率加法公式"
                 },
                 {
                     "id": 13482,
@@ -265,7 +265,7 @@
                     "difficulty": "Easy",
                     "answer": "2",
                     "question_type": 1,
-                    "question": "�?$X$ �?$Y$ 为两个随机变�? �?$P\\{X \\geq 0, Y \\geq 0\\}=\\frac{3}{7}, P\\{X \\geq 0\\}=P\\{Y \\geq 0\\}=\\frac{4}{7}$, �?$P\\{\\min (X, Y)<0\\}=()$.",
+                    "question": "�?$X$ �?$Y$ 为两个随机变�? �?$P\\{X \\geq 0, Y \\geq 0\\}=\\frac{3}{7}, P\\{X \\geq 0\\}=P\\{Y \\geq 0\\}=\\frac{4}{7}$, �?$P\\{\\min (X, Y)<0\\}=()$.",
                     "analysis": "$\\begin{aligned} P\\{\\min (X, Y)<0\\} & =1-P\\{\\min (X, Y) \\geq 0) \\\\ & =1-P\\{X \\geq 0, Y \\geq 0\\} \\\\ & =1-\\frac{3}{7}=\\frac{4}{7} .\\end{aligned}$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
@@ -349,7 +349,7 @@
                     "difficulty": "Easy",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设随机变�?$\\xi, \\eta$ 独立同分�? �?$\\xi$ 的概率分布为\n\\begin{tabular}{c|cc}\n\\hline$\\xi$ & 0 & 1 \\\\\n\\hline$p_i$ & $2 / 3$ & $1 / 3$ \\\\\n\\hline\n\\end{tabular}\n\n�?$\\zeta=\\max \\{\\xi, \\eta\\}$ 的概率分布为 ( ).",
+                    "question": "设随机变�?$\\xi, \\eta$ 独立同分�? �?$\\xi$ 的概率分布为\n\\begin{tabular}{c|cc}\n\\hline$\\xi$ & 0 & 1 \\\\\n\\hline$p_i$ & $2 / 3$ & $1 / 3$ \\\\\n\\hline\n\\end{tabular}\n\n�?$\\zeta=\\max \\{\\xi, \\eta\\}$ 的概率分布为 ( ).",
                     "analysis": "因为独立, 所以有\n\\begin{tabular}{c|cccc}\n\\hline$(\\xi, \\eta)$ & $(0,0)$ & $(0,1)$ & $(1,0)$ & $(1,1)$ \\\\\n\\hline$p_i$ & $4 / 9$ & $2 / 9$ & $2 / 9$ & $1 / 9$ \\\\\n\\hline$\\zeta$ & 0 & 1 & 1 & 1 \\\\\n\\hline\n\\end{tabular}\n\n故\n\\begin{tabular}{c|cc}\n\\hline$\\zeta$ & 0 & 1 \\\\\n\\hline$p_1$ & $4 / 9$ & $5 / 9$ \\\\\n\\hline\n\\end{tabular}",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
@@ -423,7 +423,7 @@
                     "accuracy_rate": 1,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 38926,
-                    "ai_tags": "概率�?离散型随机变�?独立同分�?
+                    "ai_tags": "概率�?离散型随机变�?独立同分"
                 },
                 {
                     "id": 18994,
@@ -433,7 +433,7 @@
                     "difficulty": "Easy",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设随机变�?$X$ �?$Y$ 相互独立, 其分布函数分别为 $F_X(x)$ �?$F_Y(y)$, 则随机变�?$Z=\\min (X, Y)$ 的分布函�?$F_Z(z)$ 等于 ( ).",
+                    "question": "设随机变�?$X$ �?$Y$ 相互独立, 其分布函数分别为 $F_X(x)$ �?$F_Y(y)$, 则随机变�?$Z=\\min (X, Y)$ 的分布函�?$F_Z(z)$ 等于 ( ).",
                     "analysis": "$\\begin{aligned} F_Z(z) & =P\\{Z \\leq z\\}=1-P\\{\\min (X, Y)>z\\} \\\\ & =1-P\\{X>z\\} P\\{Y>z\\}=1-\\left[1-F_X(z)\\right]\\left[1-F_Y(z)\\right] \\\\ & =F_X(z)+F_Y(z)-F_X(z) F_Y(z) .\\end{aligned}$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
@@ -507,7 +507,7 @@
                     "accuracy_rate": 0.89,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 19763,
-                    "ai_tags": "概率�?随机变量,分布函数"
+                    "ai_tags": "概率�?随机变量,分布函数"
                 },
                 {
                     "id": 18997,
@@ -517,8 +517,8 @@
                     "difficulty": "Medium",
                     "answer": "4",
                     "question_type": 1,
-                    "question": "设随机变�?$X, Y$ 相互独立, �?$X$ �?$Y$ 分别服从区间 $(0,1)$ �?$(0,2)$ 上的均匀分布, �?$U=\\max \\{X, Y\\}$ 的概率密度为 ().",
-                    "analysis": "由题设知�?X$ �?$Y$ 的概率密度分别为\n$$\nf_X(x)=\\left\\{\\begin{array}{ll}\n1, & 0<x<1 \\\\\n0, & \\text { 其它 }\n\\end{array}\\right., \\quad f_Y(y)=\\left\\{\\begin{array}{ll}\n1 / 2, & 0<y<2 \\\\\n0, & \\text { 其它 }\n\\end{array}\\right.\n$$\n于是�?X$ �?$Y$ 的分布函数分别为\n$$\nF_X(x)=\\left\\{\\begin{array}{ll}\n0, & x \\leq 0 \\\\\nx, & 0 \\leq x<1 \\\\\n1, & x \\geq 1\n\\end{array}\\right., \\quad F_Y(y)=\\left\\{\\begin{array}{ll}\n0, & y<0 \\\\\ny / 2, & 0 \\leq y<2 \\\\\n1, & y \\geq 2\n\\end{array}\\right.\n$$\n从�?$U=\\max \\{X, Y\\}$ 的分布函数为\n$$\nF_U(u)=F_X(u) F_Y(u)=\\left\\{\\begin{array}{ll}\n0, & u<0 \\\\\nu^2 / 2, & 0 \\leq u<1 \\\\\nu / 2, & 1 \\leq u<2 \\\\\n1, & u \\geq 2\n\\end{array}\\right.\n$$\n�?$U=\\max \\{X, Y\\}$ 的概率密度为\n$$\nf_U(u)=\\left\\{\\begin{array}{ll}\nu, & 0<u<1 \\\\\n1 / 2, & 1 \\leq u<2 \\\\\n0, & \\text { 其它 }\n\\end{array}\\right.\n$$",
+                    "question": "设随机变�?$X, Y$ 相互独立, �?$X$ �?$Y$ 分别服从区间 $(0,1)$ �?$(0,2)$ 上的均匀分布, �?$U=\\max \\{X, Y\\}$ 的概率密度为 ().",
+                    "analysis": "由题设知�?X$ �?$Y$ 的概率密度分别为\n$$\nf_X(x)=\\left\\{\\begin{array}{ll}\n1, & 0<x<1 \\\\\n0, & \\text { 其它 }\n\\end{array}\\right., \\quad f_Y(y)=\\left\\{\\begin{array}{ll}\n1 / 2, & 0<y<2 \\\\\n0, & \\text { 其它 }\n\\end{array}\\right.\n$$\n于是�?X$ �?$Y$ 的分布函数分别为\n$$\nF_X(x)=\\left\\{\\begin{array}{ll}\n0, & x \\leq 0 \\\\\nx, & 0 \\leq x<1 \\\\\n1, & x \\geq 1\n\\end{array}\\right., \\quad F_Y(y)=\\left\\{\\begin{array}{ll}\n0, & y<0 \\\\\ny / 2, & 0 \\leq y<2 \\\\\n1, & y \\geq 2\n\\end{array}\\right.\n$$\n从�?$U=\\max \\{X, Y\\}$ 的分布函数为\n$$\nF_U(u)=F_X(u) F_Y(u)=\\left\\{\\begin{array}{ll}\n0, & u<0 \\\\\nu^2 / 2, & 0 \\leq u<1 \\\\\nu / 2, & 1 \\leq u<2 \\\\\n1, & u \\geq 2\n\\end{array}\\right.\n$$\n�?$U=\\max \\{X, Y\\}$ 的概率密度为\n$$\nf_U(u)=\\left\\{\\begin{array}{ll}\nu, & 0<u<1 \\\\\n1 / 2, & 1 \\leq u<2 \\\\\n0, & \\text { 其它 }\n\\end{array}\\right.\n$$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -591,7 +591,7 @@
                     "accuracy_rate": 0.8,
                     "difficulty_score": 0.43,
                     "avg_time_spent": 66042,
-                    "ai_tags": "概率�?均匀分布,随机变量函数的分�?
+                    "ai_tags": "概率�?均匀分布,随机变量函数的分"
                 },
                 {
                     "id": 18998,
@@ -601,7 +601,7 @@
                     "difficulty": "Easy",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "�?$X$ �?$Y$ 相互独立具有同一分布�? �?$X$ 的分布律为\n\\begin{tabular}{c|cc}\n\\hline$X$ & 0 & 1 \\\\\n\\hline$p_i$ & $\\frac{1}{2}$ & $\\frac{1}{2}$ \\\\\n\\hline\n\\end{tabular}\n\n�?$Z=\\max \\{X, Y\\}$ 的分布律�?( ).",
+                    "question": "�?$X$ �?$Y$ 相互独立具有同一分布�? �?$X$ 的分布律为\n\\begin{tabular}{c|cc}\n\\hline$X$ & 0 & 1 \\\\\n\\hline$p_i$ & $\\frac{1}{2}$ & $\\frac{1}{2}$ \\\\\n\\hline\n\\end{tabular}\n\n�?$Z=\\max \\{X, Y\\}$ 的分布律�?( ).",
                     "analysis": "依题意有\n\\begin{tabular}{c|cccc}\n\\hline$(X, Y)$ & $(0,0)$ & $(0,1)$ & $(1,0)$ & $(1,1)$ \\\\\n\\hline$P$ & $1 / 4$ & $1 / 4$ & $1 / 4$ & $1 / 4$ \\\\\n\\hline$Z$ & 0 & 1 & 1 & 1 \\\\\n\\hline\n\\end{tabular}\n\n于是 $Z$ 的分布律为\n\\begin{tabular}{c|cc}\n\\hline Z & 0 & 1 \\\\\n\\hline$P$ & $1 / 4$ & $3 / 4$ \\\\\n\\hline\n\\end{tabular}",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
@@ -675,7 +675,7 @@
                     "accuracy_rate": 0.63,
                     "difficulty_score": 0.43,
                     "avg_time_spent": 28310,
-                    "ai_tags": "离散型随机变�?相互独立,随机变量函数的分�?
+                    "ai_tags": "离散型随机变�?相互独立,随机变量函数的分"
                 },
                 {
                     "id": 19001,
@@ -685,8 +685,8 @@
                     "difficulty": "Easy",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设相互独立的两个随机变量 $X, Y$ 具有同一分布�? �?$X$ 的分布律为\n\\begin{tabular}{c|cc}\n\\hline$X$ & 0 & 1 \\\\\n\\hline$p_j$ & $1 / 5$ & $4 / 5$ \\\\\n\\hline\n\\end{tabular}\n\n则随机变�?$Z=\\max \\{X, Y\\}$ 的分布律�?().",
-                    "analysis": "由于 $X$ �?$Y$ 相互独立, 所�?$P\\{X=i, Y=j\\}=P\\{X=i\\} P\\{Y=j\\}$, 于是\n$$\n\\begin{gathered}\nP\\{Z=i\\}=P\\{\\max \\{X, Y\\}=i\\}=P\\{X=i, Y<i\\}+P\\{X \\leq i, Y=i\\} \\\\\n=\\sum_{k=0}^{i-1} P\\{X=i, Y=k\\}+\\sum_{k=0}^i P\\{X=k, Y=i\\} \\quad (i=0,1), \\\\\nP\\{Z=0\\}=P\\{\\max \\{X, Y\\}=0\\}=p(0,0)=\\frac{1}{5^2}, \\\\\nP\\{Z=1\\}=P\\{\\max \\{X, Y\\}=1\\}=1-p(0,0)=1-\\frac{1}{5^2},\n\\end{gathered}\n$$\n\n�?$Z=\\max \\{X, Y\\}$ 的分布律为\n\\begin{tabular}{|l|l|l|}\n\\hline$Z$ & 0 & 1 \\\\\n\\hline$p_i$ & $\\frac{1}{25}$ & $\\frac{24}{25}$ \\\\\n\\hline\n\\end{tabular}",
+                    "question": "设相互独立的两个随机变量 $X, Y$ 具有同一分布�? �?$X$ 的分布律为\n\\begin{tabular}{c|cc}\n\\hline$X$ & 0 & 1 \\\\\n\\hline$p_j$ & $1 / 5$ & $4 / 5$ \\\\\n\\hline\n\\end{tabular}\n\n则随机变�?$Z=\\max \\{X, Y\\}$ 的分布律�?().",
+                    "analysis": "由于 $X$ �?$Y$ 相互独立, 所�?$P\\{X=i, Y=j\\}=P\\{X=i\\} P\\{Y=j\\}$, 于是\n$$\n\\begin{gathered}\nP\\{Z=i\\}=P\\{\\max \\{X, Y\\}=i\\}=P\\{X=i, Y<i\\}+P\\{X \\leq i, Y=i\\} \\\\\n=\\sum_{k=0}^{i-1} P\\{X=i, Y=k\\}+\\sum_{k=0}^i P\\{X=k, Y=i\\} \\quad (i=0,1), \\\\\nP\\{Z=0\\}=P\\{\\max \\{X, Y\\}=0\\}=p(0,0)=\\frac{1}{5^2}, \\\\\nP\\{Z=1\\}=P\\{\\max \\{X, Y\\}=1\\}=1-p(0,0)=1-\\frac{1}{5^2},\n\\end{gathered}\n$$\n\n�?$Z=\\max \\{X, Y\\}$ 的分布律为\n\\begin{tabular}{|l|l|l|}\n\\hline$Z$ & 0 & 1 \\\\\n\\hline$p_i$ & $\\frac{1}{25}$ & $\\frac{24}{25}$ \\\\\n\\hline\n\\end{tabular}",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -759,7 +759,7 @@
                     "accuracy_rate": 1,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 96768,
-                    "ai_tags": "离散型随机变�?概率分布,独立�?
+                    "ai_tags": "离散型随机变�?概率分布,独立"
                 },
                 {
                     "id": 19005,
@@ -769,8 +769,8 @@
                     "difficulty": "Medium",
                     "answer": "4",
                     "question_type": 1,
-                    "question": "设随机变�?$X, Y$ 相互独立, �?$X, Y$ 的分布函数分别为 $F_X(x), F_Y(y)$. �?$\\xi=\\min(X, Y), \\eta=\\max\\{X, Y\\}$, �?$(\\xi, \\eta)$ 的分布函�?$F(u, v)=(\\quad)$.",
-                    "analysis": "�?$u>v$ �? $F(u, v)=0$.\n�?$u \\leq v$ �?\n$$\n\\begin{aligned}\nF(u, v) &= P\\{\\min (X, Y) \\leq u, \\max \\{X, Y\\} \\leq v\\} \\\\\n&= P\\{\\min (X, Y) \\leq u, X \\leq v, Y \\leq v\\} \\\\\n&= P\\{\\{X \\leq u \\text { �?} Y \\leq u\\}, X \\leq v, Y \\leq v\\} \\\\\n&= P\\{\\{X \\leq u, X \\leq v, Y \\leq v\\} \\cup \\{Y \\leq u, X \\leq v, Y \\leq v\\}\\} \\\\\n&= P\\{X \\leq u, Y \\leq v\\}+P\\{Y \\leq u, X \\leq v\\}-P\\{X \\leq u, Y \\leq u\\} \\\\\n&= F_X(u) F_Y(v)+F_X(v) F_Y(u)-F_X(u) F_Y(u).\n\\end{aligned}\n$$\n综上,\n$$\nF(u, v)=\\begin{cases} F_X(u) F_Y(v)+F_X(v) F_Y(u)-F_X(u) F_Y(u), & u \\leq v, \\\\ 0, & u>v. \\end{cases}\n$$",
+                    "question": "设随机变�?$X, Y$ 相互独立, �?$X, Y$ 的分布函数分别为 $F_X(x), F_Y(y)$. �?$\\xi=\\min(X, Y), \\eta=\\max\\{X, Y\\}$, �?$(\\xi, \\eta)$ 的分布函�?$F(u, v)=(\\quad)$.",
+                    "analysis": "�?$u>v$ �? $F(u, v)=0$.\n�?$u \\leq v$ �?\n$$\n\\begin{aligned}\nF(u, v) &= P\\{\\min (X, Y) \\leq u, \\max \\{X, Y\\} \\leq v\\} \\\\\n&= P\\{\\min (X, Y) \\leq u, X \\leq v, Y \\leq v\\} \\\\\n&= P\\{\\{X \\leq u \\text { �?} Y \\leq u\\}, X \\leq v, Y \\leq v\\} \\\\\n&= P\\{\\{X \\leq u, X \\leq v, Y \\leq v\\} \\cup \\{Y \\leq u, X \\leq v, Y \\leq v\\}\\} \\\\\n&= P\\{X \\leq u, Y \\leq v\\}+P\\{Y \\leq u, X \\leq v\\}-P\\{X \\leq u, Y \\leq u\\} \\\\\n&= F_X(u) F_Y(v)+F_X(v) F_Y(u)-F_X(u) F_Y(u).\n\\end{aligned}\n$$\n综上,\n$$\nF(u, v)=\\begin{cases} F_X(u) F_Y(v)+F_X(v) F_Y(u)-F_X(u) F_Y(u), & u \\leq v, \\\\ 0, & u>v. \\end{cases}\n$$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -843,7 +843,7 @@
                     "accuracy_rate": 0.67,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 52074,
-                    "ai_tags": "概率�?分布函数,次序统计�?
+                    "ai_tags": "概率�?分布函数,次序统计"
                 }
             ]
         }
@@ -862,7 +862,7 @@
                     "difficulty": "Easy",
                     "answer": "4",
                     "question_type": 1,
-                    "question": "�?$X$ �?$Y$ 相互独立具有同一分布�? �?$X$ 的分布律为\n\\begin{tabular}{c|ccc}\n\\hline $X$ & 0 & 1 & 2 \\\\\n\\hline $p_i$ & $1/3$ & $1/3$ & $1/3$ \\\\\n\\hline\n\\end{tabular}\n\n�?$Z=\\max \\{X, Y\\}$ 的分布律�?( ).",
+                    "question": "�?$X$ �?$Y$ 相互独立具有同一分布�? �?$X$ 的分布律为\n\\begin{tabular}{c|ccc}\n\\hline $X$ & 0 & 1 & 2 \\\\\n\\hline $p_i$ & $1/3$ & $1/3$ & $1/3$ \\\\\n\\hline\n\\end{tabular}\n\n�?$Z=\\max \\{X, Y\\}$ 的分布律�?( ).",
                     "analysis": "依题意有\n\\begin{tabular}{c|ccccccccc}\n\\hline $(X, Y)$ & $(0,0)$ & $(0,1)$ & $(0,2)$ & $(1,0)$ & $(1,1)$ & $(1,2)$ & $(2,0)$ & $(2,1)$ & $(2,2)$ \\\\\n\\hline & $1/9$ & $1/9$ & $1/9$ & $1/9$ & $1/9$ & $1/9$ & $1/9$ & $1/9$ & $1/9$ \\\\\n\\hline & 0 & 1 & 2 & 1 & 1 & 2 & 2 & 2 & 2 \\\\\n\\hline\n\\end{tabular}\n\n于是 $Z$ 的分布律为\n\\begin{tabular}{c|ccc}\n\\hline $Z$ & 0 & 1 & 2 \\\\\n\\hline $p_i$ & $1/9$ & $1/3$ & $5/9$ \\\\\n\\hline\n\\end{tabular}",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
@@ -936,7 +936,7 @@
                     "accuracy_rate": 1,
                     "difficulty_score": 0.32,
                     "avg_time_spent": 22341,
-                    "ai_tags": "离散型随机变�?随机变量函数的分�?相互独立"
+                    "ai_tags": "离散型随机变�?随机变量函数的分�?相互独立"
                 },
                 {
                     "id": 19007,
@@ -946,8 +946,8 @@
                     "difficulty": "Easy",
                     "answer": "2",
                     "question_type": 1,
-                    "question": "设系�?$L$ 是由两个相互独立的子系统 $L_1$ �?$L_2$ 以串联方式联接而成, $L_1$ �?$L_2$ 的寿命分别为 $X$ �?$Y$, 其概率密度分别为\n$$\n\\varphi_1(x)=\\begin{cases} \\alpha e^{-\\alpha x}, & x>0 \\\\ 0, & x \\leq 0 \\end{cases}, \\quad \\varphi_2(y)=\\begin{cases} \\beta e^{-\\beta y}, & y>0 \\\\ 0, & y \\leq 0 \\end{cases}\n$$\n其中 $\\alpha>0, \\beta>0, \\alpha \\neq \\beta$, 则系�?$L$ 的寿�?$Z$ 的概率密度为 ( ).",
-                    "analysis": "�?$Z=\\min \\{X, Y\\}$, 则\n$$\n\\begin{aligned}\nF(z) & =P\\{Z \\leq z\\}=P\\{\\min (X, Y) \\leq z\\} \\\\\n& =1-P\\{\\min (X, Y)>z\\}=1-P\\{X > z, Y > z\\} \\\\\n& =1-[1-P\\{X \\leq z\\}][1-P\\{Y \\leq z\\}]=1-[1-F_1(z)][1-F_2(z)]\n\\end{aligned}\n$$\n由于 $F_1(z)=\\begin{cases}\\int_0^z \\alpha e^{-\\alpha x} d x=1-e^{-\\alpha z}, & z \\geq 0 \\\\ 0, & z<0\\end{cases}$,\n$$\nF_2(z)=\\begin{cases}\n1-e^{-\\beta z}, & z \\geq 0 \\\\\n0, & z<0\n\\end{cases}\n$$\n�?$F(z)=\\begin{cases}1-e^{-(\\alpha+\\beta) z}, & z \\geq 0 \\\\ 0, & z<0\\end{cases}$,\n从�?$\\varphi(z)=\\begin{cases}(\\alpha+\\beta) e^{-(\\alpha+\\beta) z}, & z>0 \\\\ 0, & z \\leq 0\\end{cases}$.",
+                    "question": "设系�?$L$ 是由两个相互独立的子系统 $L_1$ �?$L_2$ 以串联方式联接而成, $L_1$ �?$L_2$ 的寿命分别为 $X$ �?$Y$, 其概率密度分别为\n$$\n\\varphi_1(x)=\\begin{cases} \\alpha e^{-\\alpha x}, & x>0 \\\\ 0, & x \\leq 0 \\end{cases}, \\quad \\varphi_2(y)=\\begin{cases} \\beta e^{-\\beta y}, & y>0 \\\\ 0, & y \\leq 0 \\end{cases}\n$$\n其中 $\\alpha>0, \\beta>0, \\alpha \\neq \\beta$, 则系�?$L$ 的寿�?$Z$ 的概率密度为 ( ).",
+                    "analysis": "�?$Z=\\min \\{X, Y\\}$, 则\n$$\n\\begin{aligned}\nF(z) & =P\\{Z \\leq z\\}=P\\{\\min (X, Y) \\leq z\\} \\\\\n& =1-P\\{\\min (X, Y)>z\\}=1-P\\{X > z, Y > z\\} \\\\\n& =1-[1-P\\{X \\leq z\\}][1-P\\{Y \\leq z\\}]=1-[1-F_1(z)][1-F_2(z)]\n\\end{aligned}\n$$\n由于 $F_1(z)=\\begin{cases}\\int_0^z \\alpha e^{-\\alpha x} d x=1-e^{-\\alpha z}, & z \\geq 0 \\\\ 0, & z<0\\end{cases}$,\n$$\nF_2(z)=\\begin{cases}\n1-e^{-\\beta z}, & z \\geq 0 \\\\\n0, & z<0\n\\end{cases}\n$$\n�?$F(z)=\\begin{cases}1-e^{-(\\alpha+\\beta) z}, & z \\geq 0 \\\\ 0, & z<0\\end{cases}$,\n从�?$\\varphi(z)=\\begin{cases}(\\alpha+\\beta) e^{-(\\alpha+\\beta) z}, & z>0 \\\\ 0, & z \\leq 0\\end{cases}$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -1020,7 +1020,7 @@
                     "accuracy_rate": 0.5,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 23065,
-                    "ai_tags": "概率�?指数分布,随机变量函数的分�?
+                    "ai_tags": "概率�?指数分布,随机变量函数的分"
                 },
                 {
                     "id": 19008,
@@ -1030,8 +1030,8 @@
                     "difficulty": "Easy",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设随机变�?$X, Y$ 相互独立, 且均服从参数�?$\\lambda$ 的指数分�? $P\\{X>1\\}=e^{-2}$, �?$P\\{\\min (X, Y) \\leq 1\\}=()$.",
-                    "analysis": "依题意有\n$$\nP\\{X>1\\}=1-P\\{X \\leq 1\\}=1-\\int_0^1 \\lambda e^{-\\lambda x} dx=e^{-2},\n$$\n�?$1-\\left(1-e^{-\\lambda}\\right)=e^{-2}$, �?$\\lambda=2$. 于是\n$$\n\\begin{aligned}\nP\\{\\min (X, Y) \\leq 1\\} & =1-P\\{\\min (X, Y)>1\\} \\\\\n& =1-P\\{X>1, Y>1\\}=1-P\\{X>1\\} P\\{Y>1\\} \\\\\n& =1-e^{-2} \\times e^{-2}=1-e^{-4}.\n\\end{aligned}\n$$",
+                    "question": "设随机变�?$X, Y$ 相互独立, 且均服从参数�?$\\lambda$ 的指数分�? $P\\{X>1\\}=e^{-2}$, �?$P\\{\\min (X, Y) \\leq 1\\}=()$.",
+                    "analysis": "依题意有\n$$\nP\\{X>1\\}=1-P\\{X \\leq 1\\}=1-\\int_0^1 \\lambda e^{-\\lambda x} dx=e^{-2},\n$$\n�?$1-\\left(1-e^{-\\lambda}\\right)=e^{-2}$, �?$\\lambda=2$. 于是\n$$\n\\begin{aligned}\nP\\{\\min (X, Y) \\leq 1\\} & =1-P\\{\\min (X, Y)>1\\} \\\\\n& =1-P\\{X>1, Y>1\\}=1-P\\{X>1\\} P\\{Y>1\\} \\\\\n& =1-e^{-2} \\times e^{-2}=1-e^{-4}.\n\\end{aligned}\n$$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -1114,8 +1114,8 @@
                     "difficulty": "Easy",
                     "answer": "4",
                     "question_type": 1,
-                    "question": "�?$X, Y$ 是相互独立的两个随机变量, 它们的分布函数分别是 $F_X(x), F_Y(y)$, �?$Z=\\max \\{X, Y\\}$ 的分布函数是 ( ).",
-                    "analysis": "$\\begin{aligned} P\\{Z \\leq z\\} &= P\\{\\max \\{X, Y\\} \\leq z\\} = P\\{X \\leq z, Y \\leq z\\}, \\\\ &\\text { 因为独立, �?} \\\\ P\\{X \\leq z, Y \\leq z\\} &= P\\{X \\leq z\\} P\\{Y \\leq z\\} = F_X(z) F_Y(z), \\\\ \\text { �?} F_Z(z) &= F_X(z) F_Y(z). \\end{aligned}$",
+                    "question": "�?$X, Y$ 是相互独立的两个随机变量, 它们的分布函数分别是 $F_X(x), F_Y(y)$, �?$Z=\\max \\{X, Y\\}$ 的分布函数是 ( ).",
+                    "analysis": "$\\begin{aligned} P\\{Z \\leq z\\} &= P\\{\\max \\{X, Y\\} \\leq z\\} = P\\{X \\leq z, Y \\leq z\\}, \\\\ &\\text { 因为独立, �?} \\\\ P\\{X \\leq z, Y \\leq z\\} &= P\\{X \\leq z\\} P\\{Y \\leq z\\} = F_X(z) F_Y(z), \\\\ \\text { �?} F_Z(z) &= F_X(z) F_Y(z). \\end{aligned}$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -1198,7 +1198,7 @@
                     "difficulty": "Medium",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "�?$X$ �?$Y$ 相互独立具有同一分布�? �?$X$ 的分布律为\n\\begin{tabular}{c|ccc}\n\\hline $X$ & 0 & 1 & 2 \\\\\n\\hline $p_i$ & $1 / 4$ & $1 / 2$ & $1 / 4$ \\\\\n\\hline\n\\end{tabular}\n\n�?$Z=\\min \\{X, Y\\}$ 的分布律�?( ).",
+                    "question": "�?$X$ �?$Y$ 相互独立具有同一分布�? �?$X$ 的分布律为\n\\begin{tabular}{c|ccc}\n\\hline $X$ & 0 & 1 & 2 \\\\\n\\hline $p_i$ & $1 / 4$ & $1 / 2$ & $1 / 4$ \\\\\n\\hline\n\\end{tabular}\n\n�?$Z=\\min \\{X, Y\\}$ 的分布律�?( ).",
                     "analysis": "依题意有\n\\begin{tabular}{c|ccccccccc}\n\\hline $(X, Y)$ & $(0,0)$ & $(0,1)$ & $(0,2)$ & $(1,0)$ & $(1,1)$ & $(1,2)$ & $(2,0)$ & $(2,1)$ & $(2,2)$ \\\\\n\\hline & $1 / 16$ & $1 / 8$ & $1 / 16$ & $1 / 8$ & $1 / 4$ & $1 / 8$ & $1 / 16$ & $1 / 8$ & $1 / 16$ \\\\\n\\hline & 0 & 1 & 2 & 1 & 1 & 2 & 2 & 2 & 2 \\\\\n\\hline\n\\end{tabular}\n\n于是 $Z$ 的分布律为\n\\begin{tabular}{c|ccc}\n\\hline $Z$ & 0 & 1 & 2 \\\\\n\\hline $P$ & $7 / 16$ & $1 / 2$ & $1 / 16$ \\\\\n\\hline\n\\end{tabular}",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
@@ -1272,7 +1272,7 @@
                     "accuracy_rate": 0.75,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 50763,
-                    "ai_tags": "离散型随机变�?相互独立,随机变量函数的分�?
+                    "ai_tags": "离散型随机变�?相互独立,随机变量函数的分"
                 },
                 {
                     "id": 19016,
@@ -1282,8 +1282,8 @@
                     "difficulty": "Medium",
                     "answer": "4",
                     "question_type": 1,
-                    "question": "设随机变�?$X, Y$ 相互独立, �?$X$ �?$Y$ 分别服从区间 $(0,1)$ �?$(0,2)$ 上的均匀分布, �?$V=\\min \\{X, Y\\}$ 的概率密度为 ( ).",
-                    "analysis": "由题设知�?X$ �?$Y$ 的概率密度分别为\n$$\nf_X(x)=\\left\\{\\begin{array}{cc}\n1, & 0<x<1 \\\\\n0, & \\text { 其它 }\n\\end{array}\\right., \\quad f_Y(y)=\\left\\{\\begin{array}{cc}\n1 / 2, & 0<y<2 \\\\\n0, & \\text { 其它 }\n\\end{array}\\right.\n$$\n于是�?X$ �?$Y$ 的分布函数分别为\n$$\nF_X(x)=\\left\\{\\begin{array}{cc}\n0, & x \\leq 0 \\\\\nx, & 0 \\leq x<1 \\\\\n1, & x \\geq 1\n\\end{array}\\right., \\quad F_Y(y)=\\left\\{\\begin{array}{cc}\n0, & y<0 \\\\\ny / 2, & 0 \\leq y<2 \\\\\n1, & y \\geq 2\n\\end{array}\\right.\n$$\n从�?$V=\\min \\{X, Y\\}$ 的分布函数为\n$$\n\\begin{aligned}\nF_V(v) &= 1-\\left[1-F_X(v)\\right]\\left[1-F_Y(v)\\right] \\\\\n&= F_X(v)+F_Y(v)-F_X(v) F_Y(v) \\\\\n&= \\left\\{\\begin{array}{cc}\n0, & v<0 \\\\\n\\frac{v}{2}(3-v), & 0 \\leq v<1 \\\\\n1, & v \\geq 1\n\\end{array}\\right.\n\\end{aligned}\n$$\n�?$V=\\min \\{X, Y\\}$ 的概率密度为\n$$\nf_V(v)=\\left\\{\\begin{array}{cc}\n\\frac{3}{2}-v, & 0<v<1 \\\\\n0, & \\text { 其它 }\n\\end{array}\\right.\n$$",
+                    "question": "设随机变�?$X, Y$ 相互独立, �?$X$ �?$Y$ 分别服从区间 $(0,1)$ �?$(0,2)$ 上的均匀分布, �?$V=\\min \\{X, Y\\}$ 的概率密度为 ( ).",
+                    "analysis": "由题设知�?X$ �?$Y$ 的概率密度分别为\n$$\nf_X(x)=\\left\\{\\begin{array}{cc}\n1, & 0<x<1 \\\\\n0, & \\text { 其它 }\n\\end{array}\\right., \\quad f_Y(y)=\\left\\{\\begin{array}{cc}\n1 / 2, & 0<y<2 \\\\\n0, & \\text { 其它 }\n\\end{array}\\right.\n$$\n于是�?X$ �?$Y$ 的分布函数分别为\n$$\nF_X(x)=\\left\\{\\begin{array}{cc}\n0, & x \\leq 0 \\\\\nx, & 0 \\leq x<1 \\\\\n1, & x \\geq 1\n\\end{array}\\right., \\quad F_Y(y)=\\left\\{\\begin{array}{cc}\n0, & y<0 \\\\\ny / 2, & 0 \\leq y<2 \\\\\n1, & y \\geq 2\n\\end{array}\\right.\n$$\n从�?$V=\\min \\{X, Y\\}$ 的分布函数为\n$$\n\\begin{aligned}\nF_V(v) &= 1-\\left[1-F_X(v)\\right]\\left[1-F_Y(v)\\right] \\\\\n&= F_X(v)+F_Y(v)-F_X(v) F_Y(v) \\\\\n&= \\left\\{\\begin{array}{cc}\n0, & v<0 \\\\\n\\frac{v}{2}(3-v), & 0 \\leq v<1 \\\\\n1, & v \\geq 1\n\\end{array}\\right.\n\\end{aligned}\n$$\n�?$V=\\min \\{X, Y\\}$ 的概率密度为\n$$\nf_V(v)=\\left\\{\\begin{array}{cc}\n\\frac{3}{2}-v, & 0<v<1 \\\\\n0, & \\text { 其它 }\n\\end{array}\\right.\n$$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -1356,7 +1356,7 @@
                     "accuracy_rate": 0.6,
                     "difficulty_score": 0.43,
                     "avg_time_spent": 81115,
-                    "ai_tags": "概率密度,均匀分布,随机变量函数的分�?
+                    "ai_tags": "概率密度,均匀分布,随机变量函数的分"
                 }
             ]
         }

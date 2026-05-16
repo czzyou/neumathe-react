@@ -13,8 +13,8 @@
                     "difficulty": "Easy",
                     "answer": "2",
                     "question_type": 1,
-                    "question": "连续随机变量 $X$ 的概率密度为 $f(x)=\\left\\{\\begin{array}{cc}k \\sqrt{x}, & 0<x<1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$, 则分布函�?$F(x)=()$.",
-                    "analysis": "由概率密度的性质 $\\int_{-\\infty}^{+\\infty} f(x) d x=1$, �?$\\int_{-\\infty}^{+\\infty} f(x) d x=\\int_0^1 k \\sqrt{x} d x=\\left.\\frac{2}{3} k x^{3 / 2}\\right|_0 ^1=1$, �?$k=\\frac{3}{2}$,连续随机变量的分布函�?$F(x)=\\int_{-\\infty}^x f(t) d t$,�?$x<0$ �? $F(x)=\\int_{-\\infty}^x 0 d t=0$;�?$0 \\leq x<1$ �? $F(x)=\\int_{-\\infty}^0 0 d t+\\int_0^x \\frac{3}{2} \\sqrt{t} d t=x^{3 / 2}$;�?$x \\geq 1$ �? $F(x)=\\int_{-\\infty}^x f(t) d t=\\int_{-\\infty}^0 0 d t+\\int_0^1 \\frac{3}{2} \\sqrt{t} d t+\\int_1^x 0 d t=1$.\n�?$F(x)=\\left\\{\\begin{array}{cc}0, & x<0 \\\\ x^{3 / 2}, & 0 \\leq x<1 . \\\\ 1, & x \\geq 1\\end{array}\\right.$.",
+                    "question": "连续随机变量 $X$ 的概率密度为 $f(x)=\\left\\{\\begin{array}{cc}k \\sqrt{x}, & 0<x<1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$, 则分布函�?$F(x)=()$.",
+                    "analysis": "由概率密度的性质 $\\int_{-\\infty}^{+\\infty} f(x) d x=1$, �?$\\int_{-\\infty}^{+\\infty} f(x) d x=\\int_0^1 k \\sqrt{x} d x=\\left.\\frac{2}{3} k x^{3 / 2}\\right|_0 ^1=1$, �?$k=\\frac{3}{2}$,连续随机变量的分布函�?$F(x)=\\int_{-\\infty}^x f(t) d t$,�?$x<0$ �? $F(x)=\\int_{-\\infty}^x 0 d t=0$;�?$0 \\leq x<1$ �? $F(x)=\\int_{-\\infty}^0 0 d t+\\int_0^x \\frac{3}{2} \\sqrt{t} d t=x^{3 / 2}$;�?$x \\geq 1$ �? $F(x)=\\int_{-\\infty}^x f(t) d t=\\int_{-\\infty}^0 0 d t+\\int_0^1 \\frac{3}{2} \\sqrt{t} d t+\\int_1^x 0 d t=1$.\n�?$F(x)=\\left\\{\\begin{array}{cc}0, & x<0 \\\\ x^{3 / 2}, & 0 \\leq x<1 . \\\\ 1, & x \\geq 1\\end{array}\\right.$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -97,8 +97,8 @@
                     "difficulty": "Easy",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "连续随机变量 $X$ 的分布函数为 $F(x)=A+B \\operatorname{arctg} x(-\\infty<x<+\\infty)$, �?$X$ 的概率密度为 ( ).",
-                    "analysis": "�?$F(-\\infty)=A-\\frac{\\pi}{2} B=0, F(+\\infty)=A+\\frac{\\pi}{2} B=1$, �?$A=\\frac{1}{2}, B=\\frac{1}{\\pi}$. 显然 $X$ 是连续型变量,所�?$X$ 的概率密度为 $f(x)=F^{\\prime}(x)=\\frac{1}{\\pi\\left(1+x^2\\right)},-\\infty<x<+\\infty$.",
+                    "question": "连续随机变量 $X$ 的分布函数为 $F(x)=A+B \\operatorname{arctg} x(-\\infty<x<+\\infty)$, �?$X$ 的概率密度为 ( ).",
+                    "analysis": "�?$F(-\\infty)=A-\\frac{\\pi}{2} B=0, F(+\\infty)=A+\\frac{\\pi}{2} B=1$, �?$A=\\frac{1}{2}, B=\\frac{1}{\\pi}$. 显然 $X$ 是连续型变量,所�?$X$ 的概率密度为 $f(x)=F^{\\prime}(x)=\\frac{1}{\\pi\\left(1+x^2\\right)},-\\infty<x<+\\infty$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -181,7 +181,7 @@
                     "difficulty": "Easy",
                     "answer": "2",
                     "question_type": 1,
-                    "question": "设随机变�?$X$ 有概率密�?$f(x)=\\left\\{\\begin{array}{cc}a x+b, & 0 \\leq x \\leq 2 \\\\ 0, & \\text { 其它. }\\end{array}\\right.$, 已知 $X$ 的分布函数�?$F(1)=\\frac{1}{4}$, 则有 ().",
+                    "question": "设随机变�?$X$ 有概率密�?$f(x)=\\left\\{\\begin{array}{cc}a x+b, & 0 \\leq x \\leq 2 \\\\ 0, & \\text { 其它. }\\end{array}\\right.$, 已知 $X$ 的分布函数�?$F(1)=\\frac{1}{4}$, 则有 ().",
                     "analysis": "由概率密度的性质有\n$$\n\\int_{-\\infty}^{+\\infty} f(x) d x=1 \\Rightarrow \\int_0^2(a x+b) d x=1\n$$\n\n求得 $2 a+2 b=1$,\n又由 $F(1)=\\int_{-\\infty}^1 f(x) d x=\\int_0^1(a x+b) d x=\\frac{1}{4}$ 算得\n$$\n\\frac{a}{2}+b=\\frac{1}{4}\n$$\n\n联立解得\n$$\na=\\frac{1}{2}, \\quad b=0 .\n$$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
@@ -266,7 +266,7 @@
                     "answer": "4",
                     "question_type": 1,
                     "question": "已知 $X \\sim f(x)=\\left\\{\\begin{array}{cc}2 x, & 0<x<1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$, 关于 $P\\{X \\leq 0.5\\}, P\\{X=0.5\\}, F(x)$, 下列说法错误的是 ( ).",
-                    "analysis": "$$\n\\begin{aligned}\n& P\\{X \\leq 0.5\\}=\\int_{-\\infty}^{0.5} f(x) d x=\\int_{-\\infty}^0 0 d x+\\int_0^{0.5} 2 x d x=\\left.x^2\\right|_0 ^{0.5}=0.25 \\\\\n& P\\{X=0.5\\}=P\\{X \\leq 0.5\\}-P\\{X<0.5\\}=\\int_{-\\infty}^{0.5} f(x) d x-\\int_{-\\infty}^{0.5} f(x) d x=0\n\\end{aligned}\n$$\n\n�?$X \\leq 0$ �? $F(x)=0$;\n�?$0<x<1$ �? $F(x)=\\int_{-\\infty}^x f(t) d t=\\int_{-\\infty}^0 0 d t+\\int_0^x 2 t d t=\\left.t^2\\right|_0 ^x=x^2$;\n�?$X \\geq 1$ �? $F(x)=\\int_{-\\infty}^x f(t) d t=\\int_{-\\infty}^0 0 d t+\\int_0^x 2 t d t+\\int_1^x 0 d t=\\left.t^2\\right|_0 ^1=1$,\n�?$F(x)=\\left\\{\\begin{array}{c}0, x \\leq 0 \\\\ x^2, \\quad 0<x<1 . \\\\ 1, x \\geq 1\\end{array}\\right.$.",
+                    "analysis": "$$\n\\begin{aligned}\n& P\\{X \\leq 0.5\\}=\\int_{-\\infty}^{0.5} f(x) d x=\\int_{-\\infty}^0 0 d x+\\int_0^{0.5} 2 x d x=\\left.x^2\\right|_0 ^{0.5}=0.25 \\\\\n& P\\{X=0.5\\}=P\\{X \\leq 0.5\\}-P\\{X<0.5\\}=\\int_{-\\infty}^{0.5} f(x) d x-\\int_{-\\infty}^{0.5} f(x) d x=0\n\\end{aligned}\n$$\n\n�?$X \\leq 0$ �? $F(x)=0$;\n�?$0<x<1$ �? $F(x)=\\int_{-\\infty}^x f(t) d t=\\int_{-\\infty}^0 0 d t+\\int_0^x 2 t d t=\\left.t^2\\right|_0 ^x=x^2$;\n�?$X \\geq 1$ �? $F(x)=\\int_{-\\infty}^x f(t) d t=\\int_{-\\infty}^0 0 d t+\\int_0^x 2 t d t+\\int_1^x 0 d t=\\left.t^2\\right|_0 ^1=1$,\n�?$F(x)=\\left\\{\\begin{array}{c}0, x \\leq 0 \\\\ x^2, \\quad 0<x<1 . \\\\ 1, x \\geq 1\\end{array}\\right.$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -283,7 +283,7 @@
                             "id": 52064,
                             "question_id": 13016,
                             "is_answer": false,
-                            "choice": "�?$x \\leq 0$ �? $F(x)=0$",
+                            "choice": "�?$x \\leq 0$ �? $F(x)=0$",
                             "choice_render_type": 1,
                             "choice_id": "1",
                             "created_at": {
@@ -325,7 +325,7 @@
                             "id": 52062,
                             "question_id": 13016,
                             "is_answer": true,
-                            "choice": "�?$0<x<1$ �? $F(x)=1$",
+                            "choice": "�?$0<x<1$ �? $F(x)=1$",
                             "choice_render_type": 1,
                             "choice_id": "4",
                             "created_at": {
@@ -349,8 +349,8 @@
                     "difficulty": "Easy",
                     "answer": "3",
                     "question_type": 1,
-                    "question": "服从拉普拉斯分布的随机变�?$X$ 的概率密�?$f(x)=A e^{-|x|}$, 对于系数 $A$ 及分布函�?$F(x)$, 下列说法正确的是 () .",
-                    "analysis": "由概率密度函数的性质�? $\\int_{-\\infty}^{+\\infty} f(x) d x=1$, �?$\\int_{-\\infty}^{+\\infty} A e^{-|x|} d x=1$, 而\n$$\n\\int_{-\\infty}^{+\\infty} A e^{-|x|} d x=2 \\int_0^{+\\infty} A e^{-x} d x=-\\left.2 A e^{-x}\\right|_0 ^{+\\infty}=2 A \\text {, }\n$$\n\n所�?$2 A=1$, �?$A=1 / 2$, 从�?$f(x)=\\frac{1}{2} e^{-|x|},-\\infty<x<+\\infty$.\n$$\nF(x)=\\int_{-\\infty}^x f(t) d t,\n$$\n\n�?$x<0$ �? $F(x)=\\int_{-\\infty}^x \\frac{1}{2} e^{-|| |} d t=\\frac{1}{2} \\int_{-\\infty}^x e^t d t=\\left.\\frac{1}{2} e^t\\right|_{-\\infty} ^x=\\frac{1}{2} e^x$;\n�?$x \\geq 0$ �? $F(x)=\\int_{-\\infty}^x \\frac{1}{2} e^{-|x|} d t=\\int_{-\\infty}^0 \\frac{1}{2} e^t d t+\\int_0^x \\frac{1}{2} e^{-t} d t=\\left.\\frac{1}{2} e^t\\right|_{-\\infty} ^0-\\left.\\frac{1}{2} e^{-t \\mid x}\\right|_0 ^x=\\frac{1}{2}-\\frac{1}{2} e^{-x}+\\frac{1}{2}=1-\\frac{1}{2} e^{-x}$,\n�?$F(x)=\\left\\{\\begin{array}{l}\\frac{1}{2} e^x, x<0, \\\\ 1-\\frac{1}{2} e^{-x}, x \\geq 0 .\\end{array}\\right.$",
+                    "question": "服从拉普拉斯分布的随机变�?$X$ 的概率密�?$f(x)=A e^{-|x|}$, 对于系数 $A$ 及分布函�?$F(x)$, 下列说法正确的是 () .",
+                    "analysis": "由概率密度函数的性质�? $\\int_{-\\infty}^{+\\infty} f(x) d x=1$, �?$\\int_{-\\infty}^{+\\infty} A e^{-|x|} d x=1$, 而\n$$\n\\int_{-\\infty}^{+\\infty} A e^{-|x|} d x=2 \\int_0^{+\\infty} A e^{-x} d x=-\\left.2 A e^{-x}\\right|_0 ^{+\\infty}=2 A \\text {, }\n$$\n\n所�?$2 A=1$, �?$A=1 / 2$, 从�?$f(x)=\\frac{1}{2} e^{-|x|},-\\infty<x<+\\infty$.\n$$\nF(x)=\\int_{-\\infty}^x f(t) d t,\n$$\n\n�?$x<0$ �? $F(x)=\\int_{-\\infty}^x \\frac{1}{2} e^{-|| |} d t=\\frac{1}{2} \\int_{-\\infty}^x e^t d t=\\left.\\frac{1}{2} e^t\\right|_{-\\infty} ^x=\\frac{1}{2} e^x$;\n�?$x \\geq 0$ �? $F(x)=\\int_{-\\infty}^x \\frac{1}{2} e^{-|x|} d t=\\int_{-\\infty}^0 \\frac{1}{2} e^t d t+\\int_0^x \\frac{1}{2} e^{-t} d t=\\left.\\frac{1}{2} e^t\\right|_{-\\infty} ^0-\\left.\\frac{1}{2} e^{-t \\mid x}\\right|_0 ^x=\\frac{1}{2}-\\frac{1}{2} e^{-x}+\\frac{1}{2}=1-\\frac{1}{2} e^{-x}$,\n�?$F(x)=\\left\\{\\begin{array}{l}\\frac{1}{2} e^x, x<0, \\\\ 1-\\frac{1}{2} e^{-x}, x \\geq 0 .\\end{array}\\right.$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -367,7 +367,7 @@
                             "id": 52074,
                             "question_id": 13019,
                             "is_answer": false,
-                            "choice": "�?$x \\geq 0, F(x)=\\frac{1}{2} e^x-1$",
+                            "choice": "�?$x \\geq 0, F(x)=\\frac{1}{2} e^x-1$",
                             "choice_render_type": 1,
                             "choice_id": "1",
                             "created_at": {
@@ -395,7 +395,7 @@
                             "id": 52076,
                             "question_id": 13019,
                             "is_answer": true,
-                            "choice": "�?$x<0, F(x)=\\frac{1}{2} e^x$",
+                            "choice": "�?$x<0, F(x)=\\frac{1}{2} e^x$",
                             "choice_render_type": 1,
                             "choice_id": "3",
                             "created_at": {
@@ -409,7 +409,7 @@
                             "id": 52073,
                             "question_id": 13019,
                             "is_answer": false,
-                            "choice": "�?$x \\geq 0, F(x)=\\frac{1}{2} e^x$",
+                            "choice": "�?$x \\geq 0, F(x)=\\frac{1}{2} e^x$",
                             "choice_render_type": 1,
                             "choice_id": "4",
                             "created_at": {
@@ -433,7 +433,7 @@
                     "difficulty": "Easy",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设连续型随机变量 $\\xi$ 的分布函数为 $F(x)=\\left\\{\\begin{array}{lc}0, & x<0 \\\\ x, & 0 \\leq x<1 \\\\ 1, & x \\geq 1\\end{array}\\right.$, �?$\\xi$ 的概率密度函�?$\\varphi(x)=()$.",
+                    "question": "设连续型随机变量 $\\xi$ 的分布函数为 $F(x)=\\left\\{\\begin{array}{lc}0, & x<0 \\\\ x, & 0 \\leq x<1 \\\\ 1, & x \\geq 1\\end{array}\\right.$, �?$\\xi$ 的概率密度函�?$\\varphi(x)=()$.",
                     "analysis": "随机变量 $\\xi$ 的概率密度函数为\n$$f(x)=F'(x)=\\left\\{\\begin{array}{ll}0, & x<0 \\\\ 1, & 0 \\leq x<1 \\\\ 0, & x \\geq 1\\end{array}\\right.=\\left\\{\\begin{array}{ll}1, & 0 \\leq x<1 \\\\ 0, & \\text { 其它 }\\end{array}\\right.$$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
@@ -507,7 +507,7 @@
                     "accuracy_rate": 0.88,
                     "difficulty_score": 0.32,
                     "avg_time_spent": 169089,
-                    "ai_tags": "连续型随机变�?概率密度函数,分布函数"
+                    "ai_tags": "连续型随机变�?概率密度函数,分布函数"
                 },
                 {
                     "id": 18721,
@@ -517,7 +517,7 @@
                     "difficulty": "Easy",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设连续型随机变量 $\\xi$ 的分布函数为 $F(x)=\\left\\{\\begin{array}{cc}0, & x<0 \\\\ \\sin x, & 0 \\leq x<\\frac{\\pi}{2} \\\\ 1, & x \\geq \\frac{\\pi}{2}\\end{array}\\right.$, �?$\\xi$ 的概率密�?$\\varphi(x)=()$.",
+                    "question": "设连续型随机变量 $\\xi$ 的分布函数为 $F(x)=\\left\\{\\begin{array}{cc}0, & x<0 \\\\ \\sin x, & 0 \\leq x<\\frac{\\pi}{2} \\\\ 1, & x \\geq \\frac{\\pi}{2}\\end{array}\\right.$, �?$\\xi$ 的概率密�?$\\varphi(x)=()$.",
                     "analysis": "随机变量 $\\xi$ 的概率密度函数为\n$$\n\\varphi(x)=F'(x)=\\left\\{\\begin{array}{ll}\n0, & x<0 \\\\\n\\cos x, & 0 \\leq x<\\frac{\\pi}{2} \\\\\n0, & x \\geq \\frac{\\pi}{2}\n\\end{array}\\right.=\\left\\{\\begin{array}{ll}\n\\cos x, & 0 \\leq x<\\frac{\\pi}{2} \\\\\n0, & \\text { 其它 }\n\\end{array}\\right.\n$$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
@@ -591,7 +591,7 @@
                     "accuracy_rate": 0.96,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 23439,
-                    "ai_tags": "概率�?连续型随机变�?概率密度函数"
+                    "ai_tags": "概率�?连续型随机变�?概率密度函数"
                 },
                 {
                     "id": 18722,
@@ -601,8 +601,8 @@
                     "difficulty": "Easy",
                     "answer": "4",
                     "question_type": 1,
-                    "question": "设连续随机变�?$X$ 的概率密度为 $f(x)=\\begin{cases} A \\cos x, & |x| \\leq \\frac{\\pi}{2} \\\\ 0, & \\text{其它} \\end{cases}$, $A$ 为待定常�? �?$-\\frac{\\pi}{2} \\leq x \\leq \\frac{\\pi}{2}$ �? $X$ 的分布函数为 ().",
-                    "analysis": "由概率密度的性质 $\\int_{-\\infty}^{+\\infty} f(x) d x=1$ 有\n$$\n\\int_{-\\infty}^{+\\infty} f(x) d x=\\int_{-\\pi / 2}^{\\pi / 2} A \\cos x d x=1,\n$$\n求解�?$A \\sin x \\Big|_{-\\pi / 2}^{\\pi / 2}=1 \\Rightarrow A=\\frac{1}{2}$.\n于是�?$-\\frac{\\pi}{2} \\leq x \\leq \\frac{\\pi}{2}$ �? 有\n$$\nF(x)=\\int_{-\\infty}^x f(t) d t=\\int_{-\\pi / 2}^x \\frac{1}{2} \\cos t d t=\\frac{1}{2}(\\sin x+1) .\n$$",
+                    "question": "设连续随机变�?$X$ 的概率密度为 $f(x)=\\begin{cases} A \\cos x, & |x| \\leq \\frac{\\pi}{2} \\\\ 0, & \\text{其它} \\end{cases}$, $A$ 为待定常�? �?$-\\frac{\\pi}{2} \\leq x \\leq \\frac{\\pi}{2}$ �? $X$ 的分布函数为 ().",
+                    "analysis": "由概率密度的性质 $\\int_{-\\infty}^{+\\infty} f(x) d x=1$ 有\n$$\n\\int_{-\\infty}^{+\\infty} f(x) d x=\\int_{-\\pi / 2}^{\\pi / 2} A \\cos x d x=1,\n$$\n求解�?$A \\sin x \\Big|_{-\\pi / 2}^{\\pi / 2}=1 \\Rightarrow A=\\frac{1}{2}$.\n于是�?$-\\frac{\\pi}{2} \\leq x \\leq \\frac{\\pi}{2}$ �? 有\n$$\nF(x)=\\int_{-\\infty}^x f(t) d t=\\int_{-\\pi / 2}^x \\frac{1}{2} \\cos t d t=\\frac{1}{2}(\\sin x+1) .\n$$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -675,7 +675,7 @@
                     "accuracy_rate": 0.54,
                     "difficulty_score": 0.4,
                     "avg_time_spent": 53812,
-                    "ai_tags": "概率密度函数,分布函数,连续型随机变�?
+                    "ai_tags": "概率密度函数,分布函数,连续型随机变"
                 },
                 {
                     "id": 18725,
@@ -685,8 +685,8 @@
                     "difficulty": "Easy",
                     "answer": "4",
                     "question_type": 1,
-                    "question": "设连续型随机变量 $X$ 的分布密度为 $f(x)=\\begin{cases} x, & 0<x \\leq 1 \\\\ 2-x, & 1<x \\leq 2 \\\\ 0, & \\text{其他} \\end{cases}$, 关于其分布函�?$F(x)$, 下列说法正确的是 ( ).",
-                    "analysis": "�?$x \\leq 0$ �? $F(x)=\\int_{-\\infty}^x 0 d t=0$;\n�?$0<x \\leq 1$ �? $F(x)=\\int_{-\\infty}^x f(t) d t=\\int_{-\\infty}^0 0 d t+\\int_0^x t d t=\\frac{1}{2} x^2$;\n�?$1<x \\leq 2$ �? $F(x)=\\int_{-\\infty}^x f(t) d t=\\int_{-\\infty}^0 0 d t+\\int_0^1 t d t+\\int_1^x(2-t) d t=0+\\frac{1}{2}+\\left.\\left(2 t-\\frac{1}{2} t^2\\right)\\right|_1 ^x=-1+2 x-\\frac{x^2}{2}$;\n�?$x>2$ �? $F(x)=\\int_{-\\infty}^0 0 d t+\\int_0^1 t d t+\\int_1^2(2-t) d t+\\int_2^x 0 d t=1$,\n�?$F(x)=\\begin{cases} 0, & x \\leq 0 \\\\ \\frac{1}{2} x^2, & 0<x \\leq 1 \\\\ -1+2 x-\\frac{x^2}{2}, & 1<x \\leq 2 \\\\ 1, & x>2 \\end{cases}$.",
+                    "question": "设连续型随机变量 $X$ 的分布密度为 $f(x)=\\begin{cases} x, & 0<x \\leq 1 \\\\ 2-x, & 1<x \\leq 2 \\\\ 0, & \\text{其他} \\end{cases}$, 关于其分布函�?$F(x)$, 下列说法正确的是 ( ).",
+                    "analysis": "�?$x \\leq 0$ �? $F(x)=\\int_{-\\infty}^x 0 d t=0$;\n�?$0<x \\leq 1$ �? $F(x)=\\int_{-\\infty}^x f(t) d t=\\int_{-\\infty}^0 0 d t+\\int_0^x t d t=\\frac{1}{2} x^2$;\n�?$1<x \\leq 2$ �? $F(x)=\\int_{-\\infty}^x f(t) d t=\\int_{-\\infty}^0 0 d t+\\int_0^1 t d t+\\int_1^x(2-t) d t=0+\\frac{1}{2}+\\left.\\left(2 t-\\frac{1}{2} t^2\\right)\\right|_1 ^x=-1+2 x-\\frac{x^2}{2}$;\n�?$x>2$ �? $F(x)=\\int_{-\\infty}^0 0 d t+\\int_0^1 t d t+\\int_1^2(2-t) d t+\\int_2^x 0 d t=1$,\n�?$F(x)=\\begin{cases} 0, & x \\leq 0 \\\\ \\frac{1}{2} x^2, & 0<x \\leq 1 \\\\ -1+2 x-\\frac{x^2}{2}, & 1<x \\leq 2 \\\\ 1, & x>2 \\end{cases}$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -703,7 +703,7 @@
                             "id": 84239,
                             "question_id": 18725,
                             "is_answer": false,
-                            "choice": "�?$1<x \\leq 2$ �? $F(x)=\\frac{1}{2} x^2$",
+                            "choice": "�?$1<x \\leq 2$ �? $F(x)=\\frac{1}{2} x^2$",
                             "choice_render_type": 1,
                             "choice_id": "1",
                             "created_at": {
@@ -717,7 +717,7 @@
                             "id": 84240,
                             "question_id": 18725,
                             "is_answer": false,
-                            "choice": "�?$x>2$ �? $F(x)=\\frac{1}{2} x^2-1+2 x$",
+                            "choice": "�?$x>2$ �? $F(x)=\\frac{1}{2} x^2-1+2 x$",
                             "choice_render_type": 1,
                             "choice_id": "2",
                             "created_at": {
@@ -731,7 +731,7 @@
                             "id": 84241,
                             "question_id": 18725,
                             "is_answer": false,
-                            "choice": "�?$0<x \\leq 1$ �? $F(x)=0$",
+                            "choice": "�?$0<x \\leq 1$ �? $F(x)=0$",
                             "choice_render_type": 1,
                             "choice_id": "3",
                             "created_at": {
@@ -745,7 +745,7 @@
                             "id": 84242,
                             "question_id": 18725,
                             "is_answer": true,
-                            "choice": "�?$x \\leq 0$ �? $F(x)=0$",
+                            "choice": "�?$x \\leq 0$ �? $F(x)=0$",
                             "choice_render_type": 1,
                             "choice_id": "4",
                             "created_at": {
@@ -759,7 +759,7 @@
                     "accuracy_rate": 0.95,
                     "difficulty_score": 0.32,
                     "avg_time_spent": 35842,
-                    "ai_tags": "连续型随机变�?概率密度函数,分布函数"
+                    "ai_tags": "连续型随机变�?概率密度函数,分布函数"
                 },
                 {
                     "id": 18727,
@@ -769,7 +769,7 @@
                     "difficulty": "Easy",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设连续型随机变量 $\\xi$ 的分布函数为 $F(x)=\\begin{cases} 0, & x<0 \\\\ \\frac{x^2}{2}, & 0 \\leq x<\\sqrt{2} \\\\ 1, & x \\geq \\sqrt{2} \\end{cases}$, �?$\\xi$ 的概率密�?$\\varphi(x)=(\\quad)$.",
+                    "question": "设连续型随机变量 $\\xi$ 的分布函数为 $F(x)=\\begin{cases} 0, & x<0 \\\\ \\frac{x^2}{2}, & 0 \\leq x<\\sqrt{2} \\\\ 1, & x \\geq \\sqrt{2} \\end{cases}$, �?$\\xi$ 的概率密�?$\\varphi(x)=(\\quad)$.",
                     "analysis": "由概率密度的求解式子 $f(x)=F'(x)$, 有\n$$f(x)=F'(x)=\\begin{cases} 0, & x<0 \\\\ x, & 0 \\leq x<\\sqrt{2} \\\\ 0, & x \\geq \\sqrt{2} \\end{cases} = \\begin{cases} x, & 0 \\leq x<\\sqrt{2} \\\\ 0, & \\text{其它} \\end{cases}.$$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
@@ -843,7 +843,7 @@
                     "accuracy_rate": 0.75,
                     "difficulty_score": 0.3,
                     "avg_time_spent": 53904,
-                    "ai_tags": "概率�?连续型随机变�?概率密度"
+                    "ai_tags": "概率�?连续型随机变�?概率密度"
                 }
             ]
         }
@@ -862,8 +862,8 @@
                     "difficulty": "Easy",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "随机变量 $X$ 的概率密度为 $f(x)=\\frac{1}{2} e^{-|x|},-\\infty<x<+\\infty$, �?$X$ 的分布函�?$F(x)=()$.",
-                    "analysis": "连续随机变量的分布函�?$F(x)=\\int_{-\\infty}^x f(t) d t$,\n�?$x<0$ �? $F(x)=\\int_{-\\infty}^x \\frac{1}{2} e^{-|t|} d t=\\frac{1}{2} \\int_{-\\infty}^x e^t d t=\\left.\\frac{1}{2} e^t\\right|_{-\\infty} ^x=\\frac{1}{2} e^x$;\n�?$x \\geq 0$ �? $F(x)=\\int_{-\\infty}^x \\frac{1}{2} e^{-|t|} d t=\\int_{-\\infty}^0 \\frac{1}{2} e^t d t+\\int_0^x \\frac{1}{2} e^{-t} d t=\\left.\\frac{1}{2} e^t\\right|_{-\\infty} ^0-\\left.\\frac{1}{2} e^{-t}\\right|_0 ^x=\\frac{1}{2}-\\frac{1}{2} e^{-x}+\\frac{1}{2}=1-\\frac{1}{2} e^{-x}$,\n�?$F(x)=\\left\\{\\begin{array}{l}\\frac{1}{2} e^x, x<0, \\\\ 1-\\frac{1}{2} e^{-x}, x \\geq 0\\end{array}\\right.$",
+                    "question": "随机变量 $X$ 的概率密度为 $f(x)=\\frac{1}{2} e^{-|x|},-\\infty<x<+\\infty$, �?$X$ 的分布函�?$F(x)=()$.",
+                    "analysis": "连续随机变量的分布函�?$F(x)=\\int_{-\\infty}^x f(t) d t$,\n�?$x<0$ �? $F(x)=\\int_{-\\infty}^x \\frac{1}{2} e^{-|t|} d t=\\frac{1}{2} \\int_{-\\infty}^x e^t d t=\\left.\\frac{1}{2} e^t\\right|_{-\\infty} ^x=\\frac{1}{2} e^x$;\n�?$x \\geq 0$ �? $F(x)=\\int_{-\\infty}^x \\frac{1}{2} e^{-|t|} d t=\\int_{-\\infty}^0 \\frac{1}{2} e^t d t+\\int_0^x \\frac{1}{2} e^{-t} d t=\\left.\\frac{1}{2} e^t\\right|_{-\\infty} ^0-\\left.\\frac{1}{2} e^{-t}\\right|_0 ^x=\\frac{1}{2}-\\frac{1}{2} e^{-x}+\\frac{1}{2}=1-\\frac{1}{2} e^{-x}$,\n�?$F(x)=\\left\\{\\begin{array}{l}\\frac{1}{2} e^x, x<0, \\\\ 1-\\frac{1}{2} e^{-x}, x \\geq 0\\end{array}\\right.$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -936,7 +936,7 @@
                     "accuracy_rate": 0.83,
                     "difficulty_score": 0.3,
                     "avg_time_spent": 62585,
-                    "ai_tags": "概率密度函数,分布函数,连续型随机变�?
+                    "ai_tags": "概率密度函数,分布函数,连续型随机变"
                 },
                 {
                     "id": 18740,
@@ -946,8 +946,8 @@
                     "difficulty": "Easy",
                     "answer": "3",
                     "question_type": 1,
-                    "question": "连续随机变量 $X$ 的分布函数为 $F(x)=A+B \\operatorname{arctg} x(-\\infty<x<+\\infty)$, �?$P\\{-1<X<1\\}$ �? ).",
-                    "analysis": "�?$F(-\\infty)=A-\\frac{\\pi}{2} B=0, F(+\\infty)=A+\\frac{\\pi}{2} B=1$, �?$A=\\frac{1}{2}, B=\\frac{1}{\\pi}$. 显然 $X$ 是连续型变量, 所�?$P\\{-1<X<1\\}=P\\{-1<X \\leq 1\\}=F(1)-F(-1)=\\left.\\left(\\frac{1}{2}+\\frac{1}{\\pi} \\arctan x\\right)\\right|_{-1} ^1=\\frac{3}{4}-\\frac{1}{4}=\\frac{1}{2}$.",
+                    "question": "连续随机变量 $X$ 的分布函数为 $F(x)=A+B \\operatorname{arctg} x(-\\infty<x<+\\infty)$, �?$P\\{-1<X<1\\}$ �? ).",
+                    "analysis": "�?$F(-\\infty)=A-\\frac{\\pi}{2} B=0, F(+\\infty)=A+\\frac{\\pi}{2} B=1$, �?$A=\\frac{1}{2}, B=\\frac{1}{\\pi}$. 显然 $X$ 是连续型变量, 所�?$P\\{-1<X<1\\}=P\\{-1<X \\leq 1\\}=F(1)-F(-1)=\\left.\\left(\\frac{1}{2}+\\frac{1}{\\pi} \\arctan x\\right)\\right|_{-1} ^1=\\frac{3}{4}-\\frac{1}{4}=\\frac{1}{2}$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {

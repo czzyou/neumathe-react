@@ -13,8 +13,8 @@
                     "difficulty": "Medium",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "�?$X_1, \\cdots, X_6$ 是来自总体 $N(0,1)$ 的样�? $Y=\\left(X_1+X_2+X_3\\right)^2+\\left(X_4+X_5+X_6\\right)^2$, 则使 $C Y$ 服从 $\\chi^2$ 分布的常�?$C$ �?() .",
-                    "analysis": "因为 $X_1+X_2+X_3 \\sim N(0,3), X_4+X_5+X_6 \\sim N(0,3)$, 且相互独�?所�?$\\frac{X_1+X_2+X_3}{\\sqrt{3}} \\sim N(0,1), \\frac{X_4+X_5+X_6}{\\sqrt{3}} \\sim N(0,1)$, 于是 $\\left(\\frac{X_1+X_2+X_3}{\\sqrt{3}}\\right)^2+\\left(\\frac{X_4+X_5+X_6}{\\sqrt{3}}\\right)^2 \\sim \\chi^2(2)$.\n故应�?$C=\\frac{1}{3}$, �?$\\frac{1}{3} Y \\sim \\chi^2(2)$.",
+                    "question": "�?$X_1, \\cdots, X_6$ 是来自总体 $N(0,1)$ 的样�? $Y=\\left(X_1+X_2+X_3\\right)^2+\\left(X_4+X_5+X_6\\right)^2$, 则使 $C Y$ 服从 $\\chi^2$ 分布的常�?$C$ �?() .",
+                    "analysis": "因为 $X_1+X_2+X_3 \\sim N(0,3), X_4+X_5+X_6 \\sim N(0,3)$, 且相互独�?所�?$\\frac{X_1+X_2+X_3}{\\sqrt{3}} \\sim N(0,1), \\frac{X_4+X_5+X_6}{\\sqrt{3}} \\sim N(0,1)$, 于是 $\\left(\\frac{X_1+X_2+X_3}{\\sqrt{3}}\\right)^2+\\left(\\frac{X_4+X_5+X_6}{\\sqrt{3}}\\right)^2 \\sim \\chi^2(2)$.\n故应�?$C=\\frac{1}{3}$, �?$\\frac{1}{3} Y \\sim \\chi^2(2)$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -97,8 +97,8 @@
                     "difficulty": "Medium",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "�?$X_1, X_2, \\cdots, X_9$ 是来自总体 $X \\sim N\\left(0,2^2\\right)$ 的简单随机样�? 则使 $Q=a\\left(X_1+X_2\\right)^2+b\\left(X_3+X_4+X_5\\right)^2+c\\left(X_6+X_7+X_8+X_9\\right)^2$服从 $\\chi^2$ 分布的系�?$a, b, c$ 分别�?().",
-                    "analysis": "由于 $X_1, X_2, \\cdots, X_9$ 相互独立且取自总体 $X \\sim N\\left(0,2^2\\right)$, 由正态分布的线性运算性质有\n$$\nX_1+X_2 \\sim N(0,8), \\quad X_3+X_4+X_5 \\sim N(0,12), \\quad X_6+X_7+X_8+X_9 \\sim N(0,16),\n$$\n\n于是, �?$\\chi^2=\\chi_1^2+\\cdots+\\chi_k^2$, 有\n$$\nQ=\\frac{\\left(X_1+X_2\\right)^2}{8}+\\frac{\\left(X_3+X_4+X_5\\right)^2}{12}+\\frac{\\left(X_6+X_7+X_8+X_9\\right)^2}{16} \\sim \\chi^2(3),\n$$\n\n�?$a=1 / 8, b=1 / 12, c=1 / 16$.",
+                    "question": "�?$X_1, X_2, \\cdots, X_9$ 是来自总体 $X \\sim N\\left(0,2^2\\right)$ 的简单随机样�? 则使 $Q=a\\left(X_1+X_2\\right)^2+b\\left(X_3+X_4+X_5\\right)^2+c\\left(X_6+X_7+X_8+X_9\\right)^2$服从 $\\chi^2$ 分布的系�?$a, b, c$ 分别�?().",
+                    "analysis": "由于 $X_1, X_2, \\cdots, X_9$ 相互独立且取自总体 $X \\sim N\\left(0,2^2\\right)$, 由正态分布的线性运算性质有\n$$\nX_1+X_2 \\sim N(0,8), \\quad X_3+X_4+X_5 \\sim N(0,12), \\quad X_6+X_7+X_8+X_9 \\sim N(0,16),\n$$\n\n于是, �?$\\chi^2=\\chi_1^2+\\cdots+\\chi_k^2$, 有\n$$\nQ=\\frac{\\left(X_1+X_2\\right)^2}{8}+\\frac{\\left(X_3+X_4+X_5\\right)^2}{12}+\\frac{\\left(X_6+X_7+X_8+X_9\\right)^2}{16} \\sim \\chi^2(3),\n$$\n\n�?$a=1 / 8, b=1 / 12, c=1 / 16$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -171,7 +171,7 @@
                     "accuracy_rate": 0.96,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 15204,
-                    "ai_tags": "抽样分布,正态分�?卡方分布"
+                    "ai_tags": "抽样分布,正态分�?卡方分布"
                 },
                 {
                     "id": 13417,
@@ -181,8 +181,8 @@
                     "difficulty": "Medium",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设总体 $X \\sim N(0,1), X_1, X_2, \\cdots, X_n$ 为样�? 则下列结论错误的�?( ).",
-                    "analysis": "�?$X \\sim N(0,1), Y \\sim \\chi^2(n)$, �?$X$ �?$Y$ 相互独立, �?$T=\\frac{X}{\\sqrt{Y / n}} \\sim t(n)$;\n�?$X \\sim \\chi^2(m), Y \\sim \\chi^2(n)$, �?$X$ �?$Y$ 相互独立, �?$F=\\frac{X / m}{Y / n} \\sim F(m, n)$.\n$X_1-X_2 \\sim N(0,2), X_3^2+X_4^2 \\sim \\chi^2(2)$, 且相互独�? 所�?$\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2}}=\\frac{\\left(X_1-X_2\\right) / \\sqrt{2}}{\\sqrt{\\left(X_3^2+X_4^2\\right) / 2}} \\sim t(2)$.\n$X_1+X_2 \\sim N(0,2), X_1^2+X_2^2 \\sim \\chi^2(2)$, 但不相互独立, 所以不能说�?$\\frac{X_1+X_2}{\\sqrt{X_1^2+X_2^2}}=\\frac{\\left(X_1+X_2\\right) / \\sqrt{2}}{\\sqrt{\\left(X_1^2+X_2^2\\right) / 2}}$ 服从 $t(2)$.\n$X_1 \\sim N(0,1), \\sum_{i=2}^n X_i^2 \\sim \\chi^2(n-1)$, 且相互独�? 所�?$\\frac{\\sqrt{n-1} X_1}{\\sqrt{\\sum_{i=2}^n X_i^2}}=\\frac{X_1 / 1}{\\sqrt{\\sum_{i=2}^n X_i^2 /(n-1)}} \\sim t(n-1)$.\n$\\sum_{i=1}^3 X_i^2 \\sim \\chi^2(3), \\sum_{i=4}^n X_i^2 \\sim \\chi^2(n-3)$, 且相互独�? 所�?$\\frac{(n-3) \\sum_{i=1}^3 X_i^2}{3 \\sum_{i=4}^n X_i^2}=\\frac{\\sum_{i=1}^3 X_i^2 / 3}{\\sum_{i=4}^n X_i^2 /(n-3)} \\sim F(3, n-3)$.",
+                    "question": "设总体 $X \\sim N(0,1), X_1, X_2, \\cdots, X_n$ 为样�? 则下列结论错误的�?( ).",
+                    "analysis": "�?$X \\sim N(0,1), Y \\sim \\chi^2(n)$, �?$X$ �?$Y$ 相互独立, �?$T=\\frac{X}{\\sqrt{Y / n}} \\sim t(n)$;\n�?$X \\sim \\chi^2(m), Y \\sim \\chi^2(n)$, �?$X$ �?$Y$ 相互独立, �?$F=\\frac{X / m}{Y / n} \\sim F(m, n)$.\n$X_1-X_2 \\sim N(0,2), X_3^2+X_4^2 \\sim \\chi^2(2)$, 且相互独�? 所�?$\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2}}=\\frac{\\left(X_1-X_2\\right) / \\sqrt{2}}{\\sqrt{\\left(X_3^2+X_4^2\\right) / 2}} \\sim t(2)$.\n$X_1+X_2 \\sim N(0,2), X_1^2+X_2^2 \\sim \\chi^2(2)$, 但不相互独立, 所以不能说�?$\\frac{X_1+X_2}{\\sqrt{X_1^2+X_2^2}}=\\frac{\\left(X_1+X_2\\right) / \\sqrt{2}}{\\sqrt{\\left(X_1^2+X_2^2\\right) / 2}}$ 服从 $t(2)$.\n$X_1 \\sim N(0,1), \\sum_{i=2}^n X_i^2 \\sim \\chi^2(n-1)$, 且相互独�? 所�?$\\frac{\\sqrt{n-1} X_1}{\\sqrt{\\sum_{i=2}^n X_i^2}}=\\frac{X_1 / 1}{\\sqrt{\\sum_{i=2}^n X_i^2 /(n-1)}} \\sim t(n-1)$.\n$\\sum_{i=1}^3 X_i^2 \\sim \\chi^2(3), \\sum_{i=4}^n X_i^2 \\sim \\chi^2(n-3)$, 且相互独�? 所�?$\\frac{(n-3) \\sum_{i=1}^3 X_i^2}{3 \\sum_{i=4}^n X_i^2}=\\frac{\\sum_{i=1}^3 X_i^2 / 3}{\\sum_{i=4}^n X_i^2 /(n-3)} \\sim F(3, n-3)$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -255,7 +255,7 @@
                     "accuracy_rate": 0.37,
                     "difficulty_score": 0.43,
                     "avg_time_spent": 31056,
-                    "ai_tags": "抽样分布,正态总体,统计�?
+                    "ai_tags": "抽样分布,正态总体,统计"
                 },
                 {
                     "id": 13418,
@@ -265,8 +265,8 @@
                     "difficulty": "Medium",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "�?$X_1, X_2, \\cdots, X_7$ 取自正态总体 $N\\left(0,0.4^2\\right)$, �?$P\\left\\{\\sum_{i=1}^7 X_i^2>1.92\\right\\}=() .\\left(\\chi_{0.1}^2(7)=12, \\chi_{0.025}^2(7)=16\\right)$",
-                    "analysis": "$\\begin{aligned} & \\text { �?} \\frac{\\sum_{i=1}^n\\left(X_i-\\mu\\right)^2}{\\sigma^2} \\sim \\chi^2(n), \\mu=0, \\sigma^2=0.4^2 \\text {, �?} \\\\ & \\quad P\\left\\{\\sum_{i=1}^7 X_i^2>1.92\\right\\}=P\\left\\{\\frac{\\sum_{i=1}^7 X_i^2}{(0.4)^2}>\\frac{1.92}{(0.4)^2}\\right\\}=P\\left\\{\\chi^2(7)>12\\right\\}=0.1 .\\end{aligned}$",
+                    "question": "�?$X_1, X_2, \\cdots, X_7$ 取自正态总体 $N\\left(0,0.4^2\\right)$, �?$P\\left\\{\\sum_{i=1}^7 X_i^2>1.92\\right\\}=() .\\left(\\chi_{0.1}^2(7)=12, \\chi_{0.025}^2(7)=16\\right)$",
+                    "analysis": "$\\begin{aligned} & \\text { �?} \\frac{\\sum_{i=1}^n\\left(X_i-\\mu\\right)^2}{\\sigma^2} \\sim \\chi^2(n), \\mu=0, \\sigma^2=0.4^2 \\text {, �?} \\\\ & \\quad P\\left\\{\\sum_{i=1}^7 X_i^2>1.92\\right\\}=P\\left\\{\\frac{\\sum_{i=1}^7 X_i^2}{(0.4)^2}>\\frac{1.92}{(0.4)^2}\\right\\}=P\\left\\{\\chi^2(7)>12\\right\\}=0.1 .\\end{aligned}$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -349,7 +349,7 @@
                     "difficulty": "Medium",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设随机变�?$X \\sim N(2,1)$, 随机变量 $Y_1, Y_2, Y_3, Y_4$ 均服�?$N(0,4)$, �?$X, Y_i(i=1,2,3,4)$ 都相互独�? �?$T=\\frac{4(X-2)}{\\sqrt{\\sum_{i=1}^4 Y_i^2}}$, �?$T$ 所服从的分布为（）�?,
+                    "question": "设随机变�?$X \\sim N(2,1)$, 随机变量 $Y_1, Y_2, Y_3, Y_4$ 均服�?$N(0,4)$, �?$X, Y_i(i=1,2,3,4)$ 都相互独�? �?$T=\\frac{4(X-2)}{\\sqrt{\\sum_{i=1}^4 Y_i^2}}$, �?$T$ 所服从的分布为（）",
                     "analysis": "由于 $X-2 \\sim N(0,1), Y_i / 2 \\sim N(0,1), i=1,2,3,4$, 故由 $t$ 分布的定义知\n$$\nT=\\frac{4(X-2)}{\\sqrt{\\sum_{i=1}^4 Y_i^2}}=\\frac{X-2}{\\sqrt{\\sum_{i=1}^4\\left(\\frac{Y_i}{4}\\right)^2}}=\\frac{X-2}{\\sqrt{\\sum_{i=1}^4\\left(\\frac{Y_i}{2}\\right)^2 / 4}} \\sim t(4) .\n$$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
@@ -423,7 +423,7 @@
                     "accuracy_rate": 1,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 46867,
-                    "ai_tags": "t分布,正态分�?抽样分布"
+                    "ai_tags": "t分布,正态分�?抽样分布"
                 },
                 {
                     "id": 13427,
@@ -434,7 +434,7 @@
                     "answer": "1",
                     "question_type": 1,
                     "question": "已知 $X \\sim t(n)$, 则有 () .",
-                    "analysis": "�?$X=U / \\sqrt{\\frac{Y}{n}}$, 其中 $U \\sim N(0,1), Y \\sim \\chi^2(n)$. �?$U$ �?$Y$ 相互独立, 于是,\n$$\nU^2 \\sim \\chi^2(1),\n$$\n\n�?$U^2$ �?$Y$ 也相互独�? 所以\n$$\nX^2=U^2 /\\left(\\frac{Y}{n}\\right) \\sim F(1, n), \\frac{1}{X^2} \\sim F(n, 1) .\n$$",
+                    "analysis": "�?$X=U / \\sqrt{\\frac{Y}{n}}$, 其中 $U \\sim N(0,1), Y \\sim \\chi^2(n)$. �?$U$ �?$Y$ 相互独立, 于是,\n$$\nU^2 \\sim \\chi^2(1),\n$$\n\n�?$U^2$ �?$Y$ 也相互独�? 所以\n$$\nX^2=U^2 /\\left(\\frac{Y}{n}\\right) \\sim F(1, n), \\frac{1}{X^2} \\sim F(n, 1) .\n$$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -517,8 +517,8 @@
                     "difficulty": "Easy",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "�?$T \\sim t(n)$, �?$T^2 \\sim()$.",
-                    "analysis": "1. �?$X \\sim N(0,1), Y \\sim \\chi^2(n)$, �?$X$ �?$Y$ 相互独立, �?$t \\sim t(n)$, 其中 $t=\\frac{X}{\\sqrt{Y / n}}$; 2. �?$X \\sim \\chi^2(m), Y \\sim \\chi^2(n)$, �?$X$ �?$Y$ 相互独立, �?$F \\sim F(m, n)$, 其中 $F=\\frac{X / m}{Y / n}=\\frac{n X}{m Y}$;�?$m=1$ �? �?$F(1, n)=t^2(n)$.",
+                    "question": "�?$T \\sim t(n)$, �?$T^2 \\sim()$.",
+                    "analysis": "1. �?$X \\sim N(0,1), Y \\sim \\chi^2(n)$, �?$X$ �?$Y$ 相互独立, �?$t \\sim t(n)$, 其中 $t=\\frac{X}{\\sqrt{Y / n}}$; 2. �?$X \\sim \\chi^2(m), Y \\sim \\chi^2(n)$, �?$X$ �?$Y$ 相互独立, �?$F \\sim F(m, n)$, 其中 $F=\\frac{X / m}{Y / n}=\\frac{n X}{m Y}$;�?$m=1$ �? �?$F(1, n)=t^2(n)$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -601,8 +601,8 @@
                     "difficulty": "Medium",
                     "answer": "3",
                     "question_type": 1,
-                    "question": "�?$X_1, X_2, X_3, X_4$ 是取自正态总体 $X \\sim N\\left(0,2^2\\right)$ 的简单随机样�? $Y=a\\left(2 X_1-X_2\\right)^2+b\\left(4 X_3-3 X_4\\right)^2$, 则使 $Y$ 服从 $\\chi^2$ 分布�?$a, b$ 与分布的自由度为 ( ).",
-                    "analysis": "因为 $X_i \\sim N\\left(0,2^2\\right)(i=1,2,3,4)$ 相互独立, 所�?$2 X_1-X_2 \\sim N(0,20), 4 X_3-3 X_4 \\sim N(0,100)$,\n$$\n\\left(\\frac{2 X_1-X_2}{\\sqrt{20}}\\right)^2+\\left(\\frac{4 X_3-3 X_4}{\\sqrt{100}}\\right)^2 \\sim \\chi^2(2)\n$$\n\n因此�?$a=\\frac{1}{20}, b=\\frac{1}{100}$ �? $Y \\sim \\chi^2(2)$, 自由度为 2 .",
+                    "question": "�?$X_1, X_2, X_3, X_4$ 是取自正态总体 $X \\sim N\\left(0,2^2\\right)$ 的简单随机样�? $Y=a\\left(2 X_1-X_2\\right)^2+b\\left(4 X_3-3 X_4\\right)^2$, 则使 $Y$ 服从 $\\chi^2$ 分布�?$a, b$ 与分布的自由度为 ( ).",
+                    "analysis": "因为 $X_i \\sim N\\left(0,2^2\\right)(i=1,2,3,4)$ 相互独立, 所�?$2 X_1-X_2 \\sim N(0,20), 4 X_3-3 X_4 \\sim N(0,100)$,\n$$\n\\left(\\frac{2 X_1-X_2}{\\sqrt{20}}\\right)^2+\\left(\\frac{4 X_3-3 X_4}{\\sqrt{100}}\\right)^2 \\sim \\chi^2(2)\n$$\n\n因此�?$a=\\frac{1}{20}, b=\\frac{1}{100}$ �? $Y \\sim \\chi^2(2)$, 自由度为 2 .",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -685,8 +685,8 @@
                     "difficulty": "Easy",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "�?$X_1, X_2, X_3, X_4$ 是来自正态总体 $\\mathrm{N}\\left(0, \\sigma^2\\right)$ 的样�? �?$V=\\frac{\\sqrt{3} X_1}{\\sqrt{X_2^2+X_3^2+X_4^2}}$, �?$V \\sim()$.",
-                    "analysis": "因为 $\\frac{X_1}{\\sigma} \\sim N(0,1), \\frac{X_2^2+X_3^2+X_4^2}{\\sigma^2} \\sim \\chi^2(3)$, 且它们互相独�? 那么�?$t$ 分布定义可知,\n$$\nV=\\frac{\\frac{X_1}{\\sigma}}{\\sqrt{\\frac{X_2^2+X_3^2+X_4^2}{3 \\sigma^2}}}=\\frac{\\sqrt{3} X_1}{\\sqrt{X_2^2+X_3^2+X_4^2}} \\sim t(3) .\n$$",
+                    "question": "�?$X_1, X_2, X_3, X_4$ 是来自正态总体 $\\mathrm{N}\\left(0, \\sigma^2\\right)$ 的样�? �?$V=\\frac{\\sqrt{3} X_1}{\\sqrt{X_2^2+X_3^2+X_4^2}}$, �?$V \\sim()$.",
+                    "analysis": "因为 $\\frac{X_1}{\\sigma} \\sim N(0,1), \\frac{X_2^2+X_3^2+X_4^2}{\\sigma^2} \\sim \\chi^2(3)$, 且它们互相独�? 那么�?$t$ 分布定义可知,\n$$\nV=\\frac{\\frac{X_1}{\\sigma}}{\\sqrt{\\frac{X_2^2+X_3^2+X_4^2}{3 \\sigma^2}}}=\\frac{\\sqrt{3} X_1}{\\sqrt{X_2^2+X_3^2+X_4^2}} \\sim t(3) .\n$$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -769,8 +769,8 @@
                     "difficulty": "Easy",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设随机变�?$\\xi \\sim N(0,1), \\eta \\sim \\chi^2(n)$, �?$\\xi$ �?$\\eta$ 相互独立, �?$T=\\xi / \\sqrt{\\eta / n}$ 服从 ( ).",
-                    "analysis": "�?$X \\sim N(0,1), Y \\sim \\chi^2(n)$, �?$X$ �?$Y$ 相互独立, �?$t \\sim t(n)$, 其中 $t=\\frac{X}{\\sqrt{Y / n}}$.",
+                    "question": "设随机变�?$\\xi \\sim N(0,1), \\eta \\sim \\chi^2(n)$, �?$\\xi$ �?$\\eta$ 相互独立, �?$T=\\xi / \\sqrt{\\eta / n}$ 服从 ( ).",
+                    "analysis": "�?$X \\sim N(0,1), Y \\sim \\chi^2(n)$, �?$X$ �?$Y$ 相互独立, �?$t \\sim t(n)$, 其中 $t=\\frac{X}{\\sqrt{Y / n}}$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -787,7 +787,7 @@
                             "id": 85793,
                             "question_id": 18947,
                             "is_answer": true,
-                            "choice": "自由度为 $n$ �?$t$ 分布",
+                            "choice": "自由度为 $n$ �?$t$ 分布",
                             "choice_render_type": 1,
                             "choice_id": "1",
                             "created_at": {
@@ -801,7 +801,7 @@
                             "id": 85794,
                             "question_id": 18947,
                             "is_answer": false,
-                            "choice": "正态分�?,
+                            "choice": "正态分",
                             "choice_render_type": 1,
                             "choice_id": "2",
                             "created_at": {
@@ -843,7 +843,7 @@
                     "accuracy_rate": 0.92,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 10648,
-                    "ai_tags": "t分布,抽样分布,统计�?
+                    "ai_tags": "t分布,抽样分布,统计"
                 }
             ]
         }
@@ -862,8 +862,8 @@
                     "difficulty": "Medium",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设总体 $X \\sim N(0,4)$, �?$X_1, X_2, \\cdots, X_{15}$ 为取自该总体的样�? 问随机变�?$Y=\\frac{X_1^2+X_2^2+\\cdots+X_{10}^2}{2\\left(X_{11}^2+X_{12}^2+\\cdots+X_{15}^2\\right)}$ 服从的分布是 () .",
-                    "analysis": "因为 $\\frac{X_i}{2} \\sim N(0,1)$, �?$\\frac{X_i^2}{4} \\sim \\chi^2(1), i=1,2, \\cdots, 15$. �?$X_1, X_2, \\cdots, X_{15}$ 独立, 故\n$$\n\\frac{X_1^2+X_2^2+\\cdots+X_{10}^2}{4} \\sim \\chi^2(10), \\frac{X_{11}^2+X_{12}^2+\\cdots+X_{15}^2}{4} \\sim \\chi^2(5),\n$$\n\n所以\n$$\n\\frac{\\frac{X_1^2+X_2^2+\\cdots+X_{10}^2}{4} / 10}{\\frac{X_{11}^2+X_{12}^2+\\cdots+X_{15}^2}{4} / 5}=\\frac{X_1^2+X_2^2+\\cdots+X_{10}^2}{2\\left(X_{11}^2+X_{12}^2+\\cdots+X_{15}^2\\right)}=Y \\sim F(10,5)\n$$",
+                    "question": "设总体 $X \\sim N(0,4)$, �?$X_1, X_2, \\cdots, X_{15}$ 为取自该总体的样�? 问随机变�?$Y=\\frac{X_1^2+X_2^2+\\cdots+X_{10}^2}{2\\left(X_{11}^2+X_{12}^2+\\cdots+X_{15}^2\\right)}$ 服从的分布是 () .",
+                    "analysis": "因为 $\\frac{X_i}{2} \\sim N(0,1)$, �?$\\frac{X_i^2}{4} \\sim \\chi^2(1), i=1,2, \\cdots, 15$. �?$X_1, X_2, \\cdots, X_{15}$ 独立, 故\n$$\n\\frac{X_1^2+X_2^2+\\cdots+X_{10}^2}{4} \\sim \\chi^2(10), \\frac{X_{11}^2+X_{12}^2+\\cdots+X_{15}^2}{4} \\sim \\chi^2(5),\n$$\n\n所以\n$$\n\\frac{\\frac{X_1^2+X_2^2+\\cdots+X_{10}^2}{4} / 10}{\\frac{X_{11}^2+X_{12}^2+\\cdots+X_{15}^2}{4} / 5}=\\frac{X_1^2+X_2^2+\\cdots+X_{10}^2}{2\\left(X_{11}^2+X_{12}^2+\\cdots+X_{15}^2\\right)}=Y \\sim F(10,5)\n$$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -946,8 +946,8 @@
                     "difficulty": "Easy",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "若随机变�?$X$ 服从 $F\\left(n_1, n_2\\right)$ 的分�? 则有 ( ).",
-                    "analysis": "(1) 因随机变�?$X$ 服从 $F\\left(n_1, n_2\\right)$, 故可�?$X=\\frac{U / n_1}{V / n_2}$, 其中 $U$ 服从 $\\chi^2\\left(n_1\\right), V$ 服从 $\\chi^2\\left(n_2\\right)$, �?$U$ �?$V$ 相互独立, 故\n$$\nY=\\frac{1}{X}=\\frac{V / n_2}{U / n_1} \\sim F\\left(n_2, n_1\\right) .\n$$\n(2) $F$ 分布的分位数具有的性质: $F_{1-\\alpha}\\left(n_1, n_2\\right)=\\frac{1}{F_\\alpha\\left(n_2, n_1\\right)}$.",
+                    "question": "若随机变�?$X$ 服从 $F\\left(n_1, n_2\\right)$ 的分�? 则有 ( ).",
+                    "analysis": "(1) 因随机变�?$X$ 服从 $F\\left(n_1, n_2\\right)$, 故可�?$X=\\frac{U / n_1}{V / n_2}$, 其中 $U$ 服从 $\\chi^2\\left(n_1\\right), V$ 服从 $\\chi^2\\left(n_2\\right)$, �?$U$ �?$V$ 相互独立, 故\n$$\nY=\\frac{1}{X}=\\frac{V / n_2}{U / n_1} \\sim F\\left(n_2, n_1\\right) .\n$$\n(2) $F$ 分布的分位数具有的性质: $F_{1-\\alpha}\\left(n_1, n_2\\right)=\\frac{1}{F_\\alpha\\left(n_2, n_1\\right)}$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -1020,7 +1020,7 @@
                     "accuracy_rate": 0.74,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 13875,
-                    "ai_tags": "F分布,分位�?概率�?
+                    "ai_tags": "F分布,分位�?概率"
                 },
                 {
                     "id": 18959,
@@ -1030,8 +1030,8 @@
                     "difficulty": "Medium",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设随机变�?$X$ �?$Y$ 相互独立且都服从正态分�?$N\\left(0,3^2\\right)$. $X_1, X_2, \\cdots, X_9$ �?$Y_1, Y_2, \\cdots, Y_9$ 是分别取自总体 $X$ �?$Y$ 的简单随机样�? 则统计量 $T=\\frac{X_1+X_2+\\cdots+X_9}{\\sqrt{Y_1^2+Y_2^2+\\cdots+Y_9^2}}$ 服从自由度为 ( ) �?$t$ 分布.",
-                    "analysis": "首先�?$X_i, Y_i$ 分别除以 3, 使之化为标准正态分�?\n�?$X_i^{\\prime}=\\frac{X_i}{3}, Y_i^{\\prime}=\\frac{Y_i}{3} (i=1,2, \\cdots, 9)$, 则\n$$\nX_i^{\\prime} \\sim N(0,1), \\quad Y_i^{\\prime} \\sim N(0,1)\n$$\n再令 $X^{\\prime}=X_1^{\\prime}+X_2^{\\prime}+\\cdots+X_9^{\\prime}$, �?$X^{\\prime} \\sim N(0,9)$, 从�?$\\frac{X^{\\prime}}{3} \\sim N(0,1)$.\n又令 $Y^{\\prime 2}=Y_1^{\\prime 2}+Y_2^{\\prime 2}+\\cdots+Y_{9}^{\\prime 2}$, �?$Y^{\\prime 2} \\sim \\chi^2(9)$.\n因此\n$$\nT=\\frac{X_1+X_2+\\cdots+X_9}{\\sqrt{Y_1^2+Y_2^2+\\cdots+Y_9^2}}=\\frac{3(X_1^{\\prime}+X_2^{\\prime}+\\cdots+X_9^{\\prime})}{\\sqrt{3^2(Y_1^{\\prime 2}+Y_2^{\\prime 2}+\\cdots+Y_9^{\\prime 2})}}=\\frac{X^{\\prime}}{\\sqrt{Y^{\\prime 2}}}=\\frac{X^{\\prime} / 3}{\\sqrt{Y^{\\prime 2} / 9}} \\sim t(9)\n$$\n这里利用�?$X^{\\prime}$ �?$Y^{\\prime 2}$ 相互独立.",
+                    "question": "设随机变�?$X$ �?$Y$ 相互独立且都服从正态分�?$N\\left(0,3^2\\right)$. $X_1, X_2, \\cdots, X_9$ �?$Y_1, Y_2, \\cdots, Y_9$ 是分别取自总体 $X$ �?$Y$ 的简单随机样�? 则统计量 $T=\\frac{X_1+X_2+\\cdots+X_9}{\\sqrt{Y_1^2+Y_2^2+\\cdots+Y_9^2}}$ 服从自由度为 ( ) �?$t$ 分布.",
+                    "analysis": "首先�?$X_i, Y_i$ 分别除以 3, 使之化为标准正态分�?\n�?$X_i^{\\prime}=\\frac{X_i}{3}, Y_i^{\\prime}=\\frac{Y_i}{3} (i=1,2, \\cdots, 9)$, 则\n$$\nX_i^{\\prime} \\sim N(0,1), \\quad Y_i^{\\prime} \\sim N(0,1)\n$$\n再令 $X^{\\prime}=X_1^{\\prime}+X_2^{\\prime}+\\cdots+X_9^{\\prime}$, �?$X^{\\prime} \\sim N(0,9)$, 从�?$\\frac{X^{\\prime}}{3} \\sim N(0,1)$.\n又令 $Y^{\\prime 2}=Y_1^{\\prime 2}+Y_2^{\\prime 2}+\\cdots+Y_{9}^{\\prime 2}$, �?$Y^{\\prime 2} \\sim \\chi^2(9)$.\n因此\n$$\nT=\\frac{X_1+X_2+\\cdots+X_9}{\\sqrt{Y_1^2+Y_2^2+\\cdots+Y_9^2}}=\\frac{3(X_1^{\\prime}+X_2^{\\prime}+\\cdots+X_9^{\\prime})}{\\sqrt{3^2(Y_1^{\\prime 2}+Y_2^{\\prime 2}+\\cdots+Y_9^{\\prime 2})}}=\\frac{X^{\\prime}}{\\sqrt{Y^{\\prime 2}}}=\\frac{X^{\\prime} / 3}{\\sqrt{Y^{\\prime 2} / 9}} \\sim t(9)\n$$\n这里利用�?$X^{\\prime}$ �?$Y^{\\prime 2}$ 相互独立.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -1114,8 +1114,8 @@
                     "difficulty": "Medium",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设随机变�?$X \\sim N(2,1)$, 随机变量 $Y_1, Y_2, Y_3, Y_4$ 均服�?$N(0,4)$, �?$X, Y_i(i=1,2,3,4)$ 相互独立, �?$T=4(X-2) / \\sqrt{\\sum_{i=1}^4 Y_i^2}$,则满�?$P\\left\\{|T|>t_0\\right\\}=0.01$ �?$t_0$ 的值为 ()$. \\quad\\left(t_{0.01}(4)=3.7469, t_{0.01}(3)=4.5407, t_{0.005}(4)=4.6041, t_{0.005}(3)=5.8409\\right)$",
-                    "analysis": "由于 $X-2 \\sim N(0,1), \\quad Y_i / 2 \\sim N(0,1), i=1, 2, 3, 4$, 故由 $t$ 分布的定义知\n$$\nT=\\frac{X-2}{\\sqrt{\\sum_{i=1}^4\\left(\\frac{Y_i}{2}\\right)^2} / 4}=\\frac{4(X-2)}{\\sqrt{\\sum_{i=1}^4 Y_i^2}} \\sim t(4),\n$$\n\n�?$P\\left\\{|T|>t_0\\right\\}=0.01$, 对于 $n=4, \\alpha=0.01, t_0=t_{\\alpha / 2}=t_{0.005}(4)=4.6041$.",
+                    "question": "设随机变�?$X \\sim N(2,1)$, 随机变量 $Y_1, Y_2, Y_3, Y_4$ 均服�?$N(0,4)$, �?$X, Y_i(i=1,2,3,4)$ 相互独立, �?$T=4(X-2) / \\sqrt{\\sum_{i=1}^4 Y_i^2}$,则满�?$P\\left\\{|T|>t_0\\right\\}=0.01$ �?$t_0$ 的值为 ()$. \\quad\\left(t_{0.01}(4)=3.7469, t_{0.01}(3)=4.5407, t_{0.005}(4)=4.6041, t_{0.005}(3)=5.8409\\right)$",
+                    "analysis": "由于 $X-2 \\sim N(0,1), \\quad Y_i / 2 \\sim N(0,1), i=1, 2, 3, 4$, 故由 $t$ 分布的定义知\n$$\nT=\\frac{X-2}{\\sqrt{\\sum_{i=1}^4\\left(\\frac{Y_i}{2}\\right)^2} / 4}=\\frac{4(X-2)}{\\sqrt{\\sum_{i=1}^4 Y_i^2}} \\sim t(4),\n$$\n\n�?$P\\left\\{|T|>t_0\\right\\}=0.01$, 对于 $n=4, \\alpha=0.01, t_0=t_{\\alpha / 2}=t_{0.005}(4)=4.6041$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -1188,7 +1188,7 @@
                     "accuracy_rate": 0.39,
                     "difficulty_score": 0.43,
                     "avg_time_spent": 44061,
-                    "ai_tags": "t分布,正态分�?抽样分布"
+                    "ai_tags": "t分布,正态分�?抽样分布"
                 },
                 {
                     "id": 18962,
@@ -1198,8 +1198,8 @@
                     "difficulty": "Easy",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "选项不正确的�?( ).",
-                    "analysis": "�?$X_1, X_2, \\cdots, X_n$ 相互独立且都服从标准正态分�? �?$Y=X_1^2+X_2^2+\\cdots+X_n^2 \\sim \\chi^2(n), E(Y)=n, D(Y)=2 n$.选项\" �?$X \\sim \\chi^2\\left(n_1\\right), \\quad Y \\sim \\chi^2\\left(n_2\\right)$, �?$X+Y \\sim \\chi^2\\left(n_1+n_2\\right)$ \"是错误的, 因为缺乏 $X$ �?$Y$ 相互独立这个条件.",
+                    "question": "选项不正确的�?( ).",
+                    "analysis": "�?$X_1, X_2, \\cdots, X_n$ 相互独立且都服从标准正态分�? �?$Y=X_1^2+X_2^2+\\cdots+X_n^2 \\sim \\chi^2(n), E(Y)=n, D(Y)=2 n$.选项\" �?$X \\sim \\chi^2\\left(n_1\\right), \\quad Y \\sim \\chi^2\\left(n_2\\right)$, �?$X+Y \\sim \\chi^2\\left(n_1+n_2\\right)$ \"是错误的, 因为缺乏 $X$ �?$Y$ 相互独立这个条件.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -1216,7 +1216,7 @@
                             "id": 85898,
                             "question_id": 18962,
                             "is_answer": true,
-                            "choice": "�?$X \\sim \\chi^2(n_1), Y \\sim \\chi^2(n_2)$, �?$X+Y \\sim \\chi^2(n_1+n_2)$",
+                            "choice": "�?$X \\sim \\chi^2(n_1), Y \\sim \\chi^2(n_2)$, �?$X+Y \\sim \\chi^2(n_1+n_2)$",
                             "choice_render_type": 1,
                             "choice_id": "1",
                             "created_at": {
@@ -1230,7 +1230,7 @@
                             "id": 85899,
                             "question_id": 18962,
                             "is_answer": false,
-                            "choice": "�?$X \\sim N(0,1), Y \\sim N(0,1)$, �?$X$ �?$Y$ 相互独立, �?$X^2+Y^2 \\sim \\chi^2(2)$",
+                            "choice": "�?$X \\sim N(0,1), Y \\sim N(0,1)$, �?$X$ �?$Y$ 相互独立, �?$X^2+Y^2 \\sim \\chi^2(2)$",
                             "choice_render_type": 1,
                             "choice_id": "2",
                             "created_at": {
@@ -1244,7 +1244,7 @@
                             "id": 85900,
                             "question_id": 18962,
                             "is_answer": false,
-                            "choice": "�?$X \\sim \\chi^2(10)$, �?$D(X)=20$",
+                            "choice": "�?$X \\sim \\chi^2(10)$, �?$D(X)=20$",
                             "choice_render_type": 1,
                             "choice_id": "3",
                             "created_at": {
@@ -1258,7 +1258,7 @@
                             "id": 85901,
                             "question_id": 18962,
                             "is_answer": false,
-                            "choice": "�?$X \\sim \\chi^2(10)$, �?$E(X)=10$",
+                            "choice": "�?$X \\sim \\chi^2(10)$, �?$E(X)=10$",
                             "choice_render_type": 1,
                             "choice_id": "4",
                             "created_at": {
@@ -1272,7 +1272,7 @@
                     "accuracy_rate": 0.62,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 15701,
-                    "ai_tags": "卡方分布,正态分�?数字特征"
+                    "ai_tags": "卡方分布,正态分�?数字特征"
                 },
                 {
                     "id": 18963,
@@ -1282,8 +1282,8 @@
                     "difficulty": "Medium",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "$X_1, X_2, \\cdots, X_n$ 为总体 $X \\sim N(0,1)$ 的一个样�? $\\bar{X}$ 为样本均�? $S^2$ 为样本方�? 则有 ( ).",
-                    "analysis": "对于正态总体 $X \\sim N(0,1)$ 及其样本 $X_1, X_2, \\cdots, X_n$, 根据相关结论有\n$$\n\\frac{\\bar{X}-0}{1 / \\sqrt{n}} \\sim N(0,1), \\frac{\\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2}{1^2} \\sim \\chi^2(n-1), \\frac{\\bar{X}-0}{S / \\sqrt{n}} \\sim t(n-1) .\n$$\n\n又根�?$\\chi^2$ 分布的定�? �?$X_i^2 \\sim \\chi^2(1), \\sum_{i=2}^n X_i^2 \\sim \\chi^2(n-1)$, 且相互独�? 于是�?$F$ 分布的定�? 有\n$$\n\\frac{(n-1) X_1^2}{\\sum_{i=2}^n X_i^2} \\sim F(1, n-1)\n$$",
+                    "question": "$X_1, X_2, \\cdots, X_n$ 为总体 $X \\sim N(0,1)$ 的一个样�? $\\bar{X}$ 为样本均�? $S^2$ 为样本方�? 则有 ( ).",
+                    "analysis": "对于正态总体 $X \\sim N(0,1)$ 及其样本 $X_1, X_2, \\cdots, X_n$, 根据相关结论有\n$$\n\\frac{\\bar{X}-0}{1 / \\sqrt{n}} \\sim N(0,1), \\frac{\\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2}{1^2} \\sim \\chi^2(n-1), \\frac{\\bar{X}-0}{S / \\sqrt{n}} \\sim t(n-1) .\n$$\n\n又根�?$\\chi^2$ 分布的定�? �?$X_i^2 \\sim \\chi^2(1), \\sum_{i=2}^n X_i^2 \\sim \\chi^2(n-1)$, 且相互独�? 于是�?$F$ 分布的定�? 有\n$$\n\\frac{(n-1) X_1^2}{\\sum_{i=2}^n X_i^2} \\sim F(1, n-1)\n$$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -1356,7 +1356,7 @@
                     "accuracy_rate": 0.47,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 21781,
-                    "ai_tags": "抽样分布,F分布,统计�?
+                    "ai_tags": "抽样分布,F分布,统计"
                 },
                 {
                     "id": 18966,
@@ -1366,8 +1366,8 @@
                     "difficulty": "Easy",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设随机变�?$X \\sim N(\\mu, 1), Y \\sim \\chi^2(n)$, �?$X, Y$ 相互独立. �?$T=\\frac{X-\\mu}{\\sqrt{Y}} \\sqrt{n}$, 则下列结论正确的�?( ).",
-                    "analysis": "因为 $X \\sim N(\\mu, 1), Y \\sim \\chi^2(n)$, �?$X$ �?$Y$ 相互独立, 所�?$\\frac{X-\\mu}{\\sqrt{Y / n}} \\sim t(n)$, �?$T=\\frac{X-\\mu}{\\sqrt{Y}} \\sqrt{n} \\sim t(n)$.",
+                    "question": "设随机变�?$X \\sim N(\\mu, 1), Y \\sim \\chi^2(n)$, �?$X, Y$ 相互独立. �?$T=\\frac{X-\\mu}{\\sqrt{Y}} \\sqrt{n}$, 则下列结论正确的�?( ).",
+                    "analysis": "因为 $X \\sim N(\\mu, 1), Y \\sim \\chi^2(n)$, �?$X$ �?$Y$ 相互独立, 所�?$\\frac{X-\\mu}{\\sqrt{Y / n}} \\sim t(n)$, �?$T=\\frac{X-\\mu}{\\sqrt{Y}} \\sqrt{n} \\sim t(n)$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -1450,8 +1450,8 @@
                     "difficulty": "Medium",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "�?$X_1, X_2, \\cdots, X_{28}$ 取自正态总体 $N\\left(0,0.3^2\\right)$, �?$P\\left\\{\\frac{\\sum_{i=1}^{14} X_i}{\\sqrt{\\sum_{j=15}^{28} X_j^2}}>2.1448\\right\\}=() .\\left(t_{0.01}(14)=2.6245, t_{0.025}(14)=2.1448\\right)$.",
-                    "analysis": "因为总体�?$N\\left(0, \\sigma^2\\right)$, 所�?$\\sum_{i=1}^{14} X_i \\sim N\\left(0,0.3^2 n\\right), \\sum_{j=15}^{28} \\frac{X_j^2}{0.3^2} \\sim \\chi^2(14)$ �?$\\frac{\\sum_{i=1}^{14} X_i}{\\sqrt{\\sum_{j=15}^{28} X_j^2}} \\sim t(14)$, 于是\n$$\nP\\left\\{\\frac{\\sum_{i=1}^{14} X_i}{\\sqrt{\\sum_{j=15}^{28} X_j^2}}>2.1448\\right\\}=0.025\n$$",
+                    "question": "�?$X_1, X_2, \\cdots, X_{28}$ 取自正态总体 $N\\left(0,0.3^2\\right)$, �?$P\\left\\{\\frac{\\sum_{i=1}^{14} X_i}{\\sqrt{\\sum_{j=15}^{28} X_j^2}}>2.1448\\right\\}=() .\\left(t_{0.01}(14)=2.6245, t_{0.025}(14)=2.1448\\right)$.",
+                    "analysis": "因为总体�?$N\\left(0, \\sigma^2\\right)$, 所�?$\\sum_{i=1}^{14} X_i \\sim N\\left(0,0.3^2 n\\right), \\sum_{j=15}^{28} \\frac{X_j^2}{0.3^2} \\sim \\chi^2(14)$ �?$\\frac{\\sum_{i=1}^{14} X_i}{\\sqrt{\\sum_{j=15}^{28} X_j^2}} \\sim t(14)$, 于是\n$$\nP\\left\\{\\frac{\\sum_{i=1}^{14} X_i}{\\sqrt{\\sum_{j=15}^{28} X_j^2}}>2.1448\\right\\}=0.025\n$$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -1534,8 +1534,8 @@
                     "difficulty": "Medium",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "在下列结果中不正确的�?( ).",
-                    "analysis": "选项 1�?\\chi^2$ 分布的可加性需要满�?*相互独立**的条件。若 $X \\sim \\chi^2(n_1), Y \\sim \\chi^2(n_2)$ 且相互独立，�?$X+Y \\sim \\chi^2(n_1+n_2)$。原选项未提及相互独立，故结论不一定成立，是错误的。\n选项 2：根�?$\\chi^2$ 分布的定义，�?$X, Y \\sim N(0,1)$ 且相互独立，�?$X^2+Y^2 \\sim \\chi^2(2)$，正确。\n选项 3：若 $X \\sim \\chi^2(n)$，则 $D(X)=2n$。这�?$n=10$，故 $D(X)=20$，正确。\n选项 4：样本方�?$S^2 = \\frac{1}{n-1}\\sum_{i=1}^n (X_i-\\bar{X})^2$，统计量 $\\frac{(n-1)S^2}{\\sigma^2} = \\frac{1}{\\sigma^2}\\sum_{i=1}^n (X_i-\\bar{X})^2 \\sim \\chi^2(n-1)$。其期望�?$n-1$，方差为 $2(n-1)=2n-2$，正确。\n综上，不正确的是选项 1�?,
+                    "question": "在下列结果中不正确的�?( ).",
+                    "analysis": "选项 1�?\\chi^2$ 分布的可加性需要满�?*相互独立**的条件。若 $X \\sim \\chi^2(n_1), Y \\sim \\chi^2(n_2)$ 且相互独立，�?$X+Y \\sim \\chi^2(n_1+n_2)$。原选项未提及相互独立，故结论不一定成立，是错误的。\n选项 2：根�?$\\chi^2$ 分布的定义，�?$X, Y \\sim N(0,1)$ 且相互独立，�?$X^2+Y^2 \\sim \\chi^2(2)$，正确。\n选项 3：若 $X \\sim \\chi^2(n)$，则 $D(X)=2n$。这�?$n=10$，故 $D(X)=20$，正确。\n选项 4：样本方�?$S^2 = \\frac{1}{n-1}\\sum_{i=1}^n (X_i-\\bar{X})^2$，统计量 $\\frac{(n-1)S^2}{\\sigma^2} = \\frac{1}{\\sigma^2}\\sum_{i=1}^n (X_i-\\bar{X})^2 \\sim \\chi^2(n-1)$。其期望�?$n-1$，方差为 $2(n-1)=2n-2$，正确。\n综上，不正确的是选项 1",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -1552,7 +1552,7 @@
                             "id": 86010,
                             "question_id": 18978,
                             "is_answer": true,
-                            "choice": "�?$X \\sim \\chi^2\\left(n_1\\right), Y \\sim \\chi^2\\left(n_2\\right)$, �?$X+Y \\sim \\chi^2\\left(n_1+n_2\\right)$",
+                            "choice": "�?$X \\sim \\chi^2\\left(n_1\\right), Y \\sim \\chi^2\\left(n_2\\right)$, �?$X+Y \\sim \\chi^2\\left(n_1+n_2\\right)$",
                             "choice_render_type": 1,
                             "choice_id": "1",
                             "created_at": {
@@ -1566,7 +1566,7 @@
                             "id": 86011,
                             "question_id": 18978,
                             "is_answer": false,
-                            "choice": "�?$X \\sim N(0,1), Y \\sim N(0,1)$, �?$X$ �?$Y$ 相互独立, �?$X^2+Y^2 \\sim \\chi^2(2)$",
+                            "choice": "�?$X \\sim N(0,1), Y \\sim N(0,1)$, �?$X$ �?$Y$ 相互独立, �?$X^2+Y^2 \\sim \\chi^2(2)$",
                             "choice_render_type": 1,
                             "choice_id": "2",
                             "created_at": {
@@ -1580,7 +1580,7 @@
                             "id": 86012,
                             "question_id": 18978,
                             "is_answer": false,
-                            "choice": "�?$X \\sim \\chi^2(10)$, �?$D(X)=20$",
+                            "choice": "�?$X \\sim \\chi^2(10)$, �?$D(X)=20$",
                             "choice_render_type": 1,
                             "choice_id": "3",
                             "created_at": {
@@ -1594,7 +1594,7 @@
                             "id": 86013,
                             "question_id": 18978,
                             "is_answer": false,
-                            "choice": "�?$X_1, X_2, \\cdots, X_n$ 是来�?$X \\sim N\\left(\\mu, \\sigma^2\\right)$ 的样�? �?$E\\left(\\frac{1}{\\sigma^2} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2\\right)=n-1, D\\left(\\frac{1}{\\sigma^2} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2\\right)=2 n-2$",
+                            "choice": "�?$X_1, X_2, \\cdots, X_n$ 是来�?$X \\sim N\\left(\\mu, \\sigma^2\\right)$ 的样�? �?$E\\left(\\frac{1}{\\sigma^2} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2\\right)=n-1, D\\left(\\frac{1}{\\sigma^2} \\sum_{i=1}^n\\left(X_i-\\bar{X}\\right)^2\\right)=2 n-2$",
                             "choice_render_type": 1,
                             "choice_id": "4",
                             "created_at": {
@@ -1618,8 +1618,8 @@
                     "difficulty": "Medium",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "�?$X_1, X_2, \\cdots, X_9$ 是取自正态总体 $X \\sim N\\left(\\mu, \\sigma^2\\right)$ 的样�? �?$Y_1=\\frac{1}{6}\\left(X_1+X_2+\\cdots+X_6\\right), Y_2=\\frac{1}{3}\\left(X_7+X_8+X_9\\right)$, $S^2=\\frac{1}{2} \\sum_{i=7}^9\\left(X_i-Y_2\\right)^2$, �?$Z=\\frac{\\sqrt{2}\\left(Y_1-Y_2\\right)}{S} \\sim t(\\quad)$.",
-                    "analysis": "易知\n$$\nY_1=\\frac{1}{6}(X_1+\\cdots+X_6) \\sim N\\left(\\mu, \\frac{\\sigma^2}{6}\\right), \\quad Y_2=\\frac{1}{3}(X_7+\\cdots+X_9) \\sim N\\left(\\mu, \\frac{\\sigma^2}{3}\\right)\n$$\n�?$Y_1$ �?$Y_2$ 独立，故 $Y_1-Y_2 \\sim N\\left(0, \\frac{\\sigma^2}{2}\\right)$。又\n$$\n\\frac{2S^2}{\\sigma^2}=\\frac{1}{\\sigma^2}\\sum_{i=7}^9(X_i-Y_2)^2 \\sim \\chi^2(2)\n$$\n因为 $Y_1-Y_2$ �?$\\frac{2S^2}{\\sigma^2}$ 独立，从而\n$$\nZ = \\frac{\\sqrt{2}(Y_1-Y_2)}{S} = \\frac{(Y_1-Y_2) / (\\sigma/\\sqrt{2})}{\\sqrt{\\frac{2S^2}{\\sigma^2} / 2}} \\sim t(2)\n$$",
+                    "question": "�?$X_1, X_2, \\cdots, X_9$ 是取自正态总体 $X \\sim N\\left(\\mu, \\sigma^2\\right)$ 的样�? �?$Y_1=\\frac{1}{6}\\left(X_1+X_2+\\cdots+X_6\\right), Y_2=\\frac{1}{3}\\left(X_7+X_8+X_9\\right)$, $S^2=\\frac{1}{2} \\sum_{i=7}^9\\left(X_i-Y_2\\right)^2$, �?$Z=\\frac{\\sqrt{2}\\left(Y_1-Y_2\\right)}{S} \\sim t(\\quad)$.",
+                    "analysis": "易知\n$$\nY_1=\\frac{1}{6}(X_1+\\cdots+X_6) \\sim N\\left(\\mu, \\frac{\\sigma^2}{6}\\right), \\quad Y_2=\\frac{1}{3}(X_7+\\cdots+X_9) \\sim N\\left(\\mu, \\frac{\\sigma^2}{3}\\right)\n$$\n�?$Y_1$ �?$Y_2$ 独立，故 $Y_1-Y_2 \\sim N\\left(0, \\frac{\\sigma^2}{2}\\right)$。又\n$$\n\\frac{2S^2}{\\sigma^2}=\\frac{1}{\\sigma^2}\\sum_{i=7}^9(X_i-Y_2)^2 \\sim \\chi^2(2)\n$$\n因为 $Y_1-Y_2$ �?$\\frac{2S^2}{\\sigma^2}$ 独立，从而\n$$\nZ = \\frac{\\sqrt{2}(Y_1-Y_2)}{S} = \\frac{(Y_1-Y_2) / (\\sigma/\\sqrt{2})}{\\sqrt{\\frac{2S^2}{\\sigma^2} / 2}} \\sim t(2)\n$$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -1711,8 +1711,8 @@
                     "difficulty": "Medium",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "�?$X_1, X_2, \\cdots, X_{20}$ 是正态总体 $N\\left(0, \\sigma^2\\right)$ 的样�? 则下列结论正确的�?( ).",
-                    "analysis": "因为总体�?$N\\left(0, \\sigma^2\\right)$, 所�?$\\sum_{i=1}^9 X_i \\sim N\\left(0,9 \\sigma^2\\right), \\frac{1}{\\sigma} \\sum_{i=1}^{20} X_i \\sim N(0,20), \\frac{X_i^2}{\\sigma^2} \\sim \\chi^2(1)(i=1,2, \\cdots, n)$ 相互独立�?$\\frac{1}{\\sigma^2} \\sum_{i=1}^n X_i^2 \\sim \\chi^2(n)$, 于是\n$$\n\\frac{11}{9} \\frac{\\sum_{i=1}^9 X_i^2}{\\sum_{j=10}^{20} X_j^2} \\sim F(9,11), \\frac{\\frac{1}{3 \\sigma} \\sum_{i=1}^9 X_i}{\\frac{1}{\\sqrt{11} \\sigma} \\sqrt{\\sum_{j=10}^{20} X_j^2}} \\sim t(11)\n$$",
+                    "question": "�?$X_1, X_2, \\cdots, X_{20}$ 是正态总体 $N\\left(0, \\sigma^2\\right)$ 的样�? 则下列结论正确的�?( ).",
+                    "analysis": "因为总体�?$N\\left(0, \\sigma^2\\right)$, 所�?$\\sum_{i=1}^9 X_i \\sim N\\left(0,9 \\sigma^2\\right), \\frac{1}{\\sigma} \\sum_{i=1}^{20} X_i \\sim N(0,20), \\frac{X_i^2}{\\sigma^2} \\sim \\chi^2(1)(i=1,2, \\cdots, n)$ 相互独立�?$\\frac{1}{\\sigma^2} \\sum_{i=1}^n X_i^2 \\sim \\chi^2(n)$, 于是\n$$\n\\frac{11}{9} \\frac{\\sum_{i=1}^9 X_i^2}{\\sum_{j=10}^{20} X_j^2} \\sim F(9,11), \\frac{\\frac{1}{3 \\sigma} \\sum_{i=1}^9 X_i}{\\frac{1}{\\sqrt{11} \\sigma} \\sqrt{\\sum_{j=10}^{20} X_j^2}} \\sim t(11)\n$$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -1795,8 +1795,8 @@
                     "difficulty": "Medium",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设有 $k$ 个相互独立的正态总体 $X_i \\sim N(\\mu_i, \\sigma^2)(i=1,2, \\cdots, k)$，从�?$i$ 个总体抽取容量�?$n_i$ 的样�?$X_{i 1}, X_{i 2}, \\cdots, X_{i n_i}$，记 $\\overline{X}_i=\\frac{1}{n_i} \\sum_{j=1}^{n_i} X_{i j}(i=1,2, \\cdots, k)$�?n=n_1+n_2+\\cdots+n_k$，则 $W=\\frac{1}{\\sigma^2} \\sum_{i=1}^k \\sum_{j=1}^{n_i}(X_{i j}-\\overline{X}_i)^2$ 的分布为 (    )�?,
-                    "analysis": "$\\begin{aligned} & \\text { 因为 } \\frac{\\sum_{j=1}^{n_i}\\left(X_{i j}-\\overline{X_i}\\right)^2}{\\sigma^2}=\\frac{\\left(n_i-1\\right) S_i^2}{\\sigma^2} \\sim \\chi^2\\left(n_i-1\\right) \\text {, �?} \\frac{\\left(n_i-1\\right) S_i^2}{\\sigma^2}(i=1,2, \\cdots, k) \\text { 相互独立, 所�?} \\\\ & W=\\frac{1}{\\sigma^2} \\sum_{i=1}^k \\sum_{j=1}^{n_i}\\left(X_{i j}-\\overline{X_i}\\right)^2=\\sum_{i=1}^k \\frac{\\left(n_i-1\\right) S_i^2}{\\sigma^2} \\sim \\chi^2\\left(\\sum_{i=1}^k\\left(n_i-1\\right)\\right) . \\\\ & \\text { �?} \\sum_{i=1}^k\\left(n_i-1\\right)=\\sum_{i=1}^k n_i-k=n-k \\text {, �?} \\\\ & W=\\frac{1}{\\sigma^2} \\sum_{i=1}^k \\sum_{j=1}^{n_i}\\left(X_{i j}-\\overline{X_i}\\right)^2 \\sim \\chi^2(n-k) .\\end{aligned}$",
+                    "question": "设有 $k$ 个相互独立的正态总体 $X_i \\sim N(\\mu_i, \\sigma^2)(i=1,2, \\cdots, k)$，从�?$i$ 个总体抽取容量�?$n_i$ 的样�?$X_{i 1}, X_{i 2}, \\cdots, X_{i n_i}$，记 $\\overline{X}_i=\\frac{1}{n_i} \\sum_{j=1}^{n_i} X_{i j}(i=1,2, \\cdots, k)$�?n=n_1+n_2+\\cdots+n_k$，则 $W=\\frac{1}{\\sigma^2} \\sum_{i=1}^k \\sum_{j=1}^{n_i}(X_{i j}-\\overline{X}_i)^2$ 的分布为 (    )",
+                    "analysis": "$\\begin{aligned} & \\text { 因为 } \\frac{\\sum_{j=1}^{n_i}\\left(X_{i j}-\\overline{X_i}\\right)^2}{\\sigma^2}=\\frac{\\left(n_i-1\\right) S_i^2}{\\sigma^2} \\sim \\chi^2\\left(n_i-1\\right) \\text {, �?} \\frac{\\left(n_i-1\\right) S_i^2}{\\sigma^2}(i=1,2, \\cdots, k) \\text { 相互独立, 所�?} \\\\ & W=\\frac{1}{\\sigma^2} \\sum_{i=1}^k \\sum_{j=1}^{n_i}\\left(X_{i j}-\\overline{X_i}\\right)^2=\\sum_{i=1}^k \\frac{\\left(n_i-1\\right) S_i^2}{\\sigma^2} \\sim \\chi^2\\left(\\sum_{i=1}^k\\left(n_i-1\\right)\\right) . \\\\ & \\text { �?} \\sum_{i=1}^k\\left(n_i-1\\right)=\\sum_{i=1}^k n_i-k=n-k \\text {, �?} \\\\ & W=\\frac{1}{\\sigma^2} \\sum_{i=1}^k \\sum_{j=1}^{n_i}\\left(X_{i j}-\\overline{X_i}\\right)^2 \\sim \\chi^2(n-k) .\\end{aligned}$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -1879,8 +1879,8 @@
                     "difficulty": "Easy",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "对于给定的正�?$a, 0<a<1$, �?$z_a, \\chi_a^2(n), t_a(n), F_a(n_1, n_2)$ 分别是标准正态分�?$\\Phi(x), \\chi^2(n), t(n), F(n_1, n_2)$ 分布的上 $a$ 分位�? 则下面的结论中不正确的是 ( ).",
-                    "analysis": "因为标准正态分布和 $t$ 分布的密度函数图形都是关�?$y$ 轴对称的，所�?$z_{1-a}(n)=-z_a(n), t_{1-a}(n)=-t_a(n)$�?\\chi^2$ 变量不取小于零的值，所�?$\\chi_{1-a}^2(n)=-\\chi_a^2(n)$ 是错的。对�?$F$ 分布�?$F$ 分布的分位数具有的性质：\n$$F_{1-a}(n_1, n_2)=\\frac{1}{F_a(n_2, n_1)}$$",
+                    "question": "对于给定的正�?$a, 0<a<1$, �?$z_a, \\chi_a^2(n), t_a(n), F_a(n_1, n_2)$ 分别是标准正态分�?$\\Phi(x), \\chi^2(n), t(n), F(n_1, n_2)$ 分布的上 $a$ 分位�? 则下面的结论中不正确的是 ( ).",
+                    "analysis": "因为标准正态分布和 $t$ 分布的密度函数图形都是关�?$y$ 轴对称的，所�?$z_{1-a}(n)=-z_a(n), t_{1-a}(n)=-t_a(n)$�?\\chi^2$ 变量不取小于零的值，所�?$\\chi_{1-a}^2(n)=-\\chi_a^2(n)$ 是错的。对�?$F$ 分布�?$F$ 分布的分位数具有的性质：\n$$F_{1-a}(n_1, n_2)=\\frac{1}{F_a(n_2, n_1)}$$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -1953,7 +1953,7 @@
                     "accuracy_rate": 0.46,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 37329,
-                    "ai_tags": "数理统计,抽样分布,分位�?
+                    "ai_tags": "数理统计,抽样分布,分位"
                 }
             ]
         }

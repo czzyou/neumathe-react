@@ -13,8 +13,8 @@
                     "difficulty": "Easy",
                     "answer": "2",
                     "question_type": 1,
-                    "question": "设二维随机变�?$(\\xi, \\eta)$ 的联合概率密度为 $\\varphi(x, y)=k x y e^{-\\left(x^2+y^2\\right)}(x \\geq 0, y \\geq 0)$, 则常�?$k=()$.",
-                    "analysis": "根据联合概率密度性质 $\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} \\varphi(x, y) d x d y=1$, �?$\\frac{k}{4}=1$, �?$k=4$.注意: $\\int_0^{+\\infty} e^{-x^2} d x=\\frac{\\sqrt{\\pi}}{2}, \\int_0^{+\\infty} x e^{-x^2} d x=\\frac{1}{2}$.",
+                    "question": "设二维随机变�?$(\\xi, \\eta)$ 的联合概率密度为 $\\varphi(x, y)=k x y e^{-\\left(x^2+y^2\\right)}(x \\geq 0, y \\geq 0)$, 则常�?$k=()$.",
+                    "analysis": "根据联合概率密度性质 $\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} \\varphi(x, y) d x d y=1$, �?$\\frac{k}{4}=1$, �?$k=4$.注意: $\\int_0^{+\\infty} e^{-x^2} d x=\\frac{\\sqrt{\\pi}}{2}, \\int_0^{+\\infty} x e^{-x^2} d x=\\frac{1}{2}$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -97,7 +97,7 @@
                     "difficulty": "Medium",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设二维随机变�?$(\\xi, \\eta)$ 的联合概率密度为 $\\varphi(x, y)$, 在条�?$\\xi=x$ 下关�?$\\eta$ 的条件分布密度为 $\\varphi_1(y \\mid x)$,�?$P\\left\\{\\left.\\eta \\leq \\frac{1}{2} \\right\\rvert\\, \\xi \\leq \\frac{1}{2}\\right\\}=()$.",
+                    "question": "设二维随机变�?$(\\xi, \\eta)$ 的联合概率密度为 $\\varphi(x, y)$, 在条�?$\\xi=x$ 下关�?$\\eta$ 的条件分布密度为 $\\varphi_1(y \\mid x)$,�?$P\\left\\{\\left.\\eta \\leq \\frac{1}{2} \\right\\rvert\\, \\xi \\leq \\frac{1}{2}\\right\\}=()$.",
                     "analysis": "$P\\left\\{\\left.\\eta \\leq \\frac{1}{2} \\right\\rvert\\, \\xi \\leq \\frac{1}{2}\\right\\}=\\frac{P\\left\\{\\eta \\leq \\frac{1}{2}, \\xi \\leq \\frac{1}{2}\\right\\}}{P\\left\\{\\xi \\leq \\frac{1}{2}\\right\\}}=\\frac{\\int_{-\\infty}^{\\frac{1}{2}} \\int_{-\\infty}^{\\frac{1}{2}} \\varphi(x, y) d x d y}{\\int_{-\\infty}^{\\frac{1}{2}} \\int_{-\\infty}^{+\\infty} \\varphi(x, y) d y d x}$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
@@ -172,7 +172,7 @@
                     "difficulty_score": 0.4,
                     "avg_time_spent": 37883,
                     "tags": "",
-                    "ai_tags": "概率�?二维随机变量,条件概率"
+                    "ai_tags": "概率�?二维随机变量,条件概率"
                 },
                 {
                     "id": 12935,
@@ -182,7 +182,7 @@
                     "difficulty": "Easy",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设二维随机向�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\frac{6}{\\pi^2\\left(4+x^2\\right)\\left(9+y^2\\right)}(-\\infty<x<+\\infty,-\\infty<y<+\\infty),\n$$\n\n�?$f_x(x)=()$.",
+                    "question": "设二维随机向�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\frac{6}{\\pi^2\\left(4+x^2\\right)\\left(9+y^2\\right)}(-\\infty<x<+\\infty,-\\infty<y<+\\infty),\n$$\n\n�?$f_x(x)=()$.",
                     "analysis": "$f_X(x)=\\int_{-\\infty}^{+\\infty} f(x, y) d y=\\int_{-\\infty}^{+\\infty} \\frac{6}{\\pi^2\\left(4+x^2\\right)\\left(9+y^2\\right)} d y=\\frac{2}{\\pi^2\\left(4+x^2\\right)} \\int_{-\\infty}^{+\\infty} \\frac{3}{\\left(9+y^2\\right)} d y=\\frac{2}{\\pi\\left(4+x^2\\right)}$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
@@ -267,8 +267,8 @@
                     "difficulty": "Easy",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设连续随机向�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{l}\nk x y^2, 0 \\leq x<2,0 \\leq y<1, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$\n\n�?$k=()$.",
-                    "analysis": "�?$\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x, y) d x d y=1$, �?$\\int_0^1 d y \\int_0^2 k x y^2 d x=1$, �?$\\frac{2}{3} k=1$.",
+                    "question": "设连续随机向�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{l}\nk x y^2, 0 \\leq x<2,0 \\leq y<1, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$\n\n�?$k=()$.",
+                    "analysis": "�?$\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x, y) d x d y=1$, �?$\\int_0^1 d y \\int_0^2 k x y^2 d x=1$, �?$\\frac{2}{3} k=1$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -351,7 +351,7 @@
                     "difficulty": "Easy",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{l}\nk\\left(x^2+y^2\\right), 0<x<2,1<y<4, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$\n\n�?$k=()$.",
+                    "question": "�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{l}\nk\\left(x^2+y^2\\right), 0<x<2,1<y<4, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$\n\n�?$k=()$.",
                     "analysis": "根据联合概率密度性质有\n$$\n\\int_0^2 \\int_1^4 k\\left(x^2+y^2\\right) d x d y=1,\n$$\n\n解得 $k=\\frac{1}{50}$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
@@ -435,7 +435,7 @@
                     "difficulty": "Easy",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{l}\n\\frac{2}{3}(x+2 y), 0 \\leq x \\leq 1,0 \\leq y \\leq 1, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$\n\n则关�?$x$ 的边缘概率密度为 ().",
+                    "question": "�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{l}\n\\frac{2}{3}(x+2 y), 0 \\leq x \\leq 1,0 \\leq y \\leq 1, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$\n\n则关�?$x$ 的边缘概率密度为 ().",
                     "analysis": "$f_X(x)=\\int_{-\\infty}^{+\\infty} f(x, y) d y=\\left\\{\\begin{array}{l}\\int_0^1 \\frac{2}{3}(x+2 y) d y, 0 \\leq x \\leq 1 \\\\ 0, \\text { 其它 }\\end{array}=\\left\\{\\begin{array}{l}\\frac{2}{3}(x+1), 0 \\leq x \\leq 1, \\\\ 0, \\text { 其它. }\\end{array}\\right.\\right.$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
@@ -509,7 +509,7 @@
                     "accuracy_rate": 0.81,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 72144,
-                    "ai_tags": "概率�?二维随机变量,边缘概率密度"
+                    "ai_tags": "概率�?二维随机变量,边缘概率密度"
                 },
                 {
                     "id": 12955,
@@ -519,7 +519,7 @@
                     "difficulty": "Easy",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设二维随机变�?$(\\xi, \\eta)$ 的联合概率密度函数是 $\\varphi(x, y)$, 则关�?$\\xi$ 的边缘分布密�?$\\varphi_1(x)=()$.",
+                    "question": "设二维随机变�?$(\\xi, \\eta)$ 的联合概率密度函数是 $\\varphi(x, y)$, 则关�?$\\xi$ 的边缘分布密�?$\\varphi_1(x)=()$.",
                     "analysis": "根据边缘密度函数的定义有 $\\varphi_1(x)=\\int_{-\\infty}^{+\\infty} \\varphi(x, y) d y$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
@@ -593,7 +593,7 @@
                     "accuracy_rate": 0.95,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 74920,
-                    "ai_tags": "概率�?二维随机变量,边缘分布密度"
+                    "ai_tags": "概率�?二维随机变量,边缘分布密度"
                 },
                 {
                     "id": 18657,
@@ -603,7 +603,7 @@
                     "difficulty": "Easy",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设二维随机变�?$(X, Y)$ 的联合密度为\n$$\nf(x, y)=\\begin{cases} ce^{-(x+y)}, & x \\ge 0, y \\ge 0 \\\\ 0, & \\text{其它} \\end{cases}\n$$\n�?$c$ 的值为 ( ).",
+                    "question": "设二维随机变�?$(X, Y)$ 的联合密度为\n$$\nf(x, y)=\\begin{cases} ce^{-(x+y)}, & x \\ge 0, y \\ge 0 \\\\ 0, & \\text{其它} \\end{cases}\n$$\n�?$c$ 的值为 ( ).",
                     "analysis": "根据联合概率密度性质有\n$$\n\\int_0^{+\\infty} \\int_0^{+\\infty} c e^{-(x+y)} d x d y=1,\n$$\n\n解得 $c=1$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
@@ -687,8 +687,8 @@
                     "difficulty": "Medium",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设随机向�?$(X, Y)$ 的概率密度为 $f(x, y)=\\begin{cases} 6xy, & 0<x<1, 0<y<2(1-x) \\\\ 0, & \\text{其它} \\end{cases}$，则 $X$ 的边缘概率密度为 ( ).",
-                    "analysis": "随机变量 $X$ 的边缘概率密�?$f_X(x)=\\int_{-\\infty}^{+\\infty} f(x, y) d y$, 且当 $0<x<1$ �? $f_X(x)=\\int_0^{2(1-x)} 6 x y d y=12 x(1-x)^2$; �?$x \\leq 0$ �?$x \\geq 1$ �? $f_X(x)=\\int_{-\\infty}^{+\\infty} 0 d y=0$.�?$X$ 的边缘概率密度为\n$$\nf_X(x)=\\left\\{\\begin{array}{l}\n12 x(1-x)^2, 0<x<1, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$",
+                    "question": "设随机向�?$(X, Y)$ 的概率密度为 $f(x, y)=\\begin{cases} 6xy, & 0<x<1, 0<y<2(1-x) \\\\ 0, & \\text{其它} \\end{cases}$，则 $X$ 的边缘概率密度为 ( ).",
+                    "analysis": "随机变量 $X$ 的边缘概率密�?$f_X(x)=\\int_{-\\infty}^{+\\infty} f(x, y) d y$, 且当 $0<x<1$ �? $f_X(x)=\\int_0^{2(1-x)} 6 x y d y=12 x(1-x)^2$; �?$x \\leq 0$ �?$x \\geq 1$ �? $f_X(x)=\\int_{-\\infty}^{+\\infty} 0 d y=0$.�?$X$ 的边缘概率密度为\n$$\nf_X(x)=\\left\\{\\begin{array}{l}\n12 x(1-x)^2, 0<x<1, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -761,7 +761,7 @@
                     "accuracy_rate": 0.71,
                     "difficulty_score": 0.43,
                     "avg_time_spent": 510046,
-                    "ai_tags": "概率�?边缘概率密度,二维随机变量"
+                    "ai_tags": "概率�?边缘概率密度,二维随机变量"
                 },
                 {
                     "id": 18663,
@@ -771,8 +771,8 @@
                     "difficulty": "Easy",
                     "answer": "3",
                     "question_type": 1,
-                    "question": "设二维随机变�?$(\\xi, \\eta)$ 的联合概率密度为 $\\varphi(x, y)$, 关于 $\\xi$ �?$\\eta$ 的边缘概率密度分别为 $\\varphi_1(x)$ �?$\\varphi_2(y)$, 则在 $\\eta=y(\\varphi_2(y)>0)$ 的条件下 $\\xi$ 的条件概率密�?$\\varphi(x \\mid y)=(\\quad)$.",
-                    "analysis": "根据条件概率密度的定�? �?$\\eta=y\\left(\\varphi_2(y)>0\\right)$ 条件下即�?$\\varphi(x \\mid y)=\\frac{\\varphi(x, y)}{\\varphi_2(y)}$.",
+                    "question": "设二维随机变�?$(\\xi, \\eta)$ 的联合概率密度为 $\\varphi(x, y)$, 关于 $\\xi$ �?$\\eta$ 的边缘概率密度分别为 $\\varphi_1(x)$ �?$\\varphi_2(y)$, 则在 $\\eta=y(\\varphi_2(y)>0)$ 的条件下 $\\xi$ 的条件概率密�?$\\varphi(x \\mid y)=(\\quad)$.",
+                    "analysis": "根据条件概率密度的定�? �?$\\eta=y\\left(\\varphi_2(y)>0\\right)$ 条件下即�?$\\varphi(x \\mid y)=\\frac{\\varphi(x, y)}{\\varphi_2(y)}$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -864,8 +864,8 @@
                     "difficulty": "Medium",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设连续随机向�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{ll}\n\\frac{1}{2}(x+y) x y, & 0<x<1,0<y<2, \\\\\n0, & \\text { 其它 }\n\\end{array}\\right.\n$$\n则关�?$X$ 的边缘概率密度为 ( ).",
-                    "analysis": "边缘概率密度 $f_X(x)$ 的计算公式为\n$$\nf_X(x)=\\int_{-\\infty}^{+\\infty} f(x, y) d y\n$$\n�?$0<x<1$ 时，\n$$\n\\begin{aligned}\nf_X(x) &= \\int_0^2 \\frac{1}{2}(x+y) x y d y \\\\\n&= \\frac{1}{2} x \\int_0^2 (xy + y^2) d y \\\\\n&= \\frac{1}{2} x \\left[ \\frac{1}{2}xy^2 + \\frac{1}{3}y^3 \\right]_0^2 \\\\\n&= \\frac{1}{2} x \\left( 2x + \\frac{8}{3} \\right) \\\\\n&= x^2 + \\frac{4}{3}x = x\\left(x+\\frac{4}{3}\\right)\n\\end{aligned}\n$$\n�?$x \\le 0$ �?$x \\ge 1$ 时，$f_X(x)=0$。\n\n综上所述，\n$$\nf_X(x)=\\left\\{\\begin{array}{ll}\nx\\left(x+\\frac{4}{3}\\right), & 0<x<1 \\\\\n0, & \\text { 其它 }\n\\end{array}\\right.\n$$",
+                    "question": "设连续随机向�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{ll}\n\\frac{1}{2}(x+y) x y, & 0<x<1,0<y<2, \\\\\n0, & \\text { 其它 }\n\\end{array}\\right.\n$$\n则关�?$X$ 的边缘概率密度为 ( ).",
+                    "analysis": "边缘概率密度 $f_X(x)$ 的计算公式为\n$$\nf_X(x)=\\int_{-\\infty}^{+\\infty} f(x, y) d y\n$$\n�?$0<x<1$ 时，\n$$\n\\begin{aligned}\nf_X(x) &= \\int_0^2 \\frac{1}{2}(x+y) x y d y \\\\\n&= \\frac{1}{2} x \\int_0^2 (xy + y^2) d y \\\\\n&= \\frac{1}{2} x \\left[ \\frac{1}{2}xy^2 + \\frac{1}{3}y^3 \\right]_0^2 \\\\\n&= \\frac{1}{2} x \\left( 2x + \\frac{8}{3} \\right) \\\\\n&= x^2 + \\frac{4}{3}x = x\\left(x+\\frac{4}{3}\\right)\n\\end{aligned}\n$$\n�?$x \\le 0$ �?$x \\ge 1$ 时，$f_X(x)=0$。\n\n综上所述，\n$$\nf_X(x)=\\left\\{\\begin{array}{ll}\nx\\left(x+\\frac{4}{3}\\right), & 0<x<1 \\\\\n0, & \\text { 其它 }\n\\end{array}\\right.\n$$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -938,7 +938,7 @@
                     "accuracy_rate": 0.86,
                     "difficulty_score": 0.43,
                     "avg_time_spent": 45016,
-                    "ai_tags": "概率�?二维随机变量,边缘概率密度"
+                    "ai_tags": "概率�?二维随机变量,边缘概率密度"
                 },
                 {
                     "id": 18666,
@@ -948,8 +948,8 @@
                     "difficulty": "Medium",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设二维随机变�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\begin{cases}\n4.8 y(1-x), & 0 \\leq x \\leq 1, x \\leq y \\leq 1 \\\\\n0, & \\text { 其它 }\n\\end{cases}\n$$\n则边缘概率密�?$f_Y(y)=(\\quad)$.",
-                    "analysis": "$$f_Y(y)=\\int_{-\\infty}^{+\\infty} f(x, y) d x$$\n�?$0 \\leq y \\leq 1$ 时，\n$$\n\\begin{aligned}\nf_Y(y) &= \\int_0^y 4.8 y(1-x) d x \\\\\n&= 4.8 y \\left[x - \\frac{x^2}{2}\\right]_0^y \\\\\n&= 4.8 y \\left(y - \\frac{y^2}{2}\\right) \\\\\n&= 2.4 y^2(2-y)\n\\end{aligned}\n$$\n�?$y < 0$ �?$y > 1$ 时，$f_Y(y)=0$。\n故\n$$\nf_Y(y)=\\begin{cases}\n2.4 y^2(2-y), & 0 \\leq y \\leq 1 \\\\\n0, & \\text { 其它 }\n\\end{cases}\n$$",
+                    "question": "设二维随机变�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\begin{cases}\n4.8 y(1-x), & 0 \\leq x \\leq 1, x \\leq y \\leq 1 \\\\\n0, & \\text { 其它 }\n\\end{cases}\n$$\n则边缘概率密�?$f_Y(y)=(\\quad)$.",
+                    "analysis": "$$f_Y(y)=\\int_{-\\infty}^{+\\infty} f(x, y) d x$$\n�?$0 \\leq y \\leq 1$ 时，\n$$\n\\begin{aligned}\nf_Y(y) &= \\int_0^y 4.8 y(1-x) d x \\\\\n&= 4.8 y \\left[x - \\frac{x^2}{2}\\right]_0^y \\\\\n&= 4.8 y \\left(y - \\frac{y^2}{2}\\right) \\\\\n&= 2.4 y^2(2-y)\n\\end{aligned}\n$$\n�?$y < 0$ �?$y > 1$ 时，$f_Y(y)=0$。\n故\n$$\nf_Y(y)=\\begin{cases}\n2.4 y^2(2-y), & 0 \\leq y \\leq 1 \\\\\n0, & \\text { 其它 }\n\\end{cases}\n$$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -1032,7 +1032,7 @@
                     "difficulty": "Easy",
                     "answer": "2",
                     "question_type": 1,
-                    "question": "设二维随机变�?$(\\xi, \\eta)$ 的联合概率密度函数是 $\\varphi(x, y)$, 则关�?$\\eta$ 的边缘分布密�?$\\varphi_2(y)=()$.",
+                    "question": "设二维随机变�?$(\\xi, \\eta)$ 的联合概率密度函数是 $\\varphi(x, y)$, 则关�?$\\eta$ 的边缘分布密�?$\\varphi_2(y)=()$.",
                     "analysis": "根据边缘密度函数的定义有 $\\varphi_2(y)=\\int_{-\\infty}^{+\\infty} \\varphi(x, y) d x$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
@@ -1106,7 +1106,7 @@
                     "accuracy_rate": 0.92,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 142408,
-                    "ai_tags": "概率�?二维随机变量,边缘分布"
+                    "ai_tags": "概率�?二维随机变量,边缘分布"
                 },
                 {
                     "id": 18668,
@@ -1116,8 +1116,8 @@
                     "difficulty": "Medium",
                     "answer": "4",
                     "question_type": 1,
-                    "question": "设二维随机变�?$(X, Y)$ 的概率密度为 $f(x, y)=A e^{-2 x^2+2 x y-y^2}(-\\infty<x<+\\infty,-\\infty<y<+\\infty)$, 则常�?$A=( )$.",
-                    "analysis": "根据概率密度的性质, �?$\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x, y) d x d y=1$, 有\n$$\nA \\int_{-\\infty}^{+\\infty} e^{-x^2} d x \\int_{-\\infty}^{+\\infty} e^{-(y-x)^2} d y=A \\sqrt{\\pi} \\int_{-\\infty}^{+\\infty} e^{-x^2} d x=A \\pi=1,\n$$\n\n�?$A=\\frac{1}{\\pi}$.",
+                    "question": "设二维随机变�?$(X, Y)$ 的概率密度为 $f(x, y)=A e^{-2 x^2+2 x y-y^2}(-\\infty<x<+\\infty,-\\infty<y<+\\infty)$, 则常�?$A=( )$.",
+                    "analysis": "根据概率密度的性质, �?$\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x, y) d x d y=1$, 有\n$$\nA \\int_{-\\infty}^{+\\infty} e^{-x^2} d x \\int_{-\\infty}^{+\\infty} e^{-(y-x)^2} d y=A \\sqrt{\\pi} \\int_{-\\infty}^{+\\infty} e^{-x^2} d x=A \\pi=1,\n$$\n\n�?$A=\\frac{1}{\\pi}$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -1200,7 +1200,7 @@
                     "difficulty": "Medium",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "�?$(\\xi, \\eta)$ 的联合概率密度为 $\\varphi(x, y)=\\left\\{\\begin{array}{l}\\frac{1}{8}\\left(x^2+y^2\\right) e^{-x},|y| \\leq x \\\\ 0, \\text { 其它 }\\end{array}\\right.$, 则关�?$\\xi$ 的边缘概率密�?$\\varphi_1(x)=()$.",
+                    "question": "�?$(\\xi, \\eta)$ 的联合概率密度为 $\\varphi(x, y)=\\left\\{\\begin{array}{l}\\frac{1}{8}\\left(x^2+y^2\\right) e^{-x},|y| \\leq x \\\\ 0, \\text { 其它 }\\end{array}\\right.$, 则关�?$\\xi$ 的边缘概率密�?$\\varphi_1(x)=()$.",
                     "analysis": "根据边缘密度函数的定义有\n$$\n\\varphi_1(x)=\\int_{-\\infty}^{+\\infty} \\varphi(x, y) d y=\\left\\{\\begin{array}{ll}\n\\int_{-x}^x \\frac{1}{8}\\left(x^2+y^2\\right) e^{-x} d y, & x>0 \\\\\n0, & x \\leq 0\n\\end{array}\\right.=\\left\\{\\begin{array}{ll}\n\\frac{1}{3} x^3 e^{-x}, & x>0 \\\\\n0, & x \\leq 0\n\\end{array}\\right.\n$$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
@@ -1274,7 +1274,7 @@
                     "accuracy_rate": 0.7,
                     "difficulty_score": 0.43,
                     "avg_time_spent": 74463,
-                    "ai_tags": "概率�?二维随机变量,边缘概率密度"
+                    "ai_tags": "概率�?二维随机变量,边缘概率密度"
                 },
                 {
                     "id": 18670,
@@ -1284,8 +1284,8 @@
                     "difficulty": "Medium",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设随机变量的联合概率密度为\n$$\n\\varphi(x, y)= \\begin{cases}c(1+x+y)^{-n}, & x>0, y>0, \\\\ 0, & \\text { 其他}.\\end{cases} \\quad (n>2)\n$$\n则常�?$c=(\\quad)$.",
-                    "analysis": "�?$\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x, y) dx dy=1$, 有\n$$\nc \\int_0^{+\\infty} dx \\int_0^{+\\infty}(1+x+y)^{-n} dy=c \\int_0^{+\\infty} \\frac{1}{n-1}(1+x)^{-n+1} dx=\\frac{c}{(n-1)(n-2)}=1,\n$$\n所�?$c=(n-1)(n-2)$.",
+                    "question": "设随机变量的联合概率密度为\n$$\n\\varphi(x, y)= \\begin{cases}c(1+x+y)^{-n}, & x>0, y>0, \\\\ 0, & \\text { 其他}.\\end{cases} \\quad (n>2)\n$$\n则常�?$c=(\\quad)$.",
+                    "analysis": "�?$\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x, y) dx dy=1$, 有\n$$\nc \\int_0^{+\\infty} dx \\int_0^{+\\infty}(1+x+y)^{-n} dy=c \\int_0^{+\\infty} \\frac{1}{n-1}(1+x)^{-n+1} dx=\\frac{c}{(n-1)(n-2)}=1,\n$$\n所�?$c=(n-1)(n-2)$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -1358,7 +1358,7 @@
                     "accuracy_rate": 0.58,
                     "difficulty_score": 0.43,
                     "avg_time_spent": 142913,
-                    "ai_tags": "概率�?二维随机变量,联合概率密度"
+                    "ai_tags": "概率�?二维随机变量,联合概率密度"
                 },
                 {
                     "id": 18671,
@@ -1368,8 +1368,8 @@
                     "difficulty": "Medium",
                     "answer": "3",
                     "question_type": 1,
-                    "question": "设随机变�?$(X, Y)$ 的联合概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{l}\nc\\left(R-\\sqrt{x^2+y^2}\\right), \\quad x^2+y^2<R^2, \\\\\n0, x^2+y^2 \\geq R^2 .\n\\end{array}\\right.\n$$\n\n则常�?$c=($ ).",
-                    "analysis": "�?$\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x, y) dx dy=1$, 有\n$$\n\\iint_{x^2+y^2<R^2} c\\left(R-\\sqrt{x^2+y^2}\\right) dx dy=\\int_0^{2 \\pi} \\int_0^R c(R-\\rho) \\rho d \\rho d \\theta=\\frac{c \\pi R^3}{3}=1,\n$$\n\n所�?$c=\\frac{3}{\\pi R^3}$.",
+                    "question": "设随机变�?$(X, Y)$ 的联合概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{l}\nc\\left(R-\\sqrt{x^2+y^2}\\right), \\quad x^2+y^2<R^2, \\\\\n0, x^2+y^2 \\geq R^2 .\n\\end{array}\\right.\n$$\n\n则常�?$c=($ ).",
+                    "analysis": "�?$\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x, y) dx dy=1$, 有\n$$\n\\iint_{x^2+y^2<R^2} c\\left(R-\\sqrt{x^2+y^2}\\right) dx dy=\\int_0^{2 \\pi} \\int_0^R c(R-\\rho) \\rho d \\rho d \\theta=\\frac{c \\pi R^3}{3}=1,\n$$\n\n所�?$c=\\frac{3}{\\pi R^3}$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -1442,7 +1442,7 @@
                     "accuracy_rate": 0.69,
                     "difficulty_score": 0.37,
                     "avg_time_spent": 4381958,
-                    "ai_tags": "概率�?联合概率密度,二重积分"
+                    "ai_tags": "概率�?联合概率密度,二重积分"
                 },
                 {
                     "id": 18672,
@@ -1452,8 +1452,8 @@
                     "difficulty": "Medium",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "�?$(X, Y)$ 的联合密度函数为 $f(x, y)=\\begin{cases}\\frac{1}{\\pi R^2}, & x^2+y^2 \\leq R^2 \\\\ 0, & \\text { 其它 }\\end{cases}$, 则完全正确的选项�?(    ) .\n(1) $f_X(x)=\\begin{cases}\\frac{2 \\sqrt{R^2-x^2}}{\\pi R^2}, & -R \\leq x \\leq R \\\\ 0, & \\text { 其它 }\\end{cases}$;\n(2) $f_Y(y)=\\begin{cases}\\frac{2 \\sqrt{R^2-y^2}}{\\pi R^2}, & -R \\leq y \\leq R \\\\ 0, & \\text { 其它 }\\end{cases}$;\n(3) $f_{X \\mid Y}(x \\mid y)=\\begin{cases}\\frac{1}{2 \\sqrt{R^2-y^2}}, & |x| \\leq \\sqrt{R^2-y^2} \\\\ 0, & \\text { 其它 }\\end{cases}$;\n(4) $f_{Y \\mid X}(y \\mid x)=\\begin{cases}\\frac{1}{2 \\sqrt{R^2-x^2}}, & |y| \\leq \\sqrt{R^2-x^2} \\\\ 0, & \\text { 其它 }\\end{cases}$;\n(5) $X$ �?$Y$ 不独�?",
-                    "analysis": "(1) �?$x<-R$ �?$x>R$ �? $f_X(x)=\\int_{-\\infty}^{+\\infty} f(x, y) d y=0$;\n�?$-R \\leq x \\leq R$ �?\n$$\nf_X(x)=\\int_{-\\infty}^{+\\infty} f(x, y) d y=\\frac{1}{\\pi R^2} \\int_{-\\sqrt{R^2-x^2}}^{\\sqrt{R^2-x^2}} d y=\\frac{2}{\\pi R^2} \\sqrt{R^2-x^2}\n$$\n于是,\n$$\nf_X(x)=\\begin{cases}\\frac{2 \\sqrt{R^2-x^2}}{\\pi R^2}, & -R \\leq x \\leq R \\\\ 0, & \\text { 其它 }\\end{cases}\n$$\n由于 $X$ �?$Y$ 的地位平�? 同法可得 $Y$ 的边缘概率密度\n$$\nf_Y(y)=\\begin{cases}\\frac{2 \\sqrt{R^2-y^2}}{\\pi R^2}, & -R \\leq y \\leq R \\\\ 0, & \\text { 其它 }\\end{cases}\n$$\n(2) �?$-R<y<R$ �? $f_{X \\mid Y}(x \\mid y)=\\frac{f(x, y)}{f_Y(y)}$.\n注意�?$y$ �?$x$ 值位�?$|x| \\leq \\sqrt{R^2-y^2}$ 这个范围�? 此时 $f(x, y) \\neq 0$, 有\n$$\nf_{X \\mid Y}(x \\mid y)=\\frac{\\frac{1}{\\pi R^2}}{\\frac{2}{\\pi R^2} \\sqrt{R^2-y^2}}=\\frac{1}{2 \\sqrt{R^2-y^2}}\n$$\n故当 $-R<y<R$ �? $X$ 的条件概率密度为\n$$\nf_{X \\mid Y}(x \\mid y)=\\begin{cases}\\frac{1}{2 \\sqrt{R^2-y^2}}, & |x| \\leq \\sqrt{R^2-y^2} \\\\ 0, & \\text { 其它 }\\end{cases}\n$$\n同理, �?$-R<x<R$ �? $Y$ 的条件概率密度为\n$$\nf_{Y \\mid X}(y \\mid x)=\\begin{cases}\\frac{1}{2 \\sqrt{R^2-x^2}}, & |y| \\leq \\sqrt{R^2-x^2} \\\\ 0, & \\text { 其它 }\\end{cases}\n$$\n由于条件概率密度与边缘概率密度不相等 (�?$f(x,y) \\neq f_X(x)f_Y(y)$), 所�?$X$ �?$Y$ 不独�?\n\n(注：选项 (3) �?(4) 在严格意义上未注明条件概率密度存在的条件 $-R<y<R$ �?$-R<x<R$, 故通常认为不完全正�? 因此完全正确的选项�?(1)�?2)�?5) �?3 �?",
+                    "question": "�?$(X, Y)$ 的联合密度函数为 $f(x, y)=\\begin{cases}\\frac{1}{\\pi R^2}, & x^2+y^2 \\leq R^2 \\\\ 0, & \\text { 其它 }\\end{cases}$, 则完全正确的选项�?(    ) .\n(1) $f_X(x)=\\begin{cases}\\frac{2 \\sqrt{R^2-x^2}}{\\pi R^2}, & -R \\leq x \\leq R \\\\ 0, & \\text { 其它 }\\end{cases}$;\n(2) $f_Y(y)=\\begin{cases}\\frac{2 \\sqrt{R^2-y^2}}{\\pi R^2}, & -R \\leq y \\leq R \\\\ 0, & \\text { 其它 }\\end{cases}$;\n(3) $f_{X \\mid Y}(x \\mid y)=\\begin{cases}\\frac{1}{2 \\sqrt{R^2-y^2}}, & |x| \\leq \\sqrt{R^2-y^2} \\\\ 0, & \\text { 其它 }\\end{cases}$;\n(4) $f_{Y \\mid X}(y \\mid x)=\\begin{cases}\\frac{1}{2 \\sqrt{R^2-x^2}}, & |y| \\leq \\sqrt{R^2-x^2} \\\\ 0, & \\text { 其它 }\\end{cases}$;\n(5) $X$ �?$Y$ 不独�?",
+                    "analysis": "(1) �?$x<-R$ �?$x>R$ �? $f_X(x)=\\int_{-\\infty}^{+\\infty} f(x, y) d y=0$;\n�?$-R \\leq x \\leq R$ �?\n$$\nf_X(x)=\\int_{-\\infty}^{+\\infty} f(x, y) d y=\\frac{1}{\\pi R^2} \\int_{-\\sqrt{R^2-x^2}}^{\\sqrt{R^2-x^2}} d y=\\frac{2}{\\pi R^2} \\sqrt{R^2-x^2}\n$$\n于是,\n$$\nf_X(x)=\\begin{cases}\\frac{2 \\sqrt{R^2-x^2}}{\\pi R^2}, & -R \\leq x \\leq R \\\\ 0, & \\text { 其它 }\\end{cases}\n$$\n由于 $X$ �?$Y$ 的地位平�? 同法可得 $Y$ 的边缘概率密度\n$$\nf_Y(y)=\\begin{cases}\\frac{2 \\sqrt{R^2-y^2}}{\\pi R^2}, & -R \\leq y \\leq R \\\\ 0, & \\text { 其它 }\\end{cases}\n$$\n(2) �?$-R<y<R$ �? $f_{X \\mid Y}(x \\mid y)=\\frac{f(x, y)}{f_Y(y)}$.\n注意�?$y$ �?$x$ 值位�?$|x| \\leq \\sqrt{R^2-y^2}$ 这个范围�? 此时 $f(x, y) \\neq 0$, 有\n$$\nf_{X \\mid Y}(x \\mid y)=\\frac{\\frac{1}{\\pi R^2}}{\\frac{2}{\\pi R^2} \\sqrt{R^2-y^2}}=\\frac{1}{2 \\sqrt{R^2-y^2}}\n$$\n故当 $-R<y<R$ �? $X$ 的条件概率密度为\n$$\nf_{X \\mid Y}(x \\mid y)=\\begin{cases}\\frac{1}{2 \\sqrt{R^2-y^2}}, & |x| \\leq \\sqrt{R^2-y^2} \\\\ 0, & \\text { 其它 }\\end{cases}\n$$\n同理, �?$-R<x<R$ �? $Y$ 的条件概率密度为\n$$\nf_{Y \\mid X}(y \\mid x)=\\begin{cases}\\frac{1}{2 \\sqrt{R^2-x^2}}, & |y| \\leq \\sqrt{R^2-x^2} \\\\ 0, & \\text { 其它 }\\end{cases}\n$$\n由于条件概率密度与边缘概率密度不相等 (�?$f(x,y) \\neq f_X(x)f_Y(y)$), 所�?$X$ �?$Y$ 不独�?\n\n(注：选项 (3) �?(4) 在严格意义上未注明条件概率密度存在的条件 $-R<y<R$ �?$-R<x<R$, 故通常认为不完全正�? 因此完全正确的选项�?(1)�?2)�?5) �?3 �?",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -1470,7 +1470,7 @@
                             "id": 83868,
                             "question_id": 18672,
                             "is_answer": true,
-                            "choice": "3 �?,
+                            "choice": "3 ",
                             "choice_render_type": 1,
                             "choice_id": "1",
                             "created_at": {
@@ -1484,7 +1484,7 @@
                             "id": 83869,
                             "question_id": 18672,
                             "is_answer": false,
-                            "choice": "4 �?,
+                            "choice": "4 ",
                             "choice_render_type": 1,
                             "choice_id": "2",
                             "created_at": {
@@ -1498,7 +1498,7 @@
                             "id": 83870,
                             "question_id": 18672,
                             "is_answer": false,
-                            "choice": "2 �?,
+                            "choice": "2 ",
                             "choice_render_type": 1,
                             "choice_id": "3",
                             "created_at": {
@@ -1512,7 +1512,7 @@
                             "id": 83871,
                             "question_id": 18672,
                             "is_answer": false,
-                            "choice": "5�?,
+                            "choice": "5",
                             "choice_render_type": 1,
                             "choice_id": "4",
                             "created_at": {
@@ -1536,7 +1536,7 @@
                     "difficulty": "Medium",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设二维随机变�?$(X, Y)$ 的概率密度为 $f(x, y)=\\frac{1}{\\pi} e^{-2 x^2+2 x y-y^2}(-\\infty<x<+\\infty,-\\infty<y<+\\infty)$, 则条件概率密�?$f_{Y|X}(y \\mid x)=()$.",
+                    "question": "设二维随机变�?$(X, Y)$ 的概率密度为 $f(x, y)=\\frac{1}{\\pi} e^{-2 x^2+2 x y-y^2}(-\\infty<x<+\\infty,-\\infty<y<+\\infty)$, 则条件概率密�?$f_{Y|X}(y \\mid x)=()$.",
                     "analysis": "$$\nf_X(x)=\\int_{-\\infty}^{+\\infty} f(x, y) d y=\\frac{1}{\\sqrt{\\pi}} e^{-x^2}, \\quad-\\infty<x<+\\infty,\n$$\n\n故对任意 $x \\in(-\\infty,+\\infty)$, 有\n$$\nf_{Y|X}(y \\mid x)=\\frac{f(x, y)}{f_X(x)}=\\frac{1}{\\sqrt{\\pi}} e^{-(y-x)^2},-\\infty<y<+\\infty .\n$$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
@@ -1620,7 +1620,7 @@
                     "difficulty": "Medium",
                     "answer": "2",
                     "question_type": 1,
-                    "question": "设随机变�?$(X, Y)$ 的联合概率密�?$f(x, y)=\\begin{cases} 1, & 0 \\leq x \\leq 2, \\max (0, x-1) \\leq y \\leq \\min (1, x) \\\\ 0, & \\text{其它} \\end{cases}$, 则关�?$Y$ 的边缘概率密度为 ( ).",
+                    "question": "设随机变�?$(X, Y)$ 的联合概率密�?$f(x, y)=\\begin{cases} 1, & 0 \\leq x \\leq 2, \\max (0, x-1) \\leq y \\leq \\min (1, x) \\\\ 0, & \\text{其它} \\end{cases}$, 则关�?$Y$ 的边缘概率密度为 ( ).",
                     "analysis_image": "/XDSys/TK/GL/83/Averge/83_Averge_0d6e5540-3093-410c-89af-616be2fa1816/83_Averge_0d6e5540-3093-410c-89af-616be2fa1816_70c6.webp",
                     "analysis_image_hash": "cb4aa4b4b5694b5a",
                     "question_render_type": 1,
@@ -1695,7 +1695,7 @@
                     "accuracy_rate": 0.58,
                     "difficulty_score": 0.43,
                     "avg_time_spent": 269893,
-                    "ai_tags": "概率�?二维随机变量,边缘概率密度"
+                    "ai_tags": "概率�?二维随机变量,边缘概率密度"
                 }
             ]
         }
@@ -1714,7 +1714,7 @@
                     "difficulty": "Medium",
                     "answer": "4",
                     "question_type": 1,
-                    "question": "�?$(\\xi, \\eta)$ 的联合概率密度为\n$$\n\\varphi(x, y)=\\left\\{\\begin{array}{l}\n\\frac{6}{(1+x+y)^4}, \\quad x \\geq 0, y \\geq 0, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$\n\n则边缘概率密�?$f_{\\xi}(x)=()$.",
+                    "question": "�?$(\\xi, \\eta)$ 的联合概率密度为\n$$\n\\varphi(x, y)=\\left\\{\\begin{array}{l}\n\\frac{6}{(1+x+y)^4}, \\quad x \\geq 0, y \\geq 0, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$\n\n则边缘概率密�?$f_{\\xi}(x)=()$.",
                     "analysis": "$f_{\\xi}(x)=\\int_{-\\infty}^{+\\infty} \\varphi(x, y) d y = \\begin{cases} \\int_0^{+\\infty} \\frac{6}{(1+x+y)^4} d y, & x \\geq 0 \\\\ 0, & x<0 \\end{cases} = \\begin{cases} \\frac{2}{(1+x)^3}, & x \\geq 0 \\\\ 0, & x<0 \\end{cases}$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
@@ -1788,7 +1788,7 @@
                     "accuracy_rate": 1,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 105436,
-                    "ai_tags": "概率�?边缘概率密度,二维随机变量"
+                    "ai_tags": "概率�?边缘概率密度,二维随机变量"
                 },
                 {
                     "id": 18677,
@@ -1798,8 +1798,8 @@
                     "difficulty": "Easy",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "�?$\\varphi(x, y) = \\begin{cases} A e^{-(5x+2y)}, & x>0, y>0 \\\\ 0, & \\text{其它} \\end{cases}$ 为随机变�?$(\\xi, \\eta)$ 的联合概率密度，则常�?$A=(\\quad)$.",
-                    "analysis": "根据联合概率密度性质有\n$$\n\\int_0^{+\\infty} \\int_0^{+\\infty} A e^{-(5 x+2 y)} dx dy=1\n$$\n解得 $A=10$�?,
+                    "question": "�?$\\varphi(x, y) = \\begin{cases} A e^{-(5x+2y)}, & x>0, y>0 \\\\ 0, & \\text{其它} \\end{cases}$ 为随机变�?$(\\xi, \\eta)$ 的联合概率密度，则常�?$A=(\\quad)$.",
+                    "analysis": "根据联合概率密度性质有\n$$\n\\int_0^{+\\infty} \\int_0^{+\\infty} A e^{-(5 x+2 y)} dx dy=1\n$$\n解得 $A=10$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -1872,7 +1872,7 @@
                     "accuracy_rate": 1,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 217133,
-                    "ai_tags": "概率�?二维随机变量,联合概率密度"
+                    "ai_tags": "概率�?二维随机变量,联合概率密度"
                 },
                 {
                     "id": 18678,
@@ -1882,8 +1882,8 @@
                     "difficulty": "Easy",
                     "answer": "2",
                     "question_type": 1,
-                    "question": "设随机变�?$(X, Y)$ 的概率密度为 $f(x, y)=\\left\\{\\begin{array}{l}k(6-x-y), 0<x<2,2<y<4 \\\\ 0, \\text { 其它 }\\end{array}\\right.$, �?$k=()$.",
-                    "analysis": "如图所�? �?$\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x, y) dx dy=1$, 有\n$$\n\\int_0^2 \\int_2^4 k(6-x-y) dy dx=k \\int_0^2(6-2 x) dx=8 k=1,\n$$\n\n所�?$k=\\frac{1}{8}$.",
+                    "question": "设随机变�?$(X, Y)$ 的概率密度为 $f(x, y)=\\left\\{\\begin{array}{l}k(6-x-y), 0<x<2,2<y<4 \\\\ 0, \\text { 其它 }\\end{array}\\right.$, �?$k=()$.",
+                    "analysis": "如图所�? �?$\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x, y) dx dy=1$, 有\n$$\n\\int_0^2 \\int_2^4 k(6-x-y) dy dx=k \\int_0^2(6-2 x) dx=8 k=1,\n$$\n\n所�?$k=\\frac{1}{8}$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -1956,7 +1956,7 @@
                     "accuracy_rate": 0.89,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 68110,
-                    "ai_tags": "概率�?二维随机变量,概率密度"
+                    "ai_tags": "概率�?二维随机变量,概率密度"
                 },
                 {
                     "id": 18679,
@@ -1966,8 +1966,8 @@
                     "difficulty": "Medium",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设连续随机向�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{l}\n24 y(1-x), 0 \\leq x \\leq 1,0 \\leq y \\leq x, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$\n\n则关�?$Y$ 的边缘概率密度为 ( ).",
-                    "analysis": "如图, $f(x, y)$ 不为零的区域�?$E$, 故\n$$\nf_Y(y)=\\int_{-\\infty}^{+\\infty} f(x, y) d x=\\left\\{\\begin{array}{l}\n\\int_y^1 24 y(1-x) d x, 0 \\leq y \\leq 1 \\\\\n0, \\text { 其它. }\n\\end{array}\\right. = \\left\\{\\begin{array}{l}\n12 y(1-y)^2, 0 \\leq y \\leq 1, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$",
+                    "question": "设连续随机向�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{l}\n24 y(1-x), 0 \\leq x \\leq 1,0 \\leq y \\leq x, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$\n\n则关�?$Y$ 的边缘概率密度为 ( ).",
+                    "analysis": "如图, $f(x, y)$ 不为零的区域�?$E$, 故\n$$\nf_Y(y)=\\int_{-\\infty}^{+\\infty} f(x, y) d x=\\left\\{\\begin{array}{l}\n\\int_y^1 24 y(1-x) d x, 0 \\leq y \\leq 1 \\\\\n0, \\text { 其它. }\n\\end{array}\\right. = \\left\\{\\begin{array}{l}\n12 y(1-y)^2, 0 \\leq y \\leq 1, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -2040,7 +2040,7 @@
                     "accuracy_rate": 0.89,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 109826,
-                    "ai_tags": "概率�?边缘概率密度,连续型随机向�?
+                    "ai_tags": "概率�?边缘概率密度,连续型随机向"
                 },
                 {
                     "id": 18680,
@@ -2050,7 +2050,7 @@
                     "difficulty": "Medium",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设连续随机向�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{l}\n24 y(1-x), 0 \\leq x \\leq 1,0 \\leq y \\leq x, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$\n\n则关�?$x$ 的边缘概率密度为 ().",
+                    "question": "设连续随机向�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{l}\n24 y(1-x), 0 \\leq x \\leq 1,0 \\leq y \\leq x, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$\n\n则关�?$x$ 的边缘概率密度为 ().",
                     "analysis_image": "/XDSys/TK/GL/85/Averge/85_Averge_d8916f88-3d20-4f56-b63b-35565ae3557f/85_Averge_d8916f88-3d20-4f56-b63b-35565ae3557f_5.webp",
                     "analysis_image_hash": "da1d8d4aa5f0e2c3",
                     "question_render_type": 1,
@@ -2135,8 +2135,8 @@
                     "difficulty": "Easy",
                     "answer": "4",
                     "question_type": 1,
-                    "question": "已知 $X$ �?$Y$ 的联合密度函数为\n$$\nf(x, y)=\\begin{cases} c x y, & 0 \\leq x \\leq 1, 0 \\leq y \\leq 1 \\\\ 0, & \\text{其他} \\end{cases}\n$$\n�?$c$ 的值为 ().",
-                    "analysis": "根据联合概率密度性质有\n$$\nc \\int_0^1 \\int_0^1 x y d x d y=1,\n$$\n\n�?$c=4$.",
+                    "question": "已知 $X$ �?$Y$ 的联合密度函数为\n$$\nf(x, y)=\\begin{cases} c x y, & 0 \\leq x \\leq 1, 0 \\leq y \\leq 1 \\\\ 0, & \\text{其他} \\end{cases}\n$$\n�?$c$ 的值为 ().",
+                    "analysis": "根据联合概率密度性质有\n$$\nc \\int_0^1 \\int_0^1 x y d x d y=1,\n$$\n\n�?$c=4$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -2209,7 +2209,7 @@
                     "accuracy_rate": 0.91,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 55724,
-                    "ai_tags": "概率�?联合概率密度,二重积分"
+                    "ai_tags": "概率�?联合概率密度,二重积分"
                 },
                 {
                     "id": 18683,
@@ -2219,8 +2219,8 @@
                     "difficulty": "Easy",
                     "answer": "2",
                     "question_type": 1,
-                    "question": "�?$(X, Y)$ 的概率密度为 $f(x, y)=\\begin{cases} A, & 0<x<1, 0<y<x \\\\ 0, & \\text{其它} \\end{cases}$, �?$A=(\\quad)$.",
-                    "analysis": "�?$\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x, y) d x d y=1$, 有\n$$\n\\int_0^1 d x \\int_0^x A d y=\\frac{A}{2}=1,\n$$\n\n�?$A=2$.",
+                    "question": "�?$(X, Y)$ 的概率密度为 $f(x, y)=\\begin{cases} A, & 0<x<1, 0<y<x \\\\ 0, & \\text{其它} \\end{cases}$, �?$A=(\\quad)$.",
+                    "analysis": "�?$\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x, y) d x d y=1$, 有\n$$\n\\int_0^1 d x \\int_0^x A d y=\\frac{A}{2}=1,\n$$\n\n�?$A=2$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -2303,7 +2303,7 @@
                     "difficulty": "Easy",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{l}\n\\frac{2}{3}(x+2 y), 0 \\leq x \\leq 1,0 \\leq y \\leq 1, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$\n\n则关�?$Y$ 的边缘概率密度为 ( ).",
+                    "question": "�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{l}\n\\frac{2}{3}(x+2 y), 0 \\leq x \\leq 1,0 \\leq y \\leq 1, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$\n\n则关�?$Y$ 的边缘概率密度为 ( ).",
                     "analysis": "$f_Y(y)=\\int_{-\\infty}^{+\\infty} f(x, y) d x=\\begin{cases}\\int_0^1 \\frac{2}{3}(x+2 y) d x, & 0 \\leq y \\leq 1 \\\\ 0, & \\text { 其它. }\\end{cases}=\\begin{cases}\\frac{4}{3} y+\\frac{1}{3}, & 0 \\leq y \\leq 1, \\\\ 0, & \\text { 其它. }\\end{cases}$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
@@ -2377,7 +2377,7 @@
                     "accuracy_rate": 1,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 50533,
-                    "ai_tags": "概率�?边缘概率密度,二维随机变量"
+                    "ai_tags": "概率�?边缘概率密度,二维随机变量"
                 },
                 {
                     "id": 18688,
@@ -2387,8 +2387,8 @@
                     "difficulty": "Easy",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设二维随机向�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{l}\ne^{-2 a x} e^{b y}, x>0, y>0, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$\n\n�?$a, b$ 需要满足的条件�?( ).",
-                    "analysis": "�?$\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x, y) d x d y=1$, 有\n$$\n\\int_0^{+\\infty} \\int_0^{+\\infty} e^{-2 a x} e^{b y} d x d y=\\left(\\int_0^{+\\infty} e^{-2 a x} d x\\right)\\left(\\int_0^{+\\infty} e^{b y} d y\\right)=1\n$$\n\n要使上式积分有意�? 则必�?$a>0, b<0$. 此时, 有\n$$\nf_X(x)=\\left\\{\\begin{array}{l}\n2 a e^{-2 a x}, x>0 \\\\\n0, \\text { 其它 }\n\\end{array}\\right., \\quad f_Y(y)=\\left\\{\\begin{array}{l}\n-b e^{b y}, y>0 \\\\\n0, \\text { 其它 }\n\\end{array}\\right..\n$$\n\n所以只�?$a>0, b<0$, �?$-2 a b=1$ �?$a b=-\\frac{1}{2}$ �? $f(x, y)$ 为概率密�?",
+                    "question": "设二维随机向�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{l}\ne^{-2 a x} e^{b y}, x>0, y>0, \\\\\n0, \\text { 其它. }\n\\end{array}\\right.\n$$\n\n�?$a, b$ 需要满足的条件�?( ).",
+                    "analysis": "�?$\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x, y) d x d y=1$, 有\n$$\n\\int_0^{+\\infty} \\int_0^{+\\infty} e^{-2 a x} e^{b y} d x d y=\\left(\\int_0^{+\\infty} e^{-2 a x} d x\\right)\\left(\\int_0^{+\\infty} e^{b y} d y\\right)=1\n$$\n\n要使上式积分有意�? 则必�?$a>0, b<0$. 此时, 有\n$$\nf_X(x)=\\left\\{\\begin{array}{l}\n2 a e^{-2 a x}, x>0 \\\\\n0, \\text { 其它 }\n\\end{array}\\right., \\quad f_Y(y)=\\left\\{\\begin{array}{l}\n-b e^{b y}, y>0 \\\\\n0, \\text { 其它 }\n\\end{array}\\right..\n$$\n\n所以只�?$a>0, b<0$, �?$-2 a b=1$ �?$a b=-\\frac{1}{2}$ �? $f(x, y)$ 为概率密�?",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -2471,8 +2471,8 @@
                     "difficulty": "Easy",
                     "answer": "1",
                     "question_type": 1,
-                    "question": "设连续随机向�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{c}\n\\frac{1}{2}(x+y) x y, 0<x<1,0<y<2 \\\\\n0, \\text { 其它 }\n\\end{array}\\right. \\text {, }\n$$\n\n则关�?$Y$ 的边缘概率密度为 ( ).",
-                    "analysis": "由边缘概率密度的定义 $f_Y(y)=\\int_{-\\infty}^{+\\infty} f(x, y) dx$。\n�?$0 \\leq y \\leq 2$ 时，\n$$ f_Y(y) = \\int_0^1 \\frac{1}{2}(x+y)xy dx = \\frac{1}{2}y \\int_0^1 (x^2+xy) dx = \\frac{1}{2}y \\left[ \\frac{x^3}{3} + \\frac{x^2y}{2} \\right]_0^1 = \\frac{1}{2}y \\left( \\frac{1}{3} + \\frac{y}{2} \\right) = \\frac{1}{4}y \\left( y + \\frac{2}{3} \\right) $$\n其它情况 $f_Y(y)=0$。\n故\n$$ f_Y(y)=\\begin{cases} \\frac{1}{4} y\\left(y+\\frac{2}{3}\\right), & 0 \\leq y \\leq 2 \\\\ 0, & \\text{其它} \\end{cases} $$",
+                    "question": "设连续随机向�?$(X, Y)$ 的概率密度为\n$$\nf(x, y)=\\left\\{\\begin{array}{c}\n\\frac{1}{2}(x+y) x y, 0<x<1,0<y<2 \\\\\n0, \\text { 其它 }\n\\end{array}\\right. \\text {, }\n$$\n\n则关�?$Y$ 的边缘概率密度为 ( ).",
+                    "analysis": "由边缘概率密度的定义 $f_Y(y)=\\int_{-\\infty}^{+\\infty} f(x, y) dx$。\n�?$0 \\leq y \\leq 2$ 时，\n$$ f_Y(y) = \\int_0^1 \\frac{1}{2}(x+y)xy dx = \\frac{1}{2}y \\int_0^1 (x^2+xy) dx = \\frac{1}{2}y \\left[ \\frac{x^3}{3} + \\frac{x^2y}{2} \\right]_0^1 = \\frac{1}{2}y \\left( \\frac{1}{3} + \\frac{y}{2} \\right) = \\frac{1}{4}y \\left( y + \\frac{2}{3} \\right) $$\n其它情况 $f_Y(y)=0$。\n故\n$$ f_Y(y)=\\begin{cases} \\frac{1}{4} y\\left(y+\\frac{2}{3}\\right), & 0 \\leq y \\leq 2 \\\\ 0, & \\text{其它} \\end{cases} $$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -2545,7 +2545,7 @@
                     "accuracy_rate": 0.82,
                     "difficulty_score": 0.43,
                     "avg_time_spent": 132381,
-                    "ai_tags": "边缘概率密度,连续型随机向�?概率密度函数"
+                    "ai_tags": "边缘概率密度,连续型随机向�?概率密度函数"
                 }
             ]
         }
@@ -2564,8 +2564,8 @@
                     "difficulty": "Easy",
                     "answer": "3",
                     "question_type": 1,
-                    "question": "设二维随机变�?$(X, Y)$ 的概率密度函�?$f(x, y)=\\begin{cases} c e^{-(2 x+y)}, & x>0, y>0 \\\\ 0, & \\text { 其它 }\\end{cases}$, 则常�?$c=()$.",
-                    "analysis": "�?$\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x, y) d x d y=1$, 有\n$$\n\\int_0^{+\\infty} \\int_0^{+\\infty} c e^{-(2 x+y)} d x d y=\\left.\\left.c\\left(-\\frac{1}{2} e^{-2 x}\\right)\\right|_0 ^{+\\infty}\\left(-e^{-y}\\right)\\right|_0 ^{+\\infty}=\\frac{c}{2}=1,\n$$\n\n所�?$c=2$.",
+                    "question": "设二维随机变�?$(X, Y)$ 的概率密度函�?$f(x, y)=\\begin{cases} c e^{-(2 x+y)}, & x>0, y>0 \\\\ 0, & \\text { 其它 }\\end{cases}$, 则常�?$c=()$.",
+                    "analysis": "�?$\\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x, y) d x d y=1$, 有\n$$\n\\int_0^{+\\infty} \\int_0^{+\\infty} c e^{-(2 x+y)} d x d y=\\left.\\left.c\\left(-\\frac{1}{2} e^{-2 x}\\right)\\right|_0 ^{+\\infty}\\left(-e^{-y}\\right)\\right|_0 ^{+\\infty}=\\frac{c}{2}=1,\n$$\n\n所�?$c=2$.",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -2648,8 +2648,8 @@
                     "difficulty": "Medium",
                     "answer": "3",
                     "question_type": 1,
-                    "question": "设随机变�?$(X, Y)$ 的联合概率密�?$f(x, y)=\\left\\{\\begin{array}{lc}1, & 0 \\leq x \\leq 2, \\max (0, x-1) \\leq y \\leq \\min (1, x) \\\\ 0, & \\text { 其它 }\\end{array}\\right.$,则关�?$X$ 的边缘概率密度为 ( ).",
-                    "analysis": "$$\n\\max (0, x-1)=\\begin{cases} 0, & x<1 \\\\ x-1, & x \\geq 1 \\end{cases}, \\quad \\min (1, x)=\\begin{cases} x, & x<1 \\\\ 1, & x \\geq 1 \\end{cases}\n$$\n所�?$f(x, y)$ 有意义的区域分为 $\\{0 \\leq x \\leq 1, 0 \\leq y \\leq x\\}$ �?$\\{1 \\leq x \\leq 2, x-1 \\leq y \\leq 1\\}$，\n即\n$$\nf(x, y)=\\begin{cases} 1, & 0 \\leq x \\leq 1, 0 \\leq y \\leq x \\\\ 1, & 1 \\leq x \\leq 2, x-1 \\leq y \\leq 1 \\\\ 0, & \\text{其它} \\end{cases}\n$$\n所以\n$$\nf_X(x)=\\int_{-\\infty}^{+\\infty} f(x, y) d y=\\begin{cases} \\int_0^x d y=x, & 0 \\leq x<1 \\\\ \\int_{x-1}^1 d y=2-x, & 1 \\leq x \\leq 2 \\\\ 0, & \\text{其它} \\end{cases}\n$$",
+                    "question": "设随机变�?$(X, Y)$ 的联合概率密�?$f(x, y)=\\left\\{\\begin{array}{lc}1, & 0 \\leq x \\leq 2, \\max (0, x-1) \\leq y \\leq \\min (1, x) \\\\ 0, & \\text { 其它 }\\end{array}\\right.$,则关�?$X$ 的边缘概率密度为 ( ).",
+                    "analysis": "$$\n\\max (0, x-1)=\\begin{cases} 0, & x<1 \\\\ x-1, & x \\geq 1 \\end{cases}, \\quad \\min (1, x)=\\begin{cases} x, & x<1 \\\\ 1, & x \\geq 1 \\end{cases}\n$$\n所�?$f(x, y)$ 有意义的区域分为 $\\{0 \\leq x \\leq 1, 0 \\leq y \\leq x\\}$ �?$\\{1 \\leq x \\leq 2, x-1 \\leq y \\leq 1\\}$，\n即\n$$\nf(x, y)=\\begin{cases} 1, & 0 \\leq x \\leq 1, 0 \\leq y \\leq x \\\\ 1, & 1 \\leq x \\leq 2, x-1 \\leq y \\leq 1 \\\\ 0, & \\text{其它} \\end{cases}\n$$\n所以\n$$\nf_X(x)=\\int_{-\\infty}^{+\\infty} f(x, y) d y=\\begin{cases} \\int_0^x d y=x, & 0 \\leq x<1 \\\\ \\int_{x-1}^1 d y=2-x, & 1 \\leq x \\leq 2 \\\\ 0, & \\text{其它} \\end{cases}\n$$",
                     "question_render_type": 1,
                     "analysis_render_type": 1,
                     "created_at": {
@@ -2722,7 +2722,7 @@
                     "accuracy_rate": 0.58,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 56913,
-                    "ai_tags": "概率�?边缘概率密度,二维随机变量"
+                    "ai_tags": "概率�?边缘概率密度,二维随机变量"
                 }
             ]
         }
