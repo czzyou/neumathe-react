@@ -163,18 +163,8 @@ function normalizeMathText(text: string): string {
   // 因此将 $$ 结束符与下一个 $$ 开始符之间的空白替换为双换行。
   result = result.replace(/(\$\$)\s+(\$\$)/g, "$1\n\n$2");
 
-    // 兜底修复题库数据：某些多行公式或分段函数忘记用 $$ 包裹（如 `f_X(x)=\begin{cases}...` ）
-    result = result.replace(
-      /(?<!\$)(f_[a-zA-Z]\([a-zA-Z]\)=[\s\S]*?\\end\{cases\})(?!\$)/g,
-      "\n$$\n$1\n$$\n",
-    );
-
-    // 兜底修复题库数据：某些概率算式或积分公式忘记用 $ 包裹（如 P(B_0)=\frac{...}{...}）
-    // 匹配 P(...) = ... 直到遇到中文标点、英文逗号、换行或反斜杠
-    result = result.replace(
-      /(?<!\$)(P\([^)]+\)=[^，。,\n\\]+)(?!\$)/g,
-      "$$$1$$",
-    );
+  return result;
+}
 
 function MarkdownMath({ text, isAnalysis }: { text: string; isAnalysis?: boolean }) {
   let prettierText = normalizeMathText(text);
