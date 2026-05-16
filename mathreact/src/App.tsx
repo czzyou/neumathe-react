@@ -296,12 +296,36 @@ function normalizeAnalysisText(text: string): string {
   };
 
   const splitAligned = (_whole: string, inner: string): string => {
+    const removeTopLevelAlignmentMarkers = (line: string): string => {
+      let nestedEnvironmentDepth = 0;
+      let result = "";
+
+      for (let i = 0; i < line.length; i++) {
+        if (line.startsWith("\\begin{", i)) {
+          nestedEnvironmentDepth += 1;
+          result += line[i];
+          continue;
+        }
+
+        if (line.startsWith("\\end{", i)) {
+          nestedEnvironmentDepth = Math.max(0, nestedEnvironmentDepth - 1);
+          result += line[i];
+          continue;
+        }
+
+        if (line[i] === "&" && nestedEnvironmentDepth === 0) {
+          continue;
+        }
+
+        result += line[i];
+      }
+
+      return result;
+    };
+
     const lines = splitTopLevelAlignedRows(inner)
       .map((line) =>
-        line
-          .replace(/^\s*&\s*/, "")
-          .replace(/&/g, "")
-          .trim(),
+        removeTopLevelAlignmentMarkers(line.replace(/^\s*&\s*/, "")).trim(),
       )
       .filter(Boolean);
 
