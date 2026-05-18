@@ -844,7 +844,8 @@
                     "accuracy_rate": 0.43,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 135430,
-                    "ai_tags": "数学期望,连续型随机变量,相互独立"
+                    "ai_tags": "数学期望,连续型随机变量,相互独立",
+                    "analysis": "正确答案：1。\\n\\n先到达者需要等待的时间就是 $|X-Y|$，故要求 $E|X-Y|$。利用\\n$$E|X-Y|=E(X)+E(Y)-2E(\\min(X,Y)).$$\\n由密度可得\\n$$E(X)=\\int_0^1x\\cdot3x^2dx=\\frac34,\\quad E(Y)=\\int_0^1y\\cdot2y\\,dy=\\frac23.$$\\n又\\n$$E(\\min(X,Y))=\\int_0^1P(X>t,Y>t)dt=\\int_0^1(1-t^3)(1-t^2)dt=\\frac7{12}.$$\\n所以\\n$$E|X-Y|=\\frac34+\\frac23-2\\cdot\\frac7{12}=\\frac14.$$"
                 }
             ]
         }

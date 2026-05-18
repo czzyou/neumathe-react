@@ -592,7 +592,8 @@
                     "accuracy_rate": 0.46,
                     "difficulty_score": 0.43,
                     "avg_time_spent": 60717,
-                    "ai_tags": "几何概型,均匀分布"
+                    "ai_tags": "几何概型,均匀分布",
+                    "analysis": "正确答案：3。\\n\\n因为 $\\xi,\\eta$ 独立且均匀分布在 $[0,\\pi]$ 上，样本空间是边长为 $\\pi$ 的正方形。\\n\\n在 $[-\\pi,\\pi]$ 内，$\\cos(\\xi-\\eta)<0$ 等价于\\n$$|\\xi-\\eta|>\\frac\\pi2.$$\\n这对应正方形中主对角线两侧的两个直角三角形，每个直角边长为 $\\frac\\pi2$，总面积为\\n$$2\\cdot\\frac12\\left(\\frac\\pi2\\right)^2=\\frac{\\pi^2}{4}.$$\\n除以总面积 $\\pi^2$，概率为\\n$$\\frac14.$$"
                 },
                 {
                     "id": 19125,
@@ -1443,7 +1444,8 @@
                     "accuracy_rate": 0.73,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 144034,
-                    "ai_tags": "概率�?二维随机变量,边缘概率密度"
+                    "ai_tags": "概率�?二维随机变量,边缘概率密度",
+                    "analysis": "正确答案：1。\\n\\n联合密度在区域\\n$$0\\le x\\le2,\\quad \\max(0,x-1)\\le y\\le\\min(1,x)$$\\n内等于 1。\\n\\n对固定 $x$，当 $0\\le x<1$ 时，$0\\le y\\le x$，长度为 $x$；当 $1\\le x\\le2$ 时，$x-1\\le y\\le1$，长度为 $2-x$。故\\n$$f_X(x)=\\begin{cases}x,&0\\le x<1,\\\\2-x,&1\\le x\\le2,\\\\0,&\\text{其它}.\\end{cases}$$\\n\\n对固定 $y\\in[0,1]$，有 $y\\le x\\le y+1$，长度为 1，因此\\n$$f_Y(y)=\\begin{cases}1,&0\\le y\\le1,\\\\0,&\\text{其它}.\\end{cases}$$"
                 }
             ]
         }

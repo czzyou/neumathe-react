@@ -1695,7 +1695,8 @@
                     "accuracy_rate": 0.58,
                     "difficulty_score": 0.43,
                     "avg_time_spent": 269893,
-                    "ai_tags": "概率�?二维随机变量,边缘概率密度"
+                    "ai_tags": "概率�?二维随机变量,边缘概率密度",
+                    "analysis": "正确答案：2。\\n\\n求 $Y$ 的边缘密度时固定 $y$。由\\n$$\\max(0,x-1)\\le y\\le\\min(1,x)$$\\n可得 $0\\le y\\le1$，且对固定的 $y$，$x$ 的取值范围为\\n$$y\\le x\\le y+1.$$\\n因为联合密度在该区域内为 1，所以\\n$$f_Y(y)=\\int_y^{y+1}1\\,dx=1,\\quad 0\\le y\\le1.$$\\n其他情况下为 0。"
                 }
             ]
         }
@@ -2125,7 +2126,8 @@
                     "accuracy_rate": 0.67,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 74122,
-                    "ai_tags": "边缘概率密度,二维随机变量,概率密度函数"
+                    "ai_tags": "边缘概率密度,二维随机变量,概率密度函数",
+                    "analysis": "正确答案：1。\\n\\n边缘密度 $f_X(x)$ 对 $y$ 积分。由题设区域 $0\\le y\\le x,0\\le x\\le1$，有\\n$$f_X(x)=\\int_0^x24y(1-x)\\,dy=24(1-x)\\cdot\\frac{x^2}{2}=12x^2(1-x),\\quad0\\le x\\le1.$$\\n区域外 $f_X(x)=0$。"
                 },
                 {
                     "id": 18681,

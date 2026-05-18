@@ -938,7 +938,8 @@
                     "accuracy_rate": 1,
                     "difficulty_score": 0.32,
                     "avg_time_spent": 34122,
-                    "ai_tags": "概率分布,分布函数,离散型随机变"
+                    "ai_tags": "概率分布,分布函数,离散型随机变",
+                    "analysis": "正确答案：4。\\n\\n分布函数 $F(x)=P\\{X\\le x\\}$。由题意\\n$$P\\{X=1\\}=0.3,\\quad P\\{X=3\\}=0.5,\\quad P\\{X=5\\}=0.2.$$\\n因此\\n$$F(x)=\\begin{cases}0,&x<1,\\\\0.3,&1\\le x<3,\\\\0.8,&3\\le x<5,\\\\1,&x\\ge5.\\end{cases}$$\\n所以当 $x>5$ 时 $F(x)=1$，选项 4 正确。"
                 },
                 {
                     "id": 19194,

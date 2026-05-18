@@ -1200,7 +1200,8 @@
                     "accuracy_rate": 0.57,
                     "difficulty_score": 0.39,
                     "avg_time_spent": 171684,
-                    "ai_tags": "事件的运算,文氏图"
+                    "ai_tags": "事件的运算,文氏图",
+                    "analysis": "正确答案：1。\\n\\n把 $A,B,C$ 按是否发生分成互不相交的基本区域，则\\n$$A\\cup B\\cup C=A\\bar B\\bar C+\\bar A B\\bar C+\\bar A\\bar B C+AB\\bar C+A\\bar B C+\\bar A BC+ABC.$$\\n选项 1 的右端只有 $A\\bar B\\bar C+A\\bar BC+AB\\bar C+ABC=A$，漏掉了 $\\bar A B\\bar C,\\bar A\\bar B C,\\bar A BC$ 等只含 $B$ 或 $C$ 的区域，因此它表示的不是 $A\\cup B\\cup C$。"
                 },
                 {
                     "id": 19392,

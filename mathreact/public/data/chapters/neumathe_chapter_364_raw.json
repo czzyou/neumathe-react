@@ -760,7 +760,8 @@
                     "accuracy_rate": 1,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 71139,
-                    "ai_tags": "二维随机变量,均匀分布,数学期望,方差"
+                    "ai_tags": "二维随机变量,均匀分布,数学期望,方差",
+                    "analysis": "正确答案：1。\\n\\n该三角形区域为 $0\\le x\\le1,0\\le y\\le1,x+y\\ge1$，面积为 $\\frac12$，联合密度为 2。令 $Z=X+Y$，则 $1\\le z\\le2$。固定 $z$ 时，$x$ 从 $z-1$ 到 1，长度为 $2-z$，所以\\n$$f_Z(z)=2(2-z),\\quad1\\le z\\le2.$$\\n于是\\n$$E(Z)=\\int_1^2 z\\cdot2(2-z)dz=\\frac43,$$\\n$$E(Z^2)=\\int_1^2 z^2\\cdot2(2-z)dz=\\frac{11}{6}.$$\\n因此\\n$$D(Z)=E(Z^2)-[E(Z)]^2=\\frac{11}{6}-\\frac{16}{9}=\\frac1{18}.$$"
                 },
                 {
                     "id": 18895,

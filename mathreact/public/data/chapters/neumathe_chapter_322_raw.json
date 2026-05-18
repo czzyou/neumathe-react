@@ -844,7 +844,8 @@
                     "accuracy_rate": 0.63,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 606001,
-                    "ai_tags": "二维随机变量,概率密度,概率计算"
+                    "ai_tags": "二维随机变量,概率密度,概率计算",
+                    "analysis": "正确答案：1。\\n\\n先求反面事件 $X+Y\\le1$。在矩形 $0\\le x\\le1,0\\le y\\le2$ 中，反面区域为 $0\\le x\\le1,0\\le y\\le1-x$，所以\\n$$P(X+Y\\le1)=\\int_0^1\\int_0^{1-x}\\left(x^2+\\frac{xy}{3}\right)dy\\,dx.$$\\n计算得\\n$$\\int_0^1x^2(1-x)dx+\\int_0^1\\frac{x(1-x)^2}{6}dx=\\frac1{12}+\\frac1{72}=\\frac7{72}.$$\\n因此\\n$$P(X+Y>1)=1-\\frac7{72}=\\frac{65}{72}.$$"
                 }
             ]
         }
@@ -1274,7 +1275,8 @@
                     "accuracy_rate": 0.63,
                     "difficulty_score": 0.35,
                     "avg_time_spent": 158262,
-                    "ai_tags": "连续型随机向量,概率密度,概率计算"
+                    "ai_tags": "连续型随机向量,概率密度,概率计算",
+                    "analysis": "正确答案：1。\\n\\n要求区域为 $x\\ge0,y\\ge0,x+y<\\frac12$。因此\\n$$P\\left(X+Y<\\frac12\\right)=\\int_0^{1/2}\\int_0^{1/2-x}24xy\\,dy\\,dx.$$\\n先对 $y$ 积分：\\n$$=12\\int_0^{1/2}x\\left(\\frac12-x\right)^2dx.$$\\n利用 $\\int_0^a x(a-x)^2dx=\\frac{a^4}{12}$，取 $a=\\frac12$，得\\n$$12\\cdot\\frac{(1/2)^4}{12}=\\frac1{16}.$$"
                 },
                 {
                     "id": 18941,
