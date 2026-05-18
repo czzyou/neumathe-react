@@ -264,6 +264,9 @@ function getHardTags(question: RawQuestion): HardTag[] {
 }
 
 function normalizeAnalysisText(text: string): string {
+  const BEGIN_ALIGNED = "\\begin{aligned}";
+  const END_ALIGNED = "\\end{aligned}";
+
   const splitTopLevelAlignedRows = (inner: string): string[] => {
     const rows: string[] = [];
     let rowStart = 0;
@@ -337,24 +340,102 @@ function normalizeAnalysisText(text: string): string {
     return lines.map((line) => `$$\n${line}\n$$`).join("\n\n");
   };
 
-  // 优先匹配带 $$ 包裹的 aligned，避免产生双层 $$ 导致不渲染。
-  const replacedWithDisplayBlock = text.replace(
-    /\$\$\s*\\begin\{aligned\}([\s\S]*?)\\end\{aligned\}\s*\$\$/g,
-    splitAligned,
-  );
+  const findMatchingAlignedEnd = (
+    source: string,
+    beginIndex: number,
+  ): { innerStart: number; innerEnd: number; blockEnd: number } | null => {
+    let depth = 0;
+    let cursor = beginIndex;
 
-  // 很多题库解析把 display-only 的 aligned 写成了 `$\begin{aligned}...\end{aligned}$`。
-  // 如果只替换内部 begin/end，会残留首尾 `$`，最终变成 `$$$...$$$` 而无法渲染。
-  const replacedWithInlineBlock = replacedWithDisplayBlock.replace(
-    /\$(?!\$)\s*\\begin\{aligned\}([\s\S]*?)\\end\{aligned\}\s*\$(?!\$)/g,
-    splitAligned,
-  );
+    while (cursor < source.length) {
+      const nextBegin = source.indexOf("\\begin{", cursor);
+      const nextEnd = source.indexOf("\\end{", cursor);
 
-  // 兜底处理完全未被 $ 包裹的 aligned。
-  return replacedWithInlineBlock.replace(
-    /\\begin\{aligned\}([\s\S]*?)\\end\{aligned\}/g,
-    splitAligned,
-  );
+      if (nextBegin === -1 && nextEnd === -1) {
+        return null;
+      }
+
+      if (nextBegin !== -1 && (nextEnd === -1 || nextBegin < nextEnd)) {
+        depth += 1;
+        cursor = nextBegin + "\\begin{".length;
+        continue;
+      }
+
+      depth = Math.max(0, depth - 1);
+      if (depth === 0 && source.startsWith(END_ALIGNED, nextEnd)) {
+        return {
+          innerStart: beginIndex + BEGIN_ALIGNED.length,
+          innerEnd: nextEnd,
+          blockEnd: nextEnd + END_ALIGNED.length,
+        };
+      }
+
+      cursor = nextEnd + "\\end{".length;
+    }
+
+    return null;
+  };
+
+  const getWrappedRange = (
+    source: string,
+    beginIndex: number,
+    blockEnd: number,
+  ): { start: number; end: number } => {
+    let before = beginIndex;
+    while (before > 0 && /\s/.test(source[before - 1])) {
+      before -= 1;
+    }
+
+    let after = blockEnd;
+    while (after < source.length && /\s/.test(source[after])) {
+      after += 1;
+    }
+
+    if (before >= 2 && source.slice(before - 2, before) === "$$") {
+      if (source.slice(after, after + 2) === "$$") {
+        return { start: before - 2, end: after + 2 };
+      }
+    }
+
+    if (
+      before >= 1 &&
+      source[before - 1] === "$" &&
+      source[before - 2] !== "$" &&
+      source[after] === "$" &&
+      source[after + 1] !== "$"
+    ) {
+      return { start: before - 1, end: after + 1 };
+    }
+
+    return { start: beginIndex, end: blockEnd };
+  };
+
+  let result = "";
+  let cursor = 0;
+
+  while (cursor < text.length) {
+    const beginIndex = text.indexOf(BEGIN_ALIGNED, cursor);
+    if (beginIndex === -1) {
+      result += text.slice(cursor);
+      break;
+    }
+
+    const match = findMatchingAlignedEnd(text, beginIndex);
+    if (!match) {
+      result += text.slice(cursor);
+      break;
+    }
+
+    const wrappedRange = getWrappedRange(text, beginIndex, match.blockEnd);
+    result += text.slice(cursor, wrappedRange.start);
+    result += splitAligned(
+      text.slice(wrappedRange.start, wrappedRange.end),
+      text.slice(match.innerStart, match.innerEnd),
+    );
+    cursor = wrappedRange.end;
+  }
+
+  return result;
 }
 
 function getCorrectAnswerLabel(question: RawQuestion): string {
