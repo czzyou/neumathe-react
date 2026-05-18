@@ -133,9 +133,13 @@ function loadProgress(): { chapterId: number | null; pageIndex: number } {
 
 function normalizeMathText(text: string): string {
   if (!text) return "";
+  // 有些 JSON 中的 LaTeX `\right` 被错误写成了 `\r...` 转义，
+  // 解析后会变成真实回车 + `ight`，导致 KaTeX 看到半截命令。
+  let result = text.replace(/\r(?=[A-Za-z])/g, "\\r");
+
   // 将短划线 \bar 替换为全宽的 \overline（包括 \bar{A} 和 \bar A，以及两层 \bar{\bar{A}}）
   // 这样渲染逻辑非、集合补集等「a的反」时会更好看。
-  let result = text.replace(/\\bar(?![a-zA-Z])/g, "\\overline");
+  result = result.replace(/\\bar(?![a-zA-Z])/g, "\\overline");
 
   // 修复 \begin{tabular} 在 KaTeX 中不支持且排版错乱的问题
   // 替换为 KaTeX 支持的 \begin{array}，包裹在 $$ 中成为公式块，并去除内部 $ 避免语法破坏
@@ -166,6 +170,13 @@ function normalizeMathText(text: string): string {
   // remark-math 要求每个 display math 块前后都有空行（段落边界），
   // 因此将 $$ 结束符与下一个 $$ 开始符之间的空白替换为双换行。
   result = result.replace(/(\$\$)\s+(\$\$)/g, "$1\n\n$2");
+
+  // 修复同行 display math（如 `$$P(...)=...$$`）被 remark-math 当成 inline math，
+  // 甚至在连续公式解析中退回原文的问题。统一改成独立块。
+  result = result.replace(
+    /\$\$([^\n][\s\S]*?[^\n])\$\$/g,
+    (_match, inner) => `\n$$\n${inner.trim()}\n$$\n`,
+  );
 
   return result;
 }
