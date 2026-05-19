@@ -165,7 +165,11 @@ function normalizeMathText(text: string): string {
   // 修复极端错乱的题库数据：有些题目的公式裸露在外，而用 "$$ $$" 作为公式间的分隔符。
   // 例如：`P\{X=0\}=... $$ $$ P\{X=1\}=...`
   // 这类文本应拆成多个独立 display math 块，而不是把整段再包一层 $$。
-  if (/\$\$\s+\$\$/.test(result)) {
+  const displayMathMatches = Array.from(result.matchAll(/\$\$([\s\S]*?)\$\$/g));
+  if (
+    displayMathMatches.length > 0 &&
+    displayMathMatches.every((match) => match[1].trim() === "")
+  ) {
     const trimmed = result.trim();
     if (!trimmed.startsWith("$$") && !trimmed.endsWith("$$")) {
       result = trimmed
