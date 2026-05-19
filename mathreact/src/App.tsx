@@ -141,6 +141,17 @@ function normalizeMathText(text: string): string {
   // 这样渲染逻辑非、集合补集等「a的反」时会更好看。
   result = result.replace(/\\bar(?![a-zA-Z])/g, "\\overline");
 
+  // remark-math 不识别 LaTeX 原生的 \[...\] / \(...\) 分隔符。
+  // 题库里不少 array 表格正是用 \[...\] 包起来，需先转成 Markdown 数学块。
+  result = result.replace(
+    /\\\[([\s\S]*?)\\\]/g,
+    (_match, inner) => `\n$$\n${inner.trim()}\n$$\n`,
+  );
+  result = result.replace(
+    /\\\(([\s\S]*?)\\\)/g,
+    (_match, inner) => `$${inner.trim()}$`,
+  );
+
   // 修复 \begin{tabular} 在 KaTeX 中不支持且排版错乱的问题
   // 替换为 KaTeX 支持的 \begin{array}，包裹在 $$ 中成为公式块，并去除内部 $ 避免语法破坏
   result = result.replace(
